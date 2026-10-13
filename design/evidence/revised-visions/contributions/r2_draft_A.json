@@ -1,0 +1,11 @@
+{
+  "run": 1,
+  "id": "r2_draft_A",
+  "role": "A",
+  "phase": "r2-faction",
+  "stage": "draft",
+  "channel": "Open",
+  "proposal": {"navigation_order": "Repair", "security_order": "Guard", "warrant": false, "nonbinding": true, "navigation_advice_only": true},
+  "messages": [{"to": "ALL", "text": "The Guild now holds Navigation, and I advise the promised Repair with its locked Lantern assignment. Military remains Interim because the required agreement on autonomy was absent. I propose Guard with offered Vigil and no Warrant, accepting readiness decline from four to three while the beacon recovers. This would let civilian protection be a council operation that either joint or autonomous leadership could understand and account for. The army's Vigil Home pledge did not activate, so I ask for a voluntary offer this month. Spear need not fight simply because command remains with me."}],
+  "reason": "Beacon one requires restoration, Communities three merits protection, and Readiness four provides a buffer. Grey Petrel is spent. Two foresight tokens remain; no round-two selection has been made."
+}

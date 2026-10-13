@@ -1,0 +1,10 @@
+{
+  "run": 1,
+  "id": "r2_free_A",
+  "role": "A",
+  "phase": "r2-free",
+  "channel": "Open",
+  "preferences": {"navigation": "NG", "military": "MJ"},
+  "messages": [{"to": "ALL", "text": "Beacon two, Communities four and Readiness three meet the practical standard I sought. Guild authority produced its promised Repair; the army accepted conditioning loss and supplied protection voluntarily. Both deserve recognition. My preference remains NG and MJ: navigation has been tested, and both Security delegates agreed real orders while accounting for civilian costs. MA remains less convincing because its Home duty discourages the very service that demonstrated military judgment. This settlement was paid for by civilians suffering the first Raid, my spent cutter and foresight, Guild tender service, and the army's later conditioning decline. I can surrender my independent command; dependable shared decisions matter more than retaining it."}],
+  "reason": "The actual outcome supports delegation. I prefer duties that sustain the cooperation we observed, while recognising that the military's voluntary restraint was real and autonomy was not tested. No signature or formal package is offered here."
+}

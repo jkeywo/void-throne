@@ -1,0 +1,21 @@
+{
+  "id": "vt:hypothesis:relevant-foresight",
+  "statement": "Showing intentions before a scoped vision purchase makes foresight relevant while preserving a meaningful decision to conserve power.",
+  "scope": [
+    "vt:scenario:narrow"
+  ],
+  "test_method": "Inspect contemporaneous drafts, purchases, authored reasons and final choices in a scoped five-player plus facilitator run; reproduce consequences separately.",
+  "supporting_outcomes": [
+    "A selected answer addresses a live uncertainty and is cited in changed orders or bargaining.",
+    "An available purchase is deliberately declined to preserve leverage."
+  ],
+  "contradicting_outcomes": [
+    "Selected answers repeatedly miss considered decisions.",
+    "Players cannot distinguish confirmation from changed action."
+  ],
+  "evidence_requirements": [
+    "Original player decisions before and after disclosure.",
+    "Complete expenditure ledger including NONE.",
+    "Independent consequence and vote checks."
+  ]
+}

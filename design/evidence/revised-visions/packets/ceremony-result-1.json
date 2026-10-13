@@ -1,0 +1,88 @@
+{
+  "note": "",
+  "delivered_contributions": [],
+  "additional_information": {
+    "round": 1,
+    "package": {
+      "navigation": "NG",
+      "military": "MJ"
+    },
+    "proposal_source_id": "ceremony_candidate1_A",
+    "votes": {
+      "GN": {
+        "package": {
+          "navigation": "NG",
+          "military": "MJ"
+        },
+        "approve_package": true,
+        "source_id": "ceremony_vote1_GN"
+      },
+      "GS": {
+        "package": {
+          "navigation": "NG",
+          "military": "MJ"
+        },
+        "approve_package": true,
+        "source_id": "ceremony_vote1_GS"
+      },
+      "JN": {
+        "package": {
+          "navigation": "NG",
+          "military": "MJ"
+        },
+        "approve_package": false,
+        "source_id": "ceremony_vote1_JN"
+      },
+      "JS": {
+        "package": {
+          "navigation": "NG",
+          "military": "MJ"
+        },
+        "approve_package": false,
+        "source_id": "ceremony_vote1_JS"
+      },
+      "A": {
+        "package": {
+          "navigation": "NG",
+          "military": "MJ"
+        },
+        "approve_package": true,
+        "source_id": "ceremony_vote1_A"
+      }
+    },
+    "approvals": {
+      "GN": true,
+      "GS": true,
+      "JN": false,
+      "JS": false,
+      "A": true
+    },
+    "weights": {
+      "Guild": 4,
+      "Janissariat": 3,
+      "Ascendant": 4
+    },
+    "foresight_remaining": 1,
+    "total": 11,
+    "threshold": 8,
+    "winning_coalitions": [
+      [
+        "Guild",
+        "Ascendant"
+      ],
+      [
+        "Guild",
+        "Janissariat",
+        "Ascendant"
+      ]
+    ],
+    "party_signatures": {
+      "Guild": true,
+      "Janissariat": false,
+      "Ascendant": true
+    },
+    "supporting_leverage": 8,
+    "supporting_parties": 2,
+    "ratified": true
+  }
+}

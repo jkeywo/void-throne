@@ -1,0 +1,330 @@
+{
+  "id": "vt:experiment:revised-visions-replay",
+  "scenario_id": "vt:scenario:narrow",
+  "character_ids": [
+    "GN",
+    "GS",
+    "JN",
+    "JS",
+    "A"
+  ],
+  "ruleset_id": "vt:rules:revised-visions-v0.3",
+  "seed": 0,
+  "max_turns": 2,
+  "player_policy": "plugin_scripted",
+  "strict_semantics": true,
+  "plugin_config": {
+    "actions": [
+      {
+        "stage": "draft",
+        "proposals": {
+          "GN": {
+            "wayfarer": "Trade",
+            "lantern": "Maintain",
+            "navigation": "Hold",
+            "security": "Guard"
+          },
+          "GS": {
+            "wayfarer": "Trade",
+            "lantern": "Maintain",
+            "navigation": "Hold",
+            "security": "Guard"
+          },
+          "JN": {
+            "spear": "Council",
+            "vigil": "Council",
+            "navigation": "Military",
+            "security": "Campaign"
+          },
+          "JS": {
+            "spear": "Council",
+            "vigil": "Council",
+            "navigation": "Military",
+            "security": "Campaign"
+          },
+          "A": {
+            "navigation": "Military",
+            "security": "Campaign",
+            "warrant": true
+          }
+        },
+        "notes": {
+          "GN": "This is a credible independent plan with visible public benefit from maintenance. It preserves both assets and our constitutional leverage while meeting one commercial obligation. I know Guard means conditioning declines unless the army finds another lawful combat arrangement. That is a subject for negotiation, not a reason to grant permanent carriage rights.",
+          "GS": "This proposal protects our people while completing an existing obligation. It leaves the council no grounds to assume either Guild vessel is available. Readiness declining concerns me, but an unfunded Campaign or speculative Raid is not a sound substitute for an agreed plan. If new information identifies a concrete danger, I will reconsider the draft before signing; this agreement is not yet a commitment.",
+          "JN": "This is a genuine service offer contingent on final discussion, not a constitutional surrender. Successful combat preserves our force and strengthens our bargaining position. I want our two delegates speaking from the same concrete exchange.",
+          "JS": "Your exchange can sustain Readiness and keep Communities viable. Offering our assets now does not concede military autonomy later; successful service should strengthen that demand.",
+          "A": "This is a funded starting proposal if its owners cooperate. All directives remain nonbinding until the appropriate bell; no vision has been selected and no signatures are given."
+        }
+      },
+      {
+        "stage": "vision",
+        "choice": "Security",
+        "notes": {
+          "A": "The immediate obstacle is missing passage. Security information could establish a feasible alternative without requiring the Guild to abandon its commercial priority; conserving this token would leave that central uncertainty unresolved."
+        }
+      },
+      {
+        "stage": "commit",
+        "assignments": {
+          "GN": {
+            "wayfarer": "Trade",
+            "lantern": "Maintain"
+          },
+          "GS": {
+            "wayfarer": "Trade",
+            "lantern": "Maintain"
+          },
+          "JN": {
+            "spear": "Council",
+            "vigil": "Council"
+          },
+          "JS": {
+            "spear": "Council",
+            "vigil": "Council"
+          }
+        },
+        "signatures": {
+          "GN": true,
+          "GS": true,
+          "JN": true,
+          "JS": true
+        },
+        "disclose": true,
+        "reserve": "Relief lift",
+        "notes": {
+          "GN": "The Ascendant's disclosed conditional information lets our commercial voyage contribute to a workable military bargain. My asset decisions remain unchanged, but my requested operations have changed from Hold and Guard. GS and I now assent to the same assignments. The expected Beacon deficit remains a real price; I accept it because the proposed reserve service sustains communities without compelling our carriage, and a subsequent repair is physically available.",
+          "GS": "The disclosure changes my assessment of the Raid from speculative violence to a stated conditional operation connected to our trade. I accept the Ascendant's account provisionally as information, not a guarantee. These assignments retain our independence and crew. My assent is explicit now; the reserve, Raid and Warrant remain requests requiring their proper final authorisations.",
+          "JN": "The disclosed link between completed Trade and the target changes my preferred military route from Campaign to Raid. The crown's offered reserve makes the accompanying relief credible, while legal council use avoids wasting Communities on a discipline breach. I accept this service bargain for the round. Its success will strengthen our claim to a durable institutional settlement; it does not constitute advance approval of any constitutional article.",
+          "JS": "The disclosed Trade condition resolves my practical objection to Raid. Keeping both assignments avoids the independent-action penalty while preserving combat and protection. I trust the disclosure provisionally; final trade and relief orders still determine the result.",
+          "A": "The intervention is now fixed. The Security purchase remains the only purchase this round, with two foresight tokens remaining. Council directives and Warrant have not yet locked."
+        }
+      },
+      {
+        "stage": "council",
+        "notes": {
+          "GN": "The operation is funded, both Navigation delegates support it, and the addressed imperial reply confirms coordination with Raid and Warrant. I accept the route wear as the concrete price of retaining our commercial voyage while supporting communities and the army. JN has reserved next month's military demands, so the repair bargain remains unresolved and requires fresh negotiation after the actual outcome.",
+          "GS": "The operation preserves our contract and maintains military strength without exposing Lantern to a mixed passage. Its civilian costs remain serious, but the identified relief offsets them on the disclosed accounting. I accept this particular arrangement because assets and orders now match. Approval does not concede military autonomy or a continuing Guild service obligation, and I will evaluate the actual route condition before agreeing next month's commitments.",
+          "JN": "Both Navigation delegates agree, the Ascendant confirms the locked Relief lift, and the Security response supports Raid with the separate Warrant. That is a complete operational exchange rather than an unfunded demand for transport. Relief offsets the civilian cost of the local fighting, while the Guild's commercial voyage supplies the disclosed opportunity for combat. Beacon wear will constrain the next round and must be addressed during constitutional discussion. Today's assent neither commits me to future restraint nor establishes a constitutional preference different from my original joint-navigation and military-autonomy aims.",
+          "JS": "Combat should strengthen the force while funded relief and protection preserve Communities. There is no transport for a Campaign and no reason to substitute Restraint for a credible fight. Next month's repair burden is real, but it does not make today's agreed Raid unsound.",
+          "A": "Final authoritative council decisions, initialled A. No asset or reserve assignment is changed."
+        },
+        "warrant": true,
+        "navigation": {
+          "GN": "Unsigned",
+          "JN": "Unsigned",
+          "A": "Relief"
+        },
+        "security": {
+          "GS": "Unsigned",
+          "JS": "Unsigned",
+          "A": "Raid"
+        }
+      },
+      {
+        "stage": "trial-proposal",
+        "articles": {
+          "navigation": "NG",
+          "military": "MA"
+        },
+        "pledges": [
+          {
+            "owner": "Guild",
+            "asset": "Lantern",
+            "assignment": "Council",
+            "article": "NG"
+          },
+          {
+            "owner": "Janissariat",
+            "asset": "Vigil",
+            "assignment": "Home",
+            "article": "MA"
+          }
+        ],
+        "plan": "{\"navigation_order\": \"Repair\", \"security_order\": \"Restraint\", \"warrant\": false}",
+        "notes": {
+          "JN": "Exact ballot row T2, from trial_candidate2_JN. Earlier proposals remain in the original transcript."
+        }
+      },
+      {
+        "stage": "trial-vote",
+        "votes": {
+          "GN": {
+            "navigation": true,
+            "military": false,
+            "Guild": true
+          },
+          "GS": {
+            "navigation": true,
+            "military": false,
+            "Guild": true
+          },
+          "JN": {
+            "navigation": true,
+            "military": true,
+            "Janissariat": true
+          },
+          "JS": {
+            "navigation": true,
+            "military": true,
+            "Janissariat": true
+          },
+          "A": {
+            "navigation": true,
+            "military": true
+          }
+        },
+        "notes": {
+          "GN": "Guild discretion with the committed tender makes our promised Repair both possible and our responsibility. That is a concrete exchange I accept. The closing statements do not change my view of MA: military restraint remains revocable, while Vigil Home certainly removes Guard. I acknowledge the Ascendant's willingness to test autonomy, but our civilian exposure is sufficient reason to refuse it. My refusal does not withdraw Lantern or obstruct Navigation agreement.",
+          "GS": "The Ascendant's willingness to experiment does not answer my concern that Vigil Home removes protection while restraint remains revocable. I want concrete safeguards before transferring sole military choice. Guild discretion, by contrast, comes with a duty we can fulfil through the promised funded Repair and an asset assignment I am prepared to seal. The first round taught that military success needed civilian compensation; the reserve is now gone. I will not treat the same force's promise as an adequate replacement.",
+          "JN": "Lantern Council and the public Repair undertaking justify conceding Navigation discretion despite my initial preference for joint authority. MA expresses our institutional goal and makes its Home duty concrete; I accept that the Guild opposes it and that losing Guard has a civilian cost. The Ascendant's willingness to judge autonomous conduct is useful, but does not replace the required Security signatures. If MA fails, my separate NG approval remains valid. Our institutional bargain must be earned through future conduct, not assumed from today's promises.",
+          "JS": "The army deserves control of its lawful operations, and the proposed month remains viable on ordinary costs. I accept the Home obligation and loss of Guard. The Guild's concrete Lantern offer independently warrants Navigation discretion and a chance to perform the promised Repair.",
+          "A": "Navigation service is concretely offered. Military autonomy is a risk I am willing to test provisionally, while the other required representative retains an independent decision."
+        }
+      },
+      {
+        "stage": "draft",
+        "proposals": {
+          "GN": {
+            "wayfarer": "Trade",
+            "lantern": "Council",
+            "navigation": "Repair",
+            "security": "Guard"
+          },
+          "GS": {
+            "wayfarer": "Trade",
+            "lantern": "Council",
+            "navigation": "Repair",
+            "security": "Guard"
+          },
+          "JN": {
+            "spear": "Council",
+            "vigil": "Council",
+            "navigation": "Repair",
+            "security": "Restraint"
+          },
+          "JS": {
+            "spear": "Council",
+            "vigil": "Council",
+            "navigation": "Repair",
+            "security": "Restraint"
+          },
+          "A": {
+            "navigation": "Repair",
+            "security": "Guard",
+            "warrant": false
+          }
+        },
+        "notes": {
+          "GN": "NG now lets us demonstrate that Guild discretion performs its upkeep duty. Repair honours our negotiated promise and supports commercial obligations together. Military remains Interim, so these are requests to the Ascendant and army, not orders I can issue. At readiness four one peaceful month leaves a substantial force; speculative violence has no compelling purpose.",
+          "GS": "This is the clearest way to restore Beacon two and meet our second contract while keeping the crew alive. Readiness four gives room to protect communities this month. I want the army's next contribution to be visible protection rather than another Raid whose civilian losses we cannot now offset with the spent reserve.",
+          "JN": "We retain full assignment freedom, while the Guild owes its enacted upkeep duty. Offering Vigil avoids gratuitous civilian damage. I will not spend the army's remaining political credibility on an uncertain attack merely to protest the failed article.",
+          "JS": "With the reserve spent, I cannot support another costly Raid on the present evidence. Council assignments preserve lawful options while the publicly promised Repair takes priority.",
+          "A": "Beacon one requires restoration, Communities three merits protection, and Readiness four provides a buffer. Grey Petrel is spent. Two foresight tokens remain; no round-two selection has been made."
+        }
+      },
+      {
+        "stage": "vision",
+        "choice": "Navigation",
+        "notes": {
+          "A": "The current Navigation cover directly addresses the live consensus plan. I knowingly exchange one point of eventual leverage for its fixed conditional answer."
+        }
+      },
+      {
+        "stage": "commit",
+        "assignments": {
+          "GN": {
+            "wayfarer": "Trade",
+            "lantern": "Council"
+          },
+          "GS": {
+            "wayfarer": "Trade",
+            "lantern": "Council"
+          },
+          "JN": {
+            "spear": "Council",
+            "vigil": "Council"
+          },
+          "JS": {
+            "spear": "Council",
+            "vigil": "Council"
+          }
+        },
+        "signatures": {
+          "GN": true,
+          "GS": true,
+          "JN": true,
+          "JS": true
+        },
+        "disclose": true,
+        "reserve": "Keep",
+        "notes": {
+          "GN": "My colleague and I have agreed both assignments explicitly. These choices meet our commercial obligation while making the promised upkeep possible under Guild discretion. The disclosed benefit improves confidence in civilian viability but causes no revision to my decision. Guard remains valuable alongside the distribution benefit, and the army's offered protection still requires its own final assignment and proper Security authorisation.",
+          "GS": "The disclosure supports our plan but does not change my choice. Prepared Beacon three protects the contract through the public rule, while the additional distribution effect remains a conditional report until resolution. Our second contract and route recovery no longer appear opposed to civilian welfare. Lantern's existing pledge remains binding independently of this final assent.",
+          "JN": "The disclosed distribution effect rewards the exact Repair-and-Trade arrangement, while no disclosed information establishes a target for Spear. Accepting a protected noncombat month preserves an intact cohort at useful readiness and supports our later claim that an independent army can exercise restraint. This choice costs us conditioning and leaves constitutional autonomy unresolved. We could withhold service after the Guild's refusal, but doing so buys no dependable military gain. My signature therefore confirms a deliberate contribution to the settlements, not acceptance of permanent military subordination.",
+          "JS": "The disclosure strengthens the civilian case for Repair and Trade but does not resolve Raid viability. The order change coordinates protection; my exact assignments remain unchanged and unconditionally approved.",
+          "A": "No reserve resource is created or recovered. The remaining operative choices depend on actual faction offers and council authority, not the earlier public drafts."
+        }
+      },
+      {
+        "stage": "council",
+        "notes": {
+          "GN": "Repair fulfils the duty and the public undertaking that secured Guild discretion. It prepares Beacon three for Wayfarer's commercial crossing, with the expected wear leaving two and the disclosed distribution effect contingent on completed Trade. The army's acknowledged conditioning cost does not alter the need for this repair. My final decision supplies an actual order rather than relying on Lantern's Council assignment alone, and permits the promised bargain to be judged on its result.",
+          "GS": "This arrangement uses the actual available protection to reinforce route recovery and civilian distribution. It fulfils the practical bargain without gambling Spear or requiring Wayfarer to abandon its remaining contract. The army has demonstrated voluntary cooperation by offering Vigil and accepting a month without combat. I count that evidence favourably, while withholding any automatic commitment to an article whose future duty would keep that garrison Home. No further operational revision is justified.",
+          "JN": "GN has confirmed the promised funded order, and the Ascendant has confirmed Guard without Warrant. Lantern Council supplies the actual repair, allowing the private commercial crossing while satisfying the Guild's upkeep duty. The disclosed distribution effect provides a further reason to complete this arrangement. I acknowledge that the Guild is delivering its side of our separate Navigation bargain. The army is also contributing protection and accepting conditioning decline. Those facts should inform the final constitutional decision, but do not predetermine my approval of any package or concede military autonomy.",
+          "JS": "The confirmed Repair and Trade arrangement supports civilian recovery, while no available evidence identifies a worthwhile fight. Guard preserves what the army exists to defend. GS and the Ascendant acknowledge our voluntary service, but their constitutional reservations must be argued later and do not justify sabotaging this sound order.",
+          "A": "Final Security order initialled A. No asset assignment, article, reserve status or foresight choice changes."
+        },
+        "warrant": false,
+        "navigation": {
+          "GN": "Repair",
+          "JN": "Unsigned",
+          "A": "Unsigned"
+        },
+        "security": {
+          "GS": "Unsigned",
+          "JS": "Unsigned",
+          "A": "Guard"
+        }
+      },
+      {
+        "stage": "free",
+        "notes": {
+          "GN": "Our expired Lantern pledge did real work and our ships return intact. I need no further compulsory carriage concession to justify the rights we exercised responsibly. Final assent depends on a complete package and GS's own decision; this statement gives neither.",
+          "GS": "I prefer MJ because both Security delegates agreed the useful operations and can scrutinise future costs together. I remain opposed to MA's permanent service terms. MI is a possible fallback if joint authority cannot win agreement: the crown coordinated responsibly. I will examine a complete package explicitly; no signature follows from these preferences.",
+          "JN": "I seek a meaningful institutional return for service. NG with MA remains attractive; NJ with MJ offers a different, balanced concession. Mere praise attached to permanent obedience is insufficient.",
+          "JS": "Actual conduct strengthens my case for autonomy. I will not give a premature signature merely to make the settlement unanimous.",
+          "A": "The actual outcome supports delegation. I prefer duties that sustain the cooperation we observed, while recognising that the military's voluntary restraint was real and autonomy was not tested. No signature or formal package is offered here."
+        }
+      },
+      {
+        "stage": "ceremony-proposal",
+        "package": {
+          "navigation": "NG",
+          "military": "MJ"
+        },
+        "notes": {
+          "A": "This is my preferred dependable government, based on actual repair and protection. A legal majority would not erase military dissent, but I do not consider permanent loss of civilian Guard an acceptable price for autonomy."
+        }
+      },
+      {
+        "stage": "ceremony-vote",
+        "approvals": {
+          "GN": true,
+          "GS": true,
+          "JN": false,
+          "JS": false,
+          "A": true
+        },
+        "notes": {
+          "GN": "The Guild demonstrated that its discretion and upkeep duty can sustain navigation, commerce and civilian supplies. I will retain that arrangement. MJ makes the army and civilian representative answer together for lawful military decisions while ending imperial unilateral command. I recognise this gives the Guild more independent discretion than the army receives, but reject compulsory carriage as the price of symmetry. Military dissent remains politically serious; it does not overturn my judgment that this package is preferable to Interim or MA.",
+          "GS": "The package protects Guild navigation rights while retaining the upkeep duty we actually fulfilled. Joint military authority gives us scrutiny of destructive choices and gives the army an equal voice in lawful orders, with no independent imperial Warrant. I regard that arrangement as preferable to a permanent Home obligation or compulsory commercial displacement under NJ. Military dissent is a real limitation on the settlement's political acceptance, but it does not outweigh the demonstrated service pattern and concrete duties supporting my choice.",
+          "JN": "The Guild has answered my reciprocal NJ/MJ compromise with a definite refusal. I recognise that MJ gives us a Security veto and removes independent imperial command, and that NG imposes genuine upkeep. Those benefits do not resolve the imbalance I object to: sole Guild passage authority paired with Guild scrutiny of army operations and compulsory Spear service. JS shares the objection. The physical outcome meets our capability and civilian goals, but I will not convert successful voluntary cooperation into approval of these permanent institutional terms merely because the other parties may possess sufficient weight.",
+          "JS": "I offered autonomy alongside Guild discretion and remained willing to examine reciprocal joint control. Neither concession was accepted. Our demonstrated restraint and protection do not oblige me to endorse permanent terms I judge inadequate for the institution I represent.",
+          "A": "Unconditional approval based on demonstrated service and the printed continuing duties. I prefer this settlement to restored Interim or the alternatives offered, despite its acknowledged political asymmetry."
+        }
+      }
+    ],
+    "source_transcript_sha256": "5428c2bfb450275d512e8a513c557a6f11811eef19c4f01cd9a76acabde8cb9a",
+    "interpretation": "Mechanical replay of the completed six-agent run; no new decisions generated."
+  }
+}

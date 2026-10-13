@@ -1,0 +1,51 @@
+THE VOID THRONE - PAPER PROTOTYPE 0.2
+13 October 2026
+
+USE THE FILES MARKED v0.2. The unversioned player/facilitator files and the
+v0.1 ZIP are the previous prototype. The old simulation and lore review
+remain historical records of that earlier version.
+
+Five players + one facilitator; 60 minutes; two rounds and a settlement.
+Each round represents one month. Gameplay uses paper only.
+
+PRINT AND SET UP
+1. Facilitator reads the seven-page facilitator pack, including spoilers.
+2. Print the 15-page player pack and seven-page facilitator pack single-sided
+   A4 at 100%: 22 pages total.
+3. Cut player pages 7-12 and facilitator page 5 as marked.
+4. Give two players the Guild brief and its two asset cards; give two players
+   the Janissariat brief and its two asset cards. One member of each faction
+   sits at each council. The Ascendant sits at Security.
+5. Give the Ascendant their brief and worksheet. Use a coin for Grey Petrel.
+6. Put three counters on Beacon 2, Communities 3, Readiness 3. All four faction
+   assets begin ready. Commercial contracts begin at 0.
+7. Record preferred articles before play. Bring pens and an ordinary clock.
+
+FILES
+void-throne-player-pack-v0.2.pdf
+void-throne-facilitator-pack-v0.2.pdf
+void-throne-player-pack-v0.2-editable.html
+void-throne-facilitator-pack-v0.2-editable.html
+void-throne-v0.2-design-notes.html
+
+The PDFs are the checked print editions. Browser printing of the editable
+HTML can paginate differently. The facilitator files contain the visions.
+
+WHAT CHANGED
+Concrete ships and formations replace abstract Navigator/Force capacity.
+Conditioned military power declines without successful combat. The crown's
+independent Warrant depends on Readiness and an offered garrison. Factions
+can act independently; laws impose costs instead of cancelling attempts.
+Articles impose service duties, foregone work and shared authority.
+
+CHECKS AND LIMITS
+26 named mechanical assertions and 46,080 combinations of single-round
+choices checked. Both PDFs rendered and inspected (22 pages). These are desk
+checks, not a new six-agent simulation or a human playtest. Balance, enjoyment
+and resolving within the six-minute discussion phase remain to be tested.
+
+FIRST PLAYTEST QUESTIONS
+Did every party give something up? Was conflict a credible alternative?
+Did the named assets clarify costs? Could both delegates contribute?
+Did a vision change a decision? Did practical experience change a preferred
+Charter article? Time the facilitator's resolution before adding more rules.

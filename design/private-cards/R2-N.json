@@ -1,0 +1,20 @@
+{
+  "id": "R2-N",
+  "title": "Stores at the crossing",
+  "branches": [
+    {
+      "condition": "Military passage crosses unguarded",
+      "consequence": "Delivered Military passage without funded Guard or valid Warrant causes an extra Communities −1. Protection prevents this extra loss. Grey Petrel’s Tender cover does not protect these stores."
+    },
+    {
+      "condition": "Funded Repair and completed Trade",
+      "consequence": "A funded council Repair together with a completed private Wayfarer Trade gives Communities +1 from distribution. Both must happen. Lantern must be on Council for Repair; Maintain is not Repair."
+    },
+    {
+      "condition": "Neither condition",
+      "consequence": "Neither extra supply effect applies. Relief and Shared receive their normal cargo effects; other cards and ordinary costs still apply."
+    }
+  ],
+  "public_rules": "Repair adds 2 to prepared Beacon, capped at 4, before voyages. Trade must complete. Military needs Wayfarer on Council, so it cannot also make private Trade. These two extra effects cannot both trigger in the same round.",
+  "use": "Compare Military with or without protection, or Repair/Trade against another use of the ships. This card provides no new complication for a Relief/Guard plan."
+}

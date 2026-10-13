@@ -1,0 +1,11 @@
+{
+  "run": 1,
+  "id": "r2_purchase_A",
+  "role": "A",
+  "phase": "r2-faction",
+  "stage": "purchase",
+  "channel": "Communion",
+  "decision": {"vision": "Navigation", "card_id": "R2-N", "tokens_before": 2, "cost": 1, "tokens_after": 1, "question": "How does the displayed combination of funded Repair and private Trade change civilian supplies, and does that change the merits of Guard versus Restraint?"},
+  "messages": [{"to": "F", "text": "I purchase the Navigation card. Both Guild drafts combine Repair and Trade, precisely the pairing named on its cover, and every draft favours Repair. The unresolved protection choice is Guard versus Restraint, so a hidden change to civilian supplies could matter materially. Security concerns a Raid nobody currently requests, with no need to sustain conditioning at all costs this month. Keeping my token would strengthen my settlement signature, but I prefer to understand the government's actual repair-and-trade programme before judging its responsibility. The draft owners still control their unpledged choices; this purchase cannot guarantee their conduct."}],
+  "reason": "The current Navigation cover directly addresses the live consensus plan. I knowingly exchange one point of eventual leverage for its fixed conditional answer."
+}

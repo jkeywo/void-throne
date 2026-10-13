@@ -1,0 +1,37 @@
+# The Ascendant
+
+SOLE PLAYER BRIEF
+
+A peace upheld by this army must answer what the army will fight tomorrow.
+
+You want a future that outlives conquest. Your authority rests partly on an army whose conditioning needs fighting. Continued violence may preserve your military foundation while damaging the future you are trying to secure.
+
+Your priorities
+
+Preserve a workable empire: ratify the two instruments with Beacon 1+, Communities 2+ and Readiness 2+.
+Keep the army you need: prefer Readiness 3+ and an intact Spear. At low Readiness your independent Warrant capability is lost.
+Build a government that can function without you: judge actual service, protection and workable decisions. You gain no special success from retaining an imperial article. Delegate when confident in the settlement; describe the evidence you need. Retaining control is a means, not an objective.
+Account for your rule: name the people who paid for the settlement you secured.
+
+Foresight
+
+Start with three foresight tokens. In each faction phase display draft directives and Warrant at minute 2. Read the public draft faction assignments and both current-round vision covers. Each cover states which decisions its concealed answer concerns. By minute 3 choose one card or NONE. Pay one token before reading the answer; the other remains unseen. A missing or late choice means NONE. Choosing NONE costs nothing. There are no refunds, swaps or recovery, and no later purchase this round. You may investigate an alternative even when nobody proposes it. Remaining tokens are public and add to settlement leverage; your card choice stays private unless disclosed. The answer gives fixed conditional consequences, never another player's future choice. You may show, describe, conceal or misrepresent it. The facilitator does not certify your claims to others. Compare information's likely usefulness with preserving your weight; either buying or declining is legitimate. Use the last two faction minutes to discuss revisions; unpledged assignments and your reserve lock at minute 5. Existing Standing Commitments remain binding.
+
+Every printed consequence applies whether its vision is read or not. No rewind, extra question or improvised prophecy changes the rules. Averting a condition means the prophecy was successfully avoided, not that it was false.
+
+Imperial Warrant - an army-backed power
+
+Requirement: Interim or M-I military authority, opening Readiness 3+, and Vigil offered to Security.
+Cost: assign Vigil to the Warrant before the council bell.
+Effect: Communities +1 and guarded status. Security may still use offered Spear for a different order. It cannot also use Vigil for Guard.
+
+If you issue a Warrant under Interim/M-I but lack Readiness or offered Vigil, it fails: Communities -1. Outside those articles it is only advice, with no effect or penalty. Under M-J the delegates may choose Guard; you have lost the power to order it independently. Your formal title cannot replace military support.
+
+One prepared intervention
+
+Your reserve is the Grey Petrel, a contracted light cutter with its own licensed Guild pilot and a small protection detail. Its contract covers one intervention during the entire game. Before councils, lodge Relief lift, Tender cover or Keep on your worksheet. The exact triggers are printed there. The cutter cannot carry the cohort, repair the beacon or solve both councils' problems.
+
+Your place in government
+
+You attend Security and send public written directions to Navigation where you hold authority. Every provisional article needs your assent. The final package uses weighted party signatures: your weight is Readiness plus unspent foresight, and you have no inherent final veto. You cannot revoke provisional powers during round two. Delegation changes what you can do, not merely what title appears on a card.
+

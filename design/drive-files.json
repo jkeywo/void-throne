@@ -1,0 +1,43 @@
+{
+  "folder": {
+    "id": "1XxANDmMg-WPg42pdXdhWETZyNCWnmwSE",
+    "url": "https://drive.google.com/drive/folders/1XxANDmMg-WPg42pdXdhWETZyNCWnmwSE"
+  },
+  "documents": {
+    "project": {
+      "id": "1ooca7YcUVaSMn4CozUrIXb6pxBZUZMM6ih-RbWZWick",
+      "title": "The Void Throne — Project Index and Working Agreement",
+      "url": "https://docs.google.com/document/d/1ooca7YcUVaSMn4CozUrIXb6pxBZUZMM6ih-RbWZWick/edit?usp=drivesdk",
+      "revision": "AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+      "verified": true
+    },
+    "rulebook": {
+      "id": "1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSxaJrW1s",
+      "title": "The Void Throne — Player Rulebook, draft v0.3",
+      "url": "https://docs.google.com/document/d/1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSxaJrW1s/edit?usp=drivesdk",
+      "revision": "AHj4eMT02OyJM0aGKvf6o41qcKdXIFijcgpv-J4UaXnJwB6EdO1Ky8lRDusd8T_IQquFf3TOEZAXmajYa2FWw5MVtXpb3OTF558EG12otnw",
+      "verified": true
+    },
+    "facilitator": {
+      "id": "1402miaVHlXY84ND4YshuEOZqCT07ELe2qtKWgYMcS4M",
+      "title": "The Void Throne — Facilitator Guide, draft v0.3",
+      "url": "https://docs.google.com/document/d/1402miaVHlXY84ND4YshuEOZqCT07ELe2qtKWgYMcS4M/edit?usp=drivesdk",
+      "revision": "AHj4eMRaDB-WZPAw4y6Q0Y_aQi9wKfrmcsfGpjR4G8uYoJDbX2nJEbLKRWg4gyZYPM5wglRZltsLtdBt7HU5BSaF80IKaSxRYehHb8afkrk",
+      "verified": true
+    },
+    "playtest": {
+      "id": "1NwC4R7IoFREoupNcjQpvmTzDKBWD0xATdlRFktK0H0M",
+      "title": "The Void Throne — Revised Visions Playtest and Migration Report",
+      "url": "https://docs.google.com/document/d/1NwC4R7IoFREoupNcjQpvmTzDKBWD0xATdlRFktK0H0M/edit?usp=drivesdk",
+      "revision": "AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+      "verified": true
+    },
+    "lore": {
+      "id": "1v2BCTBLsVdHpiM0xUtB2dqMCxFq80g55q9n-CIWe7wY",
+      "title": "The Void Throne — Lore and Adaptation Record",
+      "url": "https://docs.google.com/document/d/1v2BCTBLsVdHpiM0xUtB2dqMCxFq80g55q9n-CIWe7wY/edit?usp=drivesdk",
+      "revision": "AHj4eMTwn2CM-i7NACkmrw77FZLASRhIv-1t1x3d_nngFeg2xp5V78Yvr1ClKeoyoi4vdBY-ndmhIKt0ePZbQZjhkBhqQQdgQo-6vm6NvAI",
+      "verified": true
+    }
+  }
+}

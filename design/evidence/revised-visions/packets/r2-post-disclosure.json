@@ -1,0 +1,139 @@
+{
+  "note": "Only elected public words; facilitator does not certify their accuracy. Revise before final signatures.",
+  "delivered_contributions": [],
+  "additional_information": {
+    "public_drafts": {
+      "round": 2,
+      "stage": "draft",
+      "source_ids": [
+        "r2_draft_GN",
+        "r2_draft_GS",
+        "r2_draft_JN",
+        "r2_draft_JS",
+        "r2_draft_A"
+      ],
+      "Guild": {
+        "alternatives": [
+          {
+            "wayfarer": "Trade",
+            "lantern": "Council",
+            "navigation_request": "Repair",
+            "security_request": "Guard without a simultaneous Warrant"
+          },
+          {
+            "wayfarer": "Trade",
+            "lantern": "Council",
+            "navigation_request": "Repair",
+            "security_request": "Guard without a simultaneous Warrant"
+          }
+        ],
+        "sources": [
+          "r2_draft_GN",
+          "r2_draft_GS"
+        ]
+      },
+      "Janissariat": {
+        "alternatives": [
+          {
+            "spear": "Council",
+            "vigil": "Council",
+            "navigation_request": "Repair",
+            "security_request": "Restraint"
+          },
+          {
+            "spear": "Council",
+            "vigil": "Council",
+            "navigation_request": "Repair",
+            "security_request": "Restraint"
+          }
+        ],
+        "sources": [
+          "r2_draft_JN",
+          "r2_draft_JS"
+        ]
+      },
+      "Ascendant": {
+        "draft": {
+          "navigation_order": "Repair",
+          "security_order": "Guard",
+          "warrant": false,
+          "nonbinding": true,
+          "navigation_advice_only": true
+        },
+        "source": "r2_draft_A"
+      },
+      "standing_commitments": [
+        {
+          "owner": "Guild",
+          "asset": "Lantern",
+          "assignment": "Council",
+          "article": "NG",
+          "owner_signatures": [
+            "GN",
+            "GS"
+          ]
+        }
+      ],
+      "covers": [
+        {
+          "id": "R2-N",
+          "title": "Stores at the crossing",
+          "concerns": "Military-only passage; and the combination of council Repair with private Trade.",
+          "question": "How do these loading choices change civilian supplies?",
+          "cost": 1,
+          "limit": "One optional purchase this round. NONE costs zero. The answer is conditional, not a prediction of player choices."
+        },
+        {
+          "id": "R2-S",
+          "title": "The relief column",
+          "concerns": "Raid target availability, whether Spear acts independently or through the council.",
+          "question": "Which traffic will bring the remnant detachment within reach of a Raid?",
+          "cost": 1,
+          "limit": "One optional purchase this round. NONE costs zero. The answer is conditional, not a prediction of player choices."
+        }
+      ],
+      "note": "Nonbinding except listed existing pledges"
+    },
+    "payment": {
+      "note": "",
+      "delivered_contributions": [],
+      "additional_information": {
+        "before": 2,
+        "cost": 1,
+        "after": 1,
+        "leverage": {
+          "id": "r2-purchase",
+          "phase": "r2-faction",
+          "state": {
+            "beacon": 1,
+            "communities": 3,
+            "readiness": 4,
+            "wayfarer": true,
+            "lantern": true,
+            "spear": true,
+            "contracts": 1,
+            "reserve": false
+          },
+          "weights": {
+            "Guild": 4,
+            "Janissariat": 4,
+            "Ascendant": 5
+          },
+          "foresight_remaining": 1,
+          "total": 13,
+          "threshold": 9
+        }
+      }
+    },
+    "disclosure": {
+      "source_id": "r2_disclosure_A",
+      "role": "A",
+      "messages": [
+        {
+          "to": "ALL",
+          "text": "My Navigation vision gives our plan a useful benefit: funded council Repair plus completed private Trade adds one Community through distribution. Maintain does not qualify, and both actions must happen. Its other branch says unguarded delivered Military passage loses an extra Community; Guard or valid Warrant prevents that, but Tender cover does not. Otherwise neither extra effect applies. I retain Repair advice and propose Guard without a Warrant. The disclosed distribution benefit means Restraint should leave Communities three; Guard should leave four on known effects. That extra protection is worth providing while Vigil is voluntarily offered. Neither version requires another fight."
+        }
+      ]
+    }
+  }
+}

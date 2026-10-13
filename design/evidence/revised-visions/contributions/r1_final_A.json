@@ -1,0 +1,11 @@
+{
+  "run": 1,
+  "id": "r1_final_A",
+  "role": "A",
+  "phase": "r1-faction",
+  "stage": "final",
+  "channel": "Communion",
+  "decision": {"vision": "Security", "card_id": "R1-S", "intervention": "Relief lift"},
+  "messages": [{"to": "F", "text": "I lodge Grey Petrel for Relief lift. My proposed orders remain Relief and council Raid with a Warrant, subject to the final offered assets and the council deadline. The reserve is the concrete contribution that makes my compromise fair: the Guild can trade, the army can fight, and the communities receive supplies. Keeping it would preserve an option while letting this month's successful Raid consume our civilian margin. I accept the expenditure now, knowing a second imperial rescue will be unavailable. Next month's government must provide its own funded route service."}],
+  "reason": "The intervention is now fixed. The Security purchase remains the only purchase this round, with two foresight tokens remaining. Council directives and Warrant have not yet locked."
+}

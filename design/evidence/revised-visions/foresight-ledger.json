@@ -1,0 +1,26 @@
+{
+  "starting": 3,
+  "entries": [
+    {
+      "round": 1,
+      "source_id": "r1_purchase_A",
+      "choice": "Security",
+      "card_id": "R1-S",
+      "before": 3,
+      "cost": 1,
+      "after": 2,
+      "draft_packet": "r1-public-drafts.json"
+    },
+    {
+      "round": 2,
+      "source_id": "r2_purchase_A",
+      "choice": "Navigation",
+      "card_id": "R2-N",
+      "before": 2,
+      "cost": 1,
+      "after": 1,
+      "draft_packet": "r2-public-drafts.json"
+    }
+  ],
+  "remaining": 1
+}

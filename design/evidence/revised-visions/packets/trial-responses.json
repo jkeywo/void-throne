@@ -1,0 +1,129 @@
+{
+  "note": "",
+  "delivered_contributions": [
+    {
+      "run": 1,
+      "id": "trial_candidate1_GN",
+      "role": "GN",
+      "phase": "r1-free",
+      "channel": "Open",
+      "proposal": {
+        "id": "T1",
+        "articles": {
+          "navigation": "NG",
+          "military": "MJ"
+        },
+        "operational_plan": {
+          "navigation_order": "Repair",
+          "security_order": "Guard",
+          "warrant": false
+        },
+        "commitments": [
+          {
+            "owner": "Guild",
+            "asset": "Lantern",
+            "assignment": "Council",
+            "article": "NG"
+          },
+          {
+            "owner": "Janissariat",
+            "asset": "Spear",
+            "assignment": "Council",
+            "article": "MJ"
+          }
+        ]
+      },
+      "messages": [
+        {
+          "to": "ALL",
+          "text": "Propose T1: Guild discretion and joint military authority, with Repair and Guard next month. I offer Lantern Council attached to NG, subject to GS signing, and request Spear Council attached to MJ, subject to both army owners. Wayfarer remains free to trade. We have one contract, an intact army at readiness four, and a beacon at one. Repair is the overdue return for our accommodation."
+        }
+      ],
+      "reason": "Our independence delivered useful trade and a military opportunity. Guild discretion now carries a concrete repair obligation. Joint scrutiny should protect communities from another destructive Raid while Guard sustains them and one month's conditioning decline leaves readiness three. The proposed Spear commitment fulfils MJ's duty without obliging combat. Each article stands independently; no signature is assumed."
+    },
+    {
+      "run": 1,
+      "id": "trial_response_GS",
+      "role": "GS",
+      "phase": "r1-free",
+      "channel": "Open",
+      "position": {
+        "navigation": "Support NG and Lantern Council commitment",
+        "military": "Support MJ and requested Spear Council commitment",
+        "amendments": []
+      },
+      "messages": [
+        {
+          "to": "ALL",
+          "text": "I support T1's Navigation article and am willing to sign Lantern Council attached to NG. Our route is now at one; a funded Repair is a concrete return for Guild discretion, and keeps the second commercial voyage possible. Separately, I support MJ and the proposed Spear commitment. I want Guard next month, with Vigil actually offered when assignments lock. Spear's availability fulfils the duty without manufacturing a reason to fight."
+        }
+      ],
+      "reason": "The first arrangement worked, but consumed the reserve and route margin. Repeating its violence without its relief would be reckless. Joint authorisation gives civilian interests a direct voice; the current Readiness buffer makes one month without combat acceptable. Each article has my independent support; no amendment requested."
+    },
+    {
+      "run": 1,
+      "id": "trial_response_JN",
+      "role": "JN",
+      "phase": "r1-free",
+      "channel": "Open",
+      "messages": [
+        {
+          "to": "ALL",
+          "text": "Navigation: I can accept NG with the exact Lantern Council commitment and funded Repair plan. Joint Navigation was my preference, but a concrete repair obligation buys confidence in Guild discretion. Military: I reject MJ as proposed. We supplied lawful force successfully; permanently exchanging autonomy for a Guild veto is too large a concession. Amend Military to MA, remove the Spear commitment, and plan Restraint with Vigil Home. That accepts one month's conditioning decline from four to three while preserving an independent institution. Communities should remain at least two on ordinary costs. These are separate domain positions, not a conditional exchange of signatures."
+        }
+      ],
+      "reason": "Repair is a credible Guild contribution. One restorative month for the route need not define permanent military subordination. Autonomy gives our restraint political value instead of making it another institution's command."
+    },
+    {
+      "run": 1,
+      "id": "trial_response_JS",
+      "role": "JS",
+      "phase": "r1-free",
+      "channel": "Open",
+      "response": {
+        "candidate": "T1",
+        "navigation": "accept in principle",
+        "military": "reject",
+        "requested_amendments": {
+          "military": "MA",
+          "security_plan": "Restraint unless a sustainable combat opportunity is demonstrated",
+          "replace_janissariat_commitment": {
+            "asset": "Vigil",
+            "assignment": "Home",
+            "article": "MA"
+          }
+        }
+      },
+      "messages": [
+        {
+          "to": "ALL",
+          "text": "Our service delivered readiness four and preserved the settlements. I can accept Guild discretion with Lantern committed to the promised Repair; that is a concrete duty. I reject joint military authority and the Spear pledge. You ask us to surrender operational freedom precisely when our strength has proved useful. Replace MJ with autonomy and, if my colleague agrees, pledge Vigil Home to MA. With no reserve and no funded passage, I can tolerate one month of Restraint while the beacon recovers, unless a sustainable combat opportunity emerges. That concession does not require giving the Guild a permanent veto over our army."
+        }
+      ],
+      "reason": "Repair is justified by the result. Institutional autonomy remains worth bargaining for even when immediate combat is unattractive."
+    },
+    {
+      "run": 1,
+      "id": "trial_response_A",
+      "role": "A",
+      "phase": "r1-free",
+      "channel": "Open",
+      "position": {
+        "candidate": "T1",
+        "navigation": "Accept in principle",
+        "military": "Accept in principle",
+        "amendments_requested": []
+      },
+      "messages": [
+        {
+          "to": "ALL",
+          "text": "The result justifies our cooperation: stores survived, Spear fought and the Guild earned its contract, but the reserve is spent and the beacon needs repair. I support T1's Navigation article independently, provided both Guild owners seal its Lantern commitment. I also support its Military article independently, provided both army owners seal Spear. Guard requires Vigil offered as well; that remains a political promise, not a second commitment. I ask the army to state that intention plainly. Readiness three after a repair-and-protection month is acceptable to me. Joint delegates have already agreed a difficult operation; this is a credible opportunity to exercise their authority."
+        }
+      ],
+      "reason": "No amendment requested. These are negotiating positions, not formal signatures; confidence depends on actual owner approvals and a funded Guard plan."
+    }
+  ],
+  "additional_information": {
+    "rule_clarification": "Standing Commitments lock assignments only. Lantern Council does not bind Repair; the authorised council still chooses actual order. Provisional approval independent by domain."
+  }
+}

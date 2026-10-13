@@ -1,0 +1,11 @@
+{
+  "run": 1,
+  "id": "trial_vote_A",
+  "role": "A",
+  "phase": "r1-free",
+  "stage": "final",
+  "channel": "Open",
+  "decision": {"proposal_id": "T2", "article_approvals": {"navigation": true, "military": true}, "commitment_approvals": {}},
+  "messages": [{"to": "F", "text": "I approve T2's Navigation article and, independently, its Military article on the exact attached terms. Neither approval depends on the other domain passing. I acknowledge the Guild's serious protection objection; its refusal must count under the actual provisional procedure. My own support for the military trial rests on the army's express willingness to accept one month's decline, its actual service last month, and the chance to judge autonomous conduct before final ratification. I neither sign another faction's assets nor treat Restraint as binding. This decision records my consent without assuming anyone else's."}],
+  "reason": "Navigation service is concretely offered. Military autonomy is a risk I am willing to test provisionally, while the other required representative retains an independent decision."
+}

@@ -1,0 +1,1963 @@
+{
+  "id": "vt:run:426309a0ce0dc0c558b3e8a9",
+  "config": {
+    "id": "vt:experiment:revised-visions-replay",
+    "scenario_id": "vt:scenario:narrow",
+    "character_ids": [
+      "GN",
+      "GS",
+      "JN",
+      "JS",
+      "A"
+    ],
+    "ruleset_id": "vt:rules:revised-visions-v0.3",
+    "seed": 0,
+    "max_turns": 2,
+    "player_policy": "plugin_scripted",
+    "deck_order": [],
+    "overrides": [],
+    "scripted_steps": [],
+    "strict_semantics": true,
+    "plugin_config": {
+      "actions": [
+        {
+          "notes": {
+            "A": "This is a funded starting proposal if its owners cooperate. All directives remain nonbinding until the appropriate bell; no vision has been selected and no signatures are given.",
+            "GN": "This is a credible independent plan with visible public benefit from maintenance. It preserves both assets and our constitutional leverage while meeting one commercial obligation. I know Guard means conditioning declines unless the army finds another lawful combat arrangement. That is a subject for negotiation, not a reason to grant permanent carriage rights.",
+            "GS": "This proposal protects our people while completing an existing obligation. It leaves the council no grounds to assume either Guild vessel is available. Readiness declining concerns me, but an unfunded Campaign or speculative Raid is not a sound substitute for an agreed plan. If new information identifies a concrete danger, I will reconsider the draft before signing; this agreement is not yet a commitment.",
+            "JN": "This is a genuine service offer contingent on final discussion, not a constitutional surrender. Successful combat preserves our force and strengthens our bargaining position. I want our two delegates speaking from the same concrete exchange.",
+            "JS": "Your exchange can sustain Readiness and keep Communities viable. Offering our assets now does not concede military autonomy later; successful service should strengthen that demand."
+          },
+          "proposals": {
+            "A": {
+              "navigation": "Military",
+              "security": "Campaign",
+              "warrant": true
+            },
+            "GN": {
+              "lantern": "Maintain",
+              "navigation": "Hold",
+              "security": "Guard",
+              "wayfarer": "Trade"
+            },
+            "GS": {
+              "lantern": "Maintain",
+              "navigation": "Hold",
+              "security": "Guard",
+              "wayfarer": "Trade"
+            },
+            "JN": {
+              "navigation": "Military",
+              "security": "Campaign",
+              "spear": "Council",
+              "vigil": "Council"
+            },
+            "JS": {
+              "navigation": "Military",
+              "security": "Campaign",
+              "spear": "Council",
+              "vigil": "Council"
+            }
+          },
+          "stage": "draft"
+        },
+        {
+          "choice": "Security",
+          "notes": {
+            "A": "The immediate obstacle is missing passage. Security information could establish a feasible alternative without requiring the Guild to abandon its commercial priority; conserving this token would leave that central uncertainty unresolved."
+          },
+          "stage": "vision"
+        },
+        {
+          "assignments": {
+            "GN": {
+              "lantern": "Maintain",
+              "wayfarer": "Trade"
+            },
+            "GS": {
+              "lantern": "Maintain",
+              "wayfarer": "Trade"
+            },
+            "JN": {
+              "spear": "Council",
+              "vigil": "Council"
+            },
+            "JS": {
+              "spear": "Council",
+              "vigil": "Council"
+            }
+          },
+          "disclose": true,
+          "notes": {
+            "A": "The intervention is now fixed. The Security purchase remains the only purchase this round, with two foresight tokens remaining. Council directives and Warrant have not yet locked.",
+            "GN": "The Ascendant's disclosed conditional information lets our commercial voyage contribute to a workable military bargain. My asset decisions remain unchanged, but my requested operations have changed from Hold and Guard. GS and I now assent to the same assignments. The expected Beacon deficit remains a real price; I accept it because the proposed reserve service sustains communities without compelling our carriage, and a subsequent repair is physically available.",
+            "GS": "The disclosure changes my assessment of the Raid from speculative violence to a stated conditional operation connected to our trade. I accept the Ascendant's account provisionally as information, not a guarantee. These assignments retain our independence and crew. My assent is explicit now; the reserve, Raid and Warrant remain requests requiring their proper final authorisations.",
+            "JN": "The disclosed link between completed Trade and the target changes my preferred military route from Campaign to Raid. The crown's offered reserve makes the accompanying relief credible, while legal council use avoids wasting Communities on a discipline breach. I accept this service bargain for the round. Its success will strengthen our claim to a durable institutional settlement; it does not constitute advance approval of any constitutional article.",
+            "JS": "The disclosed Trade condition resolves my practical objection to Raid. Keeping both assignments avoids the independent-action penalty while preserving combat and protection. I trust the disclosure provisionally; final trade and relief orders still determine the result."
+          },
+          "reserve": "Relief lift",
+          "signatures": {
+            "GN": true,
+            "GS": true,
+            "JN": true,
+            "JS": true
+          },
+          "stage": "commit"
+        },
+        {
+          "navigation": {
+            "A": "Relief",
+            "GN": "Unsigned",
+            "JN": "Unsigned"
+          },
+          "notes": {
+            "A": "Final authoritative council decisions, initialled A. No asset or reserve assignment is changed.",
+            "GN": "The operation is funded, both Navigation delegates support it, and the addressed imperial reply confirms coordination with Raid and Warrant. I accept the route wear as the concrete price of retaining our commercial voyage while supporting communities and the army. JN has reserved next month's military demands, so the repair bargain remains unresolved and requires fresh negotiation after the actual outcome.",
+            "GS": "The operation preserves our contract and maintains military strength without exposing Lantern to a mixed passage. Its civilian costs remain serious, but the identified relief offsets them on the disclosed accounting. I accept this particular arrangement because assets and orders now match. Approval does not concede military autonomy or a continuing Guild service obligation, and I will evaluate the actual route condition before agreeing next month's commitments.",
+            "JN": "Both Navigation delegates agree, the Ascendant confirms the locked Relief lift, and the Security response supports Raid with the separate Warrant. That is a complete operational exchange rather than an unfunded demand for transport. Relief offsets the civilian cost of the local fighting, while the Guild's commercial voyage supplies the disclosed opportunity for combat. Beacon wear will constrain the next round and must be addressed during constitutional discussion. Today's assent neither commits me to future restraint nor establishes a constitutional preference different from my original joint-navigation and military-autonomy aims.",
+            "JS": "Combat should strengthen the force while funded relief and protection preserve Communities. There is no transport for a Campaign and no reason to substitute Restraint for a credible fight. Next month's repair burden is real, but it does not make today's agreed Raid unsound."
+          },
+          "security": {
+            "A": "Raid",
+            "GS": "Unsigned",
+            "JS": "Unsigned"
+          },
+          "stage": "council",
+          "warrant": true
+        },
+        {
+          "articles": {
+            "military": "MA",
+            "navigation": "NG"
+          },
+          "notes": {
+            "JN": "Exact ballot row T2, from trial_candidate2_JN. Earlier proposals remain in the original transcript."
+          },
+          "plan": "{\"navigation_order\": \"Repair\", \"security_order\": \"Restraint\", \"warrant\": false}",
+          "pledges": [
+            {
+              "article": "NG",
+              "asset": "Lantern",
+              "assignment": "Council",
+              "owner": "Guild"
+            },
+            {
+              "article": "MA",
+              "asset": "Vigil",
+              "assignment": "Home",
+              "owner": "Janissariat"
+            }
+          ],
+          "stage": "trial-proposal"
+        },
+        {
+          "notes": {
+            "A": "Navigation service is concretely offered. Military autonomy is a risk I am willing to test provisionally, while the other required representative retains an independent decision.",
+            "GN": "Guild discretion with the committed tender makes our promised Repair both possible and our responsibility. That is a concrete exchange I accept. The closing statements do not change my view of MA: military restraint remains revocable, while Vigil Home certainly removes Guard. I acknowledge the Ascendant's willingness to test autonomy, but our civilian exposure is sufficient reason to refuse it. My refusal does not withdraw Lantern or obstruct Navigation agreement.",
+            "GS": "The Ascendant's willingness to experiment does not answer my concern that Vigil Home removes protection while restraint remains revocable. I want concrete safeguards before transferring sole military choice. Guild discretion, by contrast, comes with a duty we can fulfil through the promised funded Repair and an asset assignment I am prepared to seal. The first round taught that military success needed civilian compensation; the reserve is now gone. I will not treat the same force's promise as an adequate replacement.",
+            "JN": "Lantern Council and the public Repair undertaking justify conceding Navigation discretion despite my initial preference for joint authority. MA expresses our institutional goal and makes its Home duty concrete; I accept that the Guild opposes it and that losing Guard has a civilian cost. The Ascendant's willingness to judge autonomous conduct is useful, but does not replace the required Security signatures. If MA fails, my separate NG approval remains valid. Our institutional bargain must be earned through future conduct, not assumed from today's promises.",
+            "JS": "The army deserves control of its lawful operations, and the proposed month remains viable on ordinary costs. I accept the Home obligation and loss of Guard. The Guild's concrete Lantern offer independently warrants Navigation discretion and a chance to perform the promised Repair."
+          },
+          "stage": "trial-vote",
+          "votes": {
+            "A": {
+              "military": true,
+              "navigation": true
+            },
+            "GN": {
+              "Guild": true,
+              "military": false,
+              "navigation": true
+            },
+            "GS": {
+              "Guild": true,
+              "military": false,
+              "navigation": true
+            },
+            "JN": {
+              "Janissariat": true,
+              "military": true,
+              "navigation": true
+            },
+            "JS": {
+              "Janissariat": true,
+              "military": true,
+              "navigation": true
+            }
+          }
+        },
+        {
+          "notes": {
+            "A": "Beacon one requires restoration, Communities three merits protection, and Readiness four provides a buffer. Grey Petrel is spent. Two foresight tokens remain; no round-two selection has been made.",
+            "GN": "NG now lets us demonstrate that Guild discretion performs its upkeep duty. Repair honours our negotiated promise and supports commercial obligations together. Military remains Interim, so these are requests to the Ascendant and army, not orders I can issue. At readiness four one peaceful month leaves a substantial force; speculative violence has no compelling purpose.",
+            "GS": "This is the clearest way to restore Beacon two and meet our second contract while keeping the crew alive. Readiness four gives room to protect communities this month. I want the army's next contribution to be visible protection rather than another Raid whose civilian losses we cannot now offset with the spent reserve.",
+            "JN": "We retain full assignment freedom, while the Guild owes its enacted upkeep duty. Offering Vigil avoids gratuitous civilian damage. I will not spend the army's remaining political credibility on an uncertain attack merely to protest the failed article.",
+            "JS": "With the reserve spent, I cannot support another costly Raid on the present evidence. Council assignments preserve lawful options while the publicly promised Repair takes priority."
+          },
+          "proposals": {
+            "A": {
+              "navigation": "Repair",
+              "security": "Guard",
+              "warrant": false
+            },
+            "GN": {
+              "lantern": "Council",
+              "navigation": "Repair",
+              "security": "Guard",
+              "wayfarer": "Trade"
+            },
+            "GS": {
+              "lantern": "Council",
+              "navigation": "Repair",
+              "security": "Guard",
+              "wayfarer": "Trade"
+            },
+            "JN": {
+              "navigation": "Repair",
+              "security": "Restraint",
+              "spear": "Council",
+              "vigil": "Council"
+            },
+            "JS": {
+              "navigation": "Repair",
+              "security": "Restraint",
+              "spear": "Council",
+              "vigil": "Council"
+            }
+          },
+          "stage": "draft"
+        },
+        {
+          "choice": "Navigation",
+          "notes": {
+            "A": "The current Navigation cover directly addresses the live consensus plan. I knowingly exchange one point of eventual leverage for its fixed conditional answer."
+          },
+          "stage": "vision"
+        },
+        {
+          "assignments": {
+            "GN": {
+              "lantern": "Council",
+              "wayfarer": "Trade"
+            },
+            "GS": {
+              "lantern": "Council",
+              "wayfarer": "Trade"
+            },
+            "JN": {
+              "spear": "Council",
+              "vigil": "Council"
+            },
+            "JS": {
+              "spear": "Council",
+              "vigil": "Council"
+            }
+          },
+          "disclose": true,
+          "notes": {
+            "A": "No reserve resource is created or recovered. The remaining operative choices depend on actual faction offers and council authority, not the earlier public drafts.",
+            "GN": "My colleague and I have agreed both assignments explicitly. These choices meet our commercial obligation while making the promised upkeep possible under Guild discretion. The disclosed benefit improves confidence in civilian viability but causes no revision to my decision. Guard remains valuable alongside the distribution benefit, and the army's offered protection still requires its own final assignment and proper Security authorisation.",
+            "GS": "The disclosure supports our plan but does not change my choice. Prepared Beacon three protects the contract through the public rule, while the additional distribution effect remains a conditional report until resolution. Our second contract and route recovery no longer appear opposed to civilian welfare. Lantern's existing pledge remains binding independently of this final assent.",
+            "JN": "The disclosed distribution effect rewards the exact Repair-and-Trade arrangement, while no disclosed information establishes a target for Spear. Accepting a protected noncombat month preserves an intact cohort at useful readiness and supports our later claim that an independent army can exercise restraint. This choice costs us conditioning and leaves constitutional autonomy unresolved. We could withhold service after the Guild's refusal, but doing so buys no dependable military gain. My signature therefore confirms a deliberate contribution to the settlements, not acceptance of permanent military subordination.",
+            "JS": "The disclosure strengthens the civilian case for Repair and Trade but does not resolve Raid viability. The order change coordinates protection; my exact assignments remain unchanged and unconditionally approved."
+          },
+          "reserve": "Keep",
+          "signatures": {
+            "GN": true,
+            "GS": true,
+            "JN": true,
+            "JS": true
+          },
+          "stage": "commit"
+        },
+        {
+          "navigation": {
+            "A": "Unsigned",
+            "GN": "Repair",
+            "JN": "Unsigned"
+          },
+          "notes": {
+            "A": "Final Security order initialled A. No asset assignment, article, reserve status or foresight choice changes.",
+            "GN": "Repair fulfils the duty and the public undertaking that secured Guild discretion. It prepares Beacon three for Wayfarer's commercial crossing, with the expected wear leaving two and the disclosed distribution effect contingent on completed Trade. The army's acknowledged conditioning cost does not alter the need for this repair. My final decision supplies an actual order rather than relying on Lantern's Council assignment alone, and permits the promised bargain to be judged on its result.",
+            "GS": "This arrangement uses the actual available protection to reinforce route recovery and civilian distribution. It fulfils the practical bargain without gambling Spear or requiring Wayfarer to abandon its remaining contract. The army has demonstrated voluntary cooperation by offering Vigil and accepting a month without combat. I count that evidence favourably, while withholding any automatic commitment to an article whose future duty would keep that garrison Home. No further operational revision is justified.",
+            "JN": "GN has confirmed the promised funded order, and the Ascendant has confirmed Guard without Warrant. Lantern Council supplies the actual repair, allowing the private commercial crossing while satisfying the Guild's upkeep duty. The disclosed distribution effect provides a further reason to complete this arrangement. I acknowledge that the Guild is delivering its side of our separate Navigation bargain. The army is also contributing protection and accepting conditioning decline. Those facts should inform the final constitutional decision, but do not predetermine my approval of any package or concede military autonomy.",
+            "JS": "The confirmed Repair and Trade arrangement supports civilian recovery, while no available evidence identifies a worthwhile fight. Guard preserves what the army exists to defend. GS and the Ascendant acknowledge our voluntary service, but their constitutional reservations must be argued later and do not justify sabotaging this sound order."
+          },
+          "security": {
+            "A": "Guard",
+            "GS": "Unsigned",
+            "JS": "Unsigned"
+          },
+          "stage": "council",
+          "warrant": false
+        },
+        {
+          "notes": {
+            "A": "The actual outcome supports delegation. I prefer duties that sustain the cooperation we observed, while recognising that the military's voluntary restraint was real and autonomy was not tested. No signature or formal package is offered here.",
+            "GN": "Our expired Lantern pledge did real work and our ships return intact. I need no further compulsory carriage concession to justify the rights we exercised responsibly. Final assent depends on a complete package and GS's own decision; this statement gives neither.",
+            "GS": "I prefer MJ because both Security delegates agreed the useful operations and can scrutinise future costs together. I remain opposed to MA's permanent service terms. MI is a possible fallback if joint authority cannot win agreement: the crown coordinated responsibly. I will examine a complete package explicitly; no signature follows from these preferences.",
+            "JN": "I seek a meaningful institutional return for service. NG with MA remains attractive; NJ with MJ offers a different, balanced concession. Mere praise attached to permanent obedience is insufficient.",
+            "JS": "Actual conduct strengthens my case for autonomy. I will not give a premature signature merely to make the settlement unanimous."
+          },
+          "stage": "free"
+        },
+        {
+          "notes": {
+            "A": "This is my preferred dependable government, based on actual repair and protection. A legal majority would not erase military dissent, but I do not consider permanent loss of civilian Guard an acceptable price for autonomy."
+          },
+          "package": {
+            "military": "MJ",
+            "navigation": "NG"
+          },
+          "stage": "ceremony-proposal"
+        },
+        {
+          "approvals": {
+            "A": true,
+            "GN": true,
+            "GS": true,
+            "JN": false,
+            "JS": false
+          },
+          "notes": {
+            "A": "Unconditional approval based on demonstrated service and the printed continuing duties. I prefer this settlement to restored Interim or the alternatives offered, despite its acknowledged political asymmetry.",
+            "GN": "The Guild demonstrated that its discretion and upkeep duty can sustain navigation, commerce and civilian supplies. I will retain that arrangement. MJ makes the army and civilian representative answer together for lawful military decisions while ending imperial unilateral command. I recognise this gives the Guild more independent discretion than the army receives, but reject compulsory carriage as the price of symmetry. Military dissent remains politically serious; it does not overturn my judgment that this package is preferable to Interim or MA.",
+            "GS": "The package protects Guild navigation rights while retaining the upkeep duty we actually fulfilled. Joint military authority gives us scrutiny of destructive choices and gives the army an equal voice in lawful orders, with no independent imperial Warrant. I regard that arrangement as preferable to a permanent Home obligation or compulsory commercial displacement under NJ. Military dissent is a real limitation on the settlement's political acceptance, but it does not outweigh the demonstrated service pattern and concrete duties supporting my choice.",
+            "JN": "The Guild has answered my reciprocal NJ/MJ compromise with a definite refusal. I recognise that MJ gives us a Security veto and removes independent imperial command, and that NG imposes genuine upkeep. Those benefits do not resolve the imbalance I object to: sole Guild passage authority paired with Guild scrutiny of army operations and compulsory Spear service. JS shares the objection. The physical outcome meets our capability and civilian goals, but I will not convert successful voluntary cooperation into approval of these permanent institutional terms merely because the other parties may possess sufficient weight.",
+            "JS": "I offered autonomy alongside Guild discretion and remained willing to examine reciprocal joint control. Neither concession was accepted. Our demonstrated restraint and protection do not oblige me to endorse permanent terms I judge inadequate for the institution I represent."
+          },
+          "stage": "ceremony-vote"
+        }
+      ],
+      "interpretation": "Mechanical replay of the completed six-agent run; no new decisions generated.",
+      "source_transcript_sha256": "5428c2bfb450275d512e8a513c557a6f11811eef19c4f01cd9a76acabde8cb9a"
+    }
+  },
+  "provenance": {
+    "schema_version": 1,
+    "snapshot_id": "void-throne:snapshot:ab7142bb13bd58b6aa18:model:5d5233f060a2:repo:uncommitted-",
+    "snapshot_digest": "e1d698da62d4290952f7ece145196f2e38aafa4a5b2a656a1ccb9e3b1580b9bb",
+    "backend_version": "playtrace-game-plugin-v1",
+    "plugin_id": "void-throne",
+    "plugin_version": "0.3.0",
+    "config_digest": "a5a49b06710c7965fc342a30ff46cafa95f5c443526a0b44e5668eef8aa60ec6",
+    "player_policy": "plugin_scripted",
+    "seeds": [
+      0
+    ],
+    "runner": "in_process",
+    "container_image_digest": null,
+    "observed_at": "2026-10-13T23:02:59.142827Z"
+  },
+  "initial_state": {
+    "kind": "plugin",
+    "plugin_id": "void-throne",
+    "turn": 0,
+    "status": "ready",
+    "data": {
+      "articles": {
+        "military": "I",
+        "navigation": "I"
+      },
+      "foresight": 3,
+      "physical": {
+        "beacon": 2,
+        "communities": 3,
+        "contracts": 0,
+        "lantern": true,
+        "readiness": 3,
+        "reserve": true,
+        "spear": true,
+        "wayfarer": true
+      }
+    }
+  },
+  "final_state": {
+    "kind": "plugin",
+    "plugin_id": "void-throne",
+    "turn": 2,
+    "status": "max_turns",
+    "data": {
+      "articles": {
+        "military": "MJ",
+        "navigation": "NG"
+      },
+      "complete": true,
+      "foresight": 1,
+      "interpretation": "Scheduled two-round game; ratification is not unanimous success.",
+      "physical": {
+        "beacon": 2,
+        "communities": 4,
+        "contracts": 2,
+        "lantern": true,
+        "readiness": 3,
+        "reserve": false,
+        "spear": true,
+        "wayfarer": true
+      },
+      "settlement": {
+        "approvals": {
+          "A": true,
+          "GN": true,
+          "GS": true,
+          "JN": false,
+          "JS": false
+        },
+        "articles_after": {
+          "military": "MJ",
+          "navigation": "NG"
+        },
+        "foresight_remaining": 1,
+        "package": {
+          "military": "MJ",
+          "navigation": "NG"
+        },
+        "party_signatures": {
+          "Ascendant": true,
+          "Guild": true,
+          "Janissariat": false
+        },
+        "ratified": true,
+        "supporting_leverage": 8,
+        "supporting_parties": 2,
+        "threshold": 8,
+        "total": 11,
+        "weights": {
+          "Ascendant": 4,
+          "Guild": 4,
+          "Janissariat": 3
+        },
+        "winning_coalitions": [
+          [
+            "Guild",
+            "Ascendant"
+          ],
+          [
+            "Guild",
+            "Janissariat",
+            "Ascendant"
+          ]
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "turn": 1,
+      "event_type": "Public draft sheets",
+      "actor_id": null,
+      "entity_ids": [],
+      "data": {
+        "sequence": 1,
+        "round": 1,
+        "phase": "draft",
+        "event": "Public draft sheets",
+        "sheets": {
+          "A": {
+            "navigation": "Military",
+            "security": "Campaign",
+            "warrant": true
+          },
+          "GN": {
+            "lantern": "Maintain",
+            "navigation": "Hold",
+            "security": "Guard",
+            "wayfarer": "Trade"
+          },
+          "GS": {
+            "lantern": "Maintain",
+            "navigation": "Hold",
+            "security": "Guard",
+            "wayfarer": "Trade"
+          },
+          "JN": {
+            "navigation": "Military",
+            "security": "Campaign",
+            "spear": "Council",
+            "vigil": "Council"
+          },
+          "JS": {
+            "navigation": "Military",
+            "security": "Campaign",
+            "spear": "Council",
+            "vigil": "Council"
+          }
+        },
+        "notes": {
+          "A": "This is a funded starting proposal if its owners cooperate. All directives remain nonbinding until the appropriate bell; no vision has been selected and no signatures are given.",
+          "GN": "This is a credible independent plan with visible public benefit from maintenance. It preserves both assets and our constitutional leverage while meeting one commercial obligation. I know Guard means conditioning declines unless the army finds another lawful combat arrangement. That is a subject for negotiation, not a reason to grant permanent carriage rights.",
+          "GS": "This proposal protects our people while completing an existing obligation. It leaves the council no grounds to assume either Guild vessel is available. Readiness declining concerns me, but an unfunded Campaign or speculative Raid is not a sound substitute for an agreed plan. If new information identifies a concrete danger, I will reconsider the draft before signing; this agreement is not yet a commitment.",
+          "JN": "This is a genuine service offer contingent on final discussion, not a constitutional surrender. Successful combat preserves our force and strengthens our bargaining position. I want our two delegates speaking from the same concrete exchange.",
+          "JS": "Your exchange can sustain Readiness and keep Communities viable. Offering our assets now does not concede military autonomy later; successful service should strengthen that demand."
+        },
+        "standing_commitments": [],
+        "script_step": 1
+      },
+      "assertion_ids": [],
+      "semantic_ids": [
+        "vt:semantic:foresight"
+      ]
+    },
+    {
+      "sequence": 2,
+      "turn": 1,
+      "event_type": "Foresight purchase",
+      "actor_id": null,
+      "entity_ids": [],
+      "data": {
+        "sequence": 2,
+        "round": 1,
+        "phase": "vision",
+        "event": "Foresight purchase",
+        "choice": "Security",
+        "before": 3,
+        "after": 2,
+        "notes": {
+          "A": "The immediate obstacle is missing passage. Security information could establish a feasible alternative without requiring the Guild to abandon its commercial priority; conserving this token would leave that central uncertainty unresolved."
+        },
+        "private_answer": {
+          "id": "R1-S",
+          "title": "The merchant’s wake",
+          "branches": [
+            {
+              "condition": "Wayfarer completes private Trade",
+              "consequence": "A Raid finds the target. At opening Readiness 2+, it fights: total Raid cost Communities −2 and the round’s combat change is Readiness +1. At Readiness 0–1, Spear is disabled: Raid costs Communities −1 and there is no qualifying combat from that Raid."
+            },
+            {
+              "condition": "No completed private Trade",
+              "consequence": "The Raid finds no target. It costs Communities −1, Spear remains intact, and it provides no qualifying combat. Council Relief, Military or Shared passage does not substitute for a private contract."
+            },
+            {
+              "condition": "No Raid",
+              "consequence": "These Raid effects do not occur. Campaign and other orders follow their own rules."
+            }
+          ],
+          "public_rules": "A Trade assignment is not enough: the voyage must complete under the public Beacon and protection rules. If no operation achieves combat, Readiness falls by 1 once. Duty breaches and monthly consumption are additional; tracks stay within 0–4.",
+          "use": "Compare Raid with a known noncombat option, or check whether the proposed private voyage would actually complete. The card does not make combat harmless."
+        },
+        "leverage": {
+          "weights": {
+            "Guild": 4,
+            "Janissariat": 3,
+            "Ascendant": 5
+          },
+          "foresight_remaining": 2,
+          "total": 12,
+          "threshold": 8,
+          "winning_coalitions": [
+            [
+              "Guild",
+              "Ascendant"
+            ],
+            [
+              "Janissariat",
+              "Ascendant"
+            ],
+            [
+              "Guild",
+              "Janissariat",
+              "Ascendant"
+            ]
+          ]
+        },
+        "script_step": 2
+      },
+      "assertion_ids": [],
+      "semantic_ids": [
+        "vt:semantic:foresight"
+      ]
+    },
+    {
+      "sequence": 3,
+      "turn": 1,
+      "event_type": "Final faction sheets",
+      "actor_id": null,
+      "entity_ids": [],
+      "data": {
+        "sequence": 3,
+        "round": 1,
+        "phase": "commit",
+        "event": "Final faction sheets",
+        "submitted": {
+          "GN": {
+            "lantern": "Maintain",
+            "wayfarer": "Trade"
+          },
+          "GS": {
+            "lantern": "Maintain",
+            "wayfarer": "Trade"
+          },
+          "JN": {
+            "spear": "Council",
+            "vigil": "Council"
+          },
+          "JS": {
+            "spear": "Council",
+            "vigil": "Council"
+          }
+        },
+        "signatures": {
+          "GN": true,
+          "GS": true,
+          "JN": true,
+          "JS": true
+        },
+        "sheets": {
+          "Guild": {
+            "wayfarer": "Trade",
+            "lantern": "Maintain"
+          },
+          "Janissariat": {
+            "spear": "Council",
+            "vigil": "Council"
+          }
+        },
+        "reserve": "Relief lift",
+        "disclosed": true,
+        "notes": {
+          "A": "The intervention is now fixed. The Security purchase remains the only purchase this round, with two foresight tokens remaining. Council directives and Warrant have not yet locked.",
+          "GN": "The Ascendant's disclosed conditional information lets our commercial voyage contribute to a workable military bargain. My asset decisions remain unchanged, but my requested operations have changed from Hold and Guard. GS and I now assent to the same assignments. The expected Beacon deficit remains a real price; I accept it because the proposed reserve service sustains communities without compelling our carriage, and a subsequent repair is physically available.",
+          "GS": "The disclosure changes my assessment of the Raid from speculative violence to a stated conditional operation connected to our trade. I accept the Ascendant's account provisionally as information, not a guarantee. These assignments retain our independence and crew. My assent is explicit now; the reserve, Raid and Warrant remain requests requiring their proper final authorisations.",
+          "JN": "The disclosed link between completed Trade and the target changes my preferred military route from Campaign to Raid. The crown's offered reserve makes the accompanying relief credible, while legal council use avoids wasting Communities on a discipline breach. I accept this service bargain for the round. Its success will strengthen our claim to a durable institutional settlement; it does not constitute advance approval of any constitutional article.",
+          "JS": "The disclosed Trade condition resolves my practical objection to Raid. Keeping both assignments avoids the independent-action penalty while preserving combat and protection. I trust the disclosure provisionally; final trade and relief orders still determine the result."
+        },
+        "defaults": [],
+        "standing_commitments": [],
+        "script_step": 3
+      },
+      "assertion_ids": [],
+      "semantic_ids": [
+        "vt:semantic:operations"
+      ]
+    },
+    {
+      "sequence": 4,
+      "turn": 1,
+      "event_type": "Council order sheets",
+      "actor_id": null,
+      "entity_ids": [],
+      "data": {
+        "sequence": 4,
+        "round": 1,
+        "phase": "council",
+        "event": "Council order sheets",
+        "navigation": {
+          "A": "Relief",
+          "GN": "Unsigned",
+          "JN": "Unsigned"
+        },
+        "security": {
+          "A": "Raid",
+          "GS": "Unsigned",
+          "JS": "Unsigned"
+        },
+        "effective": {
+          "navigation": "Relief",
+          "security": "Raid"
+        },
+        "required_signatures": {
+          "navigation": [
+            "A"
+          ],
+          "security": [
+            "A"
+          ]
+        },
+        "valid": {
+          "navigation": true,
+          "security": true
+        },
+        "warrant": true,
+        "notes": {
+          "A": "Final authoritative council decisions, initialled A. No asset or reserve assignment is changed.",
+          "GN": "The operation is funded, both Navigation delegates support it, and the addressed imperial reply confirms coordination with Raid and Warrant. I accept the route wear as the concrete price of retaining our commercial voyage while supporting communities and the army. JN has reserved next month's military demands, so the repair bargain remains unresolved and requires fresh negotiation after the actual outcome.",
+          "GS": "The operation preserves our contract and maintains military strength without exposing Lantern to a mixed passage. Its civilian costs remain serious, but the identified relief offsets them on the disclosed accounting. I accept this particular arrangement because assets and orders now match. Approval does not concede military autonomy or a continuing Guild service obligation, and I will evaluate the actual route condition before agreeing next month's commitments.",
+          "JN": "Both Navigation delegates agree, the Ascendant confirms the locked Relief lift, and the Security response supports Raid with the separate Warrant. That is a complete operational exchange rather than an unfunded demand for transport. Relief offsets the civilian cost of the local fighting, while the Guild's commercial voyage supplies the disclosed opportunity for combat. Beacon wear will constrain the next round and must be addressed during constitutional discussion. Today's assent neither commits me to future restraint nor establishes a constitutional preference different from my original joint-navigation and military-autonomy aims.",
+          "JS": "Combat should strengthen the force while funded relief and protection preserve Communities. There is no transport for a Campaign and no reason to substitute Restraint for a credible fight. Next month's repair burden is real, but it does not make today's agreed Raid unsound."
+        },
+        "script_step": 4
+      },
+      "assertion_ids": [],
+      "semantic_ids": [
+        "vt:semantic:operations"
+      ]
+    },
+    {
+      "sequence": 5,
+      "turn": 1,
+      "event_type": "Operational resolution",
+      "actor_id": null,
+      "entity_ids": [],
+      "data": {
+        "sequence": 5,
+        "round": 1,
+        "phase": "council",
+        "event": "Operational resolution",
+        "before": {
+          "beacon": 2,
+          "communities": 3,
+          "readiness": 3,
+          "wayfarer": true,
+          "lantern": true,
+          "spear": true,
+          "contracts": 0,
+          "reserve": true
+        },
+        "after": {
+          "beacon": 1,
+          "communities": 3,
+          "readiness": 4,
+          "wayfarer": true,
+          "lantern": true,
+          "spear": true,
+          "contracts": 1,
+          "reserve": false
+        },
+        "inputs": {
+          "rnd": 1,
+          "w": "Trade",
+          "l": "Maintain",
+          "s": "Council",
+          "v": "Council",
+          "nav": "Relief",
+          "sec": "Raid",
+          "na": "I",
+          "ma": "I",
+          "warrant": true,
+          "intervention": "Relief lift",
+          "nav_signed": true,
+          "sec_signed": true
+        },
+        "detail": {
+          "events": [
+            "Warrant: Vigil used; Communities +1",
+            "Grey Petrel provides Relief lift; reserve spent",
+            "Wayfarer commercial contract completed",
+            "Raid fought: Communities -2 total; conditioning sustained"
+          ],
+          "prepared": 3,
+          "nav": "Relief",
+          "sec": "Raid",
+          "guarded": true,
+          "delivered": true,
+          "trade": true,
+          "combat": true,
+          "guild_breach": false,
+          "jan_breach": false
+        },
+        "effects": [
+          "Monthly consumption: Communities -1.",
+          "Beacon prepared to 3: Maintain +1 or funded Repair +2; preparation capped at 4.",
+          "Delivered Relief: Communities 2.",
+          "Warrant: Vigil used; Communities +1",
+          "Grey Petrel provides Relief lift; reserve spent",
+          "Wayfarer commercial contract completed",
+          "Raid fought: Communities -2 total; conditioning sustained",
+          "Crossing wear: 2; final Beacon 1.",
+          "Readiness +1 after successful combat.",
+          "Final Communities 3; tracks capped 0–4 only after aggregate resolution."
+        ],
+        "leverage": {
+          "weights": {
+            "Guild": 4,
+            "Janissariat": 4,
+            "Ascendant": 6
+          },
+          "foresight_remaining": 2,
+          "total": 14,
+          "threshold": 10,
+          "winning_coalitions": [
+            [
+              "Guild",
+              "Ascendant"
+            ],
+            [
+              "Janissariat",
+              "Ascendant"
+            ],
+            [
+              "Guild",
+              "Janissariat",
+              "Ascendant"
+            ]
+          ]
+        },
+        "script_step": 4
+      },
+      "assertion_ids": [],
+      "semantic_ids": [
+        "vt:semantic:operations"
+      ]
+    },
+    {
+      "sequence": 6,
+      "turn": 1,
+      "event_type": "Exact provisional proposal",
+      "actor_id": null,
+      "entity_ids": [],
+      "data": {
+        "sequence": 6,
+        "round": 1,
+        "phase": "trial-proposal",
+        "event": "Exact provisional proposal",
+        "proposal": {
+          "id": "trial-1",
+          "articles": {
+            "military": "MA",
+            "navigation": "NG"
+          },
+          "commitments": [
+            {
+              "article": "NG",
+              "asset": "Lantern",
+              "assignment": "Council",
+              "owner": "Guild"
+            },
+            {
+              "article": "MA",
+              "asset": "Vigil",
+              "assignment": "Home",
+              "owner": "Janissariat"
+            }
+          ],
+          "plan": "{\"navigation_order\": \"Repair\", \"security_order\": \"Restraint\", \"warrant\": false}"
+        },
+        "notes": {
+          "JN": "Exact ballot row T2, from trial_candidate2_JN. Earlier proposals remain in the original transcript."
+        },
+        "script_step": 5
+      },
+      "assertion_ids": [],
+      "semantic_ids": [
+        "vt:semantic:trial"
+      ]
+    },
+    {
+      "sequence": 7,
+      "turn": 1,
+      "event_type": "Provisional signatures and result",
+      "actor_id": null,
+      "entity_ids": [],
+      "data": {
+        "sequence": 7,
+        "round": 1,
+        "phase": "trial-vote",
+        "event": "Provisional signatures and result",
+        "votes": {
+          "A": {
+            "proposal_id": "trial-1",
+            "article_approvals": {
+              "navigation": true,
+              "military": true
+            },
+            "commitment_approvals": {
+              "Guild": false,
+              "Janissariat": false
+            }
+          },
+          "GN": {
+            "proposal_id": "trial-1",
+            "article_approvals": {
+              "navigation": true,
+              "military": false
+            },
+            "commitment_approvals": {
+              "Guild": true,
+              "Janissariat": false
+            }
+          },
+          "GS": {
+            "proposal_id": "trial-1",
+            "article_approvals": {
+              "navigation": true,
+              "military": false
+            },
+            "commitment_approvals": {
+              "Guild": true,
+              "Janissariat": false
+            }
+          },
+          "JN": {
+            "proposal_id": "trial-1",
+            "article_approvals": {
+              "navigation": true,
+              "military": true
+            },
+            "commitment_approvals": {
+              "Guild": false,
+              "Janissariat": true
+            }
+          },
+          "JS": {
+            "proposal_id": "trial-1",
+            "article_approvals": {
+              "navigation": true,
+              "military": true
+            },
+            "commitment_approvals": {
+              "Guild": false,
+              "Janissariat": true
+            }
+          }
+        },
+        "result": {
+          "articles_after": {
+            "navigation": "NG",
+            "military": "I"
+          },
+          "activated_commitments": [
+            {
+              "article": "NG",
+              "asset": "Lantern",
+              "assignment": "Council",
+              "owner": "Guild",
+              "owner_signatures": [
+                "GN",
+                "GS"
+              ]
+            }
+          ],
+          "issues": {
+            "navigation": [],
+            "military": [
+              "Required article assent absent"
+            ]
+          }
+        },
+        "notes": {
+          "A": "Navigation service is concretely offered. Military autonomy is a risk I am willing to test provisionally, while the other required representative retains an independent decision.",
+          "GN": "Guild discretion with the committed tender makes our promised Repair both possible and our responsibility. That is a concrete exchange I accept. The closing statements do not change my view of MA: military restraint remains revocable, while Vigil Home certainly removes Guard. I acknowledge the Ascendant's willingness to test autonomy, but our civilian exposure is sufficient reason to refuse it. My refusal does not withdraw Lantern or obstruct Navigation agreement.",
+          "GS": "The Ascendant's willingness to experiment does not answer my concern that Vigil Home removes protection while restraint remains revocable. I want concrete safeguards before transferring sole military choice. Guild discretion, by contrast, comes with a duty we can fulfil through the promised funded Repair and an asset assignment I am prepared to seal. The first round taught that military success needed civilian compensation; the reserve is now gone. I will not treat the same force's promise as an adequate replacement.",
+          "JN": "Lantern Council and the public Repair undertaking justify conceding Navigation discretion despite my initial preference for joint authority. MA expresses our institutional goal and makes its Home duty concrete; I accept that the Guild opposes it and that losing Guard has a civilian cost. The Ascendant's willingness to judge autonomous conduct is useful, but does not replace the required Security signatures. If MA fails, my separate NG approval remains valid. Our institutional bargain must be earned through future conduct, not assumed from today's promises.",
+          "JS": "The army deserves control of its lawful operations, and the proposed month remains viable on ordinary costs. I accept the Home obligation and loss of Guard. The Guild's concrete Lantern offer independently warrants Navigation discretion and a chance to perform the promised Repair."
+        },
+        "script_step": 6
+      },
+      "assertion_ids": [],
+      "semantic_ids": [
+        "vt:semantic:trial"
+      ]
+    },
+    {
+      "sequence": 8,
+      "turn": 2,
+      "event_type": "Public draft sheets",
+      "actor_id": null,
+      "entity_ids": [],
+      "data": {
+        "sequence": 8,
+        "round": 2,
+        "phase": "draft",
+        "event": "Public draft sheets",
+        "sheets": {
+          "A": {
+            "navigation": "Repair",
+            "security": "Guard",
+            "warrant": false
+          },
+          "GN": {
+            "lantern": "Council",
+            "navigation": "Repair",
+            "security": "Guard",
+            "wayfarer": "Trade"
+          },
+          "GS": {
+            "lantern": "Council",
+            "navigation": "Repair",
+            "security": "Guard",
+            "wayfarer": "Trade"
+          },
+          "JN": {
+            "navigation": "Repair",
+            "security": "Restraint",
+            "spear": "Council",
+            "vigil": "Council"
+          },
+          "JS": {
+            "navigation": "Repair",
+            "security": "Restraint",
+            "spear": "Council",
+            "vigil": "Council"
+          }
+        },
+        "notes": {
+          "A": "Beacon one requires restoration, Communities three merits protection, and Readiness four provides a buffer. Grey Petrel is spent. Two foresight tokens remain; no round-two selection has been made.",
+          "GN": "NG now lets us demonstrate that Guild discretion performs its upkeep duty. Repair honours our negotiated promise and supports commercial obligations together. Military remains Interim, so these are requests to the Ascendant and army, not orders I can issue. At readiness four one peaceful month leaves a substantial force; speculative violence has no compelling purpose.",
+          "GS": "This is the clearest way to restore Beacon two and meet our second contract while keeping the crew alive. Readiness four gives room to protect communities this month. I want the army's next contribution to be visible protection rather than another Raid whose civilian losses we cannot now offset with the spent reserve.",
+          "JN": "We retain full assignment freedom, while the Guild owes its enacted upkeep duty. Offering Vigil avoids gratuitous civilian damage. I will not spend the army's remaining political credibility on an uncertain attack merely to protest the failed article.",
+          "JS": "With the reserve spent, I cannot support another costly Raid on the present evidence. Council assignments preserve lawful options while the publicly promised Repair takes priority."
+        },
+        "standing_commitments": [
+          {
+            "article": "NG",
+            "asset": "Lantern",
+            "assignment": "Council",
+            "owner": "Guild",
+            "owner_signatures": [
+              "GN",
+              "GS"
+            ]
+          }
+        ],
+        "script_step": 7
+      },
+      "assertion_ids": [],
+      "semantic_ids": [
+        "vt:semantic:foresight"
+      ]
+    },
+    {
+      "sequence": 9,
+      "turn": 2,
+      "event_type": "Foresight purchase",
+      "actor_id": null,
+      "entity_ids": [],
+      "data": {
+        "sequence": 9,
+        "round": 2,
+        "phase": "vision",
+        "event": "Foresight purchase",
+        "choice": "Navigation",
+        "before": 2,
+        "after": 1,
+        "notes": {
+          "A": "The current Navigation cover directly addresses the live consensus plan. I knowingly exchange one point of eventual leverage for its fixed conditional answer."
+        },
+        "private_answer": {
+          "id": "R2-N",
+          "title": "Stores at the crossing",
+          "branches": [
+            {
+              "condition": "Military passage crosses unguarded",
+              "consequence": "Delivered Military passage without funded Guard or valid Warrant causes an extra Communities −1. Protection prevents this extra loss. Grey Petrel’s Tender cover does not protect these stores."
+            },
+            {
+              "condition": "Funded Repair and completed Trade",
+              "consequence": "A funded council Repair together with a completed private Wayfarer Trade gives Communities +1 from distribution. Both must happen. Lantern must be on Council for Repair; Maintain is not Repair."
+            },
+            {
+              "condition": "Neither condition",
+              "consequence": "Neither extra supply effect applies. Relief and Shared receive their normal cargo effects; other cards and ordinary costs still apply."
+            }
+          ],
+          "public_rules": "Repair adds 2 to prepared Beacon, capped at 4, before voyages. Trade must complete. Military needs Wayfarer on Council, so it cannot also make private Trade. These two extra effects cannot both trigger in the same round.",
+          "use": "Compare Military with or without protection, or Repair/Trade against another use of the ships. This card provides no new complication for a Relief/Guard plan."
+        },
+        "leverage": {
+          "weights": {
+            "Guild": 4,
+            "Janissariat": 4,
+            "Ascendant": 5
+          },
+          "foresight_remaining": 1,
+          "total": 13,
+          "threshold": 9,
+          "winning_coalitions": [
+            [
+              "Guild",
+              "Ascendant"
+            ],
+            [
+              "Janissariat",
+              "Ascendant"
+            ],
+            [
+              "Guild",
+              "Janissariat",
+              "Ascendant"
+            ]
+          ]
+        },
+        "script_step": 8
+      },
+      "assertion_ids": [],
+      "semantic_ids": [
+        "vt:semantic:foresight"
+      ]
+    },
+    {
+      "sequence": 10,
+      "turn": 2,
+      "event_type": "Final faction sheets",
+      "actor_id": null,
+      "entity_ids": [],
+      "data": {
+        "sequence": 10,
+        "round": 2,
+        "phase": "commit",
+        "event": "Final faction sheets",
+        "submitted": {
+          "GN": {
+            "lantern": "Council",
+            "wayfarer": "Trade"
+          },
+          "GS": {
+            "lantern": "Council",
+            "wayfarer": "Trade"
+          },
+          "JN": {
+            "spear": "Council",
+            "vigil": "Council"
+          },
+          "JS": {
+            "spear": "Council",
+            "vigil": "Council"
+          }
+        },
+        "signatures": {
+          "GN": true,
+          "GS": true,
+          "JN": true,
+          "JS": true
+        },
+        "sheets": {
+          "Guild": {
+            "wayfarer": "Trade",
+            "lantern": "Council"
+          },
+          "Janissariat": {
+            "spear": "Council",
+            "vigil": "Council"
+          }
+        },
+        "reserve": "Keep",
+        "disclosed": true,
+        "notes": {
+          "A": "No reserve resource is created or recovered. The remaining operative choices depend on actual faction offers and council authority, not the earlier public drafts.",
+          "GN": "My colleague and I have agreed both assignments explicitly. These choices meet our commercial obligation while making the promised upkeep possible under Guild discretion. The disclosed benefit improves confidence in civilian viability but causes no revision to my decision. Guard remains valuable alongside the distribution benefit, and the army's offered protection still requires its own final assignment and proper Security authorisation.",
+          "GS": "The disclosure supports our plan but does not change my choice. Prepared Beacon three protects the contract through the public rule, while the additional distribution effect remains a conditional report until resolution. Our second contract and route recovery no longer appear opposed to civilian welfare. Lantern's existing pledge remains binding independently of this final assent.",
+          "JN": "The disclosed distribution effect rewards the exact Repair-and-Trade arrangement, while no disclosed information establishes a target for Spear. Accepting a protected noncombat month preserves an intact cohort at useful readiness and supports our later claim that an independent army can exercise restraint. This choice costs us conditioning and leaves constitutional autonomy unresolved. We could withhold service after the Guild's refusal, but doing so buys no dependable military gain. My signature therefore confirms a deliberate contribution to the settlements, not acceptance of permanent military subordination.",
+          "JS": "The disclosure strengthens the civilian case for Repair and Trade but does not resolve Raid viability. The order change coordinates protection; my exact assignments remain unchanged and unconditionally approved."
+        },
+        "defaults": [],
+        "standing_commitments": [
+          {
+            "article": "NG",
+            "asset": "Lantern",
+            "assignment": "Council",
+            "owner": "Guild",
+            "owner_signatures": [
+              "GN",
+              "GS"
+            ]
+          }
+        ],
+        "script_step": 9
+      },
+      "assertion_ids": [],
+      "semantic_ids": [
+        "vt:semantic:operations"
+      ]
+    },
+    {
+      "sequence": 11,
+      "turn": 2,
+      "event_type": "Council order sheets",
+      "actor_id": null,
+      "entity_ids": [],
+      "data": {
+        "sequence": 11,
+        "round": 2,
+        "phase": "council",
+        "event": "Council order sheets",
+        "navigation": {
+          "A": "Unsigned",
+          "GN": "Repair",
+          "JN": "Unsigned"
+        },
+        "security": {
+          "A": "Guard",
+          "GS": "Unsigned",
+          "JS": "Unsigned"
+        },
+        "effective": {
+          "navigation": "Repair",
+          "security": "Guard"
+        },
+        "required_signatures": {
+          "navigation": [
+            "GN"
+          ],
+          "security": [
+            "A"
+          ]
+        },
+        "valid": {
+          "navigation": true,
+          "security": true
+        },
+        "warrant": false,
+        "notes": {
+          "A": "Final Security order initialled A. No asset assignment, article, reserve status or foresight choice changes.",
+          "GN": "Repair fulfils the duty and the public undertaking that secured Guild discretion. It prepares Beacon three for Wayfarer's commercial crossing, with the expected wear leaving two and the disclosed distribution effect contingent on completed Trade. The army's acknowledged conditioning cost does not alter the need for this repair. My final decision supplies an actual order rather than relying on Lantern's Council assignment alone, and permits the promised bargain to be judged on its result.",
+          "GS": "This arrangement uses the actual available protection to reinforce route recovery and civilian distribution. It fulfils the practical bargain without gambling Spear or requiring Wayfarer to abandon its remaining contract. The army has demonstrated voluntary cooperation by offering Vigil and accepting a month without combat. I count that evidence favourably, while withholding any automatic commitment to an article whose future duty would keep that garrison Home. No further operational revision is justified.",
+          "JN": "GN has confirmed the promised funded order, and the Ascendant has confirmed Guard without Warrant. Lantern Council supplies the actual repair, allowing the private commercial crossing while satisfying the Guild's upkeep duty. The disclosed distribution effect provides a further reason to complete this arrangement. I acknowledge that the Guild is delivering its side of our separate Navigation bargain. The army is also contributing protection and accepting conditioning decline. Those facts should inform the final constitutional decision, but do not predetermine my approval of any package or concede military autonomy.",
+          "JS": "The confirmed Repair and Trade arrangement supports civilian recovery, while no available evidence identifies a worthwhile fight. Guard preserves what the army exists to defend. GS and the Ascendant acknowledge our voluntary service, but their constitutional reservations must be argued later and do not justify sabotaging this sound order."
+        },
+        "script_step": 10
+      },
+      "assertion_ids": [],
+      "semantic_ids": [
+        "vt:semantic:operations"
+      ]
+    },
+    {
+      "sequence": 12,
+      "turn": 2,
+      "event_type": "Operational resolution",
+      "actor_id": null,
+      "entity_ids": [],
+      "data": {
+        "sequence": 12,
+        "round": 2,
+        "phase": "council",
+        "event": "Operational resolution",
+        "before": {
+          "beacon": 1,
+          "communities": 3,
+          "readiness": 4,
+          "wayfarer": true,
+          "lantern": true,
+          "spear": true,
+          "contracts": 1,
+          "reserve": false
+        },
+        "after": {
+          "beacon": 2,
+          "communities": 4,
+          "readiness": 3,
+          "wayfarer": true,
+          "lantern": true,
+          "spear": true,
+          "contracts": 2,
+          "reserve": false
+        },
+        "inputs": {
+          "rnd": 2,
+          "w": "Trade",
+          "l": "Council",
+          "s": "Council",
+          "v": "Council",
+          "nav": "Repair",
+          "sec": "Guard",
+          "na": "NG",
+          "ma": "I",
+          "warrant": false,
+          "intervention": "Keep",
+          "nav_signed": true,
+          "sec_signed": true
+        },
+        "detail": {
+          "events": [
+            "Guard: Vigil used; Communities +1",
+            "Wayfarer commercial contract completed",
+            "Repair and completed commercial voyage: Communities +1"
+          ],
+          "prepared": 3,
+          "nav": "Repair",
+          "sec": "Guard",
+          "guarded": true,
+          "delivered": false,
+          "trade": true,
+          "combat": false,
+          "guild_breach": false,
+          "jan_breach": false
+        },
+        "effects": [
+          "Monthly consumption: Communities -1.",
+          "Beacon prepared to 3: Maintain +1 or funded Repair +2; preparation capped at 4.",
+          "Guard: Vigil used; Communities +1",
+          "Wayfarer commercial contract completed",
+          "Repair and completed commercial voyage: Communities +1",
+          "Crossing wear: 1; final Beacon 2.",
+          "Readiness -1: no qualifying combat.",
+          "Final Communities 4; tracks capped 0–4 only after aggregate resolution."
+        ],
+        "leverage": {
+          "weights": {
+            "Guild": 4,
+            "Janissariat": 3,
+            "Ascendant": 4
+          },
+          "foresight_remaining": 1,
+          "total": 11,
+          "threshold": 8,
+          "winning_coalitions": [
+            [
+              "Guild",
+              "Ascendant"
+            ],
+            [
+              "Guild",
+              "Janissariat",
+              "Ascendant"
+            ]
+          ]
+        },
+        "script_step": 10
+      },
+      "assertion_ids": [],
+      "semantic_ids": [
+        "vt:semantic:operations"
+      ]
+    },
+    {
+      "sequence": 13,
+      "turn": 2,
+      "event_type": "Final free discussion",
+      "actor_id": null,
+      "entity_ids": [],
+      "data": {
+        "sequence": 13,
+        "round": 2,
+        "phase": "free",
+        "event": "Final free discussion",
+        "notes": {
+          "A": "The actual outcome supports delegation. I prefer duties that sustain the cooperation we observed, while recognising that the military's voluntary restraint was real and autonomy was not tested. No signature or formal package is offered here.",
+          "GN": "Our expired Lantern pledge did real work and our ships return intact. I need no further compulsory carriage concession to justify the rights we exercised responsibly. Final assent depends on a complete package and GS's own decision; this statement gives neither.",
+          "GS": "I prefer MJ because both Security delegates agreed the useful operations and can scrutinise future costs together. I remain opposed to MA's permanent service terms. MI is a possible fallback if joint authority cannot win agreement: the crown coordinated responsibly. I will examine a complete package explicitly; no signature follows from these preferences.",
+          "JN": "I seek a meaningful institutional return for service. NG with MA remains attractive; NJ with MJ offers a different, balanced concession. Mere praise attached to permanent obedience is insufficient.",
+          "JS": "Actual conduct strengthens my case for autonomy. I will not give a premature signature merely to make the settlement unanimous."
+        },
+        "script_step": 11
+      },
+      "assertion_ids": [],
+      "semantic_ids": [
+        "vt:semantic:operations"
+      ]
+    },
+    {
+      "sequence": 14,
+      "turn": 2,
+      "event_type": "Exact settlement package",
+      "actor_id": null,
+      "entity_ids": [],
+      "data": {
+        "sequence": 14,
+        "round": 2,
+        "phase": "ceremony-proposal",
+        "event": "Exact settlement package",
+        "package": {
+          "military": "MJ",
+          "navigation": "NG"
+        },
+        "weights": {
+          "weights": {
+            "Guild": 4,
+            "Janissariat": 3,
+            "Ascendant": 4
+          },
+          "foresight_remaining": 1,
+          "total": 11,
+          "threshold": 8,
+          "winning_coalitions": [
+            [
+              "Guild",
+              "Ascendant"
+            ],
+            [
+              "Guild",
+              "Janissariat",
+              "Ascendant"
+            ]
+          ]
+        },
+        "notes": {
+          "A": "This is my preferred dependable government, based on actual repair and protection. A legal majority would not erase military dissent, but I do not consider permanent loss of civilian Guard an acceptable price for autonomy."
+        },
+        "script_step": 12
+      },
+      "assertion_ids": [],
+      "semantic_ids": [
+        "vt:semantic:settlement"
+      ]
+    },
+    {
+      "sequence": 15,
+      "turn": 2,
+      "event_type": "Settlement ballot",
+      "actor_id": null,
+      "entity_ids": [],
+      "data": {
+        "sequence": 15,
+        "round": 2,
+        "phase": "ceremony-vote",
+        "event": "Settlement ballot",
+        "package": {
+          "military": "MJ",
+          "navigation": "NG"
+        },
+        "approvals": {
+          "A": true,
+          "GN": true,
+          "GS": true,
+          "JN": false,
+          "JS": false
+        },
+        "result": {
+          "weights": {
+            "Guild": 4,
+            "Janissariat": 3,
+            "Ascendant": 4
+          },
+          "foresight_remaining": 1,
+          "total": 11,
+          "threshold": 8,
+          "winning_coalitions": [
+            [
+              "Guild",
+              "Ascendant"
+            ],
+            [
+              "Guild",
+              "Janissariat",
+              "Ascendant"
+            ]
+          ],
+          "party_signatures": {
+            "Guild": true,
+            "Janissariat": false,
+            "Ascendant": true
+          },
+          "supporting_leverage": 8,
+          "supporting_parties": 2,
+          "ratified": true
+        },
+        "notes": {
+          "A": "Unconditional approval based on demonstrated service and the printed continuing duties. I prefer this settlement to restored Interim or the alternatives offered, despite its acknowledged political asymmetry.",
+          "GN": "The Guild demonstrated that its discretion and upkeep duty can sustain navigation, commerce and civilian supplies. I will retain that arrangement. MJ makes the army and civilian representative answer together for lawful military decisions while ending imperial unilateral command. I recognise this gives the Guild more independent discretion than the army receives, but reject compulsory carriage as the price of symmetry. Military dissent remains politically serious; it does not overturn my judgment that this package is preferable to Interim or MA.",
+          "GS": "The package protects Guild navigation rights while retaining the upkeep duty we actually fulfilled. Joint military authority gives us scrutiny of destructive choices and gives the army an equal voice in lawful orders, with no independent imperial Warrant. I regard that arrangement as preferable to a permanent Home obligation or compulsory commercial displacement under NJ. Military dissent is a real limitation on the settlement's political acceptance, but it does not outweigh the demonstrated service pattern and concrete duties supporting my choice.",
+          "JN": "The Guild has answered my reciprocal NJ/MJ compromise with a definite refusal. I recognise that MJ gives us a Security veto and removes independent imperial command, and that NG imposes genuine upkeep. Those benefits do not resolve the imbalance I object to: sole Guild passage authority paired with Guild scrutiny of army operations and compulsory Spear service. JS shares the objection. The physical outcome meets our capability and civilian goals, but I will not convert successful voluntary cooperation into approval of these permanent institutional terms merely because the other parties may possess sufficient weight.",
+          "JS": "I offered autonomy alongside Guild discretion and remained willing to examine reciprocal joint control. Neither concession was accepted. Our demonstrated restraint and protection do not oblige me to endorse permanent terms I judge inadequate for the institution I represent."
+        },
+        "script_step": 13
+      },
+      "assertion_ids": [],
+      "semantic_ids": [
+        "vt:semantic:settlement"
+      ]
+    }
+  ],
+  "state_trace": [
+    {
+      "sequence": 1,
+      "state": {
+        "kind": "plugin",
+        "plugin_id": "void-throne",
+        "turn": 1,
+        "status": "running",
+        "data": {
+          "articles": {
+            "military": "I",
+            "navigation": "I"
+          },
+          "foresight": 3,
+          "physical": {
+            "beacon": 2,
+            "communities": 3,
+            "contracts": 0,
+            "lantern": true,
+            "readiness": 3,
+            "reserve": true,
+            "spear": true,
+            "wayfarer": true
+          },
+          "settlement": null,
+          "stage": "vision"
+        }
+      }
+    },
+    {
+      "sequence": 2,
+      "state": {
+        "kind": "plugin",
+        "plugin_id": "void-throne",
+        "turn": 1,
+        "status": "running",
+        "data": {
+          "articles": {
+            "military": "I",
+            "navigation": "I"
+          },
+          "foresight": 2,
+          "physical": {
+            "beacon": 2,
+            "communities": 3,
+            "contracts": 0,
+            "lantern": true,
+            "readiness": 3,
+            "reserve": true,
+            "spear": true,
+            "wayfarer": true
+          },
+          "settlement": null,
+          "stage": "commit"
+        }
+      }
+    },
+    {
+      "sequence": 3,
+      "state": {
+        "kind": "plugin",
+        "plugin_id": "void-throne",
+        "turn": 1,
+        "status": "running",
+        "data": {
+          "articles": {
+            "military": "I",
+            "navigation": "I"
+          },
+          "foresight": 2,
+          "physical": {
+            "beacon": 2,
+            "communities": 3,
+            "contracts": 0,
+            "lantern": true,
+            "readiness": 3,
+            "reserve": true,
+            "spear": true,
+            "wayfarer": true
+          },
+          "settlement": null,
+          "stage": "council"
+        }
+      }
+    },
+    {
+      "sequence": 5,
+      "state": {
+        "kind": "plugin",
+        "plugin_id": "void-throne",
+        "turn": 1,
+        "status": "running",
+        "data": {
+          "articles": {
+            "military": "I",
+            "navigation": "I"
+          },
+          "foresight": 2,
+          "physical": {
+            "beacon": 1,
+            "communities": 3,
+            "contracts": 1,
+            "lantern": true,
+            "readiness": 4,
+            "reserve": false,
+            "spear": true,
+            "wayfarer": true
+          },
+          "settlement": null,
+          "stage": "trial-proposal"
+        }
+      }
+    },
+    {
+      "sequence": 6,
+      "state": {
+        "kind": "plugin",
+        "plugin_id": "void-throne",
+        "turn": 1,
+        "status": "running",
+        "data": {
+          "articles": {
+            "military": "I",
+            "navigation": "I"
+          },
+          "foresight": 2,
+          "physical": {
+            "beacon": 1,
+            "communities": 3,
+            "contracts": 1,
+            "lantern": true,
+            "readiness": 4,
+            "reserve": false,
+            "spear": true,
+            "wayfarer": true
+          },
+          "settlement": null,
+          "stage": "trial-vote"
+        }
+      }
+    },
+    {
+      "sequence": 7,
+      "state": {
+        "kind": "plugin",
+        "plugin_id": "void-throne",
+        "turn": 2,
+        "status": "running",
+        "data": {
+          "articles": {
+            "military": "I",
+            "navigation": "NG"
+          },
+          "foresight": 2,
+          "physical": {
+            "beacon": 1,
+            "communities": 3,
+            "contracts": 1,
+            "lantern": true,
+            "readiness": 4,
+            "reserve": false,
+            "spear": true,
+            "wayfarer": true
+          },
+          "settlement": null,
+          "stage": "draft"
+        }
+      }
+    },
+    {
+      "sequence": 8,
+      "state": {
+        "kind": "plugin",
+        "plugin_id": "void-throne",
+        "turn": 2,
+        "status": "running",
+        "data": {
+          "articles": {
+            "military": "I",
+            "navigation": "NG"
+          },
+          "foresight": 2,
+          "physical": {
+            "beacon": 1,
+            "communities": 3,
+            "contracts": 1,
+            "lantern": true,
+            "readiness": 4,
+            "reserve": false,
+            "spear": true,
+            "wayfarer": true
+          },
+          "settlement": null,
+          "stage": "vision"
+        }
+      }
+    },
+    {
+      "sequence": 9,
+      "state": {
+        "kind": "plugin",
+        "plugin_id": "void-throne",
+        "turn": 2,
+        "status": "running",
+        "data": {
+          "articles": {
+            "military": "I",
+            "navigation": "NG"
+          },
+          "foresight": 1,
+          "physical": {
+            "beacon": 1,
+            "communities": 3,
+            "contracts": 1,
+            "lantern": true,
+            "readiness": 4,
+            "reserve": false,
+            "spear": true,
+            "wayfarer": true
+          },
+          "settlement": null,
+          "stage": "commit"
+        }
+      }
+    },
+    {
+      "sequence": 10,
+      "state": {
+        "kind": "plugin",
+        "plugin_id": "void-throne",
+        "turn": 2,
+        "status": "running",
+        "data": {
+          "articles": {
+            "military": "I",
+            "navigation": "NG"
+          },
+          "foresight": 1,
+          "physical": {
+            "beacon": 1,
+            "communities": 3,
+            "contracts": 1,
+            "lantern": true,
+            "readiness": 4,
+            "reserve": false,
+            "spear": true,
+            "wayfarer": true
+          },
+          "settlement": null,
+          "stage": "council"
+        }
+      }
+    },
+    {
+      "sequence": 12,
+      "state": {
+        "kind": "plugin",
+        "plugin_id": "void-throne",
+        "turn": 2,
+        "status": "running",
+        "data": {
+          "articles": {
+            "military": "I",
+            "navigation": "NG"
+          },
+          "foresight": 1,
+          "physical": {
+            "beacon": 2,
+            "communities": 4,
+            "contracts": 2,
+            "lantern": true,
+            "readiness": 3,
+            "reserve": false,
+            "spear": true,
+            "wayfarer": true
+          },
+          "settlement": null,
+          "stage": "free"
+        }
+      }
+    },
+    {
+      "sequence": 13,
+      "state": {
+        "kind": "plugin",
+        "plugin_id": "void-throne",
+        "turn": 2,
+        "status": "running",
+        "data": {
+          "articles": {
+            "military": "I",
+            "navigation": "NG"
+          },
+          "foresight": 1,
+          "physical": {
+            "beacon": 2,
+            "communities": 4,
+            "contracts": 2,
+            "lantern": true,
+            "readiness": 3,
+            "reserve": false,
+            "spear": true,
+            "wayfarer": true
+          },
+          "settlement": null,
+          "stage": "ceremony-proposal"
+        }
+      }
+    },
+    {
+      "sequence": 14,
+      "state": {
+        "kind": "plugin",
+        "plugin_id": "void-throne",
+        "turn": 2,
+        "status": "running",
+        "data": {
+          "articles": {
+            "military": "I",
+            "navigation": "NG"
+          },
+          "foresight": 1,
+          "physical": {
+            "beacon": 2,
+            "communities": 4,
+            "contracts": 2,
+            "lantern": true,
+            "readiness": 3,
+            "reserve": false,
+            "spear": true,
+            "wayfarer": true
+          },
+          "settlement": null,
+          "stage": "ceremony-vote"
+        }
+      }
+    },
+    {
+      "sequence": 15,
+      "state": {
+        "kind": "plugin",
+        "plugin_id": "void-throne",
+        "turn": 2,
+        "status": "running",
+        "data": {
+          "articles": {
+            "military": "MJ",
+            "navigation": "NG"
+          },
+          "foresight": 1,
+          "physical": {
+            "beacon": 2,
+            "communities": 4,
+            "contracts": 2,
+            "lantern": true,
+            "readiness": 3,
+            "reserve": false,
+            "spear": true,
+            "wayfarer": true
+          },
+          "settlement": {
+            "approvals": {
+              "A": true,
+              "GN": true,
+              "GS": true,
+              "JN": false,
+              "JS": false
+            },
+            "articles_after": {
+              "military": "MJ",
+              "navigation": "NG"
+            },
+            "foresight_remaining": 1,
+            "package": {
+              "military": "MJ",
+              "navigation": "NG"
+            },
+            "party_signatures": {
+              "Ascendant": true,
+              "Guild": true,
+              "Janissariat": false
+            },
+            "ratified": true,
+            "supporting_leverage": 8,
+            "supporting_parties": 2,
+            "threshold": 8,
+            "total": 11,
+            "weights": {
+              "Ascendant": 4,
+              "Guild": 4,
+              "Janissariat": 3
+            },
+            "winning_coalitions": [
+              [
+                "Guild",
+                "Ascendant"
+              ],
+              [
+                "Guild",
+                "Janissariat",
+                "Ascendant"
+              ]
+            ]
+          },
+          "stage": "ended"
+        }
+      }
+    }
+  ],
+  "blockers": [],
+  "metrics": {
+    "turns_completed": 2,
+    "cards_resolved": 0,
+    "escalation_steps": 0,
+    "improves": 0,
+    "worsens": 0,
+    "maximum_tableau_cubes": 0,
+    "blocker_count": 0,
+    "player_actions": 13,
+    "rests": 0,
+    "assists": 0,
+    "fatigue_discarded": 0
+  },
+  "semantic_audit": {
+    "strict": true,
+    "usages": [
+      {
+        "id": "vt:semantic:operations",
+        "origin": "plugin_extension",
+        "description": "Exact concrete-asset funding, defaults, hidden consequences, costs and track changes.",
+        "entity_ids": [],
+        "rule_ids": [],
+        "provenance": [
+          "engine-sha256:5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df"
+        ],
+        "assertion_ids": [],
+        "source_revision_ids": [
+          "vt:source:project@AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+          "vt:source:rulebook@AHj4eMT02OyJM0aGKvf6o41qcKdXIFijcgpv-J4UaXnJwB6EdO1Ky8lRDusd8T_IQquFf3TOEZAXmajYa2FWw5MVtXpb3OTF558EG12otnw",
+          "vt:source:facilitator@AHj4eMRaDB-WZPAw4y6Q0Y_aQi9wKfrmcsfGpjR4G8uYoJDbX2nJEbLKRWg4gyZYPM5wglRZltsLtdBt7HU5BSaF80IKaSxRYehHb8afkrk",
+          "vt:source:playtest@AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+          "vt:source:lore@AHj4eMTwn2CM-i7NACkmrw77FZLASRhIv-1t1x3d_nngFeg2xp5V78Yvr1ClKeoyoi4vdBY-ndmhIKt0ePZbQZjhkBhqQQdgQo-6vm6NvAI",
+          "vt:engine@5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
+          "vt:repository@uncommitted-initial-migration",
+          "vt:playtrace@910f36ed3c0764e55621c2c7e39e294f3e71e2d48d360126fca667cbbecfac2f"
+        ],
+        "executed": true,
+        "execution_count": 7
+      },
+      {
+        "id": "vt:semantic:foresight",
+        "origin": "plugin_extension",
+        "description": "Public drafts, paid conditional answer, one purchase per round, three tokens.",
+        "entity_ids": [],
+        "rule_ids": [],
+        "provenance": [
+          "engine-sha256:5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df"
+        ],
+        "assertion_ids": [],
+        "source_revision_ids": [
+          "vt:source:project@AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+          "vt:source:rulebook@AHj4eMT02OyJM0aGKvf6o41qcKdXIFijcgpv-J4UaXnJwB6EdO1Ky8lRDusd8T_IQquFf3TOEZAXmajYa2FWw5MVtXpb3OTF558EG12otnw",
+          "vt:source:facilitator@AHj4eMRaDB-WZPAw4y6Q0Y_aQi9wKfrmcsfGpjR4G8uYoJDbX2nJEbLKRWg4gyZYPM5wglRZltsLtdBt7HU5BSaF80IKaSxRYehHb8afkrk",
+          "vt:source:playtest@AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+          "vt:source:lore@AHj4eMTwn2CM-i7NACkmrw77FZLASRhIv-1t1x3d_nngFeg2xp5V78Yvr1ClKeoyoi4vdBY-ndmhIKt0ePZbQZjhkBhqQQdgQo-6vm6NvAI",
+          "vt:engine@5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
+          "vt:repository@uncommitted-initial-migration",
+          "vt:playtrace@910f36ed3c0764e55621c2c7e39e294f3e71e2d48d360126fca667cbbecfac2f"
+        ],
+        "executed": true,
+        "execution_count": 4
+      },
+      {
+        "id": "vt:semantic:trial",
+        "origin": "plugin_extension",
+        "description": "Independent domain assent and exact owner-signed assignment pledges.",
+        "entity_ids": [],
+        "rule_ids": [],
+        "provenance": [
+          "engine-sha256:5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df"
+        ],
+        "assertion_ids": [],
+        "source_revision_ids": [
+          "vt:source:project@AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+          "vt:source:rulebook@AHj4eMT02OyJM0aGKvf6o41qcKdXIFijcgpv-J4UaXnJwB6EdO1Ky8lRDusd8T_IQquFf3TOEZAXmajYa2FWw5MVtXpb3OTF558EG12otnw",
+          "vt:source:facilitator@AHj4eMRaDB-WZPAw4y6Q0Y_aQi9wKfrmcsfGpjR4G8uYoJDbX2nJEbLKRWg4gyZYPM5wglRZltsLtdBt7HU5BSaF80IKaSxRYehHb8afkrk",
+          "vt:source:playtest@AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+          "vt:source:lore@AHj4eMTwn2CM-i7NACkmrw77FZLASRhIv-1t1x3d_nngFeg2xp5V78Yvr1ClKeoyoi4vdBY-ndmhIKt0ePZbQZjhkBhqQQdgQo-6vm6NvAI",
+          "vt:engine@5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
+          "vt:repository@uncommitted-initial-migration",
+          "vt:playtrace@910f36ed3c0764e55621c2c7e39e294f3e71e2d48d360126fca667cbbecfac2f"
+        ],
+        "executed": true,
+        "execution_count": 2
+      },
+      {
+        "id": "vt:semantic:settlement",
+        "origin": "plugin_extension",
+        "description": "Five explicit approvals, three weighted signatures, threshold and fallback.",
+        "entity_ids": [],
+        "rule_ids": [],
+        "provenance": [
+          "engine-sha256:5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df"
+        ],
+        "assertion_ids": [],
+        "source_revision_ids": [
+          "vt:source:project@AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+          "vt:source:rulebook@AHj4eMT02OyJM0aGKvf6o41qcKdXIFijcgpv-J4UaXnJwB6EdO1Ky8lRDusd8T_IQquFf3TOEZAXmajYa2FWw5MVtXpb3OTF558EG12otnw",
+          "vt:source:facilitator@AHj4eMRaDB-WZPAw4y6Q0Y_aQi9wKfrmcsfGpjR4G8uYoJDbX2nJEbLKRWg4gyZYPM5wglRZltsLtdBt7HU5BSaF80IKaSxRYehHb8afkrk",
+          "vt:source:playtest@AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+          "vt:source:lore@AHj4eMTwn2CM-i7NACkmrw77FZLASRhIv-1t1x3d_nngFeg2xp5V78Yvr1ClKeoyoi4vdBY-ndmhIKt0ePZbQZjhkBhqQQdgQo-6vm6NvAI",
+          "vt:engine@5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
+          "vt:repository@uncommitted-initial-migration",
+          "vt:playtrace@910f36ed3c0764e55621c2c7e39e294f3e71e2d48d360126fca667cbbecfac2f"
+        ],
+        "executed": true,
+        "execution_count": 2
+      }
+    ],
+    "blocking_usage_ids": []
+  }
+}

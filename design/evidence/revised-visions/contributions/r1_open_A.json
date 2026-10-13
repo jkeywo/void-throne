@@ -1,0 +1,13 @@
+{
+  "run": 1,
+  "id": "r1_open_A",
+  "role": "A",
+  "phase": "r1-council",
+  "channel": "Security",
+  "messages": [
+    {"to": "GS/JS", "text": "Both factions have supplied the assignments needed for our revised bargain. Grey Petrel is now lodged for Relief lift. I propose the council Raid and will issue the Warrant using offered Vigil, so do not order Guard with that same asset. This buys civilian relief and protection alongside successful military action and Guild trade. The Raid's civilian cost is real; the reserve compensates rather than erases it. We should judge the next constitution by whether its delegates can fund comparably responsible choices."},
+    {"to": "NAVIGATION", "text": "Written directive: Relief. Grey Petrel is lodged for Relief lift and supplies the missing Wayfarer requirement. Lantern remains Maintain; Wayfarer trades. Please return any operational objection before the bell."}
+  ],
+  "proposal": {"navigation_order": "Relief", "security_order": "Raid", "warrant": true},
+  "reason": "Locked assignments support the compromise; forecast on known effects remains Beacon one, Communities three and Readiness four. Final council confirmation follows discussion."
+}

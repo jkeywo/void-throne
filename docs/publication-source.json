@@ -1,0 +1,1059 @@
+{
+  "rulebook": {
+    "title": "The Void Throne — Player Rulebook, draft v0.3",
+    "sections": [
+      [
+        "A government worth leaving behind",
+        [
+          "The conquest is complete. The peace has not begun. At the Seam, the Ascendant, the Ductus Guild and the Janissariat must settle who will govern the routes and who will command the army. Meanwhile, the Narrow is failing, troops need passage, and the same ships cannot carry every cargo.",
+          "[WORKING] This is the five-player paper prototype: two Guild players, two Janissariat players and one Ascendant, with a separate facilitator. Allow 60 minutes. Two operational rounds represent successive months before the Ceremony. You need cards, slips, three track counters, three foresight tokens and one reserve token. No computer is needed.",
+          "Contents: your roles; the assets and tracks; the sequence of play; orders; government; settlement; reference and debrief."
+        ]
+      ],
+      [
+        "Your roles",
+        [
+          "Ductus Guild: protect navigators, obtain a response to Navigation Rights Petition GUILD-14, preserve navigation rights, and keep your commercial institution viable. Your faction owns Wayfarer and Lantern. You decide your priorities together; you do not have individual secret goals.",
+          "Janissariat: protect Spear, sustain the conditioning that makes your army effective, and secure a constitutional future for the institution. You own Spear and Vigil. Peaceful service can protect people while reducing your military power. An independent Raid is possible without another faction’s permission; its risks and legal costs still apply.",
+          "Ascendant: build a government that can function without repeated personal intervention. Seek a ratified settlement with Beacon at least 1, Communities at least 2 and Readiness at least 2; prefer Readiness 3+ and intact Spear where the cost is acceptable. Retaining imperial command is not a victory requirement. Your three unspent foresight tokens contribute to your final leverage.",
+          "Each faction sends one member to Navigation and Supply (GN and JN) and one to Security and Government (GS and JS). The Ascendant attends Security and sends written Navigation directives. Council delegates may use only assets actually offered by their owners. A legal duty does not physically confiscate a ship or prevent disobedience."
+        ]
+      ],
+      [
+        "The Narrow: tracks and concrete assets",
+        [
+          "Start Beacon 2, Communities 3 and Readiness 3. All tracks run from 0 to 4. Beacon measures this route’s maintained service and access infrastructure, not the nature of the immaterial deep. Communities measure the welfare of people around the corridor. Readiness measures this force’s conditioned military effectiveness; a lower value is not a judgment that its people are worth less.",
+          "Wayfarer: Guild transport. Assign Council to offer it for an imperial voyage, or Trade for a private commercial voyage. It can do only one of these each round. Trade completes one contract at prepared Beacon 3+, or at 2 with Guard/Warrant. At 2 without protection it is disabled and earns no contract; below 2 it stays intact but does not depart. Contracts cannot be spent as resources.",
+          "Lantern: Guild tender and navigation team. Assign Maintain for Beacon +1 before crossings, or Council to enable Repair or Shared passage. Maintain does not also fund a council order. If its crew are lost, Lantern is unavailable for the rest of the prototype.",
+          "Spear: Janissariat cohort. Assign Council, independent Raid, or Stand down. Council offers it for Campaign or a council Raid; an independent Raid is unavailable to the council. Stand down grants no recovery. A disabled Spear cannot act again.",
+          "Vigil: Janissariat garrison. Assign Council for Guard or an eligible Warrant, or Home to protect institutional bases. Home grants no numerical bonus. Vigil remains intact in this prototype and can have only one use per round.",
+          "Grey Petrel: one already-contracted cutter with a licensed Guild pilot and protection detail. The Ascendant has one reserve service for the entire game. It does not create navigation expertise. A surviving faction asset returns after service; offering Wayfarer loses that round’s trading opportunity, not the ship or its ownership leverage."
+        ]
+      ],
+      [
+        "The 60-minute session",
+        [
+          "Briefing: 8 minutes. Each round: faction discussion 5 minutes, councils 7 minutes, free discussion 6 minutes. Play two rounds, then a 10-minute Ceremony and a 6-minute debrief.",
+          "Faction minutes 0–2: discuss your assets and desired orders. At minute 2 display each faction’s draft assignments and requests, plus the Ascendant’s draft directives and Warrant. If teammates disagree, display both proposals. Drafts do not bind. Mark an existing Standing Commitment LOCKED.",
+          "Faction minutes 2–3: the Ascendant reads the two public vision covers and chooses one card or NONE. Cost: one foresight token, paid before opening the card. At most one purchase per round. Missing, multiple or late choice means NONE. No later replacement, refund or second purchase.",
+          "Faction minutes 3–5: the Ascendant may show, describe or withhold the purchased answer. Revise unpledged assignments, then both teammates sign their exact faction sheet. Lodge Grey Petrel’s task by minute 5. The chosen card predicts consequences only if its printed conditions occur; it never predicts a player’s choice or grants authority. Hidden consequences occur whether read or unread.",
+          "Faction defaults: unsigned or disagreeing Guild sheet means Trade and Maintain; unsigned or disagreeing Janissariat sheet means Stand down and Home. Missing or multiple asset selections take that asset’s default. Lost or disabled assets are Absent. An active Standing Commitment overrides a conflicting later assignment, including a default.",
+          "Council bell: one final written order per council, with the initials required by its current article. Spoken orders and superseded notes have no effect. The final Warrant locks here. Invalid or unauthorised orders become Hold or Restraint without a penalty merely for invalidity; a valid order lacking its required asset has the printed failure cost. Resolve both councils together.",
+          "Round-one free discussion: after seeing the result, agree provisional articles and optional Standing Commitments. Round two tests what passed. Round-two free discussion prepares the final settlement; it adds no extra operation."
+        ]
+      ],
+      [
+        "Council orders and ordinary consequences",
+        [
+          "Relief — Cost: offered Wayfarer, or a triggered Grey Petrel Relief lift. Effect: if delivered, Communities +2 and one Beacon wear. Military — Cost: offered Wayfarer. Effect: delivered passage enables Campaign and wears Beacon by one; no cargo Community bonus. Shared — Cost: offered Wayfarer AND Lantern. Effect: if delivered, Communities +1, military passage and one Beacon wear.",
+          "Repair — Cost: offered Lantern. Effect: Beacon +2 before crossings. Hold — no asset and no effect. Each voyage needs prepared Beacon 2+. Without it, halt the voyage and lose Communities 1; no crossing wear. A valid unfunded Navigation order becomes Hold and costs Communities 1.",
+          "Campaign — Cost: offered Spear and delivered Military/Shared passage. Effect: Communities -1; at opening Readiness 2+ it achieves combat. Below 2, disable Spear. Without the required passage it does not leave, costs Communities 1 and leaves Spear intact. Raid — Cost: offered Spear, or its independent faction assignment. Effect: Communities -1 even if the target is absent. The target’s appearance is a fixed hidden condition. If present at opening Readiness 2+, achieve combat and lose one further Community; below 2, disable Spear with no extra Community loss.",
+          "Guard — Cost: offered Vigil not already used by a Warrant. Effect: Communities +1 and guarded status against specified physical threats. It neither raises Beacon nor permits a crossing below 2. Restraint — no asset and no effect. A valid Raid/Campaign missing offered Spear, or Guard missing unused offered Vigil, defaults to Restraint and costs Communities 1. An independently assigned Raid still resolves on its own terms.",
+          "If any successful Campaign or Raid achieves combat, Readiness +1 once this round; otherwise Readiness -1 once. Use opening Readiness for combat and Warrant checks. Food, Guard and Home do not sustain conditioning. Each round Communities lose 1 for ordinary consumption. Add all Community changes before limiting to 0–4. Prepare Beacon, cap preparation at 4, then deduct one wear for each actual crossing."
+        ]
+      ],
+      [
+        "The Ascendant’s remaining powers",
+        [
+          "Imperial Warrant — Requirement: Interim or MI authority, opening Readiness 3+, offered Vigil. Effect: use Vigil first, gain Communities +1 and guarded status. If issued under imperial authority without sufficient Readiness or offered Vigil, Communities -1. Outside that authority it is advice only. A simultaneous Guard cannot reuse Vigil and fails with its ordinary cost. Missing or unsigned Warrant means No.",
+          "Grey Petrel Relief lift — Trigger: the final authorised Navigation order is Relief and Wayfarer was not offered. Effect: supply that ship requirement and spend the reserve immediately, even if Beacon later halts the voyage. It cannot supply Military or Shared passage. It can coexist with a private Trade voyage, producing two crossings.",
+          "Grey Petrel Tender cover — Trigger: round one’s Shared voyage is delivered, unguarded, and its printed crew-loss consequence occurs. Effect: prevent that Lantern loss and spend the reserve; no other protection or track bonus. It has no round-two trigger. Keep, a missing selection or an untriggered task leaves the reserve available."
+        ]
+      ],
+      [
+        "Provisional articles: exercise authority before settling it",
+        [
+          "Round one begins under Interim: the Ascendant chooses both council orders; the Guild has no service duty; an independent Janissariat Raid breaks discipline and costs Communities 1. Round-two authority follows each enacted provisional article. No mid-round changes are allowed.",
+          "NG / Guild discretion: Guild delegate chooses Navigation. Duty: Lantern Maintain or funded Repair each round; otherwise Communities -1. Wayfarer may Trade. NI / imperial priority: Ascendant chooses Navigation. Duty: offer Wayfarer each round, otherwise Communities -1. NJ / joint authorisation: both Navigation delegates must agree or Hold. Duty: offer Wayfarer, otherwise Communities -1. NI/NJ service forgoes a private voyage even if the council leaves the ship idle.",
+          "MI / imperial command: Ascendant chooses Security and retains eligible Warrant power. Duty: offer Spear; otherwise Communities -1. MA / military autonomy: Janissariat Security delegate chooses; no imperial Warrant. Duty: keep Vigil Home, otherwise Communities -1. MJ / joint authorisation: both Security delegates must agree or Restraint; no imperial Warrant. Duty: offer Spear, otherwise Communities -1. Each faction suffers at most one duty penalty per round. A breach does not cancel an otherwise possible independent action.",
+          "To enact an article after round one, both relevant council delegates and the Ascendant must sign the same exact terms. Domains are independent. Otherwise that domain stays Interim. Each faction may attach one available asset assignment to one exact article: Wayfarer Council, Lantern Council/Maintain, Spear Council, or Vigil Council/Home. Both owners must approve it. An attached unsigned pledge prevents that article passing. An article can pass without a pledge.",
+          "Activated Standing Commitments bind the named assignment for round two, not the actual council order. They expire after that round. A public operational plan is a promise, not a new mechanical rule. Wider communications rights and the full empire’s constitutional disputes are outside these two instruments."
+        ]
+      ],
+      [
+        "The Ceremony of Settlement",
+        [
+          "Freeze weights after round two. Guild: 2 for intact Wayfarer, 1 for living Lantern crew, 1 for Beacon at least 1. Janissariat: Readiness. Ascendant: Readiness plus unspent foresight. Readiness counts in both political weights without duplicating the army. Contracts and reserve do not add votes.",
+          "Choose one Navigation and one Military alternative as a complete package. Both Guild players must approve it for the Guild signature; both Janissariat players for the army signature. The Ascendant signs individually. Pass with at least two-thirds of ALL available leverage, rounded up, and at least two positive-weight parties. Refusals and divided factions remain in the denominator. There is no inherent veto and no transferable leverage.",
+          "Collect fresh votes whenever the package changes. The test bench allows two ballots within the Ceremony. A passing package settles both instruments, including duties on dissenters. If no package passes, provisional articles expire and both domains return to Interim. Physical outcomes remain. Other institutions have already accepted the permitted alternatives and will perform the wider Charter’s formalities: this is a scenario adaptation, not a surprise facilitator veto.",
+          "Debrief: did an event change your preferred constitution? What did each faction sacrifice? Was conflict a credible unilateral option? Did each teammate contribute? Did foresight change an action, a bargain, or only confidence? Three tokens and two possible purchases guarantee at least one remains; deliberate saving requires choosing NONE."
+        ]
+      ],
+      [
+        "Reference and authorship",
+        [
+          "The complete current player reference is preserved locally as docs/current-player-rules.txt. The facilitator guide contains the four concealed vision answers and the exact resolution order. Earlier v0.1/v0.2 packs are historical; their superseded foresight timing and final voting rules do not override this draft.",
+          "Design by John Keyworth; prototype consolidation and testing assistance by Codex. This v0.3 label identifies the migrated revised-visions draft, not a new set of balance changes."
+        ]
+      ]
+    ],
+    "blocks": [
+      [
+        "TITLE",
+        "The Void Throne — Player Rulebook, draft v0.3"
+      ],
+      [
+        "HEADING_1",
+        "A government worth leaving behind"
+      ],
+      [
+        "NORMAL_TEXT",
+        "The conquest is complete. The peace has not begun. At the Seam, the Ascendant, the Ductus Guild and the Janissariat must settle who will govern the routes and who will command the army. Meanwhile, the Narrow is failing, troops need passage, and the same ships cannot carry every cargo."
+      ],
+      [
+        "NORMAL_TEXT",
+        "[WORKING] This is the five-player paper prototype: two Guild players, two Janissariat players and one Ascendant, with a separate facilitator. Allow 60 minutes. Two operational rounds represent successive months before the Ceremony. You need cards, slips, three track counters, three foresight tokens and one reserve token. No computer is needed."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Contents: your roles; the assets and tracks; the sequence of play; orders; government; settlement; reference and debrief."
+      ],
+      [
+        "HEADING_1",
+        "Your roles"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Ductus Guild: protect navigators, obtain a response to Navigation Rights Petition GUILD-14, preserve navigation rights, and keep your commercial institution viable. Your faction owns Wayfarer and Lantern. You decide your priorities together; you do not have individual secret goals."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Janissariat: protect Spear, sustain the conditioning that makes your army effective, and secure a constitutional future for the institution. You own Spear and Vigil. Peaceful service can protect people while reducing your military power. An independent Raid is possible without another faction’s permission; its risks and legal costs still apply."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Ascendant: build a government that can function without repeated personal intervention. Seek a ratified settlement with Beacon at least 1, Communities at least 2 and Readiness at least 2; prefer Readiness 3+ and intact Spear where the cost is acceptable. Retaining imperial command is not a victory requirement. Your three unspent foresight tokens contribute to your final leverage."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Each faction sends one member to Navigation and Supply (GN and JN) and one to Security and Government (GS and JS). The Ascendant attends Security and sends written Navigation directives. Council delegates may use only assets actually offered by their owners. A legal duty does not physically confiscate a ship or prevent disobedience."
+      ],
+      [
+        "HEADING_1",
+        "The Narrow: tracks and concrete assets"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Start Beacon 2, Communities 3 and Readiness 3. All tracks run from 0 to 4. Beacon measures this route’s maintained service and access infrastructure, not the nature of the immaterial deep. Communities measure the welfare of people around the corridor. Readiness measures this force’s conditioned military effectiveness; a lower value is not a judgment that its people are worth less."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Wayfarer: Guild transport. Assign Council to offer it for an imperial voyage, or Trade for a private commercial voyage. It can do only one of these each round. Trade completes one contract at prepared Beacon 3+, or at 2 with Guard/Warrant. At 2 without protection it is disabled and earns no contract; below 2 it stays intact but does not depart. Contracts cannot be spent as resources."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Lantern: Guild tender and navigation team. Assign Maintain for Beacon +1 before crossings, or Council to enable Repair or Shared passage. Maintain does not also fund a council order. If its crew are lost, Lantern is unavailable for the rest of the prototype."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Spear: Janissariat cohort. Assign Council, independent Raid, or Stand down. Council offers it for Campaign or a council Raid; an independent Raid is unavailable to the council. Stand down grants no recovery. A disabled Spear cannot act again."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Vigil: Janissariat garrison. Assign Council for Guard or an eligible Warrant, or Home to protect institutional bases. Home grants no numerical bonus. Vigil remains intact in this prototype and can have only one use per round."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Grey Petrel: one already-contracted cutter with a licensed Guild pilot and protection detail. The Ascendant has one reserve service for the entire game. It does not create navigation expertise. A surviving faction asset returns after service; offering Wayfarer loses that round’s trading opportunity, not the ship or its ownership leverage."
+      ],
+      [
+        "HEADING_1",
+        "The 60-minute session"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Briefing: 8 minutes. Each round: faction discussion 5 minutes, councils 7 minutes, free discussion 6 minutes. Play two rounds, then a 10-minute Ceremony and a 6-minute debrief."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Faction minutes 0–2: discuss your assets and desired orders. At minute 2 display each faction’s draft assignments and requests, plus the Ascendant’s draft directives and Warrant. If teammates disagree, display both proposals. Drafts do not bind. Mark an existing Standing Commitment LOCKED."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Faction minutes 2–3: the Ascendant reads the two public vision covers and chooses one card or NONE. Cost: one foresight token, paid before opening the card. At most one purchase per round. Missing, multiple or late choice means NONE. No later replacement, refund or second purchase."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Faction minutes 3–5: the Ascendant may show, describe or withhold the purchased answer. Revise unpledged assignments, then both teammates sign their exact faction sheet. Lodge Grey Petrel’s task by minute 5. The chosen card predicts consequences only if its printed conditions occur; it never predicts a player’s choice or grants authority. Hidden consequences occur whether read or unread."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Faction defaults: unsigned or disagreeing Guild sheet means Trade and Maintain; unsigned or disagreeing Janissariat sheet means Stand down and Home. Missing or multiple asset selections take that asset’s default. Lost or disabled assets are Absent. An active Standing Commitment overrides a conflicting later assignment, including a default."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Council bell: one final written order per council, with the initials required by its current article. Spoken orders and superseded notes have no effect. The final Warrant locks here. Invalid or unauthorised orders become Hold or Restraint without a penalty merely for invalidity; a valid order lacking its required asset has the printed failure cost. Resolve both councils together."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Round-one free discussion: after seeing the result, agree provisional articles and optional Standing Commitments. Round two tests what passed. Round-two free discussion prepares the final settlement; it adds no extra operation."
+      ],
+      [
+        "HEADING_1",
+        "Council orders and ordinary consequences"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Relief — Cost: offered Wayfarer, or a triggered Grey Petrel Relief lift. Effect: if delivered, Communities +2 and one Beacon wear. Military — Cost: offered Wayfarer. Effect: delivered passage enables Campaign and wears Beacon by one; no cargo Community bonus. Shared — Cost: offered Wayfarer AND Lantern. Effect: if delivered, Communities +1, military passage and one Beacon wear."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Repair — Cost: offered Lantern. Effect: Beacon +2 before crossings. Hold — no asset and no effect. Each voyage needs prepared Beacon 2+. Without it, halt the voyage and lose Communities 1; no crossing wear. A valid unfunded Navigation order becomes Hold and costs Communities 1."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Campaign — Cost: offered Spear and delivered Military/Shared passage. Effect: Communities -1; at opening Readiness 2+ it achieves combat. Below 2, disable Spear. Without the required passage it does not leave, costs Communities 1 and leaves Spear intact. Raid — Cost: offered Spear, or its independent faction assignment. Effect: Communities -1 even if the target is absent. The target’s appearance is a fixed hidden condition. If present at opening Readiness 2+, achieve combat and lose one further Community; below 2, disable Spear with no extra Community loss."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Guard — Cost: offered Vigil not already used by a Warrant. Effect: Communities +1 and guarded status against specified physical threats. It neither raises Beacon nor permits a crossing below 2. Restraint — no asset and no effect. A valid Raid/Campaign missing offered Spear, or Guard missing unused offered Vigil, defaults to Restraint and costs Communities 1. An independently assigned Raid still resolves on its own terms."
+      ],
+      [
+        "NORMAL_TEXT",
+        "If any successful Campaign or Raid achieves combat, Readiness +1 once this round; otherwise Readiness -1 once. Use opening Readiness for combat and Warrant checks. Food, Guard and Home do not sustain conditioning. Each round Communities lose 1 for ordinary consumption. Add all Community changes before limiting to 0–4. Prepare Beacon, cap preparation at 4, then deduct one wear for each actual crossing."
+      ],
+      [
+        "HEADING_1",
+        "The Ascendant’s remaining powers"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Imperial Warrant — Requirement: Interim or MI authority, opening Readiness 3+, offered Vigil. Effect: use Vigil first, gain Communities +1 and guarded status. If issued under imperial authority without sufficient Readiness or offered Vigil, Communities -1. Outside that authority it is advice only. A simultaneous Guard cannot reuse Vigil and fails with its ordinary cost. Missing or unsigned Warrant means No."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Grey Petrel Relief lift — Trigger: the final authorised Navigation order is Relief and Wayfarer was not offered. Effect: supply that ship requirement and spend the reserve immediately, even if Beacon later halts the voyage. It cannot supply Military or Shared passage. It can coexist with a private Trade voyage, producing two crossings."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Grey Petrel Tender cover — Trigger: round one’s Shared voyage is delivered, unguarded, and its printed crew-loss consequence occurs. Effect: prevent that Lantern loss and spend the reserve; no other protection or track bonus. It has no round-two trigger. Keep, a missing selection or an untriggered task leaves the reserve available."
+      ],
+      [
+        "HEADING_1",
+        "Provisional articles: exercise authority before settling it"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Round one begins under Interim: the Ascendant chooses both council orders; the Guild has no service duty; an independent Janissariat Raid breaks discipline and costs Communities 1. Round-two authority follows each enacted provisional article. No mid-round changes are allowed."
+      ],
+      [
+        "NORMAL_TEXT",
+        "NG / Guild discretion: Guild delegate chooses Navigation. Duty: Lantern Maintain or funded Repair each round; otherwise Communities -1. Wayfarer may Trade. NI / imperial priority: Ascendant chooses Navigation. Duty: offer Wayfarer each round, otherwise Communities -1. NJ / joint authorisation: both Navigation delegates must agree or Hold. Duty: offer Wayfarer, otherwise Communities -1. NI/NJ service forgoes a private voyage even if the council leaves the ship idle."
+      ],
+      [
+        "NORMAL_TEXT",
+        "MI / imperial command: Ascendant chooses Security and retains eligible Warrant power. Duty: offer Spear; otherwise Communities -1. MA / military autonomy: Janissariat Security delegate chooses; no imperial Warrant. Duty: keep Vigil Home, otherwise Communities -1. MJ / joint authorisation: both Security delegates must agree or Restraint; no imperial Warrant. Duty: offer Spear, otherwise Communities -1. Each faction suffers at most one duty penalty per round. A breach does not cancel an otherwise possible independent action."
+      ],
+      [
+        "NORMAL_TEXT",
+        "To enact an article after round one, both relevant council delegates and the Ascendant must sign the same exact terms. Domains are independent. Otherwise that domain stays Interim. Each faction may attach one available asset assignment to one exact article: Wayfarer Council, Lantern Council/Maintain, Spear Council, or Vigil Council/Home. Both owners must approve it. An attached unsigned pledge prevents that article passing. An article can pass without a pledge."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Activated Standing Commitments bind the named assignment for round two, not the actual council order. They expire after that round. A public operational plan is a promise, not a new mechanical rule. Wider communications rights and the full empire’s constitutional disputes are outside these two instruments."
+      ],
+      [
+        "HEADING_1",
+        "The Ceremony of Settlement"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Freeze weights after round two. Guild: 2 for intact Wayfarer, 1 for living Lantern crew, 1 for Beacon at least 1. Janissariat: Readiness. Ascendant: Readiness plus unspent foresight. Readiness counts in both political weights without duplicating the army. Contracts and reserve do not add votes."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Choose one Navigation and one Military alternative as a complete package. Both Guild players must approve it for the Guild signature; both Janissariat players for the army signature. The Ascendant signs individually. Pass with at least two-thirds of ALL available leverage, rounded up, and at least two positive-weight parties. Refusals and divided factions remain in the denominator. There is no inherent veto and no transferable leverage."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Collect fresh votes whenever the package changes. The test bench allows two ballots within the Ceremony. A passing package settles both instruments, including duties on dissenters. If no package passes, provisional articles expire and both domains return to Interim. Physical outcomes remain. Other institutions have already accepted the permitted alternatives and will perform the wider Charter’s formalities: this is a scenario adaptation, not a surprise facilitator veto."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Debrief: did an event change your preferred constitution? What did each faction sacrifice? Was conflict a credible unilateral option? Did each teammate contribute? Did foresight change an action, a bargain, or only confidence? Three tokens and two possible purchases guarantee at least one remains; deliberate saving requires choosing NONE."
+      ],
+      [
+        "HEADING_1",
+        "Reference and authorship"
+      ],
+      [
+        "NORMAL_TEXT",
+        "The complete current player reference is preserved locally as docs/current-player-rules.txt. The facilitator guide contains the four concealed vision answers and the exact resolution order. Earlier v0.1/v0.2 packs are historical; their superseded foresight timing and final voting rules do not override this draft."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Design by John Keyworth; prototype consolidation and testing assistance by Codex. This v0.3 label identifies the migrated revised-visions draft, not a new set of balance changes."
+      ]
+    ]
+  },
+  "facilitator": {
+    "title": "The Void Throne — Facilitator Guide, draft v0.3",
+    "sections": [
+      [
+        "Your task",
+        [
+          "Run the two-month crisis and make the consequences legible. Players decide what to offer, which orders to issue, and what government they will accept. Apply the printed outcomes. Do not invent a prophecy, a resource, a signature, an extra veto or a reward for cooperation.",
+          "[WORKING] This guide implements the revised visions, Trial A Standing Commitments and weighted final settlement. The computer model is an implementation to check, not permission to overrule the paper rules. The browser is an all-seat facilitator test bench; the preserved LLM run is separate evidence."
+        ]
+      ],
+      [
+        "Setup and opening brief",
+        [
+          "Seat GN and JN at Navigation and Supply; GS, JS and A at Security and Government. Give both members of each faction their shared brief and assets. Keep the four private vision answers behind your screen; put both current-round covers face up only at the purchase window.",
+          "Start Beacon 2, Communities 3, Readiness 3, all faction assets intact, contracts 0, reserve available and foresight 3. Record Interim in both domains. Give the Ascendant Grey Petrel’s one reserve marker. Publish starting leverage: Guild 4, Janissariat 3, Ascendant 6; total 13, threshold 9.",
+          "Explain the fiction: the Narrow is a route with maintained infrastructure, not a measure of universal psychic safety. The operation is local, not the entire three-billion-strong Janissariat or the whole Guild. The named remnant raiders are a scenario invention, not the civilian resistance of Vethis Secundus. Players meet at the Seam; each round compresses a month before the final Ceremony.",
+          "Print the public rulebook, three shared-role briefs, two council sheets, six Charter cards, four vision covers and four folded answers, asset cards, faction/council decision slips, trial proposal/vote slips and final ballots. Earlier printable packs can supply unchanged asset and council cards, but use the current foresight and weighted settlement sheets. The repository retains these packs with version labels."
+        ]
+      ],
+      [
+        "Run the clock",
+        [
+          "0–8: briefing. 8–13: round-one factions, including drafts at faction minute 2, optional purchase by minute 3, final commitments at minute 5. 13–20: councils. Resolve at the bell. 20–26: discuss the result and sign provisional articles. 26–31: round-two factions, same internal sequence. 31–38: councils and resolution. 38–44: free discussion. 44–54: Ceremony. 54–60: debrief.",
+          "Before purchase, display drafts without private reasoning unless the player elects to share it. If there is no agreement, show the two positions or UNDECLARED. A draft never authorises asset use. Pay before dealing one exact answer; publish expenditure and remaining foresight, not the chosen domain. Record NONE if late or absent. Allow disclosure and revision before commitment.",
+          "At the faction bell check both owner signatures on the same pair, then apply defaults to unpledged cards and override with any activated Standing Commitment. Mark unavailable cards Absent. Lodge one reserve task. At the council bell check current authority, final order and Warrant. Use final sheets, not intentions. Display drafts and final sheets beside one another for the debrief."
+        ]
+      ],
+      [
+        "Resolve in this order",
+        [
+          "1. Establish assignments, unavailable assets, current articles and lawful signed council orders. Invalid Navigation becomes Hold; invalid Security becomes Restraint. No penalty for invalidity alone.",
+          "2. Begin the Community change at -1 for monthly consumption. Check the Warrant using opening Readiness and offered Vigil. A lawful valid Warrant uses Vigil first, gives +1 Community and guarded status. An unsupported imperial Warrant gives -1; a Warrant outside imperial authority has no effect.",
+          "3. Check Guard: unused offered Vigil gives +1 Community and guarded status. If missing or already used, change Guard to Restraint and add -1 Community.",
+          "4. Fund Navigation. A lodged available Relief lift triggers only for Relief without offered Wayfarer; spend Grey Petrel immediately. Check all other costs. An unfunded order becomes Hold and adds -1 Community. Prepare Beacon with Maintain +1 and funded Repair +2, capped at 4.",
+          "5. Resolve the council voyage against prepared Beacon. Below 2, halt it and add -1 Community; do not wear Beacon. Otherwise apply Relief +2 or Shared +1 Communities (Military 0), record delivered passage and one crossing wear.",
+          "6. Resolve private Trade against the same prepared Beacon. At 3+, or 2 guarded, complete a contract and add one crossing wear. At 2 unguarded, disable Wayfarer, no contract, one wear. Below 2, halt intact with no wear. A reserve Relief voyage and private Trade can both cross.",
+          "7. Check each faction’s article duty. NG needs Maintain or funded Repair; NI/NJ need Wayfarer offered; MI/MJ need Spear offered; MA needs Vigil Home; Interim independent Raid breaches army discipline. Add at most one Community penalty per faction. Loss of an asset does not waive a duty.",
+          "8. Resolve Campaign and/or an independent Raid using opening Readiness. A valid council Campaign/Raid without offered Spear adds -1 Community and no council combat; a separately assigned independent Raid still resolves. Campaign missing delivered Military/Shared passage costs 1 Community, does not fight and leaves Spear intact. With passage, it costs 1; Readiness 2+ achieves combat, otherwise disable Spear. A Raid costs 1 for disruption; consult its round’s fixed target condition. If target present, Readiness 2+ achieves combat and adds a second Community cost; below 2 disable Spear without that second loss.",
+          "9. Apply the other round-specific hidden conditions printed below, whether purchased or not. Tender cover can prevent only its exact printed crew loss. Never substitute the cover question for the full condition.",
+          "10. Apply one Readiness change: +1 if any qualifying combat occurred, otherwise -1. Final Beacon is prepared Beacon minus actual crossing wear. Add all Community changes to its opening value. Clamp each final track to 0–4. Mark asset losses, contracts and reserve. Publish consequences and updated signature weights. After round two, expire temporary assignment pledges."
+        ]
+      ],
+      [
+        "Fixed visions: facilitator-only answers",
+        [
+          "The following are the exact cards in the revised-visions test. The cover defines that card’s scope, not the safety of the whole plan. Ordinary duties, consumption and costs still apply. These effects happen whether or not the Ascendant buys the card."
+        ]
+      ],
+      [
+        "Vision R1-N",
+        [
+          "The exposed transfer",
+          "Shared crosses without protection → If funded Shared passage is delivered and there is no funded Guard or valid Warrant, Lantern’s navigation team is lost. A lodged, available Grey Petrel on Tender cover prevents this loss and is spent.",
+          "Shared crosses with protection → A funded Guard or valid Warrant prevents this crew loss. Tender cover does not trigger and stays available.",
+          "Shared does not cross → This crew-loss effect does not occur. An unfunded or halted order still has its normal cost.",
+          "Shared needs both Wayfarer and Lantern on Council. Passage still needs prepared Beacon 2+. Guard needs offered Vigil; a Warrant also needs imperial authority and opening Readiness 3+. Protection does not repair Beacon or avoid crossing wear."
+        ]
+      ],
+      [
+        "Vision R1-S",
+        [
+          "The merchant’s wake",
+          "Wayfarer completes private Trade → A Raid finds the target. At opening Readiness 2+, it fights: total Raid cost Communities −2 and the round’s combat change is Readiness +1. At Readiness 0–1, Spear is disabled: Raid costs Communities −1 and there is no qualifying combat from that Raid.",
+          "No completed private Trade → The Raid finds no target. It costs Communities −1, Spear remains intact, and it provides no qualifying combat. Council Relief, Military or Shared passage does not substitute for a private contract.",
+          "No Raid → These Raid effects do not occur. Campaign and other orders follow their own rules.",
+          "A Trade assignment is not enough: the voyage must complete under the public Beacon and protection rules. If no operation achieves combat, Readiness falls by 1 once. Duty breaches and monthly consumption are additional; tracks stay within 0–4."
+        ]
+      ],
+      [
+        "Vision R2-N",
+        [
+          "Stores at the crossing",
+          "Military passage crosses unguarded → Delivered Military passage without funded Guard or valid Warrant causes an extra Communities −1. Protection prevents this extra loss. Grey Petrel’s Tender cover does not protect these stores.",
+          "Funded Repair and completed Trade → A funded council Repair together with a completed private Wayfarer Trade gives Communities +1 from distribution. Both must happen. Lantern must be on Council for Repair; Maintain is not Repair.",
+          "Neither condition → Neither extra supply effect applies. Relief and Shared receive their normal cargo effects; other cards and ordinary costs still apply.",
+          "Repair adds 2 to prepared Beacon, capped at 4, before voyages. Trade must complete. Military needs Wayfarer on Council, so it cannot also make private Trade. These two extra effects cannot both trigger in the same round."
+        ]
+      ],
+      [
+        "Vision R2-S",
+        [
+          "The relief column",
+          "Relief is delivered → A Raid finds the target if the authorised, funded Navigation order is Relief and its voyage actually crosses. Grey Petrel Relief lift counts. At opening Readiness 2+, Raid costs Communities −2 total and achieves combat; at 0–1, Spear is disabled, Raid costs Communities −1 and provides no qualifying combat.",
+          "Relief is not delivered → The Raid finds no target, costs Communities −1, leaves Spear intact and provides no qualifying combat. A proposed, unfunded or halted Relief order does not qualify. Shared, Military and private Trade do not qualify.",
+          "No Raid → Relief alone does not cause an attack or a Raid penalty. These effects require an actual Raid assignment or funded council Raid.",
+          "Combat changes Readiness by +1 once; no successful combat changes it by −1 once. Ordinary cargo, Guard, duty breaches and consumption still apply. A council Raid needs offered Spear; an independent Raid uses its own assignment."
+        ]
+      ],
+      [
+        "Trial and final votes",
+        [
+          "The round-one trial needs GN+JN+A for Navigation and GS+JS+A for Military. Check one exact article and its attached terms, independent of the other domain. Up to one pledge per faction, signed by both owners. Do not quietly detach an unsigned promise to pass its article. No pledge is compulsory. A passed pledge binds only that asset assignment in round two; an unsealed public plan has no mechanical penalty.",
+          "At the Ceremony freeze actual weights. Count both owners’ votes to produce each faction signature; refusal, missing approval or disagreement contributes no support, but the faction’s weight remains in the total. Threshold is ceil(2 × total / 3); at least two signing parties must have positive weight. A zero electorate cannot pass. Count no contracts, verbal concessions or invented influence.",
+          "Show a first exact package and record five fresh votes. If it fails, permit a replacement within the deadline and collect fresh votes. Stop on success. If neither passes, both provisional domains expire to Interim; no physical state changes. Record dissent even where the weighted package passes. Passing the arithmetic does not establish political consensus."
+        ]
+      ],
+      [
+        "Checks and debrief",
+        [
+          "Cooperation: assets remain scarce, a peaceful month reduces army and Ascendant leverage, and a public ship assignment forgoes a contract. Withheld resources: a directive cannot requisition them automatically. Conflicting orders: check authorised initials before funding. Averted prophecy: a guarded first-round Shared passage or triggered Tender cover prevents the printed crew loss. Failed ratification: expire articles without healing anything.",
+          "Ask for starting and ending constitutional preferences and the event that changed them. Ask each player which teammate contribution mattered. For foresight, distinguish assignment changes, council-request changes, final order changes, bargaining conditions and confidence. A remaining third token is unavoidable if there were two purchases; do not code it as deliberate saving.",
+          "The migrated six-agent run found a useful first purchase and a mostly confirmatory second purchase. It did not show deliberate saving or human timing. Do not guide the next Ascendant to repeat that result. Preserve choices before interpreting them."
+        ]
+      ]
+    ],
+    "blocks": [
+      [
+        "TITLE",
+        "The Void Throne — Facilitator Guide, draft v0.3"
+      ],
+      [
+        "HEADING_1",
+        "Your task"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Run the two-month crisis and make the consequences legible. Players decide what to offer, which orders to issue, and what government they will accept. Apply the printed outcomes. Do not invent a prophecy, a resource, a signature, an extra veto or a reward for cooperation."
+      ],
+      [
+        "NORMAL_TEXT",
+        "[WORKING] This guide implements the revised visions, Trial A Standing Commitments and weighted final settlement. The computer model is an implementation to check, not permission to overrule the paper rules. The browser is an all-seat facilitator test bench; the preserved LLM run is separate evidence."
+      ],
+      [
+        "HEADING_1",
+        "Setup and opening brief"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Seat GN and JN at Navigation and Supply; GS, JS and A at Security and Government. Give both members of each faction their shared brief and assets. Keep the four private vision answers behind your screen; put both current-round covers face up only at the purchase window."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Start Beacon 2, Communities 3, Readiness 3, all faction assets intact, contracts 0, reserve available and foresight 3. Record Interim in both domains. Give the Ascendant Grey Petrel’s one reserve marker. Publish starting leverage: Guild 4, Janissariat 3, Ascendant 6; total 13, threshold 9."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Explain the fiction: the Narrow is a route with maintained infrastructure, not a measure of universal psychic safety. The operation is local, not the entire three-billion-strong Janissariat or the whole Guild. The named remnant raiders are a scenario invention, not the civilian resistance of Vethis Secundus. Players meet at the Seam; each round compresses a month before the final Ceremony."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Print the public rulebook, three shared-role briefs, two council sheets, six Charter cards, four vision covers and four folded answers, asset cards, faction/council decision slips, trial proposal/vote slips and final ballots. Earlier printable packs can supply unchanged asset and council cards, but use the current foresight and weighted settlement sheets. The repository retains these packs with version labels."
+      ],
+      [
+        "HEADING_1",
+        "Run the clock"
+      ],
+      [
+        "NORMAL_TEXT",
+        "0–8: briefing. 8–13: round-one factions, including drafts at faction minute 2, optional purchase by minute 3, final commitments at minute 5. 13–20: councils. Resolve at the bell. 20–26: discuss the result and sign provisional articles. 26–31: round-two factions, same internal sequence. 31–38: councils and resolution. 38–44: free discussion. 44–54: Ceremony. 54–60: debrief."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Before purchase, display drafts without private reasoning unless the player elects to share it. If there is no agreement, show the two positions or UNDECLARED. A draft never authorises asset use. Pay before dealing one exact answer; publish expenditure and remaining foresight, not the chosen domain. Record NONE if late or absent. Allow disclosure and revision before commitment."
+      ],
+      [
+        "NORMAL_TEXT",
+        "At the faction bell check both owner signatures on the same pair, then apply defaults to unpledged cards and override with any activated Standing Commitment. Mark unavailable cards Absent. Lodge one reserve task. At the council bell check current authority, final order and Warrant. Use final sheets, not intentions. Display drafts and final sheets beside one another for the debrief."
+      ],
+      [
+        "HEADING_1",
+        "Resolve in this order"
+      ],
+      [
+        "NORMAL_TEXT",
+        "1. Establish assignments, unavailable assets, current articles and lawful signed council orders. Invalid Navigation becomes Hold; invalid Security becomes Restraint. No penalty for invalidity alone."
+      ],
+      [
+        "NORMAL_TEXT",
+        "2. Begin the Community change at -1 for monthly consumption. Check the Warrant using opening Readiness and offered Vigil. A lawful valid Warrant uses Vigil first, gives +1 Community and guarded status. An unsupported imperial Warrant gives -1; a Warrant outside imperial authority has no effect."
+      ],
+      [
+        "NORMAL_TEXT",
+        "3. Check Guard: unused offered Vigil gives +1 Community and guarded status. If missing or already used, change Guard to Restraint and add -1 Community."
+      ],
+      [
+        "NORMAL_TEXT",
+        "4. Fund Navigation. A lodged available Relief lift triggers only for Relief without offered Wayfarer; spend Grey Petrel immediately. Check all other costs. An unfunded order becomes Hold and adds -1 Community. Prepare Beacon with Maintain +1 and funded Repair +2, capped at 4."
+      ],
+      [
+        "NORMAL_TEXT",
+        "5. Resolve the council voyage against prepared Beacon. Below 2, halt it and add -1 Community; do not wear Beacon. Otherwise apply Relief +2 or Shared +1 Communities (Military 0), record delivered passage and one crossing wear."
+      ],
+      [
+        "NORMAL_TEXT",
+        "6. Resolve private Trade against the same prepared Beacon. At 3+, or 2 guarded, complete a contract and add one crossing wear. At 2 unguarded, disable Wayfarer, no contract, one wear. Below 2, halt intact with no wear. A reserve Relief voyage and private Trade can both cross."
+      ],
+      [
+        "NORMAL_TEXT",
+        "7. Check each faction’s article duty. NG needs Maintain or funded Repair; NI/NJ need Wayfarer offered; MI/MJ need Spear offered; MA needs Vigil Home; Interim independent Raid breaches army discipline. Add at most one Community penalty per faction. Loss of an asset does not waive a duty."
+      ],
+      [
+        "NORMAL_TEXT",
+        "8. Resolve Campaign and/or an independent Raid using opening Readiness. A valid council Campaign/Raid without offered Spear adds -1 Community and no council combat; a separately assigned independent Raid still resolves. Campaign missing delivered Military/Shared passage costs 1 Community, does not fight and leaves Spear intact. With passage, it costs 1; Readiness 2+ achieves combat, otherwise disable Spear. A Raid costs 1 for disruption; consult its round’s fixed target condition. If target present, Readiness 2+ achieves combat and adds a second Community cost; below 2 disable Spear without that second loss."
+      ],
+      [
+        "NORMAL_TEXT",
+        "9. Apply the other round-specific hidden conditions printed below, whether purchased or not. Tender cover can prevent only its exact printed crew loss. Never substitute the cover question for the full condition."
+      ],
+      [
+        "NORMAL_TEXT",
+        "10. Apply one Readiness change: +1 if any qualifying combat occurred, otherwise -1. Final Beacon is prepared Beacon minus actual crossing wear. Add all Community changes to its opening value. Clamp each final track to 0–4. Mark asset losses, contracts and reserve. Publish consequences and updated signature weights. After round two, expire temporary assignment pledges."
+      ],
+      [
+        "HEADING_1",
+        "Fixed visions: facilitator-only answers"
+      ],
+      [
+        "NORMAL_TEXT",
+        "The following are the exact cards in the revised-visions test. The cover defines that card’s scope, not the safety of the whole plan. Ordinary duties, consumption and costs still apply. These effects happen whether or not the Ascendant buys the card."
+      ],
+      [
+        "HEADING_1",
+        "Vision R1-N"
+      ],
+      [
+        "NORMAL_TEXT",
+        "The exposed transfer"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Shared crosses without protection → If funded Shared passage is delivered and there is no funded Guard or valid Warrant, Lantern’s navigation team is lost. A lodged, available Grey Petrel on Tender cover prevents this loss and is spent."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Shared crosses with protection → A funded Guard or valid Warrant prevents this crew loss. Tender cover does not trigger and stays available."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Shared does not cross → This crew-loss effect does not occur. An unfunded or halted order still has its normal cost."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Shared needs both Wayfarer and Lantern on Council. Passage still needs prepared Beacon 2+. Guard needs offered Vigil; a Warrant also needs imperial authority and opening Readiness 3+. Protection does not repair Beacon or avoid crossing wear."
+      ],
+      [
+        "HEADING_1",
+        "Vision R1-S"
+      ],
+      [
+        "NORMAL_TEXT",
+        "The merchant’s wake"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Wayfarer completes private Trade → A Raid finds the target. At opening Readiness 2+, it fights: total Raid cost Communities −2 and the round’s combat change is Readiness +1. At Readiness 0–1, Spear is disabled: Raid costs Communities −1 and there is no qualifying combat from that Raid."
+      ],
+      [
+        "NORMAL_TEXT",
+        "No completed private Trade → The Raid finds no target. It costs Communities −1, Spear remains intact, and it provides no qualifying combat. Council Relief, Military or Shared passage does not substitute for a private contract."
+      ],
+      [
+        "NORMAL_TEXT",
+        "No Raid → These Raid effects do not occur. Campaign and other orders follow their own rules."
+      ],
+      [
+        "NORMAL_TEXT",
+        "A Trade assignment is not enough: the voyage must complete under the public Beacon and protection rules. If no operation achieves combat, Readiness falls by 1 once. Duty breaches and monthly consumption are additional; tracks stay within 0–4."
+      ],
+      [
+        "HEADING_1",
+        "Vision R2-N"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Stores at the crossing"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Military passage crosses unguarded → Delivered Military passage without funded Guard or valid Warrant causes an extra Communities −1. Protection prevents this extra loss. Grey Petrel’s Tender cover does not protect these stores."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Funded Repair and completed Trade → A funded council Repair together with a completed private Wayfarer Trade gives Communities +1 from distribution. Both must happen. Lantern must be on Council for Repair; Maintain is not Repair."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Neither condition → Neither extra supply effect applies. Relief and Shared receive their normal cargo effects; other cards and ordinary costs still apply."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Repair adds 2 to prepared Beacon, capped at 4, before voyages. Trade must complete. Military needs Wayfarer on Council, so it cannot also make private Trade. These two extra effects cannot both trigger in the same round."
+      ],
+      [
+        "HEADING_1",
+        "Vision R2-S"
+      ],
+      [
+        "NORMAL_TEXT",
+        "The relief column"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Relief is delivered → A Raid finds the target if the authorised, funded Navigation order is Relief and its voyage actually crosses. Grey Petrel Relief lift counts. At opening Readiness 2+, Raid costs Communities −2 total and achieves combat; at 0–1, Spear is disabled, Raid costs Communities −1 and provides no qualifying combat."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Relief is not delivered → The Raid finds no target, costs Communities −1, leaves Spear intact and provides no qualifying combat. A proposed, unfunded or halted Relief order does not qualify. Shared, Military and private Trade do not qualify."
+      ],
+      [
+        "NORMAL_TEXT",
+        "No Raid → Relief alone does not cause an attack or a Raid penalty. These effects require an actual Raid assignment or funded council Raid."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Combat changes Readiness by +1 once; no successful combat changes it by −1 once. Ordinary cargo, Guard, duty breaches and consumption still apply. A council Raid needs offered Spear; an independent Raid uses its own assignment."
+      ],
+      [
+        "HEADING_1",
+        "Trial and final votes"
+      ],
+      [
+        "NORMAL_TEXT",
+        "The round-one trial needs GN+JN+A for Navigation and GS+JS+A for Military. Check one exact article and its attached terms, independent of the other domain. Up to one pledge per faction, signed by both owners. Do not quietly detach an unsigned promise to pass its article. No pledge is compulsory. A passed pledge binds only that asset assignment in round two; an unsealed public plan has no mechanical penalty."
+      ],
+      [
+        "NORMAL_TEXT",
+        "At the Ceremony freeze actual weights. Count both owners’ votes to produce each faction signature; refusal, missing approval or disagreement contributes no support, but the faction’s weight remains in the total. Threshold is ceil(2 × total / 3); at least two signing parties must have positive weight. A zero electorate cannot pass. Count no contracts, verbal concessions or invented influence."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Show a first exact package and record five fresh votes. If it fails, permit a replacement within the deadline and collect fresh votes. Stop on success. If neither passes, both provisional domains expire to Interim; no physical state changes. Record dissent even where the weighted package passes. Passing the arithmetic does not establish political consensus."
+      ],
+      [
+        "HEADING_1",
+        "Checks and debrief"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Cooperation: assets remain scarce, a peaceful month reduces army and Ascendant leverage, and a public ship assignment forgoes a contract. Withheld resources: a directive cannot requisition them automatically. Conflicting orders: check authorised initials before funding. Averted prophecy: a guarded first-round Shared passage or triggered Tender cover prevents the printed crew loss. Failed ratification: expire articles without healing anything."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Ask for starting and ending constitutional preferences and the event that changed them. Ask each player which teammate contribution mattered. For foresight, distinguish assignment changes, council-request changes, final order changes, bargaining conditions and confidence. A remaining third token is unavoidable if there were two purchases; do not code it as deliberate saving."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The migrated six-agent run found a useful first purchase and a mostly confirmatory second purchase. It did not show deliberate saving or human timing. Do not guide the next Ascendant to repeat that result. Preserve choices before interpreting them."
+      ]
+    ]
+  },
+  "lore": {
+    "title": "The Void Throne — Lore and Adaptation Record",
+    "sections": [
+      [
+        "How to use this record",
+        [
+          "This document records the established setting, explicit author corrections and the five-player adaptation separately. Historical source files are preserved with their original paths and SHA-256 checksums in the repository’s lore/source-inventory.json. This document contains facilitator spoilers from the larger game.",
+          "[WORKING] The current prototype borrows the setting and its institutional tensions. It does not silently turn every larger-game subsystem or secret character objective into a rule for the small game."
+        ]
+      ],
+      [
+        "Established setting: the Settled Dark",
+        [
+          "Roughly two hundred inhabited worlds, stations and habitats make up the Settled Dark. The six dynastic Houses of the Conclave of Thrones governed it for three millennia. The Ascendant broke their order over a conquest beginning sixty years ago; the last loyalist fleet broke at Pale Meridian eleven months before the original Charter Day. The source describes the Ascendant as ninety-six years old. Source: archive/legacy-lore/Setting.md.",
+          "The Charter negotiations take place at the Seam. The proposed empire is the Settled Dominion. The Charter is unfinished and contested; the original wider game includes the Houses, Administratum, Ecclesiatum and other institutions. The phrase “sixtieth year of the Settled Peace” sits beside the recently completed conquest in the source; preserve that phrasing as a chronology question rather than inventing a correction."
+        ]
+      ],
+      [
+        "The Ductus Guild",
+        [
+          "Guild navigators make interstellar travel possible by sensing the immaterial deep. The Guild’s indispensability is its political leverage. Navigation Rights Petition GUILD-14 has waited fourteen years for a response. Licensing, discretion and the unresolved scope of “associated services” matter; the Guild is not canonically a civilian-first charity. Source: Factions/Ductus Guild.md and Game/The Charter of Settlement.md.",
+          "Facilitator-only larger-game lore: navigation is reception of a transmission, not merely innate talent. Its character has changed. Different Guild characters know different pieces of the change, unexplored routes and possible communications. This prototype omits that information puzzle and its individual secrets; it does not refute them."
+        ]
+      ],
+      [
+        "The Janissariat",
+        [
+          "The Janissariat’s three billion psychically conditioned warriors made conquest possible. Conditioning is designed for war and frays in peacetime. The constitutional question is whether the army is a sacred autonomous order, an imperial instrument, or another institution subject to negotiated oversight. The original High Command has internal disagreements; this prototype replaces secret individual victory conditions with shared faction priorities. Source: Factions/Janissariat High Command.md.",
+          "Facilitator-only larger-game lore: conditioning derives from early Ductus research and suppresses a perceptual capability. Fraying can release that perception in people trained to treat it as a threat. It is not simply physical illness, moral decline or guaranteed peacefulness. Source: Lore/Fraying Conditioning Thread.md.",
+          "Explicit author clarification in this design conversation: not fighting costs combat power, creating an incentive for aggressive choices others may dislike. The Ascendant has their loyalty while they fight and needs a viable army while seeking a better future. In the prototype, qualifying combat sustains Readiness; peaceful rounds reduce it. This does not establish automatic treason after one quiet month."
+        ]
+      ],
+      [
+        "The Ascendant and the Throne Eternal",
+        [
+          "The Ascendant wants an empire that deserves to exist and a settlement that avoids future succession wars. The source depicts Communion as a process of transformation and uncertainty about whether they can verify their own goodness. Older mechanics include Tarot, Clarity and conditional orders. Those are historical mechanics, not the present small-game rules. Source: The Ascendant.md.",
+          "The Throne Eternal is the Ecclesiatum’s name for something ancient and directional, not simply a conventional benevolent god. Facilitator-only records distinguish discovery from a managed religious interpretation; its destination is uncertain. Source: The Throne Eternal.md.",
+          "Explicit author clarification: using foresight diminishes the Ascendant’s power; unspent foresight should contribute to settlement leverage. The Ascendant need not remain in control if they can trust the final government to govern without them. The three-token budget and weighted signature formula are prototype implementations of this instruction, not claims about a universal magical exchange rate."
+        ]
+      ],
+      [
+        "The Narrow and the prototype inventions",
+        [
+          "The Narrow is an established strategic corridor between dense stellar formations, with a waystation council that has governed for thirty generations. Vethis Secundus’s resistance is described as collective non-cooperation without a conventional military command structure. Do not reframe its civilians as the convenient enemy needed to maintain Janissariat power. Source: Systems/Vethis Cluster.md.",
+          "Scenario adaptation: the local failing beacon/service, stranded Spear cohort, Vigil garrison, Wayfarer transport, Lantern tender, Grey Petrel reserve and remnant raider target are named components of this prototype. Their exact availability, two-month timetable and conditional target appearances are authored scenario rules. They are not facts extracted from the original setting.",
+          "Beacon measures service infrastructure. Guild work prepares it; military protection addresses named physical attacks and exposed berths. Guard does not repair a psychic relationship with the void. Grey Petrel already has a contracted licensed pilot; the Ascendant never conjures a navigator.",
+          "The small game settles two outstanding instruments within a wider Charter. Nonplayed institutions are assumed to have accepted all six permitted alternatives and to provide formalities including sanctification. This removes a surprise veto without rewriting their broader canonical importance. The weighted final vote is a design adaptation, not the original Charter’s full legitimacy mechanism."
+        ]
+      ],
+      [
+        "Author corrections retained",
+        [
+          "Factions decide together; no individual secret objectives are required. Every faction has independent choices that can create risk and reward without another faction’s consent. Legal restrictions and physical capability are separate. Cooperation should involve actual compromise, not an automatic best outcome for everyone.",
+          "A lost commercial contract is an acute opportunity cost. A surviving ship returns after useful service. Do not remove ownership leverage merely because an asset was committed. Readiness contributes both Janissariat and Ascendant leverage; unspent foresight contributes only to the latter. Three foresight tokens, at most two purchases, implies a minimum one-token remainder.",
+          "The first five-player plan used unanimous final ratification. Later author-approved experiments replaced that with weighted party signatures; the current draft uses the latter. Trial articles still require the three relevant consents. This distinction must survive all future exports."
+        ]
+      ],
+      [
+        "Open questions and material outside this prototype",
+        [
+          "Still to establish through play: whether cooperation’s concessions are sufficiently even; whether a party chooses NONE; whether weighted ratification over army dissent produces a credible government; whether the six-minute trial phase fits human play; whether Military autonomy or joint authority is attractive when actually tested.",
+          "The larger conspiracy, Houses, Clarity transformation, succession forgery, five Pillars, strategic map, hidden transmissions and pre-human structures remain historical setting material outside this small scenario. They are preserved in the source archive, not introduced through surprise adjudication.",
+          "The separate GameSpec attempt describes a 24–30-player game and treats its source directory as canonical within that project. It is preserved under archive/legacy-gamespec as an older design line. This migration creates a separate Playtrace repository; it does not claim to validate or rewrite that GameSpec package."
+        ]
+      ]
+    ],
+    "blocks": [
+      [
+        "TITLE",
+        "The Void Throne — Lore and Adaptation Record"
+      ],
+      [
+        "HEADING_1",
+        "How to use this record"
+      ],
+      [
+        "NORMAL_TEXT",
+        "This document records the established setting, explicit author corrections and the five-player adaptation separately. Historical source files are preserved with their original paths and SHA-256 checksums in the repository’s lore/source-inventory.json. This document contains facilitator spoilers from the larger game."
+      ],
+      [
+        "NORMAL_TEXT",
+        "[WORKING] The current prototype borrows the setting and its institutional tensions. It does not silently turn every larger-game subsystem or secret character objective into a rule for the small game."
+      ],
+      [
+        "HEADING_1",
+        "Established setting: the Settled Dark"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Roughly two hundred inhabited worlds, stations and habitats make up the Settled Dark. The six dynastic Houses of the Conclave of Thrones governed it for three millennia. The Ascendant broke their order over a conquest beginning sixty years ago; the last loyalist fleet broke at Pale Meridian eleven months before the original Charter Day. The source describes the Ascendant as ninety-six years old. Source: archive/legacy-lore/Setting.md."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The Charter negotiations take place at the Seam. The proposed empire is the Settled Dominion. The Charter is unfinished and contested; the original wider game includes the Houses, Administratum, Ecclesiatum and other institutions. The phrase “sixtieth year of the Settled Peace” sits beside the recently completed conquest in the source; preserve that phrasing as a chronology question rather than inventing a correction."
+      ],
+      [
+        "HEADING_1",
+        "The Ductus Guild"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Guild navigators make interstellar travel possible by sensing the immaterial deep. The Guild’s indispensability is its political leverage. Navigation Rights Petition GUILD-14 has waited fourteen years for a response. Licensing, discretion and the unresolved scope of “associated services” matter; the Guild is not canonically a civilian-first charity. Source: Factions/Ductus Guild.md and Game/The Charter of Settlement.md."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Facilitator-only larger-game lore: navigation is reception of a transmission, not merely innate talent. Its character has changed. Different Guild characters know different pieces of the change, unexplored routes and possible communications. This prototype omits that information puzzle and its individual secrets; it does not refute them."
+      ],
+      [
+        "HEADING_1",
+        "The Janissariat"
+      ],
+      [
+        "NORMAL_TEXT",
+        "The Janissariat’s three billion psychically conditioned warriors made conquest possible. Conditioning is designed for war and frays in peacetime. The constitutional question is whether the army is a sacred autonomous order, an imperial instrument, or another institution subject to negotiated oversight. The original High Command has internal disagreements; this prototype replaces secret individual victory conditions with shared faction priorities. Source: Factions/Janissariat High Command.md."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Facilitator-only larger-game lore: conditioning derives from early Ductus research and suppresses a perceptual capability. Fraying can release that perception in people trained to treat it as a threat. It is not simply physical illness, moral decline or guaranteed peacefulness. Source: Lore/Fraying Conditioning Thread.md."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Explicit author clarification in this design conversation: not fighting costs combat power, creating an incentive for aggressive choices others may dislike. The Ascendant has their loyalty while they fight and needs a viable army while seeking a better future. In the prototype, qualifying combat sustains Readiness; peaceful rounds reduce it. This does not establish automatic treason after one quiet month."
+      ],
+      [
+        "HEADING_1",
+        "The Ascendant and the Throne Eternal"
+      ],
+      [
+        "NORMAL_TEXT",
+        "The Ascendant wants an empire that deserves to exist and a settlement that avoids future succession wars. The source depicts Communion as a process of transformation and uncertainty about whether they can verify their own goodness. Older mechanics include Tarot, Clarity and conditional orders. Those are historical mechanics, not the present small-game rules. Source: The Ascendant.md."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The Throne Eternal is the Ecclesiatum’s name for something ancient and directional, not simply a conventional benevolent god. Facilitator-only records distinguish discovery from a managed religious interpretation; its destination is uncertain. Source: The Throne Eternal.md."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Explicit author clarification: using foresight diminishes the Ascendant’s power; unspent foresight should contribute to settlement leverage. The Ascendant need not remain in control if they can trust the final government to govern without them. The three-token budget and weighted signature formula are prototype implementations of this instruction, not claims about a universal magical exchange rate."
+      ],
+      [
+        "HEADING_1",
+        "The Narrow and the prototype inventions"
+      ],
+      [
+        "NORMAL_TEXT",
+        "The Narrow is an established strategic corridor between dense stellar formations, with a waystation council that has governed for thirty generations. Vethis Secundus’s resistance is described as collective non-cooperation without a conventional military command structure. Do not reframe its civilians as the convenient enemy needed to maintain Janissariat power. Source: Systems/Vethis Cluster.md."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Scenario adaptation: the local failing beacon/service, stranded Spear cohort, Vigil garrison, Wayfarer transport, Lantern tender, Grey Petrel reserve and remnant raider target are named components of this prototype. Their exact availability, two-month timetable and conditional target appearances are authored scenario rules. They are not facts extracted from the original setting."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Beacon measures service infrastructure. Guild work prepares it; military protection addresses named physical attacks and exposed berths. Guard does not repair a psychic relationship with the void. Grey Petrel already has a contracted licensed pilot; the Ascendant never conjures a navigator."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The small game settles two outstanding instruments within a wider Charter. Nonplayed institutions are assumed to have accepted all six permitted alternatives and to provide formalities including sanctification. This removes a surprise veto without rewriting their broader canonical importance. The weighted final vote is a design adaptation, not the original Charter’s full legitimacy mechanism."
+      ],
+      [
+        "HEADING_1",
+        "Author corrections retained"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Factions decide together; no individual secret objectives are required. Every faction has independent choices that can create risk and reward without another faction’s consent. Legal restrictions and physical capability are separate. Cooperation should involve actual compromise, not an automatic best outcome for everyone."
+      ],
+      [
+        "NORMAL_TEXT",
+        "A lost commercial contract is an acute opportunity cost. A surviving ship returns after useful service. Do not remove ownership leverage merely because an asset was committed. Readiness contributes both Janissariat and Ascendant leverage; unspent foresight contributes only to the latter. Three foresight tokens, at most two purchases, implies a minimum one-token remainder."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The first five-player plan used unanimous final ratification. Later author-approved experiments replaced that with weighted party signatures; the current draft uses the latter. Trial articles still require the three relevant consents. This distinction must survive all future exports."
+      ],
+      [
+        "HEADING_1",
+        "Open questions and material outside this prototype"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Still to establish through play: whether cooperation’s concessions are sufficiently even; whether a party chooses NONE; whether weighted ratification over army dissent produces a credible government; whether the six-minute trial phase fits human play; whether Military autonomy or joint authority is attractive when actually tested."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The larger conspiracy, Houses, Clarity transformation, succession forgery, five Pillars, strategic map, hidden transmissions and pre-human structures remain historical setting material outside this small scenario. They are preserved in the source archive, not introduced through surprise adjudication."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The separate GameSpec attempt describes a 24–30-player game and treats its source directory as canonical within that project. It is preserved under archive/legacy-gamespec as an older design line. This migration creates a separate Playtrace repository; it does not claim to validate or rewrite that GameSpec package."
+      ]
+    ]
+  },
+  "playtest": {
+    "title": "The Void Throne — Revised Visions Playtest and Migration Report",
+    "sections": [
+      [
+        "What was tested",
+        [
+          "[WORKING] The hypothesis was that public intentions and clearly scoped vision covers would let the Ascendant buy information relevant to live choices while retaining a meaningful option to preserve power. One fresh six-agent run used five player roles and an independent facilitator, with the same personalities as the preceding weighted-settlement test.",
+          "The source record has 113 contributions across eleven phases and six debriefs. Each role authored its own choices. Scoped packets separated faction discussions, councils and the purchased vision. Times represent the proposed paper schedule, not measured human play. The migration adds a deterministic Playtrace replay of those decisions; it is not another independent LLM run."
+        ]
+      ],
+      [
+        "Round one: information changed the plan",
+        [
+          "The Guild displayed Trade/Maintain and Hold/Guard. The army wanted Military/Campaign; the Ascendant initially proposed those orders with a Warrant. With no offered Wayfarer for military passage, the Ascendant bought the Security vision to investigate Raid.",
+          "The answer tied a successful Raid target appearance to completed private Trade. The Ascendant disclosed it and offered Grey Petrel for Relief. All four faction players changed council requests; the Ascendant changed Military/Campaign to reserve Relief/Raid, retaining Warrant. Asset assignments did not change. Information and the material reserve offer arrived together, so the result does not isolate the information’s causal effect.",
+          "Result: Beacon 1, Communities 3, Readiness 4, all faction assets intact, one contract, reserve spent, two foresight left. Two crossings wore the route. The Guild secured NG provisionally with a Lantern Council pledge. MA failed because the Guild Security delegate refused it; the Ascendant had approved the trial."
+        ]
+      ],
+      [
+        "Round two: relevance without a major order change",
+        [
+          "The live plan paired funded Repair and private Trade. The Ascendant bought the Navigation answer, learning the extra Communities +1 when that combination completes. The Ascendant retained Repair/Guard/no Warrant; both Guild players retained their choices and reported greater confidence. Army requests moved from Restraint with Warrant to Guard without Warrant as protection coordination. No asset assignment changed.",
+          "Result: Beacon 2, Communities 4, Readiness 3, all faction assets intact, two contracts, reserve spent, one foresight left. The peaceful round reduced both army and Ascendant signature weight. The Guild’s concession was tender service and upkeep; it did not lose a commercial contract in this run."
+        ]
+      ],
+      [
+        "Settlement and the unanswered saving question",
+        [
+          "Final weights were Guild 4, Janissariat 3 and Ascendant 4; 8 of 11 was required. NG/MJ passed with both Guild players and the Ascendant approving, despite both army players refusing. Operational cooperation did not produce constitutional consensus.",
+          "The Ascendant bought both available rounds’ visions. They did not choose NONE. The third token remained because only two purchases were allowed. In debrief they judged the second purchase less useful in practice and said declining would have been defensible; that was hindsight, not a decision observed in play.",
+          "With the same physical ending but one purchase declined, Ascendant weight would be 5 and the threshold would still be 8. An Ascendant–Janissariat coalition would then be arithmetically possible. This is a counterfactual calculation, not an alternative simulated ballot or evidence that they would agree."
+        ]
+      ],
+      [
+        "Evidence and limitations",
+        [
+          "Independent checks reproduced both operational resolutions, provisional signatures and pledges, foresight payment and disclosure order, final weights and all five final votes. The report retains original contributions, side-by-side drafts/final faction sheets, council sheets, state changes and private answers actually delivered.",
+          "The strongest finding is a useful first purchase. The second is evidence of confirmation and coordination rather than a second major change. There is no evidence of deliberate saving, human pacing, all alternative constitutions, or assignment changes after disclosure. One run cannot establish balance or isolate all procedure changes from fresh choices.",
+          "Playtrace stores a source snapshot, executable model audit, deterministic replay and hypothesis-linked evidence. The replay is context for the hypothesis, not new evidence that foresight changes player psychology. The existing six-agent record is preserved intact; mechanical replay must not rewrite its statements."
+        ]
+      ],
+      [
+        "Next tests",
+        [
+          "Run the paper prototype with people and record purchase decisions before answers. Compare initial and final constitutional preferences. Test a council arrangement other than NG/Interim. Observe whether the first package’s agenda-setting advantage matters and whether passing over a dissenting army feels like a workable settlement.",
+          "The local browser lets one tester control every seat, try refusal, conflict, poor directives, averted visions and failed ballots, and export the complete record. It automatically applies consequences but does not substitute for multiplayer negotiation."
+        ]
+      ]
+    ],
+    "blocks": [
+      [
+        "TITLE",
+        "The Void Throne — Revised Visions Playtest and Migration Report"
+      ],
+      [
+        "HEADING_1",
+        "What was tested"
+      ],
+      [
+        "NORMAL_TEXT",
+        "[WORKING] The hypothesis was that public intentions and clearly scoped vision covers would let the Ascendant buy information relevant to live choices while retaining a meaningful option to preserve power. One fresh six-agent run used five player roles and an independent facilitator, with the same personalities as the preceding weighted-settlement test."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The source record has 113 contributions across eleven phases and six debriefs. Each role authored its own choices. Scoped packets separated faction discussions, councils and the purchased vision. Times represent the proposed paper schedule, not measured human play. The migration adds a deterministic Playtrace replay of those decisions; it is not another independent LLM run."
+      ],
+      [
+        "HEADING_1",
+        "Round one: information changed the plan"
+      ],
+      [
+        "NORMAL_TEXT",
+        "The Guild displayed Trade/Maintain and Hold/Guard. The army wanted Military/Campaign; the Ascendant initially proposed those orders with a Warrant. With no offered Wayfarer for military passage, the Ascendant bought the Security vision to investigate Raid."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The answer tied a successful Raid target appearance to completed private Trade. The Ascendant disclosed it and offered Grey Petrel for Relief. All four faction players changed council requests; the Ascendant changed Military/Campaign to reserve Relief/Raid, retaining Warrant. Asset assignments did not change. Information and the material reserve offer arrived together, so the result does not isolate the information’s causal effect."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Result: Beacon 1, Communities 3, Readiness 4, all faction assets intact, one contract, reserve spent, two foresight left. Two crossings wore the route. The Guild secured NG provisionally with a Lantern Council pledge. MA failed because the Guild Security delegate refused it; the Ascendant had approved the trial."
+      ],
+      [
+        "HEADING_1",
+        "Round two: relevance without a major order change"
+      ],
+      [
+        "NORMAL_TEXT",
+        "The live plan paired funded Repair and private Trade. The Ascendant bought the Navigation answer, learning the extra Communities +1 when that combination completes. The Ascendant retained Repair/Guard/no Warrant; both Guild players retained their choices and reported greater confidence. Army requests moved from Restraint with Warrant to Guard without Warrant as protection coordination. No asset assignment changed."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Result: Beacon 2, Communities 4, Readiness 3, all faction assets intact, two contracts, reserve spent, one foresight left. The peaceful round reduced both army and Ascendant signature weight. The Guild’s concession was tender service and upkeep; it did not lose a commercial contract in this run."
+      ],
+      [
+        "HEADING_1",
+        "Settlement and the unanswered saving question"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Final weights were Guild 4, Janissariat 3 and Ascendant 4; 8 of 11 was required. NG/MJ passed with both Guild players and the Ascendant approving, despite both army players refusing. Operational cooperation did not produce constitutional consensus."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The Ascendant bought both available rounds’ visions. They did not choose NONE. The third token remained because only two purchases were allowed. In debrief they judged the second purchase less useful in practice and said declining would have been defensible; that was hindsight, not a decision observed in play."
+      ],
+      [
+        "NORMAL_TEXT",
+        "With the same physical ending but one purchase declined, Ascendant weight would be 5 and the threshold would still be 8. An Ascendant–Janissariat coalition would then be arithmetically possible. This is a counterfactual calculation, not an alternative simulated ballot or evidence that they would agree."
+      ],
+      [
+        "HEADING_1",
+        "Evidence and limitations"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Independent checks reproduced both operational resolutions, provisional signatures and pledges, foresight payment and disclosure order, final weights and all five final votes. The report retains original contributions, side-by-side drafts/final faction sheets, council sheets, state changes and private answers actually delivered."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The strongest finding is a useful first purchase. The second is evidence of confirmation and coordination rather than a second major change. There is no evidence of deliberate saving, human pacing, all alternative constitutions, or assignment changes after disclosure. One run cannot establish balance or isolate all procedure changes from fresh choices."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Playtrace stores a source snapshot, executable model audit, deterministic replay and hypothesis-linked evidence. The replay is context for the hypothesis, not new evidence that foresight changes player psychology. The existing six-agent record is preserved intact; mechanical replay must not rewrite its statements."
+      ],
+      [
+        "HEADING_1",
+        "Next tests"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Run the paper prototype with people and record purchase decisions before answers. Compare initial and final constitutional preferences. Test a council arrangement other than NG/Interim. Observe whether the first package’s agenda-setting advantage matters and whether passing over a dissenting army feels like a workable settlement."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The local browser lets one tester control every seat, try refusal, conflict, poor directives, averted visions and failed ballots, and export the complete record. It automatically applies consequences but does not substitute for multiplayer negotiation."
+      ]
+    ]
+  },
+  "project": {
+    "title": "The Void Throne — Project Index and Working Agreement",
+    "sections": [
+      [
+        "Project home",
+        [
+          "The Void Throne now has a separate local game repository at C:/AnalogueGames/void-throne and a dedicated Google Drive folder. The older Obsidian and GameSpec folders remain untouched. Their relevant sources are preserved in the new repository with checksums.",
+          "[WORKING] The current design is the five-player, two-round paper prototype with revised vision timing, three foresight tokens, voluntary Standing Commitments and weighted final settlement. The browser and Playtrace are development tools; neither is required to play the paper game."
+        ]
+      ],
+      [
+        "Where work lives",
+        [
+          "Drive: editable player rulebook, facilitator guide, lore/adaptation record and playtest write-up. Local docs are initial publication sources and offline copies. Read current Drive revisions before republishing changes; there is no automatic two-way synchronisation.",
+          "Repository: game-owned engine and browser interface, external Playtrace plugin, manifest, hypotheses, evidence, tests, captured document revisions and original simulation records. Shared Playtrace remains at C:/Coding/playtrace and contains no new Void Throne design state.",
+          "Archive: original development reports and printable packs, the larger-game lore and the previous GameSpec source. Historical versions remain labelled; they are not a second current ruleset."
+        ]
+      ],
+      [
+        "Start testing",
+        [
+          "Run launch.py from the repository, or use Start Playtest.cmd. The local browser opens at http://127.0.0.1:8877. Control every seat, record reasons, commit assets, enter council orders and cast votes. It saves the last completed sheet locally. Download HTML and JSON before starting another test. You can resume an exported decision record.",
+          "Run playtrace_game.py reproduce using the Playtrace Python environment to build the source snapshot, deterministic replay, report and hypothesis-linked experiment bundle. Run the game’s tests before changing printed consequences. The exact command and dependency path are in README.md.",
+          "For a fresh LLM game, use the information-boundary protocol in design/experiments/agent-protocol.md and record original decisions. The retained six-agent run is ready for inspection; a deterministic replay is not a fresh conversation."
+        ]
+      ],
+      [
+        "First design questions",
+        [
+          "Will the Ascendant deliberately decline a purchase? Does the army accept a settlement imposed by a valid weighted coalition? Do provisional powers change preferences, or merely confirm them? Does the Guild sacrifice enough in the reserve-supported path? Can people finish the discussion and signatures on time?",
+          "The current code implements the accepted experimental rules. New balance proposals remain proposals until the designer chooses them. No statistical claim of success follows from one agent run."
+        ]
+      ]
+    ],
+    "blocks": [
+      [
+        "TITLE",
+        "The Void Throne — Project Index and Working Agreement"
+      ],
+      [
+        "HEADING_1",
+        "Project home"
+      ],
+      [
+        "NORMAL_TEXT",
+        "The Void Throne now has a separate local game repository at C:/AnalogueGames/void-throne and a dedicated Google Drive folder. The older Obsidian and GameSpec folders remain untouched. Their relevant sources are preserved in the new repository with checksums."
+      ],
+      [
+        "NORMAL_TEXT",
+        "[WORKING] The current design is the five-player, two-round paper prototype with revised vision timing, three foresight tokens, voluntary Standing Commitments and weighted final settlement. The browser and Playtrace are development tools; neither is required to play the paper game."
+      ],
+      [
+        "HEADING_1",
+        "Where work lives"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Drive: editable player rulebook, facilitator guide, lore/adaptation record and playtest write-up. Local docs are initial publication sources and offline copies. Read current Drive revisions before republishing changes; there is no automatic two-way synchronisation."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Repository: game-owned engine and browser interface, external Playtrace plugin, manifest, hypotheses, evidence, tests, captured document revisions and original simulation records. Shared Playtrace remains at C:/Coding/playtrace and contains no new Void Throne design state."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Archive: original development reports and printable packs, the larger-game lore and the previous GameSpec source. Historical versions remain labelled; they are not a second current ruleset."
+      ],
+      [
+        "HEADING_1",
+        "Start testing"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Run launch.py from the repository, or use Start Playtest.cmd. The local browser opens at http://127.0.0.1:8877. Control every seat, record reasons, commit assets, enter council orders and cast votes. It saves the last completed sheet locally. Download HTML and JSON before starting another test. You can resume an exported decision record."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Run playtrace_game.py reproduce using the Playtrace Python environment to build the source snapshot, deterministic replay, report and hypothesis-linked experiment bundle. Run the game’s tests before changing printed consequences. The exact command and dependency path are in README.md."
+      ],
+      [
+        "NORMAL_TEXT",
+        "For a fresh LLM game, use the information-boundary protocol in design/experiments/agent-protocol.md and record original decisions. The retained six-agent run is ready for inspection; a deterministic replay is not a fresh conversation."
+      ],
+      [
+        "HEADING_1",
+        "First design questions"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Will the Ascendant deliberately decline a purchase? Does the army accept a settlement imposed by a valid weighted coalition? Do provisional powers change preferences, or merely confirm them? Does the Guild sacrifice enough in the reserve-supported path? Can people finish the discussion and signatures on time?"
+      ],
+      [
+        "NORMAL_TEXT",
+        "The current code implements the accepted experimental rules. New balance proposals remain proposals until the designer chooses them. No statistical claim of success follows from one agent run."
+      ]
+    ]
+  }
+}

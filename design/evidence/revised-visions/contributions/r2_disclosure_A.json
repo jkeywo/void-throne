@@ -1,0 +1,11 @@
+{
+  "run": 1,
+  "id": "r2_disclosure_A",
+  "role": "A",
+  "phase": "r2-faction",
+  "stage": "disclosure",
+  "channel": "Open",
+  "messages": [{"to": "ALL", "text": "My Navigation vision gives our plan a useful benefit: funded council Repair plus completed private Trade adds one Community through distribution. Maintain does not qualify, and both actions must happen. Its other branch says unguarded delivered Military passage loses an extra Community; Guard or valid Warrant prevents that, but Tender cover does not. Otherwise neither extra effect applies. I retain Repair advice and propose Guard without a Warrant. The disclosed distribution benefit means Restraint should leave Communities three; Guard should leave four on known effects. That extra protection is worth providing while Vigil is voluntarily offered. Neither version requires another fight."}],
+  "proposal": {"navigation_order": "Repair", "security_order": "Guard", "warrant": false, "nonbinding": true, "navigation_advice_only": true},
+  "reason": "Accurate disclosure improves everyone's civilian accounting. The Repair plan demonstrates that Guild trade can supply a public benefit; Guard remains a valuable additional contribution."
+}

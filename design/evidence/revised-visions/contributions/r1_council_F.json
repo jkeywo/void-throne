@@ -1,0 +1,43 @@
+{
+  "run": 1,
+  "id": "r1_council_F",
+  "role": "F",
+  "phase": "r1-council",
+  "channel": "Open",
+  "messages": [
+    {
+      "to": "ALL",
+      "text": "Council bell: final authorised orders recorded."
+    }
+  ],
+  "reason": "Printed-rules facilitation",
+  "timestamp": "2026-10-13T22:17:59.781637+00:00",
+  "decision": {
+    "navigation": {
+      "order": "Relief",
+      "authority": "I",
+      "operative_signatures": [
+        "A"
+      ],
+      "sources": [
+        "r1_orders_A"
+      ],
+      "valid": true
+    },
+    "security": {
+      "order": "Raid",
+      "authority": "I",
+      "operative_signatures": [
+        "A"
+      ],
+      "sources": [
+        "r1_orders_A"
+      ],
+      "valid": true
+    },
+    "ascendant": {
+      "warrant": true,
+      "source": "r1_orders_A"
+    }
+  }
+}

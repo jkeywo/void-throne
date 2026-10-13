@@ -1,0 +1,48 @@
+{
+  "Guild": {
+    "wayfarer": "Trade",
+    "lantern": "Council",
+    "signatures": [
+      "GN",
+      "GS"
+    ],
+    "sources": [
+      "r2_final_GN",
+      "r2_final_GS"
+    ],
+    "defaulted": false,
+    "standing_commitments": [
+      {
+        "owner": "Guild",
+        "asset": "Lantern",
+        "assignment": "Council",
+        "article": "NG",
+        "owner_signatures": [
+          "GN",
+          "GS"
+        ]
+      }
+    ]
+  },
+  "Janissariat": {
+    "spear": "Council",
+    "vigil": "Council",
+    "signatures": [
+      "JN",
+      "JS"
+    ],
+    "sources": [
+      "r2_final_JN",
+      "r2_final_JS"
+    ],
+    "defaulted": false,
+    "standing_commitments": []
+  },
+  "Ascendant_private": {
+    "vision": "Navigation",
+    "card_id": "R2-N",
+    "intervention": "Keep",
+    "reserve_status": "Already spent",
+    "source": "r2_final_A"
+  }
+}

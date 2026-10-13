@@ -1,0 +1,123 @@
+{
+  "note": "",
+  "delivered_contributions": [
+    {
+      "run": 1,
+      "id": "trial_candidate1_GN",
+      "role": "GN",
+      "phase": "r1-free",
+      "channel": "Open",
+      "proposal": {
+        "id": "T1",
+        "articles": {
+          "navigation": "NG",
+          "military": "MJ"
+        },
+        "operational_plan": {
+          "navigation_order": "Repair",
+          "security_order": "Guard",
+          "warrant": false
+        },
+        "commitments": [
+          {
+            "owner": "Guild",
+            "asset": "Lantern",
+            "assignment": "Council",
+            "article": "NG"
+          },
+          {
+            "owner": "Janissariat",
+            "asset": "Spear",
+            "assignment": "Council",
+            "article": "MJ"
+          }
+        ]
+      },
+      "messages": [
+        {
+          "to": "ALL",
+          "text": "Propose T1: Guild discretion and joint military authority, with Repair and Guard next month. I offer Lantern Council attached to NG, subject to GS signing, and request Spear Council attached to MJ, subject to both army owners. Wayfarer remains free to trade. We have one contract, an intact army at readiness four, and a beacon at one. Repair is the overdue return for our accommodation."
+        }
+      ],
+      "reason": "Our independence delivered useful trade and a military opportunity. Guild discretion now carries a concrete repair obligation. Joint scrutiny should protect communities from another destructive Raid while Guard sustains them and one month's conditioning decline leaves readiness three. The proposed Spear commitment fulfils MJ's duty without obliging combat. Each article stands independently; no signature is assumed."
+    }
+  ],
+  "additional_information": {
+    "round": 1,
+    "before": {
+      "beacon": 2,
+      "communities": 3,
+      "readiness": 3,
+      "wayfarer": true,
+      "lantern": true,
+      "spear": true,
+      "contracts": 0,
+      "reserve": true
+    },
+    "after": {
+      "beacon": 1,
+      "communities": 3,
+      "readiness": 4,
+      "wayfarer": true,
+      "lantern": true,
+      "spear": true,
+      "contracts": 1,
+      "reserve": false
+    },
+    "inputs": {
+      "rnd": 1,
+      "w": "Trade",
+      "l": "Maintain",
+      "s": "Council",
+      "v": "Council",
+      "nav": "Relief",
+      "sec": "Raid",
+      "na": "I",
+      "ma": "I",
+      "warrant": true,
+      "intervention": "Relief lift",
+      "nav_signed": true,
+      "sec_signed": true
+    },
+    "articles_before": {
+      "navigation": "I",
+      "military": "I"
+    },
+    "articles_after": {
+      "navigation": "I",
+      "military": "I"
+    },
+    "effects": [
+      "Monthly consumption: Communities -1",
+      "Independent Maintain: Beacon +1; funded Repair: Beacon +0; preparation cap 4.",
+      "Delivered cargo Communities +2.",
+      "Beacon wear: 1 service voyage + 1 commercial voyage.",
+      "Warrant: Vigil used; Communities +1",
+      "Grey Petrel provides Relief lift; reserve spent",
+      "Wayfarer commercial contract completed",
+      "Raid fought: Communities -2 total; conditioning sustained",
+      "Prepared Beacon 3; final Beacon 1.",
+      "Successful combat: Readiness +1, capped 0–4.",
+      "Communities aggregate 3 -1 consumption +2 Relief +1 Warrant -2 Raid =3; final cap 0–4. No Guild or Janissariat duty breach."
+    ],
+    "resolver_detail": {
+      "events": [
+        "Warrant: Vigil used; Communities +1",
+        "Grey Petrel provides Relief lift; reserve spent",
+        "Wayfarer commercial contract completed",
+        "Raid fought: Communities -2 total; conditioning sustained"
+      ],
+      "prepared": 3,
+      "nav": "Relief",
+      "sec": "Raid",
+      "guarded": true,
+      "delivered": true,
+      "trade": true,
+      "combat": true,
+      "guild_breach": false,
+      "jan_breach": false
+    },
+    "public_summary": "Final Beacon 1, Communities 3, Readiness 4.",
+    "issues": []
+  }
+}

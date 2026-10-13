@@ -1,0 +1,18 @@
+{
+  "author": "John Keyworth",
+  "scope": "five-player paper adaptation",
+  "constraints": [
+    "No technology required at the table",
+    "Two factions of two plus Ascendant; shared faction goals",
+    "Concrete scarce assets",
+    "Cooperation requires real compromise",
+    "Unilateral conflict remains physically possible",
+    "Foresight consumes personal power",
+    "Government may outlast the Ascendant"
+  ],
+  "non_goals": [
+    "No strategic map or combat subsystem",
+    "No secret individual victory conditions",
+    "No conspiracy or Clarity track"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "run": 1,
+  "id": "trial_response_A",
+  "role": "A",
+  "phase": "r1-free",
+  "channel": "Open",
+  "position": {"candidate": "T1", "navigation": "Accept in principle", "military": "Accept in principle", "amendments_requested": []},
+  "messages": [{"to": "ALL", "text": "The result justifies our cooperation: stores survived, Spear fought and the Guild earned its contract, but the reserve is spent and the beacon needs repair. I support T1's Navigation article independently, provided both Guild owners seal its Lantern commitment. I also support its Military article independently, provided both army owners seal Spear. Guard requires Vigil offered as well; that remains a political promise, not a second commitment. I ask the army to state that intention plainly. Readiness three after a repair-and-protection month is acceptable to me. Joint delegates have already agreed a difficult operation; this is a credible opportunity to exercise their authority."}],
+  "reason": "No amendment requested. These are negotiating positions, not formal signatures; confidence depends on actual owner approvals and a funded Guard plan."
+}

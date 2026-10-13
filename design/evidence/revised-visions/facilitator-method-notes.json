@@ -1,0 +1,868 @@
+{
+  "completed": true,
+  "phases": {
+    "briefing": [
+      "00_GN",
+      "00_JN",
+      "00_F",
+      "00_GS",
+      "00_JS",
+      "00_A"
+    ],
+    "r1-faction": [
+      "r1_draft_GN",
+      "r1_draft_JN",
+      "r1_draft_GS",
+      "r1_draft_JS",
+      "r1_draft_A",
+      "r1_draft_F",
+      "r1_purchase_A",
+      "r1_purchase_public_F",
+      "r1_disclosure_A",
+      "r1_revision_GN",
+      "r1_revision_JN",
+      "r1_final_GS",
+      "r1_final_JS",
+      "r1_final_GN",
+      "r1_final_JN",
+      "r1_final_A",
+      "r1_faction_F"
+    ],
+    "r1-council": [
+      "r1_open_GN",
+      "r1_open_JS",
+      "r1_open_JN",
+      "r1_open_GS",
+      "r1_open_A",
+      "r1_reply_GN",
+      "r1_reply_JS",
+      "r1_reply_JN",
+      "r1_reply_GS",
+      "r1_reply_A",
+      "r1_orders_GN",
+      "r1_orders_JS",
+      "r1_orders_JN",
+      "r1_orders_GS",
+      "r1_orders_A",
+      "r1_council_F"
+    ],
+    "r1-resolution": [
+      "r1_resolution_F"
+    ],
+    "r1-free": [
+      "trial_candidate1_GN",
+      "trial_response_GS",
+      "trial_response_JN",
+      "trial_response_JS",
+      "trial_response_A",
+      "trial_candidate2_JN",
+      "trial_close_GN",
+      "trial_close_JS",
+      "trial_close_GS",
+      "trial_close_A",
+      "trial_vote_GN",
+      "trial_vote_JS",
+      "trial_vote_JN",
+      "trial_vote_GS",
+      "trial_vote_A",
+      "trial_F"
+    ],
+    "r2-faction": [
+      "r2_draft_GN",
+      "r2_draft_JN",
+      "r2_draft_GS",
+      "r2_draft_JS",
+      "r2_draft_A",
+      "r2_draft_F",
+      "r2_purchase_A",
+      "r2_purchase_public_F",
+      "r2_disclosure_A",
+      "r2_revision_GN",
+      "r2_revision_JN",
+      "r2_final_GS",
+      "r2_final_JS",
+      "r2_final_GN",
+      "r2_final_JN",
+      "r2_final_A",
+      "r2_faction_F"
+    ],
+    "r2-council": [
+      "r2_open_JS",
+      "r2_open_GN",
+      "r2_open_JN",
+      "r2_open_GS",
+      "r2_open_A",
+      "r2_reply_GN",
+      "r2_reply_JS",
+      "r2_reply_JN",
+      "r2_reply_GS",
+      "r2_reply_A",
+      "r2_orders_GN",
+      "r2_orders_JS",
+      "r2_orders_JN",
+      "r2_orders_GS",
+      "r2_orders_A",
+      "r2_council_F"
+    ],
+    "r2-resolution": [
+      "r2_resolution_F"
+    ],
+    "r2-free": [
+      "r2_free_GN",
+      "r2_free_JS",
+      "r2_free_GS",
+      "r2_free_JN",
+      "r2_free_A"
+    ],
+    "ceremony": [
+      "ceremony_weights_F",
+      "ceremony_candidate1_A",
+      "ceremony_response1_GN",
+      "ceremony_response1_JS",
+      "ceremony_response1_JN",
+      "ceremony_response1_GS",
+      "ceremony_vote1_GN",
+      "ceremony_vote1_JS",
+      "ceremony_vote1_JN",
+      "ceremony_vote1_GS",
+      "ceremony_vote1_A",
+      "ceremony_F"
+    ],
+    "debrief": [
+      "debrief_GN",
+      "debrief_JS",
+      "debrief_JN",
+      "debrief_F",
+      "debrief_GS",
+      "debrief_A"
+    ]
+  },
+  "ordered_ids": [
+    "00_GN",
+    "00_JN",
+    "00_F",
+    "00_GS",
+    "00_JS",
+    "00_A",
+    "r1_draft_GN",
+    "r1_draft_JN",
+    "r1_draft_GS",
+    "r1_draft_JS",
+    "r1_draft_A",
+    "r1_draft_F",
+    "r1_purchase_A",
+    "r1_purchase_public_F",
+    "r1_disclosure_A",
+    "r1_revision_GN",
+    "r1_revision_JN",
+    "r1_final_GS",
+    "r1_final_JS",
+    "r1_final_GN",
+    "r1_final_JN",
+    "r1_final_A",
+    "r1_faction_F",
+    "r1_open_GN",
+    "r1_open_JS",
+    "r1_open_JN",
+    "r1_open_GS",
+    "r1_open_A",
+    "r1_reply_GN",
+    "r1_reply_JS",
+    "r1_reply_JN",
+    "r1_reply_GS",
+    "r1_reply_A",
+    "r1_orders_GN",
+    "r1_orders_JS",
+    "r1_orders_JN",
+    "r1_orders_GS",
+    "r1_orders_A",
+    "r1_council_F",
+    "r1_resolution_F",
+    "trial_candidate1_GN",
+    "trial_response_GS",
+    "trial_response_JN",
+    "trial_response_JS",
+    "trial_response_A",
+    "trial_candidate2_JN",
+    "trial_close_GN",
+    "trial_close_JS",
+    "trial_close_GS",
+    "trial_close_A",
+    "trial_vote_GN",
+    "trial_vote_JS",
+    "trial_vote_JN",
+    "trial_vote_GS",
+    "trial_vote_A",
+    "trial_F",
+    "r2_draft_GN",
+    "r2_draft_JN",
+    "r2_draft_GS",
+    "r2_draft_JS",
+    "r2_draft_A",
+    "r2_draft_F",
+    "r2_purchase_A",
+    "r2_purchase_public_F",
+    "r2_disclosure_A",
+    "r2_revision_GN",
+    "r2_revision_JN",
+    "r2_final_GS",
+    "r2_final_JS",
+    "r2_final_GN",
+    "r2_final_JN",
+    "r2_final_A",
+    "r2_faction_F",
+    "r2_open_JS",
+    "r2_open_GN",
+    "r2_open_JN",
+    "r2_open_GS",
+    "r2_open_A",
+    "r2_reply_GN",
+    "r2_reply_JS",
+    "r2_reply_JN",
+    "r2_reply_GS",
+    "r2_reply_A",
+    "r2_orders_GN",
+    "r2_orders_JS",
+    "r2_orders_JN",
+    "r2_orders_GS",
+    "r2_orders_A",
+    "r2_council_F",
+    "r2_resolution_F",
+    "r2_free_GN",
+    "r2_free_JS",
+    "r2_free_GS",
+    "r2_free_JN",
+    "r2_free_A",
+    "ceremony_weights_F",
+    "ceremony_candidate1_A",
+    "ceremony_response1_GN",
+    "ceremony_response1_JS",
+    "ceremony_response1_JN",
+    "ceremony_response1_GS",
+    "ceremony_vote1_GN",
+    "ceremony_vote1_JS",
+    "ceremony_vote1_JN",
+    "ceremony_vote1_GS",
+    "ceremony_vote1_A",
+    "ceremony_F",
+    "debrief_GN",
+    "debrief_JS",
+    "debrief_JN",
+    "debrief_F",
+    "debrief_GS",
+    "debrief_A"
+  ],
+  "record_creation_order": [
+    "00_GN",
+    "r1_draft_GN",
+    "00_JN",
+    "r1_draft_JN",
+    "00_F",
+    "00_GS",
+    "r1_draft_GS",
+    "00_JS",
+    "r1_draft_JS",
+    "00_A",
+    "r1_draft_A",
+    "r1_draft_F",
+    "r1_purchase_A",
+    "r1_purchase_public_F",
+    "r1_disclosure_A",
+    "r1_revision_GN",
+    "r1_revision_JN",
+    "r1_final_GS",
+    "r1_final_JS",
+    "r1_final_GN",
+    "r1_final_JN",
+    "r1_final_A",
+    "r1_faction_F",
+    "r1_open_GN",
+    "r1_open_JS",
+    "r1_open_JN",
+    "r1_open_GS",
+    "r1_open_A",
+    "r1_reply_GN",
+    "r1_reply_JS",
+    "r1_reply_JN",
+    "r1_reply_GS",
+    "r1_reply_A",
+    "r1_orders_GN",
+    "r1_orders_JS",
+    "r1_orders_JN",
+    "r1_orders_GS",
+    "r1_orders_A",
+    "r1_council_F",
+    "r1_resolution_F",
+    "trial_candidate1_GN",
+    "trial_response_GS",
+    "trial_response_JN",
+    "trial_response_JS",
+    "trial_response_A",
+    "trial_candidate2_JN",
+    "trial_close_GN",
+    "trial_close_JS",
+    "trial_close_GS",
+    "trial_close_A",
+    "trial_vote_GN",
+    "trial_vote_JS",
+    "trial_vote_JN",
+    "trial_vote_GS",
+    "trial_vote_A",
+    "trial_F",
+    "r2_draft_GN",
+    "r2_draft_JN",
+    "r2_draft_GS",
+    "r2_draft_JS",
+    "r2_draft_A",
+    "r2_draft_F",
+    "r2_purchase_A",
+    "r2_purchase_public_F",
+    "r2_disclosure_A",
+    "r2_revision_GN",
+    "r2_revision_JN",
+    "r2_final_GS",
+    "r2_final_JS",
+    "r2_final_GN",
+    "r2_final_JN",
+    "r2_final_A",
+    "r2_faction_F",
+    "r2_open_JS",
+    "r2_open_GN",
+    "r2_open_JN",
+    "r2_open_GS",
+    "r2_open_A",
+    "r2_reply_GN",
+    "r2_reply_JS",
+    "r2_reply_JN",
+    "r2_reply_GS",
+    "r2_reply_A",
+    "r2_orders_GN",
+    "r2_orders_JS",
+    "r2_orders_JN",
+    "r2_orders_GS",
+    "r2_orders_A",
+    "r2_council_F",
+    "r2_resolution_F",
+    "ceremony_weights_F",
+    "r2_free_GN",
+    "r2_free_JS",
+    "r2_free_GS",
+    "r2_free_JN",
+    "r2_free_A",
+    "ceremony_candidate1_A",
+    "ceremony_response1_GN",
+    "ceremony_response1_JS",
+    "ceremony_response1_JN",
+    "ceremony_response1_GS",
+    "ceremony_vote1_GN",
+    "ceremony_vote1_JS",
+    "ceremony_vote1_JN",
+    "ceremony_vote1_GS",
+    "ceremony_vote1_A",
+    "ceremony_F",
+    "debrief_GN",
+    "debrief_JS",
+    "debrief_JN",
+    "debrief_F",
+    "debrief_GS",
+    "debrief_A"
+  ],
+  "ordered_ids_basis": "Eleven logical game phases; actual file creation order within each phase.",
+  "method": "Five fresh persistent role agents plus facilitator; root compiles report and independently audits, without playing a role. No player speech or assent authored by facilitator.",
+  "information_boundaries": "Players read only public rules, own faction brief/personality, specifically delivered packets and own records. Council packets contain own-table statements plus actually addressed cross-table notes. A receives exactly purchased fixed answer after ledger payment. Neither unbought answer is delivered.",
+  "timing": "Asynchronous bounded agent exchanges implement sequence, not literal five/seven/six-minute human clock. All drafts precede purchase; disclosure precedes final asset assent; council closing replies precede silent orders.",
+  "bounded_exchanges": "One opening and one reply each at councils; two candidate trial rows maximum and one exact final ballot; two final settlement candidates maximum, fresh five-role votes per candidate.",
+  "debrief_sources": [
+    "debrief_GN",
+    "debrief_JS",
+    "debrief_JN",
+    "debrief_F",
+    "debrief_GS",
+    "debrief_A"
+  ],
+  "packet_manifest": [
+    {
+      "file": "ceremony-arithmetic.json",
+      "mtime_utc": "2026-10-13T22:32:52.587334+00:00"
+    },
+    {
+      "file": "ceremony-candidate1.json",
+      "mtime_utc": "2026-10-13T22:34:45.310561+00:00"
+    },
+    {
+      "file": "ceremony-final-ballot1.json",
+      "mtime_utc": "2026-10-13T22:35:52.481910+00:00"
+    },
+    {
+      "file": "ceremony-opening.json",
+      "mtime_utc": "2026-10-13T22:34:10.147185+00:00"
+    },
+    {
+      "file": "ceremony-result-1.json",
+      "mtime_utc": "2026-10-13T22:37:25.870627+00:00"
+    },
+    {
+      "file": "ending.json",
+      "mtime_utc": "2026-10-13T22:37:25.876633+00:00"
+    },
+    {
+      "file": "r1-council-start-A.json",
+      "mtime_utc": "2026-10-13T22:13:17.448352+00:00"
+    },
+    {
+      "file": "r1-council-start-GN.json",
+      "mtime_utc": "2026-10-13T22:13:17.447005+00:00"
+    },
+    {
+      "file": "r1-council-start-GS.json",
+      "mtime_utc": "2026-10-13T22:13:17.448352+00:00"
+    },
+    {
+      "file": "r1-council-start-JN.json",
+      "mtime_utc": "2026-10-13T22:13:17.448352+00:00"
+    },
+    {
+      "file": "r1-council-start-JS.json",
+      "mtime_utc": "2026-10-13T22:13:17.448352+00:00"
+    },
+    {
+      "file": "r1-guild-draft-exchange.json",
+      "mtime_utc": "2026-10-13T22:09:49.971968+00:00"
+    },
+    {
+      "file": "r1-jan-draft-exchange.json",
+      "mtime_utc": "2026-10-13T22:09:49.972968+00:00"
+    },
+    {
+      "file": "r1-open-delivered-A.json",
+      "mtime_utc": "2026-10-13T22:14:57.635746+00:00"
+    },
+    {
+      "file": "r1-open-delivered-GN.json",
+      "mtime_utc": "2026-10-13T22:14:57.629751+00:00"
+    },
+    {
+      "file": "r1-open-delivered-GS.json",
+      "mtime_utc": "2026-10-13T22:14:57.630749+00:00"
+    },
+    {
+      "file": "r1-open-delivered-JN.json",
+      "mtime_utc": "2026-10-13T22:14:57.632745+00:00"
+    },
+    {
+      "file": "r1-open-delivered-JS.json",
+      "mtime_utc": "2026-10-13T22:14:57.634747+00:00"
+    },
+    {
+      "file": "r1-payment-public.json",
+      "mtime_utc": "2026-10-13T22:10:30.553845+00:00"
+    },
+    {
+      "file": "r1-post-disclosure.json",
+      "mtime_utc": "2026-10-13T22:11:07.692862+00:00"
+    },
+    {
+      "file": "r1-public-drafts.json",
+      "mtime_utc": "2026-10-13T22:09:32.973875+00:00"
+    },
+    {
+      "file": "r1-public-result.json",
+      "mtime_utc": "2026-10-13T22:17:59.787663+00:00"
+    },
+    {
+      "file": "r1-reply-delivered-A.json",
+      "mtime_utc": "2026-10-13T22:16:31.575145+00:00"
+    },
+    {
+      "file": "r1-reply-delivered-GN.json",
+      "mtime_utc": "2026-10-13T22:16:31.573142+00:00"
+    },
+    {
+      "file": "r1-reply-delivered-GS.json",
+      "mtime_utc": "2026-10-13T22:16:31.573142+00:00"
+    },
+    {
+      "file": "r1-reply-delivered-JN.json",
+      "mtime_utc": "2026-10-13T22:16:31.574144+00:00"
+    },
+    {
+      "file": "r1-reply-delivered-JS.json",
+      "mtime_utc": "2026-10-13T22:16:31.574144+00:00"
+    },
+    {
+      "file": "r1-selected-vision.json",
+      "mtime_utc": "2026-10-13T22:10:30.552840+00:00"
+    },
+    {
+      "file": "r2-council-start-A.json",
+      "mtime_utc": "2026-10-13T22:27:46.264478+00:00"
+    },
+    {
+      "file": "r2-council-start-GN.json",
+      "mtime_utc": "2026-10-13T22:27:46.259633+00:00"
+    },
+    {
+      "file": "r2-council-start-GS.json",
+      "mtime_utc": "2026-10-13T22:27:46.264478+00:00"
+    },
+    {
+      "file": "r2-council-start-JN.json",
+      "mtime_utc": "2026-10-13T22:27:46.264478+00:00"
+    },
+    {
+      "file": "r2-council-start-JS.json",
+      "mtime_utc": "2026-10-13T22:27:46.264478+00:00"
+    },
+    {
+      "file": "r2-guild-draft-exchange.json",
+      "mtime_utc": "2026-10-13T22:24:36.669947+00:00"
+    },
+    {
+      "file": "r2-jan-draft-exchange.json",
+      "mtime_utc": "2026-10-13T22:24:36.670948+00:00"
+    },
+    {
+      "file": "r2-open-delivered-A.json",
+      "mtime_utc": "2026-10-13T22:29:28.445192+00:00"
+    },
+    {
+      "file": "r2-open-delivered-GN.json",
+      "mtime_utc": "2026-10-13T22:29:28.442194+00:00"
+    },
+    {
+      "file": "r2-open-delivered-GS.json",
+      "mtime_utc": "2026-10-13T22:29:28.442194+00:00"
+    },
+    {
+      "file": "r2-open-delivered-JN.json",
+      "mtime_utc": "2026-10-13T22:29:28.443193+00:00"
+    },
+    {
+      "file": "r2-open-delivered-JS.json",
+      "mtime_utc": "2026-10-13T22:29:28.444193+00:00"
+    },
+    {
+      "file": "r2-payment-public.json",
+      "mtime_utc": "2026-10-13T22:25:08.112996+00:00"
+    },
+    {
+      "file": "r2-post-disclosure.json",
+      "mtime_utc": "2026-10-13T22:25:38.889499+00:00"
+    },
+    {
+      "file": "r2-public-drafts.json",
+      "mtime_utc": "2026-10-13T22:24:36.667881+00:00"
+    },
+    {
+      "file": "r2-public-result.json",
+      "mtime_utc": "2026-10-13T22:32:29.153055+00:00"
+    },
+    {
+      "file": "r2-reply-delivered-A.json",
+      "mtime_utc": "2026-10-13T22:30:51.422244+00:00"
+    },
+    {
+      "file": "r2-reply-delivered-GN.json",
+      "mtime_utc": "2026-10-13T22:30:51.422244+00:00"
+    },
+    {
+      "file": "r2-reply-delivered-GS.json",
+      "mtime_utc": "2026-10-13T22:30:51.422244+00:00"
+    },
+    {
+      "file": "r2-reply-delivered-JN.json",
+      "mtime_utc": "2026-10-13T22:30:51.422244+00:00"
+    },
+    {
+      "file": "r2-reply-delivered-JS.json",
+      "mtime_utc": "2026-10-13T22:30:51.422244+00:00"
+    },
+    {
+      "file": "r2-selected-vision.json",
+      "mtime_utc": "2026-10-13T22:25:08.112996+00:00"
+    },
+    {
+      "file": "trial-final-ballot.json",
+      "mtime_utc": "2026-10-13T22:21:31.038899+00:00"
+    },
+    {
+      "file": "trial-first-row.json",
+      "mtime_utc": "2026-10-13T22:18:43.347795+00:00"
+    },
+    {
+      "file": "trial-responses.json",
+      "mtime_utc": "2026-10-13T22:19:53.139024+00:00"
+    },
+    {
+      "file": "trial-result.json",
+      "mtime_utc": "2026-10-13T22:23:01.976736+00:00"
+    },
+    {
+      "file": "trial-second-row.json",
+      "mtime_utc": "2026-10-13T22:20:27.883367+00:00"
+    }
+  ],
+  "corrections_and_limitations": [
+    "One simulation of fixed profiles; not human timing evidence or a causal experiment. Remaining one token after two purchases is mandatory, not deliberate saving. Defaults follow mismatched or absent assent; existing asset commitments override only named assignment.",
+    "Initial constitutional preferences were independently recorded; draft packets displayed assignment/order intentions, not a separate full initial-preference table. Preferences emerged in actual public negotiation.",
+    "Reserve final selection was private on the worksheet; Navigation asked for public confirmation at R1 council and A explicitly supplied it before final orders.",
+    "Aggregate Community arithmetic was added to saved resolution effects after public-result packet creation; the packets already contained all underlying effects and identical result, with no choice or physical outcome changed."
+  ],
+  "actual_role_agents": {
+    "GN": "/root/revised_vision_facilitator/gn",
+    "GS": "/root/revised_vision_facilitator/gs",
+    "JN": "/root/revised_vision_facilitator/jn",
+    "JS": "/root/revised_vision_facilitator/js",
+    "A": "/root/revised_vision_facilitator/a"
+  },
+  "facilitator_agent": "/root/revised_vision_facilitator",
+  "delivery_milestones": [
+    {
+      "recipient": "GN",
+      "phase": "r1-council",
+      "opening_packet": "r1-council-start-GN.json",
+      "reply_packet": "r1-open-delivered-GN.json",
+      "closing_packet": "r1-reply-delivered-GN.json",
+      "final_choice": "r1_orders_GN",
+      "all_closing_replies_delivered_before_choice": true
+    },
+    {
+      "recipient": "GS",
+      "phase": "r1-council",
+      "opening_packet": "r1-council-start-GS.json",
+      "reply_packet": "r1-open-delivered-GS.json",
+      "closing_packet": "r1-reply-delivered-GS.json",
+      "final_choice": "r1_orders_GS",
+      "all_closing_replies_delivered_before_choice": true
+    },
+    {
+      "recipient": "JN",
+      "phase": "r1-council",
+      "opening_packet": "r1-council-start-JN.json",
+      "reply_packet": "r1-open-delivered-JN.json",
+      "closing_packet": "r1-reply-delivered-JN.json",
+      "final_choice": "r1_orders_JN",
+      "all_closing_replies_delivered_before_choice": true
+    },
+    {
+      "recipient": "JS",
+      "phase": "r1-council",
+      "opening_packet": "r1-council-start-JS.json",
+      "reply_packet": "r1-open-delivered-JS.json",
+      "closing_packet": "r1-reply-delivered-JS.json",
+      "final_choice": "r1_orders_JS",
+      "all_closing_replies_delivered_before_choice": true
+    },
+    {
+      "recipient": "A",
+      "phase": "r1-council",
+      "opening_packet": "r1-council-start-A.json",
+      "reply_packet": "r1-open-delivered-A.json",
+      "closing_packet": "r1-reply-delivered-A.json",
+      "final_choice": "r1_orders_A",
+      "all_closing_replies_delivered_before_choice": true
+    },
+    {
+      "recipient": "A",
+      "phase": "r1-faction",
+      "draft_packet": "r1-public-drafts.json",
+      "choice": "r1_purchase_A",
+      "answer_packet": "r1-selected-vision.json",
+      "payment_precedes_answer": true
+    },
+    {
+      "recipient": "GN",
+      "phase": "r1-faction",
+      "disclosure_packet": "r1-post-disclosure.json",
+      "final_choice": "r1_final_GN",
+      "disclosure_precedes_final": true
+    },
+    {
+      "recipient": "GS",
+      "phase": "r1-faction",
+      "disclosure_packet": "r1-post-disclosure.json",
+      "final_choice": "r1_final_GS",
+      "disclosure_precedes_final": true
+    },
+    {
+      "recipient": "JN",
+      "phase": "r1-faction",
+      "disclosure_packet": "r1-post-disclosure.json",
+      "final_choice": "r1_final_JN",
+      "disclosure_precedes_final": true
+    },
+    {
+      "recipient": "JS",
+      "phase": "r1-faction",
+      "disclosure_packet": "r1-post-disclosure.json",
+      "final_choice": "r1_final_JS",
+      "disclosure_precedes_final": true
+    },
+    {
+      "recipient": "A",
+      "phase": "r1-faction",
+      "disclosure_packet": "r1-post-disclosure.json",
+      "final_choice": "r1_final_A",
+      "disclosure_precedes_final": true
+    },
+    {
+      "recipient": "GN",
+      "phase": "r2-council",
+      "opening_packet": "r2-council-start-GN.json",
+      "reply_packet": "r2-open-delivered-GN.json",
+      "closing_packet": "r2-reply-delivered-GN.json",
+      "final_choice": "r2_orders_GN",
+      "all_closing_replies_delivered_before_choice": true
+    },
+    {
+      "recipient": "GS",
+      "phase": "r2-council",
+      "opening_packet": "r2-council-start-GS.json",
+      "reply_packet": "r2-open-delivered-GS.json",
+      "closing_packet": "r2-reply-delivered-GS.json",
+      "final_choice": "r2_orders_GS",
+      "all_closing_replies_delivered_before_choice": true
+    },
+    {
+      "recipient": "JN",
+      "phase": "r2-council",
+      "opening_packet": "r2-council-start-JN.json",
+      "reply_packet": "r2-open-delivered-JN.json",
+      "closing_packet": "r2-reply-delivered-JN.json",
+      "final_choice": "r2_orders_JN",
+      "all_closing_replies_delivered_before_choice": true
+    },
+    {
+      "recipient": "JS",
+      "phase": "r2-council",
+      "opening_packet": "r2-council-start-JS.json",
+      "reply_packet": "r2-open-delivered-JS.json",
+      "closing_packet": "r2-reply-delivered-JS.json",
+      "final_choice": "r2_orders_JS",
+      "all_closing_replies_delivered_before_choice": true
+    },
+    {
+      "recipient": "A",
+      "phase": "r2-council",
+      "opening_packet": "r2-council-start-A.json",
+      "reply_packet": "r2-open-delivered-A.json",
+      "closing_packet": "r2-reply-delivered-A.json",
+      "final_choice": "r2_orders_A",
+      "all_closing_replies_delivered_before_choice": true
+    },
+    {
+      "recipient": "A",
+      "phase": "r2-faction",
+      "draft_packet": "r2-public-drafts.json",
+      "choice": "r2_purchase_A",
+      "answer_packet": "r2-selected-vision.json",
+      "payment_precedes_answer": true
+    },
+    {
+      "recipient": "GN",
+      "phase": "r2-faction",
+      "disclosure_packet": "r2-post-disclosure.json",
+      "final_choice": "r2_final_GN",
+      "disclosure_precedes_final": true
+    },
+    {
+      "recipient": "GS",
+      "phase": "r2-faction",
+      "disclosure_packet": "r2-post-disclosure.json",
+      "final_choice": "r2_final_GS",
+      "disclosure_precedes_final": true
+    },
+    {
+      "recipient": "JN",
+      "phase": "r2-faction",
+      "disclosure_packet": "r2-post-disclosure.json",
+      "final_choice": "r2_final_JN",
+      "disclosure_precedes_final": true
+    },
+    {
+      "recipient": "JS",
+      "phase": "r2-faction",
+      "disclosure_packet": "r2-post-disclosure.json",
+      "final_choice": "r2_final_JS",
+      "disclosure_precedes_final": true
+    },
+    {
+      "recipient": "A",
+      "phase": "r2-faction",
+      "disclosure_packet": "r2-post-disclosure.json",
+      "final_choice": "r2_final_A",
+      "disclosure_precedes_final": true
+    },
+    {
+      "recipient": "GN",
+      "phase": "r1-free",
+      "packet": "trial-final-ballot.json",
+      "final_choice": "trial_vote_GN",
+      "all_candidate_responses_delivered": true
+    },
+    {
+      "recipient": "GN",
+      "phase": "ceremony",
+      "packet": "ceremony-final-ballot1.json",
+      "final_choice": "ceremony_vote1_GN",
+      "all_candidate_responses_delivered": true
+    },
+    {
+      "recipient": "GS",
+      "phase": "r1-free",
+      "packet": "trial-final-ballot.json",
+      "final_choice": "trial_vote_GS",
+      "all_candidate_responses_delivered": true
+    },
+    {
+      "recipient": "GS",
+      "phase": "ceremony",
+      "packet": "ceremony-final-ballot1.json",
+      "final_choice": "ceremony_vote1_GS",
+      "all_candidate_responses_delivered": true
+    },
+    {
+      "recipient": "JN",
+      "phase": "r1-free",
+      "packet": "trial-final-ballot.json",
+      "final_choice": "trial_vote_JN",
+      "all_candidate_responses_delivered": true
+    },
+    {
+      "recipient": "JN",
+      "phase": "ceremony",
+      "packet": "ceremony-final-ballot1.json",
+      "final_choice": "ceremony_vote1_JN",
+      "all_candidate_responses_delivered": true
+    },
+    {
+      "recipient": "JS",
+      "phase": "r1-free",
+      "packet": "trial-final-ballot.json",
+      "final_choice": "trial_vote_JS",
+      "all_candidate_responses_delivered": true
+    },
+    {
+      "recipient": "JS",
+      "phase": "ceremony",
+      "packet": "ceremony-final-ballot1.json",
+      "final_choice": "ceremony_vote1_JS",
+      "all_candidate_responses_delivered": true
+    },
+    {
+      "recipient": "A",
+      "phase": "r1-free",
+      "packet": "trial-final-ballot.json",
+      "final_choice": "trial_vote_A",
+      "all_candidate_responses_delivered": true
+    },
+    {
+      "recipient": "A",
+      "phase": "ceremony",
+      "packet": "ceremony-final-ballot1.json",
+      "final_choice": "ceremony_vote1_A",
+      "all_candidate_responses_delivered": true
+    }
+  ],
+  "agenda": "Trial T1 GN first authorship; T2 JN as first role-order respondent seeking changed articles. Four other roles responded to each row; all responses delivered before final T2 ballot. Ceremony A first authorship after all five free-discussion statements; four responses delivered before all five votes. First package passed, so no second formal candidate or vote."
+}

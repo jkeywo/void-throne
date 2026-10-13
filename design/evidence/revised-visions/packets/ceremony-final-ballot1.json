@@ -1,0 +1,164 @@
+{
+  "note": "",
+  "delivered_contributions": [
+    {
+      "run": 1,
+      "id": "ceremony_candidate1_A",
+      "role": "A",
+      "phase": "ceremony",
+      "channel": "Open",
+      "proposal": {
+        "navigation": "NG",
+        "military": "MJ"
+      },
+      "messages": [
+        {
+          "to": "ALL",
+          "text": "I propose NG with MJ as the complete settlement. Guild discretion has met its repair duty. Joint military authority gives both delegates the decision they already demonstrated they can make together, and ends my independent command and Warrant. I recognise the army does not regard this as adequate institutional reciprocity. JN's NJ alternative deserves an answer, but its compulsory Wayfarer service would displace the trade that helped supply civilians; it is not merely a rearrangement of seats. My proposal preserves the service pattern that worked while giving military operations shared scrutiny. Please judge this exact package, including its real duties, rather than treating my preference as anyone's signature."
+        }
+      ],
+      "reason": "This is my preferred dependable government, based on actual repair and protection. A legal majority would not erase military dissent, but I do not consider permanent loss of civilian Guard an acceptable price for autonomy."
+    },
+    {
+      "run": 1,
+      "id": "ceremony_response1_GN",
+      "role": "GN",
+      "phase": "ceremony",
+      "channel": "Open",
+      "position": {
+        "candidate": {
+          "navigation": "NG",
+          "military": "MJ"
+        },
+        "support": true,
+        "alternative": null
+      },
+      "messages": [
+        {
+          "to": "ALL",
+          "text": "I support NG/MJ. JN's proposed NJ exchange is substantive, but it would make Wayfarer permanently available for council carriage and displace the commercial freedom we have just shown can sustain communities. I will not purchase army agreement with that obligation. MJ gives the army a required voice in Security; it does not let the Guild order combat alone. I respect your opposition, but I prefer this package to surrendering navigation discretion or accepting MA's withdrawal of civilian protection."
+        }
+      ],
+      "reason": "GS and I independently favour the same package, though our signatures still require an explicit ballot. Guild and Ascendant can meet the published threshold if both actually sign. That permits a settlement despite military refusal; it does not authorise pretending the army consented or that its institutional objection is trivial."
+    },
+    {
+      "run": 1,
+      "id": "ceremony_response1_GS",
+      "role": "GS",
+      "phase": "ceremony",
+      "channel": "Open",
+      "position": {
+        "navigation": "NG",
+        "military": "MJ",
+        "support": true,
+        "alternative": null
+      },
+      "messages": [
+        {
+          "to": "ALL",
+          "text": "I support this exact NG/MJ package. Shared military scrutiny reflects the decisions JS and I actually reached, including a lawful Raid when its civilian costs were funded. It is not a ban on useful combat. JN's reciprocal NJ/MJ proposal is intelligible, but compulsory Wayfarer service is an additional material surrender: both our contracts and the second month's distribution depended on commercial freedom. I do not accept that exchange."
+        }
+      ],
+      "reason": "NG carries a real upkeep duty, fulfilled in the trial. MJ adds a military offer duty and mutual consent rather than granting me sole command. The crown gives up its own independent military authority. I recognise the army may refuse; I prefer these continuing duties to either forced carriage or a Home obligation that discourages civilian protection."
+    },
+    {
+      "run": 1,
+      "id": "ceremony_response1_JN",
+      "role": "JN",
+      "phase": "ceremony",
+      "channel": "Open",
+      "position": {
+        "candidate": {
+          "navigation": "NG",
+          "military": "MJ"
+        },
+        "support": false,
+        "alternative": {
+          "navigation": "NJ",
+          "military": "MJ"
+        }
+      },
+      "messages": [
+        {
+          "to": "ALL",
+          "text": "I oppose NG/MJ. I recognise the crown relinquishes independent command, but the Guild retains its sole traffic authority and gains a veto over our lawful operations. My exact compromise remains NJ/MJ: both institutions accept outside scrutiny, and Wayfarer service becomes a real reciprocal obligation beside Spear service. Yes, that costs commercial opportunities; our conditioning loss and surrendered operational freedom are costs too. Shared authority must apply where passage is allocated as well as where soldiers are deployed. NG/MA remains my preference if you prefer institutional independence to reciprocal control."
+        }
+      ],
+      "reason": "I am offering a substantial military concession and asking for a substantial Navigation concession. The good physical result justifies settlement, but does not by itself justify this particular allocation of permanent authority. No signature is implied."
+    },
+    {
+      "run": 1,
+      "id": "ceremony_response1_JS",
+      "role": "JS",
+      "phase": "ceremony",
+      "channel": "Open",
+      "position": {
+        "package": {
+          "navigation": "NG",
+          "military": "MJ"
+        },
+        "support": false,
+        "preferred_alternative": {
+          "navigation": "NG",
+          "military": "MA"
+        },
+        "discussable_alternative": {
+          "navigation": "NJ",
+          "military": "MJ"
+        }
+      },
+      "messages": [
+        {
+          "to": "ALL",
+          "text": "I oppose NG with MJ. The Guild keeps independent control while we acquire its veto and a compulsory Spear offer. Our service earns recognition, but no comparable institutional freedom. My preferred settlement remains NG with MA. JN's NJ with MJ is at least a reciprocal exchange worth examining: both institutions surrender exclusive control and accept service duties. I recognise compulsory Wayfarer service costs trade; that is why it is a real concession. The crown giving up command matters, but does not compensate us for leaving passage entirely in Guild hands while placing our operations under Guild scrutiny."
+        }
+      ],
+      "reason": "I accept scrutiny of civilian costs, not this unequal allocation of authority. No signature follows from willingness to discuss a reciprocal alternative."
+    },
+    {
+      "run": 1,
+      "id": "ceremony_weights_F",
+      "role": "F",
+      "phase": "ceremony",
+      "channel": "Open",
+      "messages": [
+        {
+          "to": "ALL",
+          "text": "Final electorate frozen: Guild 4, Janissariat 3, Ascendant 4 (Readiness3 + foresight1), total11, threshold8. Both owners must approve for a faction signature; at least two positive-weight parties. Refusals retain denominator weight. No further operations or purchases."
+        }
+      ],
+      "reason": "Printed-rules facilitation",
+      "timestamp": "2026-10-13T22:32:52.587333+00:00",
+      "decision": {
+        "id": "ceremony-frozen",
+        "phase": "ceremony",
+        "state": {
+          "beacon": 2,
+          "communities": 4,
+          "readiness": 3,
+          "wayfarer": true,
+          "lantern": true,
+          "spear": true,
+          "contracts": 2,
+          "reserve": false
+        },
+        "weights": {
+          "Guild": 4,
+          "Janissariat": 3,
+          "Ascendant": 4
+        },
+        "foresight_remaining": 1,
+        "total": 11,
+        "threshold": 8
+      }
+    }
+  ],
+  "additional_information": {
+    "package": {
+      "navigation": "NG",
+      "military": "MJ"
+    },
+    "source_id": "ceremony_candidate1_A",
+    "note": "All actual public candidate replies delivered before silent decisions. Both owners must approve exact package; full denominator includes refusals; no inferred signature. First passing ballot ends ceremony."
+  }
+}

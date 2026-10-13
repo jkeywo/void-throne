@@ -1,0 +1,10 @@
+{
+  "run": 1,
+  "id": "ceremony_vote1_A",
+  "role": "A",
+  "phase": "ceremony",
+  "channel": "Open",
+  "decision": {"package": {"navigation": "NG", "military": "MJ"}, "approve_package": true},
+  "messages": [{"to": "F", "text": "I approve the exact NG/MJ package. The army's objection is substantive: this gives it neither independent command nor a voice over Navigation. I nevertheless judge the package workable because both Security delegates repeatedly agreed funded operations, including combat, and the Guild exercised its tested upkeep duty responsibly. NJ would exchange commercial capacity for compulsory carriage without demonstrated need in this settlement; MA would discourage the protection that just benefited civilians. I accept losing my own command and Warrant. If the published threshold is met, enact the package while recording the army's refusal accurately; my assent neither supplies its signature nor erases its dissent."}],
+  "reason": "Unconditional approval based on demonstrated service and the printed continuing duties. I prefer this settlement to restored Interim or the alternatives offered, despite its acknowledged political asymmetry."
+}

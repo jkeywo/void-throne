@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": [
+    "R1 operational resolver exact replay",
+    "R1 all five drafts predate selection",
+    "R1 disclosure predates all final faction choices",
+    "R2 operational resolver exact replay",
+    "R2 all five drafts predate selection",
+    "R2 disclosure predates all final faction choices",
+    "Six authentic debriefs",
+    "R1 all final council choices follow delivered closing replies",
+    "R1 both owners explicitly assent to exact actual assignment pairs",
+    "R2 all final council choices follow delivered closing replies",
+    "R2 both owners explicitly assent to exact actual assignment pairs",
+    "Exact-row trial gate replay matches enacted articles and owner-signed pledge",
+    "Weighted settlement replay matches all five original decisions and frozen arithmetic"
+  ],
+  "player_contribution_count": 98,
+  "independent_root_audit_pending": true
+}

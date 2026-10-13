@@ -1,0 +1,66 @@
+{
+  "note": "",
+  "delivered_contributions": [
+    {
+      "run": 1,
+      "id": "r2_draft_GN",
+      "role": "GN",
+      "phase": "r2-faction",
+      "stage": "draft",
+      "channel": "Guild",
+      "proposal": {
+        "wayfarer": "Trade",
+        "lantern": "Council",
+        "navigation_request": "Repair",
+        "security_request": "Guard without a simultaneous Warrant"
+      },
+      "standing_commitments": [
+        {
+          "owner": "Guild",
+          "asset": "Lantern",
+          "assignment": "Council",
+          "article": "NG",
+          "status": "LOCKED"
+        }
+      ],
+      "messages": [
+        {
+          "to": "GS",
+          "text": "Lantern Council is locked. I propose Wayfarer Trade and will use our enacted Navigation authority for Repair. Prepared Beacon three should let us complete the second contract and finish at two. MA failed, so Vigil Home is not pledged: request Vigil offered for Guard, with no simultaneous Warrant. We should make civilian protection the army's next concrete contribution."
+        }
+      ],
+      "reason": "NG now lets us demonstrate that Guild discretion performs its upkeep duty. Repair honours our negotiated promise and supports commercial obligations together. Military remains Interim, so these are requests to the Ascendant and army, not orders I can issue. At readiness four one peaceful month leaves a substantial force; speculative violence has no compelling purpose."
+    },
+    {
+      "run": 1,
+      "id": "r2_draft_GS",
+      "role": "GS",
+      "phase": "r2-faction",
+      "stage": "draft",
+      "channel": "Guild",
+      "proposal": {
+        "wayfarer": "Trade",
+        "lantern": "Council",
+        "navigation_request": "Repair",
+        "security_request": "Guard without a simultaneous Warrant"
+      },
+      "standing_commitments": [
+        {
+          "owner": "Guild",
+          "asset": "Lantern",
+          "assignment": "Council",
+          "article": "NG",
+          "status": "LOCKED"
+        }
+      ],
+      "messages": [
+        {
+          "to": "GN",
+          "text": "Agreed. Our Lantern pledge is locked and Repair should be our actual order, completing the obligation behind Guild discretion. Wayfarer can then trade at prepared Beacon three without relying on an escort. I will ask for offered Vigil and a single Guard order, without a competing Warrant. The failed autonomy article leaves no Home commitment binding the army."
+        }
+      ],
+      "reason": "This is the clearest way to restore Beacon two and meet our second contract while keeping the crew alive. Readiness four gives room to protect communities this month. I want the army's next contribution to be visible protection rather than another Raid whose civilian losses we cannot now offset with the spent reserve."
+    }
+  ],
+  "additional_information": null
+}

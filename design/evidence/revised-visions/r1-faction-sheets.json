@@ -1,0 +1,36 @@
+{
+  "Guild": {
+    "wayfarer": "Trade",
+    "lantern": "Maintain",
+    "signatures": [
+      "GN",
+      "GS"
+    ],
+    "sources": [
+      "r1_final_GN",
+      "r1_final_GS"
+    ],
+    "defaulted": false,
+    "standing_commitments": []
+  },
+  "Janissariat": {
+    "spear": "Council",
+    "vigil": "Council",
+    "signatures": [
+      "JN",
+      "JS"
+    ],
+    "sources": [
+      "r1_final_JN",
+      "r1_final_JS"
+    ],
+    "defaulted": false,
+    "standing_commitments": []
+  },
+  "Ascendant_private": {
+    "vision": "Security",
+    "card_id": "R1-S",
+    "intervention": "Relief lift",
+    "source": "r1_final_A"
+  }
+}

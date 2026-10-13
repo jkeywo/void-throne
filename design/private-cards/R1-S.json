@@ -1,0 +1,20 @@
+{
+  "id": "R1-S",
+  "title": "The merchant’s wake",
+  "branches": [
+    {
+      "condition": "Wayfarer completes private Trade",
+      "consequence": "A Raid finds the target. At opening Readiness 2+, it fights: total Raid cost Communities −2 and the round’s combat change is Readiness +1. At Readiness 0–1, Spear is disabled: Raid costs Communities −1 and there is no qualifying combat from that Raid."
+    },
+    {
+      "condition": "No completed private Trade",
+      "consequence": "The Raid finds no target. It costs Communities −1, Spear remains intact, and it provides no qualifying combat. Council Relief, Military or Shared passage does not substitute for a private contract."
+    },
+    {
+      "condition": "No Raid",
+      "consequence": "These Raid effects do not occur. Campaign and other orders follow their own rules."
+    }
+  ],
+  "public_rules": "A Trade assignment is not enough: the voyage must complete under the public Beacon and protection rules. If no operation achieves combat, Readiness falls by 1 once. Duty breaches and monthly consumption are additional; tracks stay within 0–4.",
+  "use": "Compare Raid with a known noncombat option, or check whether the proposed private voyage would actually complete. The card does not make combat harmless."
+}

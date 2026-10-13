@@ -1,0 +1,20 @@
+{
+  "id": "R1-N",
+  "title": "The exposed transfer",
+  "branches": [
+    {
+      "condition": "Shared crosses without protection",
+      "consequence": "If funded Shared passage is delivered and there is no funded Guard or valid Warrant, Lantern’s navigation team is lost. A lodged, available Grey Petrel on Tender cover prevents this loss and is spent."
+    },
+    {
+      "condition": "Shared crosses with protection",
+      "consequence": "A funded Guard or valid Warrant prevents this crew loss. Tender cover does not trigger and stays available."
+    },
+    {
+      "condition": "Shared does not cross",
+      "consequence": "This crew-loss effect does not occur. An unfunded or halted order still has its normal cost."
+    }
+  ],
+  "public_rules": "Shared needs both Wayfarer and Lantern on Council. Passage still needs prepared Beacon 2+. Guard needs offered Vigil; a Warrant also needs imperial authority and opening Readiness 3+. Protection does not repair Beacon or avoid crossing wear.",
+  "use": "Compare Shared with and without available protection. Buying this card does not predict whether either faction will supply it."
+}

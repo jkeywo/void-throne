@@ -1,0 +1,35 @@
+package:
+  id: void_throne
+  display_name: The Void Throne
+  spec: gamespec-core/0.6
+  game_family: megagame
+
+revision: { id: vt-0.1-dev, status: development }
+
+# A grimdark political megagame. The bundle auto-includes briefings + facilitation +
+# factions; automated-opponent runs the crisis clock.
+extensions:
+  - id: megagame
+  - id: automated-opponent
+
+style_profiles: [grimdark, gothic]     # tone for briefs/materials (shared profiles)
+
+domains:
+  game:      { source: game/, owns: [game_design, objectives], reads: [component, mechanism, setting] }
+  scenario:  { source: scenarios/, owns: [scenario_configuration], reads: [game, setting] }
+  design:    { source: design/, owns: [design_decisions], reads: [game] }
+  mechanism: { source: mechanisms/, owns: [procedural_behaviour] }
+
+namespaces: { game: game/, scenario: scenarios/, design: design/, mechanism: mechanisms/ }
+
+# Shared grimdark-scifi world (the Settlement era). Same world as the Long Night Home novel.
+dependencies:
+  setting:
+    kind: setting
+    spec: worldspec/0.1
+    package: settled_dark
+    source: ../../_shared_worlds/settled_dark/
+    compatibility: { mode: development }
+    scope: { era: settlement_era, used_for: [factions, characters, locations, belief_systems] }
+
+validation: { mode: development }

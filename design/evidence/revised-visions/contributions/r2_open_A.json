@@ -1,0 +1,13 @@
+{
+  "run": 1,
+  "id": "r2_open_A",
+  "role": "A",
+  "phase": "r2-council",
+  "channel": "Security",
+  "proposal": {"navigation_order": "Repair", "security_order": "Guard", "warrant": false, "navigation_advice_only": true},
+  "messages": [
+    {"to": "GS/JS", "text": "Vigil is actually offered, and I propose using it for Guard without a Warrant. The army has accepted declining readiness by offering Spear instead of raiding independently; I recognise that as responsible service. Guard makes that service visible to the communities too. With Repair and completed Trade, the disclosed distribution effect and Guard should leave Communities four, Beacon two and Readiness three. There is no funded passage for Campaign, and we need no speculative Raid."},
+    {"to": "NAVIGATION", "text": "Written advice under NG: use committed Lantern for Repair. Wayfarer remains Trade. I intend Guard with offered Vigil and no Warrant. The Navigation decision belongs to the Guild; please confirm the funded order."}
+  ],
+  "reason": "Use offered protection to improve civilian recovery while accepting a sustainable single month of conditioning decline."
+}

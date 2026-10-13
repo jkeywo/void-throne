@@ -1,0 +1,43 @@
+The Void Throne — Revised Visions Playtest and Migration Report
+
+What was tested
+
+[WORKING] The hypothesis was that public intentions and clearly scoped vision covers would let the Ascendant buy information relevant to live choices while retaining a meaningful option to preserve power. One fresh six-agent run used five player roles and an independent facilitator, with the same personalities as the preceding weighted-settlement test.
+
+The source record has 113 contributions across eleven phases and six debriefs. Each role authored its own choices. Scoped packets separated faction discussions, councils and the purchased vision. Times represent the proposed paper schedule, not measured human play. The migration adds a deterministic Playtrace replay of those decisions; it is not another independent LLM run.
+
+Round one: information changed the plan
+
+The Guild displayed Trade/Maintain and Hold/Guard. The army wanted Military/Campaign; the Ascendant initially proposed those orders with a Warrant. With no offered Wayfarer for military passage, the Ascendant bought the Security vision to investigate Raid.
+
+The answer tied a successful Raid target appearance to completed private Trade. The Ascendant disclosed it and offered Grey Petrel for Relief. All four faction players changed council requests; the Ascendant changed Military/Campaign to reserve Relief/Raid, retaining Warrant. Asset assignments did not change. Information and the material reserve offer arrived together, so the result does not isolate the information’s causal effect.
+
+Result: Beacon 1, Communities 3, Readiness 4, all faction assets intact, one contract, reserve spent, two foresight left. Two crossings wore the route. The Guild secured NG provisionally with a Lantern Council pledge. MA failed because the Guild Security delegate refused it; the Ascendant had approved the trial.
+
+Round two: relevance without a major order change
+
+The live plan paired funded Repair and private Trade. The Ascendant bought the Navigation answer, learning the extra Communities +1 when that combination completes. The Ascendant retained Repair/Guard/no Warrant; both Guild players retained their choices and reported greater confidence. Army requests moved from Restraint with Warrant to Guard without Warrant as protection coordination. No asset assignment changed.
+
+Result: Beacon 2, Communities 4, Readiness 3, all faction assets intact, two contracts, reserve spent, one foresight left. The peaceful round reduced both army and Ascendant signature weight. The Guild’s concession was tender service and upkeep; it did not lose a commercial contract in this run.
+
+Settlement and the unanswered saving question
+
+Final weights were Guild 4, Janissariat 3 and Ascendant 4; 8 of 11 was required. NG/MJ passed with both Guild players and the Ascendant approving, despite both army players refusing. Operational cooperation did not produce constitutional consensus.
+
+The Ascendant bought both available rounds’ visions. They did not choose NONE. The third token remained because only two purchases were allowed. In debrief they judged the second purchase less useful in practice and said declining would have been defensible; that was hindsight, not a decision observed in play.
+
+With the same physical ending but one purchase declined, Ascendant weight would be 5 and the threshold would still be 8. An Ascendant–Janissariat coalition would then be arithmetically possible. This is a counterfactual calculation, not an alternative simulated ballot or evidence that they would agree.
+
+Evidence and limitations
+
+Independent checks reproduced both operational resolutions, provisional signatures and pledges, foresight payment and disclosure order, final weights and all five final votes. The report retains original contributions, side-by-side drafts/final faction sheets, council sheets, state changes and private answers actually delivered.
+
+The strongest finding is a useful first purchase. The second is evidence of confirmation and coordination rather than a second major change. There is no evidence of deliberate saving, human pacing, all alternative constitutions, or assignment changes after disclosure. One run cannot establish balance or isolate all procedure changes from fresh choices.
+
+Playtrace stores a source snapshot, executable model audit, deterministic replay and hypothesis-linked evidence. The replay is context for the hypothesis, not new evidence that foresight changes player psychology. The existing six-agent record is preserved intact; mechanical replay must not rewrite its statements.
+
+Next tests
+
+Run the paper prototype with people and record purchase decisions before answers. Compare initial and final constitutional preferences. Test a council arrangement other than NG/Interim. Observe whether the first package’s agenda-setting advantage matters and whether passing over a dissenting army feels like a workable settlement.
+
+The local browser lets one tester control every seat, try refusal, conflict, poor directives, averted visions and failed ballots, and export the complete record. It automatically applies consequences but does not substitute for multiplayer negotiation.

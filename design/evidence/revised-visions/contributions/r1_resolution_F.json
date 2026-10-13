@@ -1,0 +1,92 @@
+{
+  "run": 1,
+  "id": "r1_resolution_F",
+  "role": "F",
+  "phase": "r1-resolution",
+  "channel": "Open",
+  "messages": [
+    {
+      "to": "ALL",
+      "text": "Final Beacon 1, Communities 3, Readiness 4."
+    }
+  ],
+  "reason": "Printed-rules facilitation",
+  "timestamp": "2026-10-13T22:17:59.785650+00:00",
+  "decision": {
+    "round": 1,
+    "before": {
+      "beacon": 2,
+      "communities": 3,
+      "readiness": 3,
+      "wayfarer": true,
+      "lantern": true,
+      "spear": true,
+      "contracts": 0,
+      "reserve": true
+    },
+    "after": {
+      "beacon": 1,
+      "communities": 3,
+      "readiness": 4,
+      "wayfarer": true,
+      "lantern": true,
+      "spear": true,
+      "contracts": 1,
+      "reserve": false
+    },
+    "inputs": {
+      "rnd": 1,
+      "w": "Trade",
+      "l": "Maintain",
+      "s": "Council",
+      "v": "Council",
+      "nav": "Relief",
+      "sec": "Raid",
+      "na": "I",
+      "ma": "I",
+      "warrant": true,
+      "intervention": "Relief lift",
+      "nav_signed": true,
+      "sec_signed": true
+    },
+    "articles_before": {
+      "navigation": "I",
+      "military": "I"
+    },
+    "articles_after": {
+      "navigation": "I",
+      "military": "I"
+    },
+    "effects": [
+      "Monthly consumption: Communities -1",
+      "Independent Maintain: Beacon +1; funded Repair: Beacon +0; preparation cap 4.",
+      "Delivered cargo Communities +2.",
+      "Beacon wear: 1 service voyage + 1 commercial voyage.",
+      "Warrant: Vigil used; Communities +1",
+      "Grey Petrel provides Relief lift; reserve spent",
+      "Wayfarer commercial contract completed",
+      "Raid fought: Communities -2 total; conditioning sustained",
+      "Prepared Beacon 3; final Beacon 1.",
+      "Successful combat: Readiness +1, capped 0–4."
+    ],
+    "resolver_detail": {
+      "events": [
+        "Warrant: Vigil used; Communities +1",
+        "Grey Petrel provides Relief lift; reserve spent",
+        "Wayfarer commercial contract completed",
+        "Raid fought: Communities -2 total; conditioning sustained"
+      ],
+      "prepared": 3,
+      "nav": "Relief",
+      "sec": "Raid",
+      "guarded": true,
+      "delivered": true,
+      "trade": true,
+      "combat": true,
+      "guild_breach": false,
+      "jan_breach": false
+    },
+    "public_summary": "Final Beacon 1, Communities 3, Readiness 4.",
+    "issues": []
+  }
+}

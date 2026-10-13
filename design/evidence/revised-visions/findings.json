@@ -1,0 +1,43 @@
+{
+  "lead": "The first vision changed the operational plan. The second improved confidence and coordination, while the Ascendant kept the same proposed orders. The Ascendant bought both visions: no purchase was declined, so the one token left was compulsory under the two-purchase limit.",
+  "sections": [
+    [
+      "Round one: a live question produced a different plan",
+      "Before paying, the Ascendant proposed Military passage, Campaign and a Warrant. Both Guild players displayed Trade/Maintain with Hold/Guard requests; the army offered its assets but asked for Military/Campaign. After seeing those drafts, the Ascendant selected the Security cover to investigate a Raid as an alternative to the unavailable passage. The answer revealed that completed private Trade brings the target. The Ascendant then proposed Relief using Grey Petrel, Raid and Warrant. All four faction players changed their council requests and explicitly cited the disclosed condition. The final authorised operations followed that revised plan. No asset assignment changed."
+    ],
+    [
+      "The first purchase had an observable consequence",
+      "Grey Petrel supplied Relief while Wayfarer completed its private contract. The Raid found its target and sustained conditioning. Communities ended at 3 and Readiness at 4, with all faction assets intact. Two crossings left Beacon at 1 and spent the reserve. The information did not create these options or add a bonus: it identified a reliable condition on which the players could base their bargain. Sources: r1_draft_A, r1_purchase_A, r1_disclosure_A, all four r1_final faction records and r1_orders_A."
+    ],
+    [
+      "Round two: relevant information, limited change of action",
+      "The new state made Repair important, and the Guild had bound Lantern to Council under provisional NG. The displayed plan combined Repair and private Trade, exactly the combination named on the Navigation cover. The Ascendant bought that answer, learning its extra Communities +1. They retained their pre-purchase Repair advice, Guard order and no-Warrant position; both Guild players retained their assignments and requests, explicitly describing greater confidence. The army changed its request from Restraint with a Warrant to Guard without one, citing equivalent protection and easier coordination. The extra supply benefit would apply even if unread. The evidence supports confirmation, better accounting and coordination more strongly than a second major operational change."
+    ],
+    [
+      "No deliberate saving occurred",
+      "Both decisions were explicit purchases: Security in round one, Navigation in round two. Tokens went 3→2→1. The Ascendant recognised the lost signature weight and preferred information relevant to the displayed plans. In their debrief, they judged the second purchase less useful in practice and said declining would have been defensible; that is hindsight, not a choice they made. At most two tokens can be spent in this prototype, so the last token is guaranteed. This run demonstrates more informed selection of cards; it does not demonstrate choosing NONE or establish how often real players will save."
+    ],
+    [
+      "The forgone leverage mattered",
+      "At the actual ending the weights were Guild 4, Janissariat 3 and Ascendant 4, with 8 required. Only Guild–Ascendant could pass as a two-party coalition. With the same physical ending and one purchase declined, Ascendant weight would be 5 and the threshold would still be 8; Ascendant–Janissariat would also qualify. That is arithmetic, not a simulated alternative ballot or evidence that the army and Ascendant would have agreed."
+    ],
+    [
+      "Constitution and compromise",
+      "Guild navigation and joint military authorisation passed with 8/11 leverage (threshold 8). Signing parties: Guild, Ascendant; refusing parties: Janissariat. Guild discretion was the only provisional article enacted: its Lantern Council commitment supplied the subsequent Repair. Military autonomy failed on the Guild security delegate’s refusal even though the Ascendant approved testing it. The army accepted a noncombat second round, reducing both its own and the Ascendant’s Readiness-based weight by one. The Guild completed both commercial contracts this time; its concession was the binding Lantern commitment and delivery of public upkeep, not a lost Wayfarer contract. The Ascendant paid for both visions and the reserve service. Costs were real but unevenly distributed."
+    ],
+    [
+      "Comparison with the previous run",
+      "The same five personalities and objectives were used with five fresh player agents and a fresh facilitator. Previously, the Ascendant bought Navigation twice and neither selected special condition applied to the chosen orders. This time, both purchased conditions were relevant and occurred: the first Raid target and the Repair/Trade distribution benefit. The physical ending was Beacon 2, Communities 4, Readiness 3, two contracts and a spent reserve, compared with 2/3/3, one contract and an unused reserve previously. This comparison does not isolate the effect of public covers from draft visibility, earlier disclosure, fresh choices or the different path of play."
+    ],
+    [
+      "Limits and what remains to test",
+      "All six roles authored their own contributions. Independent checks cover original drafts, exact card delivery after payment, later faction signatures, operational consequences and constitutional votes. Conversations were bounded and scheduled in batches; the stated 60 minutes is the proposed paper schedule, not measured human playing time. No assignment was revised after either answer, so the new opportunity to change asset commitments was not exercised. NG was tested operationally; no alternative military article was enacted provisionally. The second vision’s extra Community is a round-two scenario effect, not a permanent constitutional entitlement. This single run leaves deliberate saving and human timing unresolved."
+    ]
+  ],
+  "costs": {
+    "First purchase": "1 token. Military/Campaign proposal became reserve Relief/Raid; Warrant retained. All four faction council requests changed; assignments unchanged.",
+    "Second purchase": "1 token. Repair/Guard/no Warrant retained by Ascendant; Guild requests unchanged. Army coordinated on Guard. No token deliberately saved.",
+    "Ending": "Beacon 2, Communities 4, Readiness 3; two contracts, intact faction assets, reserve spent; foresight 1.",
+    "Physical prices": "First-round double crossing reduced Beacon to 1; round-two Repair restored it. Peaceful round reduced Readiness 4→3 and both associated signature weights. Guild’s service commitment did not destroy a ship or reduce ownership leverage."
+  }
+}

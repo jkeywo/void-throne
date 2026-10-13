@@ -1,0 +1,314 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>PlayTrace simulation replay</title><body><main id="pt-plugin-report">
+<style>#pt-plugin-report{--ink:#193639;--muted:#526b6d;--line:#d8e3e0;--accent:#17655d;--changed:#fff1c7;font:15px/1.5 system-ui,sans-serif;color:var(--ink);background:#f3f6f2;max-width:1500px;margin:auto;padding:28px;box-sizing:border-box}
+#pt-plugin-report *{box-sizing:border-box}
+#pt-plugin-report h1{font-size:clamp(24px,3vw,35px);line-height:1.2;letter-spacing:-.7px;margin:4px 0 12px}
+#pt-plugin-report h2{font-size:19px;margin:0 0 10px}#pt-plugin-report h3{font-size:16px;margin:16px 0 8px}
+#pt-plugin-report p{margin:6px 0 12px}#pt-plugin-report .muted{color:var(--muted);font-size:13px}
+#pt-plugin-report .eyebrow{font-size:11px;font-weight:750;letter-spacing:1.8px;color:var(--accent)}
+#pt-plugin-report header{display:flex;justify-content:space-between;align-items:center;gap:20px}
+#pt-plugin-report .card-gallery{display:flex;gap:16px;overflow-x:auto;padding:4px 0 12px;align-items:start}
+#pt-plugin-report .card-gallery figure{flex:0 0 180px;margin:0}
+#pt-plugin-report .card-gallery .card-picture{padding:0;overflow:hidden;border-radius:9px;display:block;width:100%;background:#f3f6f2}
+#pt-plugin-report .card-gallery img{width:100%;display:block;aspect-ratio:5/7;object-fit:contain}
+#pt-plugin-report .card-gallery figcaption{font-size:13px;font-weight:600;margin-top:7px}
+#pt-plugin-report .card-face-controls{display:flex;gap:5px;margin-top:6px}
+#pt-plugin-report .card-face-controls button{font-size:12px;padding:4px 10px}
+#pt-plugin-report .card-face-controls button[aria-pressed=true]{background:var(--ink);color:white}
+#pt-plugin-report dialog{color:var(--ink);background:white;border:1px solid var(--line);border-radius:12px;max-width:95vw;max-height:94vh;width:760px;padding:18px;overflow:auto}
+#pt-plugin-report dialog::backdrop{background:#102b30cf}
+#pt-plugin-report .card-dialog-toolbar{display:flex;justify-content:space-between;gap:15px;align-items:center;position:sticky;top:-18px;background:white;padding:8px 0}
+#pt-plugin-report #pt-card-large{display:block;width:100%;height:auto;margin:12px auto;max-width:660px}
+#pt-plugin-report #pt-card-download{color:var(--accent)}
+#pt-plugin-report button,#pt-plugin-report select{font:inherit;color:inherit;border:1px solid var(--line);border-radius:7px;background:white;padding:8px 12px}
+#pt-plugin-report button{cursor:pointer}#pt-plugin-report button:hover{border-color:var(--accent)}#pt-plugin-report button:disabled{opacity:.4;cursor:default}
+#pt-plugin-report :focus-visible{outline:3px solid #29887c;outline-offset:3px}
+#pt-plugin-report .trace-label{display:grid;gap:4px;font-size:12px;max-width:40%}#pt-plugin-report select{max-width:100%}
+#pt-plugin-report .transport{display:flex;gap:10px;align-items:center;margin:14px 0 22px;flex-wrap:wrap}
+#pt-plugin-report input[type=range]{flex:1;min-width:160px;accent-color:var(--accent)}#pt-counter{font-size:13px;font-variant-numeric:tabular-nums}
+#pt-plugin-report .workspace{display:grid;grid-template-columns:300px minmax(0,1fr);gap:20px;align-items:start}
+#pt-plugin-report .panel{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px}
+#pt-plugin-report aside{position:sticky;top:12px}#pt-plugin-report .main-panel{display:grid;gap:16px;min-width:0}
+#pt-plugin-report #pt-log{list-style:none;padding:0;margin:0;max-height:70vh;overflow:auto}
+#pt-plugin-report #pt-log button{display:block;width:100%;text-align:left;border:0;border-radius:0;border-left:3px solid transparent;border-bottom:1px solid #edf1ef;padding:11px 10px;font-size:13px;line-height:1.5}
+#pt-plugin-report #pt-log button[aria-current=true]{background:#eaf4ef;border-left-color:var(--accent);font-weight:600}
+#pt-plugin-report #pt-log small{display:block;color:var(--muted);font-size:11px;font-weight:400;margin-bottom:3px}
+#pt-plugin-report .action{border-top:3px solid var(--accent)}#pt-description{font-weight:550;line-height:1.5}
+#pt-plugin-report #pt-affected{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:12px}
+#pt-plugin-report .change-chip{background:var(--changed);border-color:#dfbd61;font-size:12px;padding:4px 8px}
+#pt-plugin-report #pt-tabs{display:flex;flex-wrap:wrap;gap:6px;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:16px}
+#pt-plugin-report [role=tab]{font-size:13px;display:flex;align-items:center;gap:8px}#pt-plugin-report [role=tab][aria-selected=true]{background:var(--ink);color:white;border-color:var(--ink)}
+#pt-plugin-report .badge{background:var(--changed);color:#634c12;border:1px solid #dfbd61;border-radius:20px;padding:0 6px;font-size:11px;white-space:nowrap}
+#pt-plugin-report .change-list{margin:12px 0 20px;padding:12px 16px 12px 32px;background:#fff8e4;border-left:3px solid #d1a03d;border-radius:5px;font-size:13px}
+#pt-plugin-report .change-list li{padding:3px 0;overflow-wrap:anywhere}#pt-plugin-report .change-list strong{font-weight:650}
+#pt-plugin-report .fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+#pt-plugin-report .field{border:1px solid #e0e9e4;border-radius:7px;padding:10px 12px;min-width:0;background:#f8faf8;overflow-wrap:anywhere}
+#pt-plugin-report .field.changed{background:var(--changed);border-color:#dfbd61}
+#pt-plugin-report .field-label{display:block;font-size:12px;color:var(--muted);margin-bottom:5px}#pt-plugin-report .field-value{font-size:15px;font-weight:550}
+#pt-plugin-report .group{margin-top:20px}#pt-plugin-report .group .group{margin:10px 0;padding:12px;border:1px solid var(--line);border-radius:8px}
+#pt-plugin-report .group .group h3{margin-top:0}#pt-plugin-report .tokens{display:flex;flex-wrap:wrap;gap:5px}#pt-plugin-report .token{font-size:13px;font-weight:400;background:white;padding:2px 7px;border:1px solid var(--line);border-radius:5px}
+#pt-plugin-report details{font-size:13px}#pt-plugin-report summary{cursor:pointer;color:var(--muted)}#pt-plugin-report pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f6f4;padding:12px;max-height:400px;overflow:auto}
+@media(max-width:950px){#pt-plugin-report .workspace{grid-template-columns:240px minmax(0,1fr)}#pt-plugin-report{padding:16px}}
+@media(max-width:720px){#pt-plugin-report header{display:block}#pt-plugin-report .trace-label{max-width:100%}#pt-plugin-report .workspace{display:flex;flex-direction:column-reverse}#pt-plugin-report aside,#pt-plugin-report .main-panel{width:100%;position:static}#pt-plugin-report #pt-log{max-height:300px}#pt-plugin-report .panel{padding:14px}}
+</style>
+<header><div><p class="eyebrow">PLAYTRACE / REPLAY</p><h1>Follow the game, action by action.</h1><p id="pt-summary" class="muted"></p></div>
+<label class="trace-label">Trace <select id="pt-trace"></select></label></header>
+<section class="transport" aria-label="Replay controls">
+<button id="pt-prev" type="button">← Previous</button><button id="pt-next" type="button">Next →</button>
+<input id="pt-position" type="range" min="0" value="0" aria-label="Action position"><span id="pt-counter"></span>
+</section>
+<div class="workspace"><aside class="panel"><h2>Action history</h2><p class="muted">Choose an action to inspect its result.</p><ol id="pt-log" aria-label="Action history"></ol></aside>
+<section class="main-panel">
+<section class="action panel" aria-live="polite"><p id="pt-phase" class="eyebrow"></p><h2 id="pt-description"></h2><div id="pt-affected" aria-label="Changed tabs"></div></section>
+<section class="panel" id="pt-card-panel" hidden><h2>Cards involved in this action</h2><p class="muted">Select a card to enlarge it. Front and back images are included in this report.</p><div id="pt-cards" class="card-gallery"></div></section>
+<section class="panel state-panel"><div id="pt-tabs" role="tablist" aria-label="Players and locations"></div>
+<div id="pt-tab-content" role="tabpanel" tabindex="0"></div></section>
+<details class="panel technical"><summary>Technical details and source references</summary><h3>Event and source references</h3><pre id="pt-event"></pre><h3>Blockers</h3><pre id="pt-blockers"></pre><h3>Complete state checkpoint</h3><pre id="pt-state"></pre></details>
+</section></div>
+<dialog id="pt-card-dialog" aria-labelledby="pt-card-title"><div class="card-dialog-toolbar"><h2 id="pt-card-title"></h2><button id="pt-card-close" type="button">Close</button></div><div id="pt-card-faces"></div><img id="pt-card-large" alt=""><p id="pt-card-note" class="muted"></p><a id="pt-card-download">Download this face</a></dialog>
+<script>/* Generic plugin replay. No game rules are interpreted by this renderer. */
+var PlayTraceReplay = (() => {
+  const object = v => v !== null && typeof v === 'object' && !Array.isArray(v);
+  const pretty = v => String(v).replace(/[_.:]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  const equal = (a, b) => {
+    if (a === b) return true;
+    if (Array.isArray(a) && Array.isArray(b)) return a.length === b.length && a.every((v, i) => equal(v, b[i]));
+    if (object(a) && object(b)) return Object.keys(a).length === Object.keys(b).length && Object.keys(a).every(k => Object.hasOwn(b, k) && equal(a[k], b[k]));
+    return false;
+  };
+  function names(data) {
+    const map = new Map();
+    for (const [id, card] of Object.entries(data.card_names || {})) {
+      map.set(id, card.name || id);
+      if (card.id) map.set(card.id, card.name || id);
+    }
+    for (const group of ['players', 'locations']) {
+      for (const [id, value] of Object.entries(data[group] || {})) map.set(id, value?.name || pretty(id));
+    }
+    return map;
+  }
+  function display(value, lookup) {
+    if (value === undefined) return 'Not present';
+    if (value === null) return 'None';
+    if (typeof value === 'boolean') return value ? 'Yes' : 'No';
+    if (typeof value === 'string') return lookup.get(value) || value;
+    if (Array.isArray(value)) return value.length ? value.map(v => display(v, lookup)).join(', ') : 'None';
+    if (object(value) && value.name) return `${value.name}${value.track && value.value !== undefined ? ` (${value.track}: ${value.value})` : ''}`;
+    if (object(value)) return Object.entries(value).map(([k, v]) => `${lookup.get(k) || pretty(k)}: ${display(v, lookup)}`).join('; ') || 'None';
+    return String(value);
+  }
+  const labels = {at:'Location', position:'Cards drawn', cards:'Cards in play', hand:'Cards in hand',
+    capabilities:'Available capabilities', local_icons:'Local icons', recipes:'Available recipes',
+    discard:'Discard pile', set_aside:'Set aside', deck:'Ordered deck', built:'Crafted cards',
+    players_present:'Players present', value:'Track value'};
+  const label = (key, lookup) => lookup.get(key) || labels[key] || pretty(key);
+  function diff(before, after, path = []) {
+    if (equal(before, after)) return [];
+    if (object(before) && object(after)) return [...new Set([...Object.keys(before), ...Object.keys(after)])]
+      .flatMap(key => diff(before[key], after[key], [...path, key]));
+    return [{path, before, after}];
+  }
+  function tabs(state) {
+    if (!state) return [{id:'overview', name:'Overview', value:{checkpoint:'Unavailable'}}];
+    const data = state.kind === 'plugin' ? state.data || {} : state;
+    const overview = Object.fromEntries(Object.entries(data).filter(([k]) => !['players','locations','card_names'].includes(k)));
+    const result = [{id:'overview', name:'Overview', value:{turn:state.turn, status:state.status, ...overview}}];
+    for (const group of ['players','locations']) {
+      if (!object(data[group])) continue;
+      for (const [id, v] of Object.entries(data[group])) {
+        const value = object(v) ? {...v} : {state:v};
+        if (group === 'locations' && object(data.players)) value.players_present = Object.keys(data.players).filter(p => data.players[p]?.at === id);
+        result.push({id:`${group}:${id}`, name:value.name || pretty(id), kind:group, value});
+      }
+    }
+    return result;
+  }
+  function changesFor(before, after) {
+    const old = new Map(tabs(before).map(t => [t.id, t]));
+    const current = tabs(after);
+    // Removed players/locations remain inspectable at the action which removes them.
+    for (const t of old.values()) if (!current.some(n => n.id === t.id)) current.push({...t, value:undefined});
+    return current.map(t => ({...t, changes:before && after ? diff(old.get(t.id)?.value, t.value) : []}));
+  }
+  function description(event) {
+    return event?.data?.description || (event ? `${pretty(event.event_type)}.` : 'No actions recorded.');
+  }
+  function involvedCards(event, before, after) {
+    const data = s => s?.kind === 'plugin' ? s.data || {} : s || {};
+    const old = data(before), current = data(after);
+    const definitions = {...old.card_names, ...current.card_names};
+    const ids = new Set(event?.entity_ids || []);
+    const add = key => {if(definitions[key]?.id) ids.add(definitions[key].id);};
+    for (const group of ['players','locations']) {
+      for (const key of new Set([...Object.keys(old[group] || {}), ...Object.keys(current[group] || {})])) {
+        const a = old[group]?.[key] || {}, b = current[group]?.[key] || {};
+        for (const card of new Set([...Object.keys(a.cards || {}), ...Object.keys(b.cards || {})])) {
+          if(!equal(a.cards?.[card],b.cards?.[card])) add(card);
+        }
+        for (const pile of ['hand','discard','set_aside','recipes']) {
+          const aa = Array.isArray(a[pile]) ? a[pile] : [], bb = Array.isArray(b[pile]) ? b[pile] : [];
+          for(const card of new Set([...aa,...bb])) if(aa.filter(c=>c===card).length !== bb.filter(c=>c===card).length) add(card);
+        }
+      }
+    }
+    return [...ids];
+  }
+  const safeImage = url => typeof url === 'string' && /^data:image\/(png|jpeg|webp);base64,[A-Za-z0-9+/=]+$/.test(url);
+  function changeText(change, lookup) {
+    if (Array.isArray(change.before) && Array.isArray(change.after)) {
+      const remainder = [...change.before];
+      const added = change.after.filter(item => {
+        const i = remainder.findIndex(old => equal(old, item));
+        if (i < 0) return true;
+        remainder.splice(i, 1); return false;
+      });
+      return [added.length ? `Added ${display(added, lookup)}` : '', remainder.length ? `Removed ${display(remainder, lookup)}` : ''].filter(Boolean).join(' · ') || 'Order changed';
+    }
+    const delta = typeof change.before === 'number' && typeof change.after === 'number' ? change.after - change.before : null;
+    return `${display(change.before, lookup)} → ${display(change.after, lookup)}${delta !== null ? ` (${delta > 0 ? '+' : ''}${delta})` : ''}`;
+  }
+  function mount(root, traces) {
+    const q = id => root.querySelector('#pt-' + id);
+    const el = (tag, text, className) => {const n = document.createElement(tag); if (text !== undefined) n.textContent = text; if (className) n.className = className; return n;};
+    let ti = 0, ei = 0, selected = 'overview', logTrace = -1, logPosition = -1;
+    const button = (text, action, cls) => {const b = el('button', text, cls); b.type = 'button'; b.onclick = action; return b;};
+    function faces(parent, card, select, selectedFace) {
+      parent.replaceChildren(); parent.className = 'card-face-controls';
+      for (const face of ['front','back']) if(safeImage(card[face])) {
+        const b=button(pretty(face),()=>{select(face); [...parent.children].forEach(n=>n.setAttribute('aria-pressed',String(n===b)));});
+        b.setAttribute('aria-pressed',String(face === (selectedFace || (safeImage(card.front) ? 'front':'back')))); parent.append(b);
+      }
+    }
+    function showCard(card, selectedFace) {
+      q('card-title').textContent=card.name;
+      q('card-note').textContent=card.note || '';
+      const select=face=>{q('card-large').src=card[face];q('card-large').alt=`${card.name} — ${face}`;
+        q('card-download').href=card[face];q('card-download').download=`${card.name.replace(/[^a-z0-9-]/gi,'_')}-${face}.${card[face].startsWith('data:image/png')?'png':card[face].startsWith('data:image/webp')?'webp':'jpg'}`;};
+      faces(q('card-faces'),card,select,selectedFace);select(selectedFace || (safeImage(card.front)?'front':'back')); q('card-dialog').showModal();
+    }
+    q('card-close').onclick=()=>q('card-dialog').close();
+    function renderCards(t,event,previous,state,lookup) {
+      if(!t.card_images) {q('cards').replaceChildren();q('card-panel').hidden=true;return;}
+      const ids = involvedCards(event,previous,state);
+      q('cards').replaceChildren(); q('card-panel').hidden=!ids.length;
+      for(const id of ids) {
+        const card=t.card_images[id], figure=el('figure');
+        if(!card || !['front','back'].some(face=>safeImage(card[face]))) {
+          figure.append(el('figcaption',lookup.get(id)||id),el('p','Image unavailable','muted'));q('cards').append(figure);continue;
+        }
+        const img=el('img'); img.loading='lazy';
+        let selectedFace=safeImage(card.front)?'front':'back';
+        const picture=button('',()=>showCard(card,selectedFace),'card-picture');picture.setAttribute('aria-label',`Enlarge ${card.name}`);picture.append(img);
+        const controls=el('div'); const select=face=>{selectedFace=face;img.src=card[face];img.alt=`${card.name} — ${face}`;};
+        faces(controls,card,select);select(safeImage(card.front)?'front':'back');
+        figure.append(picture,el('figcaption',card.name),controls);q('cards').append(figure);
+      }
+    }
+    traces.forEach((t, i) => {const o = el('option', t.label); o.value = i; q('trace').append(o);});
+    function selectTab(id) {selected = id; render(); q('tabs').querySelector('[aria-selected=true]')?.focus();}
+    function renderFields(parent, value, previous, lookup, path = []) {
+      if (!object(value)) {parent.append(el('p', display(value, lookup))); return;}
+      const piles = {};
+      if (Array.isArray(value.deck)) {
+        value = {...value};
+        for (const k of ['deck','set_aside','discard','recipes']) if (k in value) {piles[k] = value[k]; delete value[k];}
+      }
+      const fields = el('div', undefined, 'fields'); parent.append(fields);
+      for (const [key, val] of Object.entries(value)) {
+        if (key === 'id' || key === 'name') continue;
+        const old = previous?.[key], changed = previous !== undefined && !equal(val, old);
+        if (object(val) && Object.keys(val).length) continue;
+        const field = el('div', undefined, 'field' + (changed ? ' changed' : ''));
+        field.append(el('span', key === 'value' && value.track ? value.track : label(key, lookup), 'field-label'));
+        if (Array.isArray(val) && val.length) {
+          const chips = el('div', undefined, 'tokens');
+          val.forEach((item, i) => chips.append(el('span', (key === 'deck' ? `${i + 1}. ` : '') + display(item, lookup), 'token')));
+          field.append(chips);
+        } else field.append(el('span', changed ? changeText({before:old,after:val}, lookup) : display(val, lookup), 'field-value'));
+        fields.append(field);
+      }
+      const priority = ['resources','capabilities','local_icons','cards'];
+      const entries = Object.entries(value).sort(([a],[b]) => (priority.includes(a) ? priority.indexOf(a) : 99) - (priority.includes(b) ? priority.indexOf(b) : 99));
+      for (const [key, val] of entries) {
+        if (!object(val) || !Object.keys(val).length) continue;
+        const group = el('section', undefined, 'group'); group.append(el('h3', val.name || label(key, lookup)));
+        renderFields(group, val, previous?.[key], lookup, [...path,key]); parent.append(group);
+      }
+      if (Object.keys(piles).length) {
+        const section = el('details', undefined, 'group'); section.append(el('summary','Ordered deck, recipes and card piles'));
+        // Avoid treating this pile-only object as another location.
+        const deck = piles.deck; delete piles.deck;
+        renderFields(section, piles, previous, lookup, path);
+        const ordered = el('ol'); deck.forEach((key,i)=>{const item=el('li',display(key,lookup));
+          if(i === value.position) item.append(el('strong',' ← Next card'));
+          if(i < value.position) item.append(el('span',' · drawn','muted')); ordered.append(item);});
+        section.append(el('h3','Ordered deck'), ordered); parent.append(section);
+      }
+    }
+    function render() {
+      const t = traces[ti]; if (!t) return;
+      const event = t.events[ei], state = t.states[ei], previous = ei ? t.states[ei-1] : t.initial_state;
+      const data = state?.kind === 'plugin' ? state.data : state || {};
+      const lookup = names({...((previous?.kind === 'plugin' ? previous.data : previous) || {}), ...data});
+      const all = changesFor(previous, state);
+      if (!all.some(tab => tab.id === selected)) selected = 'overview';
+      q('summary').textContent = `${t.plugin_id} · ${pretty(t.status)} · ${t.metrics.turns_completed} turns · Seed ${t.seed}`;
+      q('position').max = Math.max(0,t.events.length-1); q('position').value = ei;
+      q('prev').disabled = ei === 0; q('next').disabled = ei >= t.events.length-1;
+      q('counter').textContent = t.events.length ? `Action ${ei+1} of ${t.events.length}` : 'No actions';
+      q('phase').textContent = `Turn ${event?.turn ?? state?.turn ?? 0} / ${data.phase || 'Replay'}`;
+      q('description').textContent = description(event);
+      renderCards(t,event,previous,state,lookup);
+      q('affected').replaceChildren(el('span', state ? 'Changed here:' : 'State checkpoint unavailable.'));
+      const affected = all.filter(tab => tab.changes.length);
+      if (!affected.length && state) q('affected').append(el('span', ei === 0 ? 'Initial state.' : previous ? 'No state changes in this action.' : 'Previous checkpoint unavailable; changes cannot be compared.', 'muted'));
+      affected.forEach(tab => q('affected').append(button(`${tab.name} · ${tab.changes.length}`, () => selectTab(tab.id), 'change-chip')));
+      q('tabs').replaceChildren();
+      all.forEach((tab, i) => {
+        const b = button(tab.name, () => selectTab(tab.id)); b.id = `pt-tab-${i}`; b.setAttribute('role','tab');
+        b.setAttribute('aria-selected', String(selected === tab.id)); b.setAttribute('aria-controls','pt-tab-content'); b.tabIndex = selected === tab.id ? 0 : -1;
+        b.title = `${tab.kind ? pretty(tab.kind) + ': ' : ''}${tab.name}${tab.changes.length ? ` — ${tab.changes.length} changes in this action` : ''}`;
+        if (tab.changes.length) b.append(el('span', `${tab.changes.length} changed`, 'badge'));
+        b.onkeydown = e => {let n; if (e.key === 'ArrowRight') n=(i+1)%all.length; if(e.key === 'ArrowLeft') n=(i+all.length-1)%all.length; if(e.key === 'Home') n=0; if(e.key === 'End') n=all.length-1; if(n !== undefined){e.preventDefault();selectTab(all[n].id);}};
+        q('tabs').append(b);
+      });
+      const active = all.find(tab => tab.id === selected), panel = q('tab-content');
+      panel.setAttribute('aria-labelledby', `pt-tab-${all.indexOf(active)}`); panel.replaceChildren(el('h2', active.name));
+      panel.append(el('p', 'State after this action. Gold highlights show changes since the previous action.', 'muted'));
+      if (active.changes.length) {
+        const list = el('ul', undefined, 'change-list');
+        active.changes.forEach(change => {const li=el('li'); li.append(el('strong', (change.path.map(k=>label(k,lookup)).join(' › ') || active.name)+': '), document.createTextNode(changeText(change,lookup))); list.append(li);});
+        panel.append(list);
+      }
+      const old = previous ? tabs(previous).find(tab=>tab.id === selected)?.value : undefined;
+      renderFields(panel, active.value, old, lookup);
+      if (logTrace !== ti) {
+        q('log').replaceChildren(); logTrace = ti; logPosition = -1;
+        t.events.forEach((ev, i) => {const li=el('li'); const b=button('',()=>{ei=i;render();}); b.append(el('small',`${i+1} · Turn ${ev.turn}`),document.createTextNode(description(ev))); li.append(b);q('log').append(li);});
+      }
+      [...q('log').querySelectorAll('button')].forEach((b,i)=>b.setAttribute('aria-current',String(i===ei)));
+      if (logPosition !== ei) {
+        const current = q('log').querySelector('[aria-current=true]');
+        if (current) {
+          const item = current.getBoundingClientRect(), box = q('log').getBoundingClientRect();
+          if (item.top < box.top) q('log').scrollTop += item.top - box.top;
+          else if (item.bottom > box.bottom) q('log').scrollTop += item.bottom - box.bottom;
+        }
+        logPosition = ei;
+      }
+      q('event').textContent = JSON.stringify(event || {},null,2);
+      q('state').textContent = JSON.stringify(state || {},null,2);
+      q('blockers').textContent = t.blockers.length ? JSON.stringify(t.blockers,null,2) : 'No blockers.';
+    }
+    q('trace').onchange=e=>{ti=Number(e.target.value);ei=0;selected='overview';render();};
+    q('position').oninput=e=>{ei=Number(e.target.value);render();};
+    q('prev').onclick=()=>{ei=Math.max(0,ei-1);render();};
+    q('next').onclick=()=>{ei=Math.min(Math.max(0,traces[ti].events.length-1),ei+1);render();};
+    render();
+  }
+  return {mount, equal, diff, tabs, changesFor, names, display, description, changeText, involvedCards, safeImage};
+})();
+if (typeof module !== 'undefined') module.exports = PlayTraceReplay;
+
+PlayTraceReplay.mount(document.getElementById('pt-plugin-report'), [{"id":"vt:run:426309a0ce0dc0c558b3e8a9","plugin_state":true,"plugin_id":"void-throne","snapshot_digest":"e1d698da62d4290952f7ece145196f2e38aafa4a5b2a656a1ccb9e3b1580b9bb","label":"vt:experiment:revised-visions-replay","characters":["GN","GS","JN","JS","A"],"ruleset":"vt:rules:revised-visions-v0.3","seed":0,"status":"max_turns","metrics":{"turns_completed":2,"cards_resolved":0,"escalation_steps":0,"improves":0,"worsens":0,"maximum_tableau_cubes":0,"blocker_count":0,"player_actions":13,"rests":0,"assists":0,"fatigue_discarded":0},"events":[{"sequence":1,"turn":1,"event_type":"Public draft sheets","actor_id":null,"entity_ids":[],"data":{"sequence":1,"round":1,"phase":"draft","event":"Public draft sheets","sheets":{"A":{"navigation":"Military","security":"Campaign","warrant":true},"GN":{"lantern":"Maintain","navigation":"Hold","security":"Guard","wayfarer":"Trade"},"GS":{"lantern":"Maintain","navigation":"Hold","security":"Guard","wayfarer":"Trade"},"JN":{"navigation":"Military","security":"Campaign","spear":"Council","vigil":"Council"},"JS":{"navigation":"Military","security":"Campaign","spear":"Council","vigil":"Council"}},"notes":{"A":"This is a funded starting proposal if its owners cooperate. All directives remain nonbinding until the appropriate bell; no vision has been selected and no signatures are given.","GN":"This is a credible independent plan with visible public benefit from maintenance. It preserves both assets and our constitutional leverage while meeting one commercial obligation. I know Guard means conditioning declines unless the army finds another lawful combat arrangement. That is a subject for negotiation, not a reason to grant permanent carriage rights.","GS":"This proposal protects our people while completing an existing obligation. It leaves the council no grounds to assume either Guild vessel is available. Readiness declining concerns me, but an unfunded Campaign or speculative Raid is not a sound substitute for an agreed plan. If new information identifies a concrete danger, I will reconsider the draft before signing; this agreement is not yet a commitment.","JN":"This is a genuine service offer contingent on final discussion, not a constitutional surrender. Successful combat preserves our force and strengthens our bargaining position. I want our two delegates speaking from the same concrete exchange.","JS":"Your exchange can sustain Readiness and keep Communities viable. Offering our assets now does not concede military autonomy later; successful service should strengthen that demand."},"standing_commitments":[],"script_step":1},"assertion_ids":[],"semantic_ids":["vt:semantic:foresight"]},{"sequence":2,"turn":1,"event_type":"Foresight purchase","actor_id":null,"entity_ids":[],"data":{"sequence":2,"round":1,"phase":"vision","event":"Foresight purchase","choice":"Security","before":3,"after":2,"notes":{"A":"The immediate obstacle is missing passage. Security information could establish a feasible alternative without requiring the Guild to abandon its commercial priority; conserving this token would leave that central uncertainty unresolved."},"private_answer":{"id":"R1-S","title":"The merchant\u2019s wake","branches":[{"condition":"Wayfarer completes private Trade","consequence":"A Raid finds the target. At opening Readiness 2+, it fights: total Raid cost Communities \u22122 and the round\u2019s combat change is Readiness +1. At Readiness 0\u20131, Spear is disabled: Raid costs Communities \u22121 and there is no qualifying combat from that Raid."},{"condition":"No completed private Trade","consequence":"The Raid finds no target. It costs Communities \u22121, Spear remains intact, and it provides no qualifying combat. Council Relief, Military or Shared passage does not substitute for a private contract."},{"condition":"No Raid","consequence":"These Raid effects do not occur. Campaign and other orders follow their own rules."}],"public_rules":"A Trade assignment is not enough: the voyage must complete under the public Beacon and protection rules. If no operation achieves combat, Readiness falls by 1 once. Duty breaches and monthly consumption are additional; tracks stay within 0\u20134.","use":"Compare Raid with a known noncombat option, or check whether the proposed private voyage would actually complete. The card does not make combat harmless."},"leverage":{"weights":{"Guild":4,"Janissariat":3,"Ascendant":5},"foresight_remaining":2,"total":12,"threshold":8,"winning_coalitions":[["Guild","Ascendant"],["Janissariat","Ascendant"],["Guild","Janissariat","Ascendant"]]},"script_step":2},"assertion_ids":[],"semantic_ids":["vt:semantic:foresight"]},{"sequence":3,"turn":1,"event_type":"Final faction sheets","actor_id":null,"entity_ids":[],"data":{"sequence":3,"round":1,"phase":"commit","event":"Final faction sheets","submitted":{"GN":{"lantern":"Maintain","wayfarer":"Trade"},"GS":{"lantern":"Maintain","wayfarer":"Trade"},"JN":{"spear":"Council","vigil":"Council"},"JS":{"spear":"Council","vigil":"Council"}},"signatures":{"GN":true,"GS":true,"JN":true,"JS":true},"sheets":{"Guild":{"wayfarer":"Trade","lantern":"Maintain"},"Janissariat":{"spear":"Council","vigil":"Council"}},"reserve":"Relief lift","disclosed":true,"notes":{"A":"The intervention is now fixed. The Security purchase remains the only purchase this round, with two foresight tokens remaining. Council directives and Warrant have not yet locked.","GN":"The Ascendant's disclosed conditional information lets our commercial voyage contribute to a workable military bargain. My asset decisions remain unchanged, but my requested operations have changed from Hold and Guard. GS and I now assent to the same assignments. The expected Beacon deficit remains a real price; I accept it because the proposed reserve service sustains communities without compelling our carriage, and a subsequent repair is physically available.","GS":"The disclosure changes my assessment of the Raid from speculative violence to a stated conditional operation connected to our trade. I accept the Ascendant's account provisionally as information, not a guarantee. These assignments retain our independence and crew. My assent is explicit now; the reserve, Raid and Warrant remain requests requiring their proper final authorisations.","JN":"The disclosed link between completed Trade and the target changes my preferred military route from Campaign to Raid. The crown's offered reserve makes the accompanying relief credible, while legal council use avoids wasting Communities on a discipline breach. I accept this service bargain for the round. Its success will strengthen our claim to a durable institutional settlement; it does not constitute advance approval of any constitutional article.","JS":"The disclosed Trade condition resolves my practical objection to Raid. Keeping both assignments avoids the independent-action penalty while preserving combat and protection. I trust the disclosure provisionally; final trade and relief orders still determine the result."},"defaults":[],"standing_commitments":[],"script_step":3},"assertion_ids":[],"semantic_ids":["vt:semantic:operations"]},{"sequence":4,"turn":1,"event_type":"Council order sheets","actor_id":null,"entity_ids":[],"data":{"sequence":4,"round":1,"phase":"council","event":"Council order sheets","navigation":{"A":"Relief","GN":"Unsigned","JN":"Unsigned"},"security":{"A":"Raid","GS":"Unsigned","JS":"Unsigned"},"effective":{"navigation":"Relief","security":"Raid"},"required_signatures":{"navigation":["A"],"security":["A"]},"valid":{"navigation":true,"security":true},"warrant":true,"notes":{"A":"Final authoritative council decisions, initialled A. No asset or reserve assignment is changed.","GN":"The operation is funded, both Navigation delegates support it, and the addressed imperial reply confirms coordination with Raid and Warrant. I accept the route wear as the concrete price of retaining our commercial voyage while supporting communities and the army. JN has reserved next month's military demands, so the repair bargain remains unresolved and requires fresh negotiation after the actual outcome.","GS":"The operation preserves our contract and maintains military strength without exposing Lantern to a mixed passage. Its civilian costs remain serious, but the identified relief offsets them on the disclosed accounting. I accept this particular arrangement because assets and orders now match. Approval does not concede military autonomy or a continuing Guild service obligation, and I will evaluate the actual route condition before agreeing next month's commitments.","JN":"Both Navigation delegates agree, the Ascendant confirms the locked Relief lift, and the Security response supports Raid with the separate Warrant. That is a complete operational exchange rather than an unfunded demand for transport. Relief offsets the civilian cost of the local fighting, while the Guild's commercial voyage supplies the disclosed opportunity for combat. Beacon wear will constrain the next round and must be addressed during constitutional discussion. Today's assent neither commits me to future restraint nor establishes a constitutional preference different from my original joint-navigation and military-autonomy aims.","JS":"Combat should strengthen the force while funded relief and protection preserve Communities. There is no transport for a Campaign and no reason to substitute Restraint for a credible fight. Next month's repair burden is real, but it does not make today's agreed Raid unsound."},"script_step":4},"assertion_ids":[],"semantic_ids":["vt:semantic:operations"]},{"sequence":5,"turn":1,"event_type":"Operational resolution","actor_id":null,"entity_ids":[],"data":{"sequence":5,"round":1,"phase":"council","event":"Operational resolution","before":{"beacon":2,"communities":3,"readiness":3,"wayfarer":true,"lantern":true,"spear":true,"contracts":0,"reserve":true},"after":{"beacon":1,"communities":3,"readiness":4,"wayfarer":true,"lantern":true,"spear":true,"contracts":1,"reserve":false},"inputs":{"rnd":1,"w":"Trade","l":"Maintain","s":"Council","v":"Council","nav":"Relief","sec":"Raid","na":"I","ma":"I","warrant":true,"intervention":"Relief lift","nav_signed":true,"sec_signed":true},"detail":{"events":["Warrant: Vigil used; Communities +1","Grey Petrel provides Relief lift; reserve spent","Wayfarer commercial contract completed","Raid fought: Communities -2 total; conditioning sustained"],"prepared":3,"nav":"Relief","sec":"Raid","guarded":true,"delivered":true,"trade":true,"combat":true,"guild_breach":false,"jan_breach":false},"effects":["Monthly consumption: Communities -1.","Beacon prepared to 3: Maintain +1 or funded Repair +2; preparation capped at 4.","Delivered Relief: Communities 2.","Warrant: Vigil used; Communities +1","Grey Petrel provides Relief lift; reserve spent","Wayfarer commercial contract completed","Raid fought: Communities -2 total; conditioning sustained","Crossing wear: 2; final Beacon 1.","Readiness +1 after successful combat.","Final Communities 3; tracks capped 0\u20134 only after aggregate resolution."],"leverage":{"weights":{"Guild":4,"Janissariat":4,"Ascendant":6},"foresight_remaining":2,"total":14,"threshold":10,"winning_coalitions":[["Guild","Ascendant"],["Janissariat","Ascendant"],["Guild","Janissariat","Ascendant"]]},"script_step":4},"assertion_ids":[],"semantic_ids":["vt:semantic:operations"]},{"sequence":6,"turn":1,"event_type":"Exact provisional proposal","actor_id":null,"entity_ids":[],"data":{"sequence":6,"round":1,"phase":"trial-proposal","event":"Exact provisional proposal","proposal":{"id":"trial-1","articles":{"military":"MA","navigation":"NG"},"commitments":[{"article":"NG","asset":"Lantern","assignment":"Council","owner":"Guild"},{"article":"MA","asset":"Vigil","assignment":"Home","owner":"Janissariat"}],"plan":"{\"navigation_order\": \"Repair\", \"security_order\": \"Restraint\", \"warrant\": false}"},"notes":{"JN":"Exact ballot row T2, from trial_candidate2_JN. Earlier proposals remain in the original transcript."},"script_step":5},"assertion_ids":[],"semantic_ids":["vt:semantic:trial"]},{"sequence":7,"turn":1,"event_type":"Provisional signatures and result","actor_id":null,"entity_ids":[],"data":{"sequence":7,"round":1,"phase":"trial-vote","event":"Provisional signatures and result","votes":{"A":{"proposal_id":"trial-1","article_approvals":{"navigation":true,"military":true},"commitment_approvals":{"Guild":false,"Janissariat":false}},"GN":{"proposal_id":"trial-1","article_approvals":{"navigation":true,"military":false},"commitment_approvals":{"Guild":true,"Janissariat":false}},"GS":{"proposal_id":"trial-1","article_approvals":{"navigation":true,"military":false},"commitment_approvals":{"Guild":true,"Janissariat":false}},"JN":{"proposal_id":"trial-1","article_approvals":{"navigation":true,"military":true},"commitment_approvals":{"Guild":false,"Janissariat":true}},"JS":{"proposal_id":"trial-1","article_approvals":{"navigation":true,"military":true},"commitment_approvals":{"Guild":false,"Janissariat":true}}},"result":{"articles_after":{"navigation":"NG","military":"I"},"activated_commitments":[{"article":"NG","asset":"Lantern","assignment":"Council","owner":"Guild","owner_signatures":["GN","GS"]}],"issues":{"navigation":[],"military":["Required article assent absent"]}},"notes":{"A":"Navigation service is concretely offered. Military autonomy is a risk I am willing to test provisionally, while the other required representative retains an independent decision.","GN":"Guild discretion with the committed tender makes our promised Repair both possible and our responsibility. That is a concrete exchange I accept. The closing statements do not change my view of MA: military restraint remains revocable, while Vigil Home certainly removes Guard. I acknowledge the Ascendant's willingness to test autonomy, but our civilian exposure is sufficient reason to refuse it. My refusal does not withdraw Lantern or obstruct Navigation agreement.","GS":"The Ascendant's willingness to experiment does not answer my concern that Vigil Home removes protection while restraint remains revocable. I want concrete safeguards before transferring sole military choice. Guild discretion, by contrast, comes with a duty we can fulfil through the promised funded Repair and an asset assignment I am prepared to seal. The first round taught that military success needed civilian compensation; the reserve is now gone. I will not treat the same force's promise as an adequate replacement.","JN":"Lantern Council and the public Repair undertaking justify conceding Navigation discretion despite my initial preference for joint authority. MA expresses our institutional goal and makes its Home duty concrete; I accept that the Guild opposes it and that losing Guard has a civilian cost. The Ascendant's willingness to judge autonomous conduct is useful, but does not replace the required Security signatures. If MA fails, my separate NG approval remains valid. Our institutional bargain must be earned through future conduct, not assumed from today's promises.","JS":"The army deserves control of its lawful operations, and the proposed month remains viable on ordinary costs. I accept the Home obligation and loss of Guard. The Guild's concrete Lantern offer independently warrants Navigation discretion and a chance to perform the promised Repair."},"script_step":6},"assertion_ids":[],"semantic_ids":["vt:semantic:trial"]},{"sequence":8,"turn":2,"event_type":"Public draft sheets","actor_id":null,"entity_ids":[],"data":{"sequence":8,"round":2,"phase":"draft","event":"Public draft sheets","sheets":{"A":{"navigation":"Repair","security":"Guard","warrant":false},"GN":{"lantern":"Council","navigation":"Repair","security":"Guard","wayfarer":"Trade"},"GS":{"lantern":"Council","navigation":"Repair","security":"Guard","wayfarer":"Trade"},"JN":{"navigation":"Repair","security":"Restraint","spear":"Council","vigil":"Council"},"JS":{"navigation":"Repair","security":"Restraint","spear":"Council","vigil":"Council"}},"notes":{"A":"Beacon one requires restoration, Communities three merits protection, and Readiness four provides a buffer. Grey Petrel is spent. Two foresight tokens remain; no round-two selection has been made.","GN":"NG now lets us demonstrate that Guild discretion performs its upkeep duty. Repair honours our negotiated promise and supports commercial obligations together. Military remains Interim, so these are requests to the Ascendant and army, not orders I can issue. At readiness four one peaceful month leaves a substantial force; speculative violence has no compelling purpose.","GS":"This is the clearest way to restore Beacon two and meet our second contract while keeping the crew alive. Readiness four gives room to protect communities this month. I want the army's next contribution to be visible protection rather than another Raid whose civilian losses we cannot now offset with the spent reserve.","JN":"We retain full assignment freedom, while the Guild owes its enacted upkeep duty. Offering Vigil avoids gratuitous civilian damage. I will not spend the army's remaining political credibility on an uncertain attack merely to protest the failed article.","JS":"With the reserve spent, I cannot support another costly Raid on the present evidence. Council assignments preserve lawful options while the publicly promised Repair takes priority."},"standing_commitments":[{"article":"NG","asset":"Lantern","assignment":"Council","owner":"Guild","owner_signatures":["GN","GS"]}],"script_step":7},"assertion_ids":[],"semantic_ids":["vt:semantic:foresight"]},{"sequence":9,"turn":2,"event_type":"Foresight purchase","actor_id":null,"entity_ids":[],"data":{"sequence":9,"round":2,"phase":"vision","event":"Foresight purchase","choice":"Navigation","before":2,"after":1,"notes":{"A":"The current Navigation cover directly addresses the live consensus plan. I knowingly exchange one point of eventual leverage for its fixed conditional answer."},"private_answer":{"id":"R2-N","title":"Stores at the crossing","branches":[{"condition":"Military passage crosses unguarded","consequence":"Delivered Military passage without funded Guard or valid Warrant causes an extra Communities \u22121. Protection prevents this extra loss. Grey Petrel\u2019s Tender cover does not protect these stores."},{"condition":"Funded Repair and completed Trade","consequence":"A funded council Repair together with a completed private Wayfarer Trade gives Communities +1 from distribution. Both must happen. Lantern must be on Council for Repair; Maintain is not Repair."},{"condition":"Neither condition","consequence":"Neither extra supply effect applies. Relief and Shared receive their normal cargo effects; other cards and ordinary costs still apply."}],"public_rules":"Repair adds 2 to prepared Beacon, capped at 4, before voyages. Trade must complete. Military needs Wayfarer on Council, so it cannot also make private Trade. These two extra effects cannot both trigger in the same round.","use":"Compare Military with or without protection, or Repair/Trade against another use of the ships. This card provides no new complication for a Relief/Guard plan."},"leverage":{"weights":{"Guild":4,"Janissariat":4,"Ascendant":5},"foresight_remaining":1,"total":13,"threshold":9,"winning_coalitions":[["Guild","Ascendant"],["Janissariat","Ascendant"],["Guild","Janissariat","Ascendant"]]},"script_step":8},"assertion_ids":[],"semantic_ids":["vt:semantic:foresight"]},{"sequence":10,"turn":2,"event_type":"Final faction sheets","actor_id":null,"entity_ids":[],"data":{"sequence":10,"round":2,"phase":"commit","event":"Final faction sheets","submitted":{"GN":{"lantern":"Council","wayfarer":"Trade"},"GS":{"lantern":"Council","wayfarer":"Trade"},"JN":{"spear":"Council","vigil":"Council"},"JS":{"spear":"Council","vigil":"Council"}},"signatures":{"GN":true,"GS":true,"JN":true,"JS":true},"sheets":{"Guild":{"wayfarer":"Trade","lantern":"Council"},"Janissariat":{"spear":"Council","vigil":"Council"}},"reserve":"Keep","disclosed":true,"notes":{"A":"No reserve resource is created or recovered. The remaining operative choices depend on actual faction offers and council authority, not the earlier public drafts.","GN":"My colleague and I have agreed both assignments explicitly. These choices meet our commercial obligation while making the promised upkeep possible under Guild discretion. The disclosed benefit improves confidence in civilian viability but causes no revision to my decision. Guard remains valuable alongside the distribution benefit, and the army's offered protection still requires its own final assignment and proper Security authorisation.","GS":"The disclosure supports our plan but does not change my choice. Prepared Beacon three protects the contract through the public rule, while the additional distribution effect remains a conditional report until resolution. Our second contract and route recovery no longer appear opposed to civilian welfare. Lantern's existing pledge remains binding independently of this final assent.","JN":"The disclosed distribution effect rewards the exact Repair-and-Trade arrangement, while no disclosed information establishes a target for Spear. Accepting a protected noncombat month preserves an intact cohort at useful readiness and supports our later claim that an independent army can exercise restraint. This choice costs us conditioning and leaves constitutional autonomy unresolved. We could withhold service after the Guild's refusal, but doing so buys no dependable military gain. My signature therefore confirms a deliberate contribution to the settlements, not acceptance of permanent military subordination.","JS":"The disclosure strengthens the civilian case for Repair and Trade but does not resolve Raid viability. The order change coordinates protection; my exact assignments remain unchanged and unconditionally approved."},"defaults":[],"standing_commitments":[{"article":"NG","asset":"Lantern","assignment":"Council","owner":"Guild","owner_signatures":["GN","GS"]}],"script_step":9},"assertion_ids":[],"semantic_ids":["vt:semantic:operations"]},{"sequence":11,"turn":2,"event_type":"Council order sheets","actor_id":null,"entity_ids":[],"data":{"sequence":11,"round":2,"phase":"council","event":"Council order sheets","navigation":{"A":"Unsigned","GN":"Repair","JN":"Unsigned"},"security":{"A":"Guard","GS":"Unsigned","JS":"Unsigned"},"effective":{"navigation":"Repair","security":"Guard"},"required_signatures":{"navigation":["GN"],"security":["A"]},"valid":{"navigation":true,"security":true},"warrant":false,"notes":{"A":"Final Security order initialled A. No asset assignment, article, reserve status or foresight choice changes.","GN":"Repair fulfils the duty and the public undertaking that secured Guild discretion. It prepares Beacon three for Wayfarer's commercial crossing, with the expected wear leaving two and the disclosed distribution effect contingent on completed Trade. The army's acknowledged conditioning cost does not alter the need for this repair. My final decision supplies an actual order rather than relying on Lantern's Council assignment alone, and permits the promised bargain to be judged on its result.","GS":"This arrangement uses the actual available protection to reinforce route recovery and civilian distribution. It fulfils the practical bargain without gambling Spear or requiring Wayfarer to abandon its remaining contract. The army has demonstrated voluntary cooperation by offering Vigil and accepting a month without combat. I count that evidence favourably, while withholding any automatic commitment to an article whose future duty would keep that garrison Home. No further operational revision is justified.","JN":"GN has confirmed the promised funded order, and the Ascendant has confirmed Guard without Warrant. Lantern Council supplies the actual repair, allowing the private commercial crossing while satisfying the Guild's upkeep duty. The disclosed distribution effect provides a further reason to complete this arrangement. I acknowledge that the Guild is delivering its side of our separate Navigation bargain. The army is also contributing protection and accepting conditioning decline. Those facts should inform the final constitutional decision, but do not predetermine my approval of any package or concede military autonomy.","JS":"The confirmed Repair and Trade arrangement supports civilian recovery, while no available evidence identifies a worthwhile fight. Guard preserves what the army exists to defend. GS and the Ascendant acknowledge our voluntary service, but their constitutional reservations must be argued later and do not justify sabotaging this sound order."},"script_step":10},"assertion_ids":[],"semantic_ids":["vt:semantic:operations"]},{"sequence":12,"turn":2,"event_type":"Operational resolution","actor_id":null,"entity_ids":[],"data":{"sequence":12,"round":2,"phase":"council","event":"Operational resolution","before":{"beacon":1,"communities":3,"readiness":4,"wayfarer":true,"lantern":true,"spear":true,"contracts":1,"reserve":false},"after":{"beacon":2,"communities":4,"readiness":3,"wayfarer":true,"lantern":true,"spear":true,"contracts":2,"reserve":false},"inputs":{"rnd":2,"w":"Trade","l":"Council","s":"Council","v":"Council","nav":"Repair","sec":"Guard","na":"NG","ma":"I","warrant":false,"intervention":"Keep","nav_signed":true,"sec_signed":true},"detail":{"events":["Guard: Vigil used; Communities +1","Wayfarer commercial contract completed","Repair and completed commercial voyage: Communities +1"],"prepared":3,"nav":"Repair","sec":"Guard","guarded":true,"delivered":false,"trade":true,"combat":false,"guild_breach":false,"jan_breach":false},"effects":["Monthly consumption: Communities -1.","Beacon prepared to 3: Maintain +1 or funded Repair +2; preparation capped at 4.","Guard: Vigil used; Communities +1","Wayfarer commercial contract completed","Repair and completed commercial voyage: Communities +1","Crossing wear: 1; final Beacon 2.","Readiness -1: no qualifying combat.","Final Communities 4; tracks capped 0\u20134 only after aggregate resolution."],"leverage":{"weights":{"Guild":4,"Janissariat":3,"Ascendant":4},"foresight_remaining":1,"total":11,"threshold":8,"winning_coalitions":[["Guild","Ascendant"],["Guild","Janissariat","Ascendant"]]},"script_step":10},"assertion_ids":[],"semantic_ids":["vt:semantic:operations"]},{"sequence":13,"turn":2,"event_type":"Final free discussion","actor_id":null,"entity_ids":[],"data":{"sequence":13,"round":2,"phase":"free","event":"Final free discussion","notes":{"A":"The actual outcome supports delegation. I prefer duties that sustain the cooperation we observed, while recognising that the military's voluntary restraint was real and autonomy was not tested. No signature or formal package is offered here.","GN":"Our expired Lantern pledge did real work and our ships return intact. I need no further compulsory carriage concession to justify the rights we exercised responsibly. Final assent depends on a complete package and GS's own decision; this statement gives neither.","GS":"I prefer MJ because both Security delegates agreed the useful operations and can scrutinise future costs together. I remain opposed to MA's permanent service terms. MI is a possible fallback if joint authority cannot win agreement: the crown coordinated responsibly. I will examine a complete package explicitly; no signature follows from these preferences.","JN":"I seek a meaningful institutional return for service. NG with MA remains attractive; NJ with MJ offers a different, balanced concession. Mere praise attached to permanent obedience is insufficient.","JS":"Actual conduct strengthens my case for autonomy. I will not give a premature signature merely to make the settlement unanimous."},"script_step":11},"assertion_ids":[],"semantic_ids":["vt:semantic:operations"]},{"sequence":14,"turn":2,"event_type":"Exact settlement package","actor_id":null,"entity_ids":[],"data":{"sequence":14,"round":2,"phase":"ceremony-proposal","event":"Exact settlement package","package":{"military":"MJ","navigation":"NG"},"weights":{"weights":{"Guild":4,"Janissariat":3,"Ascendant":4},"foresight_remaining":1,"total":11,"threshold":8,"winning_coalitions":[["Guild","Ascendant"],["Guild","Janissariat","Ascendant"]]},"notes":{"A":"This is my preferred dependable government, based on actual repair and protection. A legal majority would not erase military dissent, but I do not consider permanent loss of civilian Guard an acceptable price for autonomy."},"script_step":12},"assertion_ids":[],"semantic_ids":["vt:semantic:settlement"]},{"sequence":15,"turn":2,"event_type":"Settlement ballot","actor_id":null,"entity_ids":[],"data":{"sequence":15,"round":2,"phase":"ceremony-vote","event":"Settlement ballot","package":{"military":"MJ","navigation":"NG"},"approvals":{"A":true,"GN":true,"GS":true,"JN":false,"JS":false},"result":{"weights":{"Guild":4,"Janissariat":3,"Ascendant":4},"foresight_remaining":1,"total":11,"threshold":8,"winning_coalitions":[["Guild","Ascendant"],["Guild","Janissariat","Ascendant"]],"party_signatures":{"Guild":true,"Janissariat":false,"Ascendant":true},"supporting_leverage":8,"supporting_parties":2,"ratified":true},"notes":{"A":"Unconditional approval based on demonstrated service and the printed continuing duties. I prefer this settlement to restored Interim or the alternatives offered, despite its acknowledged political asymmetry.","GN":"The Guild demonstrated that its discretion and upkeep duty can sustain navigation, commerce and civilian supplies. I will retain that arrangement. MJ makes the army and civilian representative answer together for lawful military decisions while ending imperial unilateral command. I recognise this gives the Guild more independent discretion than the army receives, but reject compulsory carriage as the price of symmetry. Military dissent remains politically serious; it does not overturn my judgment that this package is preferable to Interim or MA.","GS":"The package protects Guild navigation rights while retaining the upkeep duty we actually fulfilled. Joint military authority gives us scrutiny of destructive choices and gives the army an equal voice in lawful orders, with no independent imperial Warrant. I regard that arrangement as preferable to a permanent Home obligation or compulsory commercial displacement under NJ. Military dissent is a real limitation on the settlement's political acceptance, but it does not outweigh the demonstrated service pattern and concrete duties supporting my choice.","JN":"The Guild has answered my reciprocal NJ/MJ compromise with a definite refusal. I recognise that MJ gives us a Security veto and removes independent imperial command, and that NG imposes genuine upkeep. Those benefits do not resolve the imbalance I object to: sole Guild passage authority paired with Guild scrutiny of army operations and compulsory Spear service. JS shares the objection. The physical outcome meets our capability and civilian goals, but I will not convert successful voluntary cooperation into approval of these permanent institutional terms merely because the other parties may possess sufficient weight.","JS":"I offered autonomy alongside Guild discretion and remained willing to examine reciprocal joint control. Neither concession was accepted. Our demonstrated restraint and protection do not oblige me to endorse permanent terms I judge inadequate for the institution I represent."},"script_step":13},"assertion_ids":[],"semantic_ids":["vt:semantic:settlement"]}],"states":[{"kind":"plugin","plugin_id":"void-throne","turn":1,"status":"running","data":{"articles":{"military":"I","navigation":"I"},"foresight":3,"physical":{"beacon":2,"communities":3,"contracts":0,"lantern":true,"readiness":3,"reserve":true,"spear":true,"wayfarer":true},"settlement":null,"stage":"vision"}},{"kind":"plugin","plugin_id":"void-throne","turn":1,"status":"running","data":{"articles":{"military":"I","navigation":"I"},"foresight":2,"physical":{"beacon":2,"communities":3,"contracts":0,"lantern":true,"readiness":3,"reserve":true,"spear":true,"wayfarer":true},"settlement":null,"stage":"commit"}},{"kind":"plugin","plugin_id":"void-throne","turn":1,"status":"running","data":{"articles":{"military":"I","navigation":"I"},"foresight":2,"physical":{"beacon":2,"communities":3,"contracts":0,"lantern":true,"readiness":3,"reserve":true,"spear":true,"wayfarer":true},"settlement":null,"stage":"council"}},null,{"kind":"plugin","plugin_id":"void-throne","turn":1,"status":"running","data":{"articles":{"military":"I","navigation":"I"},"foresight":2,"physical":{"beacon":1,"communities":3,"contracts":1,"lantern":true,"readiness":4,"reserve":false,"spear":true,"wayfarer":true},"settlement":null,"stage":"trial-proposal"}},{"kind":"plugin","plugin_id":"void-throne","turn":1,"status":"running","data":{"articles":{"military":"I","navigation":"I"},"foresight":2,"physical":{"beacon":1,"communities":3,"contracts":1,"lantern":true,"readiness":4,"reserve":false,"spear":true,"wayfarer":true},"settlement":null,"stage":"trial-vote"}},{"kind":"plugin","plugin_id":"void-throne","turn":2,"status":"running","data":{"articles":{"military":"I","navigation":"NG"},"foresight":2,"physical":{"beacon":1,"communities":3,"contracts":1,"lantern":true,"readiness":4,"reserve":false,"spear":true,"wayfarer":true},"settlement":null,"stage":"draft"}},{"kind":"plugin","plugin_id":"void-throne","turn":2,"status":"running","data":{"articles":{"military":"I","navigation":"NG"},"foresight":2,"physical":{"beacon":1,"communities":3,"contracts":1,"lantern":true,"readiness":4,"reserve":false,"spear":true,"wayfarer":true},"settlement":null,"stage":"vision"}},{"kind":"plugin","plugin_id":"void-throne","turn":2,"status":"running","data":{"articles":{"military":"I","navigation":"NG"},"foresight":1,"physical":{"beacon":1,"communities":3,"contracts":1,"lantern":true,"readiness":4,"reserve":false,"spear":true,"wayfarer":true},"settlement":null,"stage":"commit"}},{"kind":"plugin","plugin_id":"void-throne","turn":2,"status":"running","data":{"articles":{"military":"I","navigation":"NG"},"foresight":1,"physical":{"beacon":1,"communities":3,"contracts":1,"lantern":true,"readiness":4,"reserve":false,"spear":true,"wayfarer":true},"settlement":null,"stage":"council"}},null,{"kind":"plugin","plugin_id":"void-throne","turn":2,"status":"running","data":{"articles":{"military":"I","navigation":"NG"},"foresight":1,"physical":{"beacon":2,"communities":4,"contracts":2,"lantern":true,"readiness":3,"reserve":false,"spear":true,"wayfarer":true},"settlement":null,"stage":"free"}},{"kind":"plugin","plugin_id":"void-throne","turn":2,"status":"running","data":{"articles":{"military":"I","navigation":"NG"},"foresight":1,"physical":{"beacon":2,"communities":4,"contracts":2,"lantern":true,"readiness":3,"reserve":false,"spear":true,"wayfarer":true},"settlement":null,"stage":"ceremony-proposal"}},{"kind":"plugin","plugin_id":"void-throne","turn":2,"status":"running","data":{"articles":{"military":"I","navigation":"NG"},"foresight":1,"physical":{"beacon":2,"communities":4,"contracts":2,"lantern":true,"readiness":3,"reserve":false,"spear":true,"wayfarer":true},"settlement":null,"stage":"ceremony-vote"}},{"kind":"plugin","plugin_id":"void-throne","turn":2,"status":"running","data":{"articles":{"military":"MJ","navigation":"NG"},"foresight":1,"physical":{"beacon":2,"communities":4,"contracts":2,"lantern":true,"readiness":3,"reserve":false,"spear":true,"wayfarer":true},"settlement":{"approvals":{"A":true,"GN":true,"GS":true,"JN":false,"JS":false},"articles_after":{"military":"MJ","navigation":"NG"},"foresight_remaining":1,"package":{"military":"MJ","navigation":"NG"},"party_signatures":{"Ascendant":true,"Guild":true,"Janissariat":false},"ratified":true,"supporting_leverage":8,"supporting_parties":2,"threshold":8,"total":11,"weights":{"Ascendant":4,"Guild":4,"Janissariat":3},"winning_coalitions":[["Guild","Ascendant"],["Guild","Janissariat","Ascendant"]]},"stage":"ended"}}],"initial_state":{"kind":"plugin","plugin_id":"void-throne","turn":0,"status":"ready","data":{"articles":{"military":"I","navigation":"I"},"foresight":3,"physical":{"beacon":2,"communities":3,"contracts":0,"lantern":true,"readiness":3,"reserve":true,"spear":true,"wayfarer":true}}},"blockers":[]}]);</script>
+</main>
+</body></html>

@@ -1,0 +1,20 @@
+{
+  "id": "R2-S",
+  "title": "The relief column",
+  "branches": [
+    {
+      "condition": "Relief is delivered",
+      "consequence": "A Raid finds the target if the authorised, funded Navigation order is Relief and its voyage actually crosses. Grey Petrel Relief lift counts. At opening Readiness 2+, Raid costs Communities −2 total and achieves combat; at 0–1, Spear is disabled, Raid costs Communities −1 and provides no qualifying combat."
+    },
+    {
+      "condition": "Relief is not delivered",
+      "consequence": "The Raid finds no target, costs Communities −1, leaves Spear intact and provides no qualifying combat. A proposed, unfunded or halted Relief order does not qualify. Shared, Military and private Trade do not qualify."
+    },
+    {
+      "condition": "No Raid",
+      "consequence": "Relief alone does not cause an attack or a Raid penalty. These effects require an actual Raid assignment or funded council Raid."
+    }
+  ],
+  "public_rules": "Combat changes Readiness by +1 once; no successful combat changes it by −1 once. Ordinary cargo, Guard, duty breaches and consumption still apply. A council Raid needs offered Spear; an independent Raid uses its own assignment.",
+  "use": "Compare Raid with restraint or protection. Relief can enable a Raid, but does not force the army to make one; foresight cannot reveal its future choice."
+}

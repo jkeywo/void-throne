@@ -1,0 +1,28 @@
+{
+  "navigation": {
+    "order": "Repair",
+    "authority": "NG",
+    "operative_signatures": [
+      "GN"
+    ],
+    "sources": [
+      "r2_orders_GN"
+    ],
+    "valid": true
+  },
+  "security": {
+    "order": "Guard",
+    "authority": "I",
+    "operative_signatures": [
+      "A"
+    ],
+    "sources": [
+      "r2_orders_A"
+    ],
+    "valid": true
+  },
+  "ascendant": {
+    "warrant": false,
+    "source": "r2_orders_A"
+  }
+}

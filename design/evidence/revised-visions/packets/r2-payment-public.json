@@ -1,0 +1,31 @@
+{
+  "note": "",
+  "delivered_contributions": [],
+  "additional_information": {
+    "before": 2,
+    "cost": 1,
+    "after": 1,
+    "leverage": {
+      "id": "r2-purchase",
+      "phase": "r2-faction",
+      "state": {
+        "beacon": 1,
+        "communities": 3,
+        "readiness": 4,
+        "wayfarer": true,
+        "lantern": true,
+        "spear": true,
+        "contracts": 1,
+        "reserve": false
+      },
+      "weights": {
+        "Guild": 4,
+        "Janissariat": 4,
+        "Ascendant": 5
+      },
+      "foresight_remaining": 1,
+      "total": 13,
+      "threshold": 9
+    }
+  }
+}

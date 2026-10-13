@@ -1,0 +1,79 @@
+{
+  "round": 1,
+  "stage": "draft",
+  "source_ids": [
+    "r1_draft_GN",
+    "r1_draft_GS",
+    "r1_draft_JN",
+    "r1_draft_JS",
+    "r1_draft_A"
+  ],
+  "Guild": {
+    "alternatives": [
+      {
+        "wayfarer": "Trade",
+        "lantern": "Maintain",
+        "navigation_request": "Hold",
+        "security_request": "Guard"
+      },
+      {
+        "wayfarer": "Trade",
+        "lantern": "Maintain",
+        "navigation_request": "Hold",
+        "security_request": "Guard"
+      }
+    ],
+    "sources": [
+      "r1_draft_GN",
+      "r1_draft_GS"
+    ]
+  },
+  "Janissariat": {
+    "alternatives": [
+      {
+        "spear": "Council",
+        "vigil": "Council",
+        "navigation_request": "Military",
+        "security_request": "Campaign"
+      },
+      {
+        "spear": "Council",
+        "vigil": "Council",
+        "navigation_request": "Military",
+        "security_request": "Campaign"
+      }
+    ],
+    "sources": [
+      "r1_draft_JN",
+      "r1_draft_JS"
+    ]
+  },
+  "Ascendant": {
+    "draft": {
+      "navigation_order": "Military",
+      "security_order": "Campaign",
+      "warrant": true
+    },
+    "source": "r1_draft_A"
+  },
+  "standing_commitments": [],
+  "covers": [
+    {
+      "id": "R1-N",
+      "title": "The exposed transfer",
+      "concerns": "Shared passage and protection for Lantern’s navigation team.",
+      "question": "Does a Shared crossing expose the crew, and what would protect them?",
+      "cost": 1,
+      "limit": "One optional purchase this round. NONE costs zero. The answer is conditional, not a prediction of player choices."
+    },
+    {
+      "id": "R1-S",
+      "title": "The merchant’s wake",
+      "concerns": "Raid target availability, whether Spear acts independently or through the council.",
+      "question": "Under what conditions will a Raid find the remnant detachment?",
+      "cost": 1,
+      "limit": "One optional purchase this round. NONE costs zero. The answer is conditional, not a prediction of player choices."
+    }
+  ],
+  "note": "Nonbinding except listed existing pledges"
+}

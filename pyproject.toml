@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "void-throne-playtrace"
+version = "0.3.0"
+description = "The Void Throne paper prototype, browser test bench and Playtrace integration"
+requires-python = ">=3.12"
+[project.entry-points."playtrace.simulation_plugins"]
+void_throne = "void_throne.plugin:VoidThronePlugin"
+[tool.setuptools.packages.find]
+where = ["src"]

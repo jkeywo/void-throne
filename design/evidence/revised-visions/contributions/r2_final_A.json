@@ -1,0 +1,11 @@
+{
+  "run": 1,
+  "id": "r2_final_A",
+  "role": "A",
+  "phase": "r2-faction",
+  "stage": "final",
+  "channel": "Communion",
+  "decision": {"vision": "Navigation", "card_id": "R2-N", "intervention": "Keep", "reserve_status": "Already spent"},
+  "messages": [{"to": "F", "text": "Grey Petrel was spent on last month's Relief lift and cannot intervene again. Record Keep solely as no available intervention, with the reserve explicitly marked already spent. My purchased Navigation card remains the only purchase this round and leaves one foresight token. I still advise Repair and intend Guard without a Warrant if Vigil is offered at the bell. The disclosed distribution benefit strengthens the civilian case for the Guild's programme; it does not make protection worthless. I will assess the locked assignments before issuing the final Security order."}],
+  "reason": "No reserve resource is created or recovered. The remaining operative choices depend on actual faction offers and council authority, not the earlier public drafts."
+}

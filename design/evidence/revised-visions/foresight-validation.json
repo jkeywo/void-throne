@@ -1,0 +1,144 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "drafts_original": true,
+      "current_covers_exact": true,
+      "draft_packet_precedes_purchase": true,
+      "purchased_answer_exact": true,
+      "choice": "Security",
+      "cost": 1,
+      "declined_purchase": false,
+      "final_faction_decisions_follow_disclosure_packet": true,
+      "observed_asset_changes": {
+        "GN": {},
+        "GS": {},
+        "JN": {},
+        "JS": {}
+      },
+      "observed_request_changes": {
+        "GN": {
+          "navigation_request": {
+            "draft": "Hold",
+            "final_request": "Relief with Grey Petrel Relief lift",
+            "source_id": "r1_final_GN"
+          },
+          "security_request": {
+            "draft": "Guard",
+            "final_request": "Council Raid with separate Warrant using Vigil",
+            "source_id": "r1_final_GN"
+          }
+        },
+        "GS": {
+          "navigation_request": {
+            "draft": "Hold",
+            "final_request": "Relief with Grey Petrel Relief lift",
+            "source_id": "r1_final_GS"
+          },
+          "security_request": {
+            "draft": "Guard",
+            "final_request": "Council Raid with separate Warrant using Vigil",
+            "source_id": "r1_final_GS"
+          }
+        },
+        "JN": {
+          "navigation_request": {
+            "draft": "Military",
+            "final_request": "Relief",
+            "source_id": "r1_final_JN"
+          },
+          "security_request": {
+            "draft": "Campaign",
+            "final_request": "Raid",
+            "source_id": "r1_final_JN"
+          }
+        },
+        "JS": {
+          "navigation_request": {
+            "draft": "Military",
+            "final_request": "Relief",
+            "source_id": "r1_final_JS"
+          },
+          "security_request": {
+            "draft": "Campaign",
+            "final_request": "Raid",
+            "source_id": "r1_final_JS"
+          }
+        }
+      },
+      "draft_imperial_proposal_vs_authorised_outcome": {
+        "navigation_order": {
+          "draft": "Military",
+          "authorised": "Relief",
+          "authorisers": [
+            "A"
+          ]
+        },
+        "security_order": {
+          "draft": "Campaign",
+          "authorised": "Raid",
+          "authorisers": [
+            "A"
+          ]
+        }
+      }
+    },
+    {
+      "round": 2,
+      "drafts_original": true,
+      "current_covers_exact": true,
+      "draft_packet_precedes_purchase": true,
+      "purchased_answer_exact": true,
+      "choice": "Navigation",
+      "cost": 1,
+      "declined_purchase": false,
+      "final_faction_decisions_follow_disclosure_packet": true,
+      "observed_asset_changes": {
+        "GN": {},
+        "GS": {},
+        "JN": {},
+        "JS": {}
+      },
+      "observed_request_changes": {
+        "GN": {},
+        "GS": {},
+        "JN": {
+          "security_request": {
+            "draft": "Restraint",
+            "final_request": "Guard",
+            "source_id": "r2_final_JN"
+          }
+        },
+        "JS": {
+          "security_request": {
+            "draft": "Restraint",
+            "final_request": "Guard",
+            "source_id": "r2_final_JS"
+          }
+        }
+      },
+      "draft_imperial_proposal_vs_authorised_outcome": {
+        "navigation_order": {
+          "draft": "Repair",
+          "authorised": "Repair",
+          "authorisers": [
+            "GN"
+          ]
+        },
+        "security_order": {
+          "draft": "Guard",
+          "authorised": "Guard",
+          "authorisers": [
+            "A"
+          ]
+        }
+      }
+    }
+  ],
+  "starting_tokens": 3,
+  "remaining_tokens": 1,
+  "deliberately_declined_rounds": [],
+  "pending": [],
+  "passed": true,
+  "scope": "Original draft and selection sources, exact covers/answers, timing and observable assignment changes. Causation requires player testimony; file order alone does not prove it."
+}

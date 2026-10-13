@@ -1,0 +1,11 @@
+{
+  "run": 1,
+  "id": "r1_draft_A",
+  "role": "A",
+  "phase": "r1-faction",
+  "stage": "draft",
+  "channel": "Open",
+  "proposal": {"navigation_order": "Military", "security_order": "Campaign", "warrant": true},
+  "messages": [{"to": "All", "text": "My initial proposal is Military passage, Campaign and a protective Warrant. It requires Wayfarer, Spear and Vigil offered to their councils, with Lantern maintaining the beacon. On the public accounting this preserves route capacity, sustains the army and leaves communities at the minimum acceptable level. That civilian margin is thin; I want your alternatives before treating this as settled. Shared passage might improve cargo provision but spends our route margin and employs Lantern differently. Guild service this month should earn a serious hearing for delegated navigation, not become an assumed entitlement."}],
+  "reason": "This is a funded starting proposal if its owners cooperate. All directives remain nonbinding until the appropriate bell; no vision has been selected and no signatures are given."
+}

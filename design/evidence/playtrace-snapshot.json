@@ -1,0 +1,2789 @@
+{
+  "id": "void-throne:snapshot:ab7142bb13bd58b6aa18:model:5d5233f060a2:repo:uncommitted-",
+  "project_id": "void-throne",
+  "adapter_id": "google-workspace-tabletop-v1",
+  "source_revisions": [
+    {
+      "id": "vt:source:project@AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+      "source_id": "vt:source:project",
+      "medium": "drive",
+      "locator": "https://docs.google.com/document/d/1ooca7YcUVaSMn4CozUrIXb6pxBZUZMM6ih-RbWZWick/edit?usp=drivesdk",
+      "revision": "AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+      "observed_at": "2026-10-13T22:54:34.123000Z",
+      "content_digest": "e9e0fe9eced86e02541a674f9e0bd1d54f95961039d4c8ca788aa0134eb981c5"
+    },
+    {
+      "id": "vt:source:rulebook@AHj4eMT02OyJM0aGKvf6o41qcKdXIFijcgpv-J4UaXnJwB6EdO1Ky8lRDusd8T_IQquFf3TOEZAXmajYa2FWw5MVtXpb3OTF558EG12otnw",
+      "source_id": "vt:source:rulebook",
+      "medium": "drive",
+      "locator": "https://docs.google.com/document/d/1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSxaJrW1s/edit?usp=drivesdk",
+      "revision": "AHj4eMT02OyJM0aGKvf6o41qcKdXIFijcgpv-J4UaXnJwB6EdO1Ky8lRDusd8T_IQquFf3TOEZAXmajYa2FWw5MVtXpb3OTF558EG12otnw",
+      "observed_at": "2026-10-13T22:54:39.795000Z",
+      "content_digest": "5aeaaf3193844c0ac35f2c999fbdc98cbc6b369425770f3bc57fba75759faffc"
+    },
+    {
+      "id": "vt:source:facilitator@AHj4eMRaDB-WZPAw4y6Q0Y_aQi9wKfrmcsfGpjR4G8uYoJDbX2nJEbLKRWg4gyZYPM5wglRZltsLtdBt7HU5BSaF80IKaSxRYehHb8afkrk",
+      "source_id": "vt:source:facilitator",
+      "medium": "drive",
+      "locator": "https://docs.google.com/document/d/1402miaVHlXY84ND4YshuEOZqCT07ELe2qtKWgYMcS4M/edit?usp=drivesdk",
+      "revision": "AHj4eMRaDB-WZPAw4y6Q0Y_aQi9wKfrmcsfGpjR4G8uYoJDbX2nJEbLKRWg4gyZYPM5wglRZltsLtdBt7HU5BSaF80IKaSxRYehHb8afkrk",
+      "observed_at": "2026-10-13T22:54:45.362000Z",
+      "content_digest": "b64b31f62267a35e378720007b64761111d9ec04b51b4717182a5e172f480611"
+    },
+    {
+      "id": "vt:source:playtest@AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+      "source_id": "vt:source:playtest",
+      "medium": "drive",
+      "locator": "https://docs.google.com/document/d/1NwC4R7IoFREoupNcjQpvmTzDKBWD0xATdlRFktK0H0M/edit?usp=drivesdk",
+      "revision": "AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+      "observed_at": "2026-10-13T22:54:54.942000Z",
+      "content_digest": "a420a8a0e9878d59eb2b40fa9fa5d26ccf4e96cdf9e544dd765bf7a7fa49fa50"
+    },
+    {
+      "id": "vt:source:lore@AHj4eMTwn2CM-i7NACkmrw77FZLASRhIv-1t1x3d_nngFeg2xp5V78Yvr1ClKeoyoi4vdBY-ndmhIKt0ePZbQZjhkBhqQQdgQo-6vm6NvAI",
+      "source_id": "vt:source:lore",
+      "medium": "drive",
+      "locator": "https://docs.google.com/document/d/1v2BCTBLsVdHpiM0xUtB2dqMCxFq80g55q9n-CIWe7wY/edit?usp=drivesdk",
+      "revision": "AHj4eMTwn2CM-i7NACkmrw77FZLASRhIv-1t1x3d_nngFeg2xp5V78Yvr1ClKeoyoi4vdBY-ndmhIKt0ePZbQZjhkBhqQQdgQo-6vm6NvAI",
+      "observed_at": "2026-10-13T22:54:50.188000Z",
+      "content_digest": "cf2eb75ebc262fbde944515dbc90d9d77081ec0d18442202572943dee46b519e"
+    },
+    {
+      "id": "vt:engine@5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
+      "source_id": "vt:engine",
+      "medium": "git",
+      "locator": "src/void_throne + design/*-cards",
+      "revision": "5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
+      "observed_at": "2026-10-13T23:02:59.012596Z",
+      "content_digest": "5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df"
+    },
+    {
+      "id": "vt:repository@uncommitted-initial-migration",
+      "source_id": "vt:repository",
+      "medium": "git",
+      "locator": ".",
+      "revision": "uncommitted-initial-migration",
+      "observed_at": "2026-10-13T23:02:59.112619Z",
+      "content_digest": "5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df"
+    },
+    {
+      "id": "vt:playtrace@910f36ed3c0764e55621c2c7e39e294f3e71e2d48d360126fca667cbbecfac2f",
+      "source_id": "vt:playtrace",
+      "medium": "git",
+      "locator": "C:\\Coding\\playtrace",
+      "revision": "7167e4e43fc231b7863865d0a2655586ddae57fd",
+      "observed_at": "2026-10-13T23:02:59.112619Z",
+      "content_digest": "910f36ed3c0764e55621c2c7e39e294f3e71e2d48d360126fca667cbbecfac2f"
+    }
+  ],
+  "entities": [
+    {
+      "id": "vt:source:project:paragraph:720505ff99a59a71",
+      "kind": "heading",
+      "name": "The Void Throne — Project Index and Working Agreement",
+      "attributes": {
+        "text": "The Void Throne — Project Index and Working Agreement",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1,
+        "end_index": 55,
+        "named_style": "TITLE"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:c0fb78cd956d981f",
+      "kind": "heading",
+      "name": "Project home",
+      "attributes": {
+        "text": "Project home",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 55,
+        "end_index": 68,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:426edbe66ebc7e72",
+      "kind": "passage",
+      "name": "The Void Throne now has a separate local game repository at C:/AnalogueGames/void-throne and a dedicated Google Drive fo",
+      "attributes": {
+        "text": "The Void Throne now has a separate local game repository at C:/AnalogueGames/void-throne and a dedicated Google Drive folder. The older Obsidian and GameSpec folders remain untouched. Their relevant sources are preserved in the new repository with checksums.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 68,
+        "end_index": 327,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:ae7495c29d5f1562",
+      "kind": "passage",
+      "name": "The current design is the five-player, two-round paper prototype with revised vision timing, three foresight tokens, vol",
+      "attributes": {
+        "text": "The current design is the five-player, two-round paper prototype with revised vision timing, three foresight tokens, voluntary Standing Commitments and weighted final settlement. The browser and Playtrace are development tools; neither is required to play the paper game.",
+        "authored_status": "working",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 327,
+        "end_index": 609,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:1a18b2bad16f9fd6",
+      "kind": "heading",
+      "name": "Where work lives",
+      "attributes": {
+        "text": "Where work lives",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 609,
+        "end_index": 626,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:d7d256c02868a8a8",
+      "kind": "passage",
+      "name": "Drive: editable player rulebook, facilitator guide, lore/adaptation record and playtest write-up. Local docs are initial",
+      "attributes": {
+        "text": "Drive: editable player rulebook, facilitator guide, lore/adaptation record and playtest write-up. Local docs are initial publication sources and offline copies. Read current Drive revisions before republishing changes; there is no automatic two-way synchronisation.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 626,
+        "end_index": 892,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:2b38aecb0634aab0",
+      "kind": "passage",
+      "name": "Repository: game-owned engine and browser interface, external Playtrace plugin, manifest, hypotheses, evidence, tests, c",
+      "attributes": {
+        "text": "Repository: game-owned engine and browser interface, external Playtrace plugin, manifest, hypotheses, evidence, tests, captured document revisions and original simulation records. Shared Playtrace remains at C:/Coding/playtrace and contains no new Void Throne design state.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 892,
+        "end_index": 1166,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:8eb83eb151ab07c7",
+      "kind": "passage",
+      "name": "Archive: original development reports and printable packs, the larger-game lore and the previous GameSpec source. Histor",
+      "attributes": {
+        "text": "Archive: original development reports and printable packs, the larger-game lore and the previous GameSpec source. Historical versions remain labelled; they are not a second current ruleset.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1166,
+        "end_index": 1356,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:37c06995d47106c7",
+      "kind": "heading",
+      "name": "Start testing",
+      "attributes": {
+        "text": "Start testing",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1356,
+        "end_index": 1370,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:ad0a02072caa21c9",
+      "kind": "passage",
+      "name": "Run launch.py from the repository, or use Start Playtest.cmd. The local browser opens at http://127.0.0.1:8877. Control ",
+      "attributes": {
+        "text": "Run launch.py from the repository, or use Start Playtest.cmd. The local browser opens at http://127.0.0.1:8877. Control every seat, record reasons, commit assets, enter council orders and cast votes. It saves the last completed sheet locally. Download HTML and JSON before starting another test. You can resume an exported decision record.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1370,
+        "end_index": 1710,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:4381ba5ddca5efab",
+      "kind": "passage",
+      "name": "Run playtrace_game.py reproduce using the Playtrace Python environment to build the source snapshot, deterministic repla",
+      "attributes": {
+        "text": "Run playtrace_game.py reproduce using the Playtrace Python environment to build the source snapshot, deterministic replay, report and hypothesis-linked experiment bundle. Run the game’s tests before changing printed consequences. The exact command and dependency path are in README.md.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1710,
+        "end_index": 1996,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:7ef0a14b8659a1ff",
+      "kind": "passage",
+      "name": "For a fresh LLM game, use the information-boundary protocol in design/experiments/agent-protocol.md and record original ",
+      "attributes": {
+        "text": "For a fresh LLM game, use the information-boundary protocol in design/experiments/agent-protocol.md and record original decisions. The retained six-agent run is ready for inspection; a deterministic replay is not a fresh conversation.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1996,
+        "end_index": 2231,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:6bdd6ef60d47c7fa",
+      "kind": "heading",
+      "name": "First design questions",
+      "attributes": {
+        "text": "First design questions",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2231,
+        "end_index": 2254,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:a12ebbe4808c82f0",
+      "kind": "passage",
+      "name": "Will the Ascendant deliberately decline a purchase? Does the army accept a settlement imposed by a valid weighted coalit",
+      "attributes": {
+        "text": "Will the Ascendant deliberately decline a purchase? Does the army accept a settlement imposed by a valid weighted coalition? Do provisional powers change preferences, or merely confirm them? Does the Guild sacrifice enough in the reserve-supported path? Can people finish the discussion and signatures on time?",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2254,
+        "end_index": 2565,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:798115597eee80e3",
+      "kind": "passage",
+      "name": "The current code implements the accepted experimental rules. New balance proposals remain proposals until the designer c",
+      "attributes": {
+        "text": "The current code implements the accepted experimental rules. New balance proposals remain proposals until the designer chooses them. No statistical claim of success follows from one agent run.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2565,
+        "end_index": 2758,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:a975b0c52d645a00",
+      "kind": "heading",
+      "name": "The Void Throne — Player Rulebook, draft v0.3",
+      "attributes": {
+        "text": "The Void Throne — Player Rulebook, draft v0.3",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1,
+        "end_index": 47,
+        "named_style": "TITLE"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:2a1ea72014ff28a4",
+      "kind": "heading",
+      "name": "A government worth leaving behind",
+      "attributes": {
+        "text": "A government worth leaving behind",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 47,
+        "end_index": 81,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:bb2878b7159c6e71",
+      "kind": "passage",
+      "name": "The conquest is complete. The peace has not begun. At the Seam, the Ascendant, the Ductus Guild and the Janissariat must",
+      "attributes": {
+        "text": "The conquest is complete. The peace has not begun. At the Seam, the Ascendant, the Ductus Guild and the Janissariat must settle who will govern the routes and who will command the army. Meanwhile, the Narrow is failing, troops need passage, and the same ships cannot carry every cargo.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 81,
+        "end_index": 367,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:54ea5f9bd6cfbfdb",
+      "kind": "passage",
+      "name": "This is the five-player paper prototype: two Guild players, two Janissariat players and one Ascendant, with a separate f",
+      "attributes": {
+        "text": "This is the five-player paper prototype: two Guild players, two Janissariat players and one Ascendant, with a separate facilitator. Allow 60 minutes. Two operational rounds represent successive months before the Ceremony. You need cards, slips, three track counters, three foresight tokens and one reserve token. No computer is needed.",
+        "authored_status": "working",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 367,
+        "end_index": 713,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:38d171d05456ba89",
+      "kind": "passage",
+      "name": "Contents: your roles; the assets and tracks; the sequence of play; orders; government; settlement; reference and debrief",
+      "attributes": {
+        "text": "Contents: your roles; the assets and tracks; the sequence of play; orders; government; settlement; reference and debrief.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 713,
+        "end_index": 835,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:656f08b9db90dba7",
+      "kind": "heading",
+      "name": "Your roles",
+      "attributes": {
+        "text": "Your roles",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 835,
+        "end_index": 846,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:631e0dabf654c42c",
+      "kind": "passage",
+      "name": "Ductus Guild: protect navigators, obtain a response to Navigation Rights Petition GUILD-14, preserve navigation rights, ",
+      "attributes": {
+        "text": "Ductus Guild: protect navigators, obtain a response to Navigation Rights Petition GUILD-14, preserve navigation rights, and keep your commercial institution viable. Your faction owns Wayfarer and Lantern. You decide your priorities together; you do not have individual secret goals.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 846,
+        "end_index": 1129,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:df6e0d71fafc7537",
+      "kind": "passage",
+      "name": "Janissariat: protect Spear, sustain the conditioning that makes your army effective, and secure a constitutional future ",
+      "attributes": {
+        "text": "Janissariat: protect Spear, sustain the conditioning that makes your army effective, and secure a constitutional future for the institution. You own Spear and Vigil. Peaceful service can protect people while reducing your military power. An independent Raid is possible without another faction’s permission; its risks and legal costs still apply.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1129,
+        "end_index": 1476,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:9159c1e155e96c1a",
+      "kind": "passage",
+      "name": "Ascendant: build a government that can function without repeated personal intervention. Seek a ratified settlement with ",
+      "attributes": {
+        "text": "Ascendant: build a government that can function without repeated personal intervention. Seek a ratified settlement with Beacon at least 1, Communities at least 2 and Readiness at least 2; prefer Readiness 3+ and intact Spear where the cost is acceptable. Retaining imperial command is not a victory requirement. Your three unspent foresight tokens contribute to your final leverage.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1476,
+        "end_index": 1859,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:23a0d8cbe6ebb0c9",
+      "kind": "passage",
+      "name": "Each faction sends one member to Navigation and Supply (GN and JN) and one to Security and Government (GS and JS). The A",
+      "attributes": {
+        "text": "Each faction sends one member to Navigation and Supply (GN and JN) and one to Security and Government (GS and JS). The Ascendant attends Security and sends written Navigation directives. Council delegates may use only assets actually offered by their owners. A legal duty does not physically confiscate a ship or prevent disobedience.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1859,
+        "end_index": 2194,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:25a8eb884570b65d",
+      "kind": "heading",
+      "name": "The Narrow: tracks and concrete assets",
+      "attributes": {
+        "text": "The Narrow: tracks and concrete assets",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2194,
+        "end_index": 2233,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:62be78643fd96cbc",
+      "kind": "passage",
+      "name": "Start Beacon 2, Communities 3 and Readiness 3. All tracks run from 0 to 4. Beacon measures this route’s maintained servi",
+      "attributes": {
+        "text": "Start Beacon 2, Communities 3 and Readiness 3. All tracks run from 0 to 4. Beacon measures this route’s maintained service and access infrastructure, not the nature of the immaterial deep. Communities measure the welfare of people around the corridor. Readiness measures this force’s conditioned military effectiveness; a lower value is not a judgment that its people are worth less.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2233,
+        "end_index": 2617,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:8368e7134b3afd98",
+      "kind": "passage",
+      "name": "Wayfarer: Guild transport. Assign Council to offer it for an imperial voyage, or Trade for a private commercial voyage. ",
+      "attributes": {
+        "text": "Wayfarer: Guild transport. Assign Council to offer it for an imperial voyage, or Trade for a private commercial voyage. It can do only one of these each round. Trade completes one contract at prepared Beacon 3+, or at 2 with Guard/Warrant. At 2 without protection it is disabled and earns no contract; below 2 it stays intact but does not depart. Contracts cannot be spent as resources.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2617,
+        "end_index": 3004,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:ac07a58a1f75ffda",
+      "kind": "passage",
+      "name": "Lantern: Guild tender and navigation team. Assign Maintain for Beacon +1 before crossings, or Council to enable Repair o",
+      "attributes": {
+        "text": "Lantern: Guild tender and navigation team. Assign Maintain for Beacon +1 before crossings, or Council to enable Repair or Shared passage. Maintain does not also fund a council order. If its crew are lost, Lantern is unavailable for the rest of the prototype.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3004,
+        "end_index": 3263,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:d677502a562c5985",
+      "kind": "passage",
+      "name": "Spear: Janissariat cohort. Assign Council, independent Raid, or Stand down. Council offers it for Campaign or a council ",
+      "attributes": {
+        "text": "Spear: Janissariat cohort. Assign Council, independent Raid, or Stand down. Council offers it for Campaign or a council Raid; an independent Raid is unavailable to the council. Stand down grants no recovery. A disabled Spear cannot act again.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3263,
+        "end_index": 3506,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:1d3a58a9240de966",
+      "kind": "passage",
+      "name": "Vigil: Janissariat garrison. Assign Council for Guard or an eligible Warrant, or Home to protect institutional bases. Ho",
+      "attributes": {
+        "text": "Vigil: Janissariat garrison. Assign Council for Guard or an eligible Warrant, or Home to protect institutional bases. Home grants no numerical bonus. Vigil remains intact in this prototype and can have only one use per round.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3506,
+        "end_index": 3732,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:ab9a093cbdc21925",
+      "kind": "passage",
+      "name": "Grey Petrel: one already-contracted cutter with a licensed Guild pilot and protection detail. The Ascendant has one rese",
+      "attributes": {
+        "text": "Grey Petrel: one already-contracted cutter with a licensed Guild pilot and protection detail. The Ascendant has one reserve service for the entire game. It does not create navigation expertise. A surviving faction asset returns after service; offering Wayfarer loses that round’s trading opportunity, not the ship or its ownership leverage.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3732,
+        "end_index": 4073,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:c32185e5a3f245cf",
+      "kind": "heading",
+      "name": "The 60-minute session",
+      "attributes": {
+        "text": "The 60-minute session",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 4073,
+        "end_index": 4095,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:d7f0bb868285e15a",
+      "kind": "passage",
+      "name": "Briefing: 8 minutes. Each round: faction discussion 5 minutes, councils 7 minutes, free discussion 6 minutes. Play two r",
+      "attributes": {
+        "text": "Briefing: 8 minutes. Each round: faction discussion 5 minutes, councils 7 minutes, free discussion 6 minutes. Play two rounds, then a 10-minute Ceremony and a 6-minute debrief.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 4095,
+        "end_index": 4272,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:8ca948e210118b73",
+      "kind": "passage",
+      "name": "Faction minutes 0–2: discuss your assets and desired orders. At minute 2 display each faction’s draft assignments and re",
+      "attributes": {
+        "text": "Faction minutes 0–2: discuss your assets and desired orders. At minute 2 display each faction’s draft assignments and requests, plus the Ascendant’s draft directives and Warrant. If teammates disagree, display both proposals. Drafts do not bind. Mark an existing Standing Commitment LOCKED.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 4272,
+        "end_index": 4563,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:02aa4b4ec8337ada",
+      "kind": "passage",
+      "name": "Faction minutes 2–3: the Ascendant reads the two public vision covers and chooses one card or NONE. Cost: one foresight ",
+      "attributes": {
+        "text": "Faction minutes 2–3: the Ascendant reads the two public vision covers and chooses one card or NONE. Cost: one foresight token, paid before opening the card. At most one purchase per round. Missing, multiple or late choice means NONE. No later replacement, refund or second purchase.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 4563,
+        "end_index": 4846,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:dbce461aa35f3076",
+      "kind": "passage",
+      "name": "Faction minutes 3–5: the Ascendant may show, describe or withhold the purchased answer. Revise unpledged assignments, th",
+      "attributes": {
+        "text": "Faction minutes 3–5: the Ascendant may show, describe or withhold the purchased answer. Revise unpledged assignments, then both teammates sign their exact faction sheet. Lodge Grey Petrel’s task by minute 5. The chosen card predicts consequences only if its printed conditions occur; it never predicts a player’s choice or grants authority. Hidden consequences occur whether read or unread.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 4846,
+        "end_index": 5237,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:da8c122c34f0ae60",
+      "kind": "passage",
+      "name": "Faction defaults: unsigned or disagreeing Guild sheet means Trade and Maintain; unsigned or disagreeing Janissariat shee",
+      "attributes": {
+        "text": "Faction defaults: unsigned or disagreeing Guild sheet means Trade and Maintain; unsigned or disagreeing Janissariat sheet means Stand down and Home. Missing or multiple asset selections take that asset’s default. Lost or disabled assets are Absent. An active Standing Commitment overrides a conflicting later assignment, including a default.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 5237,
+        "end_index": 5579,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:29c1376d476f06de",
+      "kind": "passage",
+      "name": "Council bell: one final written order per council, with the initials required by its current article. Spoken orders and ",
+      "attributes": {
+        "text": "Council bell: one final written order per council, with the initials required by its current article. Spoken orders and superseded notes have no effect. The final Warrant locks here. Invalid or unauthorised orders become Hold or Restraint without a penalty merely for invalidity; a valid order lacking its required asset has the printed failure cost. Resolve both councils together.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 5579,
+        "end_index": 5962,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:b3f695b04bc6166d",
+      "kind": "passage",
+      "name": "Round-one free discussion: after seeing the result, agree provisional articles and optional Standing Commitments. Round ",
+      "attributes": {
+        "text": "Round-one free discussion: after seeing the result, agree provisional articles and optional Standing Commitments. Round two tests what passed. Round-two free discussion prepares the final settlement; it adds no extra operation.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 5962,
+        "end_index": 6190,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:f3e12dab4ff97b9a",
+      "kind": "heading",
+      "name": "Council orders and ordinary consequences",
+      "attributes": {
+        "text": "Council orders and ordinary consequences",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 6190,
+        "end_index": 6231,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:7c85dccdb72cfc87",
+      "kind": "passage",
+      "name": "Relief — Cost: offered Wayfarer, or a triggered Grey Petrel Relief lift. Effect: if delivered, Communities +2 and one Be",
+      "attributes": {
+        "text": "Relief — Cost: offered Wayfarer, or a triggered Grey Petrel Relief lift. Effect: if delivered, Communities +2 and one Beacon wear. Military — Cost: offered Wayfarer. Effect: delivered passage enables Campaign and wears Beacon by one; no cargo Community bonus. Shared — Cost: offered Wayfarer AND Lantern. Effect: if delivered, Communities +1, military passage and one Beacon wear.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 6231,
+        "end_index": 6612,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:0126466e02284a7b",
+      "kind": "passage",
+      "name": "Repair — Cost: offered Lantern. Effect: Beacon +2 before crossings. Hold — no asset and no effect. Each voyage needs pre",
+      "attributes": {
+        "text": "Repair — Cost: offered Lantern. Effect: Beacon +2 before crossings. Hold — no asset and no effect. Each voyage needs prepared Beacon 2+. Without it, halt the voyage and lose Communities 1; no crossing wear. A valid unfunded Navigation order becomes Hold and costs Communities 1.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 6612,
+        "end_index": 6891,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:708cad7dc3b5488c",
+      "kind": "passage",
+      "name": "Campaign — Cost: offered Spear and delivered Military/Shared passage. Effect: Communities -1; at opening Readiness 2+ it",
+      "attributes": {
+        "text": "Campaign — Cost: offered Spear and delivered Military/Shared passage. Effect: Communities -1; at opening Readiness 2+ it achieves combat. Below 2, disable Spear. Without the required passage it does not leave, costs Communities 1 and leaves Spear intact. Raid — Cost: offered Spear, or its independent faction assignment. Effect: Communities -1 even if the target is absent. The target’s appearance is a fixed hidden condition. If present at opening Readiness 2+, achieve combat and lose one further Community; below 2, disable Spear with no extra Community loss.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 6891,
+        "end_index": 7455,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:060f03b84a3121c0",
+      "kind": "passage",
+      "name": "Guard — Cost: offered Vigil not already used by a Warrant. Effect: Communities +1 and guarded status against specified p",
+      "attributes": {
+        "text": "Guard — Cost: offered Vigil not already used by a Warrant. Effect: Communities +1 and guarded status against specified physical threats. It neither raises Beacon nor permits a crossing below 2. Restraint — no asset and no effect. A valid Raid/Campaign missing offered Spear, or Guard missing unused offered Vigil, defaults to Restraint and costs Communities 1. An independently assigned Raid still resolves on its own terms.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 7455,
+        "end_index": 7880,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:0c4b3b41206c4cee",
+      "kind": "passage",
+      "name": "If any successful Campaign or Raid achieves combat, Readiness +1 once this round; otherwise Readiness -1 once. Use openi",
+      "attributes": {
+        "text": "If any successful Campaign or Raid achieves combat, Readiness +1 once this round; otherwise Readiness -1 once. Use opening Readiness for combat and Warrant checks. Food, Guard and Home do not sustain conditioning. Each round Communities lose 1 for ordinary consumption. Add all Community changes before limiting to 0–4. Prepare Beacon, cap preparation at 4, then deduct one wear for each actual crossing.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 7880,
+        "end_index": 8285,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:6fae1287bbd3afc5",
+      "kind": "heading",
+      "name": "The Ascendant’s remaining powers",
+      "attributes": {
+        "text": "The Ascendant’s remaining powers",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 8285,
+        "end_index": 8318,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:845a55a373a61a43",
+      "kind": "passage",
+      "name": "Imperial Warrant — Requirement: Interim or MI authority, opening Readiness 3+, offered Vigil. Effect: use Vigil first, g",
+      "attributes": {
+        "text": "Imperial Warrant — Requirement: Interim or MI authority, opening Readiness 3+, offered Vigil. Effect: use Vigil first, gain Communities +1 and guarded status. If issued under imperial authority without sufficient Readiness or offered Vigil, Communities -1. Outside that authority it is advice only. A simultaneous Guard cannot reuse Vigil and fails with its ordinary cost. Missing or unsigned Warrant means No.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 8318,
+        "end_index": 8729,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:e90746af5a7b77e6",
+      "kind": "passage",
+      "name": "Grey Petrel Relief lift — Trigger: the final authorised Navigation order is Relief and Wayfarer was not offered. Effect:",
+      "attributes": {
+        "text": "Grey Petrel Relief lift — Trigger: the final authorised Navigation order is Relief and Wayfarer was not offered. Effect: supply that ship requirement and spend the reserve immediately, even if Beacon later halts the voyage. It cannot supply Military or Shared passage. It can coexist with a private Trade voyage, producing two crossings.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 8729,
+        "end_index": 9067,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:974cc0ca903458a1",
+      "kind": "passage",
+      "name": "Grey Petrel Tender cover — Trigger: round one’s Shared voyage is delivered, unguarded, and its printed crew-loss consequ",
+      "attributes": {
+        "text": "Grey Petrel Tender cover — Trigger: round one’s Shared voyage is delivered, unguarded, and its printed crew-loss consequence occurs. Effect: prevent that Lantern loss and spend the reserve; no other protection or track bonus. It has no round-two trigger. Keep, a missing selection or an untriggered task leaves the reserve available.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 9067,
+        "end_index": 9401,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:f2c6178d10c1de74",
+      "kind": "heading",
+      "name": "Provisional articles: exercise authority before settling it",
+      "attributes": {
+        "text": "Provisional articles: exercise authority before settling it",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 9401,
+        "end_index": 9461,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:db0e9f7f2e0f1355",
+      "kind": "passage",
+      "name": "Round one begins under Interim: the Ascendant chooses both council orders; the Guild has no service duty; an independent",
+      "attributes": {
+        "text": "Round one begins under Interim: the Ascendant chooses both council orders; the Guild has no service duty; an independent Janissariat Raid breaks discipline and costs Communities 1. Round-two authority follows each enacted provisional article. No mid-round changes are allowed.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 9461,
+        "end_index": 9738,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:955337efc1381acf",
+      "kind": "passage",
+      "name": "NG / Guild discretion: Guild delegate chooses Navigation. Duty: Lantern Maintain or funded Repair each round; otherwise ",
+      "attributes": {
+        "text": "NG / Guild discretion: Guild delegate chooses Navigation. Duty: Lantern Maintain or funded Repair each round; otherwise Communities -1. Wayfarer may Trade. NI / imperial priority: Ascendant chooses Navigation. Duty: offer Wayfarer each round, otherwise Communities -1. NJ / joint authorisation: both Navigation delegates must agree or Hold. Duty: offer Wayfarer, otherwise Communities -1. NI/NJ service forgoes a private voyage even if the council leaves the ship idle.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 9738,
+        "end_index": 10208,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:d9cfb5338e25303b",
+      "kind": "passage",
+      "name": "MI / imperial command: Ascendant chooses Security and retains eligible Warrant power. Duty: offer Spear; otherwise Commu",
+      "attributes": {
+        "text": "MI / imperial command: Ascendant chooses Security and retains eligible Warrant power. Duty: offer Spear; otherwise Communities -1. MA / military autonomy: Janissariat Security delegate chooses; no imperial Warrant. Duty: keep Vigil Home, otherwise Communities -1. MJ / joint authorisation: both Security delegates must agree or Restraint; no imperial Warrant. Duty: offer Spear, otherwise Communities -1. Each faction suffers at most one duty penalty per round. A breach does not cancel an otherwise possible independent action.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 10208,
+        "end_index": 10737,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:08fcfd548cf3418d",
+      "kind": "passage",
+      "name": "To enact an article after round one, both relevant council delegates and the Ascendant must sign the same exact terms. D",
+      "attributes": {
+        "text": "To enact an article after round one, both relevant council delegates and the Ascendant must sign the same exact terms. Domains are independent. Otherwise that domain stays Interim. Each faction may attach one available asset assignment to one exact article: Wayfarer Council, Lantern Council/Maintain, Spear Council, or Vigil Council/Home. Both owners must approve it. An attached unsigned pledge prevents that article passing. An article can pass without a pledge.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 10737,
+        "end_index": 11203,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:d89e15e70680d43b",
+      "kind": "passage",
+      "name": "Activated Standing Commitments bind the named assignment for round two, not the actual council order. They expire after ",
+      "attributes": {
+        "text": "Activated Standing Commitments bind the named assignment for round two, not the actual council order. They expire after that round. A public operational plan is a promise, not a new mechanical rule. Wider communications rights and the full empire’s constitutional disputes are outside these two instruments.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 11203,
+        "end_index": 11511,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:cfd134f695ad01ce",
+      "kind": "heading",
+      "name": "The Ceremony of Settlement",
+      "attributes": {
+        "text": "The Ceremony of Settlement",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 11511,
+        "end_index": 11538,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:c4bb85debc1997ff",
+      "kind": "passage",
+      "name": "Freeze weights after round two. Guild: 2 for intact Wayfarer, 1 for living Lantern crew, 1 for Beacon at least 1. Janiss",
+      "attributes": {
+        "text": "Freeze weights after round two. Guild: 2 for intact Wayfarer, 1 for living Lantern crew, 1 for Beacon at least 1. Janissariat: Readiness. Ascendant: Readiness plus unspent foresight. Readiness counts in both political weights without duplicating the army. Contracts and reserve do not add votes.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 11538,
+        "end_index": 11834,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:a3fcacf5c607cc32",
+      "kind": "passage",
+      "name": "Choose one Navigation and one Military alternative as a complete package. Both Guild players must approve it for the Gui",
+      "attributes": {
+        "text": "Choose one Navigation and one Military alternative as a complete package. Both Guild players must approve it for the Guild signature; both Janissariat players for the army signature. The Ascendant signs individually. Pass with at least two-thirds of ALL available leverage, rounded up, and at least two positive-weight parties. Refusals and divided factions remain in the denominator. There is no inherent veto and no transferable leverage.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 11834,
+        "end_index": 12275,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:4ba4377cf15f0159",
+      "kind": "passage",
+      "name": "Collect fresh votes whenever the package changes. The test bench allows two ballots within the Ceremony. A passing packa",
+      "attributes": {
+        "text": "Collect fresh votes whenever the package changes. The test bench allows two ballots within the Ceremony. A passing package settles both instruments, including duties on dissenters. If no package passes, provisional articles expire and both domains return to Interim. Physical outcomes remain. Other institutions have already accepted the permitted alternatives and will perform the wider Charter’s formalities: this is a scenario adaptation, not a surprise facilitator veto.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 12275,
+        "end_index": 12750,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:5348f1f38350d9e2",
+      "kind": "passage",
+      "name": "Debrief: did an event change your preferred constitution? What did each faction sacrifice? Was conflict a credible unila",
+      "attributes": {
+        "text": "Debrief: did an event change your preferred constitution? What did each faction sacrifice? Was conflict a credible unilateral option? Did each teammate contribute? Did foresight change an action, a bargain, or only confidence? Three tokens and two possible purchases guarantee at least one remains; deliberate saving requires choosing NONE.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 12750,
+        "end_index": 13091,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:780ecc1fa05aaad4",
+      "kind": "heading",
+      "name": "Reference and authorship",
+      "attributes": {
+        "text": "Reference and authorship",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 13091,
+        "end_index": 13116,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:7b0c0a049d2a2e96",
+      "kind": "passage",
+      "name": "The complete current player reference is preserved locally as docs/current-player-rules.txt. The facilitator guide conta",
+      "attributes": {
+        "text": "The complete current player reference is preserved locally as docs/current-player-rules.txt. The facilitator guide contains the four concealed vision answers and the exact resolution order. Earlier v0.1/v0.2 packs are historical; their superseded foresight timing and final voting rules do not override this draft.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 13116,
+        "end_index": 13431,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:985753b348a18f2c",
+      "kind": "passage",
+      "name": "Design by John Keyworth; prototype consolidation and testing assistance by Codex. This v0.3 label identifies the migrate",
+      "attributes": {
+        "text": "Design by John Keyworth; prototype consolidation and testing assistance by Codex. This v0.3 label identifies the migrated revised-visions draft, not a new set of balance changes.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 13431,
+        "end_index": 13610,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:7307e4acc78acec8",
+      "kind": "heading",
+      "name": "The Void Throne — Facilitator Guide, draft v0.3",
+      "attributes": {
+        "text": "The Void Throne — Facilitator Guide, draft v0.3",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1,
+        "end_index": 49,
+        "named_style": "TITLE"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:0b31ebe254724a4c",
+      "kind": "heading",
+      "name": "Your task",
+      "attributes": {
+        "text": "Your task",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 49,
+        "end_index": 59,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:0147321af2822069",
+      "kind": "passage",
+      "name": "Run the two-month crisis and make the consequences legible. Players decide what to offer, which orders to issue, and wha",
+      "attributes": {
+        "text": "Run the two-month crisis and make the consequences legible. Players decide what to offer, which orders to issue, and what government they will accept. Apply the printed outcomes. Do not invent a prophecy, a resource, a signature, an extra veto or a reward for cooperation.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 59,
+        "end_index": 332,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:af56096c915e99c5",
+      "kind": "passage",
+      "name": "This guide implements the revised visions, Trial A Standing Commitments and weighted final settlement. The computer mode",
+      "attributes": {
+        "text": "This guide implements the revised visions, Trial A Standing Commitments and weighted final settlement. The computer model is an implementation to check, not permission to overrule the paper rules. The browser is an all-seat facilitator test bench; the preserved LLM run is separate evidence.",
+        "authored_status": "working",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 332,
+        "end_index": 634,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:483bf8c9ea76c250",
+      "kind": "heading",
+      "name": "Setup and opening brief",
+      "attributes": {
+        "text": "Setup and opening brief",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 634,
+        "end_index": 658,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:42fdb6ff626d98e9",
+      "kind": "passage",
+      "name": "Seat GN and JN at Navigation and Supply; GS, JS and A at Security and Government. Give both members of each faction thei",
+      "attributes": {
+        "text": "Seat GN and JN at Navigation and Supply; GS, JS and A at Security and Government. Give both members of each faction their shared brief and assets. Keep the four private vision answers behind your screen; put both current-round covers face up only at the purchase window.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 658,
+        "end_index": 929,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:6dedde24d06e1351",
+      "kind": "passage",
+      "name": "Start Beacon 2, Communities 3, Readiness 3, all faction assets intact, contracts 0, reserve available and foresight 3. R",
+      "attributes": {
+        "text": "Start Beacon 2, Communities 3, Readiness 3, all faction assets intact, contracts 0, reserve available and foresight 3. Record Interim in both domains. Give the Ascendant Grey Petrel’s one reserve marker. Publish starting leverage: Guild 4, Janissariat 3, Ascendant 6; total 13, threshold 9.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 929,
+        "end_index": 1220,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:d9ab972431179f33",
+      "kind": "passage",
+      "name": "Explain the fiction: the Narrow is a route with maintained infrastructure, not a measure of universal psychic safety. Th",
+      "attributes": {
+        "text": "Explain the fiction: the Narrow is a route with maintained infrastructure, not a measure of universal psychic safety. The operation is local, not the entire three-billion-strong Janissariat or the whole Guild. The named remnant raiders are a scenario invention, not the civilian resistance of Vethis Secundus. Players meet at the Seam; each round compresses a month before the final Ceremony.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1220,
+        "end_index": 1613,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:aaf3cc0c9df346d4",
+      "kind": "passage",
+      "name": "Print the public rulebook, three shared-role briefs, two council sheets, six Charter cards, four vision covers and four ",
+      "attributes": {
+        "text": "Print the public rulebook, three shared-role briefs, two council sheets, six Charter cards, four vision covers and four folded answers, asset cards, faction/council decision slips, trial proposal/vote slips and final ballots. Earlier printable packs can supply unchanged asset and council cards, but use the current foresight and weighted settlement sheets. The repository retains these packs with version labels.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1613,
+        "end_index": 2027,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:ced32a73beb1b3eb",
+      "kind": "heading",
+      "name": "Run the clock",
+      "attributes": {
+        "text": "Run the clock",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2027,
+        "end_index": 2041,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:6d6e5bac22a8d1c0",
+      "kind": "passage",
+      "name": "0–8: briefing. 8–13: round-one factions, including drafts at faction minute 2, optional purchase by minute 3, final comm",
+      "attributes": {
+        "text": "0–8: briefing. 8–13: round-one factions, including drafts at faction minute 2, optional purchase by minute 3, final commitments at minute 5. 13–20: councils. Resolve at the bell. 20–26: discuss the result and sign provisional articles. 26–31: round-two factions, same internal sequence. 31–38: councils and resolution. 38–44: free discussion. 44–54: Ceremony. 54–60: debrief.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2041,
+        "end_index": 2417,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:e61e6ac8295287e2",
+      "kind": "passage",
+      "name": "Before purchase, display drafts without private reasoning unless the player elects to share it. If there is no agreement",
+      "attributes": {
+        "text": "Before purchase, display drafts without private reasoning unless the player elects to share it. If there is no agreement, show the two positions or UNDECLARED. A draft never authorises asset use. Pay before dealing one exact answer; publish expenditure and remaining foresight, not the chosen domain. Record NONE if late or absent. Allow disclosure and revision before commitment.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2417,
+        "end_index": 2798,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:7ef62de3cab2d6f2",
+      "kind": "passage",
+      "name": "At the faction bell check both owner signatures on the same pair, then apply defaults to unpledged cards and override wi",
+      "attributes": {
+        "text": "At the faction bell check both owner signatures on the same pair, then apply defaults to unpledged cards and override with any activated Standing Commitment. Mark unavailable cards Absent. Lodge one reserve task. At the council bell check current authority, final order and Warrant. Use final sheets, not intentions. Display drafts and final sheets beside one another for the debrief.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2798,
+        "end_index": 3183,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:27de2769c2033cf1",
+      "kind": "heading",
+      "name": "Resolve in this order",
+      "attributes": {
+        "text": "Resolve in this order",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3183,
+        "end_index": 3205,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:2941e7be6d03047b",
+      "kind": "passage",
+      "name": "1. Establish assignments, unavailable assets, current articles and lawful signed council orders. Invalid Navigation beco",
+      "attributes": {
+        "text": "1. Establish assignments, unavailable assets, current articles and lawful signed council orders. Invalid Navigation becomes Hold; invalid Security becomes Restraint. No penalty for invalidity alone.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3205,
+        "end_index": 3404,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:94fc66dcabebeb1a",
+      "kind": "passage",
+      "name": "2. Begin the Community change at -1 for monthly consumption. Check the Warrant using opening Readiness and offered Vigil",
+      "attributes": {
+        "text": "2. Begin the Community change at -1 for monthly consumption. Check the Warrant using opening Readiness and offered Vigil. A lawful valid Warrant uses Vigil first, gives +1 Community and guarded status. An unsupported imperial Warrant gives -1; a Warrant outside imperial authority has no effect.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3404,
+        "end_index": 3700,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:e66178f907c2e94b",
+      "kind": "passage",
+      "name": "3. Check Guard: unused offered Vigil gives +1 Community and guarded status. If missing or already used, change Guard to ",
+      "attributes": {
+        "text": "3. Check Guard: unused offered Vigil gives +1 Community and guarded status. If missing or already used, change Guard to Restraint and add -1 Community.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3700,
+        "end_index": 3852,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:94ee10cf7b8a56de",
+      "kind": "passage",
+      "name": "4. Fund Navigation. A lodged available Relief lift triggers only for Relief without offered Wayfarer; spend Grey Petrel ",
+      "attributes": {
+        "text": "4. Fund Navigation. A lodged available Relief lift triggers only for Relief without offered Wayfarer; spend Grey Petrel immediately. Check all other costs. An unfunded order becomes Hold and adds -1 Community. Prepare Beacon with Maintain +1 and funded Repair +2, capped at 4.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3852,
+        "end_index": 4129,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:adebc3638d59023b",
+      "kind": "passage",
+      "name": "5. Resolve the council voyage against prepared Beacon. Below 2, halt it and add -1 Community; do not wear Beacon. Otherw",
+      "attributes": {
+        "text": "5. Resolve the council voyage against prepared Beacon. Below 2, halt it and add -1 Community; do not wear Beacon. Otherwise apply Relief +2 or Shared +1 Communities (Military 0), record delivered passage and one crossing wear.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 4129,
+        "end_index": 4356,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:4208859e90074a4a",
+      "kind": "passage",
+      "name": "6. Resolve private Trade against the same prepared Beacon. At 3+, or 2 guarded, complete a contract and add one crossing",
+      "attributes": {
+        "text": "6. Resolve private Trade against the same prepared Beacon. At 3+, or 2 guarded, complete a contract and add one crossing wear. At 2 unguarded, disable Wayfarer, no contract, one wear. Below 2, halt intact with no wear. A reserve Relief voyage and private Trade can both cross.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 4356,
+        "end_index": 4633,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:bcfcefe7a3a8f2cc",
+      "kind": "passage",
+      "name": "7. Check each faction’s article duty. NG needs Maintain or funded Repair; NI/NJ need Wayfarer offered; MI/MJ need Spear ",
+      "attributes": {
+        "text": "7. Check each faction’s article duty. NG needs Maintain or funded Repair; NI/NJ need Wayfarer offered; MI/MJ need Spear offered; MA needs Vigil Home; Interim independent Raid breaches army discipline. Add at most one Community penalty per faction. Loss of an asset does not waive a duty.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 4633,
+        "end_index": 4921,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:b3e38aa04166a446",
+      "kind": "passage",
+      "name": "8. Resolve Campaign and/or an independent Raid using opening Readiness. A valid council Campaign/Raid without offered Sp",
+      "attributes": {
+        "text": "8. Resolve Campaign and/or an independent Raid using opening Readiness. A valid council Campaign/Raid without offered Spear adds -1 Community and no council combat; a separately assigned independent Raid still resolves. Campaign missing delivered Military/Shared passage costs 1 Community, does not fight and leaves Spear intact. With passage, it costs 1; Readiness 2+ achieves combat, otherwise disable Spear. A Raid costs 1 for disruption; consult its round’s fixed target condition. If target present, Readiness 2+ achieves combat and adds a second Community cost; below 2 disable Spear without that second loss.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 4921,
+        "end_index": 5537,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:8417748f6a7cb1f5",
+      "kind": "passage",
+      "name": "9. Apply the other round-specific hidden conditions printed below, whether purchased or not. Tender cover can prevent on",
+      "attributes": {
+        "text": "9. Apply the other round-specific hidden conditions printed below, whether purchased or not. Tender cover can prevent only its exact printed crew loss. Never substitute the cover question for the full condition.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 5537,
+        "end_index": 5749,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:7317dd2e288931d0",
+      "kind": "passage",
+      "name": "10. Apply one Readiness change: +1 if any qualifying combat occurred, otherwise -1. Final Beacon is prepared Beacon minu",
+      "attributes": {
+        "text": "10. Apply one Readiness change: +1 if any qualifying combat occurred, otherwise -1. Final Beacon is prepared Beacon minus actual crossing wear. Add all Community changes to its opening value. Clamp each final track to 0–4. Mark asset losses, contracts and reserve. Publish consequences and updated signature weights. After round two, expire temporary assignment pledges.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 5749,
+        "end_index": 6120,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:97e2d7438a69e1c4",
+      "kind": "heading",
+      "name": "Fixed visions: facilitator-only answers",
+      "attributes": {
+        "text": "Fixed visions: facilitator-only answers",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 6120,
+        "end_index": 6160,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:742bde5f6ccd76a8",
+      "kind": "passage",
+      "name": "The following are the exact cards in the revised-visions test. The cover defines that card’s scope, not the safety of th",
+      "attributes": {
+        "text": "The following are the exact cards in the revised-visions test. The cover defines that card’s scope, not the safety of the whole plan. Ordinary duties, consumption and costs still apply. These effects happen whether or not the Ascendant buys the card.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 6160,
+        "end_index": 6411,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:4bbee85541318944",
+      "kind": "heading",
+      "name": "Vision R1-N",
+      "attributes": {
+        "text": "Vision R1-N",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 6411,
+        "end_index": 6423,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:968062c984cdc8a3",
+      "kind": "passage",
+      "name": "The exposed transfer",
+      "attributes": {
+        "text": "The exposed transfer",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 6423,
+        "end_index": 6444,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:ba4220692d7ad906",
+      "kind": "passage",
+      "name": "Shared crosses without protection → If funded Shared passage is delivered and there is no funded Guard or valid Warrant,",
+      "attributes": {
+        "text": "Shared crosses without protection → If funded Shared passage is delivered and there is no funded Guard or valid Warrant, Lantern’s navigation team is lost. A lodged, available Grey Petrel on Tender cover prevents this loss and is spent.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 6444,
+        "end_index": 6681,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:a8e31a4797d07547",
+      "kind": "passage",
+      "name": "Shared crosses with protection → A funded Guard or valid Warrant prevents this crew loss. Tender cover does not trigger ",
+      "attributes": {
+        "text": "Shared crosses with protection → A funded Guard or valid Warrant prevents this crew loss. Tender cover does not trigger and stays available.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 6681,
+        "end_index": 6822,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:78b81c1e015c0cae",
+      "kind": "passage",
+      "name": "Shared does not cross → This crew-loss effect does not occur. An unfunded or halted order still has its normal cost.",
+      "attributes": {
+        "text": "Shared does not cross → This crew-loss effect does not occur. An unfunded or halted order still has its normal cost.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 6822,
+        "end_index": 6939,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:895d8546fe81ad53",
+      "kind": "passage",
+      "name": "Shared needs both Wayfarer and Lantern on Council. Passage still needs prepared Beacon 2+. Guard needs offered Vigil; a ",
+      "attributes": {
+        "text": "Shared needs both Wayfarer and Lantern on Council. Passage still needs prepared Beacon 2+. Guard needs offered Vigil; a Warrant also needs imperial authority and opening Readiness 3+. Protection does not repair Beacon or avoid crossing wear.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 6939,
+        "end_index": 7181,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:0d8b8876b80cf435",
+      "kind": "heading",
+      "name": "Vision R1-S",
+      "attributes": {
+        "text": "Vision R1-S",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 7181,
+        "end_index": 7193,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:01cb0d1b73ac3c63",
+      "kind": "passage",
+      "name": "The merchant’s wake",
+      "attributes": {
+        "text": "The merchant’s wake",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 7193,
+        "end_index": 7213,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:f56b1193285ca113",
+      "kind": "passage",
+      "name": "Wayfarer completes private Trade → A Raid finds the target. At opening Readiness 2+, it fights: total Raid cost Communit",
+      "attributes": {
+        "text": "Wayfarer completes private Trade → A Raid finds the target. At opening Readiness 2+, it fights: total Raid cost Communities −2 and the round’s combat change is Readiness +1. At Readiness 0–1, Spear is disabled: Raid costs Communities −1 and there is no qualifying combat from that Raid.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 7213,
+        "end_index": 7500,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:3b2653dfe370bf95",
+      "kind": "passage",
+      "name": "No completed private Trade → The Raid finds no target. It costs Communities −1, Spear remains intact, and it provides no",
+      "attributes": {
+        "text": "No completed private Trade → The Raid finds no target. It costs Communities −1, Spear remains intact, and it provides no qualifying combat. Council Relief, Military or Shared passage does not substitute for a private contract.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 7500,
+        "end_index": 7727,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:85568e6e586513a3",
+      "kind": "passage",
+      "name": "No Raid → These Raid effects do not occur. Campaign and other orders follow their own rules.",
+      "attributes": {
+        "text": "No Raid → These Raid effects do not occur. Campaign and other orders follow their own rules.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 7727,
+        "end_index": 7820,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:d40469f5254baba2",
+      "kind": "passage",
+      "name": "A Trade assignment is not enough: the voyage must complete under the public Beacon and protection rules. If no operation",
+      "attributes": {
+        "text": "A Trade assignment is not enough: the voyage must complete under the public Beacon and protection rules. If no operation achieves combat, Readiness falls by 1 once. Duty breaches and monthly consumption are additional; tracks stay within 0–4.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 7820,
+        "end_index": 8063,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:359ff0a00be4847c",
+      "kind": "heading",
+      "name": "Vision R2-N",
+      "attributes": {
+        "text": "Vision R2-N",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 8063,
+        "end_index": 8075,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:51f505e3f814a840",
+      "kind": "passage",
+      "name": "Stores at the crossing",
+      "attributes": {
+        "text": "Stores at the crossing",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 8075,
+        "end_index": 8098,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:5b385a4f69872915",
+      "kind": "passage",
+      "name": "Military passage crosses unguarded → Delivered Military passage without funded Guard or valid Warrant causes an extra Co",
+      "attributes": {
+        "text": "Military passage crosses unguarded → Delivered Military passage without funded Guard or valid Warrant causes an extra Communities −1. Protection prevents this extra loss. Grey Petrel’s Tender cover does not protect these stores.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 8098,
+        "end_index": 8327,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:fd7989e79b1f7489",
+      "kind": "passage",
+      "name": "Funded Repair and completed Trade → A funded council Repair together with a completed private Wayfarer Trade gives Commu",
+      "attributes": {
+        "text": "Funded Repair and completed Trade → A funded council Repair together with a completed private Wayfarer Trade gives Communities +1 from distribution. Both must happen. Lantern must be on Council for Repair; Maintain is not Repair.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 8327,
+        "end_index": 8557,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:23aba3bb70c71c70",
+      "kind": "passage",
+      "name": "Neither condition → Neither extra supply effect applies. Relief and Shared receive their normal cargo effects; other car",
+      "attributes": {
+        "text": "Neither condition → Neither extra supply effect applies. Relief and Shared receive their normal cargo effects; other cards and ordinary costs still apply.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 8557,
+        "end_index": 8712,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:6a84fb5f89bda3d0",
+      "kind": "passage",
+      "name": "Repair adds 2 to prepared Beacon, capped at 4, before voyages. Trade must complete. Military needs Wayfarer on Council, ",
+      "attributes": {
+        "text": "Repair adds 2 to prepared Beacon, capped at 4, before voyages. Trade must complete. Military needs Wayfarer on Council, so it cannot also make private Trade. These two extra effects cannot both trigger in the same round.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 8712,
+        "end_index": 8933,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:544fa6a5ddbfa18f",
+      "kind": "heading",
+      "name": "Vision R2-S",
+      "attributes": {
+        "text": "Vision R2-S",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 8933,
+        "end_index": 8945,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:5d6771bfa9daad08",
+      "kind": "passage",
+      "name": "The relief column",
+      "attributes": {
+        "text": "The relief column",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 8945,
+        "end_index": 8963,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:45ad5a48322418d2",
+      "kind": "passage",
+      "name": "Relief is delivered → A Raid finds the target if the authorised, funded Navigation order is Relief and its voyage actual",
+      "attributes": {
+        "text": "Relief is delivered → A Raid finds the target if the authorised, funded Navigation order is Relief and its voyage actually crosses. Grey Petrel Relief lift counts. At opening Readiness 2+, Raid costs Communities −2 total and achieves combat; at 0–1, Spear is disabled, Raid costs Communities −1 and provides no qualifying combat.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 8963,
+        "end_index": 9293,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:7269e9a027b76de6",
+      "kind": "passage",
+      "name": "Relief is not delivered → The Raid finds no target, costs Communities −1, leaves Spear intact and provides no qualifying",
+      "attributes": {
+        "text": "Relief is not delivered → The Raid finds no target, costs Communities −1, leaves Spear intact and provides no qualifying combat. A proposed, unfunded or halted Relief order does not qualify. Shared, Military and private Trade do not qualify.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 9293,
+        "end_index": 9535,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:3442da514737434f",
+      "kind": "passage",
+      "name": "No Raid → Relief alone does not cause an attack or a Raid penalty. These effects require an actual Raid assignment or fu",
+      "attributes": {
+        "text": "No Raid → Relief alone does not cause an attack or a Raid penalty. These effects require an actual Raid assignment or funded council Raid.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 9535,
+        "end_index": 9674,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:9d4c3607d8867c83",
+      "kind": "passage",
+      "name": "Combat changes Readiness by +1 once; no successful combat changes it by −1 once. Ordinary cargo, Guard, duty breaches an",
+      "attributes": {
+        "text": "Combat changes Readiness by +1 once; no successful combat changes it by −1 once. Ordinary cargo, Guard, duty breaches and consumption still apply. A council Raid needs offered Spear; an independent Raid uses its own assignment.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 9674,
+        "end_index": 9902,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:9017b434a03a2bd1",
+      "kind": "heading",
+      "name": "Trial and final votes",
+      "attributes": {
+        "text": "Trial and final votes",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 9902,
+        "end_index": 9924,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:bd960fc89e183b1a",
+      "kind": "passage",
+      "name": "The round-one trial needs GN+JN+A for Navigation and GS+JS+A for Military. Check one exact article and its attached term",
+      "attributes": {
+        "text": "The round-one trial needs GN+JN+A for Navigation and GS+JS+A for Military. Check one exact article and its attached terms, independent of the other domain. Up to one pledge per faction, signed by both owners. Do not quietly detach an unsigned promise to pass its article. No pledge is compulsory. A passed pledge binds only that asset assignment in round two; an unsealed public plan has no mechanical penalty.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 9924,
+        "end_index": 10335,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:79b7f35c966752c1",
+      "kind": "passage",
+      "name": "At the Ceremony freeze actual weights. Count both owners’ votes to produce each faction signature; refusal, missing appr",
+      "attributes": {
+        "text": "At the Ceremony freeze actual weights. Count both owners’ votes to produce each faction signature; refusal, missing approval or disagreement contributes no support, but the faction’s weight remains in the total. Threshold is ceil(2 × total / 3); at least two signing parties must have positive weight. A zero electorate cannot pass. Count no contracts, verbal concessions or invented influence.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 10335,
+        "end_index": 10730,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:1e7adccb375ce9a0",
+      "kind": "passage",
+      "name": "Show a first exact package and record five fresh votes. If it fails, permit a replacement within the deadline and collec",
+      "attributes": {
+        "text": "Show a first exact package and record five fresh votes. If it fails, permit a replacement within the deadline and collect fresh votes. Stop on success. If neither passes, both provisional domains expire to Interim; no physical state changes. Record dissent even where the weighted package passes. Passing the arithmetic does not establish political consensus.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 10730,
+        "end_index": 11090,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:46754886208b3603",
+      "kind": "heading",
+      "name": "Checks and debrief",
+      "attributes": {
+        "text": "Checks and debrief",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 11090,
+        "end_index": 11109,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:75253b3e605c0aee",
+      "kind": "passage",
+      "name": "Cooperation: assets remain scarce, a peaceful month reduces army and Ascendant leverage, and a public ship assignment fo",
+      "attributes": {
+        "text": "Cooperation: assets remain scarce, a peaceful month reduces army and Ascendant leverage, and a public ship assignment forgoes a contract. Withheld resources: a directive cannot requisition them automatically. Conflicting orders: check authorised initials before funding. Averted prophecy: a guarded first-round Shared passage or triggered Tender cover prevents the printed crew loss. Failed ratification: expire articles without healing anything.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 11109,
+        "end_index": 11556,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:6513564ca7c51bf9",
+      "kind": "passage",
+      "name": "Ask for starting and ending constitutional preferences and the event that changed them. Ask each player which teammate c",
+      "attributes": {
+        "text": "Ask for starting and ending constitutional preferences and the event that changed them. Ask each player which teammate contribution mattered. For foresight, distinguish assignment changes, council-request changes, final order changes, bargaining conditions and confidence. A remaining third token is unavoidable if there were two purchases; do not code it as deliberate saving.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 11556,
+        "end_index": 11934,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:543e766ae3f6bebe",
+      "kind": "passage",
+      "name": "The migrated six-agent run found a useful first purchase and a mostly confirmatory second purchase. It did not show deli",
+      "attributes": {
+        "text": "The migrated six-agent run found a useful first purchase and a mostly confirmatory second purchase. It did not show deliberate saving or human timing. Do not guide the next Ascendant to repeat that result. Preserve choices before interpreting them.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 11934,
+        "end_index": 12183,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:603658e7a79281aa",
+      "kind": "heading",
+      "name": "The Void Throne — Revised Visions Playtest and Migration Report",
+      "attributes": {
+        "text": "The Void Throne — Revised Visions Playtest and Migration Report",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1,
+        "end_index": 65,
+        "named_style": "TITLE"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:89c220445dc4eb0d",
+      "kind": "heading",
+      "name": "What was tested",
+      "attributes": {
+        "text": "What was tested",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 65,
+        "end_index": 81,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:b09078a6f76222bc",
+      "kind": "passage",
+      "name": "The hypothesis was that public intentions and clearly scoped vision covers would let the Ascendant buy information relev",
+      "attributes": {
+        "text": "The hypothesis was that public intentions and clearly scoped vision covers would let the Ascendant buy information relevant to live choices while retaining a meaningful option to preserve power. One fresh six-agent run used five player roles and an independent facilitator, with the same personalities as the preceding weighted-settlement test.",
+        "authored_status": "working",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 81,
+        "end_index": 436,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:7673f01960bac283",
+      "kind": "passage",
+      "name": "The source record has 113 contributions across eleven phases and six debriefs. Each role authored its own choices. Scope",
+      "attributes": {
+        "text": "The source record has 113 contributions across eleven phases and six debriefs. Each role authored its own choices. Scoped packets separated faction discussions, councils and the purchased vision. Times represent the proposed paper schedule, not measured human play. The migration adds a deterministic Playtrace replay of those decisions; it is not another independent LLM run.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 436,
+        "end_index": 813,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:2bf15f04c34a18a9",
+      "kind": "heading",
+      "name": "Round one: information changed the plan",
+      "attributes": {
+        "text": "Round one: information changed the plan",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 813,
+        "end_index": 853,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:edc65de261a8aeef",
+      "kind": "passage",
+      "name": "The Guild displayed Trade/Maintain and Hold/Guard. The army wanted Military/Campaign; the Ascendant initially proposed t",
+      "attributes": {
+        "text": "The Guild displayed Trade/Maintain and Hold/Guard. The army wanted Military/Campaign; the Ascendant initially proposed those orders with a Warrant. With no offered Wayfarer for military passage, the Ascendant bought the Security vision to investigate Raid.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 853,
+        "end_index": 1110,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:ed9aed9c34913826",
+      "kind": "passage",
+      "name": "The answer tied a successful Raid target appearance to completed private Trade. The Ascendant disclosed it and offered G",
+      "attributes": {
+        "text": "The answer tied a successful Raid target appearance to completed private Trade. The Ascendant disclosed it and offered Grey Petrel for Relief. All four faction players changed council requests; the Ascendant changed Military/Campaign to reserve Relief/Raid, retaining Warrant. Asset assignments did not change. Information and the material reserve offer arrived together, so the result does not isolate the information’s causal effect.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1110,
+        "end_index": 1546,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:6d0a14e7fed0a750",
+      "kind": "passage",
+      "name": "Result: Beacon 1, Communities 3, Readiness 4, all faction assets intact, one contract, reserve spent, two foresight left",
+      "attributes": {
+        "text": "Result: Beacon 1, Communities 3, Readiness 4, all faction assets intact, one contract, reserve spent, two foresight left. Two crossings wore the route. The Guild secured NG provisionally with a Lantern Council pledge. MA failed because the Guild Security delegate refused it; the Ascendant had approved the trial.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1546,
+        "end_index": 1860,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:b8eb8974d5807ffc",
+      "kind": "heading",
+      "name": "Round two: relevance without a major order change",
+      "attributes": {
+        "text": "Round two: relevance without a major order change",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1860,
+        "end_index": 1910,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:0a59813cc797b8b7",
+      "kind": "passage",
+      "name": "The live plan paired funded Repair and private Trade. The Ascendant bought the Navigation answer, learning the extra Com",
+      "attributes": {
+        "text": "The live plan paired funded Repair and private Trade. The Ascendant bought the Navigation answer, learning the extra Communities +1 when that combination completes. The Ascendant retained Repair/Guard/no Warrant; both Guild players retained their choices and reported greater confidence. Army requests moved from Restraint with Warrant to Guard without Warrant as protection coordination. No asset assignment changed.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1910,
+        "end_index": 2328,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:61adff62cab7fa6f",
+      "kind": "passage",
+      "name": "Result: Beacon 2, Communities 4, Readiness 3, all faction assets intact, two contracts, reserve spent, one foresight lef",
+      "attributes": {
+        "text": "Result: Beacon 2, Communities 4, Readiness 3, all faction assets intact, two contracts, reserve spent, one foresight left. The peaceful round reduced both army and Ascendant signature weight. The Guild’s concession was tender service and upkeep; it did not lose a commercial contract in this run.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2328,
+        "end_index": 2625,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:1abb7bc56ffeeb66",
+      "kind": "heading",
+      "name": "Settlement and the unanswered saving question",
+      "attributes": {
+        "text": "Settlement and the unanswered saving question",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2625,
+        "end_index": 2671,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:bd375a415caad30a",
+      "kind": "passage",
+      "name": "Final weights were Guild 4, Janissariat 3 and Ascendant 4; 8 of 11 was required. NG/MJ passed with both Guild players an",
+      "attributes": {
+        "text": "Final weights were Guild 4, Janissariat 3 and Ascendant 4; 8 of 11 was required. NG/MJ passed with both Guild players and the Ascendant approving, despite both army players refusing. Operational cooperation did not produce constitutional consensus.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2671,
+        "end_index": 2920,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:0dfbcab9a646c85f",
+      "kind": "passage",
+      "name": "The Ascendant bought both available rounds’ visions. They did not choose NONE. The third token remained because only two",
+      "attributes": {
+        "text": "The Ascendant bought both available rounds’ visions. They did not choose NONE. The third token remained because only two purchases were allowed. In debrief they judged the second purchase less useful in practice and said declining would have been defensible; that was hindsight, not a decision observed in play.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2920,
+        "end_index": 3232,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:de50819173461836",
+      "kind": "passage",
+      "name": "With the same physical ending but one purchase declined, Ascendant weight would be 5 and the threshold would still be 8.",
+      "attributes": {
+        "text": "With the same physical ending but one purchase declined, Ascendant weight would be 5 and the threshold would still be 8. An Ascendant–Janissariat coalition would then be arithmetically possible. This is a counterfactual calculation, not an alternative simulated ballot or evidence that they would agree.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3232,
+        "end_index": 3536,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:aa304c1cf7925118",
+      "kind": "heading",
+      "name": "Evidence and limitations",
+      "attributes": {
+        "text": "Evidence and limitations",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3536,
+        "end_index": 3561,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:b631f4a4c19ea988",
+      "kind": "passage",
+      "name": "Independent checks reproduced both operational resolutions, provisional signatures and pledges, foresight payment and di",
+      "attributes": {
+        "text": "Independent checks reproduced both operational resolutions, provisional signatures and pledges, foresight payment and disclosure order, final weights and all five final votes. The report retains original contributions, side-by-side drafts/final faction sheets, council sheets, state changes and private answers actually delivered.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3561,
+        "end_index": 3892,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:c390bc59fdb70f6f",
+      "kind": "passage",
+      "name": "The strongest finding is a useful first purchase. The second is evidence of confirmation and coordination rather than a ",
+      "attributes": {
+        "text": "The strongest finding is a useful first purchase. The second is evidence of confirmation and coordination rather than a second major change. There is no evidence of deliberate saving, human pacing, all alternative constitutions, or assignment changes after disclosure. One run cannot establish balance or isolate all procedure changes from fresh choices.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3892,
+        "end_index": 4247,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:288ad74f704e0960",
+      "kind": "passage",
+      "name": "Playtrace stores a source snapshot, executable model audit, deterministic replay and hypothesis-linked evidence. The rep",
+      "attributes": {
+        "text": "Playtrace stores a source snapshot, executable model audit, deterministic replay and hypothesis-linked evidence. The replay is context for the hypothesis, not new evidence that foresight changes player psychology. The existing six-agent record is preserved intact; mechanical replay must not rewrite its statements.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 4247,
+        "end_index": 4563,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:2ad32e90e88313d9",
+      "kind": "heading",
+      "name": "Next tests",
+      "attributes": {
+        "text": "Next tests",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 4563,
+        "end_index": 4574,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:a032ff11ce8c468e",
+      "kind": "passage",
+      "name": "Run the paper prototype with people and record purchase decisions before answers. Compare initial and final constitution",
+      "attributes": {
+        "text": "Run the paper prototype with people and record purchase decisions before answers. Compare initial and final constitutional preferences. Test a council arrangement other than NG/Interim. Observe whether the first package’s agenda-setting advantage matters and whether passing over a dissenting army feels like a workable settlement.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 4574,
+        "end_index": 4906,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:e78b11f507830a41",
+      "kind": "passage",
+      "name": "The local browser lets one tester control every seat, try refusal, conflict, poor directives, averted visions and failed",
+      "attributes": {
+        "text": "The local browser lets one tester control every seat, try refusal, conflict, poor directives, averted visions and failed ballots, and export the complete record. It automatically applies consequences but does not substitute for multiplayer negotiation.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 4906,
+        "end_index": 5159,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:7f3c491cd7d60e6f",
+      "kind": "heading",
+      "name": "The Void Throne — Lore and Adaptation Record",
+      "attributes": {
+        "text": "The Void Throne — Lore and Adaptation Record",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1,
+        "end_index": 46,
+        "named_style": "TITLE"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:8f3c3cb898e38d22",
+      "kind": "heading",
+      "name": "How to use this record",
+      "attributes": {
+        "text": "How to use this record",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 46,
+        "end_index": 69,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:7a2277032201b659",
+      "kind": "passage",
+      "name": "This document records the established setting, explicit author corrections and the five-player adaptation separately. Hi",
+      "attributes": {
+        "text": "This document records the established setting, explicit author corrections and the five-player adaptation separately. Historical source files are preserved with their original paths and SHA-256 checksums in the repository’s lore/source-inventory.json. This document contains facilitator spoilers from the larger game.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 69,
+        "end_index": 387,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:ece6fc996179b73e",
+      "kind": "passage",
+      "name": "The current prototype borrows the setting and its institutional tensions. It does not silently turn every larger-game su",
+      "attributes": {
+        "text": "The current prototype borrows the setting and its institutional tensions. It does not silently turn every larger-game subsystem or secret character objective into a rule for the small game.",
+        "authored_status": "working",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 387,
+        "end_index": 587,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:a805da262d7ffced",
+      "kind": "heading",
+      "name": "Established setting: the Settled Dark",
+      "attributes": {
+        "text": "Established setting: the Settled Dark",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 587,
+        "end_index": 625,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:26b6f904c012d6b1",
+      "kind": "passage",
+      "name": "Roughly two hundred inhabited worlds, stations and habitats make up the Settled Dark. The six dynastic Houses of the Con",
+      "attributes": {
+        "text": "Roughly two hundred inhabited worlds, stations and habitats make up the Settled Dark. The six dynastic Houses of the Conclave of Thrones governed it for three millennia. The Ascendant broke their order over a conquest beginning sixty years ago; the last loyalist fleet broke at Pale Meridian eleven months before the original Charter Day. The source describes the Ascendant as ninety-six years old. Source: archive/legacy-lore/Setting.md.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 625,
+        "end_index": 1064,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:14d8d1dfc1b96898",
+      "kind": "passage",
+      "name": "The Charter negotiations take place at the Seam. The proposed empire is the Settled Dominion. The Charter is unfinished ",
+      "attributes": {
+        "text": "The Charter negotiations take place at the Seam. The proposed empire is the Settled Dominion. The Charter is unfinished and contested; the original wider game includes the Houses, Administratum, Ecclesiatum and other institutions. The phrase “sixtieth year of the Settled Peace” sits beside the recently completed conquest in the source; preserve that phrasing as a chronology question rather than inventing a correction.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1064,
+        "end_index": 1486,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:79e9bf731b671624",
+      "kind": "heading",
+      "name": "The Ductus Guild",
+      "attributes": {
+        "text": "The Ductus Guild",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1486,
+        "end_index": 1503,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:e7ec53023d0b41e3",
+      "kind": "passage",
+      "name": "Guild navigators make interstellar travel possible by sensing the immaterial deep. The Guild’s indispensability is its p",
+      "attributes": {
+        "text": "Guild navigators make interstellar travel possible by sensing the immaterial deep. The Guild’s indispensability is its political leverage. Navigation Rights Petition GUILD-14 has waited fourteen years for a response. Licensing, discretion and the unresolved scope of “associated services” matter; the Guild is not canonically a civilian-first charity. Source: Factions/Ductus Guild.md and Game/The Charter of Settlement.md.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1503,
+        "end_index": 1927,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:fff39e4df7979591",
+      "kind": "passage",
+      "name": "Facilitator-only larger-game lore: navigation is reception of a transmission, not merely innate talent. Its character ha",
+      "attributes": {
+        "text": "Facilitator-only larger-game lore: navigation is reception of a transmission, not merely innate talent. Its character has changed. Different Guild characters know different pieces of the change, unexplored routes and possible communications. This prototype omits that information puzzle and its individual secrets; it does not refute them.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 1927,
+        "end_index": 2267,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:2183a3e49e192cad",
+      "kind": "heading",
+      "name": "The Janissariat",
+      "attributes": {
+        "text": "The Janissariat",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2267,
+        "end_index": 2283,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:ce19ce954b8448b1",
+      "kind": "passage",
+      "name": "The Janissariat’s three billion psychically conditioned warriors made conquest possible. Conditioning is designed for wa",
+      "attributes": {
+        "text": "The Janissariat’s three billion psychically conditioned warriors made conquest possible. Conditioning is designed for war and frays in peacetime. The constitutional question is whether the army is a sacred autonomous order, an imperial instrument, or another institution subject to negotiated oversight. The original High Command has internal disagreements; this prototype replaces secret individual victory conditions with shared faction priorities. Source: Factions/Janissariat High Command.md.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2283,
+        "end_index": 2780,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:dfa4807bb0255759",
+      "kind": "passage",
+      "name": "Facilitator-only larger-game lore: conditioning derives from early Ductus research and suppresses a perceptual capabilit",
+      "attributes": {
+        "text": "Facilitator-only larger-game lore: conditioning derives from early Ductus research and suppresses a perceptual capability. Fraying can release that perception in people trained to treat it as a threat. It is not simply physical illness, moral decline or guaranteed peacefulness. Source: Lore/Fraying Conditioning Thread.md.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2780,
+        "end_index": 3104,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:271b7621fc8a26c2",
+      "kind": "passage",
+      "name": "Explicit author clarification in this design conversation: not fighting costs combat power, creating an incentive for ag",
+      "attributes": {
+        "text": "Explicit author clarification in this design conversation: not fighting costs combat power, creating an incentive for aggressive choices others may dislike. The Ascendant has their loyalty while they fight and needs a viable army while seeking a better future. In the prototype, qualifying combat sustains Readiness; peaceful rounds reduce it. This does not establish automatic treason after one quiet month.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3104,
+        "end_index": 3513,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:0eaf8be6962d5152",
+      "kind": "heading",
+      "name": "The Ascendant and the Throne Eternal",
+      "attributes": {
+        "text": "The Ascendant and the Throne Eternal",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3513,
+        "end_index": 3550,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:2844b5cae5f471db",
+      "kind": "passage",
+      "name": "The Ascendant wants an empire that deserves to exist and a settlement that avoids future succession wars. The source dep",
+      "attributes": {
+        "text": "The Ascendant wants an empire that deserves to exist and a settlement that avoids future succession wars. The source depicts Communion as a process of transformation and uncertainty about whether they can verify their own goodness. Older mechanics include Tarot, Clarity and conditional orders. Those are historical mechanics, not the present small-game rules. Source: The Ascendant.md.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3550,
+        "end_index": 3937,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:7c00b2a2613108be",
+      "kind": "passage",
+      "name": "The Throne Eternal is the Ecclesiatum’s name for something ancient and directional, not simply a conventional benevolent",
+      "attributes": {
+        "text": "The Throne Eternal is the Ecclesiatum’s name for something ancient and directional, not simply a conventional benevolent god. Facilitator-only records distinguish discovery from a managed religious interpretation; its destination is uncertain. Source: The Throne Eternal.md.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3937,
+        "end_index": 4212,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:e7fd336b26a63d73",
+      "kind": "passage",
+      "name": "Explicit author clarification: using foresight diminishes the Ascendant’s power; unspent foresight should contribute to ",
+      "attributes": {
+        "text": "Explicit author clarification: using foresight diminishes the Ascendant’s power; unspent foresight should contribute to settlement leverage. The Ascendant need not remain in control if they can trust the final government to govern without them. The three-token budget and weighted signature formula are prototype implementations of this instruction, not claims about a universal magical exchange rate.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 4212,
+        "end_index": 4614,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:8378d8c369f476f6",
+      "kind": "heading",
+      "name": "The Narrow and the prototype inventions",
+      "attributes": {
+        "text": "The Narrow and the prototype inventions",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 4614,
+        "end_index": 4654,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:6887802d5b2459c2",
+      "kind": "passage",
+      "name": "The Narrow is an established strategic corridor between dense stellar formations, with a waystation council that has gov",
+      "attributes": {
+        "text": "The Narrow is an established strategic corridor between dense stellar formations, with a waystation council that has governed for thirty generations. Vethis Secundus’s resistance is described as collective non-cooperation without a conventional military command structure. Do not reframe its civilians as the convenient enemy needed to maintain Janissariat power. Source: Systems/Vethis Cluster.md.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 4654,
+        "end_index": 5053,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:1e9d60888bffece5",
+      "kind": "passage",
+      "name": "Scenario adaptation: the local failing beacon/service, stranded Spear cohort, Vigil garrison, Wayfarer transport, Lanter",
+      "attributes": {
+        "text": "Scenario adaptation: the local failing beacon/service, stranded Spear cohort, Vigil garrison, Wayfarer transport, Lantern tender, Grey Petrel reserve and remnant raider target are named components of this prototype. Their exact availability, two-month timetable and conditional target appearances are authored scenario rules. They are not facts extracted from the original setting.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 5053,
+        "end_index": 5435,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:ac8cfb20c118d980",
+      "kind": "passage",
+      "name": "Beacon measures service infrastructure. Guild work prepares it; military protection addresses named physical attacks and",
+      "attributes": {
+        "text": "Beacon measures service infrastructure. Guild work prepares it; military protection addresses named physical attacks and exposed berths. Guard does not repair a psychic relationship with the void. Grey Petrel already has a contracted licensed pilot; the Ascendant never conjures a navigator.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 5435,
+        "end_index": 5727,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:07d96deaf366353c",
+      "kind": "passage",
+      "name": "The small game settles two outstanding instruments within a wider Charter. Nonplayed institutions are assumed to have ac",
+      "attributes": {
+        "text": "The small game settles two outstanding instruments within a wider Charter. Nonplayed institutions are assumed to have accepted all six permitted alternatives and to provide formalities including sanctification. This removes a surprise veto without rewriting their broader canonical importance. The weighted final vote is a design adaptation, not the original Charter’s full legitimacy mechanism.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 5727,
+        "end_index": 6123,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:46f501906d916430",
+      "kind": "heading",
+      "name": "Author corrections retained",
+      "attributes": {
+        "text": "Author corrections retained",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 6123,
+        "end_index": 6151,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:6005314f3231d90a",
+      "kind": "passage",
+      "name": "Factions decide together; no individual secret objectives are required. Every faction has independent choices that can c",
+      "attributes": {
+        "text": "Factions decide together; no individual secret objectives are required. Every faction has independent choices that can create risk and reward without another faction’s consent. Legal restrictions and physical capability are separate. Cooperation should involve actual compromise, not an automatic best outcome for everyone.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 6151,
+        "end_index": 6475,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:865a3229d429dda3",
+      "kind": "passage",
+      "name": "A lost commercial contract is an acute opportunity cost. A surviving ship returns after useful service. Do not remove ow",
+      "attributes": {
+        "text": "A lost commercial contract is an acute opportunity cost. A surviving ship returns after useful service. Do not remove ownership leverage merely because an asset was committed. Readiness contributes both Janissariat and Ascendant leverage; unspent foresight contributes only to the latter. Three foresight tokens, at most two purchases, implies a minimum one-token remainder.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 6475,
+        "end_index": 6850,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:64b5c502b8d73c0e",
+      "kind": "passage",
+      "name": "The first five-player plan used unanimous final ratification. Later author-approved experiments replaced that with weigh",
+      "attributes": {
+        "text": "The first five-player plan used unanimous final ratification. Later author-approved experiments replaced that with weighted party signatures; the current draft uses the latter. Trial articles still require the three relevant consents. This distinction must survive all future exports.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 6850,
+        "end_index": 7135,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:d166b907b015ed1f",
+      "kind": "heading",
+      "name": "Open questions and material outside this prototype",
+      "attributes": {
+        "text": "Open questions and material outside this prototype",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 7135,
+        "end_index": 7186,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:50c9a01c70060de7",
+      "kind": "passage",
+      "name": "Still to establish through play: whether cooperation’s concessions are sufficiently even; whether a party chooses NONE; ",
+      "attributes": {
+        "text": "Still to establish through play: whether cooperation’s concessions are sufficiently even; whether a party chooses NONE; whether weighted ratification over army dissent produces a credible government; whether the six-minute trial phase fits human play; whether Military autonomy or joint authority is attractive when actually tested.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 7186,
+        "end_index": 7519,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:b70af9d07edfe384",
+      "kind": "passage",
+      "name": "The larger conspiracy, Houses, Clarity transformation, succession forgery, five Pillars, strategic map, hidden transmiss",
+      "attributes": {
+        "text": "The larger conspiracy, Houses, Clarity transformation, succession forgery, five Pillars, strategic map, hidden transmissions and pre-human structures remain historical setting material outside this small scenario. They are preserved in the source archive, not introduced through surprise adjudication.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 7519,
+        "end_index": 7821,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:8f7f5a18023caa8f",
+      "kind": "passage",
+      "name": "The separate GameSpec attempt describes a 24–30-player game and treats its source directory as canonical within that pro",
+      "attributes": {
+        "text": "The separate GameSpec attempt describes a 24–30-player game and treats its source directory as canonical within that project. It is preserved under archive/legacy-gamespec as an older design line. This migration creates a separate Playtrace repository; it does not claim to validate or rewrite that GameSpec package.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 7821,
+        "end_index": 8138,
+        "named_style": "NORMAL_TEXT"
+      }
+    }
+  ],
+  "assertions": [
+    {
+      "id": "vt:source:project:paragraph:ae7495c29d5f1562:assertion",
+      "subject_id": "vt:source:project:paragraph:ae7495c29d5f1562",
+      "predicate": "states",
+      "value": "The current design is the five-player, two-round paper prototype with revised vision timing, three foresight tokens, voluntary Standing Commitments and weighted final settlement. The browser and Playtrace are development tools; neither is required to play the paper game.",
+      "authored_status": "working",
+      "provenance": {
+        "source_revision_id": "vt:source:project@AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+        "location": "doc:vt:source:project:tab:t.0:range:327-609",
+        "extractor": "google-workspace-tabletop-v1",
+        "extracted_at": "2026-10-13T23:02:58.981580Z"
+      }
+    },
+    {
+      "id": "vt:source:rulebook:paragraph:54ea5f9bd6cfbfdb:assertion",
+      "subject_id": "vt:source:rulebook:paragraph:54ea5f9bd6cfbfdb",
+      "predicate": "states",
+      "value": "This is the five-player paper prototype: two Guild players, two Janissariat players and one Ascendant, with a separate facilitator. Allow 60 minutes. Two operational rounds represent successive months before the Ceremony. You need cards, slips, three track counters, three foresight tokens and one reserve token. No computer is needed.",
+      "authored_status": "working",
+      "provenance": {
+        "source_revision_id": "vt:source:rulebook@AHj4eMT02OyJM0aGKvf6o41qcKdXIFijcgpv-J4UaXnJwB6EdO1Ky8lRDusd8T_IQquFf3TOEZAXmajYa2FWw5MVtXpb3OTF558EG12otnw",
+        "location": "doc:vt:source:rulebook:tab:t.0:range:367-713",
+        "extractor": "google-workspace-tabletop-v1",
+        "extracted_at": "2026-10-13T23:02:58.988923Z"
+      }
+    },
+    {
+      "id": "vt:source:facilitator:paragraph:af56096c915e99c5:assertion",
+      "subject_id": "vt:source:facilitator:paragraph:af56096c915e99c5",
+      "predicate": "states",
+      "value": "This guide implements the revised visions, Trial A Standing Commitments and weighted final settlement. The computer model is an implementation to check, not permission to overrule the paper rules. The browser is an all-seat facilitator test bench; the preserved LLM run is separate evidence.",
+      "authored_status": "working",
+      "provenance": {
+        "source_revision_id": "vt:source:facilitator@AHj4eMRaDB-WZPAw4y6Q0Y_aQi9wKfrmcsfGpjR4G8uYoJDbX2nJEbLKRWg4gyZYPM5wglRZltsLtdBt7HU5BSaF80IKaSxRYehHb8afkrk",
+        "location": "doc:vt:source:facilitator:tab:t.0:range:332-634",
+        "extractor": "google-workspace-tabletop-v1",
+        "extracted_at": "2026-10-13T23:02:59.001495Z"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:b09078a6f76222bc:assertion",
+      "subject_id": "vt:source:playtest:paragraph:b09078a6f76222bc",
+      "predicate": "states",
+      "value": "The hypothesis was that public intentions and clearly scoped vision covers would let the Ascendant buy information relevant to live choices while retaining a meaningful option to preserve power. One fresh six-agent run used five player roles and an independent facilitator, with the same personalities as the preceding weighted-settlement test.",
+      "authored_status": "working",
+      "provenance": {
+        "source_revision_id": "vt:source:playtest@AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+        "location": "doc:vt:source:playtest:tab:t.0:range:81-436",
+        "extractor": "google-workspace-tabletop-v1",
+        "extracted_at": "2026-10-13T23:02:59.008496Z"
+      }
+    },
+    {
+      "id": "vt:source:lore:paragraph:ece6fc996179b73e:assertion",
+      "subject_id": "vt:source:lore:paragraph:ece6fc996179b73e",
+      "predicate": "states",
+      "value": "The current prototype borrows the setting and its institutional tensions. It does not silently turn every larger-game subsystem or secret character objective into a rule for the small game.",
+      "authored_status": "working",
+      "provenance": {
+        "source_revision_id": "vt:source:lore@AHj4eMTwn2CM-i7NACkmrw77FZLASRhIv-1t1x3d_nngFeg2xp5V78Yvr1ClKeoyoi4vdBY-ndmhIKt0ePZbQZjhkBhqQQdgQo-6vm6NvAI",
+        "location": "doc:vt:source:lore:tab:t.0:range:387-587",
+        "extractor": "google-workspace-tabletop-v1",
+        "extracted_at": "2026-10-13T23:02:59.012596Z"
+      }
+    }
+  ],
+  "dependencies": [],
+  "capabilities": [
+    "native_google_docs",
+    "semantic_events",
+    "deterministic_simulation",
+    "stable_ids"
+  ],
+  "omissions": [
+    "Only explicitly status-marked Doc passages become assertions.",
+    "Unmarked prose remains traceable as entities but is not compiled as mechanics.",
+    "Drive data is a verified capture, not a live refresh.",
+    "Scripted replay does not generate negotiations or model subjective trust.",
+    "Cards and votes execute game-owned Python extensions, not compiled prose.",
+    "Shared legacy numeric metrics are zero where not applicable; inspect plugin state and events."
+  ],
+  "created_at": "2026-10-13T23:02:59.012596Z"
+}

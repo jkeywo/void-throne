@@ -1,0 +1,11 @@
+{
+  "run": 1,
+  "id": "r1_disclosure_A",
+  "role": "A",
+  "phase": "r1-faction",
+  "stage": "disclosure",
+  "channel": "Open",
+  "messages": [{"to": "ALL", "text": "My purchased Security vision says a completed private Trade brings the Raid target. At our readiness, Raid then costs two Communities and raises Readiness; without completed Trade it costs one Community and supplies no combat. At readiness below two, encountering the target disables Spear. No Raid means none of those Raid effects. Assignment alone is insufficient; monthly consumption and breaches are additional. I propose Trade, Maintain, Council Spear and Council Vigil, with Relief supplied by Grey Petrel, council Raid and Warrant. Public accounting gives Beacon one, Communities three and Readiness four. This spends my reserve and route margin to preserve civilian stores while allowing your trade and military conditioning. Please maintain the beacon next month."}],
+  "proposal": {"navigation_order": "Relief", "security_order": "Raid", "warrant": true, "reserve_intention": "Relief lift", "nonbinding": true},
+  "reason": "Disclose accurately. The purchased answer makes this cooperation feasible, but it consumes the reserve and leaves next month's route maintenance essential."
+}

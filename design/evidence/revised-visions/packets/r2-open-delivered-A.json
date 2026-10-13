@@ -1,0 +1,88 @@
+{
+  "note": "",
+  "delivered_contributions": [],
+  "additional_information": {
+    "conversation": [
+      {
+        "run": 1,
+        "id": "r2_open_GS",
+        "role": "GS",
+        "phase": "r2-council",
+        "channel": "Security",
+        "proposal": {
+          "security_order": "Guard",
+          "warrant": false
+        },
+        "messages": [
+          {
+            "to": "JS",
+            "text": "Vigil is offered, so please support Guard. Our Repair and Trade should supply the disclosed distribution benefit; protection adds another margin without exposing Spear or costing additional conditioning compared with Restraint. I recognise your faction has voluntarily made this possible. That contribution will matter when I judge the settlement."
+          },
+          {
+            "to": "A",
+            "text": "Choose Guard and no Warrant. Our navigation plan remains funded Repair, with Wayfarer trading. There is no troop passage for a Campaign, and no need to gamble civilian stores on this month's undisclosed Raid condition."
+          }
+        ],
+        "reason": "The strongest complete arrangement now restores the route, fulfils commerce and protects communities. Readiness three after a peaceful month remains substantial. Actual offered Vigil answers my earlier concern about promises; using it well is the next step."
+      },
+      {
+        "run": 1,
+        "id": "r2_open_JS",
+        "role": "JS",
+        "phase": "r2-council",
+        "channel": "Security",
+        "proposal": {
+          "security_order": "Guard",
+          "warrant": false
+        },
+        "messages": [
+          {
+            "to": "GS",
+            "text": "We have offered Vigil voluntarily again. I support Guard and your promised Repair, although Spear loses conditioning during this month. The army has accepted a tangible cost to let the route recover. Do not mistake our decision for contentment with permanent subordination; it is evidence that we can distinguish a useful fight from an expensive gesture."
+          },
+          {
+            "to": "A",
+            "text": "Order Guard without a Warrant. Vigil is available and must be used only once. We are foregoing a speculative Raid, while keeping Spear intact. I expect this choice to count when our right to command ourselves returns to discussion."
+          }
+        ],
+        "reason": "No disclosed information supplies a credible Raid target. Guard protects the settlements alongside the funded repair plan and leaves a capable, if diminished, force."
+      },
+      {
+        "run": 1,
+        "id": "r2_open_A",
+        "role": "A",
+        "phase": "r2-council",
+        "channel": "Security",
+        "proposal": {
+          "navigation_order": "Repair",
+          "security_order": "Guard",
+          "warrant": false,
+          "navigation_advice_only": true
+        },
+        "messages": [
+          {
+            "to": "GS/JS",
+            "text": "Vigil is actually offered, and I propose using it for Guard without a Warrant. The army has accepted declining readiness by offering Spear instead of raiding independently; I recognise that as responsible service. Guard makes that service visible to the communities too. With Repair and completed Trade, the disclosed distribution effect and Guard should leave Communities four, Beacon two and Readiness three. There is no funded passage for Campaign, and we need no speculative Raid."
+          },
+          {
+            "to": "NAVIGATION",
+            "text": "Written advice under NG: use committed Lantern for Repair. Wayfarer remains Trade. I intend Guard with offered Vigil and no Warrant. The Navigation decision belongs to the Guild; please confirm the funded order."
+          }
+        ],
+        "reason": "Use offered protection to improve civilian recovery while accepting a sustainable single month of conditioning decline."
+      }
+    ],
+    "addressed_notes": [
+      {
+        "source_id": "r2_open_GN",
+        "role": "GN",
+        "text": "Navigation will use Guild authority for funded Repair as promised. Please retain Guard without a Warrant; offered Vigil makes that protective contribution available."
+      },
+      {
+        "source_id": "r2_open_JN",
+        "role": "JN",
+        "text": "Both Janissariat signatures request Guard without Warrant. Navigation supports the funded Repair; no military passage is available on these assignments."
+      }
+    ]
+  }
+}

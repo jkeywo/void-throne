@@ -1,0 +1,195 @@
+{
+  "hypothesis": {
+    "id": "vt:hypothesis:relevant-foresight",
+    "statement": "Showing intentions before a scoped vision purchase makes foresight relevant while preserving a meaningful decision to conserve power.",
+    "scope": [
+      "vt:scenario:narrow"
+    ],
+    "test_method": "Inspect contemporaneous drafts, purchases, authored reasons and final choices in a scoped five-player plus facilitator run; reproduce consequences separately.",
+    "supporting_outcomes": [
+      "A selected answer addresses a live uncertainty and is cited in changed orders or bargaining.",
+      "An available purchase is deliberately declined to preserve leverage."
+    ],
+    "contradicting_outcomes": [
+      "Selected answers repeatedly miss considered decisions.",
+      "Players cannot distinguish confirmation from changed action."
+    ],
+    "basis_ids": [],
+    "evidence_requirements": [
+      "Original player decisions before and after disclosure.",
+      "Complete expenditure ledger including NONE.",
+      "Independent consequence and vote checks."
+    ],
+    "status": "proposed"
+  },
+  "evidence": {
+    "id": "evidence:vt:run:426309a0ce0dc0c558b3e8a9",
+    "project_id": "void-throne",
+    "snapshot_id": "void-throne:snapshot:ab7142bb13bd58b6aa18:model:5d5233f060a2:repo:uncommitted-",
+    "kind": "simulation_run",
+    "summary": "Simulation vt:run:426309a0ce0dc0c558b3e8a9 using ruleset vt:rules:revised-visions-v0.3 completed with status max_turns after 2 turn(s).",
+    "observations": [
+      "status=max_turns",
+      "turns=2",
+      "blockers=0"
+    ],
+    "scope": [
+      "vt:scenario:narrow",
+      "GN",
+      "GS",
+      "JN",
+      "JS",
+      "A"
+    ],
+    "assumptions": [
+      "Five roles are supplied by an immutable historical script; no new LLM inference.",
+      "The two-round prototype is a limited adaptation of the larger setting.",
+      "ruleset: vt:rules:revised-visions-v0.3"
+    ],
+    "provenance": {
+      "artifact_digest": "0efce17bd527e04f98dd539c77cec43e5bab1cdc1234642d9dbdeea2cf319bdf",
+      "artifact_path": "design/evidence/playtrace-replay.json",
+      "source_result_ids": [
+        "vt:run:426309a0ce0dc0c558b3e8a9"
+      ],
+      "source_artifact_digests": {
+        "vt:run:426309a0ce0dc0c558b3e8a9": "0efce17bd527e04f98dd539c77cec43e5bab1cdc1234642d9dbdeea2cf319bdf"
+      },
+      "snapshot_ids": [
+        "void-throne:snapshot:ab7142bb13bd58b6aa18:model:5d5233f060a2:repo:uncommitted-"
+      ],
+      "snapshot_digests": [
+        "e1d698da62d4290952f7ece145196f2e38aafa4a5b2a656a1ccb9e3b1580b9bb"
+      ],
+      "config_digests": [
+        "a5a49b06710c7965fc342a30ff46cafa95f5c443526a0b44e5668eef8aa60ec6"
+      ],
+      "plugin_versions": [
+        "void-throne@0.3.0"
+      ],
+      "runners": [
+        "in_process"
+      ],
+      "ruleset_ids": [
+        "vt:rules:revised-visions-v0.3"
+      ],
+      "recorded_at": "2026-10-13T23:02:59.207492Z"
+    },
+    "dependencies": [
+      {
+        "dependency_id": "snapshot:void-throne",
+        "revision": "void-throne:snapshot:ab7142bb13bd58b6aa18:model:5d5233f060a2:repo:uncommitted-",
+        "digest": "e1d698da62d4290952f7ece145196f2e38aafa4a5b2a656a1ccb9e3b1580b9bb",
+        "role": "design_snapshot",
+        "required": true
+      },
+      {
+        "dependency_id": "source:vt:source:project",
+        "revision": "AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+        "digest": "e9e0fe9eced86e02541a674f9e0bd1d54f95961039d4c8ca788aa0134eb981c5",
+        "role": "source_revision",
+        "required": true
+      },
+      {
+        "dependency_id": "source:vt:source:rulebook",
+        "revision": "AHj4eMT02OyJM0aGKvf6o41qcKdXIFijcgpv-J4UaXnJwB6EdO1Ky8lRDusd8T_IQquFf3TOEZAXmajYa2FWw5MVtXpb3OTF558EG12otnw",
+        "digest": "5aeaaf3193844c0ac35f2c999fbdc98cbc6b369425770f3bc57fba75759faffc",
+        "role": "source_revision",
+        "required": true
+      },
+      {
+        "dependency_id": "source:vt:source:facilitator",
+        "revision": "AHj4eMRaDB-WZPAw4y6Q0Y_aQi9wKfrmcsfGpjR4G8uYoJDbX2nJEbLKRWg4gyZYPM5wglRZltsLtdBt7HU5BSaF80IKaSxRYehHb8afkrk",
+        "digest": "b64b31f62267a35e378720007b64761111d9ec04b51b4717182a5e172f480611",
+        "role": "source_revision",
+        "required": true
+      },
+      {
+        "dependency_id": "source:vt:source:playtest",
+        "revision": "AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+        "digest": "a420a8a0e9878d59eb2b40fa9fa5d26ccf4e96cdf9e544dd765bf7a7fa49fa50",
+        "role": "source_revision",
+        "required": true
+      },
+      {
+        "dependency_id": "source:vt:source:lore",
+        "revision": "AHj4eMTwn2CM-i7NACkmrw77FZLASRhIv-1t1x3d_nngFeg2xp5V78Yvr1ClKeoyoi4vdBY-ndmhIKt0ePZbQZjhkBhqQQdgQo-6vm6NvAI",
+        "digest": "cf2eb75ebc262fbde944515dbc90d9d77081ec0d18442202572943dee46b519e",
+        "role": "source_revision",
+        "required": true
+      },
+      {
+        "dependency_id": "source:vt:engine",
+        "revision": "5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
+        "digest": "5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
+        "role": "source_revision",
+        "required": true
+      },
+      {
+        "dependency_id": "source:vt:repository",
+        "revision": "uncommitted-initial-migration",
+        "digest": "5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
+        "role": "source_revision",
+        "required": true
+      },
+      {
+        "dependency_id": "source:vt:playtrace",
+        "revision": "7167e4e43fc231b7863865d0a2655586ddae57fd",
+        "digest": "910f36ed3c0764e55621c2c7e39e294f3e71e2d48d360126fca667cbbecfac2f",
+        "role": "source_revision",
+        "required": true
+      },
+      {
+        "dependency_id": "plugin:void-throne",
+        "revision": "0.3.0",
+        "digest": null,
+        "role": "simulation_plugin",
+        "required": false
+      },
+      {
+        "dependency_id": "config:vt:experiment:revised-visions-replay",
+        "revision": "vt:experiment:revised-visions-replay",
+        "digest": "a5a49b06710c7965fc342a30ff46cafa95f5c443526a0b44e5668eef8aa60ec6",
+        "role": "simulation_config",
+        "required": false
+      }
+    ],
+    "hypothesis_link": {
+      "hypothesis_id": "vt:hypothesis:relevant-foresight",
+      "evidence_id": "evidence:vt:run:426309a0ce0dc0c558b3e8a9",
+      "relation": "context",
+      "rationale": "Exact replay verifies consequences of preserved six-agent choices; it is not a fresh test of behavioural causation or deliberate saving.",
+      "assumptions": [
+        "Five roles are supplied by an immutable historical script; no new LLM inference.",
+        "The two-round prototype is a limited adaptation of the larger setting."
+      ]
+    },
+    "applicability": "current",
+    "applicability_reasons": []
+  },
+  "claim": {
+    "id": "evidence:vt:run:426309a0ce0dc0c558b3e8a9:claim",
+    "statement": "Simulation vt:run:426309a0ce0dc0c558b3e8a9 using ruleset vt:rules:revised-visions-v0.3 completed with status max_turns after 2 turn(s).",
+    "scope": [
+      "vt:scenario:narrow",
+      "GN",
+      "GS",
+      "JN",
+      "JS",
+      "A"
+    ],
+    "evidence": [
+      {
+        "evidence_id": "evidence:vt:run:426309a0ce0dc0c558b3e8a9",
+        "relation": "context",
+        "rationale": "Exact replay verifies consequences of preserved six-agent choices; it is not a fresh test of behavioural causation or deliberate saving.",
+        "assumptions": [
+          "Five roles are supplied by an immutable historical script; no new LLM inference.",
+          "The two-round prototype is a limited adaptation of the larger setting.",
+          "ruleset: vt:rules:revised-visions-v0.3"
+        ]
+      }
+    ],
+    "applicability": "current"
+  }
+}

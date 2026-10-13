@@ -1,0 +1,11 @@
+{
+  "run": 1,
+  "id": "00_A",
+  "role": "A",
+  "phase": "briefing",
+  "channel": "Open",
+  "preferences": {"navigation": "NG", "military": "MJ"},
+  "messages": [{"to": "All", "text": "My starting preference is Guild navigation and joint military authority. Those institutions should become capable of governing without my repeated intervention. I need evidence that route maintenance will actually happen and that both military delegates can agree a useful operation before their deadline. Protecting communities, sustaining the beacon and preserving a viable army matter together. I will consider other articles if the proposed service arrangements work better. I will not grant autonomy merely because its title sounds generous, or retain command merely because I can."}],
+  "goals": ["Ratified settlement with Beacon at least 1, Communities at least 2 and Readiness at least 2", "Prefer Readiness at least 3 and intact Spear", "Delegate on demonstrated service and workable decisions"],
+  "reason": "Permanent institutions need tested responsibilities, and the civilians bearing our military costs deserve an explicit place in the bargain."
+}

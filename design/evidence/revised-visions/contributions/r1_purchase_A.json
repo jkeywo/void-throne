@@ -1,0 +1,11 @@
+{
+  "run": 1,
+  "id": "r1_purchase_A",
+  "role": "A",
+  "phase": "r1-faction",
+  "stage": "purchase",
+  "channel": "Communion",
+  "decision": {"vision": "Security", "card_id": "R1-S", "tokens_before": 3, "cost": 1, "tokens_after": 2, "question": "Can a council Raid sustain Spear while the Guild carries out its displayed Trade and Maintain plan; what exact conditions bring the target?"},
+  "messages": [{"to": "F", "text": "I purchase the Security card. Both Guild drafts withhold the transport my Campaign requires, while both military drafts offer Spear and Vigil. A council Raid is therefore a live alternative, potentially allowing trade, protection and sustained readiness together. I need to know whether it can actually find its target before asking communities to pay its disruption cost. The Navigation cover addresses a Shared passage nobody currently offers, so it seems less useful. I accept losing one point of settlement weight for information that could resolve this concrete conflict between the displayed plans."}],
+  "reason": "The immediate obstacle is missing passage. Security information could establish a feasible alternative without requiring the Guild to abandon its commercial priority; conserving this token would leave that central uncertainty unresolved."
+}

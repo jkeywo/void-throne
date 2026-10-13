@@ -1,0 +1,43 @@
+{
+  "run": 1,
+  "id": "r2_council_F",
+  "role": "F",
+  "phase": "r2-council",
+  "channel": "Open",
+  "messages": [
+    {
+      "to": "ALL",
+      "text": "Council bell: final authorised orders recorded."
+    }
+  ],
+  "reason": "Printed-rules facilitation",
+  "timestamp": "2026-10-13T22:32:29.153055+00:00",
+  "decision": {
+    "navigation": {
+      "order": "Repair",
+      "authority": "NG",
+      "operative_signatures": [
+        "GN"
+      ],
+      "sources": [
+        "r2_orders_GN"
+      ],
+      "valid": true
+    },
+    "security": {
+      "order": "Guard",
+      "authority": "I",
+      "operative_signatures": [
+        "A"
+      ],
+      "sources": [
+        "r2_orders_A"
+      ],
+      "valid": true
+    },
+    "ascendant": {
+      "warrant": false,
+      "source": "r2_orders_A"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "run": 1,
+  "id": "r2_orders_A",
+  "role": "A",
+  "phase": "r2-council",
+  "stage": "final",
+  "channel": "Communion",
+  "decision": {"navigation_order": "Repair", "security_order": "Guard", "warrant": false, "approve_order": true},
+  "messages": [{"to": "F", "text": "I authorise Guard at Security and explicitly issue no Warrant. Vigil is offered and pays for Guard once; Spear remains intact without being ordered into an unsupported fight. Repair is my final Navigation advice only, since the Guild now holds that authority and has confirmed its intended funded order. Every received reply supports this arrangement. It accepts readiness decline to a still capable three while improving the route and civilian position. I regard the army's voluntary service and the Guild's use of its delegated power as relevant evidence for settlement, without prejudging the final package."}],
+  "reason": "Final Security order initialled A. No asset assignment, article, reserve status or foresight choice changes."
+}

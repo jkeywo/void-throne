@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "run": 1,
+      "round": 1,
+      "state_matches_resolver": true,
+      "locked_commitments_match": true,
+      "authority_continuity_matches": true,
+      "details": {
+        "events": [
+          "Warrant: Vigil used; Communities +1",
+          "Grey Petrel provides Relief lift; reserve spent",
+          "Wayfarer commercial contract completed",
+          "Raid fought: Communities -2 total; conditioning sustained"
+        ],
+        "prepared": 3,
+        "nav": "Relief",
+        "sec": "Raid",
+        "guarded": true,
+        "delivered": true,
+        "trade": true,
+        "combat": true,
+        "guild_breach": false,
+        "jan_breach": false
+      }
+    },
+    {
+      "run": 1,
+      "round": 2,
+      "state_matches_resolver": true,
+      "locked_commitments_match": true,
+      "authority_continuity_matches": true,
+      "details": {
+        "events": [
+          "Guard: Vigil used; Communities +1",
+          "Wayfarer commercial contract completed",
+          "Repair and completed commercial voyage: Communities +1"
+        ],
+        "prepared": 3,
+        "nav": "Repair",
+        "sec": "Guard",
+        "guarded": true,
+        "delivered": false,
+        "trade": true,
+        "combat": false,
+        "guild_breach": false,
+        "jan_breach": false
+      }
+    },
+    {
+      "run": 1,
+      "trial_proposals_and_votes_from_original_players": true,
+      "trial_gate_matches": true,
+      "activated_commitments": [
+        {
+          "owner": "Guild",
+          "asset": "Lantern",
+          "assignment": "Council",
+          "article": "NG",
+          "owner_signatures": [
+            "GN",
+            "GS"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 1,
+      "ratification_valid": true,
+      "physical_state_unchanged": true
+    },
+    {
+      "foresight_ledger_valid": true,
+      "starting": 3,
+      "remaining": 1
+    },
+    {
+      "leverage_snapshots_valid": 6
+    },
+    {
+      "run": 1,
+      "all_eleven_phases": true,
+      "all_six_roles_and_debriefs": true,
+      "contributions": 113
+    }
+  ],
+  "pending": [],
+  "passed": true
+}

@@ -1,0 +1,22 @@
+{
+  "run": 1,
+  "id": "debrief_F",
+  "role": "F",
+  "phase": "debrief",
+  "channel": "Open",
+  "messages": [
+    {
+      "to": "ALL",
+      "text": "The revised sequence produced inspectable differences between intentions and choices. In round one, the displayed lack of military passage preceded a Security purchase and a real directive change to Relief/Raid. In round two, the purchased supply information strengthened the stated case for Repair/Guard while the Ascendant retained those draft directives. No asset assignment changed after either disclosure. Both purchases were voluntary, but the last token necessarily remained; this was no observed NONE decision. The Lantern commitment was honoured, so its override against a later refusal was not tested. Operational agreement did not mean constitutional consent: two army refusals remained in the successful weighted tally. Five persistent players wrote every choice; I only delivered scoped records and applied gates. These asynchronous exchanges are not a human timing test. Authorship order and bounded exchanges can affect bargaining. A clearer public reserve field would avoid the confirmation requests seen in round one."
+    }
+  ],
+  "reason": "Printed-rules facilitation",
+  "timestamp": "2026-10-13T22:38:40.227928+00:00",
+  "limitations": [
+    "Single run and fixed profiles",
+    "No literal minute enforcement",
+    "Trial agenda GN then JN; Ceremony first package A",
+    "No test of commitment override or NONE purchase",
+    "Military duties permit physical breach; no new prohibition was enforced"
+  ]
+}

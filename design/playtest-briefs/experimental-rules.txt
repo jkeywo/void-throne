@@ -1,0 +1,29 @@
+The Void Throne — Foresight revision, 13 October 2026
+This amendment replaces the timing and selection of visions in the weighted-settlement experiment. Keep THREE starting foresight tokens, one optional purchase per round, all existing asset costs and hidden consequences, provisional commitments, and weighted settlement rules.
+
+SHOW INTENTIONS BEFORE BUYING FORESIGHT
+Each five-minute faction phase now has three steps. The councils still have seven minutes and free discussion still has six.
+0:00–2:00: Discuss within factions. By 2:00, each faction displays draft assignments for its named assets and up to two requested council orders. Mark existing Standing Commitments LOCKED. If teammates disagree, show both proposals. A missing draft is marked UNDECLARED, never treated as agreement or a commitment. The Ascendant displays its intended directives and Warrant, or UNDECIDED. No signatures are required on drafts.
+2:00–3:00: Read the public drafts and the covers of this round's two vision cards. The covers name the decisions the vision addresses, without revealing the answer. The Ascendant chooses one card or NONE by 3:00. Pay one token before opening the selected card. A missing, multiple or late choice means NONE and costs nothing. Other players may discuss the displayed plans while the Ascendant reads.
+3:00–5:00: The Ascendant may show, describe or withhold the purchased vision. Factions may revise uncommitted assignments before signing their normal order sheets. At 5:00, final faction assignments and the reserve intervention lock under their existing rules. Existing Standing Commitments cannot be revoked. Council orders and Warrant lock at the later council bell.
+
+READ A VISION
+Cost: ONE foresight token. Start with THREE; no refunds or replenishment.
+Target: either of this round's two named cards. You may investigate an alternative or suspected change of plan even if nobody has proposed it. Nobody must buy a vision.
+Effect: read the complete fixed conditional answer on that card. Read all its branches. You may compare your displayed plan and an alternative using the card and public rules. The facilitator explains wording, but gives no extra hidden information or whole-plan forecast.
+Limit: at most one card each round. No second purchase, replacement card or refund if the information disappoints or plans change. No purchases during councils or the Ceremony. A missed window cannot be banked as another purchase later.
+Public record: publish tokens spent and tokens remaining. Card choice and contents remain private unless the Ascendant discloses them. Grey Petrel remains a separate reserve.
+NONE preserves one point of the Ascendant's eventual signature weight compared with buying a card, if the physical outcome is the same. It is a valid decision when the available visions do not address a live uncertainty, or when you prefer to retain power and accept the risk.
+
+WHAT A VISION PROMISES
+It shows what follows IF its printed conditions are met. It does not reveal what another player will choose, make a proposed order binding, or grant authority over either council. The hidden consequences occur whether or not anyone buys the card.
+The cover's scope is complete for THAT card. It is not a certificate that the whole plan is safe: the other card, ordinary costs, duties, unavailable assets and changed orders can still matter. The facilitator does not confirm a hidden condition for free.
+Use final assignments and authorised orders when resolving, not the public drafts. Ordinary defaults still apply at the real deadlines. Display final sheets beside the drafts so everyone can see changes. Unpledged assets can be reassigned until the faction bell; unilateral action remains available on its printed terms.
+
+ASCENDANT WORKSHEET — USE ONCE EACH ROUND
+At 2:00: draft Navigation directive ____; draft Security directive ____; draft Warrant YES / NO / UNDECIDED. These are proposals only.
+By 3:00: selected card ID ____ / NONE; tokens before ____; cost 0 / 1; tokens after ____.
+Question I want the printed card to answer: ____.
+At 5:00: reserve KEEP / RELIEF LIFT / TENDER COVER / ALREADY SPENT. Initials ____.
+At council bell: final directives and Warrant on the normal sheets; existing authority and asset checks apply.
+Final settlement: Ascendant weight remains Readiness + unspent foresight. With two rounds and three starting tokens, at least one token must remain; that alone is not evidence of choosing to conserve power.

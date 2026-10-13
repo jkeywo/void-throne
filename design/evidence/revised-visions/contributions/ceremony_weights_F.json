@@ -1,0 +1,37 @@
+{
+  "run": 1,
+  "id": "ceremony_weights_F",
+  "role": "F",
+  "phase": "ceremony",
+  "channel": "Open",
+  "messages": [
+    {
+      "to": "ALL",
+      "text": "Final electorate frozen: Guild 4, Janissariat 3, Ascendant 4 (Readiness3 + foresight1), total11, threshold8. Both owners must approve for a faction signature; at least two positive-weight parties. Refusals retain denominator weight. No further operations or purchases."
+    }
+  ],
+  "reason": "Printed-rules facilitation",
+  "timestamp": "2026-10-13T22:32:52.587333+00:00",
+  "decision": {
+    "id": "ceremony-frozen",
+    "phase": "ceremony",
+    "state": {
+      "beacon": 2,
+      "communities": 4,
+      "readiness": 3,
+      "wayfarer": true,
+      "lantern": true,
+      "spear": true,
+      "contracts": 2,
+      "reserve": false
+    },
+    "weights": {
+      "Guild": 4,
+      "Janissariat": 3,
+      "Ascendant": 4
+    },
+    "foresight_remaining": 1,
+    "total": 11,
+    "threshold": 8
+  }
+}

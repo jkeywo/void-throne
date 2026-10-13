@@ -1,0 +1,28 @@
+{
+  "navigation": {
+    "order": "Relief",
+    "authority": "I",
+    "operative_signatures": [
+      "A"
+    ],
+    "sources": [
+      "r1_orders_A"
+    ],
+    "valid": true
+  },
+  "security": {
+    "order": "Raid",
+    "authority": "I",
+    "operative_signatures": [
+      "A"
+    ],
+    "sources": [
+      "r1_orders_A"
+    ],
+    "valid": true
+  },
+  "ascendant": {
+    "warrant": true,
+    "source": "r1_orders_A"
+  }
+}

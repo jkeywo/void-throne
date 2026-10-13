@@ -1,0 +1,34 @@
+{
+  "physical": {
+    "beacon": 2,
+    "communities": 4,
+    "readiness": 3,
+    "wayfarer": true,
+    "lantern": true,
+    "spear": true,
+    "contracts": 2,
+    "reserve": false
+  },
+  "foresight": 1,
+  "settlement": {
+    "weights": {
+      "Guild": 4,
+      "Janissariat": 3,
+      "Ascendant": 4
+    },
+    "supporting_leverage": 8,
+    "threshold": 8,
+    "ratified": true,
+    "approvals": {
+      "GN": true,
+      "GS": true,
+      "JN": false,
+      "JS": false,
+      "A": true
+    },
+    "package": {
+      "navigation": "NG",
+      "military": "MJ"
+    }
+  }
+}

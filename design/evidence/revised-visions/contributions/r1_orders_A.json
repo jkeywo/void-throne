@@ -1,0 +1,11 @@
+{
+  "run": 1,
+  "id": "r1_orders_A",
+  "role": "A",
+  "phase": "r1-council",
+  "stage": "final",
+  "channel": "Communion",
+  "decision": {"navigation_order": "Relief", "security_order": "Raid", "warrant": true, "approve_order": true},
+  "messages": [{"to": "F", "text": "I authorise Relief at Navigation, Raid at Security and the separate imperial Warrant. Grey Petrel supplies Relief under its locked intervention; offered Spear funds Raid and offered Vigil serves the Warrant once. All delegates have had the actual arrangement and confirmed their support. The purchased condition, together with maintained trade, gives the Raid a credible target. I accept the reserve expenditure and the civilian cost of fighting because this complete arrangement preserves stores and military viability. The coming constitutional discussion must address repair and independent institutional service, since this emergency combination cannot simply be repeated."}],
+  "reason": "Final authoritative council decisions, initialled A. No asset or reserve assignment is changed."
+}

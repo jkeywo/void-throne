@@ -1,0 +1,187 @@
+{
+  "phase": "r1-free",
+  "proposal": {
+    "id": "T2",
+    "articles": {
+      "navigation": "NG",
+      "military": "MA"
+    },
+    "operational_plan": {
+      "navigation_order": "Repair",
+      "security_order": "Restraint",
+      "warrant": false
+    },
+    "commitments": [
+      {
+        "owner": "Guild",
+        "asset": "Lantern",
+        "assignment": "Council",
+        "article": "NG"
+      },
+      {
+        "owner": "Janissariat",
+        "asset": "Vigil",
+        "assignment": "Home",
+        "article": "MA"
+      }
+    ]
+  },
+  "source_id": "trial_candidate2_JN",
+  "candidate_rows": [
+    {
+      "source_id": "trial_candidate1_GN",
+      "proposal": {
+        "id": "T1",
+        "articles": {
+          "navigation": "NG",
+          "military": "MJ"
+        },
+        "operational_plan": {
+          "navigation_order": "Repair",
+          "security_order": "Guard",
+          "warrant": false
+        },
+        "commitments": [
+          {
+            "owner": "Guild",
+            "asset": "Lantern",
+            "assignment": "Council",
+            "article": "NG"
+          },
+          {
+            "owner": "Janissariat",
+            "asset": "Spear",
+            "assignment": "Council",
+            "article": "MJ"
+          }
+        ]
+      }
+    },
+    {
+      "source_id": "trial_candidate2_JN",
+      "proposal": {
+        "id": "T2",
+        "articles": {
+          "navigation": "NG",
+          "military": "MA"
+        },
+        "operational_plan": {
+          "navigation_order": "Repair",
+          "security_order": "Restraint",
+          "warrant": false
+        },
+        "commitments": [
+          {
+            "owner": "Guild",
+            "asset": "Lantern",
+            "assignment": "Council",
+            "article": "NG"
+          },
+          {
+            "owner": "Janissariat",
+            "asset": "Vigil",
+            "assignment": "Home",
+            "article": "MA"
+          }
+        ]
+      }
+    }
+  ],
+  "votes": {
+    "GN": {
+      "proposal_id": "T2",
+      "article_approvals": {
+        "navigation": true,
+        "military": false
+      },
+      "commitment_approvals": {
+        "Guild": true
+      },
+      "source_id": "trial_vote_GN"
+    },
+    "GS": {
+      "proposal_id": "T2",
+      "article_approvals": {
+        "navigation": true,
+        "military": false
+      },
+      "commitment_approvals": {
+        "Guild": true
+      },
+      "source_id": "trial_vote_GS"
+    },
+    "JN": {
+      "proposal_id": "T2",
+      "article_approvals": {
+        "navigation": true,
+        "military": true
+      },
+      "commitment_approvals": {
+        "Janissariat": true
+      },
+      "source_id": "trial_vote_JN"
+    },
+    "JS": {
+      "proposal_id": "T2",
+      "article_approvals": {
+        "navigation": true,
+        "military": true
+      },
+      "commitment_approvals": {
+        "Janissariat": true
+      },
+      "source_id": "trial_vote_JS"
+    },
+    "A": {
+      "proposal_id": "T2",
+      "article_approvals": {
+        "navigation": true,
+        "military": true
+      },
+      "commitment_approvals": {},
+      "source_id": "trial_vote_A"
+    }
+  },
+  "articles_before": {
+    "navigation": "I",
+    "military": "I"
+  },
+  "physical_state_unchanged": {
+    "beacon": 1,
+    "communities": 3,
+    "readiness": 4,
+    "wayfarer": true,
+    "lantern": true,
+    "spear": true,
+    "contracts": 1,
+    "reserve": false
+  },
+  "articles_after": {
+    "navigation": "NG",
+    "military": "I"
+  },
+  "activated_commitments": [
+    {
+      "owner": "Guild",
+      "asset": "Lantern",
+      "assignment": "Council",
+      "article": "NG",
+      "owner_signatures": [
+        "GN",
+        "GS"
+      ]
+    }
+  ],
+  "issues": {
+    "navigation": [],
+    "military": [
+      "Required article assent absent"
+    ]
+  },
+  "rejected_conditions": {
+    "navigation": [],
+    "military": [
+      "Required article assent absent"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "run": 1,
+  "id": "trial_close_A",
+  "role": "A",
+  "phase": "r1-free",
+  "channel": "Open",
+  "position": {"candidate": "T2", "navigation": "Support", "military": "Support provisional trial", "new_row": false},
+  "messages": [{"to": "ALL", "text": "Navigation retains my support on T2's exact Lantern terms. Separately, I will support a provisional trial of MA. I prefer joint authority, but both military representatives have offered a meaningful restraint: accept readiness decline while the route recovers. I want to see whether they honour that promise when the decision belongs to them. Losing Guard leaves Communities at a narrow margin, and a Vigil Home pledge protects the institution rather than the settlements. That is the real price of this alternative. My provisional support does not promise final ratification; I will judge the actual operation and civilian outcome at the Ceremony."}],
+  "reason": "A trial can produce evidence of responsible autonomous command. I accept the printed transfer of authority and cannot revoke it mid-round; no binding restraint order is invented."
+}

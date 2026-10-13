@@ -1,0 +1,10 @@
+{
+  "run": 1,
+  "id": "ceremony_candidate1_A",
+  "role": "A",
+  "phase": "ceremony",
+  "channel": "Open",
+  "proposal": {"navigation": "NG", "military": "MJ"},
+  "messages": [{"to": "ALL", "text": "I propose NG with MJ as the complete settlement. Guild discretion has met its repair duty. Joint military authority gives both delegates the decision they already demonstrated they can make together, and ends my independent command and Warrant. I recognise the army does not regard this as adequate institutional reciprocity. JN's NJ alternative deserves an answer, but its compulsory Wayfarer service would displace the trade that helped supply civilians; it is not merely a rearrangement of seats. My proposal preserves the service pattern that worked while giving military operations shared scrutiny. Please judge this exact package, including its real duties, rather than treating my preference as anyone's signature."}],
+  "reason": "This is my preferred dependable government, based on actual repair and protection. A legal majority would not erase military dissent, but I do not consider permanent loss of civilian Guard an acceptable price for autonomy."
+}

@@ -1,0 +1,252 @@
+{
+  "round": 2,
+  "draft_source_ids": [
+    "r2_draft_GN",
+    "r2_draft_GS",
+    "r2_draft_JN",
+    "r2_draft_JS",
+    "r2_draft_A"
+  ],
+  "purchase_source": "r2_purchase_A",
+  "disclosure_source": "r2_disclosure_A",
+  "decisions": [
+    {
+      "role": "GN",
+      "draft_source": "r2_draft_GN",
+      "final_source": "r2_final_GN",
+      "order_source": "r2_orders_GN",
+      "observed_changes": [],
+      "classification": "knowledge/confidence change; no assignment or requested/authorised order change",
+      "explicit_final_reason": "My colleague and I have agreed both assignments explicitly. These choices meet our commercial obligation while making the promised upkeep possible under Guild discretion. The disclosed benefit improves confidence in civilian viability but causes no revision to my decision. Guard remains valuable alongside the distribution benefit, and the army's offered protection still requires its own final assignment and proper Security authorisation.",
+      "explicit_order_reason": "Repair fulfils the duty and the public undertaking that secured Guild discretion. It prepares Beacon three for Wayfarer's commercial crossing, with the expected wear leaving two and the disclosed distribution effect contingent on completed Trade. The army's acknowledged conditioning cost does not alter the need for this repair. My final decision supplies an actual order rather than relying on Lantern's Council assignment alone, and permits the promised bargain to be judged on its result.",
+      "debrief_source": "debrief_GN",
+      "request_changes": [],
+      "explicit_debrief_messages": [
+        {
+          "to": "ALL",
+          "text": "My NG/MJ preference survived the game and gained evidence: Guild authority performed its repair duty, and both Security delegates agreed useful operations. The package passed eight of eleven despite both army refusals. That is an imposed settlement on the Janissariat, not consensus; I accepted the imbalance rather than sacrifice commercial independence. GS mattered: they checked Vigil against duplicate Warrant use, insisted that next month's Repair be funded, and independently refused MA while preserving our separate Lantern pledge. Trade and Maintain were credible unilateral alternatives, so withholding Wayfarer was a real bargaining position. We conceded tender service and accepted a temporary beacon deficit; the army conceded conditioning and the crown spent its reserve. In round one the disclosure left my assets unchanged but changed requested orders from Hold/Guard to reserve Relief and Raid/Warrant, with a repair bargain. In round two it changed only knowledge and confidence: Repair/Trade already qualified for the reported benefit. Public drafts helped expose the transport disagreement before purchase and made those different effects visible. The Lantern lock constrained later choice by our own consent. I suggest putting the reserve's lodged task alongside final asset sheets: I had to request its confirmation. This one play cannot establish that disclosure caused the good ending, and I do not know either unbought answer."
+        }
+      ],
+      "explicit_debrief_structured": {
+        "disclosure_effects": {
+          "round1": {
+            "asset_assignment": "Unchanged Trade/Maintain",
+            "requested_order": "Hold/Guard changed to reserve Relief plus council Raid/Warrant",
+            "bargain": "Accepted temporary Beacon one and pressed for next-round funded Repair",
+            "knowledge": "Raid condition became a stated conditional claim",
+            "sources": [
+              "r1_draft_GN",
+              "r1_revision_GN",
+              "r1_final_GN"
+            ]
+          },
+          "round2": {
+            "asset_assignment": "Unchanged Trade/Council, Lantern already locked",
+            "requested_order": "Unchanged Repair/Guard without Warrant",
+            "bargain": "Unchanged",
+            "knowledge": "Expected civilian return and confidence increased",
+            "sources": [
+              "r2_draft_GN",
+              "r2_revision_GN",
+              "r2_final_GN"
+            ]
+          }
+        }
+      },
+      "causal_assessment": "Player reports stronger confidence or more accurate supply accounting; same displayed plan retained."
+    },
+    {
+      "role": "GS",
+      "draft_source": "r2_draft_GS",
+      "final_source": "r2_final_GS",
+      "order_source": "r2_orders_GS",
+      "observed_changes": [],
+      "classification": "knowledge/confidence change; no assignment or requested/authorised order change",
+      "explicit_final_reason": "The disclosure supports our plan but does not change my choice. Prepared Beacon three protects the contract through the public rule, while the additional distribution effect remains a conditional report until resolution. Our second contract and route recovery no longer appear opposed to civilian welfare. Lantern's existing pledge remains binding independently of this final assent.",
+      "explicit_order_reason": "This arrangement uses the actual available protection to reinforce route recovery and civilian distribution. It fulfils the practical bargain without gambling Spear or requiring Wayfarer to abandon its remaining contract. The army has demonstrated voluntary cooperation by offering Vigil and accepting a month without combat. I count that evidence favourably, while withholding any automatic commitment to an article whose future duty would keep that garrison Home. No further operational revision is justified.",
+      "debrief_source": "debrief_GS",
+      "request_changes": [],
+      "explicit_debrief_messages": [
+        {
+          "to": "ALL",
+          "text": "NG/MJ passed with eight of eleven leverage despite both army delegates refusing. It preserves my starting preferences, but operational agreement plainly did not become constitutional consent. I judged upkeep and civilian scrutiny worth that disagreement. GN's specific contribution was turning the Beacon-one compromise into a funded Repair plan and Lantern pledge, preserving our second contract. I independently refused autonomy because Vigil Home guaranteed less civilian service while restraint remained a promise.\n\nIn round one the disclosure changed my requests from Hold/Guard to reserve Relief and council Raid/Warrant, not Trade/Maintain assignments (r1_draft_GS, r1_final_GS). It made the trade-linked target intelligible and strengthened bargaining for funded compensation; written reserve confirmation increased confidence before r1_orders_GS.\n\nIn round two it changed neither assignments nor Repair/Guard requests (r2_draft_GS, r2_final_GS). It improved expected civilian returns and confidence only. Displayed drafts helped distinguish that reassurance from an actual change of plan; the locked Lantern pledge constrained reassignment, not the vision purchase itself.\n\nOur temporary tender commitment and upkeep duty were real concessions; the crown spent reserve and foresight, and the army accepted conditioning decline. Independent trade remained credible. I considered Interim preferable to MA and MI a possible final fallback. The outcome cannot prove either purchase was necessary, and I never learned the unbought answers."
+        }
+      ],
+      "explicit_debrief_structured": {
+        "information_effects": {
+          "round1": {
+            "asset_assignment": "none",
+            "requests_orders": "changed Hold/Guard to Relief/Raid plus Warrant",
+            "conditions_bargaining": "demanded explicit reserve relief, protection and later repair",
+            "confidence": "increased after disclosure and written support",
+            "source_ids": [
+              "r1_draft_GS",
+              "r1_final_GS",
+              "r1_open_GS",
+              "r1_orders_GS"
+            ]
+          },
+          "round2": {
+            "asset_assignment": "none",
+            "requests_orders": "none",
+            "conditions_bargaining": "no new condition; retained requests",
+            "confidence": "higher expected civilian return",
+            "source_ids": [
+              "r2_draft_GS",
+              "r2_final_GS",
+              "r2_orders_GS"
+            ]
+          }
+        }
+      },
+      "causal_assessment": "Player reports stronger confidence or more accurate supply accounting; same displayed plan retained."
+    },
+    {
+      "role": "JN",
+      "draft_source": "r2_draft_JN",
+      "final_source": "r2_final_JN",
+      "order_source": "r2_orders_JN",
+      "observed_changes": [],
+      "classification": "requested protection order changed for coordination; assignments unchanged; increased supply confidence",
+      "explicit_final_reason": "The disclosed distribution effect rewards the exact Repair-and-Trade arrangement, while no disclosed information establishes a target for Spear. Accepting a protected noncombat month preserves an intact cohort at useful readiness and supports our later claim that an independent army can exercise restraint. This choice costs us conditioning and leaves constitutional autonomy unresolved. We could withhold service after the Guild's refusal, but doing so buys no dependable military gain. My signature therefore confirms a deliberate contribution to the settlements, not acceptance of permanent military subordination.",
+      "explicit_order_reason": "GN has confirmed the promised funded order, and the Ascendant has confirmed Guard without Warrant. Lantern Council supplies the actual repair, allowing the private commercial crossing while satisfying the Guild's upkeep duty. The disclosed distribution effect provides a further reason to complete this arrangement. I acknowledge that the Guild is delivering its side of our separate Navigation bargain. The army is also contributing protection and accepting conditioning decline. Those facts should inform the final constitutional decision, but do not predetermine my approval of any package or concede military autonomy.",
+      "debrief_source": "debrief_JN",
+      "request_changes": [
+        {
+          "field": "security_request",
+          "draft": "Restraint",
+          "final": "Guard"
+        }
+      ],
+      "explicit_debrief_messages": [
+        {
+          "to": "ALL",
+          "text": "We preserved Spear and finished at readiness three with full communities, but lost our constitutional argument. NG/MJ passed eight of eleven despite both army refusals. I accepted Guild discretion after its repair undertaking; I never accepted unequal scrutiny as the price of service. JS made our counteroffer concrete by proposing Vigil Home attached to MA, and later agreed to protection despite MA's rejection. We conceded conditioning and voluntarily offered Vigil; independent Raid remained possible but uncertain and costly under Interim.\n\nRound one disclosure changed my requests from Military/Campaign to Relief/Raid while Council assignments stayed fixed. The completed-Trade condition made the local fight credible; the reserve offer made its civilian cost acceptable. Those arrived together, so I cannot isolate information from that material bargain. Round two disclosure raised confidence in Repair/Trade and the noncombat outcome. My switch from Restraint plus Warrant to Guard without Warrant coordinated with the crown's plan; the supply benefit did not mechanically require that switch or establish a Raid target.\n\nDrafts before purchase helped expose our first-round transport mismatch and distinguish the second-round protection wording from its shared purpose. They also gave clear records of what actually changed. I know neither unbought answer."
+        }
+      ],
+      "explicit_debrief_structured": {
+        "evidence": {
+          "round1": [
+            "r1_draft_JN",
+            "r1_revision_JN",
+            "r1_final_JN"
+          ],
+          "round2": [
+            "r2_draft_JN",
+            "r2_revision_JN",
+            "r2_final_JN"
+          ],
+          "constitution": [
+            "trial_candidate2_JN",
+            "trial_vote_JN",
+            "ceremony_response1_JN",
+            "ceremony_vote1_JN"
+          ]
+        },
+        "disclosure_effects": {
+          "round1": {
+            "assignments": "unchanged",
+            "requests": "Military/Campaign to Relief/Raid",
+            "bargain": "Reserve-backed relief made disclosed target opportunity acceptable",
+            "causality": "Information and reserve proposal jointly influenced change"
+          },
+          "round2": {
+            "assignments": "unchanged",
+            "requests": "Restraint plus Warrant to Guard without Warrant for coordination",
+            "bargain": "No constitutional concession caused by disclosure",
+            "confidence": "Repair/Trade supply benefit strengthened civilian confidence",
+            "unbought_answer": "unknown"
+          }
+        }
+      },
+      "causal_assessment": "Player explicitly distinguishes Restraint/Warrant to Guard/no-Warrant coordination from information about supply benefit. The new information did not require the order change."
+    },
+    {
+      "role": "JS",
+      "draft_source": "r2_draft_JS",
+      "final_source": "r2_final_JS",
+      "order_source": "r2_orders_JS",
+      "observed_changes": [],
+      "classification": "requested protection order changed for coordination; assignments unchanged; increased supply confidence",
+      "explicit_final_reason": "The disclosure strengthens the civilian case for Repair and Trade but does not resolve Raid viability. The order change coordinates protection; my exact assignments remain unchanged and unconditionally approved.",
+      "explicit_order_reason": "The confirmed Repair and Trade arrangement supports civilian recovery, while no available evidence identifies a worthwhile fight. Guard preserves what the army exists to defend. GS and the Ascendant acknowledge our voluntary service, but their constitutional reservations must be argued later and do not justify sabotaging this sound order.",
+      "debrief_source": "debrief_JS",
+      "request_changes": [
+        {
+          "field": "security_request",
+          "draft": "Restraint",
+          "final": "Guard"
+        }
+      ],
+      "explicit_debrief_messages": [
+        {
+          "to": "ALL",
+          "text": "NG/MJ passed with eight of eleven leverage despite both our refusals. The physical outcome is strong, but our institution accepted restraint and protection without securing autonomy or reciprocal control of passage. I accepted the Guild's delivered Repair as evidence for NG; I did not accept it as grounds for its military veto. JN made the autonomy offer concrete through T2's Vigil pledge, then proposed reciprocal NJ/MJ, giving our objection an alternative. Independent Raid was a real option, weakened by discipline costs, civilian losses and uncertain targets; withholding Vigil was possible but would have damaged communities for little gain. Round one's disclosure left my assignments unchanged but changed Military/Campaign requests to Relief/Raid, with completed Trade, reserve Relief and Warrant making that bargain credible. Round two's distribution disclosure improved confidence in repair and commerce; changing Restraint/Warrant to Guard/no Warrant coordinated protection rather than revealing a combat opportunity. I never learned that round's Raid answer. Displaying drafts first exposed the missing passage and focused the first purchase on a live alternative. The sequence helped me distinguish the plan from the information; it does not prove what we would have chosen without it."
+        }
+      ],
+      "explicit_debrief_structured": {
+        "information_effects": [
+          {
+            "round": 1,
+            "asset_assignment": "unchanged",
+            "requested_order": "Military/Campaign changed to Relief/Raid",
+            "condition_bargain": "Completed Trade became credible target condition; reserve Relief and Warrant supported acceptance",
+            "confidence_knowledge": "Disclosed condition resolved my objection to uncertain Raid",
+            "own_sources": [
+              "r1_draft_JS",
+              "r1_final_JS",
+              "r1_reply_JS"
+            ]
+          },
+          {
+            "round": 2,
+            "asset_assignment": "unchanged",
+            "requested_order": "Restraint plus requested Warrant changed to Guard without Warrant as coordination",
+            "condition_bargain": "No new binding condition; continued Repair plan",
+            "confidence_knowledge": "Distribution disclosure strengthened civilian case; no Raid-target knowledge gained",
+            "own_sources": [
+              "r2_draft_JS",
+              "r2_final_JS",
+              "r2_orders_JS"
+            ]
+          }
+        ]
+      },
+      "causal_assessment": "Player explicitly distinguishes Restraint/Warrant to Guard/no-Warrant coordination from information about supply benefit. The new information did not require the order change."
+    },
+    {
+      "role": "A",
+      "draft_source": "r2_draft_A",
+      "final_source": "r2_final_A",
+      "order_source": "r2_orders_A",
+      "observed_changes": [],
+      "classification": "knowledge/confidence change; no assignment or requested/authorised order change",
+      "explicit_final_reason": "No reserve resource is created or recovered. The remaining operative choices depend on actual faction offers and council authority, not the earlier public drafts.",
+      "explicit_order_reason": "Final Security order initialled A. No asset assignment, article, reserve status or foresight choice changes.",
+      "debrief_source": "debrief_A",
+      "request_changes": [],
+      "explicit_debrief_messages": [
+        {
+          "to": "ALL",
+          "text": "NG/MJ passed with eight of eleven leverage despite both military refusals. I retain my judgment that it can work, but their objection to unequal institutional concessions remains unresolved. Guild repair under delegated authority and both Security delegates' actual agreements justified surrendering my command. The Guild supplied Lantern and upheld upkeep; the army offered both assets, guarded communities and accepted conditioning decline. Civilians paid the Raid's costs; I spent Grey Petrel and two foresight tokens.\n\nRound one: Guild Trade drafts blocked my proposed Campaign, making the Security cover's Raid question immediately relevant. I bought R1-S and changed Military/Campaign to reserve Relief/council Raid, retaining Warrant. Its target condition enabled a concrete compromise. Losing one leverage point was justified by that operational use.\n\nRound two: both Guild drafts paired Repair with Trade, exactly within R2-N's scope. I bought it to understand civilian supplies while Guard and Restraint were discussed. My Repair/Guard/no-Warrant draft did not change. The distribution information improved confidence and our accounting, rather than changing my orders. In retrospect its leverage cost bought less practical value; declining would have been defensible, although I did not know the answer beforehand.\n\nI chose no NONE option. One token remained because only two purchases were allowed, not because I deliberately saved one. Next test: add one operational round under the ratified constitution to observe whether military dissent affects offers and whether joint Security can sustain cooperation without my intervention."
+        }
+      ],
+      "explicit_debrief_structured": {},
+      "causal_assessment": "Player reports stronger confidence or more accurate supply accounting; same displayed plan retained."
+    }
+  ],
+  "causality_limit": "Action changes do not by themselves establish information caused them. Original reasons and debriefs distinguish information, bargaining and confidence effects.",
+  "overall": "R2 answer improved knowledge/confidence. A and Guild retained draft orders; Janissariat coordinated equivalent Vigil protection. No asset assignment changed.",
+  "purchase": {
+    "round": 2,
+    "source_id": "r2_purchase_A",
+    "choice": "Navigation",
+    "card_id": "R2-N",
+    "before": 2,
+    "cost": 1,
+    "after": 1,
+    "draft_packet": "r2-public-drafts.json"
+  },
+  "deliberate_none": false,
+  "token_note": "One remaining token after two paid rounds is mandatory, not evidence of deliberate saving."
+}

@@ -1,0 +1,75 @@
+{
+  "note": "",
+  "delivered_contributions": [],
+  "additional_information": {
+    "conversation": [
+      {
+        "run": 1,
+        "id": "r1_open_GS",
+        "role": "GS",
+        "phase": "r1-council",
+        "channel": "Security",
+        "proposal": {
+          "security_order": "Raid"
+        },
+        "messages": [
+          {
+            "to": "JS",
+            "text": "With Spear and Vigil actually offered, I support the council Raid coupled to the Ascendant's Warrant and reserve Relief. The disclosed trade condition gives this operation a purpose; it does not excuse ignoring its civilian cost. Guild assignments are locked, so no one should issue a Campaign expecting our ship to appear."
+          },
+          {
+            "to": "A",
+            "text": "Please record Raid and the separate Warrant explicitly, and confirm the reserve Relief directive at Navigation. Vigil must not be double-counted for Guard. Our acceptance depends politically on the complete arrangement you described, although the actual asset signatures already stand."
+          }
+        ],
+        "reason": "A lawful, funded Raid is now preferable to a doomed Campaign. Protection and relief contain its costs under the disclosed conditions. I want those components visible on the final sheets before treating this as evidence for future military authority."
+      },
+      {
+        "run": 1,
+        "id": "r1_open_JS",
+        "role": "JS",
+        "phase": "r1-council",
+        "channel": "Security",
+        "proposal": {
+          "security_order": "Raid",
+          "warrant": true
+        },
+        "messages": [
+          {
+            "to": "GS",
+            "text": "Your merchant now has its maintained route and our Spear is offered. I propose the council Raid: the crown's disclosed condition identifies an enemy following that completed voyage. We can sustain the army while your contract completes. I expect the promised civilian relief to accompany this; Guard alone would waste the combat opportunity and leave our force weaker."
+          },
+          {
+            "to": "A",
+            "text": "Authorise Raid and issue the Warrant using offered Vigil. Confirm Relief through your lodged reserve at Navigation. Vigil cannot also pay for council Guard, so keep the two orders distinct."
+          }
+        ],
+        "reason": "The assignments support the disclosed target condition. A lawful Raid avoids a discipline breach and the Warrant offsets some civilian cost; relief supplies the rest of the proposed protection."
+      },
+      {
+        "run": 1,
+        "id": "r1_open_A",
+        "role": "A",
+        "phase": "r1-council",
+        "channel": "Security",
+        "messages": [
+          {
+            "to": "GS/JS",
+            "text": "Both factions have supplied the assignments needed for our revised bargain. Grey Petrel is now lodged for Relief lift. I propose the council Raid and will issue the Warrant using offered Vigil, so do not order Guard with that same asset. This buys civilian relief and protection alongside successful military action and Guild trade. The Raid's civilian cost is real; the reserve compensates rather than erases it. We should judge the next constitution by whether its delegates can fund comparably responsible choices."
+          },
+          {
+            "to": "NAVIGATION",
+            "text": "Written directive: Relief. Grey Petrel is lodged for Relief lift and supplies the missing Wayfarer requirement. Lantern remains Maintain; Wayfarer trades. Please return any operational objection before the bell."
+          }
+        ],
+        "proposal": {
+          "navigation_order": "Relief",
+          "security_order": "Raid",
+          "warrant": true
+        },
+        "reason": "Locked assignments support the compromise; forecast on known effects remains Beacon one, Communities three and Readiness four. Final council confirmation follows discussion."
+      }
+    ],
+    "addressed_notes": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "run": 1,
+  "id": "r2_purchase_public_F",
+  "role": "F",
+  "phase": "r2-faction",
+  "channel": "Open",
+  "messages": [
+    {
+      "to": "ALL",
+      "text": "Foresight payment: 1; remaining: 1. Choice and answer private unless disclosed."
+    }
+  ],
+  "reason": "Printed-rules facilitation",
+  "timestamp": "2026-10-13T22:25:08.112014+00:00",
+  "stage": "purchase",
+  "decision": {
+    "before": 2,
+    "cost": 1,
+    "after": 1,
+    "leverage": {
+      "id": "r2-purchase",
+      "phase": "r2-faction",
+      "state": {
+        "beacon": 1,
+        "communities": 3,
+        "readiness": 4,
+        "wayfarer": true,
+        "lantern": true,
+        "spear": true,
+        "contracts": 1,
+        "reserve": false
+      },
+      "weights": {
+        "Guild": 4,
+        "Janissariat": 4,
+        "Ascendant": 5
+      },
+      "foresight_remaining": 1,
+      "total": 13,
+      "threshold": 9
+    }
+  }
+}

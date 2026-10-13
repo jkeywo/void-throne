@@ -1,0 +1,1691 @@
+{
+  "title": "The Void Throne — six-role simulation",
+  "method": "Six persistent role histories, scheduled in batches. Agent messages preserved verbatim. Logical phase times, not measured human play. Root coordinates routing and report; facilitator adjudicates.",
+  "roles": {
+    "GN": "Guild · Navigation",
+    "GS": "Guild · Security",
+    "JN": "Janissariat · Navigation",
+    "JS": "Janissariat · Security",
+    "A": "The Ascendant",
+    "F": "Facilitator"
+  },
+  "phase_schedule": [
+    [
+      "briefing",
+      "00–08",
+      "Briefing"
+    ],
+    [
+      "r1-faction",
+      "08–13",
+      "Round one · Factions"
+    ],
+    [
+      "r1-council",
+      "13–20",
+      "Round one · Councils"
+    ],
+    [
+      "r1-resolution",
+      "20",
+      "Round one · Resolution"
+    ],
+    [
+      "r1-free",
+      "20–26",
+      "Round one · Free discussion"
+    ],
+    [
+      "r2-faction",
+      "26–31",
+      "Round two · Factions"
+    ],
+    [
+      "r2-council",
+      "31–38",
+      "Round two · Councils"
+    ],
+    [
+      "r2-resolution",
+      "38",
+      "Round two · Resolution"
+    ],
+    [
+      "r2-free",
+      "38–44",
+      "Round two · Free discussion"
+    ],
+    [
+      "ceremony",
+      "44–54",
+      "The Ceremony"
+    ],
+    [
+      "debrief",
+      "54–60",
+      "Debrief"
+    ]
+  ],
+  "contributions": [
+    {
+      "role": "F",
+      "phase": "briefing",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "The conquest is complete; the peace has not begun. Vethis is failing, settlements need supplies, and an army waits beyond the corridor. Route, Communities and Army begin at 2. The Guild has 3 Navigators, the Janissariat 3 Force, and the Ascendant one Reserve for the whole game. The Ascendant initially chooses both councils' orders; factions control their commitments. Each faction has shared goals, not individual secret goals. Faction meetings and Communion run simultaneously, then both councils operate simultaneously. At the faction bell, both members' signed commitment and the Ascendant's reserve slip lock. At the council bell, the final lawful, correctly initialled council-card entry binds; speeches and promises do not. Article proposals need both delegates and the Ascendant separately, and affect round two only. Some consequences are fixed but unknown. The Ascendant may select one vision each round; unseen consequences still apply. I resolve both councils together, add all effects, then limit tracks to 0-4. Free discussion creates promises, not extra actions. The Ceremony requires everyone's approval of the same two-article package."
+        }
+      ],
+      "mechanics": {
+        "starting_tracks": {
+          "Route": 2,
+          "Communities": 2,
+          "Army": 2
+        },
+        "assets": {
+          "Navigators": 3,
+          "Force": 3,
+          "Reserve": 1
+        },
+        "authority": {
+          "navigation": "interim",
+          "military": "interim"
+        }
+      },
+      "issues": [],
+      "_source": "F_01.json",
+      "_role": "F"
+    },
+    {
+      "messages": [
+        {
+          "text": "I propose full service so we can actually fund either repairs or a convoy. Maintenance leaves us dependent on the sovereign spending the reserve. My first preference is repairs now, followed by a protected civilian supply convoy next round; but I want the Ascendant to explain any warning before we settle that. If we carry the convoy immediately, insist on a funded escort or explicit insurance. I will seek Guild discretion, with joint navigation acceptable if that secures agreement. Could you press for joint military authorisation and its cheaper escorts, while keeping military autonomy available as a concession for our navigation rights? Route safety and keeping all our navigators come first; we should not buy that by abandoning the settlements."
+        }
+      ],
+      "phase": "r1-faction",
+      "channel": "guild",
+      "justification": "Full service preserves the ability to fund repair or convoy without depending on a reserve bridge.",
+      "decision": {
+        "proposed_commitment": "full"
+      },
+      "role": "GN",
+      "_source": "GN_01.json",
+      "_role": "GN"
+    },
+    {
+      "role": "GS",
+      "decision": {
+        "commitment": "full",
+        "sign": true
+      },
+      "phase": "r1-faction",
+      "justification": "Full service funds either navigation action; coordinated Security choices must preserve civilians as well as route safety.",
+      "messages": [
+        {
+          "text": "I agree and SIGN Full Service. Three committed navigators preserve our choices without consuming the reserve merely to fund an order. I support repairs as our starting preference, but repairs plus military rest would cut Communities from 2 to 0 on the printed effects; I will press that danger at Security and seek the actual vision before endorsing the combination. If we convoy, I will press for a funded escort or confirmed insurance. I will propose joint military authorisation for cheap, dependable protection next round, offering military autonomy only as a negotiated concession for N-G or N-J. I cannot promise the Janissariat will accept it. Please keep me informed of the Navigation order so Security does not waste an escort on repairs."
+        }
+      ],
+      "channel": "guild",
+      "_source": "GS_01.json",
+      "_role": "GS"
+    },
+    {
+      "role": "GN",
+      "phase": "r1-faction",
+      "channel": "guild",
+      "messages": [
+        {
+          "text": "Agreed: I SIGN Full Service, committing all three navigators. Your civilian warning matters: repairs remain our opening preference, not an unconditional demand. I will seek the Ascendant's actual vision and coordinate the Navigation proposal with you before the council bell. Any convoy should have a funded escort or confirmed insurance. Our shared constitutional position is N-G preferred, N-J acceptable; seek M-J for cheaper protection, with M-A available only as a concession securing our navigation rights. We must weigh civilian losses alongside route safety and avoid an escort being spent on repairs."
+        }
+      ],
+      "decision": {
+        "commitment": "full",
+        "sign": true
+      },
+      "justification": "Both Guild delegates agree to full service, preserving funded navigation choices while coordinating route protection and civilian supply.",
+      "_source": "GN_02.json",
+      "_role": "GN"
+    },
+    {
+      "messages": [
+        {
+          "text": "JS, I propose Mobilise this round so we can fund an Escort without relying on the reserve. I will seek a funded Convoy: balanced deliveries raise both Army and Communities, while your Escort protects the route. Let us ask the Guild for Full Service and the Ascendant for coordinated orders before the bell. Constitutionally, I favour N-J so army cargo cannot simply disappear. I would support your seeking M-A, but M-J is a strong bargain: next round we could take Partial Rest and still fund an Escort, helping recovery without requisitioning civilians. I suggest offering N-J/M-J as our workable joint package. Do you agree to Mobilise, with Escort preferred if the convoy is funded?"
+        }
+      ],
+      "role": "JN",
+      "justification": "Full mobilisation can fund the interim escort cost; joint articles can preserve army supplies while reducing later deployment demands.",
+      "phase": "r1-faction",
+      "decision": {
+        "proposed_commitment": "mobilise"
+      },
+      "channel": "janissariat",
+      "_source": "JN_01.json",
+      "_role": "JN"
+    },
+    {
+      "role": "JS",
+      "phase": "r1-faction",
+      "channel": "janissariat",
+      "messages": [
+        {
+          "text": "JN, I agree and SIGN Mobilise: commit all 3 Force. Funding Escort ourselves gives the convoy a reliable defence and preserves the reserve for another problem. I support N-J/M-J as our joint package; the cheaper escort lets us recover troops next round while protecting deliveries, and joint command secures an institutional voice. I will seek an imperial Escort order if your convoy is funded and ask the Guild security delegate to support both that coordination and M-J. If Navigation cannot fund Convoy, I will press for Rest rather than waste an Escort, and consult you on the supply consequences. Mobilisation itself is unconditional once signed; these operational preferences remain requests to the Ascendant under the interim rules."
+        }
+      ],
+      "decision": {
+        "commitment": "mobilise",
+        "sign": true
+      },
+      "justification": "An affordable escort supports balanced supplies; M-J combines military consent with cheaper future deployments and civilian protection.",
+      "_source": "JS_01.json",
+      "_role": "JS"
+    },
+    {
+      "justification": "Both delegates agree to fund an escort and pursue joint authority with balanced supplies.",
+      "channel": "janissariat",
+      "role": "JN",
+      "decision": {
+        "sign": true,
+        "commitment": "mobilise"
+      },
+      "messages": [
+        {
+          "text": "Agreed, JS. I SIGN Mobilise and commit all 3 Force. I will press for a funded Convoy and coordinate with you before the council bell. Our constitutional offer is N-J/M-J, preserving balanced cargo and an institutional military voice while making an Escort affordable during Partial Rest next round. If a convoy cannot be funded, I will tell you promptly so we can support Rest instead of spending Force on an idle escort."
+        }
+      ],
+      "phase": "r1-faction",
+      "_source": "JN_02.json",
+      "_role": "JN"
+    },
+    {
+      "phase": "r1-faction",
+      "justification": "Navigation foresight should help me protect the shared supply route before choosing orders or spending the reserve.",
+      "messages": [
+        {
+          "text": "Facilitator, may I read my chosen vision before lodging the reserve, provided both are settled before the faction bell? I choose Navigation: keeping the corridor open matters to both the settlements and the army."
+        }
+      ],
+      "role": "A",
+      "decision": {
+        "vision": "Navigation"
+      },
+      "channel": "communion",
+      "_source": "A_01.json",
+      "_role": "A"
+    },
+    {
+      "role": "F",
+      "phase": "r1-faction",
+      "channel": "communion",
+      "to": [
+        "A"
+      ],
+      "messages": [
+        {
+          "to": "A",
+          "text": "Yes. Read your selected Navigation vision now, then decide whether to lodge a reserve intervention before the faction bell. The intervention locks at that bell. You may keep, show or discuss this selected card; you may not take the other vision."
+        },
+        {
+          "to": "A",
+          "text": "V1-N | Round one: Navigation\nYou see an empty navigator's chair. In another passage, soldiers guard workers repairing the corridor.\nIf the final funded order is Convoy without a military Escort or Reserve Insurance: a navigator is lost. Your Guild will have only 2 Navigator capacity next round, rather than 3. Ordinary convoy Route loss still applies.\nIf the final funded orders are Repair and military Escort: Route gains an additional +1.\nThese are conditional futures, not predictions of player choices. Insurance can prevent the loss but cannot earn the repair bonus. Both consequences are checked whether or not you tell anyone."
+        }
+      ],
+      "mechanics": {
+        "vision": "V1-N",
+        "disclosed_to": [
+          "A"
+        ],
+        "reserve_lodged": false
+      },
+      "issues": [],
+      "_source": "F_02.json",
+      "_role": "F"
+    },
+    {
+      "role": "A",
+      "phase": "r1-faction",
+      "channel": "communion",
+      "messages": [
+        {
+          "text": "I lodge Insurance. The empty chair is a permanent loss we should prevent: a funded convoy without a military escort would otherwise cost us a navigator as well as damage the route. I cannot yet know either faction's commitment. Insurance lets me consider a supplied convoy even if the Janissariat cannot fund an escort. If a military escort is available, the reserve will return unused. I will explain the vision when the councils meet, but issue no orders now."
+        }
+      ],
+      "decision": {
+        "reserve": "insurance"
+      },
+      "justification": "Insurance prevents the revealed permanent navigator loss and ordinary convoy Route loss if military protection is unavailable; it preserves the reserve if an escort is funded.",
+      "_source": "A_02.json",
+      "_role": "A"
+    },
+    {
+      "role": "F",
+      "phase": "r1-faction",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "Faction bell. Both Guild members have signed Full Service: 3 Navigators are committed to Navigation. Both Janissariat members have signed Mobilise: 3 Force are committed to Security. The Ascendant has lodged the Reserve. These commitments and the intervention are now locked; there are no additions, withdrawals or transfers. All three tracks remain at 2. Councils now meet under interim authority: the Ascendant must authorise each final operational order on its council card. Article proposals require both council delegates and the Ascendant separately, and take effect only next round."
+        }
+      ],
+      "mechanics": {
+        "round": 1,
+        "bell": "13:00",
+        "commitments_locked": true,
+        "guild": {
+          "choice": "full",
+          "committed_navigators": 3,
+          "signatures": [
+            "GN",
+            "GS"
+          ],
+          "valid": true
+        },
+        "janissariat": {
+          "choice": "mobilise",
+          "committed_force": 3,
+          "signatures": [
+            "JN",
+            "JS"
+          ],
+          "valid": true
+        },
+        "reserve_public": "lodged",
+        "reserve_private": {
+          "visibility": [
+            "A",
+            "F"
+          ],
+          "intervention": "insurance",
+          "locked": true,
+          "spent": false,
+          "trigger_checked": false
+        },
+        "tracks": {
+          "Route": 2,
+          "Communities": 2,
+          "Army": 2
+        },
+        "authority": {
+          "navigation": "interim",
+          "military": "interim"
+        },
+        "orders_locked": false,
+        "track_changes_applied": false
+      },
+      "issues": [],
+      "_source": "F_03.json",
+      "_role": "F"
+    },
+    {
+      "role": "A",
+      "phase": "r1-council",
+      "channel": "security",
+      "messages": [
+        {
+          "text": "Both factions have committed enough to supply the empire. I propose Escort here and Convoy at Navigation. My vision shows that an unprotected convoy loses a navigator permanently; military Escort prevents that loss and ordinary route damage. I lodged Insurance as a fallback, but a funded escort would leave it available next round. The same vision shows an extra route improvement from Repair with Escort, though repair costs both communities and army supplies now. I favour the convoy. For our provisional Charter, I propose M-I: retain imperial military command, earning the coordinated convoy bonus next round. In exchange I am willing to surrender navigation authority under N-J, with balanced deliveries and both factions consenting.",
+          "channel": "security"
+        },
+        {
+          "text": "Proposal: Convoy, coordinated with a funded Escort. My Navigation vision warns that an unprotected convoy permanently loses one navigator. I lodged Insurance as fallback protection. I offer N-J joint navigation authority alongside M-I military command, preserving balanced supplies and one imperial responsibility. Please send your arguments before I finalise orders or assent.",
+          "channel": "navigation-note"
+        }
+      ],
+      "decision": {
+        "proposedNavigationOrder": "Convoy",
+        "proposedMilitaryArticle": "M-I",
+        "proposedSecurityOrder": "Escort",
+        "proposedNavigationArticle": "N-J"
+      },
+      "justification": "Funded protected supplies preserve all tracks; joint navigation balances deliveries while imperial military command meets my secondary constitutional priority.",
+      "_source": "A_03.json",
+      "_role": "A"
+    },
+    {
+      "role": "GN",
+      "phase": "r1-council",
+      "channel": "navigation",
+      "messages": [
+        {
+          "to": "JN",
+          "text": "We have three Navigators committed. My opening preference is Repair, building a safe route for next round's supplies, but its civilian cost makes the Security choice crucial. I can support Convoy with a funded Escort or confirmed reserve insurance if that better protects settlements. We should coordinate with Security before recommending an order to the Ascendant. For the Charter I propose N-G: civilian deliveries under Guild discretion. N-J is an acceptable compromise, preserving balanced cargo and both institutions' consent. What package can you support?"
+        },
+        {
+          "to": "Ascendant",
+          "text": "Please share your actual vision and its triggering condition, and identify the lodged intervention. We can fund Repair or Convoy. I favour Repair provisionally, but seek coordinated civilian protection; any Convoy needs confirmed protection. Please send your intended Navigation directive before the bell."
+        }
+      ],
+      "decision": {
+        "operational_preference": "repair",
+        "proposed_article": "N-G",
+        "acceptable_article": "N-J",
+        "article_sign": false
+      },
+      "justification": "Funded repairs address route reliability, while coordination and disclosed foresight may justify a protected convoy. Guild discretion is preferred, with joint authorisation negotiable.",
+      "_source": "GN_03.json",
+      "_role": "GN"
+    },
+    {
+      "messages": [
+        {
+          "text": "GN, I favour Convoy: our three Force can fund the two-Force Escort, and JS supports that coordination. The three committed Navigators cover its two-token cost. Repair reduces both Army and Communities now; the protected Convoy supplies both without its ordinary Route loss. The disclosed navigator-loss warning makes confirmed protection essential, and the lodged Insurance provides fallback. I will sign N-J: balanced cargo matters to us, and your consent protects the Guild. To the Ascendant, our proposed settlement is N-J/M-J. A one-Force escort next round allows Partial Rest and military recovery while safeguarding civilian deliveries. M-I offers useful coordination, but leaves our constitutional priority unmet. Please consider joint military authority; I will relay any counteroffer to JS."
+        }
+      ],
+      "role": "JN",
+      "phase": "r1-council",
+      "justification": "A funded protected convoy supplies army and settlements; joint articles preserve faction consent and allow cheaper later escorts.",
+      "decision": {
+        "military_package_preference": "M-J",
+        "request_security_order": "escort",
+        "article_sign": true,
+        "proposed_article": "N-J",
+        "operational_preference": "convoy"
+      },
+      "channel": "navigation",
+      "_source": "JN_03.json",
+      "_role": "JN"
+    },
+    {
+      "messages": [
+        {
+          "text": "I support a funded Escort and appreciate the precise warning. Our Guild preference remains Repair: the revealed Escort interaction strengthens our first priority, a reliable route with no navigator lost. Repair plus Escort leaves Communities at 1 and Army at 1 on the printed effects, so it needs next-round deliveries; Repair plus Rest would be unacceptable for civilians. A protected Convoy now is safer for immediate supply, but leaves route improvement unresolved. Please weigh that tradeoff before finalising Navigation. For the Charter I prefer M-J: cheap protection and no requisitions. I would sign M-I in exchange for an agreed N-J, as you propose, provided my teammate concurs in that bargain. I could also accept M-A to secure N-G or N-J, but it is a weaker civilian safeguard. I am not yet signing a military article independently of the navigation agreement."
+        }
+      ],
+      "justification": "Escort protects navigators or complements the disclosed repair benefit; military authority is negotiable for protected Guild navigation rights.",
+      "channel": "security",
+      "role": "GS",
+      "phase": "r1-council",
+      "decision": {
+        "operational_preference": "escort",
+        "navigation_preference": "repair",
+        "proposed_article": "M-J",
+        "acceptable_articles": [
+          "M-I",
+          "M-A"
+        ],
+        "article_sign": false
+      },
+      "_source": "GS_02.json",
+      "_role": "GS"
+    },
+    {
+      "role": "JS",
+      "phase": "r1-council",
+      "channel": "security",
+      "messages": [
+        {
+          "text": "I support Escort alongside the funded Convoy. Your warning makes protecting our navigators essential, and keeping Insurance available is useful. Please enter and initial Escort under your present authority. On the Charter, I cannot sign M-I now. N-J is welcome, but permanent imperial military command gives up our central constitutional objective. M-J can also produce recovery and protection next round: Partial Rest raises Army by one and still funds its one-Force Escort. That matches the practical attraction of your convoy bonus while giving both institutions a voice and protecting civilians from requisition. I offer my signature for M-J, with N-J as the intended Navigation partner; I am willing to sign the M-J proposal unconditionally if the Guild and you also sign it. I am not signing M-I."
+        }
+      ],
+      "decision": {
+        "preferred_order": "escort",
+        "preferred_article": "M-J",
+        "sign_article": "M-J",
+        "sign": true,
+        "conditions": "M-J only; proposal requires Guild and Ascendant signatures. No condition on Navigation ratification."
+      },
+      "justification": "Escort protects funded supplies; M-J preserves military participation and enables recovery alongside an affordable escort.",
+      "_source": "JS_02.json",
+      "_role": "JS"
+    },
+    {
+      "phase": "r1-council",
+      "channel": "security",
+      "decision": {
+        "sign_article": "M-J",
+        "sign": true,
+        "conditions": "Unconditional signature for M-J only.",
+        "preferred_order": "escort"
+      },
+      "justification": "Joint military authorisation secures cheap protection, blocks requisitions and has actual Janissariat delegate support.",
+      "messages": [
+        {
+          "text": "I SIGN M-J. Your Partial Rest argument strengthens the case: next round we can protect a convoy and recover army condition without full mobilisation. This is my unconditional consent to that article; the Ascendant must still decide whether to sign. I support Escort today under imperial authority, whether Navigation chooses Convoy or Repair.",
+          "channel": "security"
+        },
+        {
+          "text": "The Ascendant offers N-J in exchange for M-I and favours Convoy plus Escort. Their vision says an unprotected convoy permanently loses a navigator, prevented by Escort; Insurance is lodged as fallback. They also revealed an extra route improvement from Repair plus Escort. I would accept M-I for agreed N-J if you concur, but Janissariat Security refuses M-I and signs M-J. I have now signed M-J, our preferred article, unconditionally; imperial consent remains outstanding. Please pursue N-J or N-G and confirm Navigation intentions.",
+          "channel": "guild-note",
+          "to": "GN"
+        }
+      ],
+      "role": "GS",
+      "_source": "GS_03.json",
+      "_role": "GS"
+    },
+    {
+      "messages": [
+        {
+          "to": "JS",
+          "text": "I have signed N-J and support Convoy with your funded Escort. GN initially favoured Repair, but accepts protected Convoy and N-J as a compromise. The Ascendant proposes Convoy and N-J/M-I, reports an unprotected-convoy navigator-loss vision, and lodged Insurance. I argued for M-J and its cheaper escort during Partial Rest. Please confirm your Escort recommendation and pursue M-J."
+        },
+        {
+          "to": "GN",
+          "text": "Please join my N-J signature and recommend Convoy: military capacity covers Escort, with lodged Insurance as fallback. Balanced deliveries meet both immediate needs."
+        }
+      ],
+      "phase": "r1-council",
+      "channel": "navigation",
+      "role": "JN",
+      "decision": {
+        "article_sign": true,
+        "proposed_article": "N-J",
+        "operational_preference": "convoy"
+      },
+      "justification": "The note coordinates paid escort protection and reports the constitutional offer without treating imperial proposals as final orders.",
+      "_source": "JN_04.json",
+      "_role": "JN"
+    },
+    {
+      "role": "A",
+      "phase": "r1-council",
+      "channel": "security",
+      "messages": [
+        {
+          "channel": "security",
+          "text": "I enter and initial Escort as my final Security order. I accept N-J/M-J and sign both provisional articles. Janissariat, your one-Force escort with Partial Rest answers the practical case for M-I; I will surrender imperial command to secure a workable peace. Guild, protection preserves Route at 2 on the known effects and prevents the permanent navigator loss. Repair with Escort improves Route, but leaves both Communities and Army at 1. I choose immediate supply and ask both councils to protect the second convoy next round."
+        },
+        {
+          "channel": "navigation-note",
+          "text": "Final imperial Navigation order: CONVOY, initialled A. I have entered and initialled ESCORT at Security; both orders are fully funded. My exact vision conditions: funded Convoy without military Escort or Reserve Insurance loses a navigator; funded Repair plus military Escort gains an additional Route +1. Insurance is my lodged intervention, returning unused if Escort protects this convoy. I sign N-J and M-J now. I surrender imperial authority to secure balanced deliveries, affordable protection and a Charter both institutions can support."
+        }
+      ],
+      "decision": {
+        "navorder": "Convoy",
+        "signM": "M-J",
+        "signN": "N-J",
+        "securityorder": "Escort"
+      },
+      "justification": "Protected immediate supplies avoid the revealed permanent loss. Joint articles can sustain all tracks at 2 or more; ratification takes priority over retaining imperial command.",
+      "_source": "A_04.json",
+      "_role": "A"
+    },
+    {
+      "role": "GN",
+      "phase": "r1-council",
+      "channel": "navigation",
+      "messages": [
+        {
+          "to": "JN",
+          "text": "I SIGN N-J unconditionally. Guild discretion remains my preference, but balanced deliveries, our shared veto and the agreed M-J escort arrangement make joint navigation a worthwhile settlement. I acknowledge the Ascendant's final Convoy directive and confirmed funded military Escort, with Insurance lodged as fallback. I support this protected delivery. Route recovery remains unfinished business: protection prevents deterioration but does not itself improve reliability. Next round we must examine the resulting public tracks and any disclosed vision before choosing capacity and orders; I am not promising another Full Service commitment in advance."
+        },
+        {
+          "to": "GS",
+          "channel": "guild-note",
+          "text": "I have signed N-J, securing our acceptable navigation settlement alongside your M-J signature and the Ascendant's consent to both. The final imperial orders are funded Convoy and military Escort. Route recovery remains our next-round concern; no future commitment has been promised."
+        }
+      ],
+      "decision": {
+        "navigation_order_acknowledged": "convoy",
+        "navigation_order_supported": true,
+        "article": "N-J",
+        "article_sign": true
+      },
+      "justification": "Confirmed protection addresses the revealed navigator-loss risk; joint navigation secures Guild consent and civilian deliveries, while joint military authority offers affordable future escorts.",
+      "_source": "GN_04.json",
+      "_role": "GN"
+    },
+    {
+      "role": "F",
+      "phase": "r1-resolution",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "Council bell. The Ascendant's final, initialled orders are Convoy and Escort, both valid under interim authority. Navigation pays 2 of its 3 committed Navigators; Security pays 2 of its 3 committed Force. Each pool leaves one capacity unused. The convoy delivers Communities +1 and Army +1. The funded military Escort protects it, so there is no ordinary Route loss and no navigator is lost. A further fixed consequence now resolves: the escorted delivery earns public confidence, adding another Communities +1. That consequence applies although its vision was not selected. No Charter bonus applies during interim rule. Route remains 2, Communities rises from 2 to 4, and Army rises from 2 to 3."
+        },
+        {
+          "text": "The lodged Insurance does not trigger because a military Escort protects the funded convoy. The Reserve returns unused, and that intervention expires. The N-J proposal has GN, JN and Ascendant signatures; M-J has GS, JS and Ascendant signatures. Both proposals are valid and begin in round two: each operational order needs both delegates' initials; military Escort costs 1 Force, and Requisition is forbidden. These are provisional articles, still requiring final ratification. Use the remaining discussion time for negotiations; it creates no further actions this round."
+        }
+      ],
+      "mechanics": {
+        "round": 1,
+        "bell": "20:00",
+        "before": {
+          "Route": 2,
+          "Communities": 2,
+          "Army": 2
+        },
+        "authority_used": {
+          "navigation": "interim",
+          "military": "interim"
+        },
+        "commitments": {
+          "guild": "full",
+          "janissariat": "mobilise",
+          "valid": true
+        },
+        "orders": {
+          "navigation": {
+            "order": "Convoy",
+            "authorised_by": [
+              "A"
+            ],
+            "valid": true,
+            "funded": true,
+            "cost": 2,
+            "pool": 3,
+            "paid": 2,
+            "unused": 1
+          },
+          "security": {
+            "order": "Escort",
+            "authorised_by": [
+              "A"
+            ],
+            "valid": true,
+            "funded": true,
+            "cost": 2,
+            "pool": 3,
+            "paid": 2,
+            "unused": 1
+          }
+        },
+        "protection": "military Escort",
+        "deltas": [
+          {
+            "cause": "Guild Full Service",
+            "Route": 0,
+            "Communities": 0,
+            "Army": 0
+          },
+          {
+            "cause": "Janissariat Mobilise",
+            "Route": 0,
+            "Communities": 0,
+            "Army": 0
+          },
+          {
+            "cause": "R1 interim Convoy cargo",
+            "Route": 0,
+            "Communities": 1,
+            "Army": 1
+          },
+          {
+            "cause": "Military Escort protects convoy; no ordinary Route loss",
+            "Route": 0,
+            "Communities": 0,
+            "Army": 0
+          },
+          {
+            "cause": "R1 hidden consequence: funded Convoy plus military Escort earns confidence",
+            "Route": 0,
+            "Communities": 1,
+            "Army": 0
+          }
+        ],
+        "total_delta": {
+          "Route": 0,
+          "Communities": 2,
+          "Army": 1
+        },
+        "before_clamp": {
+          "Route": 2,
+          "Communities": 4,
+          "Army": 3
+        },
+        "after": {
+          "Route": 2,
+          "Communities": 4,
+          "Army": 3
+        },
+        "unfunded_penalties": 0,
+        "charter_bonus": 0,
+        "reserve": {
+          "lodged": "insurance",
+          "triggered": false,
+          "spent": false,
+          "returned": true,
+          "intervention_expired": true,
+          "available_next_round": 1
+        },
+        "navigator_lost": false,
+        "next_round_capacity": {
+          "Navigators": 3,
+          "Force": 3
+        },
+        "provisional_articles": {
+          "navigation": {
+            "article": "N-J",
+            "signatures": [
+              "GN",
+              "JN",
+              "A"
+            ],
+            "valid": true,
+            "starts_round": 2
+          },
+          "military": {
+            "article": "M-J",
+            "signatures": [
+              "GS",
+              "JS",
+              "A"
+            ],
+            "valid": true,
+            "starts_round": 2
+          }
+        },
+        "ratified": false
+      },
+      "issues": [],
+      "_source": "F_04.json",
+      "_role": "F"
+    },
+    {
+      "role": "GN",
+      "phase": "r1-free",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "The protected convoy kept every navigator alive and raised Communities to 4 and Army to 3. Route is still only 2. I propose we use the new joint arrangements to address that remaining weakness: Guild Maintenance would commit one Navigator and improve Route; a newly lodged Navigation Bridge could fund the two-Navigator Convoy. Janissariat Partial Rest would supply the one Force now needed for an M-J Escort while also restoring the army. That combination looks promising on the printed rules, but needs fresh faction decisions, an Ascendant reserve commitment and any relevant warning before we lock it. Without a confirmed bridge I will not endorse an unfunded convoy; funded Repair remains an alternative. For the final Charter, Guild discretion still appeals, but I favour carrying N-J and M-J forward if joint decisions work: balanced deliveries, Guild consent, cheap escorts and protection against requisition. These are proposals, not next-round signatures or commitments."
+        }
+      ],
+      "proposal": {
+        "binding": false,
+        "guild_commitment": "maintenance",
+        "navigation_order": "convoy",
+        "ascendant_intervention_requested": "bridge navigation",
+        "janissariat_commitment_suggested": "partial rest",
+        "security_order": "escort",
+        "fallback_for_discussion": "full service with repair",
+        "preferred_final_package": [
+          "N-J",
+          "M-J"
+        ]
+      },
+      "justification": "Maintenance with a reserve-funded protected convoy could improve route reliability while preserving civilian supply, army condition and all navigators; all choices require fresh agreement.",
+      "_source": "GN_05.json",
+      "_role": "GN"
+    },
+    {
+      "role": "JS",
+      "phase": "r1-free",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "The army is supplied, the settlements have confidence, and no navigator was lost. Our coordinated Escort was worthwhile. JN, your message reached me: I supported Escort and signed M-J, and both joint articles are now provisionally agreed. For round two I propose Partial Rest, committing the one Force required for an M-J Escort while allowing troops to recover. With a funded balanced Convoy, the printed effects would leave Army and Communities at four and protect Route at two, before any further hidden consequence. I ask the Guild to plan enough Navigation capacity for that convoy and the Ascendant to use foresight to test the risks. Repair deserves consideration if new information changes the balance, but we should not abandon reliable supply merely because the settlements currently have full stores. My preferred final Charter remains N-J/M-J: shared passage, balanced deliveries and military deployments requiring both institutions. These are intentions for discussion; our next commitments and council signatures must still be made."
+        }
+      ],
+      "justification": "The successful escorted convoy supports retaining joint authority; Partial Rest can now fund protection and improve army readiness.",
+      "_source": "JS_03.json",
+      "_role": "JS"
+    },
+    {
+      "role": "A",
+      "phase": "r1-free",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "We preserved every navigator, supplied the army and restored civilian confidence. Route 2 remains our weakest measure. Joint authority now gives both institutions responsibility for the next delivery. My preferred final Charter is N-J/M-J if its trial delivers a workable peace. I gave up imperial command because affordable protection and shared consent offered more than insisting on my own power. Next round, Partial Rest can supply the one Force needed for Escort while improving Army. Guild Maintenance, combined with my Bridge Navigation reserve, could fund Convoy and improve Route as well. That looks promising, but I will inspect my next vision before lodging an intervention, and these are intentions rather than commitments. If that bridge is not available, Full Service is needed to fund the convoy. Please coordinate that decision before the faction bell; afterwards neither promises nor authority can create missing capacity."
+        }
+      ],
+      "justification": "Publicly supports the successful joint settlement and identifies a possible funded convoy with maintenance, while preserving the ability to respond to the next selected vision.",
+      "_source": "A_05.json",
+      "_role": "A"
+    },
+    {
+      "phase": "r1-free",
+      "role": "GS",
+      "proposal": {
+        "preferred_package": [
+          "N-J",
+          "M-J"
+        ],
+        "support": "Maintenance, bridged Convoy, funded Escort, subject to coordination and disclosed warning",
+        "binding": false
+      },
+      "channel": "public",
+      "messages": [
+        {
+          "text": "I support exploring that package. Maintenance plus a bridged Convoy and our one-Force joint Escort could raise Route while preserving the settlements and every navigator. I will press for the Escort if the convoy is funded, but we need the Ascendant to commit Bridge Navigation before the faction bell: Insurance cannot repair a funding shortage. Please share the relevant round-two warning and its exact trigger before we lock choices. Without the bridge, Full Service with Repair is our practical route-recovery alternative, with Security chosen after considering its civilian cost. N-J and M-J have secured meaningful Guild consent and protection against requisition. I favour retaining that package if this round proves it can work; I am not giving final Charter approval yet."
+        }
+      ],
+      "_source": "GS_04.json",
+      "_role": "GS"
+    },
+    {
+      "decision": {
+        "preferred_final_package": [
+          "N-J",
+          "M-J"
+        ],
+        "binding": false,
+        "operational_preference": "convoy"
+      },
+      "phase": "r1-free",
+      "channel": "public",
+      "justification": "The proposed combination improves route maintenance and army recovery while preserving balanced deliveries.",
+      "messages": [
+        {
+          "text": "I support testing N-J/M-J again and carrying it into the final settlement if we can agree. GN, Maintenance plus a newly lodged Navigation Bridge addresses Route without sacrificing the final delivery; our Partial Rest can provide the one-Force Escort. The previous Insurance has expired, so we must see the new bridge confirmed before relying on it. Ascendant, please share the selected warning and your reserve decision before faction commitments lock. Without that bridge, I ask the Guild for Full Service so our joint convoy remains affordable. I favour a protected Convoy, subject to that funding and any new evidence. This discussion does not itself commit tokens or initial council orders."
+        }
+      ],
+      "role": "JN",
+      "_source": "JN_05.json",
+      "_role": "JN"
+    },
+    {
+      "role": "GS",
+      "phase": "r2-faction",
+      "decision": {
+        "fallback_proposal": "full",
+        "constraints": [
+          "Confirm Bridge Navigation before signing Maintenance",
+          "Confirm funded Escort for intended Convoy",
+          "Consider any disclosed round-two vision before commitment"
+        ],
+        "sign": false,
+        "proposed_commitment": "maintenance"
+      },
+      "justification": "Maintenance achieves route improvement only if the coordinated operational package remains funded and protected.",
+      "messages": [
+        {
+          "text": "Your Maintenance proposal is my preference if Bridge Navigation is confirmed for this round and Security can fund the joint Escort. It could achieve our Route target without sacrificing supply. I am not signing Maintenance yet: with only one Navigator committed, a missing bridge would turn our intended convoy into an unfunded closure. Let us obtain the Ascendant intervention and warning, then sign a definite choice before the bell. If bridge support is unavailable, I favour signing Full Service and negotiating Repair; Communities at 4 gives us room to recover the route, although Security Rest would cost another civilian step. I support retaining N-J/M-J provisionally, with final approval reserved for the Ceremony."
+        }
+      ],
+      "channel": "guild",
+      "_source": "GS_05.json",
+      "_role": "GS"
+    },
+    {
+      "decision": {
+        "preferred_final_package": [
+          "N-J",
+          "M-J"
+        ],
+        "sign": true,
+        "commitment": "partial",
+        "operational_preference": "convoy"
+      },
+      "phase": "r2-faction",
+      "channel": "janissariat",
+      "justification": "Partial Rest restores Army while supplying the full cost of an M-J escort.",
+      "messages": [
+        {
+          "text": "JS, I SIGN Partial Rest: commit one Force and gain the Army recovery bonus. M-J now makes that sufficient for Escort; mobilisation buys no useful extra legal option. My signature commits our faction choice if you also sign, but does not authorise either council order. I will seek Convoy with confirmed funding: Guild Maintenance needs the newly lodged Navigation Bridge, otherwise Full Service. Please seek the joint Escort signature once convoy funding is clear. If new foresight makes Repair preferable, consult me before the council bell; the one Force still leaves our legal options intact. I continue to support N-J/M-J for the Ceremony, with final faction assent still to be agreed."
+        }
+      ],
+      "role": "JN",
+      "_source": "JN_06.json",
+      "_role": "JN"
+    },
+    {
+      "role": "A",
+      "phase": "r2-faction",
+      "channel": "communion",
+      "messages": [
+        {
+          "text": "I choose the round-two Navigation vision. Both factions are considering a protected convoy with Maintenance and my Navigation Bridge. Route is our weakest track, and I need to test the corridor risks before locking that intervention. Please show me this selected vision; I will decide the reserve after reading it."
+        }
+      ],
+      "decision": {
+        "vision": "Navigation"
+      },
+      "justification": "The intended use of the reserve is in Navigation, and route reliability is the least secure part of the proposed coordinated delivery.",
+      "_source": "A_06.json",
+      "_role": "A"
+    },
+    {
+      "role": "F",
+      "phase": "r2-faction",
+      "channel": "communion",
+      "to": [
+        "A"
+      ],
+      "messages": [
+        {
+          "to": "A",
+          "text": "V2-N | Round two: Navigation\nYou see cargo tumbling into the dark. Another vision shows old feeder routes opening while the main corridor is repaired.\nIf opening Route is 0 or 1, and the final funded Convoy has neither military Escort nor Reserve Insurance: lose all convoy cargo benefits. Keep its ordinary Route loss. This causes no new Navigator loss.\nIf opening Route is 3 or 4 and the final funded order is Repair: Communities gains an additional +1.\nOpening Route is the value before this round's faction choices. Maintenance this round does not change that test."
+        }
+      ],
+      "mechanics": {
+        "vision": "V2-N",
+        "disclosed_to": [
+          "A"
+        ]
+      },
+      "issues": [],
+      "_source": "F_05.json",
+      "_role": "F"
+    },
+    {
+      "role": "JS",
+      "phase": "r2-faction",
+      "channel": "janissariat",
+      "messages": [
+        {
+          "channel": "janissariat",
+          "to": "JN",
+          "text": "I SIGN Partial Rest: commit one Force, with the Army recovery bonus. You and I now agree the concrete faction commitment. M-J makes this enough for Escort and forbids Requisition, so further mobilisation would forgo recovery without adding a legal option. I will seek the Guild delegate's joint Escort signature once your convoy is funded. Maintenance plus a confirmed Navigation Bridge is an attractive improvement on Full Service; I agree that an unconfirmed bridge cannot fund our plans. Please relay any new warning affecting the convoy or a proposed switch to Repair. Our Charter preference remains N-J/M-J, with final assent reserved for the Ceremony."
+        },
+        {
+          "channel": "public",
+          "to": "all",
+          "text": "JN and I have both signed Partial Rest: one Force will be committed, sufficient for the M-J Escort. I intend to support Escort for a funded Convoy, subject to any new warning. Guild Maintenance still requires the Ascendant to lodge Bridge Navigation before the faction bell. These statements confirm our faction signatures and operational intention; the Security order still needs both council delegates' initials."
+        }
+      ],
+      "decision": {
+        "commitment": "partial",
+        "sign": true,
+        "committed_force": 1,
+        "preferred_order": "escort",
+        "preferred_final_package": [
+          "N-J",
+          "M-J"
+        ]
+      },
+      "justification": "Partial Rest provides the entire joint-escort cost while restoring army readiness; convoy funding remains a separate requirement.",
+      "_source": "JS_04.json",
+      "_role": "JS"
+    },
+    {
+      "role": "A",
+      "phase": "r2-faction",
+      "channel": "communion",
+      "messages": [
+        {
+          "channel": "communion",
+          "text": "I lodge Bridge Navigation for round two. Please lock that intervention at the faction bell."
+        },
+        {
+          "channel": "public",
+          "text": "I have lodged Bridge Navigation. It supplies exactly one missing Navigator to a legal paid Navigation order; Maintenance can therefore support a funded Convoy if both Navigation delegates agree. My selected vision says a funded convoy loses all cargo benefits only when opening Route is 0 or 1 and it has neither military Escort nor Insurance; no new navigator loss occurs. Repair earns an extra Communities point only when opening Route is 3 or 4. Our opening Route is 2, so neither condition applies, and Maintenance does not alter that opening test. Please still fund the one-Force Escort to prevent ordinary Route loss. I support the proposed Maintenance, Partial Rest and protected Convoy combination. I have no Security vision and cannot certify its hidden consequences."
+        }
+      ],
+      "decision": {
+        "reserve": "bridgeN"
+      },
+      "justification": "The revealed Navigation consequences do not trigger at opening Route 2. Bridging Maintenance enables route improvement and balanced convoy supply alongside the proposed affordable military escort.",
+      "_source": "A_07.json",
+      "_role": "A"
+    },
+    {
+      "role": "GN",
+      "phase": "r2-faction",
+      "channel": "guild",
+      "messages": [
+        {
+          "text": "The conditions we sought are now evidenced: the Ascendant has lodged Bridge Navigation, both Janissariat players have signed Partial Rest for one Force, and the disclosed Navigation vision does not penalise this convoy at opening Route 2. I SIGN Maintenance: hold two Navigators for Route improvement and commit one. Please add your signature. We will still need both Navigation initials for Convoy and both Security initials for Escort; the bridge funds our legal one-token shortfall, and Escort prevents the ordinary Route loss. The undisclosed Security consequence remains uncertain, but the funded coordination is sufficient reason to proceed."
+        },
+        {
+          "channel": "public",
+          "to": "all",
+          "text": "I have signed Guild Maintenance following confirmation of the lodged Navigation Bridge and Janissariat capacity. My teammate's signature is still required. I intend to seek the jointly authorised protected Convoy at council; no operational order is locked yet."
+        }
+      ],
+      "decision": {
+        "commitment": "maintenance",
+        "committed_navigators": 1,
+        "sign": true
+      },
+      "justification": "Confirmed reserve support and one-Force escort capacity make Maintenance compatible with funded supply and route improvement; the disclosed Navigation conditions do not trigger at opening Route 2.",
+      "_source": "GN_06.json",
+      "_role": "GN"
+    },
+    {
+      "justification": "Confirmed Navigation Bridge and signed Partial Rest make a protected convoy affordable while Maintenance improves Route.",
+      "messages": [
+        {
+          "to": "GN",
+          "text": "I SIGN Maintenance. The Ascendant has explicitly lodged Bridge Navigation, and both Janissariat delegates have signed Partial Rest, providing the Force required for our joint Escort. The disclosed Navigation warning has no adverse trigger at opening Route 2. This resolves my funding and protection concerns sufficiently to commit one Navigator and gain the maintenance improvement. I will seek and initial Escort at Security when the funded Convoy is coordinated; that remains a council decision. We still lack the Security vision, so this is an informed commitment with some unknown consequences, not a claim of guaranteed success."
+        }
+      ],
+      "phase": "r2-faction",
+      "decision": {
+        "sign": true,
+        "commitment": "maintenance"
+      },
+      "role": "GS",
+      "channel": "guild",
+      "_source": "GS_06.json",
+      "_role": "GS"
+    },
+    {
+      "role": "F",
+      "phase": "r2-faction",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "Faction bell. Both Guild members have signed Maintenance: two Navigators are held back and one is committed. Both Janissariat members have signed Partial Rest: one Force is committed. The Ascendant has lodged Bridge Navigation, as publicly disclosed. All three choices are now locked. No effects have resolved: opening Route is 2, Communities 4 and Army 3. Maintenance's Route improvement and Partial Rest's Army recovery will be added during resolution. N-J and M-J govern this round. Convoy or Repair costs 2 Navigators and requires both Navigation delegates' initials; Bridge Navigation triggers only for a lawful paid order exactly one token short. Escort costs 1 Force and requires both Security delegates' initials. Requisition is forbidden. Missing, invalid or unauthorised orders become Close or Rest without a penalty for invalidity alone; valid but unfunded paid orders also incur Communities -1. The council card's final entry binds at the council bell. The Ascendant may advise but cannot choose either order alone. Articles cannot change during this round."
+        }
+      ],
+      "mechanics": {
+        "round": 2,
+        "bell": "31:00",
+        "opening_state": {
+          "Route": 2,
+          "Communities": 4,
+          "Army": 3
+        },
+        "current_tracks": {
+          "Route": 2,
+          "Communities": 4,
+          "Army": 3
+        },
+        "capacity": {
+          "Navigators": 3,
+          "Force": 3
+        },
+        "navigator_lost": false,
+        "guild": {
+          "choice": "maintenance",
+          "committed_navigators": 1,
+          "held_back": 2,
+          "signatures": [
+            "GN",
+            "GS"
+          ],
+          "valid": true,
+          "pending_delta": {
+            "Route": 1,
+            "Communities": 0,
+            "Army": 0
+          }
+        },
+        "janissariat": {
+          "choice": "partial",
+          "committed_force": 1,
+          "uncommitted": 2,
+          "signatures": [
+            "JN",
+            "JS"
+          ],
+          "valid": true,
+          "pending_delta": {
+            "Route": 0,
+            "Communities": 0,
+            "Army": 1
+          }
+        },
+        "reserve": {
+          "intervention": "bridgeN",
+          "publicly_disclosed": true,
+          "lodged": true,
+          "locked": true,
+          "spent": false,
+          "trigger_checked": false
+        },
+        "authority": {
+          "navigation": "N-J",
+          "military": "M-J"
+        },
+        "required_order_initials": {
+          "navigation": [
+            "GN",
+            "JN"
+          ],
+          "security": [
+            "GS",
+            "JS"
+          ]
+        },
+        "commitments_locked": true,
+        "orders_locked": false,
+        "track_changes_applied": false
+      },
+      "issues": [],
+      "_source": "F_06.json",
+      "_role": "F"
+    },
+    {
+      "role": "GN",
+      "phase": "r2-council",
+      "channel": "navigation",
+      "messages": [
+        {
+          "to": "JN",
+          "text": "I propose CONVOY and initial it GN under N-J. Our one committed Navigator and the locked Bridge Navigation can fund its full cost once you also initial. Maintenance addresses route improvement, while the one-Force military Escort can protect that gain. The disclosed Navigation hazard does not apply at opening Route 2. Please join this order so the last delivery reaches both settlements and army. I am seeking explicit confirmation of the matching Security signatures."
+        },
+        {
+          "channel": "security",
+          "to": [
+            "GS",
+            "JS",
+            "A"
+          ],
+          "text": "I have initialled Convoy at Navigation and requested JN's joint initial. The locked Navigation Bridge covers its one-token shortfall. Please confirm GS and JS initials for the funded one-Force Escort so Maintenance's route improvement is preserved. Inform us before the bell if the Security plan changes or a further warning emerges."
+        }
+      ],
+      "decision": {
+        "navorder": "convoy",
+        "sign": true,
+        "initial": "GN",
+        "authority": "N-J"
+      },
+      "justification": "The locked bridge can fund a jointly authorised convoy; pairing it with the affordable escort preserves maintenance gains and balanced supply.",
+      "_source": "GN_07.json",
+      "_role": "GN"
+    },
+    {
+      "role": "JS",
+      "phase": "r2-council",
+      "channel": "security",
+      "messages": [
+        {
+          "channel": "security",
+          "to": [
+            "GS",
+            "A"
+          ],
+          "text": "I recommend Escort and initial that order as JS. The committed Force covers its full M-J cost. Bridge Navigation is locked, so a jointly authorised Convoy can be funded. The disclosed vision rules out its stated cargo-loss trigger at opening Route two, but Escort still prevents ordinary Route damage, preserving the improvement from Maintenance. Rest would cost civilian confidence; Escort supports our shared plan. GS, please add your initials to Escort. My signature is for this concrete order without an extra condition; if Navigation instead chooses Repair, send a note before the bell so we can reconsider together. I acknowledge that no Security vision has been disclosed and do not assume its hidden consequences."
+        },
+        {
+          "channel": "navigation",
+          "to": [
+            "GN",
+            "JN"
+          ],
+          "text": "I have initialled Escort; its one-Force cost is fully funded. GS must also initial for a valid M-J order. I support your bridged Convoy and ask you to notify us before changing to Repair."
+        }
+      ],
+      "decision": {
+        "security_order": "escort",
+        "sign": true,
+        "initials": "JS",
+        "requires_other_initials": "GS",
+        "conditions": null
+      },
+      "justification": "A funded escort protects the intended convoy and preserves route maintenance while avoiding Rest's civilian cost.",
+      "_source": "JS_05.json",
+      "_role": "JS"
+    },
+    {
+      "role": "A",
+      "phase": "r2-council",
+      "channel": "security",
+      "messages": [
+        {
+          "channel": "security",
+          "text": "I recommend you both initial Escort. Your committed Force pays its full joint-authority cost, and the lodged Navigation Bridge can complete convoy funding. On our known effects, Maintenance and protected supplies would leave Route 3, Communities 4 and Army 4. Rest would spend civilian confidence and expose the convoy to ordinary route loss. My reserve now funds passage; it cannot also insure it. This is the cooperation for which I surrendered command. If it succeeds, I favour ratifying N-J/M-J. I still value imperial coordination, but will not make restored authority the price of peace."
+        },
+        {
+          "channel": "navigation-note",
+          "text": "I recommend Convoy, with both your initials. One committed Navigator plus the locked Bridge Navigation meets its cost. Security has enough Force for Escort under M-J; I am urging both delegates to authorise it. This is advice under our joint Charter, not an imperial directive."
+        }
+      ],
+      "justification": "The locked capacities support a bridged convoy and ordinary funded escort, improving the weakest track while preserving both supply priorities and the negotiated joint constitution.",
+      "_source": "A_08.json",
+      "_role": "A"
+    },
+    {
+      "channel": "navigation",
+      "phase": "r2-council",
+      "justification": "The legal jointly authorised convoy can be fully funded by the committed Navigator and locked reserve bridge; escort confirmation remains pending.",
+      "decision": {
+        "authority": "N-J",
+        "navorder": "convoy",
+        "initial": "JN",
+        "sign": true
+      },
+      "role": "JN",
+      "messages": [
+        {
+          "text": "I join your CONVOY order and initial JN under N-J. Our one Navigator plus the locked Navigation Bridge meets the two-token cost. The disclosed Navigation hazard does not trigger at opening Route 2; the balanced delivery supports both army and settlements. I support the matching one-Force Escort to preserve our maintenance gain. Its affordability and prior support are clear, but I have not yet received both actual Security signatures.",
+          "to": "GN",
+          "channel": "navigation"
+        },
+        {
+          "text": "GN and I have now initialled Convoy under N-J. One Navigator plus the locked Bridge Navigation funds it. Please secure both Escort initials using the committed one Force, and confirm before the bell.",
+          "to": "JS",
+          "channel": "security-note"
+        }
+      ],
+      "_source": "JN_07.json",
+      "_role": "JN"
+    },
+    {
+      "role": "GS",
+      "channel": "security",
+      "phase": "r2-council",
+      "messages": [
+        {
+          "channel": "security",
+          "text": "I initial Escort as GS. Our one committed Force pays its full M-J cost; protecting the planned convoy preserves the Route improvement we committed Maintenance to obtain. JS has initialled the same order, and I add my signature without an extra condition. GN has initialled Convoy and requested the other Navigation initial; I will send confirmation of my Escort signature so that council can complete its own decision. The disclosed Navigation warning does not trigger at opening Route 2. We accept that the undisclosed Security consequences remain unknown. If Navigation changes its plan before the bell, notify us so we can reconsider together."
+        },
+        {
+          "to": [
+            "GN",
+            "JN"
+          ],
+          "channel": "navigation",
+          "text": "GS has now initialled Escort alongside JS under M-J. Its one-Force cost is fully funded. Please complete your joint Convoy order and advise Security before the bell if Navigation changes."
+        }
+      ],
+      "justification": "A funded Escort protects the planned bridged convoy and preserves Maintenance route recovery without the civilian cost of Rest.",
+      "decision": {
+        "sign": true,
+        "conditions": null,
+        "initials": "GS",
+        "requires_other_initials": "JS",
+        "security_order": "escort"
+      },
+      "_source": "GS_07.json",
+      "_role": "GS"
+    },
+    {
+      "role": "F",
+      "phase": "r2-resolution",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "Council bell. GN and JN have both initialled Convoy under N-J; GS and JS have both initialled Escort under M-J. Both orders are valid and locked. Convoy costs 2 Navigators against one committed Navigator: the legal order is exactly one short, so Bridge Navigation triggers, spends the Reserve and supplies the missing capacity. Navigation pays both capacity. The Escort pays its full M-J cost of one Force. No committed capacity remains unused, and neither order incurs an unfunded penalty."
+        },
+        {
+          "text": "Maintenance adds Route +1, Partial Rest adds Army +1, and the round-two N-J convoy delivers Communities +2 and Army +1. The military Escort prevents ordinary convoy Route loss. No round-two hidden consequence triggers. Last round's escorted-delivery confidence bonus does not repeat. Adding all effects to the opening 2 / 4 / 3 gives 3 / 6 / 5 before limits; applying the 0–4 limits once leaves Route 3, Communities 4, Army 4. No navigator has been lost, and the Reserve is now spent permanently. N-J and M-J remain provisional. There are no further orders; use discussion to prepare the Ceremony, where everyone must approve the same complete two-article package."
+        }
+      ],
+      "mechanics": {
+        "round": 2,
+        "bell": "38:00",
+        "before": {
+          "Route": 2,
+          "Communities": 4,
+          "Army": 3
+        },
+        "opening_route_for_hidden_tests": 2,
+        "authority_used": {
+          "navigation": "N-J",
+          "military": "M-J"
+        },
+        "commitments": {
+          "guild": "maintenance",
+          "janissariat": "partial",
+          "valid": true,
+          "guild_signatures": [
+            "GN",
+            "GS"
+          ],
+          "janissariat_signatures": [
+            "JN",
+            "JS"
+          ]
+        },
+        "orders": {
+          "navigation": {
+            "order": "Convoy",
+            "authorised_by": [
+              "GN",
+              "JN"
+            ],
+            "valid": true,
+            "funded": true,
+            "cost": 2,
+            "pool": 1,
+            "bridge_added": 1,
+            "pool_after_bridge": 2,
+            "paid": 2,
+            "unused": 0
+          },
+          "security": {
+            "order": "Escort",
+            "authorised_by": [
+              "GS",
+              "JS"
+            ],
+            "valid": true,
+            "funded": true,
+            "cost": 1,
+            "pool": 1,
+            "paid": 1,
+            "unused": 0
+          }
+        },
+        "protection": "military Escort",
+        "deltas": [
+          {
+            "cause": "Guild Maintenance",
+            "Route": 1,
+            "Communities": 0,
+            "Army": 0
+          },
+          {
+            "cause": "Janissariat Partial Rest",
+            "Route": 0,
+            "Communities": 0,
+            "Army": 1
+          },
+          {
+            "cause": "R2 N-J Convoy cargo",
+            "Route": 0,
+            "Communities": 2,
+            "Army": 1
+          },
+          {
+            "cause": "Military Escort protects convoy; no ordinary Route loss",
+            "Route": 0,
+            "Communities": 0,
+            "Army": 0
+          }
+        ],
+        "total_delta": {
+          "Route": 1,
+          "Communities": 2,
+          "Army": 2
+        },
+        "before_clamp": {
+          "Route": 3,
+          "Communities": 6,
+          "Army": 5
+        },
+        "track_limit": {
+          "minimum": 0,
+          "maximum": 4,
+          "applied_once_after_all_effects": true
+        },
+        "after": {
+          "Route": 3,
+          "Communities": 4,
+          "Army": 4
+        },
+        "unfunded_penalties": 0,
+        "hidden_consequences_triggered": [],
+        "charter_bonus": 0,
+        "reserve": {
+          "lodged": "bridgeN",
+          "triggered": true,
+          "spent": true,
+          "returned": false,
+          "available": 0,
+          "capacity_added_to_navigation": 1
+        },
+        "navigator_lost": false,
+        "provisional_articles": {
+          "navigation": "N-J",
+          "military": "M-J"
+        },
+        "orders_locked": true,
+        "ratified": false
+      },
+      "issues": [],
+      "_source": "F_07.json",
+      "_role": "F"
+    },
+    {
+      "messages": [
+        {
+          "text": "Route 3, thriving settlements, a supplied army and every navigator home: this meets the Guild priorities that brought me to Security. I want N-J and M-J together at the Ceremony. My preference for joint military authorisation was confirmed, not converted: its cheap Escort let the Janissariat rest troops while protecting our route, and its ban on requisition gave civilians a safeguard. I am more confident in joint Navigation now that both delegates completed a funded decision; Guild discretion still appeals, but I do not need sole control to protect our people. The imperial Bridge mattered too. This success does not prove joint consent can never deadlock, nor does it replenish the spent reserve. It shows that sharing authority worked when we exchanged specific commitments before signing. This is my proposed whole package, not my final Charter signature."
+        }
+      ],
+      "phase": "r2-free",
+      "justification": "The tested joint package achieved Guild route and safety priorities while preserving civilian supply and providing meaningful institutional consent.",
+      "proposal": {
+        "navigation": "N-J",
+        "final_signature": false,
+        "military": "M-J",
+        "binding": false
+      },
+      "channel": "public",
+      "role": "GS",
+      "_source": "GS_08.json",
+      "_role": "GS"
+    },
+    {
+      "role": "JS",
+      "phase": "r2-free",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "Army four, Communities four and Route three meet our practical aims. Joint command let us rest troops and still protect deliveries with one Force; our council reached a decision without sacrificing either institution's consent. This confirms my preference for N-J/M-J rather than changing it. Military autonomy appealed as an alternative, but shared command has now demonstrated a useful bargain: we give up unilateral deployment and requisition, and gain affordable escorts alongside a say over army cargo. We also owe this round's funding to the Ascendant's reserve. It is spent, so Maintenance plus Convoy cannot simply be repeated without another source of capacity; the Charter itself creates none. At the Ceremony I want the complete N-J/M-J package, preserving balanced supplies and institutional consent. That is my negotiating position now, not a final signature or a claim that JN has already authorised our faction's assent."
+        }
+      ],
+      "justification": "The trial confirmed that joint authority can meet military and civilian goals; final ratification should preserve the whole tested package.",
+      "_source": "JS_06.json",
+      "_role": "JS"
+    },
+    {
+      "role": "A",
+      "phase": "r2-free",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "We reach the Ceremony with Route 3, Communities 4, Army 4 and every navigator alive. I want N-J and M-J ratified together. I began by seeking an imperial article; this trial showed that the factions could agree, commit useful capacity and deliver supplies without my casting vote. My concession is real: neither operational power remains mine. I accept it because a workable settlement is my first duty. The reserve filled a funding gap so Maintenance and delivery could happen together. It did not avert a revealed round-two disaster: neither Navigation vision condition applied at our opening Route. Nor can we treat the spent reserve as recurring capacity. Joint authority still requires funded commitments and agreement. We have demonstrated that once, and I am prepared to entrust the peace to it. My final signature will be for the complete N-J/M-J package at the Ceremony."
+        }
+      ],
+      "justification": "The joint trial met my track objective; ratifying its complete package takes priority over recovering imperial powers, while acknowledging the limited contribution of the one-use reserve.",
+      "_source": "A_09.json",
+      "_role": "A"
+    },
+    {
+      "role": "GN",
+      "phase": "r2-free",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "Route 3 with every navigator safe meets our first priority, and Communities 4 shows that maintenance need not abandon supply. I began by preferring Guild discretion. Having exercised joint Navigation, I now favour ratifying N-J with M-J: we retained meaningful consent, agreed our convoy and secured affordable protection. The bargain does constrain us; another delegate can block passage. Yet this trial gives me reason to accept that risk instead of reopening the settlement for sole control. We must also recognise the Ascendant's bridge: the reserve is spent, so future maintenance cannot fund a convoy on this pattern without fresh capacity. This is my preferred complete package for the Ceremony, not a signature yet."
+        }
+      ],
+      "proposal": {
+        "navigation": "N-J",
+        "military": "M-J",
+        "binding": false,
+        "final_signature": false
+      },
+      "justification": "Successful joint authorisation has shifted my preference from sole Guild discretion to the tested joint package, which met route, safety and civilian priorities.",
+      "_source": "GN_08.json",
+      "_role": "GN"
+    },
+    {
+      "messages": [
+        {
+          "text": "Army four and Communities four meet our immediate priorities, with Route improved to three. At Navigation, joint consent kept army cargo in the convoy and let the Guild protect its own interests. At Security, the cheaper Escort made troop recovery compatible with protecting that delivery. I therefore favour retaining N-J/M-J. We concede unilateral military action and requisition; we gain a guaranteed voice over passage and deployments. The Ascendant supplied the missing Navigator capacity this round, and that reserve is spent. Future agreement will still need real commitments. I see no reason to replace these tested rights with sole Guild or imperial control at the Ceremony."
+        }
+      ],
+      "justification": "Joint authority supported army recovery, civilian supply and balanced transport while meeting the shared Janissariat priorities.",
+      "channel": "public",
+      "role": "JN",
+      "phase": "r2-free",
+      "decision": {
+        "preferred_package": [
+          "N-J",
+          "M-J"
+        ],
+        "final_signature": false
+      },
+      "_source": "JN_08.json",
+      "_role": "JN"
+    },
+    {
+      "role": "GN",
+      "phase": "ceremony",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "I propose the complete Charter package N-J Joint authorisation for Navigation and M-J Joint authorisation for Military. I SIGN this package as GN, approving both printed articles without additional conditions. The Guild gains protected consent over passage, balanced deliveries and a voice over deployments; we concede sole navigation discretion and accept the risk of deadlock. Cheap escorts and the prohibition on requisition make that bargain valuable to the communities we serve. Route 3 and no navigator lost demonstrate that our practical aims survived shared authority. My approval is my own Guild-member signature: GS must independently approve the same package before the Guild signs, and the Janissariat and Ascendant must decide for themselves."
+        }
+      ],
+      "decision": {
+        "navigation": "N-J",
+        "military": "M-J",
+        "sign": true,
+        "initial": "GN",
+        "approval_scope": "own Guild member approval of complete package",
+        "conditions": []
+      },
+      "justification": "The complete joint package protects Guild consent and civilian interests while preserving cooperation that achieved the Guild's principal practical objectives.",
+      "_source": "GN_09.json",
+      "_role": "GN"
+    },
+    {
+      "messages": [
+        {
+          "text": "I propose the complete printed package N-J, Joint authorisation for Navigation, and M-J, Joint authorisation for the Military. I SIGN JN as my approval of that entire package, without additional conditions. It secures military consent, balanced army deliveries and cheaper escorts while protecting civilian stores from requisition. Our army ends at four and the settlements at four; these powers give both institutions a stake in sustaining that peace. JS must give their own approval before the Janissariat faction signature is complete. My approval applies to this package and would need renewing if either article changes."
+        }
+      ],
+      "justification": "The complete joint package secures the Janissariat constitutional priority while preserving balanced supplies and civilian cooperation.",
+      "channel": "public",
+      "role": "JN",
+      "phase": "ceremony",
+      "decision": {
+        "approval_scope": "own Janissariat member approval",
+        "navigation": "N-J",
+        "package": [
+          "N-J",
+          "M-J"
+        ],
+        "military": "M-J",
+        "sign": true,
+        "initial": "JN"
+      },
+      "_source": "JN_09.json",
+      "_role": "JN"
+    },
+    {
+      "decision": {
+        "conditions": [],
+        "sign": true,
+        "approval_scope": "own Guild member approval of complete package",
+        "military": "M-J",
+        "initial": "GS",
+        "navigation": "N-J"
+      },
+      "phase": "ceremony",
+      "messages": [
+        {
+          "text": "I SIGN the complete N-J Navigation and M-J Military Charter package as GS, without additional conditions. Joint consent protected our navigators and gave the Guild a direct say over the escorts on which their safety depends. Affordable escorts and the prohibition on requisition serve the settlements as well as our institution. We concede sole navigation discretion and accept that disagreement can halt passage or deployments. I accept that cost because the tested arrangement achieved Route 3, Communities 4 and no navigator lost while supplying the army. GN has independently approved the same package; this records my own approval of both printed articles. The other faction and the Ascendant must provide their own signatures."
+        }
+      ],
+      "justification": "The complete joint Charter secures Guild consent, civilian protection and affordable convoy escorts in exchange for sharing authority.",
+      "role": "GS",
+      "channel": "public",
+      "_source": "GS_09.json",
+      "_role": "GS"
+    },
+    {
+      "role": "JS",
+      "phase": "ceremony",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "I SIGN JS for the complete printed Charter package N-J, Joint authorisation for Navigation, and M-J, Joint authorisation for the Military, without additional conditions. JN has independently approved that same package; this supplies my own Janissariat member approval. We secure consent over deployments and passage, balanced supplies and affordable escorts. We concede unilateral military action and requisition. Army four and Communities four show that protecting the settlements was compatible with restoring our force. I accept the risk that joint authority can deadlock and the obligation to negotiate real future commitments. My signature covers this entire package only; changing either article requires my renewed approval. The Guild and Ascendant must provide their own approvals."
+        }
+      ],
+      "decision": {
+        "navigation": "N-J",
+        "military": "M-J",
+        "package": [
+          "N-J",
+          "M-J"
+        ],
+        "sign": true,
+        "initial": "JS",
+        "approval_scope": "own Janissariat member approval of complete package",
+        "conditions": []
+      },
+      "justification": "The tested joint package meets our constitutional objective while supporting army readiness, civilian confidence and balanced supply.",
+      "_source": "JS_07.json",
+      "_role": "JS"
+    },
+    {
+      "role": "A",
+      "phase": "ceremony",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "I SIGN A for the complete printed Charter: N-J Joint authorisation for Navigation and M-J Joint authorisation for Military, without additional conditions. The empire reaches this settlement with Route 3, Communities 4, Army 4 and no navigator lost. I secured a workable peace and surrender both imperial operational powers. My preferred secondary outcome was to retain one; insisting on it now would risk agreement without improving conditions for the army or the settlements. Shared consent proved capable of delivering both. My signature approves this whole package only and must be renewed if either article changes. Each faction must complete its own approval."
+        }
+      ],
+      "decision": {
+        "package": [
+          "N-J",
+          "M-J"
+        ],
+        "conditions": [],
+        "navigation": "N-J",
+        "initial": "A",
+        "approval_scope": "Ascendant approval of the complete two-article package",
+        "military": "M-J",
+        "sign": true
+      },
+      "justification": "The joint package preserves the successful settlement and satisfies my primary practical objective; I accept losing imperial authority to secure ratification.",
+      "_source": "A_10.json",
+      "_role": "A"
+    },
+    {
+      "role": "F",
+      "phase": "ceremony",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "The Ceremony deadline has arrived. The current complete package is N-J, Joint authorisation for Navigation, and M-J, Joint authorisation for Military. GN and GS approve the entire package for the Guild; JN and JS approve it for the Janissariat; the Ascendant approves it as A. All five approvals are current, unconditional and for the same two printed articles. The Charter is RATIFIED. Both Navigation delegates must authorise passage orders; both Security delegates must authorise military orders. The Ascendant retains no unilateral operational authority in either domain under these articles."
+        },
+        {
+          "text": "The empire ends at Route 3, Communities 4, Army 4: the corridor is dependable, the settlements are supplied and broadly cooperative, and the force is supplied and ready for its next purpose. No navigator was lost. The Reserve was spent bridging the final convoy. Signature changes none of those facts. The Guild secured consent over navigation, civilian deliveries and its practical route and navigator aims, while conceding sole discretion. The Janissariat secured institutional consent and a recovered army, while conceding unilateral action and requisition. The Ascendant secured a ratified peace with all tracks above 2, but did not achieve the separately stated secondary preference of retaining one imperial operational power. There is no universal points total or overall winner."
+        }
+      ],
+      "mechanics": {
+        "deadline": "54:00",
+        "ratified": true,
+        "package": {
+          "navigation": "N-J",
+          "military": "M-J"
+        },
+        "signatures": {
+          "Guild": [
+            "GN",
+            "GS"
+          ],
+          "Janissariat": [
+            "JN",
+            "JS"
+          ],
+          "Ascendant": [
+            "A"
+          ]
+        },
+        "validation": {
+          "one_article_per_category": true,
+          "all_five_approve_identical_complete_package": true,
+          "conditions": [],
+          "withdrawals": [],
+          "superseding_package": false,
+          "approvals_current": true
+        },
+        "final_state": {
+          "Route": 3,
+          "Communities": 4,
+          "Army": 4,
+          "navigator_lost": false,
+          "reserve_used": true,
+          "reserve_remaining": 0
+        },
+        "ceremony_track_delta": {
+          "Route": 0,
+          "Communities": 0,
+          "Army": 0
+        },
+        "ceremony_resource_delta": {
+          "Navigators": 0,
+          "Force": 0,
+          "Reserve": 0
+        },
+        "final_authority": {
+          "navigation": "both Navigation delegates",
+          "military": "both Security delegates"
+        },
+        "goal_assessment_basis": "Declared aims and concessions in supplied player contributions; no universal score or winner is assigned.",
+        "goal_assessment": {
+          "Guild": {
+            "practical": "Route 3 and no navigator lost; stated practical aims achieved.",
+            "constitutional": "N-J secures Guild consent and balanced civilian deliveries.",
+            "secondary_or_preferred_outcome": "Sole navigation discretion N-G was preferred and conceded; N-J was explicitly accepted."
+          },
+          "Janissariat": {
+            "practical": "Army 4 and Communities 4; readiness and civilian cooperation secured.",
+            "constitutional": "M-J secures the stated institutional military-consent objective, with N-J balanced deliveries.",
+            "concession": "No unilateral military action; requisition forbidden."
+          },
+          "Ascendant": {
+            "primary": "Ratification achieved with Route 3, Communities 4 and Army 4.",
+            "secondary": "Not achieved: neither N-I nor M-I retained; both unilateral imperial operational powers surrendered."
+          }
+        }
+      },
+      "issues": [],
+      "_source": "F_08.json",
+      "_role": "F"
+    },
+    {
+      "role": "F",
+      "phase": "debrief",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "No invented ruling was needed for the submitted decisions. The useful friction was separating intentions from signed commitments, joint council orders and whole-package Charter approvals; players repeatedly sought confirmation across tables. Joint authority affected play concretely: M-J's one-Force Escort let Partial Rest fund protection, while Maintenance depended on the Ascendant's one-use Navigation Bridge. The unseen round-one confidence bonus resolved correctly, and the reserve returned in round one before triggering in round two. Final track limits absorbed two Communities points and one Army point, so the public endpoint conceals some surplus supply. This cooperative run did not exercise deadlock, invalid orders, funding failure, navigator loss, harmful hidden consequences, failed ratification or changed-package signatures. It also does not establish human reading load, whether real simultaneous tables can exchange these confirmations within seven minutes, or overall balance. My priority for the next test is one timed human session with physically separated councils: record whether both tables obtain lawful orders and separate article signatures by the actual bell without facilitator prompting."
+        }
+      ],
+      "mechanics": {
+        "invented_rulings": 0,
+        "round_one_hidden_effect_triggered": "Convoy plus military Escort: Communities +1",
+        "reserve_round_one": "Insurance untriggered and returned",
+        "reserve_round_two": "Bridge Navigation triggered for exactly one-token shortfall",
+        "round_two_joint_order_signatures": {
+          "Navigation": [
+            "GN",
+            "JN"
+          ],
+          "Security": [
+            "GS",
+            "JS"
+          ]
+        },
+        "round_two_before_clamp": {
+          "Route": 3,
+          "Communities": 6,
+          "Army": 5
+        },
+        "final_tracks": {
+          "Route": 3,
+          "Communities": 4,
+          "Army": 4
+        },
+        "human_timing_tested": false,
+        "balance_established": false,
+        "priority_next_test": "Timed human play with separated councils and actual signature deadlines"
+      },
+      "issues": [],
+      "_source": "F_09.json",
+      "_role": "F"
+    },
+    {
+      "role": "GN",
+      "phase": "debrief",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "We achieved Route 3, lost no navigator, kept Communities at 4 and ratified Guild consent over navigation. I initially preferred N-G; I ended preferring N-J with M-J. The decisive experience was round two: JN joined my Convoy initial, and Security funded protection with one Force while our Maintenance improved the route. Shared authority delivered a workable bargain, though this cooperative case did not test deadlock. Security's joint Escort decision mattered most across tables; without it the convoy would have consumed our maintenance gain. The Ascendant's bridge made the convoy affordable. Both Guild members contributed: I proposed the maintenance-and-bridge plan and negotiated Navigation; GS challenged my initial repair preference by identifying civilian losses and secured military coordination. For the next test, add a written cross-table confirmation slip recording intended order, available capacity and signatures still required. Test it with human players and real bells: agent-generated exchanges demonstrate a possible sequence, not human reading speed, bargaining behaviour or game balance."
+        }
+      ],
+      "justification": "The debrief distinguishes observed cooperation and individual contributions from untested human timing, deadlock and balance.",
+      "_source": "GN_10.json",
+      "_role": "GN"
+    },
+    {
+      "channel": "public",
+      "messages": [
+        {
+          "text": "We achieved Army four, Communities four and ratified joint military authority. I began favouring N-J/M-J as a workable package, while leaving M-A available for bargaining. Round two confirmed that preference: my Convoy signature preserved balanced cargo, while the one-Force Escort let our faction recover troops through Partial Rest. The Security decision to sign that Escort mattered most across tables; without it our maintenance gain would have been consumed by ordinary convoy Route loss. Both Janissariat members contributed: I negotiated navigation and confirmed funding, while JS pursued military consent and escort coordination. Foresight clarified risks, but the disclosed second-round Navigation conditions did not actually trigger. This cooperative agent run cannot establish how humans handle simultaneous conversations, deadlines or mistrust; our orderly exchanges probably understate that burden. For the next test, add a simple written cross-table confirmation slip with fields for order, funding and actual initials, then test it under a real council timer."
+        }
+      ],
+      "phase": "debrief",
+      "role": "JN",
+      "_source": "JN_10.json",
+      "_role": "JN"
+    },
+    {
+      "role": "A",
+      "phase": "debrief",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "My primary aim succeeded: a ratified Charter and tracks 3/4/4. My secondary aim failed: I retained neither imperial article. I initially offered N-J/M-I. JS refused M-I and explained that Partial Rest under M-J could fund an escort while recovering the army. That concrete alternative persuaded me to accept N-J/M-J; its successful second-round use confirmed the decision. Foresight made the first convoy risk explicit and helped justify military protection, but Escort was already attractive; I cannot claim the vision alone saved a navigator. The second Navigation vision ruled out its own two conditions at Route 2, offering reassurance rather than a difficult choice. Insurance never triggered. The Navigation Bridge separately enabled Maintenance and a funded convoy; it did useful work without averting a revealed disaster. After delegation I still influenced commitments, disclosed information, lodged the reserve and held Charter assent, but could only advise on orders. For the next test, add an optional public reserve-confirmation slip so factions can distinguish a proposed bridge from a lodged one before locking commitments."
+        }
+      ],
+      "justification": "Distinguishes achieved peace from lost imperial authority, assesses information separately from reserve capacity, and proposes a small coordination aid addressing repeated confirmation requests.",
+      "_source": "A_11.json",
+      "_role": "A"
+    },
+    {
+      "justification": "The debrief distinguishes a confirmed military preference from increased preference for joint Navigation and identifies a concrete coordination aid to test.",
+      "messages": [
+        {
+          "text": "We achieved our shared goals: Route 3, no navigator lost, Communities 4 and ratified Guild consent over Navigation. I began preferring M-J and ended there; that preference was confirmed when Partial Rest funded its one-Force Escort while the army recovered. For Navigation, I moved from seeking Guild discretion with joint consent acceptable to preferring the tested N-J/M-J package after both councils authorised the final convoy and protection. The other-table decision that mattered most was Navigation completing Convoy: our Escort and maintenance plan depended on it. The Ascendant's Navigation Bridge made that order affordable. I contributed the civilian-loss warning about Repair plus Rest, negotiated military consent and obtained protection at Security. GN developed the Maintenance-and-Bridge proposal and secured Navigation agreement; neither seat was redundant. For the next test, add a simple cross-table status slip recording proposed order, funding and actual initials separately. We spent substantial attention distinguishing intentions from completed signatures; test whether that slip helps human players coordinate before the bell."
+        }
+      ],
+      "phase": "debrief",
+      "role": "GS",
+      "channel": "public",
+      "_source": "GS_10.json",
+      "_role": "GS"
+    },
+    {
+      "role": "JS",
+      "phase": "debrief",
+      "channel": "public",
+      "messages": [
+        {
+          "text": "Our goals were achieved: Army four, Communities four, and ratified M-J. My preference was confirmed, not converted. I backed N-J/M-J in our first faction discussion, then declined the Ascendant's M-I offer at Security because Partial Rest plus a one-Force joint Escort could deliver recovery without surrendering institutional consent. Round two demonstrated that bargain. Navigation's decision to run the bridged Convoy mattered most across tables: it made our Escort useful and preserved balanced army deliveries while Maintenance improved Route. The Ascendant's reserve commitment made that affordable. I negotiated the military article, supported the first Escort and initialled the second; JN secured the navigation side, relayed the proposed convoy and funding needs, and helped agree our faction commitments. Neither contribution could implement the combined plan alone. For the next test, add one standard cross-table note with fields for intended order, committed capacity, reserve support and signatures still needed. Test whether it reduces repeated confirmations without disguising a proposal as a locked order."
+        }
+      ],
+      "justification": "The run met shared priorities and confirmed the initial joint-authority preference; coordination overhead suggests a focused communication-aid test.",
+      "_source": "JS_08.json",
+      "_role": "JS"
+    }
+  ]
+}

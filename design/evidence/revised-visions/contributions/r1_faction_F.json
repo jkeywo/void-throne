@@ -1,0 +1,46 @@
+{
+  "run": 1,
+  "id": "r1_faction_F",
+  "role": "F",
+  "phase": "r1-faction",
+  "channel": "Open",
+  "messages": [
+    {
+      "to": "ALL",
+      "text": "Minute 5: exact matching owner signatures checked; ordinary defaults and active locks applied."
+    }
+  ],
+  "reason": "Printed-rules facilitation",
+  "timestamp": "2026-10-13T22:13:17.435964+00:00",
+  "stage": "final",
+  "decision": {
+    "Guild": {
+      "wayfarer": "Trade",
+      "lantern": "Maintain",
+      "signatures": [
+        "GN",
+        "GS"
+      ],
+      "sources": [
+        "r1_final_GN",
+        "r1_final_GS"
+      ],
+      "defaulted": false,
+      "standing_commitments": []
+    },
+    "Janissariat": {
+      "spear": "Council",
+      "vigil": "Council",
+      "signatures": [
+        "JN",
+        "JS"
+      ],
+      "sources": [
+        "r1_final_JN",
+        "r1_final_JS"
+      ],
+      "defaulted": false,
+      "standing_commitments": []
+    }
+  }
+}

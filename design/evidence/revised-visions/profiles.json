@@ -1,0 +1,25 @@
+{
+  "label": "Revised visions — information or retained power",
+  "players": {
+    "GN": {
+      "name": "Venn",
+      "temperament": "Combative monopoly defender. Low willingness to compromise, high commercial risk tolerance. Treats compelled carriage as an attack on Guild independence. Will use a unilateral voyage to demonstrate leverage if credible."
+    },
+    "GS": {
+      "name": "Sable",
+      "temperament": "Cautious contractual sceptic. Low-to-medium willingness to compromise, low personal risk tolerance. Distrusts oral assurances and military protection promises. Prefers an intact crew and explicit terms to prestige; can oppose their own teammate."
+    },
+    "JN": {
+      "name": "Daro",
+      "temperament": "Transactional opportunist. Medium willingness to compromise, high aggression. Will offer a genuine deal but demands transport or constitutional autonomy in return. Comfortable with civilian costs if they purchase durable military power."
+    },
+    "JS": {
+      "name": "Tarek",
+      "temperament": "Proud aggressive commander. Low willingness to compromise, high appetite for unilateral action. Hates standing down and treats Readiness loss as institutional decline. Not suicidal: can abandon an attack if shown it cannot meet an enemy."
+    },
+    "A": {
+      "name": "The Sovereign",
+      "temperament": "Demanding, pragmatic founder. Wants an empire that can govern without repeated personal intervention. High willingness to delegate when evidence supports it; cautious about unsupported promises. Will balance civilian recovery, a viable army, foresight costs and constitutional reliability. Retaining an imperial article is not a goal. May reject a package they sincerely judge unworkable, but cannot manufacture a personal-control requirement."
+    }
+  }
+}
