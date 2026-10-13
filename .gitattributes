@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.pdf -text
+*.zip -text
+archive/** -text
+design/evidence/revised-visions/** -text
+design/evidence/six-agent-transcript.json -text

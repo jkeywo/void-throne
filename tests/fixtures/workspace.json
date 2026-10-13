@@ -55,7 +55,7 @@
     "1ooca7YcUVaSMn4CozUrIXb6pxBZUZMM6ih-RbWZWick": {
       "documentId": "1ooca7YcUVaSMn4CozUrIXb6pxBZUZMM6ih-RbWZWick",
       "title": "The Void Throne — Project Index and Working Agreement",
-      "revisionId": "AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+      "revisionId": "AHj4eMR_8WAwGLiMa_Zvm-19QNk-2MhjloSHvNAXBr2zJSL5k5Ou6z4C_ErQ3wIbp9oh4UMdrunuRhj-43S8y6OyG3xqYbD5ve1mw1s86d0",
       "suggestionsViewMode": "SUGGESTIONS_INLINE",
       "url": null,
       "body": null,
@@ -386,12 +386,353 @@
               },
               {
                 "startIndex": 2758,
-                "endIndex": 2759,
+                "endIndex": 2771,
                 "paragraph": {
                   "elements": [
                     {
                       "startIndex": 2758,
-                      "endIndex": 2759,
+                      "endIndex": 2771,
+                      "textRun": {
+                        "content": "Useful links\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "headingId": "h.ls5plhnzj6tg",
+                    "namedStyleType": "HEADING_1",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              },
+              {
+                "startIndex": 2771,
+                "endIndex": 2916,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 2771,
+                      "endIndex": 2818,
+                      "textRun": {
+                        "content": "The Void Throne — Player Rulebook, draft v0.3: ",
+                        "textStyle": {}
+                      }
+                    },
+                    {
+                      "startIndex": 2818,
+                      "endIndex": 2915,
+                      "textRun": {
+                        "content": "https://docs.google.com/document/d/1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSxaJrW1s/edit?usp=drivesdk",
+                        "textStyle": {
+                          "underline": true,
+                          "foregroundColor": {
+                            "color": {
+                              "rgbColor": {
+                                "red": 0.06666667,
+                                "green": 0.33333334,
+                                "blue": 0.8
+                              }
+                            }
+                          },
+                          "link": {
+                            "url": "https://docs.google.com/document/d/1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSxaJrW1s/edit?usp=drivesdk"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 2915,
+                      "endIndex": 2916,
+                      "textRun": {
+                        "content": "\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              },
+              {
+                "startIndex": 2916,
+                "endIndex": 3063,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 2916,
+                      "endIndex": 2965,
+                      "textRun": {
+                        "content": "The Void Throne — Facilitator Guide, draft v0.3: ",
+                        "textStyle": {}
+                      }
+                    },
+                    {
+                      "startIndex": 2965,
+                      "endIndex": 3062,
+                      "textRun": {
+                        "content": "https://docs.google.com/document/d/1402miaVHlXY84ND4YshuEOZqCT07ELe2qtKWgYMcS4M/edit?usp=drivesdk",
+                        "textStyle": {
+                          "underline": true,
+                          "foregroundColor": {
+                            "color": {
+                              "rgbColor": {
+                                "red": 0.06666667,
+                                "green": 0.33333334,
+                                "blue": 0.8
+                              }
+                            }
+                          },
+                          "link": {
+                            "url": "https://docs.google.com/document/d/1402miaVHlXY84ND4YshuEOZqCT07ELe2qtKWgYMcS4M/edit?usp=drivesdk"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 3062,
+                      "endIndex": 3063,
+                      "textRun": {
+                        "content": "\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              },
+              {
+                "startIndex": 3063,
+                "endIndex": 3207,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 3063,
+                      "endIndex": 3109,
+                      "textRun": {
+                        "content": "The Void Throne — Lore and Adaptation Record: ",
+                        "textStyle": {}
+                      }
+                    },
+                    {
+                      "startIndex": 3109,
+                      "endIndex": 3206,
+                      "textRun": {
+                        "content": "https://docs.google.com/document/d/1v2BCTBLsVdHpiM0xUtB2dqMCxFq80g55q9n-CIWe7wY/edit?usp=drivesdk",
+                        "textStyle": {
+                          "underline": true,
+                          "foregroundColor": {
+                            "color": {
+                              "rgbColor": {
+                                "red": 0.06666667,
+                                "green": 0.33333334,
+                                "blue": 0.8
+                              }
+                            }
+                          },
+                          "link": {
+                            "url": "https://docs.google.com/document/d/1v2BCTBLsVdHpiM0xUtB2dqMCxFq80g55q9n-CIWe7wY/edit?usp=drivesdk"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 3206,
+                      "endIndex": 3207,
+                      "textRun": {
+                        "content": "\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              },
+              {
+                "startIndex": 3207,
+                "endIndex": 3370,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 3207,
+                      "endIndex": 3272,
+                      "textRun": {
+                        "content": "The Void Throne — Revised Visions Playtest and Migration Report: ",
+                        "textStyle": {}
+                      }
+                    },
+                    {
+                      "startIndex": 3272,
+                      "endIndex": 3369,
+                      "textRun": {
+                        "content": "https://docs.google.com/document/d/1NwC4R7IoFREoupNcjQpvmTzDKBWD0xATdlRFktK0H0M/edit?usp=drivesdk",
+                        "textStyle": {
+                          "underline": true,
+                          "foregroundColor": {
+                            "color": {
+                              "rgbColor": {
+                                "red": 0.06666667,
+                                "green": 0.33333334,
+                                "blue": 0.8
+                              }
+                            }
+                          },
+                          "link": {
+                            "url": "https://docs.google.com/document/d/1NwC4R7IoFREoupNcjQpvmTzDKBWD0xATdlRFktK0H0M/edit?usp=drivesdk"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 3369,
+                      "endIndex": 3370,
+                      "textRun": {
+                        "content": "\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              },
+              {
+                "startIndex": 3370,
+                "endIndex": 3484,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 3370,
+                      "endIndex": 3400,
+                      "textRun": {
+                        "content": "Phased six-agent HTML report: ",
+                        "textStyle": {}
+                      }
+                    },
+                    {
+                      "startIndex": 3400,
+                      "endIndex": 3483,
+                      "textRun": {
+                        "content": "https://drive.google.com/file/d/1thrGc-BDQc8tao8dBxznLAzlSh13CJln/view?usp=drivesdk",
+                        "textStyle": {
+                          "underline": true,
+                          "foregroundColor": {
+                            "color": {
+                              "rgbColor": {
+                                "red": 0.06666667,
+                                "green": 0.33333334,
+                                "blue": 0.8
+                              }
+                            }
+                          },
+                          "link": {
+                            "url": "https://drive.google.com/file/d/1thrGc-BDQc8tao8dBxznLAzlSh13CJln/view?usp=drivesdk"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 3483,
+                      "endIndex": 3484,
+                      "textRun": {
+                        "content": "\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              },
+              {
+                "startIndex": 3484,
+                "endIndex": 3598,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 3484,
+                      "endIndex": 3514,
+                      "textRun": {
+                        "content": "Playtrace replay HTML report: ",
+                        "textStyle": {}
+                      }
+                    },
+                    {
+                      "startIndex": 3514,
+                      "endIndex": 3597,
+                      "textRun": {
+                        "content": "https://drive.google.com/file/d/1bMcGvfKzG7MzfvfFgcJ5OFmRasYSkg9H/view?usp=drivesdk",
+                        "textStyle": {
+                          "underline": true,
+                          "foregroundColor": {
+                            "color": {
+                              "rgbColor": {
+                                "red": 0.06666667,
+                                "green": 0.33333334,
+                                "blue": 0.8
+                              }
+                            }
+                          },
+                          "link": {
+                            "url": "https://drive.google.com/file/d/1bMcGvfKzG7MzfvfFgcJ5OFmRasYSkg9H/view?usp=drivesdk"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 3597,
+                      "endIndex": 3598,
+                      "textRun": {
+                        "content": "\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              },
+              {
+                "startIndex": 3598,
+                "endIndex": 3723,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 3598,
+                      "endIndex": 3723,
+                      "textRun": {
+                        "content": "Download HTML files to view their interactive tabs. Drive holds the files; the local browser serves the playable test bench.\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              },
+              {
+                "startIndex": 3723,
+                "endIndex": 3724,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 3723,
+                      "endIndex": 3724,
                       "textRun": {
                         "content": "\n",
                         "textStyle": {}
@@ -3926,7 +4267,7 @@
     "1NwC4R7IoFREoupNcjQpvmTzDKBWD0xATdlRFktK0H0M": {
       "documentId": "1NwC4R7IoFREoupNcjQpvmTzDKBWD0xATdlRFktK0H0M",
       "title": "The Void Throne — Revised Visions Playtest and Migration Report",
-      "revisionId": "AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+      "revisionId": "AHj4eMTLdwGamBQbYVRmY4D3rlP-SRa-rKZ-x_p2YxmRYcqizZAtACUJbEzD01ka8n7qtByljDjPSQ8BnRy0hCdACl6G6cauJ_2dQIglAJg",
       "suggestionsViewMode": "SUGGESTIONS_INLINE",
       "url": null,
       "body": null,
@@ -4399,12 +4740,203 @@
               },
               {
                 "startIndex": 5159,
-                "endIndex": 5160,
+                "endIndex": 5177,
                 "paragraph": {
                   "elements": [
                     {
                       "startIndex": 5159,
-                      "endIndex": 5160,
+                      "endIndex": 5177,
+                      "textRun": {
+                        "content": "Retained evidence\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "headingId": "h.f3q0kq6plsvd",
+                    "namedStyleType": "HEADING_1",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              },
+              {
+                "startIndex": 5177,
+                "endIndex": 5295,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 5177,
+                      "endIndex": 5211,
+                      "textRun": {
+                        "content": "Original phased six-agent report: ",
+                        "textStyle": {}
+                      }
+                    },
+                    {
+                      "startIndex": 5211,
+                      "endIndex": 5294,
+                      "textRun": {
+                        "content": "https://drive.google.com/file/d/1thrGc-BDQc8tao8dBxznLAzlSh13CJln/view?usp=drivesdk",
+                        "textStyle": {
+                          "underline": true,
+                          "foregroundColor": {
+                            "color": {
+                              "rgbColor": {
+                                "red": 0.06666667,
+                                "green": 0.33333334,
+                                "blue": 0.8
+                              }
+                            }
+                          },
+                          "link": {
+                            "url": "https://drive.google.com/file/d/1thrGc-BDQc8tao8dBxznLAzlSh13CJln/view?usp=drivesdk"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 5294,
+                      "endIndex": 5295,
+                      "textRun": {
+                        "content": "\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              },
+              {
+                "startIndex": 5295,
+                "endIndex": 5409,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 5295,
+                      "endIndex": 5325,
+                      "textRun": {
+                        "content": "Original authored transcript: ",
+                        "textStyle": {}
+                      }
+                    },
+                    {
+                      "startIndex": 5325,
+                      "endIndex": 5408,
+                      "textRun": {
+                        "content": "https://drive.google.com/file/d/1gCjk5KfswBfNq3NCyRLWTegVexRpAIdq/view?usp=drivesdk",
+                        "textStyle": {
+                          "underline": true,
+                          "foregroundColor": {
+                            "color": {
+                              "rgbColor": {
+                                "red": 0.06666667,
+                                "green": 0.33333334,
+                                "blue": 0.8
+                              }
+                            }
+                          },
+                          "link": {
+                            "url": "https://drive.google.com/file/d/1gCjk5KfswBfNq3NCyRLWTegVexRpAIdq/view?usp=drivesdk"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 5408,
+                      "endIndex": 5409,
+                      "textRun": {
+                        "content": "\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              },
+              {
+                "startIndex": 5409,
+                "endIndex": 5532,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 5409,
+                      "endIndex": 5448,
+                      "textRun": {
+                        "content": "Deterministic Playtrace replay report: ",
+                        "textStyle": {}
+                      }
+                    },
+                    {
+                      "startIndex": 5448,
+                      "endIndex": 5531,
+                      "textRun": {
+                        "content": "https://drive.google.com/file/d/1bMcGvfKzG7MzfvfFgcJ5OFmRasYSkg9H/view?usp=drivesdk",
+                        "textStyle": {
+                          "underline": true,
+                          "foregroundColor": {
+                            "color": {
+                              "rgbColor": {
+                                "red": 0.06666667,
+                                "green": 0.33333334,
+                                "blue": 0.8
+                              }
+                            }
+                          },
+                          "link": {
+                            "url": "https://drive.google.com/file/d/1bMcGvfKzG7MzfvfFgcJ5OFmRasYSkg9H/view?usp=drivesdk"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 5531,
+                      "endIndex": 5532,
+                      "textRun": {
+                        "content": "\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              },
+              {
+                "startIndex": 5532,
+                "endIndex": 5823,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 5532,
+                      "endIndex": 5823,
+                      "textRun": {
+                        "content": "Migration checks: twenty rules and integration tests passed. Browser controls reproduced the recorded ending, saved debrief notes, exported and resumed decisions, and preserved damage after failed ratification. These are software verification results, not additional human or LLM playtests.\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              },
+              {
+                "startIndex": 5823,
+                "endIndex": 5824,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 5823,
+                      "endIndex": 5824,
                       "textRun": {
                         "content": "\n",
                         "textStyle": {}

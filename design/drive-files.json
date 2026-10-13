@@ -8,7 +8,7 @@
       "id": "1ooca7YcUVaSMn4CozUrIXb6pxBZUZMM6ih-RbWZWick",
       "title": "The Void Throne — Project Index and Working Agreement",
       "url": "https://docs.google.com/document/d/1ooca7YcUVaSMn4CozUrIXb6pxBZUZMM6ih-RbWZWick/edit?usp=drivesdk",
-      "revision": "AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+      "revision": "AHj4eMR_8WAwGLiMa_Zvm-19QNk-2MhjloSHvNAXBr2zJSL5k5Ou6z4C_ErQ3wIbp9oh4UMdrunuRhj-43S8y6OyG3xqYbD5ve1mw1s86d0",
       "verified": true
     },
     "rulebook": {
@@ -29,7 +29,7 @@
       "id": "1NwC4R7IoFREoupNcjQpvmTzDKBWD0xATdlRFktK0H0M",
       "title": "The Void Throne — Revised Visions Playtest and Migration Report",
       "url": "https://docs.google.com/document/d/1NwC4R7IoFREoupNcjQpvmTzDKBWD0xATdlRFktK0H0M/edit?usp=drivesdk",
-      "revision": "AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+      "revision": "AHj4eMTLdwGamBQbYVRmY4D3rlP-SRa-rKZ-x_p2YxmRYcqizZAtACUJbEzD01ka8n7qtByljDjPSQ8BnRy0hCdACl6G6cauJ_2dQIglAJg",
       "verified": true
     },
     "lore": {
@@ -38,6 +38,24 @@
       "url": "https://docs.google.com/document/d/1v2BCTBLsVdHpiM0xUtB2dqMCxFq80g55q9n-CIWe7wY/edit?usp=drivesdk",
       "revision": "AHj4eMTwn2CM-i7NACkmrw77FZLASRhIv-1t1x3d_nngFeg2xp5V78Yvr1ClKeoyoi4vdBY-ndmhIKt0ePZbQZjhkBhqQQdgQo-6vm6NvAI",
       "verified": true
+    }
+  },
+  "reportsFolder": {
+    "id": "1e5O9AiByzVobUtjccDrxhJd3D-iKpSur",
+    "url": "https://drive.google.com/drive/folders/1e5O9AiByzVobUtjccDrxhJd3D-iKpSur"
+  },
+  "artifacts": {
+    "six-agent": {
+      "id": "1thrGc-BDQc8tao8dBxznLAzlSh13CJln",
+      "url": "https://drive.google.com/file/d/1thrGc-BDQc8tao8dBxznLAzlSh13CJln/view?usp=drivesdk"
+    },
+    "transcript": {
+      "id": "1gCjk5KfswBfNq3NCyRLWTegVexRpAIdq",
+      "url": "https://drive.google.com/file/d/1gCjk5KfswBfNq3NCyRLWTegVexRpAIdq/view?usp=drivesdk"
+    },
+    "replay": {
+      "id": "1bMcGvfKzG7MzfvfFgcJ5OFmRasYSkg9H",
+      "url": "https://drive.google.com/file/d/1bMcGvfKzG7MzfvfFgcJ5OFmRasYSkg9H/view?usp=drivesdk"
     }
   }
 }
