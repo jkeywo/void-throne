@@ -23,11 +23,11 @@
     "status": "proposed"
   },
   "evidence": {
-    "id": "evidence:vt:run:426309a0ce0dc0c558b3e8a9",
+    "id": "evidence:vt:run:3bc86e589139ce6405cd2d85",
     "project_id": "void-throne",
-    "snapshot_id": "void-throne:snapshot:ab7142bb13bd58b6aa18:model:5d5233f060a2:repo:uncommitted-",
+    "snapshot_id": "void-throne:snapshot:eaa25292ba72ac0df1e3:model:b55745f42fe9:repo:d97f3a48e179",
     "kind": "simulation_run",
-    "summary": "Simulation vt:run:426309a0ce0dc0c558b3e8a9 using ruleset vt:rules:revised-visions-v0.3 completed with status max_turns after 2 turn(s).",
+    "summary": "Simulation vt:run:3bc86e589139ce6405cd2d85 using ruleset vt:rules:revised-visions-v0.3 completed with status max_turns after 2 turn(s).",
     "observations": [
       "status=max_turns",
       "turns=2",
@@ -47,19 +47,19 @@
       "ruleset: vt:rules:revised-visions-v0.3"
     ],
     "provenance": {
-      "artifact_digest": "0efce17bd527e04f98dd539c77cec43e5bab1cdc1234642d9dbdeea2cf319bdf",
+      "artifact_digest": "4c427410a11e56fadaf96954586b918d02d85bb524ee67af328c072b6bda329c",
       "artifact_path": "design/evidence/playtrace-replay.json",
       "source_result_ids": [
-        "vt:run:426309a0ce0dc0c558b3e8a9"
+        "vt:run:3bc86e589139ce6405cd2d85"
       ],
       "source_artifact_digests": {
-        "vt:run:426309a0ce0dc0c558b3e8a9": "0efce17bd527e04f98dd539c77cec43e5bab1cdc1234642d9dbdeea2cf319bdf"
+        "vt:run:3bc86e589139ce6405cd2d85": "4c427410a11e56fadaf96954586b918d02d85bb524ee67af328c072b6bda329c"
       },
       "snapshot_ids": [
-        "void-throne:snapshot:ab7142bb13bd58b6aa18:model:5d5233f060a2:repo:uncommitted-"
+        "void-throne:snapshot:eaa25292ba72ac0df1e3:model:b55745f42fe9:repo:d97f3a48e179"
       ],
       "snapshot_digests": [
-        "e1d698da62d4290952f7ece145196f2e38aafa4a5b2a656a1ccb9e3b1580b9bb"
+        "27143b29fa98acc70a9a8e7b1739a2a394b30cd85f97a6c993c68e8b3cccce04"
       ],
       "config_digests": [
         "a5a49b06710c7965fc342a30ff46cafa95f5c443526a0b44e5668eef8aa60ec6"
@@ -73,20 +73,20 @@
       "ruleset_ids": [
         "vt:rules:revised-visions-v0.3"
       ],
-      "recorded_at": "2026-10-13T23:02:59.207492Z"
+      "recorded_at": "2026-10-13T23:11:44.477006Z"
     },
     "dependencies": [
       {
         "dependency_id": "snapshot:void-throne",
-        "revision": "void-throne:snapshot:ab7142bb13bd58b6aa18:model:5d5233f060a2:repo:uncommitted-",
-        "digest": "e1d698da62d4290952f7ece145196f2e38aafa4a5b2a656a1ccb9e3b1580b9bb",
+        "revision": "void-throne:snapshot:eaa25292ba72ac0df1e3:model:b55745f42fe9:repo:d97f3a48e179",
+        "digest": "27143b29fa98acc70a9a8e7b1739a2a394b30cd85f97a6c993c68e8b3cccce04",
         "role": "design_snapshot",
         "required": true
       },
       {
         "dependency_id": "source:vt:source:project",
-        "revision": "AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
-        "digest": "e9e0fe9eced86e02541a674f9e0bd1d54f95961039d4c8ca788aa0134eb981c5",
+        "revision": "AHj4eMR_8WAwGLiMa_Zvm-19QNk-2MhjloSHvNAXBr2zJSL5k5Ou6z4C_ErQ3wIbp9oh4UMdrunuRhj-43S8y6OyG3xqYbD5ve1mw1s86d0",
+        "digest": "2616a860f52f178593d723d8d4b70c253bce8324f0bb208cb740e181da7e24f9",
         "role": "source_revision",
         "required": true
       },
@@ -106,8 +106,8 @@
       },
       {
         "dependency_id": "source:vt:source:playtest",
-        "revision": "AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
-        "digest": "a420a8a0e9878d59eb2b40fa9fa5d26ccf4e96cdf9e544dd765bf7a7fa49fa50",
+        "revision": "AHj4eMTLdwGamBQbYVRmY4D3rlP-SRa-rKZ-x_p2YxmRYcqizZAtACUJbEzD01ka8n7qtByljDjPSQ8BnRy0hCdACl6G6cauJ_2dQIglAJg",
+        "digest": "d59fcd1be13fd353903c35e037ccab1ce44a5e71c55f2d00acd7215787439429",
         "role": "source_revision",
         "required": true
       },
@@ -120,15 +120,15 @@
       },
       {
         "dependency_id": "source:vt:engine",
-        "revision": "5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
-        "digest": "5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
+        "revision": "b55745f42fe9f49fc25309e8370310ac982f67b4677894698d928bccf5a36f69",
+        "digest": "b55745f42fe9f49fc25309e8370310ac982f67b4677894698d928bccf5a36f69",
         "role": "source_revision",
         "required": true
       },
       {
         "dependency_id": "source:vt:repository",
-        "revision": "uncommitted-initial-migration",
-        "digest": "5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
+        "revision": "d97f3a48e1797c757336f3d9845b5b7d0caa2c44",
+        "digest": "b55745f42fe9f49fc25309e8370310ac982f67b4677894698d928bccf5a36f69",
         "role": "source_revision",
         "required": true
       },
@@ -156,7 +156,7 @@
     ],
     "hypothesis_link": {
       "hypothesis_id": "vt:hypothesis:relevant-foresight",
-      "evidence_id": "evidence:vt:run:426309a0ce0dc0c558b3e8a9",
+      "evidence_id": "evidence:vt:run:3bc86e589139ce6405cd2d85",
       "relation": "context",
       "rationale": "Exact replay verifies consequences of preserved six-agent choices; it is not a fresh test of behavioural causation or deliberate saving.",
       "assumptions": [
@@ -168,8 +168,8 @@
     "applicability_reasons": []
   },
   "claim": {
-    "id": "evidence:vt:run:426309a0ce0dc0c558b3e8a9:claim",
-    "statement": "Simulation vt:run:426309a0ce0dc0c558b3e8a9 using ruleset vt:rules:revised-visions-v0.3 completed with status max_turns after 2 turn(s).",
+    "id": "evidence:vt:run:3bc86e589139ce6405cd2d85:claim",
+    "statement": "Simulation vt:run:3bc86e589139ce6405cd2d85 using ruleset vt:rules:revised-visions-v0.3 completed with status max_turns after 2 turn(s).",
     "scope": [
       "vt:scenario:narrow",
       "GN",
@@ -180,7 +180,7 @@
     ],
     "evidence": [
       {
-        "evidence_id": "evidence:vt:run:426309a0ce0dc0c558b3e8a9",
+        "evidence_id": "evidence:vt:run:3bc86e589139ce6405cd2d85",
         "relation": "context",
         "rationale": "Exact replay verifies consequences of preserved six-agent choices; it is not a fresh test of behavioural causation or deliberate saving.",
         "assumptions": [

@@ -1,5 +1,5 @@
 {
-  "id": "vt:run:426309a0ce0dc0c558b3e8a9",
+  "id": "vt:run:3bc86e589139ce6405cd2d85",
   "config": {
     "id": "vt:experiment:revised-visions-replay",
     "scenario_id": "vt:scenario:narrow",
@@ -335,8 +335,8 @@
   },
   "provenance": {
     "schema_version": 1,
-    "snapshot_id": "void-throne:snapshot:ab7142bb13bd58b6aa18:model:5d5233f060a2:repo:uncommitted-",
-    "snapshot_digest": "e1d698da62d4290952f7ece145196f2e38aafa4a5b2a656a1ccb9e3b1580b9bb",
+    "snapshot_id": "void-throne:snapshot:eaa25292ba72ac0df1e3:model:b55745f42fe9:repo:d97f3a48e179",
+    "snapshot_digest": "27143b29fa98acc70a9a8e7b1739a2a394b30cd85f97a6c993c68e8b3cccce04",
     "backend_version": "playtrace-game-plugin-v1",
     "plugin_id": "void-throne",
     "plugin_version": "0.3.0",
@@ -347,7 +347,7 @@
     ],
     "runner": "in_process",
     "container_image_digest": null,
-    "observed_at": "2026-10-13T23:02:59.142827Z"
+    "observed_at": "2026-10-13T23:11:44.442742Z"
   },
   "initial_state": {
     "kind": "plugin",
@@ -1872,17 +1872,17 @@
         "entity_ids": [],
         "rule_ids": [],
         "provenance": [
-          "engine-sha256:5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df"
+          "engine-sha256:b55745f42fe9f49fc25309e8370310ac982f67b4677894698d928bccf5a36f69"
         ],
         "assertion_ids": [],
         "source_revision_ids": [
-          "vt:source:project@AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+          "vt:source:project@AHj4eMR_8WAwGLiMa_Zvm-19QNk-2MhjloSHvNAXBr2zJSL5k5Ou6z4C_ErQ3wIbp9oh4UMdrunuRhj-43S8y6OyG3xqYbD5ve1mw1s86d0",
           "vt:source:rulebook@AHj4eMT02OyJM0aGKvf6o41qcKdXIFijcgpv-J4UaXnJwB6EdO1Ky8lRDusd8T_IQquFf3TOEZAXmajYa2FWw5MVtXpb3OTF558EG12otnw",
           "vt:source:facilitator@AHj4eMRaDB-WZPAw4y6Q0Y_aQi9wKfrmcsfGpjR4G8uYoJDbX2nJEbLKRWg4gyZYPM5wglRZltsLtdBt7HU5BSaF80IKaSxRYehHb8afkrk",
-          "vt:source:playtest@AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+          "vt:source:playtest@AHj4eMTLdwGamBQbYVRmY4D3rlP-SRa-rKZ-x_p2YxmRYcqizZAtACUJbEzD01ka8n7qtByljDjPSQ8BnRy0hCdACl6G6cauJ_2dQIglAJg",
           "vt:source:lore@AHj4eMTwn2CM-i7NACkmrw77FZLASRhIv-1t1x3d_nngFeg2xp5V78Yvr1ClKeoyoi4vdBY-ndmhIKt0ePZbQZjhkBhqQQdgQo-6vm6NvAI",
-          "vt:engine@5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
-          "vt:repository@uncommitted-initial-migration",
+          "vt:engine@b55745f42fe9f49fc25309e8370310ac982f67b4677894698d928bccf5a36f69",
+          "vt:repository@d97f3a48e1797c757336f3d9845b5b7d0caa2c44",
           "vt:playtrace@910f36ed3c0764e55621c2c7e39e294f3e71e2d48d360126fca667cbbecfac2f"
         ],
         "executed": true,
@@ -1895,17 +1895,17 @@
         "entity_ids": [],
         "rule_ids": [],
         "provenance": [
-          "engine-sha256:5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df"
+          "engine-sha256:b55745f42fe9f49fc25309e8370310ac982f67b4677894698d928bccf5a36f69"
         ],
         "assertion_ids": [],
         "source_revision_ids": [
-          "vt:source:project@AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+          "vt:source:project@AHj4eMR_8WAwGLiMa_Zvm-19QNk-2MhjloSHvNAXBr2zJSL5k5Ou6z4C_ErQ3wIbp9oh4UMdrunuRhj-43S8y6OyG3xqYbD5ve1mw1s86d0",
           "vt:source:rulebook@AHj4eMT02OyJM0aGKvf6o41qcKdXIFijcgpv-J4UaXnJwB6EdO1Ky8lRDusd8T_IQquFf3TOEZAXmajYa2FWw5MVtXpb3OTF558EG12otnw",
           "vt:source:facilitator@AHj4eMRaDB-WZPAw4y6Q0Y_aQi9wKfrmcsfGpjR4G8uYoJDbX2nJEbLKRWg4gyZYPM5wglRZltsLtdBt7HU5BSaF80IKaSxRYehHb8afkrk",
-          "vt:source:playtest@AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+          "vt:source:playtest@AHj4eMTLdwGamBQbYVRmY4D3rlP-SRa-rKZ-x_p2YxmRYcqizZAtACUJbEzD01ka8n7qtByljDjPSQ8BnRy0hCdACl6G6cauJ_2dQIglAJg",
           "vt:source:lore@AHj4eMTwn2CM-i7NACkmrw77FZLASRhIv-1t1x3d_nngFeg2xp5V78Yvr1ClKeoyoi4vdBY-ndmhIKt0ePZbQZjhkBhqQQdgQo-6vm6NvAI",
-          "vt:engine@5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
-          "vt:repository@uncommitted-initial-migration",
+          "vt:engine@b55745f42fe9f49fc25309e8370310ac982f67b4677894698d928bccf5a36f69",
+          "vt:repository@d97f3a48e1797c757336f3d9845b5b7d0caa2c44",
           "vt:playtrace@910f36ed3c0764e55621c2c7e39e294f3e71e2d48d360126fca667cbbecfac2f"
         ],
         "executed": true,
@@ -1918,17 +1918,17 @@
         "entity_ids": [],
         "rule_ids": [],
         "provenance": [
-          "engine-sha256:5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df"
+          "engine-sha256:b55745f42fe9f49fc25309e8370310ac982f67b4677894698d928bccf5a36f69"
         ],
         "assertion_ids": [],
         "source_revision_ids": [
-          "vt:source:project@AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+          "vt:source:project@AHj4eMR_8WAwGLiMa_Zvm-19QNk-2MhjloSHvNAXBr2zJSL5k5Ou6z4C_ErQ3wIbp9oh4UMdrunuRhj-43S8y6OyG3xqYbD5ve1mw1s86d0",
           "vt:source:rulebook@AHj4eMT02OyJM0aGKvf6o41qcKdXIFijcgpv-J4UaXnJwB6EdO1Ky8lRDusd8T_IQquFf3TOEZAXmajYa2FWw5MVtXpb3OTF558EG12otnw",
           "vt:source:facilitator@AHj4eMRaDB-WZPAw4y6Q0Y_aQi9wKfrmcsfGpjR4G8uYoJDbX2nJEbLKRWg4gyZYPM5wglRZltsLtdBt7HU5BSaF80IKaSxRYehHb8afkrk",
-          "vt:source:playtest@AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+          "vt:source:playtest@AHj4eMTLdwGamBQbYVRmY4D3rlP-SRa-rKZ-x_p2YxmRYcqizZAtACUJbEzD01ka8n7qtByljDjPSQ8BnRy0hCdACl6G6cauJ_2dQIglAJg",
           "vt:source:lore@AHj4eMTwn2CM-i7NACkmrw77FZLASRhIv-1t1x3d_nngFeg2xp5V78Yvr1ClKeoyoi4vdBY-ndmhIKt0ePZbQZjhkBhqQQdgQo-6vm6NvAI",
-          "vt:engine@5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
-          "vt:repository@uncommitted-initial-migration",
+          "vt:engine@b55745f42fe9f49fc25309e8370310ac982f67b4677894698d928bccf5a36f69",
+          "vt:repository@d97f3a48e1797c757336f3d9845b5b7d0caa2c44",
           "vt:playtrace@910f36ed3c0764e55621c2c7e39e294f3e71e2d48d360126fca667cbbecfac2f"
         ],
         "executed": true,
@@ -1941,17 +1941,17 @@
         "entity_ids": [],
         "rule_ids": [],
         "provenance": [
-          "engine-sha256:5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df"
+          "engine-sha256:b55745f42fe9f49fc25309e8370310ac982f67b4677894698d928bccf5a36f69"
         ],
         "assertion_ids": [],
         "source_revision_ids": [
-          "vt:source:project@AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+          "vt:source:project@AHj4eMR_8WAwGLiMa_Zvm-19QNk-2MhjloSHvNAXBr2zJSL5k5Ou6z4C_ErQ3wIbp9oh4UMdrunuRhj-43S8y6OyG3xqYbD5ve1mw1s86d0",
           "vt:source:rulebook@AHj4eMT02OyJM0aGKvf6o41qcKdXIFijcgpv-J4UaXnJwB6EdO1Ky8lRDusd8T_IQquFf3TOEZAXmajYa2FWw5MVtXpb3OTF558EG12otnw",
           "vt:source:facilitator@AHj4eMRaDB-WZPAw4y6Q0Y_aQi9wKfrmcsfGpjR4G8uYoJDbX2nJEbLKRWg4gyZYPM5wglRZltsLtdBt7HU5BSaF80IKaSxRYehHb8afkrk",
-          "vt:source:playtest@AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+          "vt:source:playtest@AHj4eMTLdwGamBQbYVRmY4D3rlP-SRa-rKZ-x_p2YxmRYcqizZAtACUJbEzD01ka8n7qtByljDjPSQ8BnRy0hCdACl6G6cauJ_2dQIglAJg",
           "vt:source:lore@AHj4eMTwn2CM-i7NACkmrw77FZLASRhIv-1t1x3d_nngFeg2xp5V78Yvr1ClKeoyoi4vdBY-ndmhIKt0ePZbQZjhkBhqQQdgQo-6vm6NvAI",
-          "vt:engine@5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
-          "vt:repository@uncommitted-initial-migration",
+          "vt:engine@b55745f42fe9f49fc25309e8370310ac982f67b4677894698d928bccf5a36f69",
+          "vt:repository@d97f3a48e1797c757336f3d9845b5b7d0caa2c44",
           "vt:playtrace@910f36ed3c0764e55621c2c7e39e294f3e71e2d48d360126fca667cbbecfac2f"
         ],
         "executed": true,

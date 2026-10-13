@@ -1,16 +1,16 @@
 {
-  "id": "void-throne:snapshot:ab7142bb13bd58b6aa18:model:5d5233f060a2:repo:uncommitted-",
+  "id": "void-throne:snapshot:eaa25292ba72ac0df1e3:model:b55745f42fe9:repo:d97f3a48e179",
   "project_id": "void-throne",
   "adapter_id": "google-workspace-tabletop-v1",
   "source_revisions": [
     {
-      "id": "vt:source:project@AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+      "id": "vt:source:project@AHj4eMR_8WAwGLiMa_Zvm-19QNk-2MhjloSHvNAXBr2zJSL5k5Ou6z4C_ErQ3wIbp9oh4UMdrunuRhj-43S8y6OyG3xqYbD5ve1mw1s86d0",
       "source_id": "vt:source:project",
       "medium": "drive",
       "locator": "https://docs.google.com/document/d/1ooca7YcUVaSMn4CozUrIXb6pxBZUZMM6ih-RbWZWick/edit?usp=drivesdk",
-      "revision": "AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+      "revision": "AHj4eMR_8WAwGLiMa_Zvm-19QNk-2MhjloSHvNAXBr2zJSL5k5Ou6z4C_ErQ3wIbp9oh4UMdrunuRhj-43S8y6OyG3xqYbD5ve1mw1s86d0",
       "observed_at": "2026-10-13T22:54:34.123000Z",
-      "content_digest": "e9e0fe9eced86e02541a674f9e0bd1d54f95961039d4c8ca788aa0134eb981c5"
+      "content_digest": "2616a860f52f178593d723d8d4b70c253bce8324f0bb208cb740e181da7e24f9"
     },
     {
       "id": "vt:source:rulebook@AHj4eMT02OyJM0aGKvf6o41qcKdXIFijcgpv-J4UaXnJwB6EdO1Ky8lRDusd8T_IQquFf3TOEZAXmajYa2FWw5MVtXpb3OTF558EG12otnw",
@@ -31,13 +31,13 @@
       "content_digest": "b64b31f62267a35e378720007b64761111d9ec04b51b4717182a5e172f480611"
     },
     {
-      "id": "vt:source:playtest@AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+      "id": "vt:source:playtest@AHj4eMTLdwGamBQbYVRmY4D3rlP-SRa-rKZ-x_p2YxmRYcqizZAtACUJbEzD01ka8n7qtByljDjPSQ8BnRy0hCdACl6G6cauJ_2dQIglAJg",
       "source_id": "vt:source:playtest",
       "medium": "drive",
       "locator": "https://docs.google.com/document/d/1NwC4R7IoFREoupNcjQpvmTzDKBWD0xATdlRFktK0H0M/edit?usp=drivesdk",
-      "revision": "AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+      "revision": "AHj4eMTLdwGamBQbYVRmY4D3rlP-SRa-rKZ-x_p2YxmRYcqizZAtACUJbEzD01ka8n7qtByljDjPSQ8BnRy0hCdACl6G6cauJ_2dQIglAJg",
       "observed_at": "2026-10-13T22:54:54.942000Z",
-      "content_digest": "a420a8a0e9878d59eb2b40fa9fa5d26ccf4e96cdf9e544dd765bf7a7fa49fa50"
+      "content_digest": "d59fcd1be13fd353903c35e037ccab1ce44a5e71c55f2d00acd7215787439429"
     },
     {
       "id": "vt:source:lore@AHj4eMTwn2CM-i7NACkmrw77FZLASRhIv-1t1x3d_nngFeg2xp5V78Yvr1ClKeoyoi4vdBY-ndmhIKt0ePZbQZjhkBhqQQdgQo-6vm6NvAI",
@@ -49,22 +49,22 @@
       "content_digest": "cf2eb75ebc262fbde944515dbc90d9d77081ec0d18442202572943dee46b519e"
     },
     {
-      "id": "vt:engine@5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
+      "id": "vt:engine@b55745f42fe9f49fc25309e8370310ac982f67b4677894698d928bccf5a36f69",
       "source_id": "vt:engine",
       "medium": "git",
       "locator": "src/void_throne + design/*-cards",
-      "revision": "5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df",
-      "observed_at": "2026-10-13T23:02:59.012596Z",
-      "content_digest": "5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df"
+      "revision": "b55745f42fe9f49fc25309e8370310ac982f67b4677894698d928bccf5a36f69",
+      "observed_at": "2026-10-13T23:11:44.383479Z",
+      "content_digest": "b55745f42fe9f49fc25309e8370310ac982f67b4677894698d928bccf5a36f69"
     },
     {
-      "id": "vt:repository@uncommitted-initial-migration",
+      "id": "vt:repository@d97f3a48e1797c757336f3d9845b5b7d0caa2c44",
       "source_id": "vt:repository",
       "medium": "git",
       "locator": ".",
-      "revision": "uncommitted-initial-migration",
-      "observed_at": "2026-10-13T23:02:59.112619Z",
-      "content_digest": "5d5233f060a26494411e687fa03376d58e302c10982b67e2c56994d6d4bf14df"
+      "revision": "d97f3a48e1797c757336f3d9845b5b7d0caa2c44",
+      "observed_at": "2026-10-13T23:11:44.422098Z",
+      "content_digest": "b55745f42fe9f49fc25309e8370310ac982f67b4677894698d928bccf5a36f69"
     },
     {
       "id": "vt:playtrace@910f36ed3c0764e55621c2c7e39e294f3e71e2d48d360126fca667cbbecfac2f",
@@ -72,7 +72,7 @@
       "medium": "git",
       "locator": "C:\\Coding\\playtrace",
       "revision": "7167e4e43fc231b7863865d0a2655586ddae57fd",
-      "observed_at": "2026-10-13T23:02:59.112619Z",
+      "observed_at": "2026-10-13T23:11:44.422098Z",
       "content_digest": "910f36ed3c0764e55621c2c7e39e294f3e71e2d48d360126fca667cbbecfac2f"
     }
   ],
@@ -299,6 +299,126 @@
         "tab_title": "Tab 1",
         "start_index": 2565,
         "end_index": 2758,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:ebe66129d0035121",
+      "kind": "heading",
+      "name": "Useful links",
+      "attributes": {
+        "text": "Useful links",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2758,
+        "end_index": 2771,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:77c96bdc103ec29b",
+      "kind": "passage",
+      "name": "The Void Throne — Player Rulebook, draft v0.3: https://docs.google.com/document/d/1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSx",
+      "attributes": {
+        "text": "The Void Throne — Player Rulebook, draft v0.3: https://docs.google.com/document/d/1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSxaJrW1s/edit?usp=drivesdk",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2771,
+        "end_index": 2916,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:29adba733b0730e6",
+      "kind": "passage",
+      "name": "The Void Throne — Facilitator Guide, draft v0.3: https://docs.google.com/document/d/1402miaVHlXY84ND4YshuEOZqCT07ELe2qtK",
+      "attributes": {
+        "text": "The Void Throne — Facilitator Guide, draft v0.3: https://docs.google.com/document/d/1402miaVHlXY84ND4YshuEOZqCT07ELe2qtKWgYMcS4M/edit?usp=drivesdk",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 2916,
+        "end_index": 3063,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:5f2731a1298cc729",
+      "kind": "passage",
+      "name": "The Void Throne — Lore and Adaptation Record: https://docs.google.com/document/d/1v2BCTBLsVdHpiM0xUtB2dqMCxFq80g55q9n-CI",
+      "attributes": {
+        "text": "The Void Throne — Lore and Adaptation Record: https://docs.google.com/document/d/1v2BCTBLsVdHpiM0xUtB2dqMCxFq80g55q9n-CIWe7wY/edit?usp=drivesdk",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3063,
+        "end_index": 3207,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:b8fa898dcabcdef2",
+      "kind": "passage",
+      "name": "The Void Throne — Revised Visions Playtest and Migration Report: https://docs.google.com/document/d/1NwC4R7IoFREoupNcjQp",
+      "attributes": {
+        "text": "The Void Throne — Revised Visions Playtest and Migration Report: https://docs.google.com/document/d/1NwC4R7IoFREoupNcjQpvmTzDKBWD0xATdlRFktK0H0M/edit?usp=drivesdk",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3207,
+        "end_index": 3370,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:c07557a7486a4415",
+      "kind": "passage",
+      "name": "Phased six-agent HTML report: https://drive.google.com/file/d/1thrGc-BDQc8tao8dBxznLAzlSh13CJln/view?usp=drivesdk",
+      "attributes": {
+        "text": "Phased six-agent HTML report: https://drive.google.com/file/d/1thrGc-BDQc8tao8dBxznLAzlSh13CJln/view?usp=drivesdk",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3370,
+        "end_index": 3484,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:00fa238d6858068f",
+      "kind": "passage",
+      "name": "Playtrace replay HTML report: https://drive.google.com/file/d/1bMcGvfKzG7MzfvfFgcJ5OFmRasYSkg9H/view?usp=drivesdk",
+      "attributes": {
+        "text": "Playtrace replay HTML report: https://drive.google.com/file/d/1bMcGvfKzG7MzfvfFgcJ5OFmRasYSkg9H/view?usp=drivesdk",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3484,
+        "end_index": 3598,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:project:paragraph:b1599664f4a3d7fe",
+      "kind": "passage",
+      "name": "Download HTML files to view their interactive tabs. Drive holds the files; the local browser serves the playable test be",
+      "attributes": {
+        "text": "Download HTML files to view their interactive tabs. Drive holds the files; the local browser serves the playable test bench.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 3598,
+        "end_index": 3723,
         "named_style": "NORMAL_TEXT"
       }
     },
@@ -2238,6 +2358,81 @@
       }
     },
     {
+      "id": "vt:source:playtest:paragraph:e67f0613f785a58c",
+      "kind": "heading",
+      "name": "Retained evidence",
+      "attributes": {
+        "text": "Retained evidence",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 5159,
+        "end_index": 5177,
+        "named_style": "HEADING_1"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:4e343069bfcc3bd3",
+      "kind": "passage",
+      "name": "Original phased six-agent report: https://drive.google.com/file/d/1thrGc-BDQc8tao8dBxznLAzlSh13CJln/view?usp=drivesdk",
+      "attributes": {
+        "text": "Original phased six-agent report: https://drive.google.com/file/d/1thrGc-BDQc8tao8dBxznLAzlSh13CJln/view?usp=drivesdk",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 5177,
+        "end_index": 5295,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:9c32b7972612b4e5",
+      "kind": "passage",
+      "name": "Original authored transcript: https://drive.google.com/file/d/1gCjk5KfswBfNq3NCyRLWTegVexRpAIdq/view?usp=drivesdk",
+      "attributes": {
+        "text": "Original authored transcript: https://drive.google.com/file/d/1gCjk5KfswBfNq3NCyRLWTegVexRpAIdq/view?usp=drivesdk",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 5295,
+        "end_index": 5409,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:c85de175b99d28a7",
+      "kind": "passage",
+      "name": "Deterministic Playtrace replay report: https://drive.google.com/file/d/1bMcGvfKzG7MzfvfFgcJ5OFmRasYSkg9H/view?usp=drives",
+      "attributes": {
+        "text": "Deterministic Playtrace replay report: https://drive.google.com/file/d/1bMcGvfKzG7MzfvfFgcJ5OFmRasYSkg9H/view?usp=drivesdk",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 5409,
+        "end_index": 5532,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
+      "id": "vt:source:playtest:paragraph:e7ee3c00a9f04ef3",
+      "kind": "passage",
+      "name": "Migration checks: twenty rules and integration tests passed. Browser controls reproduced the recorded ending, saved debr",
+      "attributes": {
+        "text": "Migration checks: twenty rules and integration tests passed. Browser controls reproduced the recorded ending, saved debrief notes, exported and resumed decisions, and preserved damage after failed ratification. These are software verification results, not additional human or LLM playtests.",
+        "authored_status": "unspecified",
+        "identity_origin": "derived",
+        "tab_id": "t.0",
+        "tab_title": "Tab 1",
+        "start_index": 5532,
+        "end_index": 5823,
+        "named_style": "NORMAL_TEXT"
+      }
+    },
+    {
       "id": "vt:source:lore:paragraph:7f3c491cd7d60e6f",
       "kind": "heading",
       "name": "The Void Throne — Lore and Adaptation Record",
@@ -2711,10 +2906,10 @@
       "value": "The current design is the five-player, two-round paper prototype with revised vision timing, three foresight tokens, voluntary Standing Commitments and weighted final settlement. The browser and Playtrace are development tools; neither is required to play the paper game.",
       "authored_status": "working",
       "provenance": {
-        "source_revision_id": "vt:source:project@AHj4eMQHrWz8EIIvFv4RC5l6U4gg8e-xK9DhwPD9UwhcH4ogdDgELx_yiCLGrcX7FCWUSKvtT1i8CwStSgE0YrZlFBe6s9i51BF-m9NVxlc",
+        "source_revision_id": "vt:source:project@AHj4eMR_8WAwGLiMa_Zvm-19QNk-2MhjloSHvNAXBr2zJSL5k5Ou6z4C_ErQ3wIbp9oh4UMdrunuRhj-43S8y6OyG3xqYbD5ve1mw1s86d0",
         "location": "doc:vt:source:project:tab:t.0:range:327-609",
         "extractor": "google-workspace-tabletop-v1",
-        "extracted_at": "2026-10-13T23:02:58.981580Z"
+        "extracted_at": "2026-10-13T23:11:44.366827Z"
       }
     },
     {
@@ -2727,7 +2922,7 @@
         "source_revision_id": "vt:source:rulebook@AHj4eMT02OyJM0aGKvf6o41qcKdXIFijcgpv-J4UaXnJwB6EdO1Ky8lRDusd8T_IQquFf3TOEZAXmajYa2FWw5MVtXpb3OTF558EG12otnw",
         "location": "doc:vt:source:rulebook:tab:t.0:range:367-713",
         "extractor": "google-workspace-tabletop-v1",
-        "extracted_at": "2026-10-13T23:02:58.988923Z"
+        "extracted_at": "2026-10-13T23:11:44.366827Z"
       }
     },
     {
@@ -2740,7 +2935,7 @@
         "source_revision_id": "vt:source:facilitator@AHj4eMRaDB-WZPAw4y6Q0Y_aQi9wKfrmcsfGpjR4G8uYoJDbX2nJEbLKRWg4gyZYPM5wglRZltsLtdBt7HU5BSaF80IKaSxRYehHb8afkrk",
         "location": "doc:vt:source:facilitator:tab:t.0:range:332-634",
         "extractor": "google-workspace-tabletop-v1",
-        "extracted_at": "2026-10-13T23:02:59.001495Z"
+        "extracted_at": "2026-10-13T23:11:44.366827Z"
       }
     },
     {
@@ -2750,10 +2945,10 @@
       "value": "The hypothesis was that public intentions and clearly scoped vision covers would let the Ascendant buy information relevant to live choices while retaining a meaningful option to preserve power. One fresh six-agent run used five player roles and an independent facilitator, with the same personalities as the preceding weighted-settlement test.",
       "authored_status": "working",
       "provenance": {
-        "source_revision_id": "vt:source:playtest@AHj4eMR6kEZc1mIWSVGZ_7bcF4IEeUq_48VznIS6Ob5u5AgTenobxhOfeJNHX0IyVqUv-ajEnTirD0hbXwJxB8u6GkR5virYllgMs1HDmik",
+        "source_revision_id": "vt:source:playtest@AHj4eMTLdwGamBQbYVRmY4D3rlP-SRa-rKZ-x_p2YxmRYcqizZAtACUJbEzD01ka8n7qtByljDjPSQ8BnRy0hCdACl6G6cauJ_2dQIglAJg",
         "location": "doc:vt:source:playtest:tab:t.0:range:81-436",
         "extractor": "google-workspace-tabletop-v1",
-        "extracted_at": "2026-10-13T23:02:59.008496Z"
+        "extracted_at": "2026-10-13T23:11:44.366827Z"
       }
     },
     {
@@ -2766,16 +2961,16 @@
         "source_revision_id": "vt:source:lore@AHj4eMTwn2CM-i7NACkmrw77FZLASRhIv-1t1x3d_nngFeg2xp5V78Yvr1ClKeoyoi4vdBY-ndmhIKt0ePZbQZjhkBhqQQdgQo-6vm6NvAI",
         "location": "doc:vt:source:lore:tab:t.0:range:387-587",
         "extractor": "google-workspace-tabletop-v1",
-        "extracted_at": "2026-10-13T23:02:59.012596Z"
+        "extracted_at": "2026-10-13T23:11:44.382473Z"
       }
     }
   ],
   "dependencies": [],
   "capabilities": [
-    "native_google_docs",
     "semantic_events",
     "deterministic_simulation",
-    "stable_ids"
+    "stable_ids",
+    "native_google_docs"
   ],
   "omissions": [
     "Only explicitly status-marked Doc passages become assertions.",
@@ -2785,5 +2980,5 @@
     "Cards and votes execute game-owned Python extensions, not compiled prose.",
     "Shared legacy numeric metrics are zero where not applicable; inspect plugin state and events."
   ],
-  "created_at": "2026-10-13T23:02:59.012596Z"
+  "created_at": "2026-10-13T23:11:44.383479Z"
 }
