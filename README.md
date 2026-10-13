@@ -13,7 +13,9 @@ It requires no technology at the table.
 - **Drive:** https://drive.google.com/drive/folders/1XxANDmMg-WPg42pdXdhWETZyNCWnmwSE
 - **Browser:** double-click `Start Playtest.cmd`, or run `python launch.py`.
   It opens http://127.0.0.1:8877 and restores the last successful sheet.
-- **Local handbook:** `docs/rulebook.html`.
+- **Local handbook:** `docs/rulebook.html` — the expanded 14 October teaching edition,
+  with setting, setup, a worked round, action references and a glossary.
+  `docs/rulebook-material-map.json` records rule coverage and verification.
 - **Facilitator answers:** `docs/facilitator.html` (spoilers).
 - **Lore and source distinctions:** `docs/lore.html` and `lore/source-inventory.json`.
 - **Original six-agent report:** `reports/six-agent-playtest.html`.
@@ -56,9 +58,10 @@ and claim in `.playtrace/playtrace.db`. It writes portable JSON evidence and a
 native Playtrace HTML report. `PLAYTRACE_ROOT` overrides the shared checkout.
 
 The plugin is also exposed through the `playtrace.simulation_plugins` package
-entry point for installation in another environment. No change to the shared
-Playtrace repository is needed. The helper registers it directly so this checkout
-works without editing that environment. The strict game model requires its engine
+entry point for installation in another environment. The helper registers it directly so this checkout works without installing the
+game into that environment. The expanded rulebook requires the repeated-paragraph
+import fix in local Playtrace revision `ae44cc3b7f31d690a6b2b558e9034a9dd0ef63dd`;
+this preserves identical costs and contents entries as separate occurrences. The strict game model requires its engine
 fingerprint in the snapshot, so use `reproduce` rather than the generic CLI's
 uncustomised snapshot-and-simulate shortcut. Other standard CLI operations are
 available through `playtrace_game.py cli ...`.
