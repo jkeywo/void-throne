@@ -1,34 +1,25 @@
-THE VOID THRONE — MULTIPLAYER
+THE VOID THRONE — ONLINE MULTIPLAYER
 
-One facilitator hosts. Five people play on their own machines.
+Start or join
+Everyone opens https://jkeywo.github.io/void-throne/. The facilitator chooses Start a new game and shares the room code. Each player enters that code, their name and requested seat, then chooses Join the table. The facilitator admits each player. You need five players and one facilitator, each with their own browser. No local game server or Python installation is needed.
 
-Start a game
-1. On the facilitator’s machine, open C:\AnalogueGames\void-throne and double-click Start Multiplayer.cmd. Keep the server window open.
-2. In the browser, choose Open the room. The facilitator page is http://127.0.0.1:8878/multiplayer.html.
-3. Download the player HTML from the facilitator page. Send that file and the displayed room code to each player. Do not send them the localhost address: that address only opens on the facilitator’s machine.
-4. Each player opens the HTML in a current Chrome, Edge or Firefox browser, enters the room code and their name, and requests a seat. Admit them from the facilitator page. There are two Guild seats, two Janissariat seats and the Ascendant.
+The first host visit downloads the game engine. Keep the facilitator's tab open throughout play. Players submit their own sheets and signatures; the facilitator closes phases and records the exact proposals. Timings are displayed but discussions do not close automatically. Rules and faction briefs are available from the buttons at the top. Conversations support table, faction, council and private facilitator channels. There is text chat but no built-in voice or video.
 
-Playing
-Each player submits only their own sheet. They can revise it until the facilitator closes the phase. Both members must separately sign matching faction assignments. Unchecked signatures count as refusal; a missing sheet is never assumed to agree.
-The facilitator records provisional and final proposals, then players sign the exact package in the following phase. The rules engine resolves the agreed orders. Use the printed timings shown on each screen; the interface does not automatically close discussions.
-Table chat is visible to everyone. Faction and council conversations are visible to their members and the facilitator. Each player also has a private facilitator conversation. The Ascendant receives only the purchased answer, and can share it at the faction bell or discuss it in chat. Other players do not receive undisclosed answers, their direction or the purchase’s private reasoning.
-Read the rules and the separate faction brief from the buttons at the top of the player page. These are bundled in the HTML. There is text chat but no built-in voice or video; use your normal call if wanted.
+Resume and save
+The host's browser saves after every accepted change, before sending the resulting state to players. After closing or reloading the page, return in the same browser to the same website and choose Resume saved game. The room code, seats, submitted sheets, history and private visions are restored. Players can reconnect with their saved seat; if they are still waiting, use Reconnect. Only one tab per browser can host, to prevent conflicting saves. Closing a hosting tab releases that protection.
 
-Reconnecting and resuming
-Leave the facilitator’s browser and server running. A player’s submitted sheets remain saved if they disconnect. Use Reconnect, or reopen the same player file in the same browser, enter the room code and name, and join again. The saved seat key restores their seat without another admission. Unsaved form entries are also retained locally for the current phase when browser storage is available.
-If they use another browser or machine, release their old seat and admit the replacement. Releasing a seat removes its unclosed sheet and old reconnect key. Earlier closed decisions remain recorded.
-Reopening the facilitator page resumes the local multiplayer save. Keep only one host tab active; opening a replacement host tab takes over. After a host-page reload, players reconnect to the same room code. Re-enter any custom connection settings after a reload.
-The dedicated launcher saves to .playtrace/multiplayer-session-8878.json. Other server ports use their own saves. Multiplayer is separate from .playtrace/browser-session.json used by the all-seat test. The Archive and start a new room button keeps the previous multiplayer save locally and gives the next session a new room code.
+If a player changes browser or machine, release their old seat and admit the replacement. Releasing a seat discards that seat's unclosed sheet and reconnect key. Earlier decisions remain recorded. Unsaved player form entries are retained locally where browser storage is available.
+
+Starting a new game archives the old save in the same browser and generates a new code. Download host backup or Download archived backups keeps a copy outside browser storage. These files contain private information and reconnect keys; keep them to yourself. There is no backup import screen yet. Clearing site data or using a temporary browsing session can lose saves. If autosave fails, stop play and download the recovery backup before closing the tab.
 
 Record the playtest
-The facilitator can download an HTML report and a JSON decision record. The report separates phases, places submitted sheets side by side, puts rules and consequences in distinct boxes, and uses tabs for parallel conversations. It includes private visions and faction conversations: it is the facilitator’s full record. The JSON export excludes reconnect credentials; the local autosave retains them for resuming. A JSON export is evidence, not an importable host backup.
+Download HTML report produces the phased transcript, side-by-side sheets, mechanical results and tabs for parallel conversations. Download decisions and chat produces the JSON record without reconnect credentials. These facilitator records include private visions and conversations. No playtest data is uploaded to GitHub Pages.
 
 Connections
-The player file includes PeerJS 1.5.5. It connects through the public PeerServer service for signalling, then sends game messages over WebRTC to the facilitator’s browser. Players need internet access but do not need Python, Playtrace or access to the host’s local web server.
-Some restricted networks cannot establish a direct WebRTC connection. Use the Connection settings panel on every machine to supply a private PeerServer or a TURN relay provided by your organiser. There is no universally guaranteed relay bundled with this prototype. The same panel accepts PeerJS’s standard options object, including config.iceServers. Do not use HTTP localhost settings for remote players; those are only for local testing.
-PeerJS documentation: https://peerjs.com/client/getting-started
-Connection configuration: https://peerjs.com/client/api/peer
+PeerJS 1.5.5 uses its public signalling service, then WebRTC carries messages between browsers. Hosting also loads Pyodide 314.0.7 from jsDelivr. Internet access is required. Restricted networks may need an organiser-supplied TURN relay or private PeerServer. Put the supplied PeerJS options in Connection settings on every machine; those options are remembered by the browser. Do not use localhost settings for remote players. Connectivity on one network does not guarantee all corporate networks will connect.
 
-Verification
-29 automated rules and integration checks passed. Six isolated browser contexts completed the 13-sheet replay over actual PeerJS/WebRTC connections through a local signalling server, including private chat, a concealed vision, player reconnection, exact final state, report export and narrow-screen layout. A separate smoke check connected the facilitator and all five player browsers using the default public PeerServer service.
-These checks ran on one computer with separate browser sessions. They do not establish connectivity on every remote network, or replace a human playtest.
+Privacy and source code
+The repository and scenario code are public. Players should avoid inspecting hidden conditions if they want to experience foresight during play. Live private information is still filtered for each seat before transmission. Host saves remain in the facilitator's browser; players receive only their authorized view. The page does not offer an anti-cheat guarantee against people reading the public rules engine.
+
+Older local sessions
+The original all-seat test bench remains separate. Start Multiplayer.cmd serves this same unified interface locally. Browser saves belong to their exact website address, so a game started on localhost does not appear on the hosted website. Older .playtrace/multiplayer-session-PORT.json files remain on disk but are not automatically imported.

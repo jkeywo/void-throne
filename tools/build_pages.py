@@ -1,4 +1,4 @@
-"""Stage only the public player page for static hosting."""
+"""Stage the unified browser game for static hosting."""
 from pathlib import Path
 import subprocess
 import sys
@@ -12,4 +12,4 @@ if unexpected:
     raise SystemExit("Refusing to publish unexpected files: " + ", ".join(unexpected))
 (DEST / "index.html").write_bytes((ROOT / "web/multiplayer-player.html").read_bytes())
 (DEST / ".nojekyll").write_text("", encoding="utf-8")
-print("Staged public player page in build/pages; no facilitator files or archives.")
+print("Staged the unified game in build/pages; no saved games, reports or archives.")

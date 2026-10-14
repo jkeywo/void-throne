@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-14",
+  "kind": "Browser-hosted interface verification; not an independent game-balance playtest",
+  "engine": "Shared Python engine in Pyodide 314.0.7 module worker",
+  "transport": "PeerJS default public signalling service and WebRTC",
+  "setup": "Six browser tabs on one computer, with separate local origins for independent seat storage. Static HTTP servers only; no Python game API.",
+  "checks": [
+    "All five seats joined and were separately admitted",
+    "Private Guild chat appeared to Guild teammate; army had no Guild channel",
+    "Purchased vision appeared only to Ascendant before disclosure",
+    "Host reloaded at first commitment phase and resumed saved room, seats and vision; players reconnected with saved keys",
+    "All 13 phases completed through UI submissions",
+    "Final state matched the existing replay: Beacon 2, Stability 4, Readiness 3, foresight 1, contracts 2; assets intact; reserve spent",
+    "NG/MJ ratified with Guild and Ascendant signatures, 8/11 weight",
+    "Downloaded HTML report contained 13 phase sections, submitted sheets, mechanics, private chat and conversation tabs",
+    "Second host tab refused while first held the browser lock",
+    "Archive and start a new room reset state and generated a new code",
+    "33 local Python checks passed including browser-bridge replay, resume, authority and reset"
+  ],
+  "limits": [
+    "One computer does not establish connectivity across all remote networks.",
+    "The updated optional Playwright harness was maintained but the UI run above used the app browser.",
+    "Public game source includes hidden scenario conditions; live state is filtered but this is not an anti-cheat system."
+  ]
+}

@@ -1,5 +1,5 @@
 'use strict';
-const IS_HOST=document.body.dataset.mode==='host';
+let IS_HOST=false;
 const ROLES={GN:'Guild · Navigation',GS:'Guild · Security',JN:'Janissariat · Navigation',JS:'Janissariat · Security',A:'Ascendant'};
 const NAV=['Relief','Military','Shared','Repair','Hold'],SEC=['Campaign','Raid','Guard','Restraint'];
 const OPTIONS={wayfarer:['Council','Trade'],lantern:['Council','Maintain'],spear:['Council','Raid','Stand down'],vigil:['Council','Home']};
@@ -22,17 +22,25 @@ function error(e){$('#error').textContent=e.message||String(e);$('#error').hidde
 function status(t,ok=false){$('#connection-status').textContent=t;connected=ok;$('#reconnect').hidden=ok;const b=$('#sheet button[type=submit]');if(b)b.disabled=!ok;}
 function peerOptions(){const t=$('#peer-options').value.trim();const o=t?JSON.parse(t):{};if(!o||Array.isArray(o)||typeof o!=='object')throw Error('Connection settings must be a JSON object.');return o;}
 function setupPeer(id){if(typeof Peer!=='function')throw Error('PeerJS could not load. Reopen the supplied complete HTML file.');const p=new Peer(id,peerOptions());p.on('error',e=>{status('Connection interrupted');error('Could not connect: '+e.type+'. Check the room code and network settings, then reconnect.');});p.on('disconnected',()=>{status('Signalling connection interrupted');if(!stopped&&!p.destroyed)setTimeout(()=>{if(p.disconnected)p.reconnect();},2000);});return p;}
-function api(action,p={}){const job=hostQueue.then(async()=>{const response=await fetch('/api/mp/'+action,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({...p,host_key:hostKey})});const result=await response.json();if(!response.ok)throw Error(result.error||'The local game server could not complete that action.');if(result.host_key)hostKey=result.host_key;applyEnvelope(result);return result;});hostQueue=job.catch(()=>{});return job;}
+function api(action,p={}){const job=hostQueue.then(async()=>{const result=await BrowserTable.request(action,{...p,host_key:hostKey});const env=result.envelope;if(env){if(env.host_key)hostKey=env.host_key;applyEnvelope(env);}return result;});hostQueue=job.catch(()=>{});return job;}
 function applyEnvelope(env){if(env.host){current=env.host;room=env.host.room;render();}for(const[cid,msg]of Object.entries(env.direct||{})){const c=connections.get(cid);if(c?.open)c.send(msg);}for(const[cid,v]of Object.entries(env.peers||{})){const c=connections.get(cid);if(c?.open)c.send({type:'view',view:v});}}
 function registerConnection(c){const cid=crypto.randomUUID();connections.set(cid,c);let requests=0,last=Date.now();c.on('data',async message=>{try{if(Date.now()-last>1000){requests=0;last=Date.now();}if(++requests>15)throw Error('Too many messages. Please slow down.');await api('message',{connection:cid,message});}catch(e){if(c.open)c.send({type:'error',message:e.message,id:message?.id});}});c.on('close',()=>{connections.delete(cid);api('disconnect',{connection:cid}).catch(error);});c.on('error',()=>{connections.delete(cid);api('disconnect',{connection:cid}).catch(error);});}
-async function startHost(){try{stopped=false;$('#host-start').disabled=true;await api('host');if(peer)peer.destroy();peer=setupPeer(room);peer.on('open',()=>{status('Room open · facilitator hosting',true);$('#entry').hidden=true;$('#host-tools').hidden=false;});peer.on('connection',registerConnection);}catch(e){error(e);$('#host-start').disabled=false;}}
-function connectPlayer(){clearTimeout(retryTimer);if(!peer||peer.destroyed||connection?.open)return;status('Connecting to the facilitator…');connection=peer.connect(room,{reliable:true,serialization:'binary'});const c=connection;let opened=false;const timeout=setTimeout(()=>{if(!opened){status('No connection yet');error('The host did not answer. Check the room code, ask whether the room is open, or try a TURN relay on restricted networks.');}},15000);
+async function startHost(fresh=false){try{
+ if(connected&&!IS_HOST)throw Error('Leave your player tab open and host in a separate browser.');
+ $('#host-start').disabled=true;$('#host-resume').disabled=true;$('#join-form button').disabled=true;status('Loading the game — the first visit may take a minute…');
+ const env=await BrowserTable.start(fresh);IS_HOST=true;stopped=false;current=null;renderedEpoch='';
+ if(env){hostKey=env.host_key;applyEnvelope(env);}else await api('host');
+ if(peer)peer.destroy();peer=setupPeer(room);
+ peer.on('open',()=>{status('Room open · facilitator hosting',true);$('#entry').hidden=true;$('#host-tools').hidden=false;});
+ peer.on('connection',registerConnection);
+ }catch(e){error(e);status('Game not opened');}finally{$('#host-start').disabled=false;$('#host-resume').disabled=false;$('#join-form button').disabled=false;}}
+function connectPlayer(){clearTimeout(retryTimer);if(!peer||peer.destroyed||connection?.open)return;status('Connecting to the facilitator…');connection=peer.connect(room,{reliable:true,serialization:'binary'});const c=connection;let opened=false;const timeout=setTimeout(()=>{if(!opened&&c===connection){status('Waiting for the facilitator to reopen the room…');c.close();connection=null;if(!stopped)retryTimer=setTimeout(connectPlayer,3000);}},15000);
  c.on('open',()=>{opened=true;clearTimeout(timeout);const f=new FormData($('#join-form'));c.send({type:'hello',name:f.get('name'),role:f.get('role'),token:savedGet('vt-seat-'+room)||'',id:crypto.randomUUID()});status('Waiting for admission');});
  c.on('data',msg=>{if(c!==connection)return;if(msg.type==='admitted'){role=msg.role;savedSet('vt-seat-'+room,msg.token);status('Connected · '+ROLES[role],true);$('#entry').hidden=true;$('#brief-open').hidden=false;for(const m of outbox.values())c.send(m);}else if(msg.type==='view'){if(current&&msg.view.revision<current.revision&&msg.view.epoch===current.epoch)return;current=msg.view;render();}else if(msg.type==='ack'){const sent=outbox.get(msg.id);outbox.delete(msg.id);if(sent?.type==='sheet')$('#sheet-status').textContent='Received by the facilitator. You may revise this sheet until the bell.';}else if(msg.type==='waiting'){status(msg.message);}else if(msg.type==='error'){outbox.delete(msg.id);error(msg.message);}else if(msg.type==='revoked'){stopped=true;clearSaved('vt-seat-'+room);outbox.clear();current=null;$('#playing').hidden=true;$('#room-bar').hidden=true;$('#entry').hidden=false;status(msg.message);c.close();}});
  c.on('close',()=>{clearTimeout(timeout);if(c!==connection)return;status('Disconnected · your submitted sheet is saved');if(!stopped)retryTimer=setTimeout(connectPlayer,3000);});
  c.on('error',e=>{clearTimeout(timeout);if(c!==connection)return;status('Connection lost');error(e.message||'Connection lost. Try reconnecting.');});
 }
-function startPlayer(){try{room=$('#room-input').value.trim();if(!/^[a-zA-Z0-9][a-zA-Z0-9_-]{3,79}$/.test(room))throw Error('Enter the complete room code.');stopped=false;current=null;renderedEpoch='';outbox.clear();clearTimeout(retryTimer);connection=null;if(peer)peer.destroy();peer=setupPeer();peer.on('open',connectPlayer);savedSet('vt-last-room',room);}catch(e){error(e);}}
+function startPlayer(){try{if(IS_HOST)throw Error('This tab is hosting. Join from another browser or device.');room=$('#room-input').value.trim();if(!/^[a-zA-Z0-9][a-zA-Z0-9_-]{3,79}$/.test(room))throw Error('Enter the complete room code.');stopped=false;current=null;renderedEpoch='';outbox.clear();clearTimeout(retryTimer);connection=null;if(peer)peer.destroy();peer=setupPeer();peer.on('open',connectPlayer);savedSet('vt-last-room',room);}catch(e){error(e);}}
 function sendMessage(msg){if(!connected||!connection?.open)throw Error('Reconnect before sending. Your entries remain on this page.');msg.id=crypto.randomUUID();outbox.set(msg.id,msg);connection.send(msg);}
 function render(){if(!current)return;const h=IS_HOST?current:null,g=IS_HOST?current.game:current;$('#room-bar').hidden=false;$('#playing').hidden=false;$('#room-title').textContent=IS_HOST?'Facilitator room':ROLES[role];$('#room-code').textContent=room;$('#copy-room').hidden=!IS_HOST;
  $('#seats').innerHTML=Object.entries(current.seats).map(([r,s])=>'<div class="seat"><strong>'+esc(ROLES[r])+'</strong>'+esc(s.name)+'<br><span class="'+(s.connected?'connected':'offline')+'">'+(s.connected?'Connected':'Offline')+'</span> · '+(s.submitted?'sheet received':s.due?'waiting':'no sheet due')+(IS_HOST&&s.name!=='Unassigned'?'<br><button class="quiet" data-release="'+r+'">Release seat</button>':'')+'</div>').join('');
@@ -78,11 +86,21 @@ $('#rules-open').onclick=()=>{$('#reference-body').innerHTML=REFERENCE.rules;$('
 $('#brief-open').onclick=()=>{$('#reference-body').innerHTML=REFERENCE.briefs[role?.startsWith('G')?'Guild':role?.startsWith('J')?'Janissariat':'Ascendant'];$('#reference').showModal();};
 $('#reference-close').onclick=()=>$('#reference').close();
 $('#join-form').onsubmit=e=>{e.preventDefault();startPlayer();};
-$('#host-start').onclick=startHost;
+$('#host-start').onclick=()=>startHost(true);
+$('#host-resume').onclick=()=>startHost(false);
 $('#reconnect').onclick=()=>{if(IS_HOST){startHost();return;}stopped=false;if(peer&&!peer.destroyed&&!peer.disconnected){const old=connection;connection=null;if(old)old.close();connectPlayer();}else startPlayer();};
 $('#forget').onclick=()=>{const r=$('#room-input').value.trim();clearSaved('vt-seat-'+r);stopped=true;if(connection)connection.close();status('Saved seat cleared. Ask the facilitator to release it if you need a new admission.');};
 $('#copy-room').onclick=async()=>{try{await navigator.clipboard.writeText(room);$('#copy-room').textContent='Copied';}catch{error('Select the room code and copy it manually.');}};
 $('#new-room').onclick=async()=>{if(!confirm('Archive this session and open a new room? Everyone will need admission again.'))return;try{stopped=true;for(const c of connections.values()){if(c.open)c.send({type:'revoked',message:'The facilitator started a new room.'});c.close();}connections.clear();if(peer)peer.destroy();await api('new');renderedEpoch='';$('#entry').hidden=false;$('#host-start').disabled=false;await startHost();}catch(e){error(e);}};
-if(IS_HOST){$('#join-form').hidden=true;$('#host-start').hidden=false;$('#entry-title').textContent='Host the table';$('#entry-help').textContent='Open the room, send each player the player HTML file and room code, then admit them to their seats. Keep this page open. Reopening it resumes the separately saved multiplayer session.';}
-else $('#room-input').value=savedGet('vt-last-room')||'';
-window.addEventListener('beforeunload',()=>{stopped=true;if(peer)peer.destroy();});
+$('#room-input').value=savedGet('vt-last-room')||'';
+$('#peer-options').value=savedGet('vt-peer-options')||'';
+$('#peer-options').onchange=()=>savedSet('vt-peer-options',$('#peer-options').value);
+BrowserTable.saved().then(save=>{if(save){$('#host-resume').hidden=false;$('#saved-game').textContent='Saved game: '+save.room+'. Resume in this browser to keep its seats and decisions.';}}).catch(e=>{$('#saved-game').textContent=e.message;});
+for(const [id,action,name,type] of [['download-report','report','void-throne-multiplayer.html','text/html'],['download-record','export','void-throne-multiplayer.json','application/json']]){
+ $(id.startsWith('#')?id:'#'+id).onclick=async()=>{try{const result=await api(action);BrowserTable.download(name,typeof result.download==='string'?result.download:JSON.stringify(result.download,null,2),type);}catch(e){error(e);}};
+}
+$('#download-backup').onclick=()=>BrowserTable.backup().catch(error);
+$('#download-archives').onclick=()=>BrowserTable.archives().catch(error);
+window.addEventListener('beforeunload',()=>{stopped=true;if(peer)peer.destroy();BrowserTable.stop();});
+
+window.addEventListener('host-save-failed',e=>{error(e.detail);status('Autosave stopped — download a recovery backup');const b=$('#advance button');if(b)b.disabled=true;});

@@ -1,5 +1,5 @@
-name: Publish player page
-# Deploy only the player site; facilitator documents and archives are not site assets.
+name: Publish online game
+# Deploy the unified game; saved games, reports and archives are not site assets.
 on:
   push:
     branches: [main]
@@ -21,6 +21,7 @@ jobs:
         run: |
           python -m unittest discover -s tests -p test_game.py -v
           python -m unittest discover -s tests -p test_multiplayer.py -v
+          python -m unittest discover -s tests -p test_browser_host.py -v
       - run: python tools/build_pages.py
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:

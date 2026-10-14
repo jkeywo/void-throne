@@ -17,5 +17,6 @@ jobs:
         run: |
           python -m unittest discover -s tests -p test_game.py -v
           python -m unittest discover -s tests -p test_multiplayer.py -v
-      - name: Build the public player page
+          python -m unittest discover -s tests -p test_browser_host.py -v
+      - name: Build the online game
         run: python tools/build_pages.py

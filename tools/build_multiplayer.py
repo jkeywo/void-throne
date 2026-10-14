@@ -1,4 +1,4 @@
-"""Build the host page and portable player HTML without bundling any private cards."""
+"""Build one portable browser-hosted game for both facilitators and players."""
 from pathlib import Path
 import json,html,re
 ROOT=Path(__file__).resolve().parents[1]
@@ -19,9 +19,20 @@ for kind,text in docs['briefs']['blocks']:
         owner={'The Ductus Guild':'Guild','The Janissariat':'Janissariat','The Ascendant':'Ascendant'}[text];briefs[owner]=[]
     if owner:briefs[owner].append([kind,text])
 reference='const REFERENCE='+json.dumps(dict(rules=render(docs['rulebook']['blocks']),briefs={k:render(v) for k,v in briefs.items()}),ensure_ascii=False).replace('<','\\u003c')+';'
+# The repository and game code are public. Only the host starts the engine;
+# each connected player still receives the Multiplayer.view allowlist.
+files = {}
+for name in ('__init__', 'operations', 'settlement', 'charter', 'session', 'multiplayer', 'browser_host'):
+    path = f'src/void_throne/{name}.py'
+    files[path] = (ROOT/path).read_text(encoding='utf8')
+for folder in ('private-cards', 'public-covers'):
+    for path in sorted((ROOT/'design'/folder).glob('*.json')):
+        files[path.relative_to(ROOT).as_posix()] = path.read_text(encoding='utf8')
+def js(value): return json.dumps(value,ensure_ascii=False).replace('<', '\\u003c')
+host_data = 'const HOST_FILES='+js(files)+';const HOST_WORKER='+js((SOURCE/'host-worker.js').read_text(encoding='utf8'))+';'
 template=(SOURCE/'multiplayer.html').read_text(encoding='utf8')
-for mode,name in [('host','multiplayer.html'),('player','multiplayer-player.html')]:
-    result=template.replace('data-mode="MODE"',f'data-mode="{mode}"').replace('/* STYLE */',(SOURCE/'multiplayer.css').read_text(encoding='utf8')).replace('/* PEERJS */',(ROOT/'web/vendor/peerjs-1.5.5.min.js').read_text(encoding='utf8')).replace('/* REFERENCE */',reference).replace('/* APP */',(SOURCE/'multiplayer.js').read_text(encoding='utf8'))
-    result=result.replace('</head>', '<!-- PeerJS 1.5.5: '+(ROOT/'web/vendor/peerjs-LICENSE').read_text(encoding='utf8')+' --></head>')
+result=template.replace('/* STYLE */',(SOURCE/'multiplayer.css').read_text(encoding='utf8')).replace('/* PEERJS */',(ROOT/'web/vendor/peerjs-1.5.5.min.js').read_text(encoding='utf8')).replace('/* REFERENCE */',reference).replace('/* HOST DATA */',host_data).replace('/* BROWSER HOST */',(SOURCE/'browser-host.js').read_text(encoding='utf8')).replace('/* APP */',(SOURCE/'multiplayer.js').read_text(encoding='utf8'))
+result=result.replace('</head>', '<!-- PeerJS 1.5.5: '+(ROOT/'web/vendor/peerjs-LICENSE').read_text(encoding='utf8')+' --></head>')
+for name in ('multiplayer.html','multiplayer-player.html'):
     (ROOT/'web'/name).write_text(result,encoding='utf8')
-print('Built host and standalone player pages; only public rules and role briefs embedded.')
+print('Built identical start-or-join pages with the shared browser rules engine.')

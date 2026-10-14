@@ -118,21 +118,16 @@ The current scenario concerns Sorenne’s Fall and the Sorenne Flag. Stability m
 
 Player handouts are in `docs/player-briefs.html` and the native Player Briefs document listed in `design/drive-files.json`. The main rulebook keeps shared rules and council seating; faction objectives and advice are separate.
 
-## Human multiplayer
+## Human multiplayer — one online page
 
-Double-click `Start Multiplayer.cmd` to host five human players through PeerJS. Open the room, download `web/multiplayer-player.html`, and give each player that file and the room code. Players need only a browser and internet access. The facilitator admits each seat and closes phases; each player submits their own decisions. See `docs/multiplayer-guide.txt` for setup, privacy, reconnecting, reports and network options.
+Open https://jkeywo.github.io/void-throne/ on every machine. The facilitator chooses **Start a new game**, shares the room code, and admits each player. Players choose **Join the table**. Five players submit their own sheets; the facilitator closes phases. There is no Python installation or local game server required for this mode.
 
-The portable player HTML bundles public rules and briefs, the UI and PeerJS 1.5.5; it contains no private vision answers. `python tools/build_multiplayer.py` rebuilds both pages from their sources. Multiplayer saves are separate and scoped by server port. Existing all-seat mode remains available.
+The facilitator must keep the hosting tab open. Games autosave in that browser. After a reload, choose **Resume saved game**; players reconnect to the same code, with a Reconnect button if needed. One tab per browser can host at a time. Starting another room archives the prior browser save. HTML reports, decision records, current host backups and archived backups can be downloaded from the facilitator controls. Clearing site storage removes browser saves. Backups preserve data for recovery, but this version has no backup-file import screen.
 
+The first hosting session downloads the pinned Pyodide 314.0.7 runtime from jsDelivr. The existing Python rules and seat authorization run in a module worker; PeerJS carries player messages. IndexedDB stores host saves and Web Locks prevents two tabs from overwriting them. Players do not start the Python runtime. Both generated HTML filenames contain the same start-or-join page.
 
-## GitHub and player-site hosting
+The source repository is public, including scenario answers. This is a cooperative playtest tool, not an anti-cheat service. The interface still restricts live sheets, private chats and purchased visions to their authorized seats. Never send the worker's full backup or host envelope to player peers.
 
-The full project is public at https://github.com/jkeywo/void-throne. It includes facilitator material, lore and historical records; players wishing to avoid spoilers should use the player site.
+`python tools/build_pages.py` rebuilds the game and stages only `index.html` and `.nojekyll` in `build/pages/`. The **Publish online game** workflow tests the rules and browser bridge, then deploys on pushes to `main` (or manual dispatch). Saved games, reports and historical archives are not deployed as website assets. Playtrace integration remains a local check because its dependencies are maintained separately.
 
-`python tools/build_pages.py` rebuilds the portable player interface and stages only `index.html` and `.nojekyll` in `build/pages/`. Upload only this directory to a static host. Never publish the repository root, `docs/`, `archive/`, or a saved game as a Pages site.
-
-The hosted page is for players. The facilitator still starts `Start Multiplayer.cmd` locally, opens a room, and shares its room code. GitHub Pages does not run the Python rules server. The facilitator's browser must stay open throughout play.
-
-GitHub Actions checks the game rules, multiplayer authority and public build on pushes and pull requests. Playtrace integration and the six-browser connection test remain local checks because their dependencies are maintained separately.
-
-Players join at https://jkeywo.github.io/void-throne/ using the room code supplied by their facilitator. The **Publish player page** workflow checks the game and multiplayer rules, then publishes on pushes to `main`; it can also be run manually. Pages uses GitHub Actions as its publishing source. Only the staged player page is deployed, although the full source repository is public.
+The all-seat Python test bench remains available through `Start Playtest.cmd`. `Start Multiplayer.cmd` can still serve the unified HTML locally, but games created there now save in that browser origin; older Python multiplayer save files are not automatically migrated. See `docs/multiplayer-guide.txt` for connection and recovery details.
