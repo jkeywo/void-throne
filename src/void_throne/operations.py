@@ -31,16 +31,16 @@ def resolve(st, rnd=1, w='Council', l='Maintain', s='Council', v='Council',
     guarded=False
     if warrant and ma in ('I','MI'):
         if st.readiness>=3 and v=='Council':
-            guarded=True; c+=1; events.append('Warrant: Vigil used; Communities +1')
+            guarded=True; c+=1; events.append('Warrant: Vigil used; Stability +1')
         else:
-            c-=1; events.append('Unsupported warrant: Communities -1')
+            c-=1; events.append('Unsupported warrant: Stability -1')
     elif warrant:
         events.append('Warrant outside authority: advice only')
     if sec=='Guard':
         if v=='Council' and not guarded:
-            guarded=True;c+=1;events.append('Guard: Vigil used; Communities +1')
+            guarded=True;c+=1;events.append('Guard: Vigil used; Stability +1')
         else:
-            sec='Restraint';c-=1;events.append('Unfunded Guard: Restraint; Communities -1')
+            sec='Restraint';c-=1;events.append('Unfunded Guard: Restraint; Stability -1')
     # Establish paid navigation order, including the conditional hired cutter.
     offeredW=w=='Council'; offeredL=l=='Council'
     if nav=='Relief' and not offeredW and intervention=='Relief lift' and reserve:
@@ -48,12 +48,12 @@ def resolve(st, rnd=1, w='Council', l='Maintain', s='Council', v='Council',
     funded={'Relief':offeredW,'Military':w=='Council','Shared':w=='Council' and offeredL,
             'Repair':offeredL,'Hold':True}[nav]
     if not funded:
-        nav='Hold';c-=1;events.append('Unfunded Navigation: Hold; Communities -1')
+        nav='Hold';c-=1;events.append('Unfunded Navigation: Hold; Stability -1')
     prepared=clamp(st.beacon+(1 if l=='Maintain' else 0)+(2 if nav=='Repair' else 0))
     voyage=nav in ('Relief','Military','Shared')
     delivered=voyage and prepared>=2
     if voyage and not delivered:
-        c-=1;events.append('Unsafe passage: voyage halted; Communities -1')
+        c-=1;events.append('Unsafe passage: voyage halted; Stability -1')
     if delivered:
         wear+=1
         c+={'Relief':2,'Military':0,'Shared':1}[nav]
@@ -65,31 +65,31 @@ def resolve(st, rnd=1, w='Council', l='Maintain', s='Council', v='Council',
             W=False;wear+=1;events.append('Wayfarer attacked: no contract; ship disabled')
         else:
             events.append('Commercial voyage halted: no contract; ship intact')
-    # Each institution can lose at most one Community for breach this round.
+    # Each institution can lose at most one Stability for breach this round.
     guild_breach=(na=='NG' and not (l=='Maintain' or nav=='Repair')) or (na in ('NI','NJ') and w!='Council')
     jan_breach=(ma in ('MI','MJ') and s!='Council') or (ma=='MA' and v!='Home') or (ma=='I' and s=='Raid')
-    if guild_breach:c-=1;events.append('Guild duty broken: Communities -1')
-    if jan_breach:c-=1;events.append('Janissariat duty broken: Communities -1')
+    if guild_breach:c-=1;events.append('Guild duty broken: Stability -1')
+    if jan_breach:c-=1;events.append('Janissariat duty broken: Stability -1')
     raid=s=='Raid' or (sec=='Raid' and s=='Council')
     campaign=sec=='Campaign' and s=='Council'
     if sec in ('Raid','Campaign') and s!='Council':
-        c-=1;events.append('Unfunded Security order: Restraint; Communities -1')
+        c-=1;events.append('Unfunded Security order: Restraint; Stability -1')
     combat=False
     if campaign:
         if not (delivered and nav in ('Military','Shared')):
-            c-=1;events.append('Campaign lacks delivered military passage: Communities -1')
+            c-=1;events.append('Campaign lacks delivered military passage: Stability -1')
         else:
             c-=1
-            if st.readiness>=2:combat=True;events.append('Campaign fought: Communities -1; conditioning sustained')
-            else:S=False;events.append('Campaign overmatched: Spear disabled; Communities -1')
+            if st.readiness>=2:combat=True;events.append('Campaign fought: Stability -1; conditioning sustained')
+            else:S=False;events.append('Campaign overmatched: Spear disabled; Stability -1')
     if raid:
         c-=1
         present=trade if rnd==1 else delivered and nav=='Relief'
         if present:
             if st.readiness>=2:
-                combat=True;c-=1;events.append('Raid fought: Communities -2 total; conditioning sustained')
+                combat=True;c-=1;events.append('Raid fought: Stability -2 total; conditioning sustained')
             else:S=False;events.append('Raid overmatched: Spear disabled')
-        else:events.append('Raid target absent: Communities -1; no qualifying combat')
+        else:events.append('Raid target absent: Stability -1; no qualifying combat')
     if rnd==1 and delivered and nav=='Shared' and not guarded:
         if intervention=='Tender cover' and reserve:
             reserve=False;events.append('Grey Petrel protects Lantern crew; reserve spent')
@@ -97,9 +97,9 @@ def resolve(st, rnd=1, w='Council', l='Maintain', s='Council', v='Council',
             L=False;events.append('Exposed transfer berth: Lantern navigation team lost')
     if rnd==2:
         if delivered and nav=='Military' and not guarded:
-            c-=1;events.append('Unprotected military-only loading: Communities -1')
+            c-=1;events.append('Unprotected military-only loading: Stability -1')
         if nav=='Repair' and trade:
-            c+=1;events.append('Repair and completed commercial voyage: Communities +1')
+            c+=1;events.append('Repair and completed commercial voyage: Stability +1')
     new=State(clamp(prepared-wear),clamp(st.communities+c),clamp(st.readiness+(1 if combat else -1)),W,L,S,contracts,reserve)
     return new,dict(events=events,prepared=prepared,nav=nav,sec=sec,guarded=guarded,delivered=delivered,
                     trade=trade,combat=combat,guild_breach=bool(guild_breach),jan_breach=bool(jan_breach))

@@ -8,7 +8,7 @@ You want a future that outlives conquest. Your authority rests partly on an army
 
 Your priorities
 
-Preserve a workable empire: ratify the two instruments with Beacon 1+, Communities 2+ and Readiness 2+.
+Preserve a workable empire: ratify the two instruments with Beacon 1+, Stability 2+ and Readiness 2+.
 Keep the army you need: prefer Readiness 3+ and an intact Spear. At low Readiness your independent Warrant capability is lost.
 Build a government that can function without you: judge actual service, protection and workable decisions. You gain no special success from retaining an imperial article. Delegate when confident in the settlement; describe the evidence you need. Retaining control is a means, not an objective.
 Account for your rule: name the people who paid for the settlement you secured.
@@ -23,9 +23,9 @@ Imperial Warrant - an army-backed power
 
 Requirement: Interim or M-I military authority, opening Readiness 3+, and Vigil offered to Security.
 Cost: assign Vigil to the Warrant before the council bell.
-Effect: Communities +1 and guarded status. Security may still use offered Spear for a different order. It cannot also use Vigil for Guard.
+Effect: Stability +1 and guarded status. Security may still use offered Spear for a different order. It cannot also use Vigil for Guard.
 
-If you issue a Warrant under Interim/M-I but lack Readiness or offered Vigil, it fails: Communities -1. Outside those articles it is only advice, with no effect or penalty. Under M-J the delegates may choose Guard; you have lost the power to order it independently. Your formal title cannot replace military support.
+If you issue a Warrant under Interim/M-I but lack Readiness or offered Vigil, it fails: Stability -1. Outside those articles it is only advice, with no effect or penalty. Under M-J the delegates may choose Guard; you have lost the power to order it independently. Your formal title cannot replace military support.
 
 One prepared intervention
 

@@ -1,373 +1,350 @@
-# The Void Throne — Player Rulebook
-Five players and one facilitator · 60 minutes · Paper prototype v0.3
-Teaching edition revised 14 October 2026. The rules are unchanged; the explanations and examples have been expanded.
-
-> The conquest has ended. The ships, soldiers and people who made it possible still need a future. You have two months to show that your proposed government can work, then decide who will hold power when the emergency is over.
-
+~ The Void Throne Playtest
+# Player’s Rulebook
+Five players / 60 minutes
+The conquest has ended, but the ships, soldiers and institutions who made it possible still need a future. You have two months to show that your proposed government can work, then decide who will hold power when the emergency is over.
 ### Contents
-- 1. Start here: what you are playing
-- 2. The setting: an empire without an agreed future
-- 3. Your faction and your seat
-- 4. Set up the table
-- 5. A round at a glance
-- 6. Worked example: a cooperative first round
-- 7. Assets, tracks and passage
-- 8. Navigation and Supply: choose one order
-- 9. Security and Government: choose one order
-- 10. The Ascendant's tools
-- 11. Try a government before settling it
+- Introduction
+- The Settled Dark
+- 3. Your faction
+- 4. Setting up
+- 5. Sequence of play
+- 6. Example of play
+- 7. Assets and tracks
+- 8. Navigation and Supply
+- 9. Security and Government
+- 10. Foresight and imperial powers
+- 11. Provisional government
 - 12. The Ceremony of Settlement
-- 13. Questions that often stop a first game
-- 14. Quick reference and glossary
-
-## 1. Start here: what you are playing
-The Void Throne is a game of negotiation about governing a new interstellar empire. You play its ruler or one of two powerful institutions. You will talk, make offers, write decisions on paper and live with their consequences. The facilitator keeps time and applies the rules.
-There are five player seats. Two players share the Ductus Guild, which controls navigation and transport. Two share the Janissariat, the army that won the conquest. The fifth is the Ascendant, the ruler who united the empire and can glimpse the consequences of possible decisions.
-You face one connected emergency. A passage called the Narrow is deteriorating. Nearby communities need supplies, and an army cohort needs transport. Your ships and forces cannot do every job. Helping one group may cost another an opportunity, independence or military strength.
-At the same time, you are writing two parts of the empire's constitution: who directs transport, and who directs military operations. After the first round, you may put new arrangements into force for a trial. After the second, you vote on a lasting settlement.
-### What counts as success?
-There is no single score that declares one player the winner. Each faction has shared priorities, explained in section 3 and its brief. Judge your result against those priorities and the government you leave behind. You may disagree about whether a settlement was a success.
-The final vote is weighted by the power each party still controls. A package can pass despite one party's refusal. Passing that vote settles the two constitutional questions; it does not mean everyone prospered or consented.
-You do not have individual secret objectives within a faction. Work with your teammate. You can take independent action against another party's wishes, but it may have military, civilian or legal costs.
-### How to use this book
-Read sections 1–5 for the setting, your role, setup and the shape of a round. Section 6 walks through a complete example. Use sections 7–12 when you need the exact rules. Section 13 answers common questions; section 14 is a quick reference and glossary.
-The facilitator has a separate guide with concealed scenario consequences. Players do not need to read it. The cards, slips and counters are enough to play; the browser version is an optional development tool.
-
-## 2. The setting: an empire without an agreed future
-### The Settled Dark
-Roughly two hundred inhabited worlds, stations and habitats form the Settled Dark. For three thousand years, six great dynastic Houses ruled it through the Conclave of Thrones. Over decades of conquest, a figure known as the Ascendant broke their power.
-The new empire is called the Settled Dominion. Its rulers are negotiating a Charter of Settlement: the constitution that will define the institutions of the new order. The negotiations take place at the Seam. You do not need to know its geography or the history of every House to play this scenario.
-The wider setting contains religious authorities, civil administrators and other factions. In this small game, those institutions have already accepted the six constitutional alternatives printed on your cards. They cannot introduce a surprise veto. Your task is to settle two remaining questions about navigation and military deployment.
-### Why the Guild matters
+- 13. Rules questions
+- 14. Reference
+## 1. Introduction
+The Void Throne is a game of negotiation about governing a new interstellar empire. You will talk, make offers, write decisions into law… and then live with their consequences.
+There are five player roles:
+- Two from Ductus Guild, which controls navigation and transport.
+- Two from the Janissariat, the army that won the war.
+- The Ascendant, the ruler who united the empire and can see the future.
+You face one connected emergency: A space passage called the Narrow is deteriorating. The star system of Sorenne's Fall needs supplies, and a cohort of Janissariat needs transport, but your ships and forces cannot do every job.
+At the same time, you are writing two parts of the empire's constitution: who directs transport between the stars, and who directs military operations.
+## 2. The Settled Dark
+Roughly two hundred inhabited worlds, stations and habitats form the Settled Dark. For three thousand years, six great dynastic Houses ruled it through the Conclave of Thrones, but over decades of conquest, a figure known only as the Ascendant broke their power.
+The new empire is called the Settled Dominion and its rulers are negotiating a Charter of Settlement: the constitution that will define the institutions of the new order. The negotiations take place at the Seam - the ancient space station the Ascendant rules from.
+### The Ductus Guild
 Interstellar travel depends on Guild navigators, who learn to sense and interpret the immaterial deep through which ships travel. Owning a ship is not enough: you need their specialist expertise. The Ductus Guild uses that dependence to defend its licences, professional independence and commercial obligations.
-The Guild's Navigation Rights Petition, called GUILD-14, has waited fourteen years for a formal answer. Here, each printed Navigation article answers it differently. The game concerns licensed passage and duties of service; wider disputes about communications remain outside this settlement.
-### Why the army needs fighting
-The Janissariat is an enormous army of psychically conditioned warriors. That conditioning made it an effective instrument of conquest. It frays without fighting, weakening combat power and the habits that sustain imperial military authority.
-That gives the army a difficult incentive. A peaceful month may help civilians while weakening the institution the Janissariat players command. Fighting can preserve its strength at a cost to those civilians. This is not an instruction to betray the Ascendant: the players decide how loyalty survives the transition to peace.
-### Why the Ascendant cannot simply solve everything
-The Ascendant wants a durable empire and a government that can function without constant personal intervention. They also need the army that supports their rule. They can see conditional futures, but using foresight diminishes their own power.
-The Ascendant begins with the right to issue imperial orders. They do not own the Guild's ships or the Janissariat's forces. An order unsupported by those who control the assets can fail. Delegating power may make cooperation more reliable, but it changes what the ruler can command next round.
-### The immediate crisis
-The Narrow is a strategic passage between dense stellar formations. This scenario concerns its local service infrastructure, surrounding communities and a stranded cohort. A Beacon track records the condition of that infrastructure. It does not measure the safety of the entire immaterial deep.
-Armed remnants of the defeated order remain active. A Campaign attacks a position beyond the crossing; a Raid tries to intercept a local detachment. These are armed targets, not the civilian population. The local ships, forces and emergency are the scale of this prototype, not the whole empire.
-
-## 3. Your faction and your seat
-### Ductus Guild — two players
-You control Wayfarer, a freight vessel, and Lantern, a tender with a trained navigation team. Decide their assignments together. Your commercial work matters, but so do the route and people on which your institution depends.
-- Protect Lantern's crew and aim to finish with Beacon at least 2.
-- Secure a formal answer to GUILD-14 and protect Guild navigation rights. Guild discretion is your preferred starting position; joint authorisation offers a voice over each order at the cost of a service duty.
-- Complete your two commercial contracts, one available in each round. A missed contract is a lost opportunity for that round, not permanent loss of the ship.
-- Aim to leave Communities at least 2.
-Your Navigation delegate negotiates how ships are used. Your Security delegate can seek protection for those ships and limits on the army's actions. Neither player has a separate personal victory condition.
-### Janissariat — two players
-You control Spear, the 9th Pale Cohort, and Vigil, the Narrow garrison. Spear can conduct a local Raid using its own assault craft. A Campaign beyond the route needs transport from Navigation.
-- Aim for Readiness at least 3, preferably 4, and keep Spear intact.
-- Secure the army's constitutional position. Military autonomy is your preferred starting position; joint authorisation gives shared legitimacy but allows another institution to block an order.
-- Protect your soldiers. Sending Spear into a fight at opening Readiness below 2 can disable it.
-- Aim to leave Communities at least 2.
-Your Navigation delegate bargains for passage and suitable transport priorities. Your Security delegate bargains over military operations and authority. Guard duty and food do useful work, but they do not sustain combat conditioning in this scenario.
-### Ascendant — one player
-You hold initial imperial authority, three foresight tokens and one contracted reserve service from Grey Petrel. Your power also depends on the army's Readiness.
-- Seek a ratified settlement with Beacon at least 1, Communities at least 2 and Readiness at least 2.
-- Prefer Readiness at least 3 and an intact Spear where the cost is acceptable.
-- Build a government that can work without you. Keeping imperial command is not a victory requirement.
-- Be able to name who paid for the peace you secured.
-You attend Security and Government. When you hold Navigation authority, send that council a public written directive. Everyone may bargain with you; a vision gives information, not extra votes or ownership of another faction's assets.
-### The two councils
-Navigation and Supply has the Guild Navigation delegate and the Janissariat Navigation delegate. Their sheet uses GN and JN for those seats.
-Security and Government has the Guild Security delegate, the Janissariat Security delegate and the Ascendant. Their sheet uses GS, JS and A.
-These are assignments of people to discussions, not extra factions. Each teammate represents the same faction at a different table. During faction discussion, agree what you will offer and what each delegate should seek. During free discussion, all five players may negotiate together.
-
-## 4. Set up the table
+The Guild's Navigation Rights Petition, called GUILD-14, has waited fourteen years for a formal answer in the Charter of Settlement.
+### The Janissariat
+The Janissariat is an enormous army of psychically conditioned warriors. That conditioning made them an effective instrument of war. It frays without fighting, weakening combat power and the habits that sustain imperial military authority.
+That gives the army a difficult incentive: a peaceful month may help the Dominion while weakening the Janissariat in the future.
+### The Ascendant
+Little is known of the Ascendant, but that they appeared leading the Janissariat at the start of the conquest, and that they have the power of foresight.
+The Ascendant begins with the right to issue imperial orders, but need support from the Guild and the Janissariat to enact those orders.
+### The Crisis
+The Narrow is a strategic passage between dense stellar formations, linking the inner systems to the southern rim. Supplies passing through it sustain Sorenne's Fall, a star system of forty million people living beneath the debris of a battle fought before Pale Meridian.
+Sorenne's Fall governs itself through the civil administration left behind when House Sorenne stopped sending orders. Its people need reliable deliveries and functioning services, whoever eventually rules them.
+The Sorenne Flag is the surviving fleet of defeated House Sorenne. It scattered rather than surrender at Pale Meridian and continues to resist the Dominion. It also delivers irregular supplies to Sorenne's Fall: destroying its ships can leave the system harder to govern.
+Spear, a Janissariat cohort, is held at the Narrow while its commanders seek passage to the Flag's anchorage beyond it. A Sorenne patrol also operates on this side of the crossing. The damaged route must carry supplies, commercial cargo or soldiers... but it cannot carry everything.
+## 3. Your faction
+The Guild and the Janissariat each have two players. You share assets and objectives, but sit on different councils. Agree what your faction will offer and what you want in return before you separate.
+The Ascendant is a single player, supported by the army and able to spend their own power on foresight. All three parties need a settlement, but they have different reasons to fear it.
+### The Ductus Guild
+You operate the passage service through the Narrow. Wayfarer is your freight vessel; Lantern carries your navigation team and maintains the route. Those ships are needed for civilian supplies, military transport and your own commercial obligations.
+Your petition, GUILD-14, asks the Charter to recognise the Guild's navigation rights. Each Navigation article answers it differently: Guild discretion leaves priorities with you, Imperial priority places them with the Ascendant, and Joint authorisation gives both factions a say.
+Your objectives are to:
+- Keep Lantern's navigators alive and finish with Beacon at least 2.
+- Secure Guild navigation rights, preferably through Guild discretion.
+- Complete two commercial contracts, one in each round.
+- Leave Sorenne's Fall with Stability at least 2.
+Offering Wayfarer for public service means missing that month's contract. The ship returns if it survives, but the opportunity has gone. You may accept that cost for relief, protection or a worthwhile constitutional concession.
+### The Janissariat
+You command Spear, the 9th Pale Cohort, and Vigil, the Narrow garrison. Spear has local assault craft, but needs Guild transport to campaign beyond the crossing. Vigil can protect traffic or remain at its institutional bases.
+The Sorenne Flag gives you an enemy to fight. The difficulty is finding it without further damaging the system you are supposed to secure. An unsuccessful expedition still consumes supplies and disrupts civilian traffic, while doing nothing to sustain your conditioning.
+Your objectives are to:
+- Keep Spear intact and finish with Readiness at least 3, preferably 4.
+- Secure the army's constitutional position, preferably through Military autonomy.
+- Protect your soldiers from operations they cannot sustain. At opening Readiness below 2, combat disables Spear.
+- Leave Sorenne's Fall with Stability at least 2.
+Military autonomy lets you choose operations, but requires Vigil to stay Home. Joint authorisation gives the Guild a say over military orders. Imperial command leaves the Ascendant able to order you to stand down.
+### The Ascendant
+You need a government capable of maintaining the Dominion, and an army capable of defending it. A quiet month may help Sorenne's Fall while weakening both the Janissariat and the authority they give you.
+You begin with imperial command, three foresight tokens and one contracted service from the cutter Grey Petrel. Spending foresight gives you information about the crisis, but reduces your weight in the final settlement.
+Your objectives are to:
+- Ratify a settlement with Beacon at least 1, Stability at least 2 and Readiness at least 2.
+- Keep Readiness at least 3 and Spear intact where the cost is acceptable.
+- Establish a government you can trust to govern without your constant intervention.
+- Account for the people and institutions that paid for that settlement.
+You gain no special success from keeping imperial command. Use the provisional government to find out whether delegation works, then judge the final Charter on that evidence.
+### The councils
+Navigation and Supply has one Guild delegate and one Janissariat delegate. On decision sheets they are GN and JN.
+Security and Government has the other Guild delegate, the other Janissariat delegate and the Ascendant. They are GS, JS and A.
+The Guild's Navigation delegate bargains over passage; its Security delegate bargains over protection and military conduct. The Janissariat's Navigation delegate secures transport; its Security delegate bargains over operations and command. Both members still represent the same faction.
+There are no individual secret objectives. At the end, assess your faction's position against its shared objectives. The final vote determines the government; it does not award a single winner.
+## 4. Setting up
+You need five players, a facilitator and a table with space for the two councils. Allow eight minutes for the opening briefing.
+Place Navigation and Supply at one end and Security and Government at the other. Keep the tracks, current articles and signed decisions in a central space where everyone can read them. Factions need room to confer between council meetings.
 ### Materials
-Use the current v0.3 rules and revised vision cards. Plain paper can replace a printed slip if it contains the same fields. Earlier packs contain superseded rules, so do not mix their old foresight or final-vote instructions into this game.
-- One public rulebook, one facilitator guide and three shared-role briefs: Guild, Janissariat and Ascendant.
-- Two council reference sheets and four asset cards: Wayfarer, Lantern, Spear and Vigil. Keep Grey Petrel's reserve reference with the Ascendant.
-- Six Charter option cards: three Navigation alternatives and three Military alternatives.
-- Four public vision covers and four matching concealed answer cards: one Navigation and one Security pair for each round.
-- Three tracks numbered 0–4, with one counter each; three foresight tokens; one reserve token. Record completed contracts with tally marks.
-- Four faction decision sheets and four council order sheets: one per faction and council in each of two rounds. Include space for drafts, final choices and signatures.
-- Two Ascendant worksheets, a provisional-article proposal and signature sheet, and two final settlement proposal and ballot sheets. Keep a public state record and spare paper for messages.
-### Prepare the playing area
-Place Navigation and Supply at one end of the table and Security and Government at the other. Leave a central space for the three tracks, current articles, signed commitments and final orders. Keep enough space for the factions to talk together between councils.
-Give the Guild Wayfarer and Lantern. Give the Janissariat Spear and Vigil. All four begin available. Give the Ascendant three foresight tokens and Grey Petrel's reserve token. The facilitator keeps all answer cards concealed.
-Set Beacon to 2, Communities to 3 and Readiness to 3. Start completed contracts at zero. Write Interim in both article spaces. Interim means the starting arrangements in section 11: the Ascendant chooses both council orders, while factions retain control of their assets.
-Give each faction its brief and choose its two council delegates. Show the starting settlement weights: Guild 4, Janissariat 3 and Ascendant 6. Their total is 13, so nine supporting weight will be needed if those values remain unchanged. Section 12 explains the calculation.
-### Learn to read a decision sheet
-An asset assignment says what its owner makes available. Council means the asset is offered to its council for this round. It does not choose an order and does not transfer ownership.
-A council order says what the authorised decision-maker wants done. It still needs the required assets. A directive is the Ascendant's written council order where the Ascendant has that authority.
-An article says who has the right to choose a council order, and what service a faction owes. A Standing Commitment is a separately signed promise that locks one asset assignment for round two.
-> Example: “Wayfarer — Council” offers the ship. “Navigation — Relief” orders a relief voyage. “Guild discretion” gives the Guild Navigation delegate the right to choose that order. These are three different decisions.
-### What to record
-Each faction sheet names the round, assigns each of its two assets, records a request for each council and carries both teammates' signatures. The requests guide negotiation; they are not council orders.
-Each council sheet names the round, current article and one final order, with the initials required by that article. Record the Ascendant's final Warrant separately. Each Ascendant worksheet records draft directives, the foresight choice and the reserve task. The facilitator records resulting tracks, asset losses, contracts and remaining tokens.
-
-## 5. A round at a glance
-The session begins with an eight-minute briefing. Then play two eighteen-minute rounds. Finish with a ten-minute Ceremony of Settlement and six minutes of debrief.
-Each round represents a month. First talk as factions, then meet in councils, then discuss the consequences together. Both councils resolve together at the end of their phase. You do not wait for one council's result before choosing the other's order.
-### Phase 1: faction discussion — five minutes
-Minutes 0–2: decide which assets you might offer and what each council should do. The Ascendant considers directives. At minute 2, display draft assignments and council requests, plus the Ascendant's draft directives and Warrant choice. If teammates disagree, display both positions. Mark any existing Standing Commitment LOCKED.
-Minutes 2–3: the facilitator shows the two vision covers for this round. The Ascendant may buy one answer for one foresight token, or choose NONE. They choose after seeing the public drafts, so the information can address decisions actually under discussion.
-Minutes 3–5: discuss any information the Ascendant shares and revise unlocked choices. At minute 5, both faction members sign the same final assignments. The Ascendant lodges one reserve task: Relief lift, Tender cover or Keep. Asset assignments and the reserve task now lock for the round.
-### Phase 2: councils — seven minutes
-Move to your council. Bargain over one Navigation order and one Security order, using the assets actually offered. Ask the other table for coordination where necessary. For example, a Campaign needs Military or Shared passage; a vulnerable voyage may need protection.
-Check who has authority under the current article. At the bell, submit one final written order with the required initials. The Ascendant's Warrant choice also locks at this bell. Spoken promises do not replace a signed order.
-The facilitator resolves both councils, private assignments and concealed scenario consequences together. They publish the result, including all track changes, losses, completed contracts and token expenditure.
-### Phase 3: free discussion — six minutes
-After round one, all players discuss the outcome and may enact provisional articles for round two. You may attach a Standing Commitment to make a promised asset assignment dependable. Section 11 explains the signatures required.
-After round two, use this discussion to prepare the final settlement. There is no third operation and no extra recovery. The Ceremony follows immediately.
-### If a faction fails to agree
-Both teammates must sign the same final asset assignments. If either signature is missing, or their signed assignments disagree, use the faction's defaults: Guild assigns Wayfarer to Trade and Lantern to Maintain; Janissariat assigns Spear to Stand down and Vigil to Home.
-A missing or multiple selection for an individual asset uses that asset's default. Lost or disabled assets are Absent. An activated Standing Commitment overrides a later conflicting selection or default; failing to sign does not escape it.
-
-## 6. Worked example: a cooperative first round
-This example shows the procedure, not a recommended opening. Use the actual starting state: Beacon 2, Communities 3 and Readiness 3. Both articles are Interim.
-### The offer
-Robin and Alex, playing the Guild, offer Wayfarer to Council for relief. They assign Lantern to Maintain, which prepares the route independently. They know Wayfarer cannot also complete its commercial contract this round.
-Sam and Lee, playing the Janissariat, agree to Stand down Spear and offer Vigil to Council. Their Navigation delegate asks for Relief; their Security delegate asks for Guard. They accept that no fighting means lower Readiness.
-The Ascendant sees these drafts, chooses NONE at the foresight window, and keeps Grey Petrel in reserve. Everyone signs their faction decisions. The Ascendant still has all three foresight tokens.
-### The council orders
-Under Interim, the Ascendant authorises Relief at Navigation and Guard at Security. They do not issue a Warrant: Vigil is already required for Guard. The final written sheets match the offer.
-### The result
-Lantern's Maintain raises prepared Beacon from 2 to 3. Wayfarer delivers Relief, adding 2 Communities. Its crossing causes one Beacon wear, so Beacon finishes at 2.
-Vigil supplies Guard, adding 1 Community. Monthly consumption costs 1 Community. Communities therefore change from 3 by +2 +1 −1 = +2. The result would be 5, but the track stops at 4.
-No operation achieves combat. Readiness falls from 3 to 2. All assets survive. The Guild completes no contract. Grey Petrel remains available. None of this example's choices triggers an additional concealed round-one effect.
-### The compromise
-The communities are better supplied and the route remains usable. The Guild has lost this month's commercial opportunity, but it still owns Wayfarer and can use it next round. The army has lost combat power. The Ascendant has also lost one point of army-backed settlement weight.
-With Readiness 2 and three unspent foresight tokens, the weights are now Guild 4, Janissariat 2 and Ascendant 5. The total is 11 and the passing threshold is eight. These are current weights, not the final frozen vote: round two can change them again.
-In free discussion, the army may now demand autonomy to seek combat. The Guild may want a guarantee that its next ship assignment will remain its choice. The Ascendant has evidence of cooperation, but also a weaker army. Those experiences give the constitutional argument something concrete to turn on.
-
-## 7. Assets, tracks and passage
-### The three tracks
-Beacon measures maintained route infrastructure. Communities measures the welfare of people around the corridor. Readiness measures the effectiveness of this conditioned military force. All three tracks range from 0 to 4.
-Opening Readiness is its value at the start of the round. Use that value for all combat and Warrant checks, even if the round will later increase Readiness.
-Prepared Beacon is opening Beacon after Maintain or funded Repair, capped at 4. All voyages this round check the same prepared value. Deduct crossing wear afterwards; an earlier crossing does not reduce the value used to check a second voyage.
+- One player rulebook, one facilitator guide and three shared-role briefs.
+- Two council reference sheets and four asset cards: Wayfarer, Lantern, Spear and Vigil.
+- Six Charter cards: three Navigation articles and three Military articles.
+- Four vision covers and four concealed answers: Navigation and Security for each of the two rounds.
+- Three tracks numbered 0–4, with one counter each; three foresight tokens; one reserve token for Grey Petrel.
+- Four faction sheets and four council sheets: one for each faction and council in each round.
+- Two Ascendant worksheets, one provisional-government proposal and signature sheet, two final-package ballot sheets, and a public record for results and contracts.
+Blank paper can replace a decision sheet if it records the same choices and signatures. Use the current vision and settlement rules with any older printed components.
+### Starting position
+Give Wayfarer and Lantern to the Guild, and Spear and Vigil to the Janissariat. All four assets begin available. Give the Ascendant three foresight tokens and Grey Petrel's reserve token. The facilitator keeps the vision answers concealed.
+Set Beacon to 2, Sorenne's Fall's Stability to 3 and Readiness to 3. The Guild has completed no contracts. Write Interim in both article spaces: the Ascendant chooses both council orders, while the factions control their own assets.
+Choose each faction's two delegates and give out the briefs. The starting settlement weights are Guild 4, Janissariat 3 and Ascendant 6. If those values remained unchanged, nine of the total thirteen weight would be required to pass a settlement.
+### Decision sheets
+The faction sheet records the round, an assignment for each asset, a request for each council and both teammates' signatures. Requests tell your delegates what to seek; the council still chooses its order.
+The council sheet records the round, current article, one final order and the initials required by that article. The Ascendant records the Warrant separately, along with draft directives, the foresight choice and Grey Petrel's task.
+The public record shows the three tracks, available assets, completed contracts, remaining tokens, current articles and any binding commitments. Keep the draft and final sheets beside it so everyone can see what changed.
+## 5. Sequence of play
+Play two rounds, each representing a month. A round has five minutes of faction discussion, seven minutes of councils and six minutes of free discussion. Both councils resolve together at the end of their phase.
+After the second round, hold a ten-minute Ceremony of Settlement and a six-minute debrief. With the briefing, the session takes one hour.
+### Faction discussion — five minutes
+Use the first two minutes to agree your proposed asset assignments and what you want the councils to do. The Ascendant prepares draft directives and a Warrant choice. At minute 2, display the drafts. If teammates disagree, show both positions; a draft does not bind anyone.
+During minute 2–3, the Ascendant reads the two current vision covers and chooses one answer or NONE. An answer costs one foresight token, paid before it is opened. The purchase window closes at minute 3.
+Use the last two minutes to discuss any information the Ascendant shares and revise your decisions. At minute 5, both faction members sign the same final assignments. The Ascendant lodges Grey Petrel's task: Relief lift, Tender cover or Keep.
+Assignments and the reserve task now lock for the round. A Standing Commitment from round one is already binding: mark it LOCKED on the draft and final sheets.
+### Councils — seven minutes
+Go to your council and negotiate its order using the assets offered. Coordinate with the other table where necessary: a Campaign needs military passage, while a voyage may need Guard or a Warrant.
+Check the current article before signing. It determines whose approval counts. Where the Ascendant holds Navigation authority, they send that council a public written directive.
+At the bell, submit one final written order per council with the required initials. The Ascendant's final Warrant choice locks at the same time. Spoken promises and superseded notes have no effect.
+The facilitator resolves both councils, private assignments and scenario conditions, then announces track changes, asset losses, completed contracts and token expenditure. Neither council can change its order after seeing the other's result.
+### Free discussion — six minutes
+After round one, discuss the result and propose articles for a provisional government. You may attach a Standing Commitment to make an asset promise binding. The articles that pass govern round two.
+After round two, use this discussion to negotiate the final package. There is no further operation or recovery before the Ceremony.
+### Failure to agree
+Both teammates must sign the same final asset assignments. If a signature is missing or their signed choices disagree, the faction uses its defaults:
+- Guild: Wayfarer Trade; Lantern Maintain.
+- Janissariat: Spear Stand down; Vigil Home.
+A missing or multiple selection for an individual asset uses that asset's default. Lost or disabled assets are Absent. A Standing Commitment overrides a conflicting selection or default; refusing to sign does not release it.
+## 6. Example of play
+The first round opens with Beacon 2, Stability 3 and Readiness 3. Both articles are Interim, so the Ascendant chooses both council orders.
+Robin and Alex, playing the Guild, offer Wayfarer to Council and assign Lantern to Maintain. They want to deliver relief to Sorenne's Fall and keep the route operating, though it means missing their first commercial contract.
+Sam and Lee, playing the Janissariat, assign Spear to Stand down and offer Vigil to Council. They ask for Relief and Guard. Without combat, they know Readiness will fall.
+The Ascendant sees the drafts, chooses NONE at the foresight window and keeps Grey Petrel in reserve. Both factions sign their assignments. At the council bell, the Ascendant authorises Relief and Guard, with no Warrant.
+### Resolution
+Lantern's Maintain raises prepared Beacon from 2 to 3. Wayfarer delivers Relief, adding 2 Stability, and its crossing causes one Beacon wear. Beacon finishes at 2.
+Vigil supplies Guard, adding 1 Stability. Monthly consumption costs 1 Stability. Starting from 3, the system gains 2 + 1 − 1 = 2. That would give 5, but the track stops at 4.
+No operation achieves combat, so Readiness falls from 3 to 2. All assets survive. No contract is completed. The Ascendant retains three foresight tokens and the reserve. These choices trigger no additional round-one scenario effect.
+### The bargain afterwards
+Sorenne's Fall is better supplied and the Narrow remains open. The Guild still owns Wayfarer, but has lost this month's contract. The Janissariat has lost combat power, and that same loss weakens the Ascendant's position.
+The current weights are now Guild 4, Janissariat 2 and Ascendant 5: eleven in total, with eight required for settlement. Round two can change them again.
+The army asks for autonomy to pursue the Sorenne Flag. The Guild wants control of its next ship assignment. The Ascendant has seen the factions cooperate, but needs a stronger army. The provisional-government discussion begins from those consequences.
+## 7. Assets and tracks
+### Beacon
+Beacon records the condition of the Narrow's maintained navigation and service infrastructure. It starts at 2 and runs from 0 to 4.
+Maintain adds 1 and funded Repair adds 2 before crossings. This produces prepared Beacon, capped at 4. Every voyage uses that same prepared value; crossing wear is deducted afterwards.
+### Sorenne's Fall — Stability
+Stability records whether the system's forty million people can obtain supplies and keep their civil services operating. Relief and protection improve it. Disrupted traffic, fighting, failed commitments and monthly consumption reduce it.
+The track starts at 3 and runs from 0 to 4:
+- 4 — Secure: supplies are reliable and services can meet immediate needs.
+- 3 — Functioning: the administration is keeping the system supplied.
+- 2 — Strained: shortages are affecting daily life.
+- 1 — Failing: severe shortages are disrupting essential services.
+- 0 — Emergency: the system cannot meet its immediate needs without relief.
+These descriptions explain the track; they add no further bonuses or penalties. Stability is not loyalty to the Ascendant. People can be well supplied and still oppose the new government.
+### Readiness
+Readiness measures the combat effectiveness of the Janissariat force. It starts at 3 and runs from 0 to 4. Use its value at the start of the round—opening Readiness—for combat and Warrant checks.
+If an operation achieves qualifying combat, Readiness rises by 1 once for the round. Otherwise it falls by 1 once. Food, Guard, Home and unsuccessful expeditions do not sustain conditioning.
 ### Wayfarer — Guild freight vessel
-- Council: offer Wayfarer to Navigation for Relief, Military or Shared passage. It cannot also Trade.
-- Trade: attempt the Guild's private commercial voyage without council permission. A successful voyage completes this round's contract.
-Trade succeeds at prepared Beacon 3 or 4. At prepared Beacon 2 it succeeds only if guarded. At 2 without protection, Wayfarer is attacked and disabled, and completes no contract. That attempted crossing still causes one Beacon wear.
-Below prepared Beacon 2, Trade does not depart. Wayfarer remains intact, earns no contract and causes no wear. Halting private Trade does not itself cost a Community. A successful Trade crossing causes one Beacon wear.
-The two contracts are a record of the Guild's commercial performance. They cannot be spent, transferred into votes or caught up by making two private voyages next round.
-### Lantern — Guild tender and navigation team
-- Maintain: add 1 to prepared Beacon. This is a private Guild assignment and needs no council permission.
-- Council: offer Lantern for the Navigation order Repair or Shared. The council still has to choose that order.
-Lantern cannot Maintain and supply a council order in the same round. If its navigation team is lost, the card is unavailable for the rest of the game. There is no replacement or retraining action.
-### Spear — Janissariat cohort
-- Council: offer Spear to Security for Campaign or Raid.
-- Raid: launch an independent local Raid using Spear's own craft. This requires the faction's two signatures, not another party's permission.
-- Stand down: do not deploy Spear. This grants no recovery or Readiness bonus.
-An independent Raid cannot also supply a council Raid or Campaign. A disabled Spear cannot act again. Guarding the route does not substitute for the qualifying combat that sustains its conditioning.
-### Vigil — Janissariat garrison
-- Council: offer Vigil for Guard or an eligible imperial Warrant. A Warrant has first claim on its use.
-- Home: keep Vigil protecting the institution's bases. Home grants no track bonus, but is required by the Military autonomy article.
-Vigil stays intact throughout this prototype. It can perform only one task in a round. It cannot supply both Guard and a Warrant.
-### Service is temporary; losses are permanent
-Offering an asset does not hand over ownership. A surviving asset returns for assignment next round, and temporary service does not remove its ownership weight at the Ceremony. There is no numerical refund for a missed voyage: its cargo or service has already done its work.
-An asset marked lost or disabled remains unavailable. None of the printed actions repairs Wayfarer, replaces Lantern's crew or restores Spear. Repair fixes the route's Beacon, not an asset card.
+Assign Wayfarer to Council or Trade.
+- Council offers the vessel for Relief, Military or Shared passage. It cannot also Trade.
+- Trade attempts this round's commercial voyage without council permission. Success completes one contract.
+Trade succeeds at prepared Beacon 3 or 4, or at 2 if guarded. At 2 without protection, Wayfarer is attacked and disabled: no contract is completed, but the attempted crossing still causes one Beacon wear.
+Below prepared Beacon 2, the ship does not depart. It stays intact, completes no contract and causes no wear. A successful Trade voyage causes one wear.
+There is one contract available each round. Record completed contracts, but do not spend or transfer them. A missed contract cannot be recovered by making two private voyages next round.
+### Lantern — Guild tender
+Assign Lantern to Maintain or Council.
+- Maintain adds 1 to prepared Beacon without needing a council order.
+- Council offers Lantern for Repair or Shared. The council must still choose that order.
+Lantern cannot do both. If its navigation team is lost, the asset is unavailable for the rest of the game; you cannot replace the crew during these two months.
+### Spear — the 9th Pale Cohort
+Assign Spear to Council, Raid or Stand down.
+- Council offers Spear for a council Campaign or Raid.
+- Raid launches an independent interception of a Sorenne Flag patrol, using Spear's own local craft.
+- Stand down leaves Spear undeployed, with no recovery or Readiness bonus.
+An independent Raid needs both faction signatures but no other party's permission. It cannot also supply a council operation. A disabled Spear cannot act again.
+### Vigil — the Narrow garrison
+Assign Vigil to Council or Home.
+- Council offers Vigil for Guard or an eligible imperial Warrant. A Warrant has first claim on its use.
+- Home keeps Vigil protecting institutional bases. It grants no track bonus, but fulfils the Military autonomy duty.
+Vigil remains intact throughout the game and can perform only one task each round. It cannot supply both Guard and a Warrant.
+### Ownership and service
+Council is an offer of service for the round, not a transfer of ownership. A surviving asset returns for its next assignment and retains its ownership weight at the Ceremony. Its owner has given up the other use it could have had that month.
+Losses are permanent for this game. None of the available actions restores a disabled Wayfarer, replaces Lantern's navigators or restores Spear. Repair works on Beacon.
 ### Protection and crossing wear
-Guarded status comes from a funded Guard or a valid imperial Warrant. Either provides the same protection for this round's specified threats and allows Trade at prepared Beacon 2. Protection does not raise Beacon, permit crossings below 2 or cancel normal wear.
-Each actual crossing costs one Beacon after preparation. Usually there is one voyage. Grey Petrel can deliver Relief while Wayfarer Trades, creating two crossings. Both use the same prepared Beacon.
-
-## 8. Navigation and Supply: choose one order
-Only one Navigation order resolves each round. Check its required assets and then, if it is a voyage, the route. “Offered” means the owner assigned the named asset to Council on its binding sheet.
+Funded Guard or a valid Warrant makes traffic guarded for the round. Either protects against the specified physical threats and permits Trade at prepared Beacon 2. Neither raises Beacon, allows a crossing below 2 or removes normal wear.
+Each actual crossing costs one Beacon after preparation. Grey Petrel can carry Relief while Wayfarer Trades, producing two crossings. Both check the same prepared Beacon value.
+## 8. Navigation and Supply
+Choose one order. An offered asset is one its owner assigned to Council on the binding faction sheet. First check the assets; for a voyage, then check prepared Beacon.
 ### Relief
 - Cost: offered Wayfarer, or a triggered Grey Petrel Relief lift.
 - Requirement: prepared Beacon at least 2.
-- Effect: deliver supplies; Communities +2; one crossing wear.
-Relief does not carry the cohort for a Campaign. Grey Petrel can substitute only for this voyage.
+- Effect: deliver supplies to Sorenne's Fall; Stability +2; one Beacon wear.
+Relief does not carry Spear for a Campaign. Grey Petrel can substitute for this voyage only.
 ### Military
 - Cost: offered Wayfarer.
 - Requirement: prepared Beacon at least 2.
-- Effect: deliver military passage, allowing a funded Campaign to proceed; one crossing wear.
-Military provides no cargo bonus to Communities. It does not cause a Campaign by itself: Security must choose Campaign and have offered Spear.
+- Effect: deliver military passage for a Campaign against the Sorenne Flag's anchorage; one Beacon wear.
+Military gives no supply bonus. Security must also choose Campaign and have offered Spear before a Campaign takes place.
 ### Shared
-- Cost: both Wayfarer and Lantern offered to Council.
+- Cost: Wayfarer and Lantern both offered to Council.
 - Requirement: prepared Beacon at least 2.
-- Effect: deliver mixed cargo; Communities +1; provide military passage; one crossing wear.
-Shared uses Lantern for the voyage, so Lantern cannot also Maintain. It is one crossing, not separate civilian and military voyages. Concealed scenario conditions can create further risks.
+- Effect: deliver civilian and military cargo; Stability +1; military passage; one Beacon wear.
+Shared is one crossing. Lantern is committed to that voyage and cannot also Maintain. Scenario conditions may expose its navigation team to additional risk.
 ### Repair
 - Cost: offered Lantern.
-- Effect: add 2 to prepared Beacon, capped at 4, before voyages are checked.
-Repair is not a crossing. It cannot also deliver council cargo that round. A private Trade voyage can still take advantage of the repaired route.
+- Effect: prepared Beacon +2, capped at 4, before crossings.
+Repair makes no crossing and carries no council cargo. Wayfarer may still Trade privately through the repaired route.
 ### Hold
 - Cost: none.
 - Effect: no council voyage or repair.
-Private Trade, Maintain and an independent Raid still happen if assigned. Hold does not cancel those private choices.
-### When Navigation cannot carry out an order
-If a valid authorised order lacks its required asset, it becomes Hold and costs Communities 1. This penalty applies once to that unfunded Navigation order, even if Shared lacks both assets.
-If a funded Relief, Military or Shared voyage faces prepared Beacon below 2, halt it and lose Communities 1. Deliver no cargo or passage and cause no crossing wear. This is a different failure from missing an asset; the unfunded order has already become Hold and is not then tested as a voyage.
-> Example: the Ascendant signs Military, but the Guild assigned Wayfarer to Trade. Military is authorised but unfunded: it becomes Hold and costs 1 Community. Wayfarer's private voyage is still checked normally.
-
-## 9. Security and Government: choose one order
-Security chooses one order. A separately assigned independent Raid and an eligible Warrant may also occur, subject to their own requirements. You cannot use one asset twice.
+Private Trade, Maintain and an independent Raid still resolve if assigned.
+### Failed orders
+An authorised order without its required assets becomes Hold and costs Stability 1. Shared pays this failure cost once even if both assets are missing.
+A funded Relief, Military or Shared voyage facing prepared Beacon below 2 is halted. Lose Stability 1, deliver no cargo or passage, and cause no crossing wear. An unfunded order has already become Hold, so it does not also pay this halted-voyage cost.
+> Example: the Ascendant signs Military, but the Guild assigned Wayfarer to Trade. Military becomes Hold and costs Stability 1. The private Trade voyage is still checked normally.
+## 9. Security and Government
+Choose one order. An independent Raid and an eligible Warrant may also occur, using their own requirements. No asset can be used twice.
 ### Campaign
 - Cost: offered Spear and delivered Military or Shared passage.
-- Effect: Communities −1. At opening Readiness at least 2, the Campaign achieves qualifying combat. Below 2, Spear is disabled and achieves no qualifying combat.
-Without delivered military passage, the Campaign does not leave. It costs Communities 1, leaves Spear intact and achieves no combat. Relief cargo is not military passage.
+- Effect: attack the Sorenne Flag's anchorage beyond the Narrow; Stability −1 from disruption to Sorenne's Fall's supply traffic.
+At opening Readiness at least 2, the Campaign achieves qualifying combat. Below 2, Spear is disabled and achieves no qualifying combat.
+Without delivered military passage, the Campaign does not leave. It costs Stability 1, leaves Spear intact and achieves no combat. A Relief voyage cannot carry the cohort.
 ### Raid
-- Cost: offered Spear for a council Raid; alternatively, the faction can assign Spear to independent Raid.
-- Requirement: no Guild ship is needed. Whether the armed target appears depends on a fixed concealed scenario condition.
-- Effect: Communities −1 for the Raid's disruption, even if the target does not appear.
-If the target is absent, Spear stays intact and achieves no combat. If it appears at opening Readiness at least 2, the Raid achieves combat and costs one further Community: −2 in total. If it appears below Readiness 2, Spear is disabled; there is no second Community loss and no qualifying combat.
-The facilitator uses the printed condition, not a die roll or a judgement about your intentions. Foresight may reveal the relevant condition. No Raid means no Raid cost, even if other decisions would have brought out its target.
+- Cost: offered Spear for a council Raid, or Spear assigned to an independent Raid.
+- Effect: seek a Sorenne Flag patrol on this side of the crossing; Stability −1 for disruption, even if no patrol appears.
+No Guild ship is needed. The patrol's appearance depends on a fixed concealed condition for that round. The facilitator applies that condition; there is no dice roll.
+If the patrol is absent, Spear remains intact and achieves no combat. If it appears at opening Readiness at least 2, the Raid achieves combat and costs one further Stability: −2 in total. If it appears below 2, Spear is disabled, with no second Stability loss and no qualifying combat.
+Foresight may reveal the condition. Traffic alone does not cause a Raid: Spear must actually have a Raid assignment or a funded council Raid order.
 ### Guard
-- Cost: offered Vigil, not already used by an imperial Warrant.
-- Effect: Communities +1 and guarded status for the round.
-Guard does not qualify as combat. Its protection is useful to the other council, but it does not repair the route or guarantee every possible outcome is safe.
+- Cost: offered Vigil, not already used by a Warrant.
+- Effect: protect civilian traffic and service installations; Stability +1 and guarded status.
+Guard does not qualify as combat and does not repair Beacon.
 ### Restraint
 - Cost: none.
 - Effect: no council military operation.
-A separately assigned independent Raid still proceeds. Restraint is a decision about the council's operation, not a power to cancel another faction's asset assignment.
-### When Security lacks an asset
-A valid council Raid or Campaign without offered Spear becomes Restraint and costs Communities 1. A Guard without unused offered Vigil does the same. An independently assigned Raid can still resolve and add its own costs.
-> Example: the army assigns Spear to independent Raid. Security then authorises Campaign. Campaign cannot borrow the same cohort: it fails for lack of offered Spear. The independent Raid still happens. The failure penalty and Raid costs are separate.
-### Update Readiness once
-If any operation achieves qualifying combat, Readiness rises by 1 once for the round. Otherwise it falls by 1 once. Never add one increase for each operation. Keep the final value within 0–4.
-An unsuccessful Raid, an unfunded order, a halted Campaign, Guard and Stand down do not qualify. Readiness is combat effectiveness, not a score for whether soldiers have been treated well.
-
-## 10. The Ascendant's tools
-### Foresight: buy information or preserve power
-- Cost: one foresight token, paid before opening one answer card.
-- Timing: faction minutes 2–3, after public drafts and before final commitments.
-- Limit: at most one purchase per round. Start with three tokens; none recover.
-- Choice: the current Navigation answer, the current Security answer, or NONE.
-Read both public covers before choosing. Each explains which decisions its concealed answer concerns. You may investigate a possibility even if nobody currently proposes it. Missing, multiple or late choices mean NONE and cost nothing.
-The facilitator announces expenditure and remaining tokens. Your chosen card and its answer stay private unless you disclose them. You may show the card, describe it, withhold it or misrepresent it. The facilitator does not certify your account to other players.
-The answer reliably states consequences if its conditions occur. It does not reveal which decisions players will make, cover every risk in a plan or let you invent a new intervention. Its conditions apply whether anyone buys the card or not.
-Use the final two faction minutes to seek changes to unlocked assignments and plans. There are no swaps, refunds, later purchases or rewinds. A Standing Commitment from round one remains binding even after a vision gives you reason to regret it.
-Every unspent token adds one to your final settlement weight. Three tokens and two purchase windows guarantee at least one remains. Saving more means deliberately choosing NONE in at least one round.
-> Example: the cover concerns transport choices that are still disputed. Buying the answer may help you persuade a faction to change its draft. If the relevant choices are already locked or the public rules give you enough confidence, NONE preserves one point of final weight. Neither choice is automatically correct.
-### Imperial Warrant: use army-backed authority
-- Requirement: the current Military arrangement is Interim or Imperial command; opening Readiness is at least 3; Vigil is offered to Council.
-- Timing: write the final Warrant choice before the council bell.
-- Effect: use Vigil first, gain Communities +1 and guarded status. Security may still use offered Spear for its separate order.
-Under Interim or Imperial command, issuing a Warrant without sufficient Readiness or offered Vigil fails and costs Communities 1. Under Military autonomy or Joint military authorisation, it is advice only, with no effect or penalty. A missing or unsigned Warrant is No.
-If a valid Warrant has used Vigil, a simultaneous Guard lacks its asset and fails with the normal cost. Issuing both is not double protection.
-### Grey Petrel: one reserve service
-Grey Petrel is a contracted cutter with its own licensed Guild pilot and protection detail. Its contract covers one triggered intervention for the entire game. It cannot transport Spear for Campaign, repair Beacon or create new navigators.
-At the faction bell, lodge one of the following tasks. You cannot change it in response to council orders or their results. If the task does not trigger, retain the reserve token for next round.
-Relief lift: triggers if the final authorised Navigation order is Relief and Wayfarer was not offered. Grey Petrel supplies the ship requirement. Spend the token immediately, even if low Beacon later halts the voyage. It cannot supply Military or Shared. Wayfarer may still make its separate Trade voyage.
-Tender cover: in round one only, triggers when Shared is delivered unguarded and the printed crew-loss consequence would occur. Prevent that loss of Lantern's team and spend the token. It gives no general guarded status or track bonus, and has no round-two trigger.
-Keep: retain the token without intervention. A missing task also means Keep. An already spent reserve cannot intervene again. Unspent reserve adds no settlement weight.
-
-## 11. Try a government before settling it
-### Authority, duty and ownership
-Each Charter article gives someone authority to choose orders and imposes a service duty. A duty is a legal obligation. It does not physically seize an asset: owners can withhold it and suffer the printed consequence.
-A Standing Commitment is different. Once properly activated, it locks its named asset assignment for round two. This gives negotiators a way to make a promise mechanically binding when an article alone is not enough.
-Round one uses Interim. Round two uses whichever articles passed in the first free discussion. No article can be revoked or replaced during round two. There is no mid-round emergency override.
-### Interim — the starting arrangement
-The Ascendant chooses both council orders. The Guild has no service duty. An independent Janissariat Raid breaches discipline and costs Communities 1, in addition to the Raid's other costs. Interim permits an eligible imperial Warrant.
-### Navigation: Guild discretion — NG
-- Authority: the Guild Navigation delegate chooses the order.
-- Duty: the Guild must assign Lantern to Maintain or provide a funded Repair order.
-- Cost of breach: Communities −1.
-Wayfarer may Trade. Offering Lantern to Council is not enough by itself: if the council chooses something other than funded Repair, that assignment does not fulfil the duty.
-### Navigation: Imperial priority — NI
-- Authority: the Ascendant chooses the order.
-- Duty: the Guild must offer Wayfarer to Council.
-- Cost of breach: Communities −1.
-Wayfarer forgoes private Trade even if the council leaves it unused. Grey Petrel supplying Relief does not fulfil the Guild's duty to offer its own ship.
-### Navigation: Joint authorisation — NJ
-- Authority: both Navigation delegates must agree the same order. Without their agreement, the order is Hold.
-- Duty: the Guild must offer Wayfarer to Council.
-- Cost of breach: Communities −1.
-Both factions gain a say over each Navigation order. Neither can force an order through alone. The Guild still forgoes Wayfarer's private voyage while it is offered.
-### Military: Imperial command — MI
-- Authority: the Ascendant chooses the Security order and retains eligible Warrant power.
-- Duty: the Janissariat must offer Spear to Council.
-- Cost of breach: Communities −1.
-The Ascendant may choose not to fight with offered Spear. Offering the cohort does not guarantee combat or preserved Readiness.
-### Military: Military autonomy — MA
-- Authority: the Janissariat Security delegate chooses the order. There is no imperial Warrant power.
-- Duty: the Janissariat must keep Vigil Home.
-- Cost of breach: Communities −1.
-An independent Raid is permitted under this article if Vigil stays Home. That protects the institution's bases but makes Vigil unavailable for Guard, which another faction may need.
-### Military: Joint authorisation — MJ
-- Authority: both Security delegates must agree the same order. Without their agreement, the order is Restraint. There is no imperial Warrant power.
-- Duty: the Janissariat must offer Spear to Council.
-- Cost of breach: Communities −1.
-The Guild gains a say over military operations. The Janissariat may therefore offer Spear but fail to secure permission for combat.
-Each faction suffers at most one article-duty penalty per round. A missing or lost asset does not waive its duty. A breach does not cancel an otherwise possible independent action. Duty penalties can be added to separate costs for failed orders, raids and monthly consumption.
-### Enact a provisional article after round one
-For Navigation, the Guild Navigation delegate, Janissariat Navigation delegate and Ascendant must sign the same exact proposal. For Military, the Guild Security delegate, Janissariat Security delegate and Ascendant must sign it.
-Decide the two domains separately. One can pass while the other stays Interim. The delegates signing an article do not automatically bind their teammate to an asset promise; that needs the owner's separate approval below.
-### Attach a Standing Commitment
-Each faction may attach one available asset assignment to one exact article proposal. Both teammates must approve their faction's commitment. The permitted promises are Wayfarer Council; Lantern Council or Maintain; Spear Council; Vigil Council or Home.
-Write the owner, asset, assignment and exact article on the proposal before collecting signatures. If an attached commitment lacks both owner approvals, that article does not pass as written. You cannot silently remove the commitment and reuse the remaining signatures. Obtain agreement to revised terms instead.
-An article may pass without any commitment. A valid attached commitment activates only if its article passes. It binds that assignment in round two, overrides later contrary defaults or signatures, and expires after the round's operation.
-It does not lock the council's order. A public plan such as “we will Repair next round” is a political promise unless supported by the appropriate final order; it creates no new mechanical penalty.
-> Example: the Guild attaches Lantern Council to a proposed Joint military article. Both Guild players approve the pledge, and both Security delegates plus the Ascendant approve the article. Lantern is now locked to Council for round two. Navigation can use it for Repair or Shared, but nobody has yet guaranteed which order Navigation will choose.
-### Missing or conflicting council authority
-An unsigned, ambiguous or unauthorised Navigation order becomes Hold. The equivalent Security order becomes Restraint. Under a joint article, conflicting orders count as disagreement. There is no penalty merely for lacking a valid order.
-This differs from a valid order that cannot be funded: that order incurs its printed failure cost. Other effects, including duty breaches and private assignments, still apply in either case.
-
+An independently assigned Raid still proceeds.
+### Failed orders and Readiness
+A valid council Raid or Campaign without offered Spear becomes Restraint and costs Stability 1. Guard without unused offered Vigil does the same. A separately assigned independent Raid still resolves and pays its own costs.
+> Example: Spear is assigned to independent Raid, but Security authorises Campaign. Campaign fails because Spear was not offered to Council. The Raid still occurs. Its costs and the failed Campaign's penalty both apply.
+At the end of the round, raise Readiness by 1 if any operation achieved qualifying combat; otherwise lower it by 1. Apply this change once, keeping Readiness within 0–4. An expedition that fails to reach a fight does not qualify.
+## 10. Foresight and imperial powers
+### Foresight
+The Ascendant starts with three foresight tokens. Each unspent token adds one to their final settlement weight.
+During faction minutes 2–3, after the drafts are displayed, read the current Navigation and Security covers. Each states which decisions its concealed answer concerns. Choose one answer or NONE. Pay one token before opening an answer; NONE costs nothing.
+There is at most one purchase per round. Missing, multiple or late choices mean NONE. Tokens do not recover, and there are no swaps, refunds or later purchases that month.
+The facilitator announces the expenditure and remaining tokens. The chosen card and its answer remain private unless the Ascendant shares them. You may show, describe, conceal or misrepresent the answer; the facilitator will not certify your claims to other players.
+An answer states what happens if its conditions occur. It does not tell you what players will choose or cover every possible risk. Those conditions apply whether anyone reads the card or not.
+Use the last two faction minutes to negotiate changes to unlocked decisions. Existing Standing Commitments remain binding. Avoiding a vision's condition averts its result; it does not make the vision false.
+> Example: a cover concerns a voyage the Guild has proposed. Buying its answer may give the Ascendant grounds to request protection or a different assignment. If the relevant assignments are already locked, the information may be less useful than retaining the token's political weight.
+There are three tokens but only two purchase windows. At least one will remain. Keeping more requires choosing NONE in at least one round.
+### Imperial Warrant
+The Warrant draws on the Ascendant's authority over the army to use Vigil independently of the council's other operation.
+- Requirement: Military authority is Interim or Imperial command, opening Readiness is at least 3, and Vigil is offered to Council.
+- Timing: record the final Warrant before the council bell.
+- Effect: use Vigil first; Stability +1 and guarded status. Security may use offered Spear for a separate order.
+Under Interim or Imperial command, a Warrant without sufficient Readiness or offered Vigil fails and costs Stability 1. Under Military autonomy or Joint authorisation, it is advice only, with no effect or penalty. A missing or unsigned Warrant means No.
+If a valid Warrant uses Vigil, a simultaneous Guard lacks its asset and pays the normal failure cost.
+### Grey Petrel
+Grey Petrel is a contracted cutter with a licensed Guild pilot and a protection detail. Its contract covers one triggered intervention during the whole game. It cannot carry Spear, repair Beacon or provide a second service after its token is spent.
+Before the faction bell, lodge Relief lift, Tender cover or Keep. The task locks before councils. If its condition does not occur, retain the reserve token.
+Relief lift triggers when the final authorised Navigation order is Relief and Wayfarer was not offered. Grey Petrel supplies the ship requirement and spends the token immediately, even if low Beacon later halts the voyage. Wayfarer may still make a private Trade voyage.
+Tender cover triggers in round one when Shared is delivered unguarded and the printed crew-loss consequence occurs. Prevent that loss of Lantern's team and spend the token. This gives no general protection or track bonus and has no round-two trigger.
+Keep retains the token without intervening. A missing task also means Keep. Unspent reserve gives no settlement weight.
+## 11. Provisional government
+The first round ends with a chance to try a new government. Choose who can direct each council and what duties come with that authority. The articles that pass govern round two and cannot be revoked or replaced during it.
+An article gives authority and imposes a legal service duty. It does not transfer ownership of an asset. A faction can disobey a duty, take the printed penalty and carry out any otherwise possible independent action.
+A Standing Commitment goes further: both owners bind a particular assignment for round two. Use it when another party wants a dependable offer of service before accepting an article.
+### Interim
+Under the starting arrangement, the Ascendant chooses both council orders and may issue an eligible Warrant. The Guild has no service duty. An independent Janissariat Raid breaks discipline and costs Stability 1 in addition to the Raid's ordinary costs.
+### Navigation articles
+Guild discretion (NG): the Guild Navigation delegate chooses the order. The Guild must assign Lantern to Maintain or provide a funded Repair. Otherwise Stability falls by 1. Wayfarer may Trade.
+Imperial priority (NI): the Ascendant chooses the order. The Guild must offer Wayfarer to Council or lose Stability 1. The ship forgoes Trade even if the council leaves it unused.
+Joint authorisation (NJ): both Navigation delegates must agree the same order, or Navigation Holds. The Guild must offer Wayfarer to Council or lose Stability 1.
+Offering Lantern without a funded Repair does not fulfil Guild discretion's upkeep duty. Grey Petrel providing Relief does not fulfil the Wayfarer duty under Imperial priority or Joint authorisation.
+### Military articles
+Imperial command (MI): the Ascendant chooses Security's order and retains eligible Warrant power. The Janissariat must offer Spear to Council or lose Stability 1. The Ascendant may still choose not to fight.
+Military autonomy (MA): the Janissariat Security delegate chooses the order. The Janissariat must keep Vigil Home or lose Stability 1. There is no imperial Warrant. An independent Raid is permitted if Vigil stays Home.
+Joint authorisation (MJ): both Security delegates must agree the same order, or Security uses Restraint. The Janissariat must offer Spear to Council or lose Stability 1. There is no imperial Warrant.
+Each faction takes at most one article-duty penalty per round. Lost assets do not waive a duty. Duty penalties are separate from failed orders, Raid costs and monthly consumption: the civil administration's supply and protection arrangements can be disrupted in more than one way.
+### Enacting an article
+Navigation needs the Guild Navigation delegate, Janissariat Navigation delegate and Ascendant to sign the same exact proposal. Military needs the Guild Security delegate, Janissariat Security delegate and Ascendant.
+The two articles are decided independently. One may pass while the other stays Interim. Signing an article does not by itself bind an asset promise made by your teammate.
+### Standing Commitments
+Each faction may attach one available asset assignment to one exact article proposal. Both teammates must approve it. Permitted assignments are:
+- Wayfarer: Council.
+- Lantern: Council or Maintain.
+- Spear: Council.
+- Vigil: Council or Home.
+Record the owner, asset, assignment and article before collecting signatures. If an attached commitment lacks both owner approvals, that article fails as written. To remove or change the promise, agree revised terms and collect the necessary approvals again.
+An article can pass without a commitment. A valid commitment activates only if its article passes. It then overrides contrary round-two selections and defaults, and expires after the round's operation.
+The assignment is binding; the council's future order is not. An announced plan creates no extra mechanical penalty if the authorised council later chooses something else.
+> Example: the Guild attaches Lantern Council to a Joint military proposal. Both Guild players approve the promise; both Security delegates and the Ascendant approve the article. Lantern is now locked to Council next round, but Navigation must still decide whether to use it for Repair or Shared.
+### Missing or conflicting orders
+An unsigned, ambiguous or unauthorised Navigation order becomes Hold. The equivalent Security order becomes Restraint. Under a joint article, conflicting choices count as disagreement.
+There is no penalty merely for lacking a valid order. An authorised order that lacks its assets does incur the printed failure cost. Private assignments and duties apply in either case.
 ## 12. The Ceremony of Settlement
-### Freeze the weights after round two
-The Ceremony lasts ten minutes. First calculate each party's final leverage: the weight of its signature. Freeze those weights for all ballots. Contracts, reserve tokens, promises and the number of people in a faction do not add weight.
-Guild weight: 2 if Wayfarer is intact, plus 1 if Lantern's crew survive, plus 1 if Beacon is at least 1. Its maximum is 4.
-Janissariat weight: final Readiness.
-Ascendant weight: final Readiness plus unspent foresight tokens. The same army sustains both military institutional power and the ruler's authority, so a Readiness loss weakens both signatures. It does not create a second army.
-### Propose one complete package
-Choose one of the three Navigation articles and one of the three Military articles. They need not be the alternatives tried provisionally. Interim is the fallback if settlement fails, not an alternative on the final ballot.
-Each player votes Yes or No on that complete package. Both Guild players must vote Yes to produce the Guild signature. Both Janissariat players must vote Yes to produce the Janissariat signature. The Ascendant signs individually. A missing approval or divided faction gives no supporting signature.
-### Check whether it passes
-Add all three parties' available weight, including those refusing the package. Multiply by two-thirds and round up to the next whole number. That is the threshold. Add the weight of signing parties: they must reach the threshold, and at least two signing parties must have positive weight.
-There is no inherent veto, no transfer of weight and no reduction of the denominator because someone abstains. A total weight of zero cannot ratify a settlement.
-> Example: the Guild has weight 4, the Janissariat 3 and the Ascendant 4. Total weight is 11; two-thirds is 7⅓, rounded up to 8. Guild plus Ascendant can pass a package with 8. Guild plus Janissariat has only 7 and cannot. If the Guild players split, neither of their personal votes contributes half the Guild's weight: the faction contributes zero support, while its 4 remains in the total.
-### Up to two ballots
-Allow up to two ballots within the ten-minute deadline. If the first package fails, negotiate a replacement and collect fresh votes. A change to either article creates a new complete package; approvals from the previous ballot do not carry over. Stop when a package passes.
-A passing settlement establishes both articles, including duties that affect dissenting parties. If neither package passes before time is called, both provisional articles expire and both domains return to Interim.
-The ending does not reset the crisis. Lost assets stay lost, tracks stay where they finished, and spent foresight does not return. A settlement can be legally ratified yet leave serious resentment; failed ratification leaves the imperial government unresolved.
-
-## 13. Questions that often stop a first game
-### Can I use an asset without its owner's agreement?
-Only if an already activated Standing Commitment supplies that assignment. Otherwise use the signed faction sheet or its default. Imperial authority and legal duties do not create assets or confiscate them automatically.
-### Do I lose my ship when I offer it?
-No. You lose the other use of that asset for this round. A surviving ship returns to its owner, and its service still benefits the people or operation it supported. Only an actual loss or disablement removes the asset from later play and, where relevant, settlement weight.
-### Can the Guild stop an independent Raid?
-The Guild does not have to consent to it, and no Guild ship is required. The Janissariat's two players must agree its assignment. The target may not appear, low Readiness can disable Spear, and the current article may impose a duty penalty. Unilateral action is possible; success is not guaranteed.
-### Can the councils undo a signed faction sheet?
-No. They choose how to use assets already offered. They may persuade owners before the faction deadline, but they cannot reassign an asset during councils. A vision purchase also occurs before that deadline.
-### Does a vision change what will happen?
-Reading it does not change the rules. Players may change choices after learning its conditions. If that avoids the predicted harm, the conditional vision was averted, not disproved. The facilitator applies unread conditions too.
-### What happens every month, even if we do nothing?
-Communities lose 1 for ordinary consumption. If there is no qualifying combat, Readiness loses 1. Maintain, private Trade, independent Raid, duties and concealed scenario conditions are still checked where applicable. Hold and Restraint only cancel their councils' operations.
+After round two, freeze each party's weight and begin the ten-minute Ceremony. You are voting on a complete package: one Navigation article and one Military article. They need not be the articles tried provisionally.
+### Signature weights
+- Guild: 2 for an intact Wayfarer, 1 for surviving Lantern navigators, and 1 if Beacon is at least 1.
+- Janissariat: final Readiness.
+- Ascendant: final Readiness plus unspent foresight.
+Readiness sustains both the army's institutional power and the ruler's authority, so losing it weakens both signatures. Contracts and reserve tokens add no weight. Weight cannot be transferred between parties.
+### Voting
+Each player votes Yes or No on the whole package. Both Guild players must approve for the Guild to sign; both Janissariat players must approve for the army to sign. The Ascendant signs individually. Missing approval or disagreement means that faction gives no supporting signature.
+Add all available weight, including parties that refuse or abstain. The package needs at least two-thirds of that total, rounded up, and signatures from at least two parties with positive weight. A total weight of zero cannot ratify a settlement.
+> Example: Guild 4, Janissariat 3 and Ascendant 4 give eleven in total. Two-thirds rounds up to eight. Guild and Ascendant can pass a package with eight; Guild and Janissariat have only seven. If the Guild players split, their faction contributes no support, but its four stays in the total.
+There is no automatic veto. A package can therefore pass over a party's refusal and impose duties on that party.
+### Two ballots
+If the first package fails, negotiate a replacement before the deadline. Collect fresh votes whenever either article changes; previous approvals do not carry over. You may hold up to two ballots. Stop when a package passes.
+If no package passes, both provisional articles expire and both councils return to Interim. Interim is the fallback, not an option on the final ballot.
+The physical result remains: lost assets stay lost, tracks stay where they finished and spent foresight does not return. Ratification settles the articles, but the people governing Sorenne's Fall will have to live with what those decisions have done.
+## 13. Rules questions
+### Can the Ascendant take a ship or cohort?
+Imperial authority permits orders, not confiscation. Use the owner's signed assignment or its default. An activated Standing Commitment can require service, but an article's duty alone cannot physically supply an asset.
+### Can another faction stop an independent Raid?
+The Janissariat's two players must agree it, but the Guild and Ascendant need not consent. It uses Spear's local craft. The Sorenne patrol may not appear, low Readiness can disable Spear, and the current article may add a duty penalty.
+### Can a council change the faction sheet?
+No. Asset assignments lock at the faction bell. Councils decide what to do with the assets offered. The foresight window occurs before that deadline so players still have a chance to revise unlocked assignments.
+### Does offering an asset reduce my final weight?
+Temporary service does not remove ownership. An intact Wayfarer and surviving Lantern team still count for the Guild even if they served the council. An actual loss or disablement does remove their contribution.
+### What happens if both councils do nothing?
+Monthly consumption still costs Stability 1. With no qualifying combat, Readiness falls by 1. Private Trade, Maintain, independent Raid, duties and applicable scenario conditions still resolve.
 ### When are the track limits applied?
-Cap prepared Beacon at 4 before checking voyages. Subtract actual crossing wear afterwards and keep final Beacon within 0–4. Add all Community changes to the opening value before limiting the result to 0–4. Apply the one Readiness change to its opening value and limit that result to 0–4.
-Do not stop counting costs when Communities reaches zero halfway through your arithmetic, or discard a supply gain because the track temporarily appears full. The facilitator totals the whole round first.
-### Who settles a rules disagreement?
-Ask the facilitator to identify the applicable printed rule and check the final signed sheets. They apply fixed consequences, including concealed conditions. They do not invent rewards for cooperation, extra prophecies, new constitutional alternatives or a late institutional veto.
-
-## 14. Quick reference and glossary
-### Deadlines
-- Briefing: 8 minutes. Each of two rounds: factions 5, councils 7, free discussion 6. Ceremony: 10. Debrief: 6.
-- Faction minute 2: publish drafts. Minute 3: foresight choice closes. Minute 5: final faction signatures and reserve task close.
-- Council bell: final authorised orders and Warrant lock. Resolve both tables together.
-- After round one: enact any provisional articles and attached commitments. After round two: freeze weights and hold up to two final ballots.
-### Ordinary action reminders
-- Maintain: Lantern +1 prepared Beacon. Repair: offered Lantern +2 prepared Beacon.
-- Relief: offered Wayfarer or triggered Grey Petrel; +2 Communities. Military: offered Wayfarer; Campaign passage. Shared: offered Wayfarer and Lantern; +1 Community and Campaign passage. Each delivered voyage needs prepared Beacon 2+ and causes one wear.
-- Trade: one contract at prepared Beacon 3+, or 2 with protection. At 2 unguarded, disable Wayfarer and gain no contract. Each actual Trade crossing causes one wear.
-- Campaign: offered Spear plus delivered military passage; Communities −1. Raid: Spear, no Guild ship; Communities −1, or −2 total if it finds combat at Readiness 2+.
-- Guard: unused offered Vigil; +1 Community and protection. Warrant: imperial military authority, opening Readiness 3+, offered Vigil; same benefit, first claim on Vigil.
-- Readiness: +1 once if any qualifying combat, otherwise −1 once. Communities: monthly consumption −1. Add duties, failures and scenario effects, then apply final track limits.
-### Terms used on cards and slips
-- Article: one printed constitutional alternative governing a council's authority and a faction's service duty. Navigation codes are NG, NI and NJ; Military codes are MI, MA and MJ.
-- Assignment: the owner's binding choice for an asset this round. Council offers it; Trade, Maintain, independent Raid, Home and Stand down are the specified alternatives.
-- Authorised: approved by whoever currently has the right to choose that council's order.
-- Delivered: a funded council voyage that actually crosses at prepared Beacon at least 2. A proposal or halted voyage is not delivered passage.
-- Duty: an article's legal service requirement. Its breach has a printed cost; it does not itself reassign the asset.
-- Funded: supplied with all required offered assets or the exact permitted reserve substitute. No money tokens are involved.
-- Guarded: protected this round by funded Guard or a valid Warrant against the specified physical threats.
-- Interim: the starting government, and the fallback if final settlement fails.
-- Leverage or weight: the numerical strength of a party's final signature, calculated from surviving assets, the route, Readiness and unspent foresight.
-- Opening: the track value before this round resolves. Prepared Beacon includes this round's maintenance or repair, before wear.
-- Qualifying combat: a Campaign with delivered passage, or a Raid that finds its target, fought at opening Readiness at least 2.
-- Standing Commitment: an owner-approved assignment attached to an enacted provisional article, binding for round two only.
-- Ratification: passing the complete final package with enough weighted signatures. Provisional enactment uses different signatures and is not a weighted vote.
-### After the ending
-Tell the group what government you wanted at the start and what you wanted at the end. Name the event that changed your view, if any. What did your faction give up, and what did it receive? What did your teammate contribute? Did foresight change a decision, a bargain or only confidence?
-Remember that one remaining foresight token is inevitable after two purchases. Only declining an available purchase demonstrates a choice to preserve more power.
-### Edition and updates
-Design by John Keyworth, with prototype drafting and testing assistance from Codex. This teaching revision uses the same v0.3 revised-visions rules, three starting foresight tokens, Standing Commitments and weighted settlement. It changes presentation, not the balance of the game.
-Use the current editable rulebook and facilitator guide in the project's Drive folder for updates. Record any unclear rule during play and bring it to the debrief. Historical packs are retained for comparison; their superseded timing and unanimous final-vote rules do not override this edition.
+Cap prepared Beacon at 4 before checking voyages, then subtract crossing wear and limit final Beacon to 0–4. Add every Stability change to its opening value before limiting the final result to 0–4. Apply Readiness's single change to its opening value and limit the result to 0–4.
+Do not discard a supply gain because an intermediate total exceeds 4, or stop counting costs because it temporarily reaches zero. The facilitator totals the whole round first.
+### Who decides a disputed result?
+The facilitator checks the current articles, signed sheets and printed consequences, including concealed conditions. They cannot invent resources, a new prophecy, additional Charter options or rewards for cooperation.
+## 14. Reference
+### The clock
+- Briefing: 8 minutes.
+- Each round: factions 5 minutes; councils 7; free discussion 6.
+- Faction minute 2: display drafts. Minute 3: foresight closes. Minute 5: assignments and reserve lock.
+- Council bell: final orders and Warrant lock; both councils resolve.
+- Ceremony: 10 minutes, up to two ballots. Debrief: 6 minutes.
+### Orders
+- Maintain: Lantern prepares Beacon +1. Repair: offered Lantern prepares Beacon +2.
+- Relief: Wayfarer or triggered Grey Petrel; Stability +2. Military: Wayfarer; Campaign passage. Shared: Wayfarer and Lantern; Stability +1 and Campaign passage.
+- Council voyages need prepared Beacon 2+ and each cause one wear. Trade succeeds at 3+, or at 2 guarded; at 2 unguarded Wayfarer is disabled.
+- Campaign: offered Spear and delivered military passage; Stability −1. Raid: Spear, no Guild transport; Stability −1, or −2 total if it finds combat at Readiness 2+.
+- Guard: unused offered Vigil; Stability +1 and protection. Warrant: imperial military authority, opening Readiness 3+, offered Vigil; the same benefit, with first claim on Vigil.
+- Every round: Stability −1 for consumption; Readiness +1 once if qualifying combat occurs, otherwise −1 once. Add failures, duties and scenario effects before applying final limits.
+### Terms
+- Assignment: the owner's binding choice for an asset this round.
+- Council: an assignment offering an asset for a council order; ownership remains with its faction.
+- Article: a constitutional rule assigning authority and a service duty.
+- Authorised: approved by whoever has the right to choose that council's order.
+- Funded: supplied with its required offered assets or the exact permitted reserve substitute. No money is spent.
+- Delivered: a funded council voyage that crosses at prepared Beacon at least 2.
+- Guarded: protected by funded Guard or a valid Warrant against the specified threats.
+- Opening Readiness: the value before the round resolves. Prepared Beacon: the value after maintenance or repair, before wear.
+- Qualifying combat: a Campaign with delivered passage, or a Raid that finds its patrol, fought at opening Readiness at least 2.
+- Standing Commitment: an owner-approved assignment attached to an enacted article, binding for round two.
+- Weight or leverage: the strength of a party's final signature.
+- Ratification: passing the complete settlement by weighted signatures. Provisional articles use the separate assent procedure.
+### Debrief
+What government did you want at the start, and what did you accept at the end? Name a decision or event that changed your view. What did your faction give up, what did it receive, and what did your teammate contribute?
+For the Ascendant, did foresight change a decision, a bargain or only your confidence? One remaining token is inevitable after two purchases. Declining a purchase is the choice that preserves more power.
+Design by John Keyworth. Paper prototype v0.3, revised 14 October 2026. Use the current player rulebook and facilitator guide together; earlier packs retain superseded foresight and settlement rules.

@@ -53,7 +53,7 @@ The public round-two operational plan is a political promise. Activated Standing
 All unpledged cards retain their normal independent choices. Provisional rules do not use weighted signatures in this experiment.
 
 5. The Ascendant's purpose
-Seek a workable empire: a ratified settlement with Beacon 1+, Communities 2+ and Readiness 2+. Prefer Readiness 3+ and an intact Spear, but weigh military strength against civilian harm and the government being built.
+Seek a workable empire: a ratified settlement with Beacon 1+, Stability 2+ and Readiness 2+. Prefer Readiness 3+ and an intact Spear, but weigh military strength against civilian harm and the government being built.
 Your legacy is a government that can sustain essential routes, protect communities and manage the army without repeated personal foresight and intervention. There is no requirement or reward for retaining an imperial article or both council powers. You may accept delegation when the actual evidence gives you confidence; you need not trust an untested promise or agree merely to produce a successful ending. Explain what gives or withholds that confidence.
 Personal leverage lets you shape a dependable settlement. Spending foresight may help build that government while reducing your later bargaining power. Preserving foresight may strengthen your signature while leaving a consequence unknown.
 
@@ -122,7 +122,7 @@ By John Keyworth, developed with Codex. Five players, one facilitator, 60 minute
 
 The situation
 
-You meet at the Seam. Reports from the Narrow, a route serving the Vethis region, describe a failing beacon installation, a stranded field cohort and communities living on diminishing stores. Armed Conclave remnants threaten traffic. The occupation of Vethis has already lasted fourteen years. Its civilian opposition is not the remnant force.
+You meet at the Seam. The Narrow is a failing passage supplying Sorenne's Fall, a star system of forty million people. Spear waits for transport to an anchorage of the Sorenne Flag, defeated House Sorenne's surviving fleet, beyond the crossing. A Sorenne patrol operates on this side. The Flag resists the Dominion but also brings irregular supplies to the system. Your ships cannot carry relief, commerce and soldiers at once.
 
 Each round represents one month of operations before the final Ceremony. The eight-minute briefing opens this period of provisional government; it is not a literal day of instant interstellar travel. The local emergency and all named assets in this pack are new prototype scenario material.
 
@@ -166,7 +166,7 @@ Round one: the Ascendant chooses both operational orders. Provisional articles a
 
 Round two: N-G gives Navigation to the Guild; N-I to the Ascendant; N-J to both delegates. M-I gives Security to the Ascendant; M-A to the Janissariat; M-J to both delegates. Interim means Ascendant. No mid-round article change is allowed.
 
-Under joint authority, both delegates must initial. Missing, multiple or unauthorised orders default to Hold at Navigation or Restraint at Security. There is no penalty for invalidity alone. An otherwise valid order missing its required asset defaults and causes Communities -1. Committed assets cannot be reassigned after a default.
+Under joint authority, both delegates must initial. Missing, multiple or unauthorised orders default to Hold at Navigation or Restraint at Security. There is no penalty for invalidity alone. An otherwise valid order missing its required asset defaults and causes Stability -1. Committed assets cannot be reassigned after a default.
 
 3. Free discussion - six minutes
 
@@ -174,7 +174,7 @@ The facilitator resolves both councils and independent assignments together, ann
 
 Law and physical power
 
-The Guild can send Wayfarer on its own commercial voyage. The Janissariat can order an independent Raid. Neither requires another player's approval. A Charter obligation can make the act a breach; it does not prevent the attempt. Each faction that breaks its printed duty causes Communities -1, at most once per round. This stacks with operational effects.
+The Guild can send Wayfarer on its own commercial voyage. The Janissariat can order an independent Raid. Neither requires another player's approval. A Charter obligation can make the act a breach; it does not prevent the attempt. Each faction that breaks its printed duty causes Stability -1, at most once per round. This stacks with operational effects.
 
 Each asset has one assignment per round. Vigil cannot serve a Warrant and a council Guard. A Grey Petrel Relief lift can operate alongside Wayfarer's private voyage: these are two ships and cause two points of beacon wear.
 
@@ -190,30 +190,30 @@ PLAYER GUIDE | PUBLIC CONSEQUENCES
 
 Track: 0-4 | Start | Meaning
 Beacon | 2 | The Narrow installation: relay, surveillance and traffic-control capacity. It does not measure the health of the immaterial deep.
-Communities | 3 | Local stores and confidence in the settlement.
+Stability | 3 | Supplies and functioning civil services in Sorenne's Fall.
 Readiness | 3 | The Janissariat's conditioned combat power. Food and ordinary escort duty cannot restore it.
 
 Prepare the route, then use it
 
-First add Lantern Maintain +1 Beacon, or a funded Repair +2 Beacon. These cannot both use Lantern. Limit this prepared value to 0-4. A voyage needs prepared Beacon 2+. Below 2 a council voyage halts, gives no cargo or military passage and causes Communities -1. A private Trade simply returns without a contract. Neither causes wear.
+First add Lantern Maintain +1 Beacon, or a funded Repair +2 Beacon. These cannot both use Lantern. Limit this prepared value to 0-4. A voyage needs prepared Beacon 2+. Below 2 a council voyage halts, gives no cargo or military passage and causes Stability -1. A private Trade simply returns without a contract. Neither causes wear.
 
 Each council voyage that crosses causes Beacon -1. A private Trade that crosses causes a further -1, even if attacked. Check all voyages against the same prepared value. Apply wear after every voyage is checked. There are no fees, abstract capacity points or transfers between assets.
 
 Local survival and military power
 
-Every round: Communities -1 as stores run down. Then add all cargo, Guard, operation, breach and hidden effects. Limit Communities to 0-4 once, at the end.
+Every round: Stability -1 as stores run down. Then add all cargo, Guard, operation, breach and hidden effects. Limit Stability to 0-4 once, at the end.
 
 If Spear actually fights through a successful Campaign or Raid, Readiness +1. Otherwise Readiness -1. Apply this once per round and limit to 0-4. Use opening Readiness for strength checks and Warrants. Routine Guard is protection and deterrence, not a conditioning exercise.
 
-A Campaign needs delivered Military or Shared passage. It causes Communities -1 and fights successfully at opening Readiness 2+. Below 2, Spear is overmatched and disabled. Without delivered passage, the Campaign does not leave: Communities -1; no combat. Spear remains intact.
+A Campaign needs delivered Military or Shared passage. It causes Stability -1 and fights successfully at opening Readiness 2+. Below 2, Spear is overmatched and disabled. Without delivered passage, the Campaign does not leave: Stability -1; no combat. Spear remains intact.
 
-A Raid costs Communities -1 for disruption even if it misses. Whether the remnant target appears is a hidden fixed condition. If present and opening Readiness is 2+, it fights and causes a further Communities -1. If present below 2, Spear is disabled; no further Community loss. A missing target does not disable Spear.
+A Raid costs Stability -1 for disruption even if it misses. Whether the Sorenne patrol appears is a hidden fixed condition. If present and opening Readiness is 2+, it fights and causes a further Stability -1. If present below 2, Spear is disabled; no further Stability loss. A missing target does not disable Spear.
 
 Independent trade and physical protection
 
 Wayfarer Trade completes one commercial contract if prepared Beacon is 3+, or if it is 2 and Vigil provides Guard/Warrant protection. At 2 without protection, attackers disable Wayfarer and the contract fails. Its crew survives. A contract is recorded on the board; it cannot be spent, gifted or converted into another asset.
 
-A Guard or valid Warrant uses Vigil, gives Communities +1 and supplies guarded status for the round. It protects traffic and crews against specified physical threats. It does not raise Beacon or enable passage below 2. Hidden effects may also depend on the final funded orders.
+A Guard or valid Warrant uses Vigil, gives Stability +1 and supplies guarded status for the round. It protects traffic and crews against specified physical threats. It does not raise Beacon or enable passage below 2. Hidden effects may also depend on the final funded orders.
 
 Damage: a disabled asset or lost crew is unavailable for the rest of this prototype, including the ending. Surviving assets return next round. No replacement, retraining or recovery action exists in this short scenario.
 
@@ -259,7 +259,7 @@ Choose each round: Council or Home.
 
 Council: can pay for Guard or, under Interim/M-I at opening Readiness 3+, an imperial Warrant. One use only. Warrant has first claim if validly issued.
 
-Guard/Warrant: Communities +1 and guarded status for physical threats. Cannot repair Beacon or enable a voyage below prepared Beacon 2.
+Guard/Warrant: Stability +1 and guarded status for physical threats. Cannot repair Beacon or enable a voyage below prepared Beacon 2.
 
 Home: protects military institutional bases; no numerical bonus. Required under M-A. Does not sustain conditioning. Vigil has no loss rule in this prototype.
 
@@ -273,13 +273,13 @@ NAVIGATION AND SUPPLY
 
 Members: Guild and Janissariat delegates. Use only offered Guild cards. Interim/N-I: Ascendant initials; N-G: Guild; N-J: both delegates.
 
-RELIEF - Wayfarer: delivered cargo Communities +2.
+RELIEF - Wayfarer: delivered cargo Stability +2.
 MILITARY - Wayfarer: delivered passage enables Campaign; no civilian cargo.
-SHARED - Wayfarer + Lantern: delivered cargo Communities +1 and enables Campaign.
+SHARED - Wayfarer + Lantern: delivered cargo Stability +1 and enables Campaign.
 REPAIR - Lantern: prepared Beacon +2; no voyage.
 HOLD - free: no operation.
 
-Passage: prepare Beacon using Maintain/Repair, cap 0-4. Voyage requires 2+. Each crossing then costs Beacon -1. Halted council voyage gives no cargo/passage and Communities -1. A missing required asset means Hold and Communities -1 instead.
+Passage: prepare Beacon using Maintain/Repair, cap 0-4. Voyage requires 2+. Each crossing then costs Beacon -1. Halted council voyage gives no cargo/passage and Stability -1. A missing required asset means Hold and Stability -1 instead.
 
 Round one: operational orders lock at council bell. Propose N-G/N-I/N-J and its attached terms AFTER resolution, during free discussion. Round two tests any enacted power and duty.
 
@@ -287,12 +287,12 @@ SECURITY AND GOVERNMENT
 
 Members: both faction delegates and Ascendant. Interim/M-I: Ascendant initials; M-A: Janissariat; M-J: both delegates.
 
-CAMPAIGN - Spear + delivered Military/Shared passage: Communities -1. Opening Readiness 2+: combat; below 2: Spear disabled. Without passage: Communities -1, no combat, Spear intact.
-RAID - Spear: Communities -1; hidden condition determines target. If present at Readiness 2+, combat and a further Communities -1. If present below 2, Spear disabled.
-GUARD - Vigil: Communities +1 and guarded status.
+CAMPAIGN - Spear + delivered Military/Shared passage: Stability -1. Opening Readiness 2+: combat; below 2: Spear disabled. Without passage: Stability -1, no combat, Spear intact.
+RAID - Spear: Stability -1; hidden condition determines target. If present at Readiness 2+, combat and a further Stability -1. If present below 2, Spear disabled.
+GUARD - Vigil: Stability +1 and guarded status.
 RESTRAINT - free: no operation.
 
-Warrant: valid imperial Warrant uses Vigil first. Do not spend it again. Missing required offered card defaults to Restraint and Communities -1. Independent Spear cannot pay a council order.
+Warrant: valid imperial Warrant uses Vigil first. Do not spend it again. Missing required offered card defaults to Restraint and Stability -1. Independent Spear cannot pay a council order.
 
 Readiness: one change each round: +1 after successful combat; otherwise -1. Food and Guard do not qualify. Round one: orders lock at council bell; propose M-I/M-A/M-J with attached terms during the later free discussion. Article signatures close at the free-discussion bell.
 
@@ -347,11 +347,11 @@ Constitutional worksheet for AFTER resolution; no article signatures at this cou
 Proposal: N-G / N-I / N-J
 Guild ____ Janissariat ____ Ascendant ____
 
-Lock: council bell. Invalid/missing order: Hold. Valid order without an asset: Hold and Communities -1.
+Lock: council bell. Invalid/missing order: Hold. Valid order without an asset: Hold and Stability -1.
 
 R1-S | Security order
 
-The external remnant position can be reached by military passage. A local detachment may expose itself to a Raid.
+The Sorenne Flag's anchorage can be reached by military passage. A local Sorenne patrol may expose itself to a Raid.
 
 Circle one: CAMPAIGN / RAID / GUARD / RESTRAINT
 
@@ -415,11 +415,11 @@ Separate constitutional proposal:
 Current article: INTERIM / N-G / N-I / N-J
 No article changes during this round.
 
-Lock: council bell. Invalid/missing order: Hold. Valid order without an asset: Hold and Communities -1.
+Lock: council bell. Invalid/missing order: Hold. Valid order without an asset: Hold and Stability -1.
 
 R2-S | Security order
 
-The remnant detachment has changed its movements. Last month's Raid condition no longer applies.
+The Sorenne patrol has changed its movements. Last month's Raid condition no longer applies.
 
 Circle one: CAMPAIGN / RAID / GUARD / RESTRAINT
 
@@ -442,7 +442,7 @@ N-G | Guild discretion
 
 Power: Guild delegate chooses Navigation. Guild licensing and discretion over traffic are protected. Wider communications rights remain undecided.
 
-Duty: each operational round, use Lantern for independent Maintain or a funded council Repair. Failure causes Communities -1. You may physically disobey; the order is not cancelled.
+Duty: each operational round, use Lantern for independent Maintain or a funded council Repair. Failure causes Stability -1. You may physically disobey; the order is not cancelled.
 
 Resources and sacrifice: upkeep occupies Lantern, preventing Shared passage that round unless you break the duty. Wayfarer may Trade. The army must bargain for a military lift; Guild discretion does not mean automatic civilian priority.
 
@@ -452,7 +452,7 @@ N-I | Imperial priority
 
 Power: Ascendant chooses Navigation. Guild licensing is recognised, but the crown determines traffic priorities. Wider communications rights remain undecided.
 
-Duty: offer Wayfarer to Navigation every operational round. If it is withheld or unavailable, Communities -1. The crown cannot seize it or convert that penalty into an asset.
+Duty: offer Wayfarer to Navigation every operational round. If it is withheld or unavailable, Stability -1. The crown cannot seize it or convert that penalty into an asset.
 
 Resources and sacrifice: offering Wayfarer forgoes that round's commercial contract, even if the council leaves it idle. Lantern remains the Guild's assignment choice. All printed order costs still apply.
 
@@ -462,7 +462,7 @@ N-J | Joint authorisation
 
 Power: both Navigation delegates must agree the order. Without both initials, Hold. Guild licensing is protected; neither crown nor Guild chooses traffic alone.
 
-Duty: offer Wayfarer to Navigation every operational round. If withheld or unavailable, Communities -1. Lantern remains the Guild's assignment choice.
+Duty: offer Wayfarer to Navigation every operational round. If withheld or unavailable, Stability -1. Lantern remains the Guild's assignment choice.
 
 Resources and sacrifice: Guild gives up a commercial voyage and sole discretion; Janissariat accepts a Guild veto over passage; Ascendant gives up independent priority-setting. There is no cheaper ship or extra cargo for agreeing.
 
@@ -478,7 +478,7 @@ M-I | Imperial command
 
 Power: Ascendant chooses Security. At opening Readiness 3+, offered Vigil can also serve an independent imperial Warrant. Spear remains an imperial instrument that can be stood down.
 
-Duty: offer Spear to Security every operational round. Withholding, an independent Raid or a disabled Spear breaks this duty: Communities -1 once. Council-directed Raid is lawful.
+Duty: offer Spear to Security every operational round. Withholding, an independent Raid or a disabled Spear breaks this duty: Stability -1 once. Council-directed Raid is lawful.
 
 Resources and sacrifice: the army surrenders its freedom to choose fighting; the crown bears responsibility for sustaining conditioning or accepting its decline. Vigil is still offered voluntarily. No decree creates either asset.
 
@@ -486,15 +486,15 @@ M-A | Military autonomy
 
 Power: Janissariat delegate chooses Security. Spear is part of an autonomous order and may also Raid independently. The Ascendant has no independent Warrant power.
 
-Duty: keep Vigil Home every operational round to protect the order's bases. Offering it instead breaks the duty: Communities -1. You may still offer and use it; the physical action remains possible.
+Duty: keep Vigil Home every operational round to protect the order's bases. Offering it instead breaks the duty: Stability -1. You may still offer and use it; the physical action remains possible.
 
-Resources and sacrifice: preserving the order's separate base removes Vigil from civilian Guard unless the duty is broken. Independent fighting may preserve Readiness while harming Communities. Autonomy does not add strength or make resting restorative.
+Resources and sacrifice: preserving the order's separate base removes Vigil from civilian Guard unless the duty is broken. Independent fighting may preserve Readiness while harming Stability. Autonomy does not add strength or make resting restorative.
 
 M-J | Joint authorisation
 
 Power: both Security delegates must agree. Without both initials, Restraint. The Ascendant loses independent Warrant power. The military accepts outside scrutiny and a veto over its lawful operations.
 
-Duty: offer Spear to Security every operational round. Withholding, an independent Raid or a disabled Spear causes Communities -1 once. A jointly approved council Raid is lawful; its ordinary civilian costs still apply.
+Duty: offer Spear to Security every operational round. Withholding, an independent Raid or a disabled Spear causes Stability -1 once. A jointly approved council Raid is lawful; its ordinary civilian costs still apply.
 
 Resources and sacrifice: Guard still uses Vigil. The council chooses between using Spear for fighting or Vigil for Guard; it cannot take two orders. Delay or restraint can let conditioning fray. The crown and Guild must decide what violence they will support.
 
@@ -510,7 +510,7 @@ A light cutter with a licensed Guild pilot and a protection detail, already cont
 
 Intervention | Printed trigger and effect
 Relief lift | If the final authorised Navigation order is Relief and Wayfarer is not offered, Grey Petrel supplies that ship requirement. Spend the reserve immediately, even if prepared Beacon later halts the voyage. It cannot supply Military or Shared passage.
-Tender cover | If the round-one Shared voyage crosses, is unguarded, and its printed crew-loss consequence would trigger, spend the reserve to protect Lantern's navigation team. No Community bonus, Beacon repair or other protection.
+Tender cover | If the round-one Shared voyage crosses, is unguarded, and its printed crew-loss consequence would trigger, spend the reserve to protect Lantern's navigation team. No Stability bonus, Beacon repair or other protection.
 Keep / no trigger | Keep leaves the reserve available. A lodged intervention whose trigger does not occur returns unused at round end. Tender cover has no trigger in round two.
 
 Place the reserve coin beside the lodged task. Once spent, mark Grey Petrel SPENT and remove the coin. An intervention never counts as Vigil Guard or a military operation. A missed or multiple selection means Keep.
@@ -537,7 +537,7 @@ Deadlines
 
 Vision: minute 3 of the faction phase, after public drafts at minute 2. Intervention: faction bell at minute 5. Directives and Warrant: council bell. Transfer each lawful final directive to its council card and initial there. That card supersedes earlier notes. A Warrant remains on this sheet and has first claim on offered Vigil. A late, unsigned, missing or multiple Warrant selection means No.
 
-Warrant check: Interim/M-I + opening Readiness 3+ + offered Vigil. Valid: Communities +1 and guarded. Missing Readiness/Vigil: Communities -1. Outside Interim/M-I: advice only. A simultaneous council Guard cannot reuse Vigil and defaults with Communities -1.
+Warrant check: Interim/M-I + opening Readiness 3+ + offered Vigil. Valid: Stability +1 and guarded. Missing Readiness/Vigil: Stability -1. Outside Interim/M-I: advice only. A simultaneous council Guard cannot reuse Vigil and defaults with Stability -1.
 
 
 
@@ -546,9 +546,9 @@ Warrant check: Interim/M-I + opening Readiness 3+ + offered Vigil. Valid: Commun
 KEEP VISIBLE | USE THREE COUNTERS AND ASSET CARDS
 
 Track | 0 | 1 | 2 | 3 | 4
-Beacon |  |  | START |  | 
-Communities |  |  |  | START | 
-Readiness |  |  |  | START | 
+Beacon |  |  | START |  |
+Stability |  |  |  | START |
+Readiness |  |  |  | START |
 
 Permanent record | Current state
 Wayfarer | READY / DISABLED
@@ -564,7 +564,7 @@ Round | Navigation | Military
 1 | INTERIM | INTERIM
 2 | INTERIM / N-G / N-I / N-J | INTERIM / M-I / M-A / M-J
 
-Interim: Ascendant chooses both council orders. No Guild service duty. An independent Janissariat Raid breaks imperial discipline: Communities -1. Offered Vigil can serve a Warrant at opening Readiness 3+. This is also the constitutional fallback if final ratification fails.
+Interim: Ascendant chooses both council orders. No Guild service duty. An independent Janissariat Raid breaks imperial discipline: Stability -1. Offered Vigil can serve a Warrant at opening Readiness 3+. This is also the constitutional fallback if final ratification fails.
 
 Resolution record
 
@@ -607,7 +607,7 @@ Both teammates must agree before their faction signs. Record five explicit playe
 
 State at settlement
 
-Beacon ____ /4   Communities ____ /4   Readiness ____ /4
+Beacon ____ /4   Stability ____ /4   Readiness ____ /4
 Wayfarer READY / DISABLED   Lantern crew ALIVE / LOST
 Spear READY / DISABLED   Commercial contracts ____ /2
 Grey Petrel AVAILABLE / SPENT
@@ -630,4 +630,3 @@ Debrief - six minutes
 4. Did a named asset make a promise or loss feel concrete? Which card was confusing?
 5. Did the Ascendant learn something useful without solving both tables alone?
 6. Did both teammates contribute? Record one change for the next test.
-

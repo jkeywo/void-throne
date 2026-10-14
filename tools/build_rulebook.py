@@ -8,18 +8,20 @@ blocks=[]
 for raw in SOURCE.read_text(encoding='utf-8').splitlines():
     raw=raw.strip()
     if not raw:continue
-    if raw.startswith('### '):kind,text='HEADING_2',raw[4:]
+    if raw.startswith('~ '):kind,text='SUBTITLE',raw[2:]
+    elif raw.startswith('### '):kind,text='HEADING_2',raw[4:]
     elif raw.startswith('## '):kind,text='HEADING_1',raw[3:]
     elif raw.startswith('# '):kind,text='TITLE',raw[2:]
     elif raw.startswith('- '):kind,text='BULLET',raw[2:]
     elif raw.startswith('> '):kind,text='EXAMPLE',raw[2:]
     else:kind,text='NORMAL_TEXT',raw
     blocks.append([kind,text])
-title=blocks[0][1]
+title=next(text for kind,text in blocks if kind=='TITLE')
 toc=[];body=[];section=0;in_contents=False
 for kind,text in blocks:
     safe=html.escape(text)
-    if kind=='TITLE':body.append('<header><p class="eyebrow">THE VOID THRONE · PAPER PROTOTYPE</p><h1>'+safe+'</h1></header>')
+    if kind=='SUBTITLE':body.append('<p class="eyebrow">'+safe+'</p>')
+    elif kind=='TITLE':body.append('<header><h1>'+safe+'</h1></header>')
     elif kind=='HEADING_1':
         if in_contents:body.append('</div>');in_contents=False
         section+=1;toc.append(f'<a href="#section-{section}">{safe}</a>');body.append(f'<h2 id="section-{section}">{safe}</h2>')
@@ -33,7 +35,7 @@ for kind,text in blocks:
     else:body.append('<p>'+safe+'</p>')
 style='''*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f4f0e7;color:#20353d;font:18px/1.65 system-ui,sans-serif}main{max-width:1360px;margin:auto;display:grid;grid-template-columns:260px minmax(0,850px);gap:44px;padding:36px 28px}nav{position:sticky;top:24px;align-self:start;font-size:14px}nav a{display:block;padding:6px 0;color:#285861;text-decoration:none}nav a:hover{text-decoration:underline}article{min-width:0}h1,h2,h3{font-family:Georgia,serif;line-height:1.2}h1{font-size:46px;margin:14px 0}h2{font-size:32px;margin:2.2em 0 .8em;border-top:2px solid #b9c9c5;padding-top:24px;scroll-margin-top:22px}h3{font-size:24px;margin-top:1.5em}p{margin:.8em 0}header{padding:24px;background:#17343f;color:#fff7e7}.eyebrow{font:11px system-ui;letter-spacing:.16em}.example{background:#e0eae6;border-left:5px solid #387075;padding:10px 22px;margin:24px 0}.example p{margin:.6em 0}.rule{background:#fffaf0;padding:8px 18px 8px 38px;margin:8px 0;border:1px solid #e0d8c8}.toolbar{font-size:14px;margin-bottom:24px}a{color:#235963}@media(max-width:900px){main{display:block;padding:20px}nav{position:static;columns:2;margin-bottom:30px}h1{font-size:36px}}@media(max-width:500px){nav{columns:1}body{font-size:17px}}@media print{body{background:white;font:11pt/1.4 Arial,sans-serif}main{display:block;padding:0;max-width:none}nav,.toolbar{display:none}header{background:white;color:#20353d;padding:0}h1{font-size:26pt}h2{font-size:18pt}h3{font-size:14pt}h2,h3{break-after:avoid}.rule,.example{break-inside:avoid}p{orphans:3;widows:3}@page{size:A4;margin:18mm}}'''
 style+='.print-contents{display:none}@media print{.print-contents{display:block}}'
-rendered=f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(title)}</title><style>{style}</style></head><body><main><nav aria-label="Contents"><b>Contents</b>'+''.join(toc)+'</nav><article><p class="toolbar">Teaching edition · 14 October 2026 · Read from the beginning, or jump to a rule using the contents.</p>'+''.join(body)+'</article></main></body></html>'
+rendered=f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(title)}</title><style>{style}</style></head><body><main><nav aria-label="Contents"><b>Contents</b>'+''.join(toc)+'</nav><article>'+''.join(body)+'</article></main></body></html>'
 (OUT/'rulebook.html').write_text(rendered,encoding='utf-8')
 (OUT/'rulebook.txt').write_text('\n\n'.join(b[1] for b in blocks)+'\n',encoding='utf-8')
 (OUT/'rulebook-blocks.json').write_text(json.dumps({'title':'The Void Throne — Player Rulebook, draft v0.3','blocks':blocks},ensure_ascii=False,indent=2),encoding='utf-8')

@@ -4,11 +4,11 @@
   "branches": [
     {
       "condition": "Wayfarer completes private Trade",
-      "consequence": "A Raid finds the target. At opening Readiness 2+, it fights: total Raid cost Communities −2 and the round’s combat change is Readiness +1. At Readiness 0–1, Spear is disabled: Raid costs Communities −1 and there is no qualifying combat from that Raid."
+      "consequence": "A Raid finds the Sorenne patrol. At opening Readiness 2+, it fights: total Raid cost Stability −2 and the round’s combat change is Readiness +1. At Readiness 0–1, Spear is disabled: Raid costs Stability −1 and there is no qualifying combat from that Raid."
     },
     {
       "condition": "No completed private Trade",
-      "consequence": "The Raid finds no target. It costs Communities −1, Spear remains intact, and it provides no qualifying combat. Council Relief, Military or Shared passage does not substitute for a private contract."
+      "consequence": "The Raid finds no target. It costs Stability −1, Spear remains intact, and it provides no qualifying combat. Council Relief, Military or Shared passage does not substitute for a private contract."
     },
     {
       "condition": "No Raid",

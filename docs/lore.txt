@@ -36,9 +36,11 @@ Explicit author clarification: using foresight diminishes the Ascendant’s powe
 
 The Narrow and the prototype inventions
 
-The Narrow is an established strategic corridor between dense stellar formations, with a waystation council that has governed for thirty generations. Vethis Secundus’s resistance is described as collective non-cooperation without a conventional military command structure. Do not reframe its civilians as the convenient enemy needed to maintain Janissariat power. Source: Systems/Vethis Cluster.md.
+The Narrow is an established strategic corridor linking inner systems and the southern rim, with a waystation council that has governed for thirty generations. Sorenne's Fall in the Southern Houses Arm provides the civilian stakes for this prototype. Vethis Secundus remains a different setting location whose resistance is collective non-cooperation; it is not the armed opponent here. Sources: Systems/Vethis Cluster.md; Systems/Southern Houses Arm.md.
 
-Scenario adaptation: the local failing beacon/service, stranded Spear cohort, Vigil garrison, Wayfarer transport, Lantern tender, Grey Petrel reserve and remnant raider target are named components of this prototype. Their exact availability, two-month timetable and conditional target appearances are authored scenario rules. They are not facts extracted from the original setting.
+Established setting: Sorenne's Fall is a star system of forty million people living beneath a battle debris field. Its former colonial administration continued governing after orders stopped arriving. The Sorenne Flag scattered rather than surrender at Pale Meridian and has been bringing the system irregular supplies. Campaign Ash pursues House Sorenne's surviving fleet. Sources: Systems/Southern Houses Arm.md and Game/Fringe Campaigns.md.
+
+Scenario adaptation: the current crisis makes the Narrow the supply passage serving Sorenne's Fall. Stability replaces the former Communities label and records supplies and functioning civil services on the same 0–4 scale, with the same starting value and numerical effects. The Flag anchorage beyond the crossing, local patrol, traffic-linked appearances, named assets and two-month timetable are scenario additions. No value on Stability implies political loyalty or turns the system's civilians into military targets.
 
 Beacon measures service infrastructure. Guild work prepares it; military protection addresses named physical attacks and exposed berths. Guard does not repair a psychic relationship with the void. Grey Petrel already has a contracted licensed pilot; the Ascendant never conjures a navigator.
 

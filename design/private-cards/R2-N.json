@@ -4,11 +4,11 @@
   "branches": [
     {
       "condition": "Military passage crosses unguarded",
-      "consequence": "Delivered Military passage without funded Guard or valid Warrant causes an extra Communities −1. Protection prevents this extra loss. Grey Petrel’s Tender cover does not protect these stores."
+      "consequence": "Delivered Military passage without funded Guard or valid Warrant causes an extra Stability −1. Protection prevents this extra loss. Grey Petrel’s Tender cover does not protect these stores."
     },
     {
       "condition": "Funded Repair and completed Trade",
-      "consequence": "A funded council Repair together with a completed private Wayfarer Trade gives Communities +1 from distribution. Both must happen. Lantern must be on Council for Repair; Maintain is not Repair."
+      "consequence": "A funded council Repair together with a completed private Wayfarer Trade gives Stability +1 from distribution. Both must happen. Lantern must be on Council for Repair; Maintain is not Repair."
     },
     {
       "condition": "Neither condition",

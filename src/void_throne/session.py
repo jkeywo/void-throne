@@ -180,11 +180,11 @@ class Session:
                              history=self.history,actions=self.actions,mode='all_seats',ruleset='vt:rules:revised-visions-v0.3'))
 
 def effect_ledger(before,after,inputs,detail):
-    out=['Monthly consumption: Communities -1.']
+    out=['Monthly consumption: Stability -1.']
     out.append(f'Beacon prepared to {detail["prepared"]}: Maintain +1 or funded Repair +2; preparation capped at 4.')
-    if detail['delivered']:out.append('Delivered '+detail['nav']+': Communities '+str({'Relief':2,'Military':0,'Shared':1}[detail['nav']])+'.')
+    if detail['delivered']:out.append('Delivered '+detail['nav']+': Stability '+str({'Relief':2,'Military':0,'Shared':1}[detail['nav']])+'.')
     out.extend(detail['events'])
     out.append(f'Crossing wear: {int(detail["delivered"])+int(detail["trade"] or (before["wayfarer"] and not after["wayfarer"]))}; final Beacon {after["beacon"]}.')
     out.append('Readiness '+('+1 after successful combat.' if detail['combat'] else '-1: no qualifying combat.'))
-    out.append('Final Communities '+str(after['communities'])+'; tracks capped 0–4 only after aggregate resolution.')
+    out.append('Final Stability '+str(after['communities'])+'; tracks capped 0–4 only after aggregate resolution.')
     return out

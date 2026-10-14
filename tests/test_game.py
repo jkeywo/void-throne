@@ -55,7 +55,7 @@ class GameTests(unittest.TestCase):
         self.assertEqual(d['nav'],'Hold');self.assertFalse(d['combat']);self.assertEqual(st.contracts,1)
     def test_vigil_cannot_pay_twice(self):
         st,d=resolve(State(),sec='Guard',warrant=True)
-        self.assertEqual(d['sec'],'Restraint');self.assertIn('Unfunded Guard: Restraint; Communities -1',d['events'])
+        self.assertEqual(d['sec'],'Restraint');self.assertIn('Unfunded Guard: Restraint; Stability -1',d['events'])
     def test_averted_vision_and_untriggered_reserve(self):
         lost,_=resolve(State(),l='Council',nav='Shared',sec='Campaign')
         safe,_=resolve(State(),l='Council',nav='Shared',sec='Campaign',intervention='Tender cover')

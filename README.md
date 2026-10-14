@@ -111,3 +111,7 @@ as authority. The older folders at `C:/AnalogueGames/TheVoidThrone` and
 This is draft v0.3: a migration of the accepted revised-visions experiment,
 not a balance revision. No strategic map, Clarity track, conspiracy, secret
 individual objectives or unanimous final ballot has been reintroduced.
+
+## Current crisis and historical records
+
+The current scenario concerns Sorenne’s Fall and the Sorenne Flag. Stability measures the system’s supplies and civil services. The internal `communities` field retains its old name for saved-session compatibility. Historical reports and transcripts preserve their original terms; the current names do not imply those runs tested the revised setting. See `lore/scenario-setting.json` for established facts and scenario additions.

@@ -24,7 +24,7 @@ def report(game):
         if value is None:return 'None'
         if isinstance(value,bool):return 'Yes' if value else 'No'
         if isinstance(value,list):return '<ul>'+''.join('<li>'+value_view(v)+'</li>' for v in value)+'</ul>' if value else 'None'
-        if isinstance(value,dict):return '<dl>'+''.join('<dt><b>'+escape(str(k).replace('_',' ').capitalize())+'</b></dt><dd>'+value_view(v)+'</dd>' for k,v in value.items())+'</dl>'
+        if isinstance(value,dict):return '<dl>'+''.join('<dt><b>'+escape('Sorenne’s Fall · Stability' if k == 'communities' else str(k).replace('_',' ').capitalize())+'</b></dt><dd>'+value_view(v)+'</dd>' for k,v in value.items())+'</dl>'
         return escape(str(value))
     out=['<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>The Void Throne — browser playtest</title>',
          '<style>body{font:17px/1.6 system-ui;max-width:1100px;margin:auto;padding:30px;background:#f4f0e6;color:#192f38}h1,h2{font-family:Georgia}section{margin:2em 0}pre{white-space:pre-wrap;overflow-wrap:anywhere}.mechanics{background:#e6eff0;padding:22px;border-left:4px solid #5c8b8e}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}@media print{details{display:block}}</style>',

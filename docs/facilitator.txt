@@ -10,9 +10,9 @@ Setup and opening brief
 
 Seat GN and JN at Navigation and Supply; GS, JS and A at Security and Government. Give both members of each faction their shared brief and assets. Keep the four private vision answers behind your screen; put both current-round covers face up only at the purchase window.
 
-Start Beacon 2, Communities 3, Readiness 3, all faction assets intact, contracts 0, reserve available and foresight 3. Record Interim in both domains. Give the Ascendant Grey Petrel’s one reserve marker. Publish starting leverage: Guild 4, Janissariat 3, Ascendant 6; total 13, threshold 9.
+Start Beacon 2, Stability 3, Readiness 3, all faction assets intact, contracts 0, reserve available and foresight 3. Record Interim in both domains. Give the Ascendant Grey Petrel’s one reserve marker. Publish starting leverage: Guild 4, Janissariat 3, Ascendant 6; total 13, threshold 9.
 
-Explain the fiction: the Narrow is a route with maintained infrastructure, not a measure of universal psychic safety. The operation is local, not the entire three-billion-strong Janissariat or the whole Guild. The named remnant raiders are a scenario invention, not the civilian resistance of Vethis Secundus. Players meet at the Seam; each round compresses a month before the final Ceremony.
+The crisis concerns Sorenne's Fall, the southern star system of forty million people described in the lore, and the Sorenne Flag, House Sorenne's surviving fleet. Stability measures the system's supplies and functioning services, not its loyalty. The Flag also makes irregular supply deliveries there; military disruption can therefore harm the people the Dominion is trying to govern. For this scenario, their supply route uses the Narrow, Spear seeks passage to a Flag anchorage beyond it, and a Flag patrol supplies the local Raid target. Those deployments are scenario additions. Players remain at the Seam; each round represents one month.
 
 Print the public rulebook, three shared-role briefs, two council sheets, six Charter cards, four vision covers and four folded answers, asset cards, faction/council decision slips, trial proposal/vote slips and final ballots. Earlier printable packs can supply unchanged asset and council cards, but use the current foresight and weighted settlement sheets. The repository retains these packs with version labels.
 
@@ -28,23 +28,23 @@ Resolve in this order
 
 1. Establish assignments, unavailable assets, current articles and lawful signed council orders. Invalid Navigation becomes Hold; invalid Security becomes Restraint. No penalty for invalidity alone.
 
-2. Begin the Community change at -1 for monthly consumption. Check the Warrant using opening Readiness and offered Vigil. A lawful valid Warrant uses Vigil first, gives +1 Community and guarded status. An unsupported imperial Warrant gives -1; a Warrant outside imperial authority has no effect.
+2. Begin the Stability change at -1 for monthly consumption. Check the Warrant using opening Readiness and offered Vigil. A lawful valid Warrant uses Vigil first, gives +1 Stability and guarded status. An unsupported imperial Warrant gives -1; a Warrant outside imperial authority has no effect.
 
-3. Check Guard: unused offered Vigil gives +1 Community and guarded status. If missing or already used, change Guard to Restraint and add -1 Community.
+3. Check Guard: unused offered Vigil gives +1 Stability and guarded status. If missing or already used, change Guard to Restraint and add -1 Stability.
 
-4. Fund Navigation. A lodged available Relief lift triggers only for Relief without offered Wayfarer; spend Grey Petrel immediately. Check all other costs. An unfunded order becomes Hold and adds -1 Community. Prepare Beacon with Maintain +1 and funded Repair +2, capped at 4.
+4. Fund Navigation. A lodged available Relief lift triggers only for Relief without offered Wayfarer; spend Grey Petrel immediately. Check all other costs. An unfunded order becomes Hold and adds -1 Stability. Prepare Beacon with Maintain +1 and funded Repair +2, capped at 4.
 
-5. Resolve the council voyage against prepared Beacon. Below 2, halt it and add -1 Community; do not wear Beacon. Otherwise apply Relief +2 or Shared +1 Communities (Military 0), record delivered passage and one crossing wear.
+5. Resolve the council voyage against prepared Beacon. Below 2, halt it and add -1 Stability; do not wear Beacon. Otherwise apply Relief +2 or Shared +1 Stability (Military 0), record delivered passage and one crossing wear.
 
 6. Resolve private Trade against the same prepared Beacon. At 3+, or 2 guarded, complete a contract and add one crossing wear. At 2 unguarded, disable Wayfarer, no contract, one wear. Below 2, halt intact with no wear. A reserve Relief voyage and private Trade can both cross.
 
-7. Check each faction’s article duty. NG needs Maintain or funded Repair; NI/NJ need Wayfarer offered; MI/MJ need Spear offered; MA needs Vigil Home; Interim independent Raid breaches army discipline. Add at most one Community penalty per faction. Loss of an asset does not waive a duty.
+7. Check each faction’s article duty. NG needs Maintain or funded Repair; NI/NJ need Wayfarer offered; MI/MJ need Spear offered; MA needs Vigil Home; Interim independent Raid breaches army discipline. Add at most one Stability penalty per faction. Loss of an asset does not waive a duty.
 
-8. Resolve Campaign and/or an independent Raid using opening Readiness. A valid council Campaign/Raid without offered Spear adds -1 Community and no council combat; a separately assigned independent Raid still resolves. Campaign missing delivered Military/Shared passage costs 1 Community, does not fight and leaves Spear intact. With passage, it costs 1; Readiness 2+ achieves combat, otherwise disable Spear. A Raid costs 1 for disruption; consult its round’s fixed target condition. If target present, Readiness 2+ achieves combat and adds a second Community cost; below 2 disable Spear without that second loss.
+8. Resolve Campaign and/or an independent Raid using opening Readiness. A valid council Campaign/Raid without offered Spear adds -1 Stability and no council combat; a separately assigned independent Raid still resolves. Campaign missing delivered Military/Shared passage costs 1 Stability, does not fight and leaves Spear intact. With passage, it costs 1; Readiness 2+ achieves combat, otherwise disable Spear. A Raid costs 1 for disruption; consult its round’s fixed target condition. If target present, Readiness 2+ achieves combat and adds a second Stability cost; below 2 disable Spear without that second loss.
 
 9. Apply the other round-specific hidden conditions printed below, whether purchased or not. Tender cover can prevent only its exact printed crew loss. Never substitute the cover question for the full condition.
 
-10. Apply one Readiness change: +1 if any qualifying combat occurred, otherwise -1. Final Beacon is prepared Beacon minus actual crossing wear. Add all Community changes to its opening value. Clamp each final track to 0–4. Mark asset losses, contracts and reserve. Publish consequences and updated signature weights. After round two, expire temporary assignment pledges.
+10. Apply one Readiness change: +1 if any qualifying combat occurred, otherwise -1. Final Beacon is prepared Beacon minus actual crossing wear. Add all Stability changes to its opening value. Clamp each final track to 0–4. Mark asset losses, contracts and reserve. Publish consequences and updated signature weights. After round two, expire temporary assignment pledges.
 
 Fixed visions: facilitator-only answers
 
@@ -66,9 +66,9 @@ Vision R1-S
 
 The merchant’s wake
 
-Wayfarer completes private Trade → A Raid finds the target. At opening Readiness 2+, it fights: total Raid cost Communities −2 and the round’s combat change is Readiness +1. At Readiness 0–1, Spear is disabled: Raid costs Communities −1 and there is no qualifying combat from that Raid.
+Wayfarer completes private Trade → A Raid finds the target. At opening Readiness 2+, it fights: total Raid cost Stability −2 and the round’s combat change is Readiness +1. At Readiness 0–1, Spear is disabled: Raid costs Stability −1 and there is no qualifying combat from that Raid.
 
-No completed private Trade → The Raid finds no target. It costs Communities −1, Spear remains intact, and it provides no qualifying combat. Council Relief, Military or Shared passage does not substitute for a private contract.
+No completed private Trade → The Raid finds no target. It costs Stability −1, Spear remains intact, and it provides no qualifying combat. Council Relief, Military or Shared passage does not substitute for a private contract.
 
 No Raid → These Raid effects do not occur. Campaign and other orders follow their own rules.
 
@@ -78,9 +78,9 @@ Vision R2-N
 
 Stores at the crossing
 
-Military passage crosses unguarded → Delivered Military passage without funded Guard or valid Warrant causes an extra Communities −1. Protection prevents this extra loss. Grey Petrel’s Tender cover does not protect these stores.
+Military passage crosses unguarded → Delivered Military passage without funded Guard or valid Warrant causes an extra Stability −1. Protection prevents this extra loss. Grey Petrel’s Tender cover does not protect these stores.
 
-Funded Repair and completed Trade → A funded council Repair together with a completed private Wayfarer Trade gives Communities +1 from distribution. Both must happen. Lantern must be on Council for Repair; Maintain is not Repair.
+Funded Repair and completed Trade → A funded council Repair together with a completed private Wayfarer Trade gives Stability +1 from distribution. Both must happen. Lantern must be on Council for Repair; Maintain is not Repair.
 
 Neither condition → Neither extra supply effect applies. Relief and Shared receive their normal cargo effects; other cards and ordinary costs still apply.
 
@@ -90,9 +90,9 @@ Vision R2-S
 
 The relief column
 
-Relief is delivered → A Raid finds the target if the authorised, funded Navigation order is Relief and its voyage actually crosses. Grey Petrel Relief lift counts. At opening Readiness 2+, Raid costs Communities −2 total and achieves combat; at 0–1, Spear is disabled, Raid costs Communities −1 and provides no qualifying combat.
+Relief is delivered → A Raid finds the target if the authorised, funded Navigation order is Relief and its voyage actually crosses. Grey Petrel Relief lift counts. At opening Readiness 2+, Raid costs Stability −2 total and achieves combat; at 0–1, Spear is disabled, Raid costs Stability −1 and provides no qualifying combat.
 
-Relief is not delivered → The Raid finds no target, costs Communities −1, leaves Spear intact and provides no qualifying combat. A proposed, unfunded or halted Relief order does not qualify. Shared, Military and private Trade do not qualify.
+Relief is not delivered → The Raid finds no target, costs Stability −1, leaves Spear intact and provides no qualifying combat. A proposed, unfunded or halted Relief order does not qualify. Shared, Military and private Trade do not qualify.
 
 No Raid → Relief alone does not cause an attack or a Raid penalty. These effects require an actual Raid assignment or funded council Raid.
 
