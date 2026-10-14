@@ -115,3 +115,5 @@ individual objectives or unanimous final ballot has been reintroduced.
 ## Current crisis and historical records
 
 The current scenario concerns Sorenne’s Fall and the Sorenne Flag. Stability measures the system’s supplies and civil services. The internal `communities` field retains its old name for saved-session compatibility. Historical reports and transcripts preserve their original terms; the current names do not imply those runs tested the revised setting. See `lore/scenario-setting.json` for established facts and scenario additions.
+
+Player handouts are in `docs/player-briefs.html` and the native Player Briefs document listed in `design/drive-files.json`. The main rulebook keeps shared rules and council seating; faction objectives and advice are separate.

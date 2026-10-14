@@ -12,7 +12,7 @@ Introduction
 
 The Settled Dark
 
-3. Your faction
+Players and councils
 
 4. Setting up
 
@@ -80,71 +80,19 @@ The Crisis
 
 The Narrow is a strategic passage between dense stellar formations, linking the inner systems to the southern rim. Supplies passing through it sustain Sorenne's Fall, a star system of forty million people living beneath the debris of a battle fought before Pale Meridian.
 
-Sorenne's Fall governs itself through the civil administration left behind when House Sorenne stopped sending orders. Its people need reliable deliveries and functioning services, whoever eventually rules them.
+Sorenne's Fall governs itself through the administration left behind when House Sorenne fell. The Sorenne Flag is the surviving fleet of the fallen house. It scattered rather than surrender at Pale Meridian and continues to resist the Dominion. It also delivers irregular supplies to Sorenne's Fall: destroying its ships would leave the system harder to govern.
 
-The Sorenne Flag is the surviving fleet of defeated House Sorenne. It scattered rather than surrender at Pale Meridian and continues to resist the Dominion. It also delivers irregular supplies to Sorenne's Fall: destroying its ships can leave the system harder to govern.
+Spear, a Janissariat cohort, is held at the Narrow while its commanders seek passage to the Flag's anchorage beyond it.
 
-Spear, a Janissariat cohort, is held at the Narrow while its commanders seek passage to the Flag's anchorage beyond it. A Sorenne patrol also operates on this side of the crossing. The damaged route must carry supplies, commercial cargo or soldiers... but it cannot carry everything.
+3. Players and councils
 
-3. Your faction
+The Guild and the Janissariat each have two players. Each pair shares assets and objectives, but sit on different councils.
 
-The Guild and the Janissariat each have two players. You share assets and objectives, but sit on different councils. Agree what your faction will offer and what you want in return before you separate.
+The Ascendant is a single player, supported by the army and able to spend their own power on foresight.
 
-The Ascendant is a single player, supported by the army and able to spend their own power on foresight. All three parties need a settlement, but they have different reasons to fear it.
+All three parties need to reach a settlement.
 
-The Ductus Guild
-
-You operate the passage service through the Narrow. Wayfarer is your freight vessel; Lantern carries your navigation team and maintains the route. Those ships are needed for civilian supplies, military transport and your own commercial obligations.
-
-Your petition, GUILD-14, asks the Charter to recognise the Guild's navigation rights. Each Navigation article answers it differently: Guild discretion leaves priorities with you, Imperial priority places them with the Ascendant, and Joint authorisation gives both factions a say.
-
-Your objectives are to:
-
-Keep Lantern's navigators alive and finish with Beacon at least 2.
-
-Secure Guild navigation rights, preferably through Guild discretion.
-
-Complete two commercial contracts, one in each round.
-
-Leave Sorenne's Fall with Stability at least 2.
-
-Offering Wayfarer for public service means missing that month's contract. The ship returns if it survives, but the opportunity has gone. You may accept that cost for relief, protection or a worthwhile constitutional concession.
-
-The Janissariat
-
-You command Spear, the 9th Pale Cohort, and Vigil, the Narrow garrison. Spear has local assault craft, but needs Guild transport to campaign beyond the crossing. Vigil can protect traffic or remain at its institutional bases.
-
-The Sorenne Flag gives you an enemy to fight. The difficulty is finding it without further damaging the system you are supposed to secure. An unsuccessful expedition still consumes supplies and disrupts civilian traffic, while doing nothing to sustain your conditioning.
-
-Your objectives are to:
-
-Keep Spear intact and finish with Readiness at least 3, preferably 4.
-
-Secure the army's constitutional position, preferably through Military autonomy.
-
-Protect your soldiers from operations they cannot sustain. At opening Readiness below 2, combat disables Spear.
-
-Leave Sorenne's Fall with Stability at least 2.
-
-Military autonomy lets you choose operations, but requires Vigil to stay Home. Joint authorisation gives the Guild a say over military orders. Imperial command leaves the Ascendant able to order you to stand down.
-
-The Ascendant
-
-You need a government capable of maintaining the Dominion, and an army capable of defending it. A quiet month may help Sorenne's Fall while weakening both the Janissariat and the authority they give you.
-
-You begin with imperial command, three foresight tokens and one contracted service from the cutter Grey Petrel. Spending foresight gives you information about the crisis, but reduces your weight in the final settlement.
-
-Your objectives are to:
-
-Ratify a settlement with Beacon at least 1, Stability at least 2 and Readiness at least 2.
-
-Keep Readiness at least 3 and Spear intact where the cost is acceptable.
-
-Establish a government you can trust to govern without your constant intervention.
-
-Account for the people and institutions that paid for that settlement.
-
-You gain no special success from keeping imperial command. Use the provisional government to find out whether delegation works, then judge the final Charter on that evidence.
+Read your faction’s objectives and guidance in the separate Player Briefs.
 
 The councils
 

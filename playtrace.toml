@@ -44,3 +44,11 @@ kind = "google_doc"
 role = "lore"
 title = "The Void Throne — Lore and Adaptation Record"
 schema_id = "void-throne-prose-v1"
+
+[[sources]]
+id = "vt:source:briefs"
+file_id = "1HxKpXPAbOX3vHLTxdJzWZfn60OwDW2cNpAWJxIyJFLE"
+kind = "google_doc"
+role = "briefs"
+title = "The Void Throne — Player Briefs"
+schema_id = "void-throne-prose-v1"

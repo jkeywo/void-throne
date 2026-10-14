@@ -20,6 +20,8 @@ title=next(text for kind,text in blocks if kind=='TITLE')
 toc=[];body=[];section=0;in_contents=False
 for kind,text in blocks:
     safe=html.escape(text)
+    if text=='Read your faction’s objectives and guidance in the separate Player Briefs.':
+        safe='Read your faction’s objectives and guidance in the separate <a href="player-briefs.html">Player Briefs</a>.'
     if kind=='SUBTITLE':body.append('<p class="eyebrow">'+safe+'</p>')
     elif kind=='TITLE':body.append('<header><h1>'+safe+'</h1></header>')
     elif kind=='HEADING_1':

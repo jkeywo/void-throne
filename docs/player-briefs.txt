@@ -1,0 +1,67 @@
+The Void Throne — Player Briefs
+
+Give the Guild and Janissariat players their faction’s shared brief. Give the Ascendant their own brief. Read these alongside the player rulebook.
+
+The Ductus Guild
+
+Two players · shared assets and objectives. Your Navigation delegate is GN; your Security delegate is GS.
+
+Agree asset assignments and negotiating priorities together before separating. Both players must sign your faction’s decisions.
+
+You operate the passage service through the Narrow. Wayfarer is your freight vessel; Lantern carries your navigation team and maintains the route. Those ships are needed for civilian supplies, military transport and your own commercial obligations.
+
+Your petition, GUILD-14, asks the Charter to recognise the Guild's navigation rights. Each Navigation article answers it differently: Guild discretion leaves priorities with you, Imperial priority places them with the Ascendant, and Joint authorisation gives both factions a say.
+
+Your objectives are to:
+
+Keep Lantern's navigators alive and finish with Beacon at least 2.
+
+Secure Guild navigation rights, preferably through Guild discretion.
+
+Complete two commercial contracts, one in each round.
+
+Leave Sorenne's Fall with Stability at least 2.
+
+Offering Wayfarer for public service means missing that month's contract. The ship returns if it survives, but the opportunity has gone. You may accept that cost for relief, protection or a worthwhile constitutional concession.
+
+The Janissariat
+
+Two players · shared assets and objectives. Your Navigation delegate is JN; your Security delegate is JS.
+
+Agree asset assignments and negotiating priorities together before separating. Both players must sign your faction’s decisions.
+
+You command Spear, the 9th Pale Cohort, and Vigil, the Narrow garrison. Spear has local assault craft, but needs Guild transport to campaign beyond the crossing. Vigil can protect traffic or remain at its institutional bases.
+
+The Sorenne Flag gives you an enemy to fight. The difficulty is finding it without further damaging the system you are supposed to secure. An unsuccessful expedition still consumes supplies and disrupts civilian traffic, while doing nothing to sustain your conditioning.
+
+Your objectives are to:
+
+Keep Spear intact and finish with Readiness at least 3, preferably 4.
+
+Secure the army's constitutional position, preferably through Military autonomy.
+
+Protect your soldiers from operations they cannot sustain. At opening Readiness below 2, combat disables Spear.
+
+Leave Sorenne's Fall with Stability at least 2.
+
+Military autonomy lets you choose operations, but requires Vigil to stay Home. Joint authorisation gives the Guild a say over military orders. Imperial command leaves the Ascendant able to order you to stand down.
+
+The Ascendant
+
+One player · A on decision sheets. Attend Security and Government; send Navigation and Supply a written directive when you hold its authority.
+
+You need a government capable of maintaining the Dominion, and an army capable of defending it. A quiet month may help Sorenne's Fall while weakening both the Janissariat and the authority they give you.
+
+You begin with imperial command, three foresight tokens and one contracted service from the cutter Grey Petrel. Spending foresight gives you information about the crisis, but reduces your weight in the final settlement.
+
+Your objectives are to:
+
+Ratify a settlement with Beacon at least 1, Stability at least 2 and Readiness at least 2.
+
+Keep Readiness at least 3 and Spear intact where the cost is acceptable.
+
+Establish a government you can trust to govern without your constant intervention.
+
+Account for the people and institutions that paid for that settlement.
+
+You gain no special success from keeping imperial command. Use the provisional government to find out whether delegation works, then judge the final Charter on that evidence.
