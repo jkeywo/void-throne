@@ -1,0 +1,34 @@
+THE VOID THRONE — MULTIPLAYER
+
+One facilitator hosts. Five people play on their own machines.
+
+Start a game
+1. On the facilitator’s machine, open C:\AnalogueGames\void-throne and double-click Start Multiplayer.cmd. Keep the server window open.
+2. In the browser, choose Open the room. The facilitator page is http://127.0.0.1:8878/multiplayer.html.
+3. Download the player HTML from the facilitator page. Send that file and the displayed room code to each player. Do not send them the localhost address: that address only opens on the facilitator’s machine.
+4. Each player opens the HTML in a current Chrome, Edge or Firefox browser, enters the room code and their name, and requests a seat. Admit them from the facilitator page. There are two Guild seats, two Janissariat seats and the Ascendant.
+
+Playing
+Each player submits only their own sheet. They can revise it until the facilitator closes the phase. Both members must separately sign matching faction assignments. Unchecked signatures count as refusal; a missing sheet is never assumed to agree.
+The facilitator records provisional and final proposals, then players sign the exact package in the following phase. The rules engine resolves the agreed orders. Use the printed timings shown on each screen; the interface does not automatically close discussions.
+Table chat is visible to everyone. Faction and council conversations are visible to their members and the facilitator. Each player also has a private facilitator conversation. The Ascendant receives only the purchased answer, and can share it at the faction bell or discuss it in chat. Other players do not receive undisclosed answers, their direction or the purchase’s private reasoning.
+Read the rules and the separate faction brief from the buttons at the top of the player page. These are bundled in the HTML. There is text chat but no built-in voice or video; use your normal call if wanted.
+
+Reconnecting and resuming
+Leave the facilitator’s browser and server running. A player’s submitted sheets remain saved if they disconnect. Use Reconnect, or reopen the same player file in the same browser, enter the room code and name, and join again. The saved seat key restores their seat without another admission. Unsaved form entries are also retained locally for the current phase when browser storage is available.
+If they use another browser or machine, release their old seat and admit the replacement. Releasing a seat removes its unclosed sheet and old reconnect key. Earlier closed decisions remain recorded.
+Reopening the facilitator page resumes the local multiplayer save. Keep only one host tab active; opening a replacement host tab takes over. After a host-page reload, players reconnect to the same room code. Re-enter any custom connection settings after a reload.
+The dedicated launcher saves to .playtrace/multiplayer-session-8878.json. Other server ports use their own saves. Multiplayer is separate from .playtrace/browser-session.json used by the all-seat test. The Archive and start a new room button keeps the previous multiplayer save locally and gives the next session a new room code.
+
+Record the playtest
+The facilitator can download an HTML report and a JSON decision record. The report separates phases, places submitted sheets side by side, puts rules and consequences in distinct boxes, and uses tabs for parallel conversations. It includes private visions and faction conversations: it is the facilitator’s full record. The JSON export excludes reconnect credentials; the local autosave retains them for resuming. A JSON export is evidence, not an importable host backup.
+
+Connections
+The player file includes PeerJS 1.5.5. It connects through the public PeerServer service for signalling, then sends game messages over WebRTC to the facilitator’s browser. Players need internet access but do not need Python, Playtrace or access to the host’s local web server.
+Some restricted networks cannot establish a direct WebRTC connection. Use the Connection settings panel on every machine to supply a private PeerServer or a TURN relay provided by your organiser. There is no universally guaranteed relay bundled with this prototype. The same panel accepts PeerJS’s standard options object, including config.iceServers. Do not use HTTP localhost settings for remote players; those are only for local testing.
+PeerJS documentation: https://peerjs.com/client/getting-started
+Connection configuration: https://peerjs.com/client/api/peer
+
+Verification
+29 automated rules and integration checks passed. Six isolated browser contexts completed the 13-sheet replay over actual PeerJS/WebRTC connections through a local signalling server, including private chat, a concealed vision, player reconnection, exact final state, report export and narrow-screen layout. A separate smoke check connected the facilitator and all five player browsers using the default public PeerServer service.
+These checks ran on one computer with separate browser sessions. They do not establish connectivity on every remote network, or replace a human playtest.

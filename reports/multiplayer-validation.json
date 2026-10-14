@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-14",
+  "automated_checks": 29,
+  "browser_transport": "PeerJS 1.5.5 binary DataConnection with automatic chunking",
+  "local_signalling_run": {
+    "contexts": 6,
+    "actions": 13,
+    "completed": true,
+    "checks": [
+      "five separately admitted seats",
+      "private faction chat",
+      "unpublished vision hidden from other seats",
+      "unsaved form survives incoming messages",
+      "portable-file player refresh and seat resume",
+      "original replay final physical state",
+      "ratification",
+      "phased HTML export",
+      "390px viewport"
+    ]
+  },
+  "default_cloud_smoke": {
+    "contexts": 6,
+    "all_connected": true,
+    "chat_delivered": true
+  },
+  "limitations": [
+    "Browser contexts ran on one computer, not six physical machines.",
+    "No guarantee of direct connectivity through arbitrary NATs or restricted networks; custom TURN settings are available.",
+    "Automated transport checks are not human game-balance evidence."
+  ]
+}

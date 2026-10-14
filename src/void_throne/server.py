@@ -3,10 +3,12 @@ from pathlib import Path
 from urllib.parse import urlparse, unquote
 import json, mimetypes, threading, webbrowser, argparse, html
 from .session import Session, ROOT
+from .multiplayer import Multiplayer
 
 LOCK=threading.Lock()
 GAME=Session()
 SAVE=ROOT/'.playtrace/browser-session.json'
+MP=None
 
 def restore(actions):
     if not isinstance(actions,list) or len(actions)>100:raise ValueError('Expected a session action list, at most 100 entries.')
@@ -52,10 +54,13 @@ class Handler(BaseHTTPRequestHandler):
         if not self.valid_host():return self.send({'error':'Loopback host required.'},403)
         path=unquote(urlparse(self.path).path)
         with LOCK:
+            if path=='/api/mp/export':return self.send(MP.export(),filename='void-throne-multiplayer.json')
+            if path=='/api/mp/report':return self.send(MP.report(),mime='text/html; charset=utf-8',filename='void-throne-multiplayer.html')
             if path=='/api/state':return self.send(GAME.public())
             if path=='/api/export':return self.send(GAME.public(),filename='void-throne-browser-playtest.json')
             if path=='/api/report':return self.send(report(GAME),mime='text/html; charset=utf-8',filename='void-throne-browser-playtest.html')
         if path in ('/','/index.html'):file=ROOT/'web/index.html'
+        elif path in ('/multiplayer.html','/multiplayer-player.html'):file=ROOT/'web'/path[1:]
         elif path in ('/app.js','/style.css'):file=ROOT/'web'/path[1:]
         elif path.startswith(('/reports/','/docs/')):
             file=(ROOT/path[1:]).resolve()
@@ -75,6 +80,9 @@ class Handler(BaseHTTPRequestHandler):
             if self.headers.get_content_type()!='application/json':raise ValueError('JSON request required.')
             payload=json.loads(self.rfile.read(length))
             with LOCK:
+                if self.path.startswith('/api/mp/'):
+                    action=self.path.rsplit('/',1)[-1]
+                    return self.send(MP.begin_host() if action=='host' else MP.dispatch(action,payload))
                 if self.path=='/api/action':GAME.apply(payload)
                 elif self.path=='/api/new':GAME=Session()
                 elif self.path=='/api/restore':GAME=restore(payload.get('actions'))
@@ -83,15 +91,17 @@ class Handler(BaseHTTPRequestHandler):
         except (ValueError,KeyError,TypeError,AssertionError) as exc:self.send({'error':str(exc) or 'Invalid decision sheet.'},400)
 
 def main():
-    global GAME,SAVE
+    global GAME,SAVE,MP
     parser=argparse.ArgumentParser();parser.add_argument('--port',type=int,default=8877);parser.add_argument('--no-open',action='store_true');parser.add_argument('--save',type=Path)
+    parser.add_argument('--multiplayer',action='store_true');parser.add_argument('--mp-save',type=Path)
     args=parser.parse_args()
+    MP=Multiplayer(args.mp_save or ROOT/f'.playtrace/multiplayer-session-{args.port}.json')
     if args.save:SAVE=args.save
     if SAVE.exists():
         try:GAME=restore(json.loads(SAVE.read_text(encoding='utf-8')))
         except (ValueError,KeyError,TypeError):print('Saved session could not be replayed; preserved on disk until the next successful action.')
     server=ThreadingHTTPServer(('127.0.0.1',args.port),Handler)
-    url=f'http://127.0.0.1:{server.server_port}'
+    url=f'http://127.0.0.1:{server.server_port}'+('/multiplayer.html' if args.multiplayer else '')
     print('The Void Throne test bench: '+url,flush=True)
     if not args.no_open:webbrowser.open(url)
     try:server.serve_forever()

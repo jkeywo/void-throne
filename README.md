@@ -117,3 +117,9 @@ individual objectives or unanimous final ballot has been reintroduced.
 The current scenario concerns Sorenne’s Fall and the Sorenne Flag. Stability measures the system’s supplies and civil services. The internal `communities` field retains its old name for saved-session compatibility. Historical reports and transcripts preserve their original terms; the current names do not imply those runs tested the revised setting. See `lore/scenario-setting.json` for established facts and scenario additions.
 
 Player handouts are in `docs/player-briefs.html` and the native Player Briefs document listed in `design/drive-files.json`. The main rulebook keeps shared rules and council seating; faction objectives and advice are separate.
+
+## Human multiplayer
+
+Double-click `Start Multiplayer.cmd` to host five human players through PeerJS. Open the room, download `web/multiplayer-player.html`, and give each player that file and the room code. Players need only a browser and internet access. The facilitator admits each seat and closes phases; each player submits their own decisions. See `docs/multiplayer-guide.txt` for setup, privacy, reconnecting, reports and network options.
+
+The portable player HTML bundles public rules and briefs, the UI and PeerJS 1.5.5; it contains no private vision answers. `python tools/build_multiplayer.py` rebuilds both pages from their sources. Multiplayer saves are separate and scoped by server port. Existing all-seat mode remains available.
