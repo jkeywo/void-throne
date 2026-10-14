@@ -14,27 +14,25 @@ The Settled Dark
 
 Players and councils
 
-4. Setting up
+4. Sequence of play
 
-5. Sequence of play
+5. Example of play
 
-6. Example of play
+6. Assets and tracks
 
-7. Assets and tracks
+7. Navigation and Supply
 
-8. Navigation and Supply
+8. Security and Government
 
-9. Security and Government
+9. Foresight and imperial powers
 
-10. Foresight and imperial powers
+10. Provisional government
 
-11. Provisional government
+11. The Ceremony of Settlement
 
-12. The Ceremony of Settlement
+12. Rules questions
 
-13. Rules questions
-
-14. Reference
+13. Reference
 
 1. Introduction
 
@@ -92,49 +90,21 @@ The Ascendant is a single player, supported by the army and able to spend their 
 
 All three parties need to reach a settlement.
 
-Read your faction’s objectives and guidance in the separate Player Briefs.
+The Councils
 
-The councils
+Navigation and Supply has one Guild delegate and one Janissariat delegate:
 
-Navigation and Supply has one Guild delegate and one Janissariat delegate. On decision sheets they are GN and JN.
+Abbreviated GN and JN.
 
-Security and Government has the other Guild delegate, the other Janissariat delegate and the Ascendant. They are GS, JS and A.
+Security and Government has the other Guild delegate, the other Janissariat delegate and the Ascendant.
 
-The Guild's Navigation delegate bargains over passage; its Security delegate bargains over protection and military conduct. The Janissariat's Navigation delegate secures transport; its Security delegate bargains over operations and command. Both members still represent the same faction.
+Abbreviated GS, JS and A.
 
-There are no individual secret objectives. At the end, assess your faction's position against its shared objectives. The final vote determines the government; it does not award a single winner.
+4. Sequence of play
 
-4. Setting up
+Play two rounds, each representing a month. A round has five minutes of faction discussion, seven minutes of councils and six minutes of free discussion. Both councils resolve together at the end of their phase.
 
-You need five players, a facilitator and a table with space for the two councils. Allow eight minutes for the opening briefing.
-
-Place Navigation and Supply at one end and Security and Government at the other. Keep the tracks, current articles and signed decisions in a central space where everyone can read them. Factions need room to confer between council meetings.
-
-Materials
-
-One player rulebook, one facilitator guide and three shared-role briefs.
-
-Two council reference sheets and four asset cards: Wayfarer, Lantern, Spear and Vigil.
-
-Six Charter cards: three Navigation articles and three Military articles.
-
-Four vision covers and four concealed answers: Navigation and Security for each of the two rounds.
-
-Three tracks numbered 0–4, with one counter each; three foresight tokens; one reserve token for Grey Petrel.
-
-Four faction sheets and four council sheets: one for each faction and council in each round.
-
-Two Ascendant worksheets, one provisional-government proposal and signature sheet, two final-package ballot sheets, and a public record for results and contracts.
-
-Blank paper can replace a decision sheet if it records the same choices and signatures. Use the current vision and settlement rules with any older printed components.
-
-Starting position
-
-Give Wayfarer and Lantern to the Guild, and Spear and Vigil to the Janissariat. All four assets begin available. Give the Ascendant three foresight tokens and Grey Petrel's reserve token. The facilitator keeps the vision answers concealed.
-
-Set Beacon to 2, Sorenne's Fall's Stability to 3 and Readiness to 3. The Guild has completed no contracts. Write Interim in both article spaces: the Ascendant chooses both council orders, while the factions control their own assets.
-
-Choose each faction's two delegates and give out the briefs. The starting settlement weights are Guild 4, Janissariat 3 and Ascendant 6. If those values remained unchanged, nine of the total thirteen weight would be required to pass a settlement.
+After the second round, hold a ten-minute Ceremony of Settlement and a six-minute debrief. With the briefing, the session takes one hour.
 
 Decision sheets
 
@@ -142,13 +112,7 @@ The faction sheet records the round, an assignment for each asset, a request for
 
 The council sheet records the round, current article, one final order and the initials required by that article. The Ascendant records the Warrant separately, along with draft directives, the foresight choice and Grey Petrel's task.
 
-The public record shows the three tracks, available assets, completed contracts, remaining tokens, current articles and any binding commitments. Keep the draft and final sheets beside it so everyone can see what changed.
-
-5. Sequence of play
-
-Play two rounds, each representing a month. A round has five minutes of faction discussion, seven minutes of councils and six minutes of free discussion. Both councils resolve together at the end of their phase.
-
-After the second round, hold a ten-minute Ceremony of Settlement and a six-minute debrief. With the briefing, the session takes one hour.
+The public record shows the three tracks, available assets, completed contracts, remaining tokens, current articles and any binding commitments.
 
 Faction discussion — five minutes
 
@@ -186,7 +150,7 @@ Janissariat: Spear Stand down; Vigil Home.
 
 A missing or multiple selection for an individual asset uses that asset's default. Lost or disabled assets are Absent. A Standing Commitment overrides a conflicting selection or default; refusing to sign does not release it.
 
-6. Example of play
+5. Example of play
 
 The first round opens with Beacon 2, Stability 3 and Readiness 3. Both articles are Interim, so the Ascendant chooses both council orders.
 
@@ -212,7 +176,7 @@ The current weights are now Guild 4, Janissariat 2 and Ascendant 5: eleven in to
 
 The army asks for autonomy to pursue the Sorenne Flag. The Guild wants control of its next ship assignment. The Ascendant has seen the factions cooperate, but needs a stronger army. The provisional-government discussion begins from those consequences.
 
-7. Assets and tracks
+6. Assets and tracks
 
 Beacon
 
@@ -302,7 +266,7 @@ Funded Guard or a valid Warrant makes traffic guarded for the round. Either prot
 
 Each actual crossing costs one Beacon after preparation. Grey Petrel can carry Relief while Wayfarer Trades, producing two crossings. Both check the same prepared Beacon value.
 
-8. Navigation and Supply
+7. Navigation and Supply
 
 Choose one order. An offered asset is one its owner assigned to Council on the binding faction sheet. First check the assets; for a voyage, then check prepared Beacon.
 
@@ -360,7 +324,7 @@ A funded Relief, Military or Shared voyage facing prepared Beacon below 2 is hal
 
 Example: the Ascendant signs Military, but the Guild assigned Wayfarer to Trade. Military becomes Hold and costs Stability 1. The private Trade voyage is still checked normally.
 
-9. Security and Government
+8. Security and Government
 
 Choose one order. An independent Raid and an eligible Warrant may also occur, using their own requirements. No asset can be used twice.
 
@@ -410,7 +374,7 @@ Example: Spear is assigned to independent Raid, but Security authorises Campaign
 
 At the end of the round, raise Readiness by 1 if any operation achieved qualifying combat; otherwise lower it by 1. Apply this change once, keeping Readiness within 0–4. An expedition that fails to reach a fight does not qualify.
 
-10. Foresight and imperial powers
+9. Foresight and imperial powers
 
 Foresight
 
@@ -456,7 +420,7 @@ Tender cover triggers in round one when Shared is delivered unguarded and the pr
 
 Keep retains the token without intervening. A missing task also means Keep. Unspent reserve gives no settlement weight.
 
-11. Provisional government
+10. Provisional government
 
 The first round ends with a chance to try a new government. Choose who can direct each council and what duties come with that authority. The articles that pass govern round two and cannot be revoked or replaced during it.
 
@@ -520,7 +484,7 @@ An unsigned, ambiguous or unauthorised Navigation order becomes Hold. The equiva
 
 There is no penalty merely for lacking a valid order. An authorised order that lacks its assets does incur the printed failure cost. Private assignments and duties apply in either case.
 
-12. The Ceremony of Settlement
+11. The Ceremony of Settlement
 
 After round two, freeze each party's weight and begin the ten-minute Ceremony. You are voting on a complete package: one Navigation article and one Military article. They need not be the articles tried provisionally.
 
@@ -552,7 +516,7 @@ If no package passes, both provisional articles expire and both councils return 
 
 The physical result remains: lost assets stay lost, tracks stay where they finished and spent foresight does not return. Ratification settles the articles, but the people governing Sorenne's Fall will have to live with what those decisions have done.
 
-13. Rules questions
+12. Rules questions
 
 Can the Ascendant take a ship or cohort?
 
@@ -584,7 +548,7 @@ Who decides a disputed result?
 
 The facilitator checks the current articles, signed sheets and printed consequences, including concealed conditions. They cannot invent resources, a new prophecy, additional Charter options or rewards for cooperation.
 
-14. Reference
+13. Reference
 
 The clock
 

@@ -36,47 +36,43 @@
       ],
       [
         "BULLET",
-        "4. Setting up"
+        "4. Sequence of play"
       ],
       [
         "BULLET",
-        "5. Sequence of play"
+        "5. Example of play"
       ],
       [
         "BULLET",
-        "6. Example of play"
+        "6. Assets and tracks"
       ],
       [
         "BULLET",
-        "7. Assets and tracks"
+        "7. Navigation and Supply"
       ],
       [
         "BULLET",
-        "8. Navigation and Supply"
+        "8. Security and Government"
       ],
       [
         "BULLET",
-        "9. Security and Government"
+        "9. Foresight and imperial powers"
       ],
       [
         "BULLET",
-        "10. Foresight and imperial powers"
+        "10. Provisional government"
       ],
       [
         "BULLET",
-        "11. Provisional government"
+        "11. The Ceremony of Settlement"
       ],
       [
         "BULLET",
-        "12. The Ceremony of Settlement"
+        "12. Rules questions"
       ],
       [
         "BULLET",
-        "13. Rules questions"
-      ],
-      [
-        "BULLET",
-        "14. Reference"
+        "13. Reference"
       ],
       [
         "HEADING_1",
@@ -191,92 +187,36 @@
         "All three parties need to reach a settlement."
       ],
       [
-        "NORMAL_TEXT",
-        "Read your faction’s objectives and guidance in the separate Player Briefs."
-      ],
-      [
         "HEADING_2",
-        "The councils"
+        "The Councils"
       ],
       [
         "NORMAL_TEXT",
-        "Navigation and Supply has one Guild delegate and one Janissariat delegate. On decision sheets they are GN and JN."
+        "Navigation and Supply has one Guild delegate and one Janissariat delegate:"
+      ],
+      [
+        "BULLET",
+        "Abbreviated GN and JN."
       ],
       [
         "NORMAL_TEXT",
-        "Security and Government has the other Guild delegate, the other Janissariat delegate and the Ascendant. They are GS, JS and A."
+        "Security and Government has the other Guild delegate, the other Janissariat delegate and the Ascendant."
       ],
       [
-        "NORMAL_TEXT",
-        "The Guild's Navigation delegate bargains over passage; its Security delegate bargains over protection and military conduct. The Janissariat's Navigation delegate secures transport; its Security delegate bargains over operations and command. Both members still represent the same faction."
-      ],
-      [
-        "NORMAL_TEXT",
-        "There are no individual secret objectives. At the end, assess your faction's position against its shared objectives. The final vote determines the government; it does not award a single winner."
+        "BULLET",
+        "Abbreviated GS, JS and A."
       ],
       [
         "HEADING_1",
-        "4. Setting up"
+        "4. Sequence of play"
       ],
       [
         "NORMAL_TEXT",
-        "You need five players, a facilitator and a table with space for the two councils. Allow eight minutes for the opening briefing."
+        "Play two rounds, each representing a month. A round has five minutes of faction discussion, seven minutes of councils and six minutes of free discussion. Both councils resolve together at the end of their phase."
       ],
       [
         "NORMAL_TEXT",
-        "Place Navigation and Supply at one end and Security and Government at the other. Keep the tracks, current articles and signed decisions in a central space where everyone can read them. Factions need room to confer between council meetings."
-      ],
-      [
-        "HEADING_2",
-        "Materials"
-      ],
-      [
-        "BULLET",
-        "One player rulebook, one facilitator guide and three shared-role briefs."
-      ],
-      [
-        "BULLET",
-        "Two council reference sheets and four asset cards: Wayfarer, Lantern, Spear and Vigil."
-      ],
-      [
-        "BULLET",
-        "Six Charter cards: three Navigation articles and three Military articles."
-      ],
-      [
-        "BULLET",
-        "Four vision covers and four concealed answers: Navigation and Security for each of the two rounds."
-      ],
-      [
-        "BULLET",
-        "Three tracks numbered 0–4, with one counter each; three foresight tokens; one reserve token for Grey Petrel."
-      ],
-      [
-        "BULLET",
-        "Four faction sheets and four council sheets: one for each faction and council in each round."
-      ],
-      [
-        "BULLET",
-        "Two Ascendant worksheets, one provisional-government proposal and signature sheet, two final-package ballot sheets, and a public record for results and contracts."
-      ],
-      [
-        "NORMAL_TEXT",
-        "Blank paper can replace a decision sheet if it records the same choices and signatures. Use the current vision and settlement rules with any older printed components."
-      ],
-      [
-        "HEADING_2",
-        "Starting position"
-      ],
-      [
-        "NORMAL_TEXT",
-        "Give Wayfarer and Lantern to the Guild, and Spear and Vigil to the Janissariat. All four assets begin available. Give the Ascendant three foresight tokens and Grey Petrel's reserve token. The facilitator keeps the vision answers concealed."
-      ],
-      [
-        "NORMAL_TEXT",
-        "Set Beacon to 2, Sorenne's Fall's Stability to 3 and Readiness to 3. The Guild has completed no contracts. Write Interim in both article spaces: the Ascendant chooses both council orders, while the factions control their own assets."
-      ],
-      [
-        "NORMAL_TEXT",
-        "Choose each faction's two delegates and give out the briefs. The starting settlement weights are Guild 4, Janissariat 3 and Ascendant 6. If those values remained unchanged, nine of the total thirteen weight would be required to pass a settlement."
+        "After the second round, hold a ten-minute Ceremony of Settlement and a six-minute debrief. With the briefing, the session takes one hour."
       ],
       [
         "HEADING_2",
@@ -292,19 +232,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "The public record shows the three tracks, available assets, completed contracts, remaining tokens, current articles and any binding commitments. Keep the draft and final sheets beside it so everyone can see what changed."
-      ],
-      [
-        "HEADING_1",
-        "5. Sequence of play"
-      ],
-      [
-        "NORMAL_TEXT",
-        "Play two rounds, each representing a month. A round has five minutes of faction discussion, seven minutes of councils and six minutes of free discussion. Both councils resolve together at the end of their phase."
-      ],
-      [
-        "NORMAL_TEXT",
-        "After the second round, hold a ten-minute Ceremony of Settlement and a six-minute debrief. With the briefing, the session takes one hour."
+        "The public record shows the three tracks, available assets, completed contracts, remaining tokens, current articles and any binding commitments."
       ],
       [
         "HEADING_2",
@@ -380,7 +308,7 @@
       ],
       [
         "HEADING_1",
-        "6. Example of play"
+        "5. Example of play"
       ],
       [
         "NORMAL_TEXT",
@@ -432,7 +360,7 @@
       ],
       [
         "HEADING_1",
-        "7. Assets and tracks"
+        "6. Assets and tracks"
       ],
       [
         "HEADING_2",
@@ -612,7 +540,7 @@
       ],
       [
         "HEADING_1",
-        "8. Navigation and Supply"
+        "7. Navigation and Supply"
       ],
       [
         "NORMAL_TEXT",
@@ -723,12 +651,12 @@
         "A funded Relief, Military or Shared voyage facing prepared Beacon below 2 is halted. Lose Stability 1, deliver no cargo or passage, and cause no crossing wear. An unfunded order has already become Hold, so it does not also pay this halted-voyage cost."
       ],
       [
-        "EXAMPLE",
+        "NORMAL_TEXT",
         "Example: the Ascendant signs Military, but the Guild assigned Wayfarer to Trade. Military becomes Hold and costs Stability 1. The private Trade voyage is still checked normally."
       ],
       [
         "HEADING_1",
-        "9. Security and Government"
+        "8. Security and Government"
       ],
       [
         "NORMAL_TEXT",
@@ -819,7 +747,7 @@
         "A valid council Raid or Campaign without offered Spear becomes Restraint and costs Stability 1. Guard without unused offered Vigil does the same. A separately assigned independent Raid still resolves and pays its own costs."
       ],
       [
-        "EXAMPLE",
+        "NORMAL_TEXT",
         "Example: Spear is assigned to independent Raid, but Security authorises Campaign. Campaign fails because Spear was not offered to Council. The Raid still occurs. Its costs and the failed Campaign's penalty both apply."
       ],
       [
@@ -828,7 +756,7 @@
       ],
       [
         "HEADING_1",
-        "10. Foresight and imperial powers"
+        "9. Foresight and imperial powers"
       ],
       [
         "HEADING_2",
@@ -859,7 +787,7 @@
         "Use the last two faction minutes to negotiate changes to unlocked decisions. Existing Standing Commitments remain binding. Avoiding a vision's condition averts its result; it does not make the vision false."
       ],
       [
-        "EXAMPLE",
+        "NORMAL_TEXT",
         "Example: a cover concerns a voyage the Guild has proposed. Buying its answer may give the Ascendant grounds to request protection or a different assignment. If the relevant assignments are already locked, the information may be less useful than retaining the token's political weight."
       ],
       [
@@ -920,7 +848,7 @@
       ],
       [
         "HEADING_1",
-        "11. Provisional government"
+        "10. Provisional government"
       ],
       [
         "NORMAL_TEXT",
@@ -1031,7 +959,7 @@
         "The assignment is binding; the council's future order is not. An announced plan creates no extra mechanical penalty if the authorised council later chooses something else."
       ],
       [
-        "EXAMPLE",
+        "NORMAL_TEXT",
         "Example: the Guild attaches Lantern Council to a Joint military proposal. Both Guild players approve the promise; both Security delegates and the Ascendant approve the article. Lantern is now locked to Council next round, but Navigation must still decide whether to use it for Repair or Shared."
       ],
       [
@@ -1048,7 +976,7 @@
       ],
       [
         "HEADING_1",
-        "12. The Ceremony of Settlement"
+        "11. The Ceremony of Settlement"
       ],
       [
         "NORMAL_TEXT",
@@ -1087,7 +1015,7 @@
         "Add all available weight, including parties that refuse or abstain. The package needs at least two-thirds of that total, rounded up, and signatures from at least two parties with positive weight. A total weight of zero cannot ratify a settlement."
       ],
       [
-        "EXAMPLE",
+        "NORMAL_TEXT",
         "Example: Guild 4, Janissariat 3 and Ascendant 4 give eleven in total. Two-thirds rounds up to eight. Guild and Ascendant can pass a package with eight; Guild and Janissariat have only seven. If the Guild players split, their faction contributes no support, but its four stays in the total."
       ],
       [
@@ -1112,7 +1040,7 @@
       ],
       [
         "HEADING_1",
-        "13. Rules questions"
+        "12. Rules questions"
       ],
       [
         "HEADING_2",
@@ -1176,7 +1104,7 @@
       ],
       [
         "HEADING_1",
-        "14. Reference"
+        "13. Reference"
       ],
       [
         "HEADING_2",
@@ -1324,20 +1252,96 @@
         "Setup and opening brief"
       ],
       [
-        "NORMAL_TEXT",
-        "Seat GN and JN at Navigation and Supply; GS, JS and A at Security and Government. Give both members of each faction their shared brief and assets. Keep the four private vision answers behind your screen; put both current-round covers face up only at the purchase window."
+        "HEADING_2",
+        "Materials"
+      ],
+      [
+        "BULLET",
+        "One player rulebook, one facilitator guide and three shared-role briefs."
+      ],
+      [
+        "BULLET",
+        "Two council reference sheets and four asset cards: Wayfarer, Lantern, Spear and Vigil."
+      ],
+      [
+        "BULLET",
+        "Six Charter cards: three Navigation articles and three Military articles."
+      ],
+      [
+        "BULLET",
+        "Four vision covers and four concealed answers: Navigation and Security for each of the two rounds."
+      ],
+      [
+        "BULLET",
+        "Three tracks numbered 0–4, with one counter each; three foresight tokens; one reserve token for Grey Petrel."
+      ],
+      [
+        "BULLET",
+        "Four faction sheets and four council sheets: one for each faction and council in each round."
+      ],
+      [
+        "BULLET",
+        "Two Ascendant worksheets, one provisional-government proposal and signature sheet, two final-package ballot sheets, and a public record for results and contracts."
       ],
       [
         "NORMAL_TEXT",
-        "Start Beacon 2, Stability 3, Readiness 3, all faction assets intact, contracts 0, reserve available and foresight 3. Record Interim in both domains. Give the Ascendant Grey Petrel’s one reserve marker. Publish starting leverage: Guild 4, Janissariat 3, Ascendant 6; total 13, threshold 9."
+        "Blank paper can replace a decision sheet if it records the same choices and signatures. Use the current vision and settlement rules with any older printed components."
+      ],
+      [
+        "HEADING_2",
+        "Arrange the table"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Place Navigation and Supply at one end and Security and Government at the other. Keep the tracks, current articles and signed decisions in a central space where everyone can read them. Factions need room to confer between council meetings."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Seat GN and JN at Navigation and Supply; GS, JS and A at Security and Government. Give both members of each faction their shared brief. Keep the four private vision answers behind your screen; put both current-round covers face up only at the purchase window."
+      ],
+      [
+        "HEADING_2",
+        "Starting position"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Give Wayfarer and Lantern to the Guild, and Spear and Vigil to the Janissariat. All four assets begin available. Give the Ascendant three foresight tokens and Grey Petrel's reserve token. The facilitator keeps the vision answers concealed."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Set Beacon to 2, Sorenne's Fall's Stability to 3 and Readiness to 3. The Guild has completed no contracts. Write Interim in both article spaces: the Ascendant chooses both council orders, while the factions control their own assets."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The starting settlement weights are Guild 4, Janissariat 3 and Ascendant 6. If those values remained unchanged, nine of the total thirteen weight would be required to pass a settlement."
+      ],
+      [
+        "HEADING_2",
+        "Prepare the decision sheets"
+      ],
+      [
+        "NORMAL_TEXT",
+        "The faction sheet records the round, an assignment for each asset, a request for each council and both teammates' signatures. Requests tell the delegates what to seek; the council still chooses its order."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The council sheet records the round, current article, one final order and the initials required by that article. The Ascendant records the Warrant separately, along with draft directives, the foresight choice and Grey Petrel's task."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The public record shows the three tracks, available assets, completed contracts, remaining tokens, current articles and any binding commitments. Keep the draft and final sheets beside it so everyone can see what changed."
+      ],
+      [
+        "HEADING_2",
+        "Opening brief"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Allow eight minutes for the briefing. Explain the factions, the two councils and the crisis before taking the players through a round."
       ],
       [
         "NORMAL_TEXT",
         "The crisis concerns Sorenne's Fall, the southern star system of forty million people described in the lore, and the Sorenne Flag, House Sorenne's surviving fleet. Stability measures the system's supplies and functioning services, not its loyalty. The Flag also makes irregular supply deliveries there; military disruption can therefore harm the people the Dominion is trying to govern. For this scenario, their supply route uses the Narrow, Spear seeks passage to a Flag anchorage beyond it, and a Flag patrol supplies the local Raid target. Those deployments are scenario additions. Players remain at the Seam; each round represents one month."
-      ],
-      [
-        "NORMAL_TEXT",
-        "Print the public rulebook, three shared-role briefs, two council sheets, six Charter cards, four vision covers and four folded answers, asset cards, faction/council decision slips, trial proposal/vote slips and final ballots. Earlier printable packs can supply unchanged asset and council cards, but use the current foresight and weighted settlement sheets. The repository retains these packs with version labels."
       ],
       [
         "HEADING_1",
@@ -1534,10 +1538,6 @@
       [
         "NORMAL_TEXT",
         "The migrated six-agent run found a useful first purchase and a mostly confirmatory second purchase. It did not show deliberate saving or human timing. Do not guide the next Ascendant to repeat that result. Preserve choices before interpreting them."
-      ],
-      [
-        "NORMAL_TEXT",
-        ""
       ]
     ]
   },

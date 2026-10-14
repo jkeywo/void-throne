@@ -4,7 +4,7 @@
   "native_document": {
     "id": "1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSxaJrW1s",
     "url": "https://docs.google.com/document/d/1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSxaJrW1s/edit?usp=drivesdk",
-    "revision": "AHj4eMT1y_xZ5kShG4I-a8vQqydQ79pTFQRxzFpPv1dwOt6HxgHwS4A4rCQ9Ahr6BfPD-jerA5G4gEEWWJ700uCRj97YvLWoyayZOCHi8vw"
+    "revision": "AHj4eMRIv0yDbzq_dPXH4lEhjNnavMsS-ge3UQKC3zFZHxUJ2rQArMwgtWgGdhMQ3pq6OWEc1YgFtlShaieaRMpkRvRZu2qph67gYHPPg44"
   },
   "writing_guide": {
     "path": "C:/AnalogueGames/analogue-projects/DSL/guides/writing_good_rulebooks.md",
@@ -29,204 +29,204 @@
       "mechanism": "five_seats_and_two_councils",
       "sections": [
         "3. Players and councils",
-        "4. Setting up"
+        "Facilitator guide — Setup and opening brief"
       ]
     },
     {
       "mechanism": "components_and_starting_state",
       "sections": [
-        "4. Setting up"
+        "Facilitator guide — Setup and opening brief"
       ]
     },
     {
       "mechanism": "drafts_signatures_and_defaults",
       "sections": [
-        "4. Setting up",
-        "5. Sequence of play"
+        "Facilitator guide — Setup and opening brief",
+        "4. Sequence of play"
       ]
     },
     {
       "mechanism": "timing_and_deadlines",
       "sections": [
-        "5. Sequence of play",
-        "14. Reference"
+        "4. Sequence of play",
+        "13. Reference"
       ]
     },
     {
       "mechanism": "worked_round",
       "sections": [
-        "6. Example of play"
+        "5. Example of play"
       ]
     },
     {
       "mechanism": "asset_ownership_and_availability",
       "sections": [
-        "4. Setting up",
-        "7. Assets and tracks"
+        "Facilitator guide — Setup and opening brief",
+        "6. Assets and tracks"
       ]
     },
     {
       "mechanism": "wayfarer_trade",
       "sections": [
-        "7. Assets and tracks",
-        "14. Reference"
+        "6. Assets and tracks",
+        "13. Reference"
       ]
     },
     {
       "mechanism": "lantern_maintain",
       "sections": [
-        "7. Assets and tracks",
-        "14. Reference"
+        "6. Assets and tracks",
+        "13. Reference"
       ]
     },
     {
       "mechanism": "spear_independent_raid",
       "sections": [
-        "7. Assets and tracks",
-        "9. Security and Government",
-        "13. Rules questions"
+        "6. Assets and tracks",
+        "8. Security and Government",
+        "12. Rules questions"
       ]
     },
     {
       "mechanism": "vigil_home",
       "sections": [
-        "7. Assets and tracks",
-        "11. Provisional government"
+        "6. Assets and tracks",
+        "10. Provisional government"
       ]
     },
     {
       "mechanism": "prepared_beacon_and_wear",
       "sections": [
-        "7. Assets and tracks",
-        "13. Rules questions",
-        "14. Reference"
+        "6. Assets and tracks",
+        "12. Rules questions",
+        "13. Reference"
       ]
     },
     {
       "mechanism": "relief_military_shared_repair_hold",
       "sections": [
-        "8. Navigation and Supply",
-        "14. Reference"
+        "7. Navigation and Supply",
+        "13. Reference"
       ]
     },
     {
       "mechanism": "navigation_funding_and_route_failures",
       "sections": [
-        "8. Navigation and Supply"
+        "7. Navigation and Supply"
       ]
     },
     {
       "mechanism": "campaign_raid_guard_restraint",
       "sections": [
-        "9. Security and Government",
-        "14. Reference"
+        "8. Security and Government",
+        "13. Reference"
       ]
     },
     {
       "mechanism": "security_funding_and_conflicting_uses",
       "sections": [
-        "9. Security and Government",
-        "10. Foresight and imperial powers"
+        "8. Security and Government",
+        "9. Foresight and imperial powers"
       ]
     },
     {
       "mechanism": "combat_and_readiness",
       "sections": [
-        "9. Security and Government",
-        "13. Rules questions",
-        "14. Reference"
+        "8. Security and Government",
+        "12. Rules questions",
+        "13. Reference"
       ]
     },
     {
       "mechanism": "foresight_window_information_and_cost",
       "sections": [
-        "5. Sequence of play",
-        "10. Foresight and imperial powers"
+        "4. Sequence of play",
+        "9. Foresight and imperial powers"
       ]
     },
     {
       "mechanism": "imperial_warrant",
       "sections": [
-        "10. Foresight and imperial powers",
-        "14. Reference"
+        "9. Foresight and imperial powers",
+        "13. Reference"
       ]
     },
     {
       "mechanism": "reserve_relief_tender_keep",
       "sections": [
-        "10. Foresight and imperial powers"
+        "9. Foresight and imperial powers"
       ]
     },
     {
       "mechanism": "interim_and_six_articles",
       "sections": [
-        "11. Provisional government"
+        "10. Provisional government"
       ]
     },
     {
       "mechanism": "authority_vs_duty_vs_ownership",
       "sections": [
-        "4. Setting up",
-        "11. Provisional government",
-        "13. Rules questions"
+        "Facilitator guide — Setup and opening brief",
+        "10. Provisional government",
+        "12. Rules questions"
       ]
     },
     {
       "mechanism": "article_breaches",
       "sections": [
-        "11. Provisional government"
+        "10. Provisional government"
       ]
     },
     {
       "mechanism": "provisional_assent_and_independent_domains",
       "sections": [
-        "11. Provisional government"
+        "10. Provisional government"
       ]
     },
     {
       "mechanism": "standing_commitments",
       "sections": [
-        "11. Provisional government"
+        "10. Provisional government"
       ]
     },
     {
       "mechanism": "invalid_unsigned_and_conflicting_orders",
       "sections": [
-        "11. Provisional government"
+        "10. Provisional government"
       ]
     },
     {
       "mechanism": "settlement_weights_and_party_signatures",
       "sections": [
-        "12. The Ceremony of Settlement"
+        "11. The Ceremony of Settlement"
       ]
     },
     {
       "mechanism": "ballots_threshold_and_failed_ratification",
       "sections": [
-        "12. The Ceremony of Settlement"
+        "11. The Ceremony of Settlement"
       ]
     },
     {
       "mechanism": "monthly_consumption_and_clamping",
       "sections": [
-        "6. Example of play",
-        "13. Rules questions",
-        "14. Reference"
+        "5. Example of play",
+        "12. Rules questions",
+        "13. Reference"
       ]
     },
     {
       "mechanism": "conditional_hidden_effects_boundary",
       "sections": [
-        "9. Security and Government",
-        "10. Foresight and imperial powers",
-        "13. Rules questions"
+        "8. Security and Government",
+        "9. Foresight and imperial powers",
+        "12. Rules questions"
       ]
     },
     {
       "mechanism": "debrief_and_deliberate_saving",
       "sections": [
-        "14. Reference"
+        "13. Reference"
       ]
     }
   ],
@@ -242,7 +242,8 @@
     "shared_document_import": "4 focused checks passed; repeated derived paragraphs retain distinct IDs",
     "current_browser_labels": "verified read-only; no player actions submitted",
     "exported_report_labels": "recorded actions resolved; current state and effect labels verified; historical player remarks preserved",
-    "brief_separation": "Native text verified: exact faction prose moved; latest user edits outside scope preserved; contents link still targets section 3."
+    "brief_separation": "Native text verified: exact faction prose moved; latest user edits outside scope preserved; contents link still targets section 3.",
+    "setup_separation": "Materials, layout and starting allocations moved to the facilitator guide; player decision-sheet guidance retained under sequence of play. Current native edits preserved and read back."
   },
   "limitations": "The map records editorial coverage, not proof of comprehension or a new playtest. Prior Playtrace evidence retains the source revisions used for that run.",
   "playtrace_dependency_revision": "ae44cc3b7f31d690a6b2b558e9034a9dd0ef63dd",

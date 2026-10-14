@@ -8,13 +8,51 @@ Run the two-month crisis and make the consequences legible. Players decide what 
 
 Setup and opening brief
 
-Seat GN and JN at Navigation and Supply; GS, JS and A at Security and Government. Give both members of each faction their shared brief and assets. Keep the four private vision answers behind your screen; put both current-round covers face up only at the purchase window.
+Materials
 
-Start Beacon 2, Stability 3, Readiness 3, all faction assets intact, contracts 0, reserve available and foresight 3. Record Interim in both domains. Give the Ascendant Grey Petrel’s one reserve marker. Publish starting leverage: Guild 4, Janissariat 3, Ascendant 6; total 13, threshold 9.
+One player rulebook, one facilitator guide and three shared-role briefs.
+
+Two council reference sheets and four asset cards: Wayfarer, Lantern, Spear and Vigil.
+
+Six Charter cards: three Navigation articles and three Military articles.
+
+Four vision covers and four concealed answers: Navigation and Security for each of the two rounds.
+
+Three tracks numbered 0–4, with one counter each; three foresight tokens; one reserve token for Grey Petrel.
+
+Four faction sheets and four council sheets: one for each faction and council in each round.
+
+Two Ascendant worksheets, one provisional-government proposal and signature sheet, two final-package ballot sheets, and a public record for results and contracts.
+
+Blank paper can replace a decision sheet if it records the same choices and signatures. Use the current vision and settlement rules with any older printed components.
+
+Arrange the table
+
+Place Navigation and Supply at one end and Security and Government at the other. Keep the tracks, current articles and signed decisions in a central space where everyone can read them. Factions need room to confer between council meetings.
+
+Seat GN and JN at Navigation and Supply; GS, JS and A at Security and Government. Give both members of each faction their shared brief. Keep the four private vision answers behind your screen; put both current-round covers face up only at the purchase window.
+
+Starting position
+
+Give Wayfarer and Lantern to the Guild, and Spear and Vigil to the Janissariat. All four assets begin available. Give the Ascendant three foresight tokens and Grey Petrel's reserve token. The facilitator keeps the vision answers concealed.
+
+Set Beacon to 2, Sorenne's Fall's Stability to 3 and Readiness to 3. The Guild has completed no contracts. Write Interim in both article spaces: the Ascendant chooses both council orders, while the factions control their own assets.
+
+The starting settlement weights are Guild 4, Janissariat 3 and Ascendant 6. If those values remained unchanged, nine of the total thirteen weight would be required to pass a settlement.
+
+Prepare the decision sheets
+
+The faction sheet records the round, an assignment for each asset, a request for each council and both teammates' signatures. Requests tell the delegates what to seek; the council still chooses its order.
+
+The council sheet records the round, current article, one final order and the initials required by that article. The Ascendant records the Warrant separately, along with draft directives, the foresight choice and Grey Petrel's task.
+
+The public record shows the three tracks, available assets, completed contracts, remaining tokens, current articles and any binding commitments. Keep the draft and final sheets beside it so everyone can see what changed.
+
+Opening brief
+
+Allow eight minutes for the briefing. Explain the factions, the two councils and the crisis before taking the players through a round.
 
 The crisis concerns Sorenne's Fall, the southern star system of forty million people described in the lore, and the Sorenne Flag, House Sorenne's surviving fleet. Stability measures the system's supplies and functioning services, not its loyalty. The Flag also makes irregular supply deliveries there; military disruption can therefore harm the people the Dominion is trying to govern. For this scenario, their supply route uses the Narrow, Spear seeks passage to a Flag anchorage beyond it, and a Flag patrol supplies the local Raid target. Those deployments are scenario additions. Players remain at the Seam; each round represents one month.
-
-Print the public rulebook, three shared-role briefs, two council sheets, six Charter cards, four vision covers and four folded answers, asset cards, faction/council decision slips, trial proposal/vote slips and final ballots. Earlier printable packs can supply unchanged asset and council cards, but use the current foresight and weighted settlement sheets. The repository retains these packs with version labels.
 
 Run the clock
 
