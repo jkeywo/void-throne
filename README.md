@@ -127,7 +127,7 @@ The portable player HTML bundles public rules and briefs, the UI and PeerJS 1.5.
 
 ## GitHub and player-site hosting
 
-The full project is kept in the private repository https://github.com/jkeywo/void-throne. It includes facilitator-only material and historical records. Keep that repository private.
+The full project is public at https://github.com/jkeywo/void-throne. It includes facilitator material, lore and historical records; players wishing to avoid spoilers should use the player site.
 
 `python tools/build_pages.py` rebuilds the portable player interface and stages only `index.html` and `.nojekyll` in `build/pages/`. Upload only this directory to a static host. Never publish the repository root, `docs/`, `archive/`, or a saved game as a Pages site.
 
@@ -135,4 +135,4 @@ The hosted page is for players. The facilitator still starts `Start Multiplayer.
 
 GitHub Actions checks the game rules, multiplayer authority and public build on pushes and pull requests. Playtrace integration and the six-browser connection test remain local checks because their dependencies are maintained separately.
 
-The manual **Publish player page** workflow can deploy from this repository if Pages is enabled with GitHub Actions as its source and the account plan supports private repositories. The account currently reports that this repository is ineligible. A separate public repository containing only the built player site is an alternative; changing the full project's visibility would also expose its facilitator material and is not needed.
+Players join at https://jkeywo.github.io/void-throne/ using the room code supplied by their facilitator. The **Publish player page** workflow checks the game and multiplayer rules, then publishes on pushes to `main`; it can also be run manually. Pages uses GitHub Actions as its publishing source. Only the staged player page is deployed, although the full source repository is public.
