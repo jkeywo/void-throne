@@ -123,3 +123,16 @@ Player handouts are in `docs/player-briefs.html` and the native Player Briefs do
 Double-click `Start Multiplayer.cmd` to host five human players through PeerJS. Open the room, download `web/multiplayer-player.html`, and give each player that file and the room code. Players need only a browser and internet access. The facilitator admits each seat and closes phases; each player submits their own decisions. See `docs/multiplayer-guide.txt` for setup, privacy, reconnecting, reports and network options.
 
 The portable player HTML bundles public rules and briefs, the UI and PeerJS 1.5.5; it contains no private vision answers. `python tools/build_multiplayer.py` rebuilds both pages from their sources. Multiplayer saves are separate and scoped by server port. Existing all-seat mode remains available.
+
+
+## GitHub and player-site hosting
+
+The full project is kept in the private repository https://github.com/jkeywo/void-throne. It includes facilitator-only material and historical records. Keep that repository private.
+
+`python tools/build_pages.py` rebuilds the portable player interface and stages only `index.html` and `.nojekyll` in `build/pages/`. Upload only this directory to a static host. Never publish the repository root, `docs/`, `archive/`, or a saved game as a Pages site.
+
+The hosted page is for players. The facilitator still starts `Start Multiplayer.cmd` locally, opens a room, and shares its room code. GitHub Pages does not run the Python rules server. The facilitator's browser must stay open throughout play.
+
+GitHub Actions checks the game rules, multiplayer authority and public build on pushes and pull requests. Playtrace integration and the six-browser connection test remain local checks because their dependencies are maintained separately.
+
+The manual **Publish player page** workflow can deploy from this repository if Pages is enabled with GitHub Actions as its source and the account plan supports private repositories. The account currently reports that this repository is ineligible. A separate public repository containing only the built player site is an alternative; changing the full project's visibility would also expose its facilitator material and is not needed.
