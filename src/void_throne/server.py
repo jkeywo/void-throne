@@ -2,8 +2,10 @@ from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import urlparse, unquote
 import json, mimetypes, threading, webbrowser, argparse, html
-from .session import Session, ROOT
+from .session import ROOT
+from .current_session import Session, from_actions
 from .multiplayer import Multiplayer
+from .orders_v04 import LABELS
 
 LOCK=threading.Lock()
 GAME=Session()
@@ -12,9 +14,7 @@ MP=None
 
 def restore(actions):
     if not isinstance(actions,list) or len(actions)>100:raise ValueError('Expected a session action list, at most 100 entries.')
-    game=Session()
-    for action in actions:game.apply(action)
-    return game
+    return from_actions(actions)
 
 def save():
     SAVE.parent.mkdir(parents=True,exist_ok=True)
@@ -27,7 +27,7 @@ def report(game):
         if isinstance(value,bool):return 'Yes' if value else 'No'
         if isinstance(value,list):return '<ul>'+''.join('<li>'+value_view(v)+'</li>' for v in value)+'</ul>' if value else 'None'
         if isinstance(value,dict):return '<dl>'+''.join('<dt><b>'+escape('Sorenne’s Fall · Stability' if k == 'communities' else str(k).replace('_',' ').capitalize())+'</b></dt><dd>'+value_view(v)+'</dd>' for k,v in value.items())+'</dl>'
-        return escape(str(value))
+        return escape(str(LABELS.get(value,value)))
     out=['<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>The Void Throne — browser playtest</title>',
          '<style>body{font:17px/1.6 system-ui;max-width:1100px;margin:auto;padding:30px;background:#f4f0e6;color:#192f38}h1,h2{font-family:Georgia}section{margin:2em 0}pre{white-space:pre-wrap;overflow-wrap:anywhere}.mechanics{background:#e6eff0;padding:22px;border-left:4px solid #5c8b8e}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}@media print{details{display:block}}</style>',
          '<h1>The Void Throne</h1><h2>Browser playtest record</h2><p>One tester controlled every seat. This is a mechanical test and authored decision record, not a six-agent or human-group playtest.</p>']

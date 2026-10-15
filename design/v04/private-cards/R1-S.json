@@ -1,0 +1,20 @@
+{
+  "id": "R1-S",
+  "title": "The merchant’s wake",
+  "branches": [
+    {
+      "condition": "Wayfarer completes its commercial contract and Spear intercepts a patrol",
+      "consequence": "The interception finds its target. At opening Readiness 2+, it achieves combat at total Stability −2. At Readiness 0–1, disable Spear: Stability −1 and no qualifying combat."
+    },
+    {
+      "condition": "No commercial contract completes and Spear intercepts a patrol",
+      "consequence": "The interception costs Stability −1, but there is no combat and Spear remains intact. Neither council transport substitutes for a completed private contract."
+    },
+    {
+      "condition": "Spear does not intercept a patrol",
+      "consequence": "No interception effects. Resolve any attack on the anchorage separately."
+    }
+  ],
+  "ruleset": "vt:rules:asset-orders-v0.4",
+  "public_rules": "A commercial assignment is not enough: the contract must complete. With no qualifying combat, Readiness falls by 1 once. Consumption and duty breaches are additional."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "R1-S",
+  "title": "The merchant’s wake",
+  "branches": [
+    {
+      "condition": "Wayfarer completes its commercial contract and Spear intercepts a patrol",
+      "consequence": "The expedition finds the Sorenne patrol. A capable force fights and sustains its conditioning, at a further cost to civilian life. A force too weakened to fight is disabled instead."
+    },
+    {
+      "condition": "No commercial contract completes and Spear intercepts a patrol",
+      "consequence": "The patrol is not found. The expedition disrupts civilian traffic without sustaining the cohort through combat. Council cargo does not substitute for the commercial voyage."
+    },
+    {
+      "condition": "Spear does not intercept a patrol",
+      "consequence": "These interception consequences do not occur. An attack on the anchorage and other operations have their own consequences."
+    }
+  ],
+  "ruleset": "vt:rules:asset-orders-v0.4",
+  "guidance": "The Guild can change its vessel assignment before the faction bell. Security can choose an attack instead of an interception if Spear was offered and troop transport is available."
+}

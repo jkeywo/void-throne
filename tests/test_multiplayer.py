@@ -23,7 +23,7 @@ def row_for(action,r):
 
 class MultiplayerTests(unittest.TestCase):
     def setUp(self):
-        self.m=Multiplayer();self.m.begin_host();self.tokens={}
+        self.m=Multiplayer(legacy=True);self.m.begin_host();self.tokens={}
         for r in ROLES:
             self.m.receive(r,dict(type='hello',name=r,role=r))
             response=self.m.approve(r,r);self.tokens[r]=response['direct'][r]['token']

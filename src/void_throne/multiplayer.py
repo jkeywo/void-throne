@@ -10,7 +10,9 @@ import html
 import json
 import secrets
 from .presentation import player_vision, public_resolution
-from .session import Session, ROLES, ASSETS, NAV, SEC, ARTICLES, choice, boolean, ROOT
+from .session import Session as LegacySession, ROLES, ASSETS, NAV, SEC, ARTICLES, choice, boolean, ROOT
+from .current_session import Session, from_actions, RULESET
+from .orders_v04 import orders, AUTH, veto_rights, LABELS, NAV as CURRENT_NAV, SEC as CURRENT_SEC
 
 CHANNELS = {'table': ROLES, 'guild': ('GN','GS'), 'army': ('JN','JS'),
             'navigation': ('GN','JN'), 'security': ('GS','JS','A'),
@@ -25,14 +27,14 @@ def short(value, maximum=2000):
 def moment():return datetime.now(timezone.utc).isoformat()
 
 class Multiplayer:
-    def __init__(self, path=None):
+    def __init__(self, path=None, legacy=False):
         self.path=Path(path) if path else None
-        self.game=Session();self.room='void-'+secrets.token_hex(6)
+        self.game=LegacySession() if legacy else Session();self.room='void-'+secrets.token_hex(6)
         self.seats={};self.sheets={};self.chats=[];self.audit=[];self.revision=0
         self.live={};self.pending={};self.host_key=None;self.seen=[]
         if self.path and self.path.exists():
             saved=json.loads(self.path.read_text(encoding='utf8'))
-            for action in saved['actions']:self.game.apply(action)
+            self.game=from_actions(saved['actions'])
             for key in ('room','seats','sheets','chats','audit','revision','seen'):
                 setattr(self,key,saved.get(key,getattr(self,key)))
 
@@ -48,7 +50,7 @@ class Multiplayer:
             temp.replace(self.path)
 
     def backup(self):
-        return dict(version=1,actions=self.game.actions,**{k:deepcopy(getattr(self,k)) for k in
+        return dict(version=1,ruleset=self.game.public()['ruleset'],actions=self.game.actions,**{k:deepcopy(getattr(self,k)) for k in
                     ('room','seats','sheets','chats','audit','revision','seen')})
 
     def export(self):
@@ -68,6 +70,7 @@ class Multiplayer:
 
     def required(self):
         if self.game.stage in ('draft','vision'):return ['A']
+        if self.game.stage=='veto':return sorted({r for people in veto_rights(self.game.articles,self.game.assignments,self.game.reserve).values() for r in people})
         if self.game.stage in ('trial-proposal','ceremony-proposal','ended'):return []
         return list(ROLES)
 
@@ -120,7 +123,7 @@ class Multiplayer:
              'drafts','assignments','reserve','disclosed','trial','package','ballots','settlement')}
         public=g.public()
         out.update(role=role,epoch=self.epoch,revision=self.revision,seats=self.status(),
-                   covers=public['covers'],track_descriptions=public['track_descriptions'],leverage=public['leverage'],history=self.history(role),
+                   covers=public['covers'],ruleset=public['ruleset'],vetoes=public.get('vetoes',{}),veto_authority=public.get('veto_authority',{}),order_labels=public.get('order_labels',{}),track_descriptions=public['track_descriptions'],leverage=public['leverage'],history=self.history(role),
                    selected_vision=player_vision(g.vision) if role=='A' or g.disclosed else None,
                    own_sheet=deepcopy(self.sheets.get(role)),channels=self.channels(role),
                    chat=self.visible_chat(role),
@@ -131,7 +134,7 @@ class Multiplayer:
             ('GN','JN','A') if role in ('GN','JN') else ('GS','JS','A') if role in ('GS','JS') else ROLES)
         if g.stage=='council':visible=('GN','JN') if role in ('GN','JN') else ('GS','JS','A')
         if g.stage=='vision':visible=('A',) if role=='A' else ()
-        if g.stage in ('trial-vote','ceremony-vote'):visible=(role,)
+        if g.stage in ('trial-vote','ceremony-vote','veto'):visible=(role,)
         out['working_sheets']={r:deepcopy(s) for r,s in self.sheets.items() if r in visible}
         # The Ascendant's commit sheet can contain private reasoning and disclosure intent.
         if role!='A':out['working_sheets'].pop('A',None) if g.stage=='commit' else None
@@ -206,14 +209,21 @@ class Multiplayer:
         if stage in ('draft','vision'):result['choice']=choice(row.get('choice'),['None','Navigation','Security'])
         elif stage=='commit':
             if role=='A':
-                result['reserve']=choice(row.get('reserve'),['Keep','Relief lift','Tender cover'])
+                result['reserve']=choice(row.get('reserve'),['Keep','Council','Tender cover'] if isinstance(self.game,Session) else ['Keep','Relief lift','Tender cover'])
                 result['disclose']=boolean(row.get('disclose',False))
             else:
                 for a,opts in ASSETS[role].items():result[a]=choice(row.get(a),opts)
         elif stage=='council':
-            if role in ('GN','JN','A'):result['navigation']=choice(row.get('navigation'),NAV+['No agreement','Unsigned'])
-            if role in ('GS','JS','A'):result['security']=choice(row.get('security'),SEC+['No agreement','Unsigned'])
+            if isinstance(self.game,Session):
+                if role=='GN':result['navigation']=orders(row.get('navigation',[]),'navigation')
+                if role=='JS':result['security']=orders(row.get('security',[]),'military')
+            else:
+                if role in ('GN','JN','A'):result['navigation']=choice(row.get('navigation'),NAV+['No agreement','Unsigned'])
+                if role in ('GS','JS','A'):result['security']=choice(row.get('security'),SEC+['No agreement','Unsigned'])
             if role=='A':result['warrant']=boolean(row.get('warrant',False))
+        elif stage=='veto':
+            for d,options in [('navigation',CURRENT_NAV),('military',CURRENT_SEC)]:
+                if role in veto_rights(self.game.articles,self.game.assignments,self.game.reserve)[d]:result[d]=choice(row.get(d,'None'),['None']+options)
         elif stage=='trial-vote':
             for d in ('navigation','military'):
                 if role=='A' or role in ({'navigation':('GN','JN'),'military':('GS','JS')}[d]):
@@ -242,9 +252,15 @@ class Multiplayer:
             p.update(assignments={r:{a:s.get(r,{}).get(a) for a in ASSETS[r]} for r in ROLES if r!='A' and r in s},
                      reserve=s.get('A',{}).get('reserve','Keep'),disclose=s.get('A',{}).get('disclose',False))
         elif stage=='council':
-            p.update(navigation={r:s.get(r,{}).get('navigation','No agreement') for r in ('GN','JN','A')},
-                     security={r:s.get(r,{}).get('security','No agreement') for r in ('GS','JS','A')},
-                     warrant=s.get('A',{}).get('warrant',False))
+            if isinstance(self.game,Session):
+                p.update(navigation={'GN':s.get('GN',{}).get('navigation',[])},
+                         security={'JS':s.get('JS',{}).get('security',[])},warrant=s.get('A',{}).get('warrant',False))
+            else:
+                p.update(navigation={r:s.get(r,{}).get('navigation','No agreement') for r in ('GN','JN','A')},
+                         security={r:s.get(r,{}).get('security','No agreement') for r in ('GS','JS','A')},
+                         warrant=s.get('A',{}).get('warrant',False))
+        elif stage=='veto':
+            for d,people in veto_rights(self.game.articles,self.game.assignments,self.game.reserve).items():p[d]={r:s.get(r,{}).get(d,'None') for r in people}
         elif stage=='trial-vote':
             p['votes']={r:dict(navigation=s.get(r,{}).get('navigation',False),military=s.get(r,{}).get('military',False),
                 Guild=r.startswith('G') and s.get(r,{}).get('pledge',False),Janissariat=r.startswith('J') and s.get(r,{}).get('pledge',False)) for r in ROLES}
@@ -280,7 +296,7 @@ class Multiplayer:
         def value(v):
             if isinstance(v,dict):return '<dl>'+''.join('<dt>'+esc('Stability · Sorenne’s Fall' if k=='communities' else str(k).replace('_',' '))+'</dt><dd>'+value(x)+'</dd>' for k,x in v.items())+'</dl>'
             if isinstance(v,list):return '<ul>'+''.join('<li>'+value(x)+'</li>' for x in v)+'</ul>'
-            return esc(str(v))
+            return esc(str(LABELS.get(v,v)))
         blocks=[]
         phase_number=0
         for phase in self.audit:

@@ -57,7 +57,7 @@ class FactionForesightTests(unittest.TestCase):
         for r in ('GN','JN'):
             self.assertNotIn('Local message from A',json.dumps(m.view(r)))
         for r in ROLES:
-            row={'navigation':'Military','note':'Navigation negotiating position'} if r in ('GN','JN') else {'security':'Restraint','note':'Security negotiating position'}
+            row={'navigation':[{'order':'Military','asset':'Wayfarer'}],'note':'Navigation negotiating position'} if r in ('GN','JN') else {'security':[],'note':'Security negotiating position'}
             if r=='A':row.update(navigation='Relief',warrant=False)
             m.receive(r,dict(type='sheet',id='council-'+r,epoch=m.epoch,sheet=row))
         for r in ('GN','JN'):
@@ -66,10 +66,10 @@ class FactionForesightTests(unittest.TestCase):
         for r in ('GS','JS','A'):
             self.assertEqual(set(m.view(r)['working_sheets']),{'GS','JS','A'})
             self.assertNotIn('Navigation negotiating position',json.dumps(m.view(r)))
-        # Imperial Navigation authority still works without a visit or shared live sheet.
+        # GN records the Navigation allocation without a visit or shared live sheet.
         m.advance(m.epoch)
         result=next(e for e in m.game.history if e['event']=='Operational resolution')
-        self.assertEqual(result['detail']['nav'],'Relief')
+        self.assertEqual(result['detail']['delivered_orders'],['Military'])
         m.add_chat('GN','table','Free discussion is now open')
 
     def test_paid_answer_is_private_and_choice_cannot_be_revised(self):

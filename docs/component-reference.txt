@@ -1,4 +1,6 @@
-The Void Throne — Component Reference
+The Void Throne
+
+Component Reference
 
 Use this document alongside the Player Rulebook and your faction brief. It describes your assets, the choices available and the state of the crisis. Exact operational calculations are kept by the facilitator. The Ascendant's powers are in their brief.
 
@@ -54,164 +56,172 @@ These descriptions explain the tracks; they add no further bonuses or penalties.
 
 Wayfarer — Guild freight vessel
 
-Assign Wayfarer to Council or Trade.
+Assign Wayfarer to Offer Council Service or Fulfil Commercial Contract.
 
-Council offers the vessel to Navigation for Relief, Military or Shared passage. The ship cannot also fulfil its commercial contract that month.
+Offer Council Service makes Wayfarer available to Navigation for Deliver Relief or Transport Troops. Choose one job for the ship. It cannot also complete a commercial contract that month.
 
-Trade sends Wayfarer on the Guild's commercial voyage without council permission. A successful voyage fulfils the month's contract. The route's condition and protection matter: an exposed ship may be lost, while an impassable route may keep it in port.
+Fulfil Commercial Contract sends Wayfarer on the Guild's own voyage. Successful delivery completes that month's contract. Poor navigation or an exposed route can halt the voyage or cost you the ship.
 
-There is one commercial opportunity each round. Missing it is a lost contract, not the loss of the ship. A surviving Wayfarer returns for its next assignment; the missed opportunity does not return.
+There is one commercial opportunity each round. A missed contract is an immediate lost opportunity, not a continuing penalty. A surviving Wayfarer returns to the Guild afterwards.
 
 Lantern — Guild tender
 
-Assign Lantern to Maintain or Council.
+Assign Lantern to Offer Council Service or Maintain the Narrows.
 
-Maintain sends the navigation team to care for the route directly. Council offers the tender for a Repair operation or to accompany Shared passage; Navigation must still choose that order.
+Offer Council Service makes Lantern available to Navigation for Deliver Relief or Repair the Narrows. Lantern can carry civilian passengers and essential relief supplies, but cannot transport Spear. It cannot carry civilians and repair the route in the same round.
 
-Lantern cannot maintain the route while accompanying a voyage or serving another council task. Protect its navigators: a lost team cannot be replaced during this game.
+Maintain the Narrows sends the navigation team on routine upkeep without a council order. Council repair is a more concentrated operation. Neither assignment restores a lost asset.
+
+Lantern's navigators are irreplaceable during the prototype. Taking them on a civilian voyage exposes them to the dangers of that passage.
 
 Spear — the 9th Pale Cohort
 
-Assign Spear to Council, Raid or Stand down.
+Assign Spear to Offer Council Service, Intercept a Patrol or Stand Down.
 
-Council offers the cohort for a Campaign or Raid chosen by Security. Campaign needs military passage supplied by Navigation.
+Offer Council Service makes Spear available to Security for Attack the Anchorage or Intercept a Patrol. Attack the Anchorage also needs Navigation to deliver Transport Troops. Spear's local craft can intercept a patrol without Guild transport.
 
-Raid launches an independent interception of a Sorenne Flag patrol, using Spear's own local craft. Both Janissariat players must agree, but no other party's permission is needed. The current Charter may make this a breach of duty.
+Intercept a Patrol as a faction assignment launches the same operation independently. Both Janissariat players agree that assignment; no other party's permission is needed. A current veto against Intercept a Patrol also bars this independent use. The Charter may impose a service duty which the independent assignment breaks.
 
-Stand down keeps the cohort out of operations. It does not rebuild a lost force or sustain its conditioning through combat.
-
-An independent Raid cannot also supply a council operation. A disabled Spear cannot act again.
+Stand Down keeps Spear out of operations. It does not restore a lost cohort or sustain its conditioning through combat. An independent interception cannot also supply a council attack.
 
 Vigil — the Narrow garrison
 
-Assign Vigil to Council or Home.
+Assign Vigil to Offer Council Service or Defend Army Bases.
 
-Council offers the garrison for Guard or an imperial Warrant. An effective Warrant uses Vigil ahead of the council's other demands.
+Offer Council Service makes Vigil available to Security for Protect the Passage or an imperial Warrant. An effective Warrant uses it first. The garrison cannot perform both tasks in one round.
 
-Home keeps Vigil at the army's institutional bases and fulfils its duty under Military autonomy.
+Defend Army Bases keeps Vigil at the army's institutional bases. It fulfils the duty under Military autonomy, but provides neither passage protection nor qualifying combat.
 
-Vigil can perform only one task each round. Plan which authority will use it; it cannot supply both Guard and a Warrant.
+Grey Petrel — the Ascendant's contracted cutter
 
-Ownership and service
+Grey Petrel has a licensed Guild pilot and a protection detail. The Ascendant controls one contracted service for the whole prototype, represented by the reserve token. Assign the cutter during the faction phase, before the council bell: Offer Council Service, Protect the Navigators or Retain the Cutter. The assignment locks with the other assets.
 
-Council is an offer of service for the round, not a transfer of ownership. A surviving asset returns to its owner for the next assignment. Committing it gives up another use it could have had that month.
+Offer Council Service makes Grey Petrel available to Navigation for either Deliver Relief or Transport Troops. GN records its allocation alongside the Guild ships after discussion with JN. It can carry civilians or the army, but can perform only one order. Using this service spends its token, even if poor conditions prevent departure. Offering it without using it leaves the token available.
 
-Lost assets remain lost during the game. Repair restores the route, not a disabled ship or military unit. Protection can reduce physical dangers; it cannot repair navigation infrastructure or remove the strain of using the route.
+Protect the Navigators holds Grey Petrel ready to rescue Lantern's navigation team from the threatened first-month civilian passage. The facilitator calls on it only if that specific threat occurs. If called upon, spend the token; otherwise keep it. This task provides no general passage protection, cannot also transport cargo or troops, and has no second-month trigger.
+
+Retain the Cutter keeps the token without providing service. A missing assignment also means Retain the Cutter. A spent token makes Grey Petrel unavailable for the remainder of the prototype; unspent reserve adds no settlement weight. It cannot repair the Narrows, complete the Guild's contract or replace lost units.
+
+Ownership and use
+
+Offer Council Service makes an asset available for the round; it does not transfer ownership. Each asset can perform one task, and each printed order can be selected once in a round. A surviving faction asset returns for its next assignment. Grey Petrel is limited by its one-service contract.
+
+You can carry out every order for which the assets and requirements are available, unless that order is vetoed. There is no limit of one order per council. Navigation may arrange both transports using different ships, or repair while another ship transports. Security may attack or intercept with Spear while Vigil protects the passage. Spear cannot both attack and intercept.
 
 2. Navigation and Supply
 
-Choose one order using assets offered to Council. An offer permits their use but does not decide the council's order. Voyages depend on the route being usable; an authorised plan can still fail if its assets or supporting arrangements are missing.
+Discuss the programme at Navigation. GN records which offered asset serves each selected order, including Grey Petrel if the Ascendant offered it. JN contributes the army's priorities and plans. No separate agreement from an authority holder is needed to carry out a funded, unvetoed order.
 
-Relief
+Deliver Relief
 
-Use offered Wayfarer to carry supplies to Sorenne's Fall. Grey Petrel may provide the voyage if the Ascendant arranged Relief lift. This service carries civilian supplies, not Spear for a Campaign.
+Requirement: one offered Wayfarer, Lantern or Grey Petrel. Name the vessel on this order.
 
-Military
+Carry civilian passengers and essential supplies through the Narrow to support Sorenne's Fall. Lantern carries civilians, not the military cohort. The route must be usable for the voyage to depart.
 
-Use offered Wayfarer to carry the army beyond the Narrow. Security must also commit offered Spear to Campaign for that attack to take place. This voyage gives military passage priority over civilian supply.
+Transport Troops
 
-Shared
+Requirement: one offered Wayfarer or Grey Petrel. Name the vessel on this order.
 
-Use both offered Wayfarer and Lantern to carry civilian supplies and provide military passage on the same voyage. Combining the work limits the relief effort and places Lantern's navigation team with the convoy. Lantern cannot also maintain the route.
+Move the army through the Narrow. Security must also allocate Spear to Attack the Anchorage for that attack to take place. Transporting the troops does not itself count as combat or provide civilian relief.
 
-Repair
+Repair the Narrows
 
-Use offered Lantern for concentrated work on the route. This operation carries no council cargo. Wayfarer may still pursue private Trade through the repaired route.
+Requirement: offered Lantern, unused by another task.
 
-Hold
+Carry out concentrated repairs to navigation and service installations. Other ships can use the repaired route during the same round. This restores the route, not a damaged ship or cohort.
 
-Make no council voyage or repair. Private Trade and Maintain assignments still go ahead where possible. Holding does not cancel an independent Raid.
+Selecting the programme
 
-Orders that cannot be carried out
+Select any combination you can supply with separate assets. Leave unwanted orders blank. Two transport orders require two vessels. There is no Shared order: choose Deliver Relief and Transport Troops separately. Either or both transports place strain on the route; the facilitator keeps the exact calculation concealed.
 
-You cannot command an asset its owner has not offered. Missing assets, an unusable route or incompatible commitments can defeat a plan and disrupt the system's supply arrangements. The facilitator resolves the consequences and reports what happened.
+Orders lacking an offered asset, using an asset twice or struck out by a veto cannot be carried out. Clear conflicts before the deadline. If an asset's final allocation remains ambiguous, it does neither disputed job. Other valid orders and independent assignments still proceed. An operation can still fail after being selected because of the route's condition or another council's decision.
 
 3. Security and Government
 
-Choose one order using the assets offered to Council. An independent Raid or an imperial Warrant may also occur, but no asset can be used twice.
+Discuss the programme at Security. JS records the offered army assets used for each order. GS contributes the Guild's concerns and the Ascendant can advise or issue a Warrant where permitted. None has an additional approval gate over funded, unvetoed orders.
 
-Campaign
+Attack the Anchorage
 
-Use offered Spear and delivered Military or Shared passage to attack the Sorenne Flag's anchorage beyond the Narrow. Relief cannot transport this Campaign. Fighting sustains the army's conditioning if the force can bear it, but an attack disrupts the supply traffic on which Sorenne's Fall depends. A weakened cohort risks destruction.
+Requirement: offered Spear and delivered Transport Troops from Navigation.
 
-Raid
+Attack the Sorenne Flag's anchorage beyond the Narrow. Fighting sustains a capable force's conditioning, but disrupts the supplies on which Sorenne's Fall depends. A weakened cohort risks destruction. If passage does not arrive, the expedition cannot leave.
 
-Use offered Spear to seek a Sorenne Flag patrol on this side of the crossing. An independent Raid uses Spear's own faction assignment instead. No Guild ship is required.
+Intercept a Patrol
 
-An interception may find no target. Even an unsuccessful expedition disrupts civilian traffic; finding an enemy gives a capable force combat, but puts a weakened force in danger. Foresight may reveal what brings the patrol within reach.
+Requirement: offered Spear, or Spear independently assigned to this task by the Janissariat.
 
-Guard
+Use Spear's local craft to seek a Sorenne Flag patrol. The expedition may find no enemy, yet still disrupt civilian traffic. Finding an enemy provides combat for a capable force but risks destroying a weakened cohort. A standing veto bars both the council and independent versions of this order.
 
-Use offered Vigil, if it is not already serving a Warrant, to protect traffic and service installations. This supports civilian life and protects voyages from some threats. Guard does not repair the route or give the army the fighting it needs.
+Protect the Passage
 
-Restraint
+Requirement: offered Vigil, unused by an effective Warrant.
 
-Order no council military operation. A separately assigned independent Raid still proceeds. Restraint is not recovery for a damaged force.
+Protect traffic and service installations. Protection supports civilian life and reduces some dangers to voyages. It neither repairs the Narrows nor provides the army with combat. A veto against this order also bars using an imperial Warrant for the same protection.
 
-Conflicting demands
+Selecting the programme
 
-If Spear was assigned to an independent Raid, Security cannot also use it for Campaign. If Vigil serves a Warrant, it cannot also Guard for the council. Failed orders can disrupt the system even when another operation still takes place.
+Choose Attack the Anchorage or Intercept a Patrol for Spear, and optionally Protect the Passage for Vigil. Leaving orders blank means no council operation; it does not cancel a legal independent assignment. Do not use Vigil again if the Warrant takes it. Resolve unclear asset allocations before the deadline; unused assets provide no automatic operation.
 
-4. Provisional government
+4. Authority and provisional government
 
-The first round ends with a chance to try a new government. Choose who can direct each council and what duties come with that authority. The articles that pass govern round two and cannot be revoked or replaced during it.
+Authority lets its holder strike out an order for the following round. It does not let them choose another faction's orders or requisition its assets. During the Free Phase after round one, record the vetoes under the articles already in force, then agree any new articles. Show all vetoes before the next faction phase begins.
 
-An article gives authority and imposes a legal service duty. It does not transfer ownership of an asset. A faction can disobey a duty and carry out an otherwise possible independent action, but the broken arrangements can harm Stability.
+There are no vetoes in round one. Each entitled party may veto one printed order in each council where it holds a right, or choose None. The veto lasts for the whole following round and expires afterwards. It applies to the named operation whatever asset would perform it. Changing the article does not erase a veto already issued. There is no third operational round, so do not issue new operational vetoes after round two.
 
-A Standing Commitment goes further: both owners bind a particular assignment for round two. Use it when another party wants a dependable offer of service before accepting an article.
+Joint authority: contributor vetoes
+
+Under a Joint article, every party that offered at least one available asset to either council during the completed round may issue its own veto in that Joint council. A Guild or Janissariat party gets one veto, not one per player or asset. The Ascendant qualifies by offering Grey Petrel to Navigation. The asset need only have been offered; it need not have been used or survived.
+
+At Joint Navigation, GN exercises the Guild's veto and JN the Janissariat's. At Joint Military, GS exercises the Guild's and JS the Janissariat's. The Ascendant exercises their own. No other contributor's agreement is needed. Several parties may veto different orders; repeated vetoes against one order add nothing. If all orders are blocked, that council cannot order an operation next round.
+
+Routine upkeep, a private contract, an independent interception, Defend Army Bases and Protect the Navigators do not count as offering an asset to a council. They give no contributor veto. An absent or spent asset cannot qualify a party. Contribution to either council qualifies the party in each Joint domain.
+
+Joint government therefore removes a single ruler's control but may produce several competing restrictions. Contributors must negotiate over which options to leave open. Its service duties still apply; authority does not remove a faction's obligations.
 
 Interim
 
-Under the starting arrangement, the Ascendant chooses both council orders and may issue a Warrant. The Guild has no service duty. An independent Janissariat Raid breaks discipline and causes disruption beyond the expedition itself.
+The Ascendant may veto one Navigation order and one Security order for the following round and may issue a Warrant. The Guild has no service duty. An independent Janissariat interception breaks imperial discipline, even when no veto prevents it.
 
 Navigation articles
 
-Guild discretion (NG): the Guild Navigation delegate chooses the order. The Guild must assign Lantern to Maintain or provide a funded Repair. Neglecting this duty disrupts the system. Wayfarer may Trade.
+Guild discretion (NG): GN may veto one Navigation order for the following round. The Guild must assign Lantern to Maintain the Narrows or carry out Repair the Narrows. Wayfarer may pursue its contract.
 
-Imperial priority (NI): the Ascendant chooses the order. The Guild must offer Wayfarer to Council; withholding it breaks the service duty. The ship forgoes Trade even if the council leaves it unused.
+Imperial priority (NI): the Ascendant may veto one Navigation order for the following round. The Guild must assign Wayfarer to Offer Council Service, forgoing its contract even if Navigation leaves it unused.
 
-Joint authorisation (NJ): both Navigation delegates must agree the same order, or Navigation Holds. The Guild must offer Wayfarer to Council; withholding it breaks the service duty.
-
-Offering Lantern without a funded Repair does not fulfil Guild discretion's upkeep duty. Grey Petrel providing Relief does not fulfil the Wayfarer duty under Imperial priority or Joint authorisation.
+Joint authorisation (NJ): each contributing party may veto one Navigation order for the following round. The Guild must assign Wayfarer to Offer Council Service. Vetoes need not agree and can block different orders.
 
 Military articles
 
-Imperial command (MI): the Ascendant chooses Security’s order and retains Warrant power. The Janissariat must offer Spear to Council; withholding it breaks the service duty. The Ascendant may still choose not to fight.
+Imperial command (MI): the Ascendant may veto one Security order for the following round and retains Warrant power. The Janissariat must assign Spear to Offer Council Service. A single veto cannot bar both kinds of fighting.
 
-Military autonomy (MA): the Janissariat Security delegate chooses the order. The Janissariat must keep Vigil Home; sending it elsewhere breaks the duty. There is no imperial Warrant. An independent Raid is permitted if Vigil stays Home.
+Military autonomy (MA): JS may veto one Security order for the following round. The Janissariat must assign Vigil to Defend Army Bases. There is no imperial Warrant. Spear may intercept independently unless a current veto bars it.
 
-Joint authorisation (MJ): both Security delegates must agree the same order, or Security uses Restraint. The Janissariat must offer Spear to Council; withholding it breaks the service duty. There is no imperial Warrant.
+Joint authorisation (MJ): each contributing party may veto one Security order for the following round. The Janissariat must assign Spear to Offer Council Service. There is no imperial Warrant. Several vetoes may block different operations.
 
-Lost assets do not waive a duty. Broken duties disrupt the civil administration’s supply and protection arrangements, alongside the consequences of operations and shortages.
+Service duties
+
+An article imposes a duty, not a transfer of ownership. A faction can withhold a required asset and take a permitted independent assignment, but breaking the duty disrupts the system. Lost assets do not waive duties. A veto against an order does not waive an assignment duty or an existing Standing Commitment.
+
+Under Guild discretion, merely offering Lantern does not fulfil upkeep: maintain or carry out repair. Under Imperial priority or Joint Navigation, Grey Petrel's service does not substitute for offering Wayfarer.
 
 Enacting an article
 
-Navigation needs the Guild Navigation delegate, Janissariat Navigation delegate and Ascendant to agree the same exact proposal. Military needs the Guild Security delegate, Janissariat Security delegate and Ascendant. State agreement aloud to the facilitator; no signatures are needed.
+The first Free Phase gives you the chance to try new articles in round two. Navigation requires GN, JN and the Ascendant to agree the exact proposal aloud. Military requires GS, JS and the Ascendant. The facilitator records the agreement; no signatures are needed. Each article is decided separately, and a failed proposal leaves Interim in force.
 
-The two articles are decided independently. One may pass while the other stays Interim. Agreeing an article does not by itself bind an asset promise made by your teammate.
+Record vetoes first, using the existing articles and the completed round's contributions. Articles enacted afterwards govern round two but do not give an extra veto before it. With only two operational rounds, this prototype tests their service duties; it does not play the next month's contributor vetoes under a newly enacted Joint article.
 
 Standing Commitments
 
-Each faction may attach one available asset assignment to one exact article proposal. Both teammates must approve it. Permitted assignments are:
+Each faction may attach one available asset assignment to one article proposal. Both teammates must approve the exact owner, asset, assignment and article together. Allowed assignments are:
 
-Wayfarer: Council.
+Wayfarer: Offer Council Service.
 
-Lantern: Council or Maintain.
+Lantern: Offer Council Service or Maintain the Narrows.
 
-Spear: Council.
+Spear: Offer Council Service.
 
-Vigil: Council or Home.
+Vigil: Offer Council Service or Defend Army Bases.
 
-Record the owner, asset, assignment and article, then ask both teammates to confirm the commitment aloud. If either owner does not agree, that article fails as proposed. To remove or change the promise, agree revised terms and obtain the necessary agreement again.
+An unapproved attached commitment prevents its article passing as proposed. If the article and commitment pass, the assignment is locked for round two and overrides contrary choices or defaults. It expires after that round's operations. An article can pass without a commitment; informal plans do not bind later orders.
 
-An article can pass without a commitment. A valid commitment activates only if its article passes. It then overrides contrary round-two selections and defaults, and expires after the round's operation.
-
-The assignment is binding; the council's future order is not. An announced plan creates no extra mechanical penalty if the authorised council later chooses something else.
-
-Example: the Guild attaches Lantern Council to a Joint military proposal. Both Guild players approve the promise; both Security delegates and the Ascendant approve the article. Lantern is now locked to Council next round, but Navigation must still decide whether to use it for Repair or Shared.
-
-Missing or conflicting orders
-
-An unconfirmed, ambiguous or unauthorised Navigation order becomes Hold. The equivalent Security order becomes Restraint. Under a joint article, conflicting choices count as disagreement.
-
-A council without an authorised decision uses its default. An authorised order may still fail for lack of assets. Private assignments and Charter duties continue in either case.
+The promise fixes an assignment, not its eventual order. An asset may be left unused if no legal operation remains. Grey Petrel's assignment is made by the Ascendant each faction phase; it is not an additional faction Standing Commitment.

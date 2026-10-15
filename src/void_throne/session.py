@@ -41,6 +41,10 @@ class Session:
         self.vision=None;self.disclosed=False;self.trial=None;self.package=None;self.ballots=0
         self.settlement=None;self.report_notes=''
 
+    def weights(self):return leverage(self.state,self.foresight)
+
+    def count_ballot(self,approvals):return ballot(self.state,self.foresight,approvals,self.package)
+
     def record(self,event,**data):
         self.history.append({'sequence':len(self.history)+1,'round':self.round,'phase':self.stage,'event':event,**deepcopy(data)})
 
@@ -79,7 +83,7 @@ class Session:
                 self.vision=json.loads((ROOT/'design/private-cards'/f'{ident}.json').read_text(encoding='utf-8'))
             else:self.vision=None
             self.record('Foresight purchase',choice=selected,before=before,after=self.foresight,notes=ns,
-                        private_answer=self.vision,leverage=leverage(self.state,self.foresight))
+                        private_answer=self.vision,leverage=self.weights())
             self.stage='commit'
         elif self.stage=='commit':
             rows=p.get('assignments',{});sign=p.get('signatures') # Legacy transcripts retain their original signature gate.
@@ -125,7 +129,7 @@ class Session:
             self.record('Council order sheets',navigation=p.get('navigation',{}),security=p.get('security',{}),
                         effective=decisions,required_agreement=authorities,valid=valid,warrant=warrant,notes=ns)
             self.record('Operational resolution',before=before,after=self.state,inputs=inputs,detail=detail,
-                        effects=effect_ledger(before,self.state,inputs,detail),leverage=leverage(self.state,self.foresight))
+                        effects=effect_ledger(before,self.state,inputs,detail),leverage=self.weights())
             self.pledges=[] # Each active assignment has now completed its one round.
             self.stage='trial-proposal' if self.round==1 else 'free'
         elif self.stage=='trial-proposal':
@@ -162,13 +166,13 @@ class Session:
         elif self.stage=='ceremony-proposal':
             package=p.get('package',{})
             for d,options in ARTICLES.items():choice(package.get(d),options)
-            self.package=deepcopy(package);self.record('Exact settlement package',package=package,weights=leverage(self.state,self.foresight),notes=ns)
+            self.package=deepcopy(package);self.record('Exact settlement package',package=package,weights=self.weights(),notes=ns)
             self.stage='ceremony-vote'
         elif self.stage=='ceremony-vote':
             approvals=p.get('approvals',{})
             if set(approvals)!=set(ROLES):raise ValueError('Record a yes or no for every player.')
             for val in approvals.values():boolean(val)
-            tally=ballot(self.state,self.foresight,approvals,self.package);self.ballots+=1
+            tally=self.count_ballot(approvals);self.ballots+=1
             self.record('Settlement ballot',package=self.package,approvals=approvals,result=tally,notes=ns)
             if tally['ratified'] or self.ballots>=2:
                 self.articles=self.package if tally['ratified'] else {'navigation':'I','military':'I'}
@@ -184,7 +188,7 @@ class Session:
         return deepcopy(dict(state=self.state,round=self.round,stage=self.stage,foresight=self.foresight,articles=self.articles,
                              pledges=self.pledges,drafts=self.drafts,assignments=self.assignments,reserve=self.reserve,
                              selected_vision=self.vision,disclosed=self.disclosed,covers=covers,track_descriptions=track_descriptions(),trial=self.trial,package=self.package,
-                             ballots=self.ballots,settlement=self.settlement,leverage=leverage(self.state,self.foresight),
+                             ballots=self.ballots,settlement=self.settlement,leverage=self.weights(),
                              history=self.history,actions=self.actions,mode='all_seats',ruleset='vt:rules:revised-visions-v0.3'))
 
 def effect_ledger(before,after,inputs,detail):

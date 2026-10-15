@@ -1,0 +1,20 @@
+{
+  "id": "R2-S",
+  "title": "The relief column",
+  "branches": [
+    {
+      "condition": "Civilian relief arrives and Spear intercepts a patrol",
+      "consequence": "The interception finds its target after delivered Deliver Relief from Wayfarer, Lantern or Grey Petrel. At opening Readiness 2+, it achieves combat at total Stability −2. At 0–1, disable Spear: Stability −1 and no qualifying combat."
+    },
+    {
+      "condition": "Civilian relief does not arrive and Spear intercepts a patrol",
+      "consequence": "No target: Stability −1, no qualifying combat and Spear remains intact. Troop transport and private trade do not qualify."
+    },
+    {
+      "condition": "Spear does not intercept a patrol",
+      "consequence": "No interception effects. A vetoed interception does not launch and incurs no interception cost."
+    }
+  ],
+  "ruleset": "vt:rules:asset-orders-v0.4",
+  "public_rules": "Delivered civilian relief qualifies even if Transport Troops also succeeds. A standing interception veto bars both the council and independent versions. Readiness changes once after all operations."
+}

@@ -1,6 +1,8 @@
 """Fixed browser-worker entry points around the shared multiplayer authority."""
 from copy import deepcopy
 from .multiplayer import Multiplayer
+from .current_session import from_actions, Session
+from .session import Session as LegacySession
 
 
 class BrowserHost:
@@ -9,8 +11,9 @@ class BrowserHost:
         if backup is not None:
             if backup.get('version') != 1 or not isinstance(backup.get('actions'), list):
                 raise ValueError('This browser save is not a supported game. Keep it for recovery.')
-            for action in backup['actions']:
-                self.session.game.apply(action)
+            self.session.game=from_actions(backup['actions'])
+            if not backup['actions'] and backup.get('ruleset') != Session().public()['ruleset']:
+                self.session.game=LegacySession()
             for key in ('room', 'seats', 'sheets', 'chats', 'audit', 'revision', 'seen'):
                 setattr(self.session, key, deepcopy(backup[key]))
 

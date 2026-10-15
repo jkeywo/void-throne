@@ -34,7 +34,7 @@ The Ascendant, the ruler who united the empire and can see the future.
 
 You face one connected emergency: A space passage called the Narrow is deteriorating. The star system of Sorenne's Fall needs supplies, and a cohort of Janissariat needs transport, but your ships and forces cannot do every job.
 
-At the same time, you are writing two parts of the empire's constitution: who directs transport between the stars, and who directs military operations.
+At the same time, you are writing two parts of the empire's constitution: who can restrict transport between the stars, and who can restrict military operations.
 
 2. The Settled Dark
 
@@ -58,7 +58,7 @@ The Ascendant
 
 Little is known of the Ascendant, but that they appeared leading the Janissariat at the start of the conquest, and that they have the power of foresight.
 
-The Ascendant begins with the right to issue imperial orders, but need support from the Guild and the Janissariat to enact those orders.
+The Ascendant begins with imperial authority: the power to veto an order for the following round. The factions retain control of their assets and can carry out any unvetoed orders they can supply.
 
 The Crisis
 
@@ -108,43 +108,43 @@ In round two, a Standing Commitment may already fix an asset's assignment: this 
 
 If either teammate has not confirmed the assignments by the end of the phase, or they disagree, use the faction's defaults:
 
-Guild: Wayfarer [Trade]; Lantern [Maintain].
+Guild: Wayfarer [Fulfil Commercial Contract]; Lantern [Maintain the Narrows].
 
-Janissariat: Spear [Stand down]; Vigil [Home].
+Janissariat: Spear [Stand Down]; Vigil [Defend Army Bases].
 
-Lost or disabled assets are [Absent].
+Lost or disabled assets are [Asset Unavailable].
 
 Council Phase— five minutes
 
-Go to your council and negotiate its order, using the assets offered by the factions. Stay at that table throughout the council phase and speak only with its members. Do not visit, call across to or send messages to the other council, including through your faction teammate. Your council reference describes the available orders, the assets they need, their purpose and known risks. The facilitator keeps the exact operational calculations concealed and reports the result. Make plans that depend on the other council during the faction or free phase; those plans do not bind its later decision.
+Go to your council and discuss the orders you can carry out using offered assets. Stay at that table throughout the council phase and speak only with its members. Do not visit, call across to or send messages to the other council, including through your faction teammate. The Component Reference explains available orders, their requirements, purpose and risks; the facilitator keeps exact calculations concealed. Make cross-council plans during earlier faction visits or free discussion. Those plans do not bind later decisions.
 
-Check the current article: the constitutional rule saying who has authority to choose the council's order. At the start, the Ascendant chooses both orders while remaining at Security and Government. At the deadline, they give their Navigation decision to the facilitator, who records it as that council's order. Later articles may give authority to a faction's representative or require both representatives to agree. The facilitator does not carry proposals or replies between councils; both final orders are revealed after they have been collected.
+You may select any combination of orders for which you have the assets and requirements. Each asset and each printed order can be used once per round. Check the public vetoes: a struck-out order cannot be chosen this round. GN records Navigation allocations, including Grey Petrel when offered; JS records Security allocations. The other council members contribute through discussion. Authority does not add a requirement for their approval.
 
-At the end of the phase, the players whose approval is required confirm the final order. One council member records it for the facilitator.
+At the end of the phase, confirm the chosen orders and the asset used for each. Resolve any double use before handing in the council sheet. An asset with an unclear allocation does neither disputed job; valid orders still proceed. The facilitator collects both programmes before revealing either. The Ascendant remains at Security and Government.
 
 Free Phase— five minutes
 
-After round one, discuss what has happened, and what government you would like to try. Use the Charter options to propose one Navigation article and one Military article. The two council representatives concerned and the Ascendant must agree an article aloud; the facilitator records the result. The two articles are decided separately. Where no agreement is reached, the existing arrangement continues.
+After round one, discuss the results and record next-round vetoes under the existing articles. Each entitled party may strike out one order in each council where it has a veto. Joint authority gives a separate veto to each party that offered an available asset to either council this round; the Component Reference explains who exercises it. Choosing None leaves the options open. Vetoes are public, last one round and remain in force if the article changes.
+
+Then discuss the government you would like to try. Propose one Navigation article and one Military article. The two council representatives concerned and the Ascendant must agree an article aloud; the facilitator records the result. The articles are decided separately. Where no agreement is reached, the existing arrangement continues.
 
 You may attach a Standing Commitment to a proposed article to fix one of your faction's asset assignments for round two. Both teammates must agree that promise. Record the asset, assignment and article together; the Component Reference gives the permitted commitments and their conditions. Articles and attached commitments that pass govern round two.
 
-After round two, use this discussion to negotiate the final settlement package. There is no further operation or recovery before the Ceremony.
+After round two, use this discussion to negotiate the final settlement package. There is no further operation or recovery before the Ceremony, and no next-round veto to issue.
 
 By the end of the phase the facilitator resolves both councils, private assignments and scenario conditions, then announces track changes, asset losses, completed contracts and token expenditure.
 
 5. The Ceremony of Settlement
 
-After round two, freeze each party's weight and begin the ten-minute Ceremony. You are voting on a complete package: one Navigation article and one Military article. They need not be the articles tried provisionally.
+After round two, check each party's voting power and begin the ten-minute Ceremony. You are voting on a complete package: one Navigation article and one Military article. They need not be the articles tried provisionally.
 
-Signature weights
+Voting Power
 
-Guild: 2 for an intact Wayfarer, 1 for surviving Lantern navigators, and 1 if Beacon is at least 1.
+Guild: 1 for an intact Wayfarer, 1 for surviving Lantern navigators, and 1 for every 2 points of Beacon.
 
 Janissariat: final Readiness.
 
 Ascendant: final Readiness plus unspent foresight.
-
-Readiness sustains both the army's institutional power and the ruler's authority, so losing it weakens both signatures. Contracts and reserve tokens add no weight. Weight cannot be transferred between parties.
 
 Voting
 
@@ -170,4 +170,4 @@ What government did you want at the start, and what did you accept at the end? N
 
 For the Ascendant, did foresight change a decision, a bargain or only your confidence? One remaining token is inevitable after two purchases. Declining a purchase is the choice that preserves more power.
 
-Design by John Keyworth. Paper prototype v0.3, revised 14 October 2026. Use the current player rulebook and facilitator guide together; earlier packs retain superseded foresight and settlement rules.
+Design by John Keyworth. Paper prototype v0.4, revised 15 October 2026. Use the current rulebook, briefs, component reference and facilitator guide together. Archived simulations retain the rules under which they were played.

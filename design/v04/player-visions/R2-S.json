@@ -1,0 +1,20 @@
+{
+  "id": "R2-S",
+  "title": "The relief column",
+  "branches": [
+    {
+      "condition": "Civilian relief arrives and Spear intercepts a patrol",
+      "consequence": "The relief traffic brings the Sorenne patrol within reach. A capable force fights and sustains its conditioning, disrupting civilian life further. A force too weakened to fight is disabled instead. Any of the three relief vessels can draw the patrol."
+    },
+    {
+      "condition": "Civilian relief does not arrive and Spear intercepts a patrol",
+      "consequence": "The patrol is not found. The expedition disrupts traffic without achieving combat. Troop transport and a private commercial voyage do not draw this patrol."
+    },
+    {
+      "condition": "Spear does not intercept a patrol",
+      "consequence": "Relief alone causes no attack. Spear must launch an interception for these consequences to occur."
+    }
+  ],
+  "ruleset": "vt:rules:asset-orders-v0.4",
+  "guidance": "Consider whether Navigation will deliver civilian relief and whether Spear will intercept the patrol. Existing vetoes and commitments restrict choices; they do not compel an otherwise legal order."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "R2-N",
+  "title": "Stores at the crossing",
+  "branches": [
+    {
+      "condition": "Troop transport arrives without passage protection",
+      "consequence": "Delivered Transport Troops without funded Protect the Passage or an effective Warrant adds Stability −1. This also applies when civilian relief arrives in the same round."
+    },
+    {
+      "condition": "The Narrows are repaired and Wayfarer completes its commercial contract",
+      "consequence": "Funded Repair the Narrows and a completed private Wayfarer contract add Stability +1. Routine maintenance does not qualify."
+    },
+    {
+      "condition": "Neither condition occurs",
+      "consequence": "Neither extra Stability effect occurs. Resolve all other effects normally."
+    }
+  ],
+  "ruleset": "vt:rules:asset-orders-v0.4",
+  "public_rules": "Repair adds 2 to prepared Beacon, capped at 4, before voyages. Both conditions can occur: Grey Petrel may carry troops while Lantern repairs and Wayfarer trades. Protection removes the stores loss without removing the distribution benefit."
+}

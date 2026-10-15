@@ -13,7 +13,8 @@ def player_vision(card):
     ident=card.get('id')
     if ident not in ('R1-N','R1-S','R2-N','R2-S'):
         raise ValueError('No player handout is registered for this vision.')
-    return json.loads((ROOT/'design/player-visions'/f'{ident}.json').read_text(encoding='utf8'))
+    folder='design/v04/player-visions' if card.get('ruleset')=='vt:rules:asset-orders-v0.4' else 'design/player-visions'
+    return json.loads((ROOT/folder/f'{ident}.json').read_text(encoding='utf8'))
 
 OUTCOMES={
  'Warrant:':'Vigil carried out the imperial Warrant.',
@@ -45,7 +46,7 @@ OUTCOMES={
 def public_resolution(event):
     # Explicit projection, including for old saves: never copy unknown calculation fields.
     out={k:deepcopy(event[k]) for k in ('sequence','round','phase','event','before','after','leverage') if k in event}
-    detail=event.get('detail',{});stories=[]
+    detail=event.get('detail',{});stories=list(detail.get('outcomes',[]))
     if detail.get('delivered'):
         stories.append({'Relief':'Relief supplies reached Sorenne’s Fall.','Military':'Military passage was delivered.','Shared':'Civilian supplies and military passage were delivered together.'}[detail['nav']])
     elif detail.get('nav')=='Repair':stories.append('Lantern carried out the route repair.')

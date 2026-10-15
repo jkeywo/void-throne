@@ -1,7 +1,3 @@
-The Void Throne — Player Briefs
-
-Give the Guild and Janissariat players their faction’s shared brief. Give the Ascendant their own brief. Read these alongside the player rulebook.
-
 The Ductus Guild
 
 Two players · shared assets and objectives. Your Navigation delegate is GN; your Security delegate is GS.
@@ -10,7 +6,7 @@ Use the faction phase to agree asset assignments and negotiating priorities with
 
 You operate the passage service through the Narrow. Wayfarer is your freight vessel; Lantern carries your navigation team and maintains the route. Those ships are needed for civilian supplies, military transport and your own commercial obligations.
 
-Your petition, GUILD-14, asks the Charter to recognise the Guild's navigation rights. Each Navigation article answers it differently: Guild discretion leaves priorities with you, Imperial priority places them with the Ascendant, and Joint authorisation gives both factions a say.
+Your petition, GUILD-14, asks the Charter to recognise the Guild's navigation rights. Guild discretion gives you the Navigation veto; Imperial priority gives it to the Ascendant. Joint authorisation gives each contributing party a separate veto, so several orders may be blocked. You still allocate your own offered ships to the legal orders.
 
 Your objectives are to:
 
@@ -44,11 +40,11 @@ Protect your soldiers from operations they cannot sustain. A weakened cohort ris
 
 Leave Sorenne's Fall with Stability at least 2.
 
-Military autonomy lets you choose operations, but requires Vigil to stay Home. Joint authorisation gives the Guild a say over military orders. Imperial command leaves the Ascendant able to order you to stand down.
+Military autonomy gives your Security delegate the next-round veto, but requires Vigil to Defend Army Bases. Joint authorisation gives a separate veto to every contributing party, potentially blocking several operations. Imperial command gives the Ascendant one veto: they can prevent one kind of fighting, but cannot use a single veto to block both an attack and an interception.
 
 The Ascendant
 
-One player · A on decision sheets. Attend Security and Government and remain there throughout the council phase. When you hold Navigation authority, give its final order to the facilitator at the deadline from your own table. The facilitator records it; you do not visit Navigation or send it messages. No signature is needed.
+One player · A on decision sheets. Attend Security and Government and remain there throughout the council phase. You may advise that council and issue a permitted Warrant. You do not choose Navigation orders from another table. If you offer Grey Petrel, Navigation allocates it. Exercise any next-round veto during the Free Phase.
 
 You need a government capable of maintaining the Dominion, and an army capable of defending it. A quiet month may help Sorenne's Fall while weakening both the Janissariat and the authority they give you.
 
@@ -68,7 +64,7 @@ You gain no special success from keeping imperial command. Use the provisional g
 
 Your powers
 
-Use your worksheet to record your foresight choice and Grey Petrel's task during faction discussion, and your final Warrant choice during councils. Confirm your final decisions to the facilitator from Security and Government; you do not need to write instructions or sign an order. Your authority over council decisions follows the current Charter articles, described in the Component Reference.
+Use your worksheet to record foresight and your asset assignment during the faction phase, a permitted Warrant during councils, and any next-round veto during the Free Phase. The Component Reference describes authority under each article and the Grey Petrel asset. No operational signatures are needed.
 
 Foresight
 
@@ -92,7 +88,7 @@ Imperial Warrant
 
 The Warrant draws on the Ascendant's authority over the army to use Vigil independently of the council's other operation.
 
-Requirement: Military authority is Interim or Imperial command and Vigil is offered to Council. A weakened army may be unable to carry out the Warrant; the facilitator resolves this from the current situation.
+Requirement: Military authority is Interim or Imperial command, Vigil is offered for council service, and Protect the Passage has not been vetoed this round. A weakened army may be unable to carry out the Warrant; the facilitator resolves this from the current situation.
 
 Timing: record the final Warrant before the council bell.
 
@@ -100,16 +96,8 @@ Purpose: use Vigil to protect traffic and service installations under imperial a
 
 Under Interim or Imperial command, an unsupported Warrant can fail and disrupt the system. Under Military autonomy or Joint authorisation it is advice only. A missing or unconfirmed Warrant means No.
 
-Vigil cannot serve both a Warrant and Guard. Plan which authority will use the garrison.
+Vigil cannot serve both a Warrant and Protect the Passage. An effective Warrant takes Vigil first; that council order then cannot use it again.
 
-Grey Petrel
+Your asset
 
-Grey Petrel is a contracted cutter with a licensed Guild pilot and a protection detail. Its contract covers one triggered intervention during the whole game. It cannot carry Spear, repair Beacon or provide a second service after its token is spent.
-
-Before the faction bell, lodge Relief lift, Tender cover or Keep. The task locks before councils. If its condition does not occur, retain the reserve token.
-
-Relief lift holds Grey Petrel ready to supply the Navigation council’s Relief voyage if Wayfarer is not offered. It cannot provide military transport. Calling on its contracted service uses the reserve even if the voyage later cannot depart; Wayfarer may still pursue Trade independently.
-
-Tender cover holds Grey Petrel ready to protect Lantern’s navigation team during the first month’s Shared passage. It is a specific rescue service, not general convoy protection. If called upon, it uses the reserve. The service has no second-month use.
-
-Keep retains the token without intervening. A missing task also means Keep. Unspent reserve gives no settlement weight.
+You control Grey Petrel, a contracted cutter with one service available during the prototype. Choose its assignment during the faction phase. Its transport, rescue and retention options are printed with the other assets in the Component Reference.

@@ -15,6 +15,8 @@ SCRIPT=json.loads((ROOT/'design/experiments/replay-config.json').read_text(encod
 class BrowserHostTests(unittest.TestCase):
     def test_browser_bridge_replay_resume_and_private_projection(self):
         host=BrowserHost()
+        from void_throne.session import Session as LegacySession
+        host.session.game=LegacySession()
         key=host.request('host',{})['envelope']['host_key']
         tokens={}
         for role in ROLES:

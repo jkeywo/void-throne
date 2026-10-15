@@ -1,18 +1,20 @@
-The Void Throne — Facilitator Guide, draft v0.3
+The Void Throne
+
+Facilitator Guide, draft v0.4
 
 Your task
 
 Run the two-month crisis and make the consequences legible. Players decide what to offer, which orders to issue, and what government they will accept. Apply the printed outcomes. Do not invent a prophecy, a resource, another player's agreement, an extra veto or a reward for cooperation.
 
-[WORKING] This guide implements the revised visions, Trial A Standing Commitments and weighted final settlement. The computer model is an implementation to check, not permission to overrule the paper rules. The browser is an all-seat facilitator test bench; the preserved LLM run is separate evidence.
+[WORKING] This guide implements multiple funded orders, single-use assets, next-round vetoes, contributor vetoes under Joint authority, Standing Commitments and weighted settlement. The model checks these paper rules; archived simulations retain their earlier rules.
 
 Setup and opening brief
 
 Materials
 
-One player rulebook, one qualitative Component Reference, this facilitator guide and three shared-role briefs. The Ascendant’s brief explains how to choose foresight, issue a Warrant and lodge the reserve. Give councils the player action and Charter descriptions; keep this guide, the resolution worksheet and exact vision answers behind the screen.
+One player rulebook, one qualitative Component Reference, this guide and three shared-role briefs. The Ascendant brief explains foresight and the Warrant; Grey Petrel is an asset in the Component Reference. Keep numerical resolution rules and exact prophecy answers behind the screen.
 
-Two council reference sheets and four asset cards: Wayfarer, Lantern, Spear and Vigil.
+Two council reference sheets and five asset cards: Wayfarer, Lantern, Spear, Vigil and Grey Petrel.
 
 Six Charter cards: three Navigation articles and three Military articles.
 
@@ -36,15 +38,15 @@ Starting position
 
 Give Wayfarer and Lantern to the Guild, and Spear and Vigil to the Janissariat. All four assets begin available. Give the Ascendant three foresight tokens and Grey Petrel's reserve token. The facilitator keeps the vision answers concealed.
 
-Set Beacon to 2, Sorenne's Fall's Stability to 3 and Readiness to 3. The Guild has completed no contracts. Write Interim in both article spaces: the Ascendant chooses both council orders, while the factions control their own assets.
+Set Beacon to 2, Stability to 3 and Readiness to 3. No contracts are completed. Both articles start Interim and round one has no vetoes. The Ascendant holds the next-round veto in each domain, while factions allocate their assets to any funded legal orders.
 
-The starting settlement weights are Guild 4, Janissariat 3 and Ascendant 6. If those values remained unchanged, nine of the total thirteen weight would be required to pass a settlement.
+The starting settlement weights are Guild 3, Janissariat 3 and Ascendant 6. The Guild has one for each surviving asset and one per two Beacon. If those values remained unchanged, eight of the total twelve weight would be required to pass a settlement.
 
 Prepare the decision sheets
 
 The faction sheet records the round and one agreed assignment for each asset. Both teammates confirm their choices aloud; no signatures are needed. Representatives take their faction's approach to the councils themselves, without written instructions or requests.
 
-The council sheet records the round, current article and final order. Check spoken agreement from whoever holds authority under that article; do not collect initials. The Ascendant stays at Security and Government. If they hold Navigation authority, collect their final Navigation order there at the council deadline and record it for Navigation. Collect both councils' orders before revealing either. Do not relay proposals, requests or replies between tables. Record the Ascendant's foresight choice, reserve task and final Warrant on their worksheet.
+The council sheet lists every selected order and the single asset allocated to it. GN records Navigation and JS records Security after council discussion. The Ascendant records only their Warrant at Security; they do not select Navigation orders. Collect both programmes before revealing them. No cross-table messages or operational signatures are needed. Keep a separate public veto strip for each council, with next round, order, issuing party and expiry.
 
 The public record shows the three tracks, available assets, completed contracts, remaining tokens, current articles and binding commitments. Faction drafts and current plans stay with their faction; do not announce them before the Ascendant's choice. Publish final assignments when the faction phase ends. The Ascendant learns current plans through visits after choosing, not through a compulsory statement of intentions.
 
@@ -62,159 +64,145 @@ The faction phase has one five-minute deadline. Guild and Janissariat players ta
 
 Record the Ascendant's choice before allowing visits. Pay before dealing the exact answer; publish expenditure and remaining foresight, not the chosen council. A choice completes that round's opportunity: no swaps or second purchase. NONE also permits visits. Record NONE if no single valid choice arrives before the phase ends. After choosing, the Ascendant may visit either faction, revisit it, relay offers and share the vision. Do not combine the factions into a table discussion. Unlocked assignments and Grey Petrel's task remain revisable until the faction deadline; the clock does not restart.
 
-At the faction bell, ask both faction members to confirm the same assignments. Record one final faction sheet. If either has not confirmed or they disagree, apply the faction defaults; an activated Standing Commitment still overrides them. Mark unavailable assets Absent and record one reserve task. At the council bell, check the current authority and ask the required decision-makers to confirm the final order; also confirm the Warrant. Resolve the recorded decisions. No signatures or initials are needed. During the council phase, keep GN and JN at Navigation, and GS, JS and A at Security. Players may speak only with their council; no visits, calling across, teammate consultations or messages between councils. Rules questions may come to the facilitator, but do not use that route to coordinate decisions. Cross-council plans must be made in earlier phases.
+At the faction bell, confirm matching faction assignments or apply defaults and then Standing Commitments. Mark unavailable assets absent and record Grey Petrel's assignment. At the council bell, check selected orders against current vetoes and single-use assets; collect both programmes and the Warrant before revealing either. Keep GN and JN at Navigation and GS, JS and A at Security. Resolve the mechanical result during the Free Phase, then collect next-round vetoes under the existing articles before enacting new articles. The five-minute phase does not restart for these recording steps.
 
 In the browser, record the Ascendant's foresight choice first. Faction chat is available from the start; visits open only after the choice has been recorded. The two factions have separate visit conversations with the Ascendant. Final commitments end the same faction phase. An older saved session may contain draft records; keep those drafts within the faction and do not use them to brief the Ascendant.
 
 Resolve in this order
 
-Facilitator only. Players choose from qualitative asset and order descriptions. Keep the numerical effects, thresholds, preparation order and concealed scenario conditions behind your screen. This changes what players know, not the underlying outcomes.
+Facilitator only. Players know ownership, assignments, requirements, vetoes, duties and public state. Keep the following numerical effects and concealed scenario conditions behind the screen. Explain observed events without announcing formulas.
 
-Players still know ownership, available assignments, assets needed for each operation, Charter authority and duties, public track values and descriptions, foresight costs and final settlement weights. Explain those openly. Do not give a numerical preview of an operation or confirm a hidden condition for free. If asked, explain its stated purpose and known risks; use the printed rules to resolve it.
+Prepare the worksheet
 
-Prepare a resolution worksheet
+Record opening Beacon, Stability and Readiness, available assets, completed contracts, reserve and foresight, articles, vetoes and Standing Commitments. Copy faction assignments, each selected council order with its asset, and the Warrant. Start Stability change at −1 for monthly consumption. Keep separate entries for prepared Beacon, transport wear, private commercial wear, protection, delivered relief, delivered troops and qualifying combat.
 
-Record the round; opening Beacon, Stability and Readiness; available assets; foresight and Grey Petrel tokens; completed contracts; current articles; and binding Standing Commitments. Copy the final assignments, the two council orders and the Warrant choice. Use opening Readiness throughout, not a value adjusted midway through resolution.
+1. Check assignments and order requirements
 
-Keep separate working entries for Stability change, crossing wear, prepared Beacon, guarded status, delivered council passage, completed Trade and qualifying combat. Start Stability change at −1 for monthly consumption; wear at 0; guarded, delivered, Trade and combat at No. Do not change public track counters until all effects have been added. New losses take effect for future rounds, after this round's assigned actions have been resolved.
+Each faction confirms matching assignments. Missing agreement uses defaults: Wayfarer Fulfil Commercial Contract, Lantern Maintain the Narrows, Spear Stand Down, Vigil Defend Army Bases. A Standing Commitment overrides a conflicting choice or default. Lost assets are unavailable. The Ascendant assigns Grey Petrel Offer Council Service, Protect the Navigators or Retain the Cutter; missing choice means retention.
 
-1. Confirm assignments and authority
+Each asset and each printed order can be used once per round. GN allocates offered Navigation assets, including Grey Petrel; JS allocates offered army assets. No authority holder approves these orders. Check each against current vetoes. A veto bars its independent equivalent too: Intercept a Patrol cannot evade a veto through a faction assignment, and a Warrant cannot evade a Protect the Passage veto.
 
-Each faction's two players must confirm matching assignments. If either fails to confirm or they disagree, use Guild defaults Wayfarer Trade / Lantern Maintain, or Janissariat defaults Spear Stand down / Vigil Home. For an agreed sheet with a missing or multiple choice for one asset, use that asset's default. Apply a binding Standing Commitment over any contrary choice or default. Record lost Wayfarer, Lantern or Spear as Absent.
+An invalid, unfunded or vetoed order is not attempted and takes no failure penalty merely for being invalid. Resolve double allocations with the owner before the deadline. If they remain unresolved, remove all orders competing for that asset; retain other valid orders. The browser rejects a conflicting submission so the owner can correct it; a missing valid final programme means no council orders. A funded operation may still fail later and pay its printed consequence.
 
-Interim and NI give Navigation authority to the Ascendant; NG gives it to GN; NJ requires GN and JN to agree. Interim and MI give Security authority to the Ascendant; MA gives it to JS; MJ requires GS and JS to agree. Missing, conflicting or unauthorised orders become Hold for Navigation or Restraint for Security, with no penalty for invalidity alone. Collect both final orders before revealing either. The Ascendant gives any Navigation order from Security at the deadline.
+2. Resolve the Warrant and passage protection
 
-Record Grey Petrel's lodged task: Relief lift, Tender cover or Keep. A missing task means Keep. If its reserve was already spent, use Keep. An untriggered task retains the reserve for the next round. Private Trade, Maintain and independent Raid do not require council authorisation.
+A Warrant under Interim or MI needs opening Readiness at least 3 and offered Vigil. If Protect the Passage is vetoed, no Warrant operation is attempted. Otherwise an effective Warrant marks Vigil used, gives protected status and Stability +1. A Warrant under Interim or MI lacking Readiness or offered Vigil costs Stability −1. Under MA or MJ it is advice only, with no effect or penalty.
 
-2. Resolve the Warrant
+Protect the Passage with offered, unused Vigil gives protected status and Stability +1. If a valid Warrant already used Vigil, remove the duplicate council order without another penalty. Protection is not combat and does not repair the route. Other orders using separate assets still proceed.
 
-An effective Warrant requires Interim or MI military authority, opening Readiness at least 3 and Vigil assigned to Council. It uses Vigil first, gives guarded status and adds Stability +1. Mark Vigil used; Security may still use offered Spear for a different order.
+3. Fund Navigation orders
 
-Under Interim or MI, a Warrant lacking Readiness or offered Vigil fails: Stability −1. Under MA or MJ it is advice only, with no effect or failure penalty. A missing or unconfirmed Warrant means No. The Warrant itself is not combat.
+Deliver Relief needs one offered Wayfarer, Lantern or Grey Petrel. Transport Troops needs one offered Wayfarer or Grey Petrel. Repair the Narrows needs offered Lantern. Allocate different ships to simultaneous orders. There is no Shared order and no automatic substitute ship.
 
-3. Resolve Guard
+Grey Petrel must have been assigned Offer Council Service. If allocated to either transport order, spend its reserve token now, even if the route later halts it. If offered but unused, retain the token. Protect the Navigators cannot also provide transport. A spent cutter is unavailable.
 
-If Security ordered Guard and Vigil is offered and unused, mark it used, set guarded status and add Stability +1. Otherwise Guard becomes Restraint and adds Stability −1. This includes a simultaneous Guard when a valid Warrant already used Vigil. Guard does not count as combat.
+4. Prepare the route
 
-4. Check Navigation's assets
+Prepared Beacon equals opening Beacon, plus 1 for available Lantern on Maintain the Narrows, plus 2 for a funded Repair the Narrows. Cap at 4. Lantern cannot perform both tasks or carry relief at the same time. All voyages use this prepared value; deduct wear only after resolving the round.
 
-Relief needs offered Wayfarer. If Wayfarer was not offered and available Grey Petrel has Relief lift lodged, the reserve supplies this voyage and is spent immediately, even if poor Beacon later halts it. Grey Petrel cannot replace a ship for Military or Shared.
+5. Resolve both transport orders
 
-Military needs offered Wayfarer. Shared needs both offered Wayfarer and offered Lantern. Repair needs offered Lantern. Hold needs no asset. If an authorised order lacks its requirement, change it to Hold and add Stability −1 once, even if Shared lacks both assets. This failed order cannot also receive the halted-voyage penalty.
+At prepared Beacon below 2, each funded transport order is halted and costs Stability −1. Neither delivers its cargo. At 2 or more, Deliver Relief adds Stability +2 and delivers civilian relief; Transport Troops provides the passage needed for Attack the Anchorage without a Stability bonus. Resolve each selected order once.
 
-5. Prepare the route
+If either or both funded transport orders were selected, mark exactly one transport wear for the round. This is a scheduling cost even if a funded voyage is halted. An invalid or vetoed order is not selected for this purpose. Grey Petrel transport follows the same rule. Two transports do not double this wear.
 
-Prepared Beacon equals opening Beacon, plus 1 if available Lantern is assigned Maintain, plus 2 for a funded Repair. Cap prepared Beacon at 4. Lantern cannot do both jobs. Keep this prepared value for every voyage in the round; do not subtract crossing wear yet.
+6. Resolve the commercial contract
 
-6. Resolve the council voyage
+Wayfarer on Fulfil Commercial Contract completes at prepared Beacon 3–4, or at 2 with protection: add one contract and one separate commercial wear. At prepared Beacon 2 without protection, disable Wayfarer with no contract and one commercial wear. Below 2 it remains intact in port, with no contract or commercial wear.
 
-For a funded Relief, Military or Shared order, prepared Beacon below 2 halts the voyage. Add Stability −1; deliver no cargo or military passage; add no wear. Otherwise deliver the voyage and add one crossing wear. Relief adds Stability +2. Shared adds Stability +1 and provides military passage. Military provides military passage with no supply bonus. Shared is one voyage, not two.
+Commercial wear is additional to the single council transport wear. Wayfarer cannot complete a contract while offered to council service, even if unused. Lantern and Grey Petrel cannot complete this contract instead.
 
-Repair and Hold make no council crossing. Grey Petrel Relief has the ordinary Relief cargo effect and crossing wear if it departs. It cannot carry Spear for Campaign.
+7. Apply service duties
 
-7. Resolve private Trade
+Each faction takes at most one Stability −1 duty penalty in a round; lost assets and vetoes do not waive duties. Guild under Interim owes no service. Under NG, Lantern must Maintain the Narrows or carry out funded Repair the Narrows. Under NI or NJ, Wayfarer must Offer Council Service. Offering Grey Petrel does not substitute for Wayfarer.
 
-If available Wayfarer is assigned Trade, it completes its voyage at prepared Beacon 3–4, or at 2 with guarded status. Add one completed contract and one crossing wear. At prepared Beacon 2 without protection, disable Wayfarer: no contract, but still one wear. Below 2 it stays intact in port: no contract and no wear.
+Under Interim, an actual independent Intercept a Patrol assignment breaks Janissariat discipline. Under MI or MJ, Spear must Offer Council Service. Under MA, Vigil must Defend Army Bases. A vetoed independent interception does not launch and therefore does not itself break Interim discipline; other assignment duties still apply.
 
-Wayfarer cannot Trade while offered to Council, even if the council leaves it unused. A private Trade and a Grey Petrel Relief voyage may both cross; they use the same prepared Beacon and each adds wear. One commercial opportunity exists per round; a missed contract cannot be made up by doubling Trade later.
+8. Resolve army operations
 
-8. Apply Charter duties
+Attack the Anchorage uses offered Spear. Without delivered Transport Troops, it cannot leave: Stability −1, no combat, Spear intact. With passage it still costs Stability −1. At opening Readiness 2 or more it achieves qualifying combat. At 0–1 disable Spear with no qualifying combat.
 
-Each faction takes at most one Stability −1 duty penalty in a round. Duties apply even if the required asset was lost. This is additional to operation failures, fighting, consumption and scenario effects.
+Intercept a Patrol uses Spear, either offered to the council or independently assigned, never both. Every actual interception costs Stability −1. In round one its target is present only if Wayfarer's commercial contract completed. In round two its target is present only if Deliver Relief was delivered, by any of the three eligible vessels. Simultaneous Transport Troops does not cancel that condition.
 
-Guild under Interim: no service duty. NG: Lantern must Maintain or Navigation must deliver a funded Repair; merely offering Lantern does not suffice. NI or NJ: Wayfarer must be assigned Council, whether it sails or not. Grey Petrel does not satisfy that duty.
+If no target is present, Spear returns intact without combat. If present at opening Readiness 2 or more, add another Stability −1 and record qualifying combat. If present at Readiness 0–1, disable Spear; add no further Stability loss and no qualifying combat. The target never starts an interception by itself.
 
-Janissariat under Interim: an independent Raid breaks discipline. MI or MJ: Spear must be assigned Council. MA: Vigil must stay Home; an independent Raid is permitted if it does. These duties do not transfer ownership or create an asset that was withheld.
+9. Apply scenario conditions
 
-9. Resolve Campaign and Raid
+Round one: if Lantern delivers civilian relief without protection, lose Lantern's navigation team. Grey Petrel assigned Protect the Navigators prevents this loss and spends its token. Protection prevents it without calling on the cutter. No delivered Lantern relief means no crew-loss trigger. Wayfarer and Grey Petrel relief do not trigger this specific threat.
 
-A council Campaign or Raid needs offered Spear. Without it, that council order becomes Restraint and adds Stability −1. A separately assigned independent Raid still resolves and pays its own costs. Never use Spear twice.
+Round two: delivered Transport Troops without protection costs an additional Stability −1, even if civilian relief also arrived. Protect the Navigators cannot prevent this stores loss. A funded Repair the Narrows combined with a completed Wayfarer commercial contract gives Stability +1. Grey Petrel can carry troops while the other two Guild assets repair and trade, so both conditions can occur together.
 
-Campaign with offered Spear but without delivered Military or Shared passage does not leave: Stability −1, Spear remains intact, no combat. With passage, Campaign still costs Stability −1. At opening Readiness at least 2 it achieves qualifying combat; at 0–1 disable Spear and record no qualifying combat.
+Apply these conditions whether a prophecy was purchased or not. Qualitative handouts reveal the same conditional events without the arithmetic. Foresight cannot lift a public veto, restore an asset or guarantee that a player chooses an available order.
 
-For each actual Raid, add Stability −1 for disruption. In round one the target is present only if private Wayfarer Trade completed. In round two it is present only if the authorised funded Navigation order is Relief and the voyage was delivered; Grey Petrel Relief qualifies, but Shared, Military and Trade do not.
+10. Finish tracks and assets
 
-If the Raid target is absent, Spear stays intact and there is no combat. If present at opening Readiness at least 2, add a further Stability −1 and record qualifying combat. If present at Readiness 0–1, disable Spear, with no further Stability loss and no qualifying combat. The target's presence never causes a Raid unless one was actually assigned or ordered.
+Readiness changes once: +1 if any operation achieved qualifying combat, otherwise −1. Protection, routine upkeep, defending bases and unsuccessful expeditions do not provide combat. Final Beacon equals prepared Beacon minus the single transport wear and any commercial wear. Final Stability equals opening Stability plus the complete change ledger. Clamp each final track to 0–4 after adding all effects.
 
-10. Apply the other scenario conditions
+Record losses, contracts and triggered reserve use. Assigned actions use the opening availability; new losses prevent use in later rounds. Vigil stays intact. Surviving faction assets return; Grey Petrel follows its one-service contract. Expire Standing Commitments after round-two operations. Nothing here restores a lost asset.
 
-Round one: delivered Shared passage without guarded status loses Lantern's navigation team. If available Grey Petrel has Tender cover lodged, prevent that loss and spend the reserve. Guard or a valid Warrant prevents the loss without triggering Tender cover. Tender cover gives no general guarded status and has no round-two trigger.
+11. Announce the result
 
-Round two: delivered Military passage without guarded status adds Stability −1. Tender cover does not protect these stores. Separately, a funded council Repair together with completed private Trade adds Stability +1. Maintain is not Repair. These two round-two effects cannot both trigger because Wayfarer cannot both Trade and serve Military passage.
+Publish both programmes, the new track values and descriptions, losses, completed contracts and reserve expenditure. Describe what occurred in the fiction. Keep the numerical worksheet and unpurchased conditions behind the screen. Update settlement weights using the public rulebook.
 
-Apply these conditions whether a vision was bought or not. The private answer cards below restate the conditions. The qualitative handouts reveal the same causal information without giving the arithmetic to players.
+12. Record vetoes for the following round
 
-11. Finish the tracks and assets
+After the first result, use the existing articles, before enacting replacements. Interim or NI grants A one Navigation veto; NG grants GN one. Interim or MI grants A one Security veto; MA grants JS one. Each may name one order or None. There is no approval gate over the other party's choice.
 
-Readiness changes once: +1 if any operation achieved qualifying combat, otherwise −1. Guard, Home, food, an unsuccessful expedition and a Warrant do not count as combat. Final Beacon equals prepared Beacon minus all crossing wear. Final Stability equals opening Stability plus the complete change ledger. Clamp each final track to 0–4 only now.
+For NJ or MJ, identify contributing parties from this round's final assignments: any available faction asset on Offer Council Service qualifies its faction; Grey Petrel on Offer Council Service qualifies A. Count offered service even if unused or subsequently lost. Maintenance, private contracts, independent interceptions, defending bases and navigator rescue do not qualify. Each contributing party gets one independent veto in each Joint council, exercised by its delegate there or A. Do not count one per player or asset.
 
-Mark losses of Wayfarer, Lantern's team and Spear; add completed contracts; mark Grey Petrel spent only when triggered. Vigil stays intact. No available action restores lost assets during this game. Repair affects Beacon only. Surviving assets return to their owners for the next assignment. Expire a Standing Commitment after its round-two operation, not before.
-
-12. Announce the result
-
-Show both final orders, the new track values and their descriptions, lost or surviving assets, contracts and reserve expenditure. Describe events in the fiction: supplies arrived, a convoy was halted, a patrol was intercepted, the cohort failed to find combat, or navigators were lost. Do not display the worksheet, formulas, thresholds, event ledger or unpurchased vision conditions. Players may draw conclusions from experience; do not invent misleading events to conceal a calculation.
-
-Update public settlement weights using the rulebook. The rules for who decides, how to commit an asset, buying foresight and ratifying the settlement remain public. Keep detailed arithmetic in the facilitator record for checking the result and discussing the design after play.
+Collect the choices before revealing them together. Missing choice means None; multiple choices on one party's line mean None unless corrected by the deadline. Apply every valid veto. Duplicate names block the order only once; different names can block several or all orders. Record issuer and expiry after the following round. New articles do not remove these vetoes or grant another set. No operational round follows round two, so skip new vetoes then.
 
 Worked resolution
 
-Begin round one at Beacon 2, Stability 3, Readiness 3. Guild offers Wayfarer and Lantern; the army offers Spear and Vigil. Navigation orders Shared; Security orders Campaign; the Ascendant issues a Warrant and keeps Grey Petrel.
+Begin round one at Beacon 2, Stability 3 and Readiness 3. Offer all four faction assets. Navigation allocates Lantern to Deliver Relief and Wayfarer to Transport Troops. Security allocates Spear to Attack the Anchorage and Vigil to Protect the Passage. The Ascendant retains Grey Petrel and issues no Warrant.
 
-The Warrant uses Vigil, gives guarded status and adds Stability +1. Shared is funded. Lantern is offered, not maintaining, so prepared Beacon stays 2. Shared departs, adds Stability +1 and one wear. There is no Trade and no duty breach. Campaign receives passage and offered Spear, costs Stability −1 and achieves combat. Guarded status prevents the round-one crew loss. Including consumption −1, the Stability change is 0. Finish at Beacon 1, Stability 3 and Readiness 4. All assets survive; no contract is completed; Grey Petrel remains available.
+Protection adds Stability +1. Both transports are funded; Lantern cannot also maintain. Prepared Beacon remains 2. Relief adds Stability +2; troop transport supplies the attack. Together they produce one transport wear. The attack costs Stability −1 and sustains combat. Protection prevents Lantern's crew loss. Consumption costs Stability −1, giving total Stability change +1. Finish at Beacon 1, Stability 4, Readiness 4, with all assets intact, no contract and Grey Petrel retained.
 
-Tell players: civilian supplies and the cohort crossed together; Vigil protected the passage; the Campaign fought successfully; the route is deteriorating after use. Show the final tracks and the missed contract. Keep the separate modifiers on your worksheet.
+This cooperation still costs the Guild a contract and a month of route upkeep. Next-round vetoes and constitutional duties remain political choices. From the same starting state, spending Grey Petrel on relief instead allows Lantern to repair while Wayfarer transports troops: the empire gains upkeep, but the Ascendant gives up its sole contracted service.
 
 Fixed visions: facilitator-only answers
 
-The following are the fixed private answers. The public covers name the primary council and other affected councils, without these descriptive titles or specific choices. These effects happen whether or not the Ascendant buys the card. All four answers concern choices still open when foresight is purchased: unlocked asset assignments and Grey Petrel's task can change during subsequent visits, and council orders and the Warrant are decided later. Standing Commitments, losses and lack of authority may limit a particular intervention. Do not promise that a purchase will be useful or refund it if the relevant option is unavailable.
+These conditions apply whether anyone buys the vision or not. Only give the chosen qualitative handout to the Ascendant. The cover names councils, not specific choices. Existing vetoes and losses may restrict what can change; there is no refund.
 
-Vision R1-N
+R1-N — The exposed transfer
 
-The exposed transfer
+If Lantern delivers civilian relief without passage protection: Lose Lantern. If available Grey Petrel is assigned Protect the Navigators, spend its reserve instead and preserve Lantern.
 
-Shared crosses without protection → If funded Shared passage is delivered and there is no funded Guard or valid Warrant, Lantern’s navigation team is lost. A lodged, available Grey Petrel on Tender cover prevents this loss and is spent.
+If Lantern delivers civilian relief with passage protection: No crew loss. A funded Protect the Passage order or effective Warrant prevents it; the rescue reserve is not triggered.
 
-Shared crosses with protection → A funded Guard or valid Warrant prevents this crew loss. Tender cover does not trigger and stays available.
+If Lantern does not deliver civilian relief: No crew-loss trigger. Funded but halted transport still pays its normal failure consequence and the round’s single transport wear.
 
-Shared does not cross → This crew-loss effect does not occur. An unfunded or halted order still has its normal cost.
+Lantern must be offered to Navigation and allocated to Deliver Relief. Prepared Beacon 2+ delivers the voyage. Protection prevents the loss; navigator rescue prevents only this specific loss. Protection does not repair Beacon.
 
-Shared needs both Wayfarer and Lantern on Council. Passage still needs prepared Beacon 2+. Guard needs offered Vigil; a Warrant also needs imperial authority and opening Readiness 3+. Protection does not repair Beacon or avoid crossing wear.
+R1-S — The merchant’s wake
 
-Vision R1-S
+If Wayfarer completes its commercial contract and Spear intercepts a patrol: The interception finds its target. At opening Readiness 2+, it achieves combat at total Stability −2. At Readiness 0–1, disable Spear: Stability −1 and no qualifying combat.
 
-The merchant’s wake
+If No commercial contract completes and Spear intercepts a patrol: The interception costs Stability −1, but there is no combat and Spear remains intact. Neither council transport substitutes for a completed private contract.
 
-Wayfarer completes private Trade → A Raid finds the target. At opening Readiness 2+, it fights: total Raid cost Stability −2 and the round’s combat change is Readiness +1. At Readiness 0–1, Spear is disabled: Raid costs Stability −1 and there is no qualifying combat from that Raid.
+If Spear does not intercept a patrol: No interception effects. Resolve any attack on the anchorage separately.
 
-No completed private Trade → The Raid finds no target. It costs Stability −1, Spear remains intact, and it provides no qualifying combat. Council Relief, Military or Shared passage does not substitute for a private contract.
+A commercial assignment is not enough: the contract must complete. With no qualifying combat, Readiness falls by 1 once. Consumption and duty breaches are additional.
 
-No Raid → These Raid effects do not occur. Campaign and other orders follow their own rules.
+R2-N — Stores at the crossing
 
-A Trade assignment is not enough: the voyage must complete under the public Beacon and protection rules. If no operation achieves combat, Readiness falls by 1 once. Duty breaches and monthly consumption are additional; tracks stay within 0–4.
+If Troop transport arrives without passage protection: Delivered Transport Troops without funded Protect the Passage or an effective Warrant adds Stability −1. This also applies when civilian relief arrives in the same round.
 
-Vision R2-N
+If The Narrows are repaired and Wayfarer completes its commercial contract: Funded Repair the Narrows and a completed private Wayfarer contract add Stability +1. Routine maintenance does not qualify.
 
-Stores at the crossing
+If Neither condition occurs: Neither extra Stability effect occurs. Resolve all other effects normally.
 
-Military passage crosses unguarded → Delivered Military passage without funded Guard or valid Warrant causes an extra Stability −1. Protection prevents this extra loss. Grey Petrel’s Tender cover does not protect these stores.
+Repair adds 2 to prepared Beacon, capped at 4, before voyages. Both conditions can occur: Grey Petrel may carry troops while Lantern repairs and Wayfarer trades. Protection removes the stores loss without removing the distribution benefit.
 
-Funded Repair and completed Trade → A funded council Repair together with a completed private Wayfarer Trade gives Stability +1 from distribution. Both must happen. Lantern must be on Council for Repair; Maintain is not Repair.
+R2-S — The relief column
 
-Neither condition → Neither extra supply effect applies. Relief and Shared receive their normal cargo effects; other cards and ordinary costs still apply.
+If Civilian relief arrives and Spear intercepts a patrol: The interception finds its target after delivered Deliver Relief from Wayfarer, Lantern or Grey Petrel. At opening Readiness 2+, it achieves combat at total Stability −2. At 0–1, disable Spear: Stability −1 and no qualifying combat.
 
-Repair adds 2 to prepared Beacon, capped at 4, before voyages. Trade must complete. Military needs Wayfarer on Council, so it cannot also make private Trade. These two extra effects cannot both trigger in the same round.
+If Civilian relief does not arrive and Spear intercepts a patrol: No target: Stability −1, no qualifying combat and Spear remains intact. Troop transport and private trade do not qualify.
 
-Vision R2-S
+If Spear does not intercept a patrol: No interception effects. A vetoed interception does not launch and incurs no interception cost.
 
-The relief column
-
-Relief is delivered → A Raid finds the target if the authorised, funded Navigation order is Relief and its voyage actually crosses. Grey Petrel Relief lift counts. At opening Readiness 2+, Raid costs Stability −2 total and achieves combat; at 0–1, Spear is disabled, Raid costs Stability −1 and provides no qualifying combat.
-
-Relief is not delivered → The Raid finds no target, costs Stability −1, leaves Spear intact and provides no qualifying combat. A proposed, unfunded or halted Relief order does not qualify. Shared, Military and private Trade do not qualify.
-
-No Raid → Relief alone does not cause an attack or a Raid penalty. These effects require an actual Raid assignment or funded council Raid.
-
-Combat changes Readiness by +1 once; no successful combat changes it by −1 once. Ordinary cargo, Guard, duty breaches and consumption still apply. A council Raid needs offered Spear; an independent Raid uses its own assignment.
+Delivered civilian relief qualifies even if Transport Troops also succeeds. A standing interception veto bars both the council and independent versions. Readiness changes once after all operations.
 
 Trial and final votes
 
@@ -226,7 +214,7 @@ Show the exact final package with five rows, one for each player, and two boxes 
 
 Checks and debrief
 
-Cooperation: assets remain scarce, a peaceful month reduces army and Ascendant leverage, and a public ship assignment forgoes a contract. Withheld resources: a directive cannot requisition them automatically. Conflicting orders: check the required decision-makers' agreement before funding. Averted prophecy: a guarded first-round Shared passage or triggered Tender cover prevents the printed crew loss. Failed ratification: expire articles without healing anything.
+Check cooperation with separate ships, a vetoed order, two orders competing for one asset, a halted double transport, averted Lantern loss, and several Joint contributor vetoes. Check that Grey Petrel cannot transport and rescue in the same month. Compare a missed contract with a permanently lost asset. Failed ratification expires the articles without repairing anything.
 
 Ask for starting and ending constitutional preferences and the event that changed them. Ask each player which teammate contribution mattered. For foresight, distinguish assignment changes, changes in the approach to councils, final order changes, bargaining conditions and confidence. A remaining third token is unavoidable if there were two purchases; do not code it as deliberate saving.
 
@@ -234,44 +222,44 @@ The migrated six-agent run found a useful first purchase and a mostly confirmato
 
 Prophecy handouts for the Ascendant
 
-Give only the chosen handout after payment. Keep the exact answer and arithmetic above behind your screen. These handouts reveal conditional events, not numerical modifiers.
+These conditions apply whether anyone buys the vision or not. Only give the chosen qualitative handout to the Ascendant. The cover names councils, not specific choices. Existing vetoes and losses may restrict what can change; there is no refund.
 
 R1-N — The exposed transfer
 
-If Shared passage is delivered without protection: Lantern's navigation team is lost. Grey Petrel on Tender cover can save the team, using its contracted service.
+If Lantern delivers civilian relief without passage protection: Lantern's navigation team is lost. Grey Petrel assigned Protect the Navigators can save the team, spending its contracted service.
 
-If Shared passage is delivered with Guard or an effective Warrant: The navigation team survives this threat. Tender cover is not called upon.
+If Lantern delivers civilian relief with passage protection: The navigation team survives this threat. Grey Petrel is not called on for rescue.
 
-If Shared passage is not delivered: This threat does not take the navigation team. A failed or halted operation can still have other consequences.
+If Lantern does not deliver civilian relief: This threat does not take the navigation team. Other operations and risks still apply.
 
-You can seek protection, change the voyage or arrange Tender cover while the relevant decisions remain open. Protection does not mend the route.
+You can seek protection, change which vessel carries relief, repair instead, or arrange navigator rescue while those choices remain open.
 
 R1-S — The merchant’s wake
 
-If Wayfarer's private Trade voyage completes and Spear makes a Raid: The Raid finds the Sorenne patrol. A force able to sustain combat fights and strengthens its conditioning, at a further cost to civilian life. A force too weakened to fight is disabled instead.
+If Wayfarer completes its commercial contract and Spear intercepts a patrol: The expedition finds the Sorenne patrol. A capable force fights and sustains its conditioning, at a further cost to civilian life. A force too weakened to fight is disabled instead.
 
-If No private Trade voyage completes and Spear makes a Raid: The patrol is not found. The expedition disrupts civilian traffic without sustaining the cohort through combat. Council cargo does not substitute for a commercial voyage.
+If No commercial contract completes and Spear intercepts a patrol: The patrol is not found. The expedition disrupts civilian traffic without sustaining the cohort through combat. Council cargo does not substitute for the commercial voyage.
 
-If No Raid takes place: These Raid consequences do not occur. Campaign and other orders have their own consequences.
+If Spear does not intercept a patrol: These interception consequences do not occur. An attack on the anchorage and other operations have their own consequences.
 
-Agreeing to Trade is not enough: the voyage must complete. Consider whether to offer Spear to the council, raid independently or avoid the expedition while those choices remain open.
+The Guild can change its vessel assignment before the faction bell. Security can choose an attack instead of an interception if Spear was offered and troop transport is available.
 
 R2-N — Stores at the crossing
 
-If Military passage is delivered without Guard or an effective Warrant: Stores are lost in the loading arrangements, worsening civilian shortages. Protection prevents this extra loss; Tender cover cannot protect the stores.
+If Troop transport arrives without passage protection: Stores are lost during loading, worsening civilian shortages. Protection prevents this extra loss; navigator rescue cannot protect the stores.
 
-If Council Repair is carried out and private Wayfarer Trade completes: The repaired route and completed commercial voyage improve distribution to Sorenne’s Fall. Both must happen. Routine Maintain work is not this Repair operation.
+If The Narrows are repaired and Wayfarer completes its commercial contract: The combination improves distribution to Sorenne’s Fall. Both operations must happen. Routine maintenance is not the council repair operation.
 
-If Neither condition occurs: Neither of these additional supply effects occurs. Other cargo, operation and scenario effects still apply.
+If Neither condition occurs: Neither additional supply effect occurs. The ordinary consequences of other operations still apply.
 
-You can seek a different use of the ships or protection while the relevant assignments and orders remain open. This vision promises no extra benefit for an ordinary Relief voyage.
+Seek passage protection or a different allocation of the vessels. Civilian relief does not cancel the loss of military stores. These two conditions can both occur.
 
 R2-S — The relief column
 
-If Relief is delivered and Spear makes a Raid: The relief traffic brings the Sorenne patrol within reach. A force able to sustain combat fights, strengthening its conditioning but further disrupting civilian life. A force too weakened to fight is disabled instead. Grey Petrel Relief also draws the patrol.
+If Civilian relief arrives and Spear intercepts a patrol: The relief traffic brings the Sorenne patrol within reach. A capable force fights and sustains its conditioning, disrupting civilian life further. A force too weakened to fight is disabled instead. Any of the three relief vessels can draw the patrol.
 
-If Relief is not delivered and Spear makes a Raid: The patrol is not found. The expedition disrupts civilian traffic without achieving combat. Shared passage, Military passage and private Trade do not draw this patrol.
+If Civilian relief does not arrive and Spear intercepts a patrol: The patrol is not found. The expedition disrupts traffic without achieving combat. Troop transport and a private commercial voyage do not draw this patrol.
 
-If No Raid takes place: Relief alone does not cause an attack. The army must actually launch a Raid for these Raid consequences to occur.
+If Spear does not intercept a patrol: Relief alone causes no attack. Spear must launch an interception for these consequences to occur.
 
-Consider the Navigation order and whether Spear will raid. Council orders remain open after assignments lock, but an independent Raid cannot then be cancelled by a council.
+Consider whether Navigation will deliver civilian relief and whether Spear will intercept the patrol. Existing vetoes and commitments restrict choices; they do not compel an otherwise legal order.

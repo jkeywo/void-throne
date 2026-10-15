@@ -1,0 +1,20 @@
+{
+  "id": "R1-N",
+  "title": "The exposed transfer",
+  "branches": [
+    {
+      "condition": "Lantern delivers civilian relief without passage protection",
+      "consequence": "Lose Lantern. If available Grey Petrel is assigned Protect the Navigators, spend its reserve instead and preserve Lantern."
+    },
+    {
+      "condition": "Lantern delivers civilian relief with passage protection",
+      "consequence": "No crew loss. A funded Protect the Passage order or effective Warrant prevents it; the rescue reserve is not triggered."
+    },
+    {
+      "condition": "Lantern does not deliver civilian relief",
+      "consequence": "No crew-loss trigger. Funded but halted transport still pays its normal failure consequence and the round’s single transport wear."
+    }
+  ],
+  "ruleset": "vt:rules:asset-orders-v0.4",
+  "public_rules": "Lantern must be offered to Navigation and allocated to Deliver Relief. Prepared Beacon 2+ delivers the voyage. Protection prevents the loss; navigator rescue prevents only this specific loss. Protection does not repair Beacon."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "R2-N",
+  "title": "Stores at the crossing",
+  "branches": [
+    {
+      "condition": "Troop transport arrives without passage protection",
+      "consequence": "Stores are lost during loading, worsening civilian shortages. Protection prevents this extra loss; navigator rescue cannot protect the stores."
+    },
+    {
+      "condition": "The Narrows are repaired and Wayfarer completes its commercial contract",
+      "consequence": "The combination improves distribution to Sorenne’s Fall. Both operations must happen. Routine maintenance is not the council repair operation."
+    },
+    {
+      "condition": "Neither condition occurs",
+      "consequence": "Neither additional supply effect occurs. The ordinary consequences of other operations still apply."
+    }
+  ],
+  "ruleset": "vt:rules:asset-orders-v0.4",
+  "guidance": "Seek passage protection or a different allocation of the vessels. Civilian relief does not cancel the loss of military stores. These two conditions can both occur."
+}

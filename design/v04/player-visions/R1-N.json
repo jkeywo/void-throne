@@ -1,0 +1,20 @@
+{
+  "id": "R1-N",
+  "title": "The exposed transfer",
+  "branches": [
+    {
+      "condition": "Lantern delivers civilian relief without passage protection",
+      "consequence": "Lantern's navigation team is lost. Grey Petrel assigned Protect the Navigators can save the team, spending its contracted service."
+    },
+    {
+      "condition": "Lantern delivers civilian relief with passage protection",
+      "consequence": "The navigation team survives this threat. Grey Petrel is not called on for rescue."
+    },
+    {
+      "condition": "Lantern does not deliver civilian relief",
+      "consequence": "This threat does not take the navigation team. Other operations and risks still apply."
+    }
+  ],
+  "ruleset": "vt:rules:asset-orders-v0.4",
+  "guidance": "You can seek protection, change which vessel carries relief, repair instead, or arrange navigator rescue while those choices remain open."
+}

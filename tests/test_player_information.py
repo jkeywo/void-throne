@@ -28,7 +28,7 @@ class PlayerInformationTests(unittest.TestCase):
 
     def test_players_get_qualitative_vision_and_result_even_when_disclosed(self):
         for disclose in [False,True]:
-            m=Multiplayer();g=m.game
+            m=Multiplayer(legacy=True);g=m.game
             g.apply({'stage':'draft','choice':'Navigation'})
             rows={r:({'wayfarer':'Council','lantern':'Council'} if r.startswith('G') else {'spear':'Council','vigil':'Council'}) for r in ROLES if r!='A'}
             g.apply({'stage':'commit','assignments':rows,'reserve':'Keep','disclose':disclose})
@@ -68,8 +68,9 @@ class PlayerInformationTests(unittest.TestCase):
         self.assertIn('At prepared Beacon 2 without protection, disable Wayfarer',f)
 
     def test_facilitator_worked_example_matches_model(self):
-        st,detail=resolve(State(),rnd=1,w='Council',l='Council',s='Council',v='Council',nav='Shared',sec='Campaign',warrant=True,intervention='Keep')
-        self.assertEqual((st.beacon,st.communities,st.readiness),(1,3,4))
+        from void_throne.orders_v04 import resolve as current_resolve
+        st,detail=current_resolve(State(),l='Council',nav=[{'order':'Relief','asset':'Lantern'},{'order':'Military','asset':'Wayfarer'}],sec=[{'order':'Campaign','asset':'Spear'},{'order':'Guard','asset':'Vigil'}])
+        self.assertEqual((st.beacon,st.communities,st.readiness),(1,4,4))
         self.assertTrue(st.wayfarer and st.lantern and st.spear and st.reserve)
         self.assertEqual(st.contracts,0)
         for event in detail['events']:self.assertTrue(any(event.startswith(prefix) for prefix in OUTCOMES),event)
