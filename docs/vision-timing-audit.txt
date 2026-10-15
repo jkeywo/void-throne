@@ -1,0 +1,23 @@
+THE VOID THRONE — PROPHECY TIMING CHECK
+15 October 2026
+
+Current sequence
+Factions begin private discussion with their teammates. The Ascendant chooses one prophecy or NONE before visiting either faction or receiving its current plans. Covers reveal the primary and affected councils only. After the choice, the Ascendant may visit each faction separately, relay offers and share the answer. Unlocked assignments and Grey Petrel's task remain open until the single faction deadline. Council orders and the Warrant remain open until the council deadline. Prior discussions and public Standing Commitments may inform the initial choice.
+
+R1-N — The exposed transfer (private title)
+During visits: offer Vigil, change Guild assignments or lodge Tender cover. During councils: choose Guard, issue an eligible Warrant, or choose a voyage other than Shared. Same-assets check: Shared with Restraint loses Lantern's team; Shared with funded Guard preserves it.
+
+R1-S — The merchant’s wake (private title)
+During visits: change Wayfarer's Trade assignment, Lantern's route preparation or Spear's independent Raid. During councils: with Spear offered, choose Raid or another order; offered Lantern can Repair and offered Vigil can protect a marginal Trade voyage. Same-assets check: completed Trade plus council Raid achieves combat; Restraint does not. Once Spear is locked to an independent Raid, a later council order cannot cancel it. The early choice gives the Ascendant time to influence that assignment before it locks.
+
+R2-N — Stores at the crossing (private title)
+During visits: change Wayfarer/Lantern assignments or offer Vigil. During councils: change Military to another voyage, protect it with funded Guard or an eligible Warrant, or choose Repair alongside private Trade. Same-assets checks: Guard prevents the extra Military loading loss; funded Repair plus successful Trade adds one Stability compared with Hold plus the same successful Trade. Maintain does not count as Repair.
+
+R2-S — The relief column (private title)
+During visits: change Spear's assignment or lodge Grey Petrel Relief lift. During councils: choose Relief or another Navigation order, and Raid or another Security order. Same-assets check: delivered Relief enables a council Raid to find its target; Military does not. Relief never forces a Raid.
+
+Limits
+These are opportunities, not a guarantee of usefulness. Lost assets, Standing Commitments, low Beacon, low Readiness, delegated authority or unwilling owners may rule out an intervention. At opening Readiness 0–1, finding a Raid target disables Spear rather than achieving combat. No vision predicts agreement, refunds its cost or changes locked assignments. Both council names appear on each current cover because all four conditions link transport and security; the primary council distinguishes the two choices. The private descriptive title and conditions remain concealed until purchase.
+
+Evidence
+The focused timing checks exercise all four answers, including both R2-N branches, through the operational model. They also check optional spending, irreversible choice, private covers and answers, visits after choice, and faction chat isolation. This is a mechanical desk check, not a new six-agent or human playtest. Earlier simulation records remain unchanged and do not establish the effects of this new information sequence.

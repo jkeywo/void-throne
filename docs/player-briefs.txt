@@ -6,7 +6,7 @@ The Ductus Guild
 
 Two players · shared assets and objectives. Your Navigation delegate is GN; your Security delegate is GS.
 
-Agree asset assignments and negotiating priorities together before separating. Both players must agree your faction’s asset assignments; confirm them aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions.
+Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Both players then confirm the same assignments aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions.
 
 You operate the passage service through the Narrow. Wayfarer is your freight vessel; Lantern carries your navigation team and maintains the route. Those ships are needed for civilian supplies, military transport and your own commercial obligations.
 
@@ -28,7 +28,7 @@ The Janissariat
 
 Two players · shared assets and objectives. Your Navigation delegate is JN; your Security delegate is JS.
 
-Agree asset assignments and negotiating priorities together before separating. Both players must agree your faction’s asset assignments; confirm them aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions.
+Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Both players then confirm the same assignments aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions.
 
 You command Spear, the 9th Pale Cohort, and Vigil, the Narrow garrison. Spear has local assault craft, but needs Guild transport to campaign beyond the crossing. Vigil can protect traffic or remain at its institutional bases.
 
@@ -74,17 +74,17 @@ Foresight
 
 The Ascendant starts with three foresight tokens. Each unspent token adds one to their final settlement weight.
 
-During faction discussion, once the intended assignments and possible council decisions have been discussed, read the current Navigation and Security covers. Each states which decisions its concealed answer concerns. You choose when to request one answer before the faction bell, leaving time to discuss it and revise assignments. Pay one token before opening an answer. You may instead choose NONE, which costs nothing.
+At the start of each faction phase, choose your foresight before visiting either faction or hearing its plans for this round. Read the two covers: Navigation and Supply, and Security and Government. They identify the council at the centre of each prophecy and any other council it could affect. They do not reveal the action, condition, risk or reward. Choose one answer and pay one token before opening it, or choose NONE and retain your token. You may use the public state, existing commitments and anything learned in earlier phases to make this choice.
 
-There is at most one purchase per round. A choice must reach the facilitator before the faction bell; a missing, multiple or late choice means NONE. Choosing NONE also completes your choice for the round. Tokens do not recover, and there are no swaps, refunds or further purchases that month.
+There is at most one purchase per round. Your choice must reach the facilitator before you visit a faction and before the faction phase ends. A missing, multiple or late choice means NONE. Choosing NONE also completes your choice and permits visits. Tokens do not recover, and there are no swaps, refunds or further purchases that month. Waiting to choose leaves less time for visits; it does not extend the phase.
 
 The facilitator announces the expenditure and remaining tokens. The chosen card and its answer remain private unless the Ascendant shares them. You may show, describe, conceal or misrepresent the answer; the facilitator will not certify your claims to other players.
 
 An answer states what happens if its conditions occur. It does not tell you what players will choose or cover every possible risk. Those conditions apply whether anyone reads the card or not.
 
-Discussion can begin at the start of the faction phase and continues while you consider or use foresight. Until the faction bell, negotiate changes to unlocked assignments and your approach to the councils. Existing Standing Commitments remain binding. Avoiding a vision's condition averts its result; it does not make the vision false.
+While you choose, the two factions discuss privately with their own teammates. After your choice is recorded, you may visit either faction, return to one you visited earlier, relay offers and share or withhold your vision. Each visit is a conversation with that faction; do not bring the two factions together. Until the phase ends, factions can revise unlocked assignments and you can revise Grey Petrel's task. Existing Standing Commitments remain binding. Council orders and your Warrant are decided in the council phase. Avoiding a vision's condition averts its result; it does not make the vision false.
 
-Example: a cover concerns a voyage the Guild has proposed. Buying its answer may give the Ascendant grounds to request protection or a different assignment. If the relevant assignments are already locked, the information may be less useful than retaining the token's political weight.
+Example: you choose the Navigation prophecy before hearing the Guild's plan. During a later visit, you discover they intend a voyage mentioned in the answer. You can explain its consequences and ask for a different assignment or protection. The cover did not promise that their plan would make this prophecy useful. A lost asset or a Standing Commitment may limit what can change; spending a token does not guarantee a useful intervention.
 
 There are three tokens and at most one purchase in each of the two rounds. At least one token will remain. Keeping more requires choosing NONE in at least one round.
 

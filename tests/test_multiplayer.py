@@ -29,6 +29,8 @@ class MultiplayerTests(unittest.TestCase):
             response=self.m.approve(r,r);self.tokens[r]=response['direct'][r]['token']
     def send(self,r,row):return self.m.receive(r,dict(type='sheet',id=str(self.m.revision),epoch=self.m.epoch,sheet=row))
     def step(self,a):
+        # The preserved script contains pre-choice drafts; current play omits that step.
+        if a['stage']=='draft':return
         for r in self.m.required():self.send(r,row_for(a,r))
         self.m.advance(self.m.epoch,a)
     def test_five_independent_sheets_reproduce_physical_ending(self):
@@ -40,6 +42,7 @@ class MultiplayerTests(unittest.TestCase):
         self.assertIn('Human-seat multiplayer record',self.m.report().decode())
     def test_current_players_submit_without_requests_or_signature_fields(self):
         for action in SCRIPT:
+            if action['stage']=='draft':continue
             for role in self.m.required():
                 row=row_for(action,role)
                 if action['stage']=='draft':
@@ -64,7 +67,8 @@ class MultiplayerTests(unittest.TestCase):
         self.send('A',row_for(a,'A'));self.assertIsNone(self.m.view('GN')['selected_vision'])
         self.step(a);self.assertIsNotNone(self.m.view('GN')['selected_vision'])
     def test_cannot_submit_for_another_role_or_use_their_channel(self):
-        row=row_for(SCRIPT[0],'GN');row['role']='A';row['choice']='Security';self.send('GN',row)
+        self.step(SCRIPT[1])
+        row=row_for(SCRIPT[2],'GN');row['role']='A';row['choice']='Security';self.send('GN',row)
         self.assertEqual(set(self.m.sheets),{'GN'});self.assertNotIn('choice',self.m.sheets['GN'])
         with self.assertRaises(ValueError):self.m.receive('GN',dict(type='chat',id='bad',channel='army',text='spy'))
         self.m.add_chat('JN','army','Army only');self.assertNotIn('Army only',json.dumps(self.m.view('GN')))
@@ -72,12 +76,13 @@ class MultiplayerTests(unittest.TestCase):
         old=self.m.epoch
         with self.assertRaises(ValueError):self.m.advance(old)
         self.m.advance(old,allow_missing=True)
-        self.assertEqual(self.m.game.stage,'vision')
+        self.assertEqual(self.m.game.stage,'commit')
         with self.assertRaises(ValueError):self.m.receive('GN',dict(type='sheet',epoch=old,id='late',sheet=row_for(SCRIPT[0],'GN')))
         with self.assertRaises(ValueError):self.send('GN',{'choice':'Security'})
         with self.assertRaises(ValueError):self.m.advance(old,allow_missing=True)
     def test_reconnect_displaces_old_transport_and_preserves_sheet(self):
-        self.send('GN',row_for(SCRIPT[0],'GN'));self.m.disconnect('GN')
+        self.step(SCRIPT[1])
+        self.send('GN',row_for(SCRIPT[2],'GN'));self.m.disconnect('GN')
         self.m.receive('new',dict(type='hello',token=self.tokens['GN']))
         self.assertEqual(self.m.live['new'],'GN');self.assertIn('GN',self.m.sheets)
         with self.assertRaises(ValueError):self.m.receive('GN',dict(type='sheet',epoch=self.m.epoch,id='old',sheet=row_for(SCRIPT[0],'GN')))

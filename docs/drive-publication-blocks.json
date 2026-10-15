@@ -184,7 +184,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "The game consists of two rounds, each representing a month. A round has five minutes of faction discussion, five minutes of councils and five minutes of free discussion. Both councils resolve together at the end of their phase."
+        "The game consists of two rounds, each representing a month. A round has five minutes of faction phase, a five minute council phase and a five minute free phase."
       ],
       [
         "NORMAL_TEXT",
@@ -192,27 +192,35 @@
       ],
       [
         "NORMAL_TEXT",
-        "Read your faction's Player Brief alongside these rules. The Component Reference contains the asset, track, council action and Charter rules. The facilitator keeps the current results and decisions where everyone can consult them."
+        "Read your faction's Player Brief alongside these rules."
       ],
       [
         "HEADING_2",
-        "Faction discussion — five minutes"
+        "Faction Phase — five minutes"
       ],
       [
         "NORMAL_TEXT",
-        "You have five minutes to decide your faction's approach. Start discussing as soon as the phase begins and use the time as you see fit. Confer with your teammate, talk to the Ascendant or the other faction, consider what the councils could do and revise your offer."
+        "You have five minutes to decide your faction's approach. Discuss with your teammate from the start and use the time as you see fit. Guild and Janissariat players stay at their own faction tables and do not speak or send messages to the other faction during this phase. The Ascendant may visit either faction after making their foresight choice."
+      ],
+      [
+        "BULLET",
+        "Your assets are the named ships or military units your faction controls."
+      ],
+      [
+        "BULLET",
+        "An assignment is the job you give an asset for this round."
       ],
       [
         "NORMAL_TEXT",
-        "Your assets are the named ships or military units your faction controls. An assignment is the job you give an asset for this round. Agree one assignment for each asset, using its choices in the Component Reference."
+        "Agree one assignment for each asset, using the options printed on it."
       ],
       [
         "NORMAL_TEXT",
-        "Discuss your intended assignments and what you hope the councils will do before the Ascendant chooses whether to use foresight. If teammates disagree, explain both positions. Discussion continues while the Ascendant considers their choice and shares any information. Their powers and how to use them are explained in the Ascendant's Player Brief."
+        "The Ascendant first chooses a prophecy or chooses to save their foresight. They make that choice privately, before visiting either faction or hearing its plans for this round. They may then visit either table, discuss proposals and share information. You may revise your unlocked assignments in response. The Ascendant's Player Brief explains their powers."
       ],
       [
         "NORMAL_TEXT",
-        "You may revise your assignments until the faction bell. Both teammates then confirm the same final assignments aloud and record them on one faction sheet. Take your approach to the councils yourselves; you do not need to write instructions to them. The Ascendant completes the faction-phase decisions described in their brief at the same deadline."
+        "You may revise your assignments until the end of the phase. Both teammates then confirm the same final assignments aloud and record them on one faction sheet. Take your approach to the councils yourselves; you do not need to write instructions to them. The Ascendant completes the faction-phase decisions described in their brief at the same deadline."
       ],
       [
         "NORMAL_TEXT",
@@ -236,7 +244,7 @@
       ],
       [
         "HEADING_2",
-        "Council discussion — five minutes"
+        "Council Phase— five minutes"
       ],
       [
         "NORMAL_TEXT",
@@ -256,7 +264,7 @@
       ],
       [
         "HEADING_2",
-        "Free discussion — five minutes"
+        "Free Phase— five minutes"
       ],
       [
         "NORMAL_TEXT",
@@ -393,7 +401,7 @@
       ],
       [
         "BULLET",
-        "Four vision covers and four concealed answers: Navigation and Security for each of the two rounds."
+        "Four vision covers and four concealed answers: Navigation and Supply, and Security and Government for each round. The covers name the councils only. Keep the descriptive titles, questions and conditional effects inside the answers."
       ],
       [
         "BULLET",
@@ -417,7 +425,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Place Navigation and Supply at one end and Security and Government at the other. Keep the tracks, current articles and recorded decisions in a central space where everyone can read them. Factions need room to confer between council meetings."
+        "Place Navigation and Supply at one end and Security and Government at the other. Keep the tracks, current articles and final decisions in a central space where everyone can read them. Provide separate places for the Guild and Janissariat to confer during the faction phase. The Ascendant begins apart from both factions, with the foresight covers."
       ],
       [
         "NORMAL_TEXT",
@@ -453,7 +461,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "The public record shows the three tracks, available assets, completed contracts, remaining tokens, current articles and any binding commitments. Keep the draft and final sheets beside it so everyone can see what changed."
+        "The public record shows the three tracks, available assets, completed contracts, remaining tokens, current articles and binding commitments. Faction drafts and current plans stay with their faction; do not announce them before the Ascendant's choice. Publish final assignments when the faction phase ends. The Ascendant learns current plans through visits after choosing, not through a compulsory statement of intentions."
       ],
       [
         "HEADING_2",
@@ -477,11 +485,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "The faction phase has one five-minute deadline. Players may discuss their approach with teammates, the Ascendant and the other faction from the start, and budget that time themselves. Do not call minute-two or minute-three gates. Before the foresight choice, ask players to explain intended assignments and possible council decisions aloud without private reasoning unless the player elects to share it. If there is no agreement, hear both positions or record no declared intention. An intention never authorises asset use."
+        "The faction phase has one five-minute deadline. Guild and Janissariat players talk only to their own teammates and cannot send messages to the other faction. They begin immediately and budget their time themselves. The Ascendant first chooses one prophecy or NONE privately, using the public state and earlier discussions, before visiting either faction or receiving its current plans. Do not call minute-two or minute-three gates or require factions to announce intentions."
       ],
       [
         "NORMAL_TEXT",
-        "The Ascendant chooses when to request one answer after intentions are visible and before the faction bell, or may choose NONE. Pay before dealing the exact answer; publish expenditure and remaining foresight, not the chosen domain. A choice completes that round's opportunity: no swaps or second purchase. Record NONE if no single valid choice arrives before the bell. Discussion continues during the choice and after disclosure; remind players to leave time for final decisions."
+        "Record the Ascendant's choice before allowing visits. Pay before dealing the exact answer; publish expenditure and remaining foresight, not the chosen council. A choice completes that round's opportunity: no swaps or second purchase. NONE also permits visits. Record NONE if no single valid choice arrives before the phase ends. After choosing, the Ascendant may visit either faction, revisit it, relay offers and share the vision. Do not combine the factions into a table discussion. Unlocked assignments and Grey Petrel's task remain revisable until the faction deadline; the clock does not restart."
       ],
       [
         "NORMAL_TEXT",
@@ -489,7 +497,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "In the browser, sharing intentions, recording the foresight choice and collecting final decisions are successive recording steps within the same faction phase. Advance the first two when players are ready, without restarting the clock or stopping discussion. Only closing final commitments ends faction discussion."
+        "In the browser, record the Ascendant's foresight choice first. Faction chat is available from the start; visits open only after the choice has been recorded. The two factions have separate visit conversations with the Ascendant. Final commitments end the same faction phase. An older saved session may contain draft records; keep those drafts within the faction and do not use them to brief the Ascendant."
       ],
       [
         "HEADING_1",
@@ -529,7 +537,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "9. Apply the other round-specific hidden conditions printed below, whether purchased or not. Tender cover can prevent only its exact printed crew loss. Never substitute the cover question for the full condition."
+        "9. Apply the other round-specific hidden conditions printed below, whether purchased or not. Tender cover can prevent only its exact printed crew loss. The council named on a cover is not a substitute for the full condition."
       ],
       [
         "NORMAL_TEXT",
@@ -541,7 +549,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "The following are the exact cards in the revised-visions test. The cover defines that card’s scope, not the safety of the whole plan. Ordinary duties, consumption and costs still apply. These effects happen whether or not the Ascendant buys the card."
+        "The following are the fixed private answers. The public covers name the primary council and other affected councils, without these descriptive titles or specific choices. These effects happen whether or not the Ascendant buys the card. All four answers concern choices still open when foresight is purchased: unlocked asset assignments and Grey Petrel's task can change during subsequent visits, and council orders and the Warrant are decided later. Standing Commitments, losses and lack of authority may limit a particular intervention. Do not promise that a purchase will be useful or refund it if the relevant option is unavailable."
       ],
       [
         "HEADING_1",
@@ -1041,7 +1049,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Agree asset assignments and negotiating priorities together before separating. Both players must agree your faction’s asset assignments; confirm them aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions."
+        "Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Both players then confirm the same assignments aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions."
       ],
       [
         "NORMAL_TEXT",
@@ -1085,7 +1093,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Agree asset assignments and negotiating priorities together before separating. Both players must agree your faction’s asset assignments; confirm them aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions."
+        "Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Both players then confirm the same assignments aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions."
       ],
       [
         "NORMAL_TEXT",
@@ -1177,11 +1185,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "During faction discussion, once the intended assignments and possible council decisions have been discussed, read the current Navigation and Security covers. Each states which decisions its concealed answer concerns. You choose when to request one answer before the faction bell, leaving time to discuss it and revise assignments. Pay one token before opening an answer. You may instead choose NONE, which costs nothing."
+        "At the start of each faction phase, choose your foresight before visiting either faction or hearing its plans for this round. Read the two covers: Navigation and Supply, and Security and Government. They identify the council at the centre of each prophecy and any other council it could affect. They do not reveal the action, condition, risk or reward. Choose one answer and pay one token before opening it, or choose NONE and retain your token. You may use the public state, existing commitments and anything learned in earlier phases to make this choice."
       ],
       [
         "NORMAL_TEXT",
-        "There is at most one purchase per round. A choice must reach the facilitator before the faction bell; a missing, multiple or late choice means NONE. Choosing NONE also completes your choice for the round. Tokens do not recover, and there are no swaps, refunds or further purchases that month."
+        "There is at most one purchase per round. Your choice must reach the facilitator before you visit a faction and before the faction phase ends. A missing, multiple or late choice means NONE. Choosing NONE also completes your choice and permits visits. Tokens do not recover, and there are no swaps, refunds or further purchases that month. Waiting to choose leaves less time for visits; it does not extend the phase."
       ],
       [
         "NORMAL_TEXT",
@@ -1193,11 +1201,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "Discussion can begin at the start of the faction phase and continues while you consider or use foresight. Until the faction bell, negotiate changes to unlocked assignments and your approach to the councils. Existing Standing Commitments remain binding. Avoiding a vision's condition averts its result; it does not make the vision false."
+        "While you choose, the two factions discuss privately with their own teammates. After your choice is recorded, you may visit either faction, return to one you visited earlier, relay offers and share or withhold your vision. Each visit is a conversation with that faction; do not bring the two factions together. Until the phase ends, factions can revise unlocked assignments and you can revise Grey Petrel's task. Existing Standing Commitments remain binding. Council orders and your Warrant are decided in the council phase. Avoiding a vision's condition averts its result; it does not make the vision false."
       ],
       [
         "NORMAL_TEXT",
-        "Example: a cover concerns a voyage the Guild has proposed. Buying its answer may give the Ascendant grounds to request protection or a different assignment. If the relevant assignments are already locked, the information may be less useful than retaining the token's political weight."
+        "Example: you choose the Navigation prophecy before hearing the Guild's plan. During a later visit, you discover they intend a voyage mentioned in the answer. You can explain its consequences and ask for a different assignment or protection. The cover did not promise that their plan would make this prophecy useful. A lost asset or a Standing Commitment may limit what can change; spending a token does not guarantee a useful intervention."
       ],
       [
         "NORMAL_TEXT",

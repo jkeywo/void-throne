@@ -52,6 +52,12 @@ class Session:
     def _apply(self,p):
         if not isinstance(p,dict) or p.get('stage')!=self.stage:raise ValueError('This sheet belongs to a different phase. Refresh before submitting.')
         ns=notes(p)
+        if self.stage=='draft' and 'choice' in p:
+            # Current paper procedure: choose foresight before hearing faction plans.
+            # Legacy records with proposals still follow their original draft step.
+            self.stage='vision'
+            self._apply(dict(p,stage='vision'))
+            return
         if self.stage=='draft':
             proposals=p.get('proposals',{})
             if set(proposals)!=set(ROLES):raise ValueError('Record all five draft positions; disagreements remain visible.')

@@ -22,6 +22,7 @@ class BrowserHostTests(unittest.TestCase):
             result=host.request('approve',dict(host_key=key,connection=role,role=role))
             tokens[role]=result['envelope']['direct'][role]['token']
         for step,action in enumerate(SCRIPT):
+            if action['stage']=='draft':continue  # Historical pre-choice plans are no longer collected.
             for role in host.session.required():
                 host.request('message',dict(host_key=key,connection=role,message=dict(type='sheet',id=f'{step}-{role}',epoch=host.session.epoch,sheet=row_for(action,role))))
             result=host.request('advance',dict(host_key=key,epoch=host.session.epoch,proposal=action))

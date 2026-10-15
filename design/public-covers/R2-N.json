@@ -1,8 +1,13 @@
 {
   "id": "R2-N",
-  "title": "Stores at the crossing",
-  "concerns": "Military-only passage; and the combination of council Repair with private Trade.",
-  "question": "How do these loading choices change civilian supplies?",
+  "title": "Navigation and Supply — prophecy",
+  "concerns": "Councils affected: Navigation and Supply; Security and Government.",
+  "question": "Choose before visiting either faction. The specific decisions and consequences are concealed until you pay.",
   "cost": 1,
-  "limit": "One optional purchase this round. NONE costs zero. The answer is conditional, not a prediction of player choices."
+  "limit": "One optional choice before faction visits this round. NONE costs zero and permits visits. A choice cannot be changed; no refunds. Conditional consequences do not predict player choices.",
+  "primary_council": "Navigation and Supply",
+  "affected_councils": [
+    "Navigation and Supply",
+    "Security and Government"
+  ]
 }

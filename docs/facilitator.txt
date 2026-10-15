@@ -16,7 +16,7 @@ Two council reference sheets and four asset cards: Wayfarer, Lantern, Spear and 
 
 Six Charter cards: three Navigation articles and three Military articles.
 
-Four vision covers and four concealed answers: Navigation and Security for each of the two rounds.
+Four vision covers and four concealed answers: Navigation and Supply, and Security and Government for each round. The covers name the councils only. Keep the descriptive titles, questions and conditional effects inside the answers.
 
 Three tracks numbered 0–4, with one counter each; three foresight tokens; one reserve token for Grey Petrel.
 
@@ -28,7 +28,7 @@ Blank paper can replace a decision sheet if it records the same choices and outc
 
 Arrange the table
 
-Place Navigation and Supply at one end and Security and Government at the other. Keep the tracks, current articles and recorded decisions in a central space where everyone can read them. Factions need room to confer between council meetings.
+Place Navigation and Supply at one end and Security and Government at the other. Keep the tracks, current articles and final decisions in a central space where everyone can read them. Provide separate places for the Guild and Janissariat to confer during the faction phase. The Ascendant begins apart from both factions, with the foresight covers.
 
 Seat GN and JN at Navigation and Supply; GS, JS and A at Security and Government. Give both members of each faction their shared brief. Keep the four private vision answers behind your screen; put both current-round covers face up at the start of faction discussion.
 
@@ -46,7 +46,7 @@ The faction sheet records the round and one agreed assignment for each asset. Bo
 
 The council sheet records the round, current article and final order. Check spoken agreement from whoever holds authority under that article; do not collect initials. The Ascendant confirms their decisions in person. Record their foresight choice, reserve task and final Warrant on their worksheet.
 
-The public record shows the three tracks, available assets, completed contracts, remaining tokens, current articles and any binding commitments. Keep the draft and final sheets beside it so everyone can see what changed.
+The public record shows the three tracks, available assets, completed contracts, remaining tokens, current articles and binding commitments. Faction drafts and current plans stay with their faction; do not announce them before the Ascendant's choice. Publish final assignments when the faction phase ends. The Ascendant learns current plans through visits after choosing, not through a compulsory statement of intentions.
 
 Opening brief
 
@@ -58,13 +58,13 @@ Run the clock
 
 0–8: briefing. 8–13: round-one faction discussion. 13–18: councils and resolution. 18–23: discuss the result and agree provisional articles. 23–28: round-two faction discussion. 28–33: councils and resolution. 33–38: free discussion. 38–48: Ceremony. Use the remaining twelve minutes for the debrief. These five-minute discussion phases follow the current player rulebook.
 
-The faction phase has one five-minute deadline. Players may discuss their approach with teammates, the Ascendant and the other faction from the start, and budget that time themselves. Do not call minute-two or minute-three gates. Before the foresight choice, ask players to explain intended assignments and possible council decisions aloud without private reasoning unless the player elects to share it. If there is no agreement, hear both positions or record no declared intention. An intention never authorises asset use.
+The faction phase has one five-minute deadline. Guild and Janissariat players talk only to their own teammates and cannot send messages to the other faction. They begin immediately and budget their time themselves. The Ascendant first chooses one prophecy or NONE privately, using the public state and earlier discussions, before visiting either faction or receiving its current plans. Do not call minute-two or minute-three gates or require factions to announce intentions.
 
-The Ascendant chooses when to request one answer after intentions are visible and before the faction bell, or may choose NONE. Pay before dealing the exact answer; publish expenditure and remaining foresight, not the chosen domain. A choice completes that round's opportunity: no swaps or second purchase. Record NONE if no single valid choice arrives before the bell. Discussion continues during the choice and after disclosure; remind players to leave time for final decisions.
+Record the Ascendant's choice before allowing visits. Pay before dealing the exact answer; publish expenditure and remaining foresight, not the chosen council. A choice completes that round's opportunity: no swaps or second purchase. NONE also permits visits. Record NONE if no single valid choice arrives before the phase ends. After choosing, the Ascendant may visit either faction, revisit it, relay offers and share the vision. Do not combine the factions into a table discussion. Unlocked assignments and Grey Petrel's task remain revisable until the faction deadline; the clock does not restart.
 
 At the faction bell, ask both faction members to confirm the same assignments. Record one final faction sheet. If either has not confirmed or they disagree, apply the faction defaults; an activated Standing Commitment still overrides them. Mark unavailable assets Absent and record one reserve task. At the council bell, check the current authority and ask the required decision-makers to confirm the final order; also confirm the Warrant. Resolve the recorded decisions. No signatures or initials are needed.
 
-In the browser, sharing intentions, recording the foresight choice and collecting final decisions are successive recording steps within the same faction phase. Advance the first two when players are ready, without restarting the clock or stopping discussion. Only closing final commitments ends faction discussion.
+In the browser, record the Ascendant's foresight choice first. Faction chat is available from the start; visits open only after the choice has been recorded. The two factions have separate visit conversations with the Ascendant. Final commitments end the same faction phase. An older saved session may contain draft records; keep those drafts within the faction and do not use them to brief the Ascendant.
 
 Resolve in this order
 
@@ -84,13 +84,13 @@ Resolve in this order
 
 8. Resolve Campaign and/or an independent Raid using opening Readiness. A valid council Campaign/Raid without offered Spear adds -1 Stability and no council combat; a separately assigned independent Raid still resolves. Campaign missing delivered Military/Shared passage costs 1 Stability, does not fight and leaves Spear intact. With passage, it costs 1; Readiness 2+ achieves combat, otherwise disable Spear. A Raid costs 1 for disruption; consult its round’s fixed target condition. If target present, Readiness 2+ achieves combat and adds a second Stability cost; below 2 disable Spear without that second loss.
 
-9. Apply the other round-specific hidden conditions printed below, whether purchased or not. Tender cover can prevent only its exact printed crew loss. Never substitute the cover question for the full condition.
+9. Apply the other round-specific hidden conditions printed below, whether purchased or not. Tender cover can prevent only its exact printed crew loss. The council named on a cover is not a substitute for the full condition.
 
 10. Apply one Readiness change: +1 if any qualifying combat occurred, otherwise -1. Final Beacon is prepared Beacon minus actual crossing wear. Add all Stability changes to its opening value. Clamp each final track to 0–4. Mark asset losses, contracts and reserve. Publish consequences and updated signature weights. After round two, expire temporary assignment pledges.
 
 Fixed visions: facilitator-only answers
 
-The following are the exact cards in the revised-visions test. The cover defines that card’s scope, not the safety of the whole plan. Ordinary duties, consumption and costs still apply. These effects happen whether or not the Ascendant buys the card.
+The following are the fixed private answers. The public covers name the primary council and other affected councils, without these descriptive titles or specific choices. These effects happen whether or not the Ascendant buys the card. All four answers concern choices still open when foresight is purchased: unlocked asset assignments and Grey Petrel's task can change during subsequent visits, and council orders and the Warrant are decided later. Standing Commitments, losses and lack of authority may limit a particular intervention. Do not promise that a purchase will be useful or refund it if the relevant option is unavailable.
 
 Vision R1-N
 

@@ -25,7 +25,7 @@ It requires no technology at the table.
 ## Browser testing
 
 The default and current mode is **control every seat**, as requested. Enter each
-player's draft, buy or decline foresight, commit faction assets, agree council decisions,
+round's foresight choice before visiting factions, commit faction assets, agree council decisions,
 propose articles and record each vote. The server applies the printed rules.
 Use the role/table tabs for parallel discussions and the reason boxes for an
 authored transcript. It is an all-seat test bench, not live AI opposition.

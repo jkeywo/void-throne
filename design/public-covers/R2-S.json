@@ -1,8 +1,13 @@
 {
   "id": "R2-S",
-  "title": "The relief column",
-  "concerns": "Raid target availability, whether Spear acts independently or through the council.",
-  "question": "Which traffic will bring the Sorenne patrol within reach of a Raid?",
+  "title": "Security and Government — prophecy",
+  "concerns": "Councils affected: Navigation and Supply; Security and Government.",
+  "question": "Choose before visiting either faction. The specific decisions and consequences are concealed until you pay.",
   "cost": 1,
-  "limit": "One optional purchase this round. NONE costs zero. The answer is conditional, not a prediction of player choices."
+  "limit": "One optional choice before faction visits this round. NONE costs zero and permits visits. A choice cannot be changed; no refunds. Conditional consequences do not predict player choices.",
+  "primary_council": "Security and Government",
+  "affected_councils": [
+    "Navigation and Supply",
+    "Security and Government"
+  ]
 }

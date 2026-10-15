@@ -9,10 +9,11 @@ from pathlib import Path
 import html
 import json
 import secrets
-from .session import Session, ROLES, ASSETS, NAV, SEC, ARTICLES, DEFAULTS, choice, boolean, ROOT
+from .session import Session, ROLES, ASSETS, NAV, SEC, ARTICLES, choice, boolean, ROOT
 
 CHANNELS = {'table': ROLES, 'guild': ('GN','GS'), 'army': ('JN','JS'),
-            'navigation': ('GN','JN','A'), 'security': ('GS','JS','A')}
+            'navigation': ('GN','JN','A'), 'security': ('GS','JS','A'),
+            'visit-guild': ('GN','GS','A'), 'visit-army': ('JN','JS','A')}
 ROLE_NAMES = {'GN':'Guild · Navigation','GS':'Guild · Security','JN':'Janissariat · Navigation',
               'JS':'Janissariat · Security','A':'Ascendant'}
 
@@ -65,12 +66,28 @@ class Multiplayer:
             raise ValueError('This host tab has been replaced. Use the newest facilitator tab.')
 
     def required(self):
-        if self.game.stage=='vision':return ['A']
+        if self.game.stage in ('draft','vision'):return ['A']
         if self.game.stage in ('trial-proposal','ceremony-proposal','ended'):return []
         return list(ROLES)
 
     def channels(self,role):
-        return [c for c,roles in CHANNELS.items() if role in roles]+['facilitator-'+role]
+        if self.game.stage in ('draft','vision','commit'):
+            allowed=['guild'] if role.startswith('G') else ['army'] if role.startswith('J') else []
+            if self.game.stage=='commit':
+                allowed+=['visit-guild','visit-army'] if role=='A' else ['visit-guild' if role.startswith('G') else 'visit-army']
+        else:
+            allowed=[c for c,roles in CHANNELS.items() if role in roles and not c.startswith('visit-')]
+        return allowed+['facilitator-'+role]
+
+    def visible_chat(self,role):
+        # Earlier conversations remain readable; current send permissions depend on phase.
+        readable=[c for c,roles in CHANNELS.items() if role in roles]+['facilitator-'+role]
+        return [deepcopy(c) for c in self.chats if c['channel'] in readable]
+
+    @staticmethod
+    def faction_roles(role):
+        return ('GN','GS') if role.startswith('G') else ('JN','JS') if role.startswith('J') else ('A',)
+
 
     def status(self):
         return {r:dict(name=self.seats.get(r,{}).get('name','Unassigned'),
@@ -80,6 +97,9 @@ class Multiplayer:
         events=deepcopy(self.game.history)
         disclosed_rounds={e['round'] for e in events if e['event']=='Final faction sheets' and e.get('disclosed')}
         for event in events:
+            if event['event']=='Public draft sheets':
+                for key in ('sheets','notes'):
+                    event[key]={r:v for r,v in event.get(key,{}).items() if r in self.faction_roles(role)}
             if event['event']=='Foresight purchase' and role!='A':
                 # A purchase's direction, answer and reason all remain private until disclosure.
                 if event['round'] not in disclosed_rounds:
@@ -98,9 +118,10 @@ class Multiplayer:
                    covers=public['covers'],leverage=public['leverage'],history=self.history(role),
                    selected_vision=deepcopy(g.vision) if role=='A' or g.disclosed else None,
                    own_sheet=deepcopy(self.sheets.get(role)),channels=self.channels(role),
-                   chat=[c for c in self.chats if c['channel'] in self.channels(role)],
+                   chat=self.visible_chat(role),
                    required=role in self.required())
-        teammates=('GN','GS') if role.startswith('G') else ('JN','JS') if role.startswith('J') else ('A',)
+        teammates=self.faction_roles(role)
+        out['drafts']={r:v for r,v in out['drafts'].items() if r in teammates}
         visible=teammates if g.stage in ('draft','commit') else (
             ('GN','JN','A') if role in ('GN','JN') else ('GS','JS','A') if role in ('GS','JS') else ROLES)
         if g.stage=='vision':visible=('A',) if role=='A' else ()
@@ -176,10 +197,7 @@ class Multiplayer:
         if role not in self.required():raise ValueError('There is no decision sheet for your seat in this phase.')
         if not isinstance(row,dict):raise ValueError('A sheet is required.')
         result={'note':short(row.get('note',''),4000)};stage=self.game.stage
-        if stage=='draft':
-            for a,opts in ASSETS.get(role,{}).items():result[a]=choice(row.get(a),opts)
-            # Council intentions are spoken or discussed in chat; draft sheets only record assets.
-        elif stage=='vision':result['choice']=choice(row.get('choice'),['None','Navigation','Security'])
+        if stage in ('draft','vision'):result['choice']=choice(row.get('choice'),['None','Navigation','Security'])
         elif stage=='commit':
             if role=='A':
                 result['reserve']=choice(row.get('reserve'),['Keep','Relief lift','Tender cover'])
@@ -213,14 +231,7 @@ class Multiplayer:
         if missing and not allow_missing:raise ValueError('Still waiting for '+', '.join(missing)+'. Close with printed defaults only at the deadline.')
         stage=self.game.stage;s=self.sheets;p={'stage':stage,'notes':{r:x['note'] for r,x in s.items() if x.get('note')}}
         if stage=='ended':raise ValueError('The settlement is complete. Use table chat for the debrief and export the record.')
-        if stage=='draft':
-            p['proposals']={}
-            for r in ROLES:
-                row=dict(s.get(r,{}));row.pop('note',None)
-                if not row:
-                    row=dict(DEFAULTS['Guild' if r.startswith('G') else 'Janissariat']) if r!='A' else {'warrant':False}
-                p['proposals'][r]=row
-        elif stage=='vision':p['choice']=s.get('A',{}).get('choice','None')
+        if stage in ('draft','vision'):p['choice']=s.get('A',{}).get('choice','None')
         elif stage=='commit':
             p.update(assignments={r:{a:s.get(r,{}).get(a) for a in ASSETS[r]} for r in ROLES if r!='A' and r in s},
                      reserve=s.get('A',{}).get('reserve','Keep'),disclose=s.get('A',{}).get('disclose',False))
