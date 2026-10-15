@@ -4,7 +4,7 @@ A five-player paper game about the government that survives its conqueror.
 Two factions of two players and the Ascendant negotiate scarce transport,
 military service and two constitutional instruments over two rounds.
 
-This repository contains the current v0.4 asset-order prototype, its sources,
+This repository contains the current v0.5 opening-development prototype, its sources,
 a browser test bench and a game-owned [Playtrace](C:/Coding/playtrace) plugin.
 It requires no technology at the table.
 
@@ -26,8 +26,7 @@ It requires no technology at the table.
 ## Browser testing
 
 The default and current mode is **control every seat**, as requested. Enter each
-round's foresight choice before visiting factions, commit faction assets, allocate several funded orders, record next-round vetoes,
-propose articles and record each vote. The server applies the printed rules.
+round’s development, discuss openly, set vetoes and agree provisional articles. Then choose foresight before faction visits, place assets, and allocate funded council orders. The server applies the printed rules.
 Use the role/table tabs for parallel discussions and the reason boxes for an
 authored transcript. It is an all-seat test bench, not live AI opposition.
 
@@ -110,7 +109,7 @@ capture and regression expectations deliberately; do not silently treat old code
 as authority. The older folders at `C:/AnalogueGames/TheVoidThrone` and
 `C:/AnalogueGames/analogue-projects/GameProjects/void_throne` remain intact.
 
-This is draft v0.4: multiple funded orders, single-use assets, descriptive action labels and next-round vetoes. The v0.3 simulation and resolver remain available as historical evidence. No strategic map, Clarity track, conspiracy, secret
+This is draft v0.5: opening free discussion, news developments with order-dependent consequences, multiple funded orders and single-use assets. The v0.3 simulation and resolver remain available as historical evidence. No strategic map, Clarity track, conspiracy, secret
 individual objectives or unanimous final ballot has been reintroduced.
 
 ## Current crisis and historical records
@@ -139,6 +138,8 @@ Player-facing asset and order descriptions are qualitative. Exact modifiers, thr
 
 Navigation can Deliver Relief, Transport Troops and Repair the Narrows using separate offered assets. Lantern carries civilians; Wayfarer and Grey Petrel can carry either cargo. Security can combine Protect the Passage with either Attack the Anchorage or Intercept a Patrol. Each asset and printed order is used once. There is no current Shared order.
 
-Authority now permits a next-round veto. Under Joint authority, each party that offered any available asset to either council can veto one order in each Joint council. Vetoes may block several different orders. Existing authority sets them before new articles take effect. The two-round prototype tests new service duties but does not run the following month's vetoes under a newly enacted Joint article.
+Opening free discussion sets vetoes for the current operations, under the existing authority before article amendments. Joint rights use assets offered in the previous round. Articles enacted in round one can therefore govern opening vetoes in round two; a failed amendment preserves the existing article.
 
-New browser games use `vt:rules:asset-orders-v0.4`; saves identify their ruleset. Old sessions and the preserved six-agent experiment replay through v0.3. The Playtrace plugin accepts both IDs. The existing `reproduce` command deliberately replays the old experiment, not a new v0.4 player simulation.
+New browser games use vt:rules:opening-developments-v0.5. Saved v0.4 and v0.3 games retain their original sequences. The Playtrace plugin accepts all three rulesets. The existing reproduce command deliberately replays the preserved old experiment; it is not a new player simulation.
+
+At each opening, the facilitator chooses one of two news reports before discussion. The exact conditional effects remain behind the screen. Both operations and the selected development contribute to the final track totals before clamping. The facilitator guide contains the complete four-card news pack and resolution instructions.

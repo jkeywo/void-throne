@@ -1,6 +1,6 @@
-Foresight timing audit — v0.4, 15 October 2026
+Foresight timing audit — v0.5, 16 October 2026
 
-Choose before current faction plans or visits. Covers identify councils only. Unlocked assignments can change during later visits; council allocations and the Warrant remain open until their deadline. Public vetoes cannot be changed by prophecy.
+Choose after opening free discussion, but before private faction deliberations are shared or visits begin. Anything said during free discussion may inform the choice. Covers identify councils only. Unlocked assignments can change during later visits; council allocations and the Warrant remain open until their deadline. Public vetoes and article agreements precede the foresight choice and cannot be changed by prophecy. Developments depend on later orders but do not change the four prophecy triggers. Their track adjustments are additional, applied before clamping; visions describe specific consequences, not a guaranteed final track total.
 
 R1-N: Lantern delivering civilian relief triggers the exposed-crew condition. The same offered assets can instead support a Wayfarer voyage or Lantern repair; passage protection or navigator rescue averts the loss. Lantern cannot repair and carry civilians together.
 R1-S: a completed Wayfarer commercial contract draws the patrol for an interception. Security can decline an interception or choose the anchorage attack with offered Spear and delivered troop transport. An independent assignment locks at the faction bell; a standing interception veto bars either version.

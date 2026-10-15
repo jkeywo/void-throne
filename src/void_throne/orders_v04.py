@@ -108,7 +108,7 @@ def resolve(st, rnd=1, w='Council',l='Maintain',s='Council',v='Council',nav=None
         if 'Military' in delivered and not guarded:c-=1;events.append('Unprotected military-only loading: Stability -1')
         if 'Repair' in active and trade:c+=1;events.append('Repair and completed commercial voyage: Stability +1')
     new=State(clamp(prepared-transport_wear-trade_wear),clamp(st.communities+c),clamp(st.readiness+(1 if combat else -1)),W,L,S,contracts,reserve)
-    detail=dict(events=events,outcomes=outcomes,prepared=prepared,orders=active,delivered_orders=delivered,
+    detail=dict(unclamped_tracks=dict(beacon=prepared-transport_wear-trade_wear,communities=st.communities+c,readiness=st.readiness+(1 if combat else -1)),offensive_attempt=bool(independent_raid or "Campaign" in active or "Raid" in active),events=events,outcomes=outcomes,prepared=prepared,orders=active,delivered_orders=delivered,
                 used_assets=used,rejected=rejected,transport_wear=transport_wear,trade_wear=trade_wear,
                 guarded=guarded,trade=trade,combat=combat,guild_breach=bool(guild_breach),jan_breach=bool(jan_breach))
     return new,detail

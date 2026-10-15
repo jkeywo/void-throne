@@ -1,0 +1,54 @@
+[
+  {
+    "id": "R1-RELIEF",
+    "round": 1,
+    "title": "Sorenne’s Fall opens its last emergency depots",
+    "announcement": "Queues have formed outside distribution halls across Sorenne’s Fall after the administration opened its final emergency depots. Local officials describe the release as a temporary measure. District councils are already asking when the next supply ships will arrive.",
+    "trigger": "Delivered Relief",
+    "track": "communities",
+    "success": 1,
+    "failure": -1,
+    "instruction": "Use when you want the opening bargain to centre on civilian supply. Delivered Relief gives Stability +1; otherwise Stability −1. A selected but halted or invalid relief order does not qualify.",
+    "outcome_met": "Fresh supplies reached the emergency depots, easing pressure on the administration.",
+    "outcome_unmet": "The emergency depots ran short before fresh relief reached the system."
+  },
+  {
+    "id": "R1-REPAIR",
+    "round": 1,
+    "title": "Faults found along the Narrow’s beacon chain",
+    "announcement": "An inspection team has reported fractured housings and drifting signals at several beacon stations. Traffic continues to pass, but navigators are reporting an increasingly difficult crossing. Engineers say a short lull in local interference offers an unusual opportunity to reach the damaged installations.",
+    "trigger": "Completed Repair",
+    "track": "beacon",
+    "success": 1,
+    "failure": -1,
+    "instruction": "Use when you want repair capacity to compete with transport. A valid funded Repair gives Beacon +1; otherwise Beacon −1. Home Maintain does not qualify. Apply after ordinary route wear, before clamping.",
+    "outcome_met": "The engineering teams used the inspection window to strengthen the beacon chain.",
+    "outcome_unmet": "The inspection window closed with faults still worsening along the beacon chain."
+  },
+  {
+    "id": "R2-ESCORT",
+    "round": 2,
+    "title": "Relief convoy waits for assurances over passage",
+    "announcement": "Supply barges have gathered at the entrance to the Narrow following an appeal from Sorenne’s Fall. Their masters are seeking assurances about security along the crossing. At the receiving ports, administrators are preparing distribution teams while families wait for news of the convoy’s departure.",
+    "trigger": "Delivered Relief and protection",
+    "track": "communities",
+    "success": 1,
+    "failure": -1,
+    "instruction": "Use to test cooperation between councils. Delivered Relief plus Guard or an effective Warrant gives Stability +1; otherwise Stability −1. Grey Petrel’s navigator rescue is not general protection.",
+    "outcome_met": "The relief convoy arrived under protection and distribution proceeded with renewed confidence.",
+    "outcome_unmet": "The promised protected convoy failed to materialise, deepening uncertainty at the receiving ports."
+  },
+  {
+    "id": "R2-TRUCE",
+    "round": 2,
+    "title": "Civilian shippers call for a month-long truce",
+    "announcement": "Representatives of the civilian shipping houses have appealed for a month without military expeditions around the Narrow. Several carriers say they are ready to resume disrupted deliveries. Janissariat officers have questioned whether the Sorenne Flag would observe any such arrangement.",
+    "trigger": "No attack or interception attempted",
+    "track": "communities",
+    "success": 1,
+    "failure": -1,
+    "instruction": "Use to put civilian recovery against the army’s need to fight. No valid funded Campaign or Raid and no unvetoed independent Raid gives Stability +1; any such attempted operation gives Stability −1. Invalid or vetoed orders are not attempts. A funded Campaign lacking delivered troops and a Raid finding no target still break the truce.",
+    "outcome_met": "The absence of new military expeditions gave civilian shipping room to recover.",
+    "outcome_unmet": "A military expedition disrupted the proposed lull, aggravating civilian shortages."
+  }
+]

@@ -64,7 +64,7 @@ class PlayerInformationTests(unittest.TestCase):
             for level,v in track['values'].items():self.assertIn(level+' — '+v['label']+':',c)
         f='\n'.join(t for _,t in docs['facilitator']['blocks'])
         self.assertIn('Prepared Beacon equals opening Beacon, plus 1',f)
-        self.assertIn('Final Stability equals opening Stability plus the complete change ledger.',f)
+        self.assertIn('Add the selected development’s adjustment to the appropriate raw total, then clamp final tracks to 0–4 once.',f)
         self.assertIn('At prepared Beacon 2 without protection, disable Wayfarer',f)
 
     def test_facilitator_worked_example_matches_model(self):

@@ -32,7 +32,7 @@
       ],
       [
         "BULLET",
-        "Players and councils"
+        "Factions and councils"
       ],
       [
         "BULLET",
@@ -72,11 +72,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "You face one connected emergency: A space passage called the Narrow is deteriorating. The star system of Sorenne's Fall needs supplies, and a cohort of Janissariat needs transport, but your ships and forces cannot do every job."
+        "You face one connected emergency: A space passage called the Narrow is deteriorating. The star system of Sorenne's Fall needs supplies, and a cohort of Janissariat needs transport, but your ships and forces cannot be everywhere at once."
       ],
       [
         "NORMAL_TEXT",
-        "At the same time, you are writing two parts of the empire's constitution: who can restrict transport between the stars, and who can restrict military operations."
+        "At the same time, you are writing two parts of the empire's constitution: who has authority over transport between the stars, and who has authority over military operations."
       ],
       [
         "HEADING_1",
@@ -96,7 +96,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Interstellar travel depends on Guild navigators, who learn to sense and interpret the immaterial deep through which ships travel. Owning a ship is not enough: you need their specialist expertise. The Ductus Guild uses that dependence to defend its licences, professional independence and commercial obligations."
+        "Interstellar travel depends on Guild navigators, who learn to sense and interpret the immaterial deep through which ships travel. Owning a ship is not enough: you need their specialist expertise. The Ductus Guild uses that dependence to defend its professional independence and commercial interests."
       ],
       [
         "NORMAL_TEXT",
@@ -124,7 +124,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "The Ascendant begins with imperial authority: the power to veto an order for the following round. The factions retain control of their assets and can carry out any unvetoed orders they can supply."
+        "The Ascendant begins with imperial authority: the power to veto an order during the opening Free Phase. The factions retain control of their assets and can carry out any unvetoed orders they can supply."
       ],
       [
         "HEADING_2",
@@ -144,7 +144,11 @@
       ],
       [
         "HEADING_1",
-        "3. Players and councils"
+        "3. Factions and Councils"
+      ],
+      [
+        "HEADING_3",
+        "The Factions"
       ],
       [
         "NORMAL_TEXT",
@@ -184,7 +188,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "The game consists of two rounds, each representing a month. A round has five minutes of faction phase, a five minute council phase and a five minute free phase."
+        "The game consists of two rounds, each representing a month. Each round starts with a development announced by the facilitator, followed by five minutes of free discussion, five minutes of faction discussion and a five-minute council phase. The facilitator then resolves the orders."
       ],
       [
         "NORMAL_TEXT",
@@ -192,47 +196,51 @@
       ],
       [
         "HEADING_2",
+        "Free Phase — five minutes"
+      ],
+      [
+        "NORMAL_TEXT",
+        "The facilitator announces one prepared development at the start of the round. Its consequences depend on the orders carried out this round. Discuss the news and your plans with anyone. In round two, use the previous round’s results to reconsider your bargains."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Record vetoes under the articles already in force. These block orders in the council phase ahead. Joint authority gives each party that offered an available asset to either council in the previous round its own veto. The Component Reference gives the details. Vetoes are public and remain in force if an article changes."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Then agree the government for this round. The two council representatives concerned and the Ascendant must agree each provisional article aloud. A failed proposal leaves the existing article in force. You may attach a Standing Commitment with both faction members’ agreement; it fixes one asset’s placement or home action for this round."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The announcement, discussion, vetoes and article agreements all use the same five minutes. At the deadline, proceed to faction discussion."
+      ],
+      [
+        "HEADING_2",
         "Faction Phase — five minutes"
       ],
       [
         "NORMAL_TEXT",
-        "You have five minutes to decide your faction's approach with your teammate. Guild and Janissariat players stay at their own faction tables and do not speak or send messages to the other faction during this phase. The Ascendant may visit either faction."
+        "You have five minutes to decide your faction's approach with your teammate. Guild and Janissariat players stay at their own faction tables while the Ascendant may visit any faction."
       ],
       [
         "BULLET",
-        "Your assets are the ships or military units your faction controls. Each has a card showing its owner, council and traits. Traits describe what the asset can do; orders require traits rather than a particular named asset."
+        "Your assets are the ships or military units your faction controls. Each has a card showing its owner and traits. Traits describe what the asset can do; orders require traits."
       ],
       [
         "BULLET",
-        "Keep an asset at your faction table for its home action, or take its card to the council printed on it. An asset at a council is offered for service there; its home action does not happen that round."
+        "Keep an asset at your faction table for its home action, or take its card to the council printed on it. An asset at a council is offered for service there instead of taking a home action."
       ],
       [
         "NORMAL_TEXT",
-        "Agree the placement of your cards with your teammate. Spear and Grey Petrel have two different home faces: turn the card to show the home action you want. Their traits are the same on both faces. At a council, either face makes the asset available for orders."
+        "Agree the allocation of your cards with your teammate. Some Assets have two faces: turn the card to show the home action you want."
       ],
       [
         "NORMAL_TEXT",
-        "You may move or turn cards until the faction phase ends. Then take the agreed cards to their councils and leave the others at home, with the chosen home action showing. This arrangement records your decisions; there is no faction decision sheet. Cards cannot change tables or turn to a home action during the council phase."
+        "A Standing Commitment agreed during the opening free discussion may fix where a card goes or which home action it shows this round. Put a commitment marker on the card and follow that promise."
       ],
       [
         "NORMAL_TEXT",
-        "In round two, a Standing Commitment may already fix where a card goes or which home action it shows. This is a promise agreed and recorded during the previous free discussion. Put a commitment marker on the card and follow that promise."
-      ],
-      [
-        "NORMAL_TEXT",
-        "If the teammates cannot agree their card arrangement before the deadline, leave that faction’s cards at home on these default actions. Binding Standing Commitments override defaults:"
-      ],
-      [
-        "BULLET",
-        "Guild: Wayfarer [Fulfil Commercial Contract]; Lantern [Maintain the Narrows]."
-      ],
-      [
-        "BULLET",
-        "Janissariat: Spear [Stand Down]; Vigil [Defend Army Bases]."
-      ],
-      [
-        "NORMAL_TEXT",
-        "Remove lost or disabled cards from play. They cannot supply an order or perform a home action."
+        "If the teammates cannot agree their card arrangement before the deadline, leave that faction’s cards at home on its default home action."
       ],
       [
         "HEADING_2",
@@ -240,39 +248,15 @@
       ],
       [
         "NORMAL_TEXT",
-        "Go to your council and discuss the orders you can carry out using the traits of assets brought to the table. Stay at that table throughout the council phase and speak only with its members. Do not visit, call across to or send messages to the other council, including through your faction teammate. The Component Reference explains available orders, their requirements, purpose and risks; the facilitator keeps exact calculations concealed. Make cross-council plans during earlier faction visits or free discussion. Those plans do not bind later decisions."
+        "Go to your council and discuss the orders you can carry out using the traits of assets brought to the table."
       ],
       [
         "NORMAL_TEXT",
-        "You may select any combination of orders for which you have the assets and requirements. Each asset and each printed order can be used once per round. Check the public vetoes: a struck-out order cannot be chosen this round. GN records Navigation allocations, including Grey Petrel when offered; JS records Security allocations. The other council members contribute through discussion. Authority does not add a requirement for their approval."
+        "You may select any combination of orders for which you have the assets and requirements. Each asset and each printed order can be used once per round. Check the public vetoes: a struck-out order cannot be chosen this round. GN records Navigation orders; JS records Security orders."
       ],
       [
         "NORMAL_TEXT",
-        "At the end of the phase, confirm the chosen orders and the asset used for each. Resolve any double use before handing in the council sheet. An asset with an unclear allocation does neither disputed job; valid orders still proceed. The facilitator collects both programmes before revealing either. The Ascendant remains at Security and Government."
-      ],
-      [
-        "HEADING_2",
-        "Free Phase— five minutes"
-      ],
-      [
-        "NORMAL_TEXT",
-        "After round one, discuss the results and record next-round vetoes under the existing articles. Each entitled party may strike out one order in each council where it has a veto. Joint authority gives a separate veto to each party that offered an available asset to either council this round; the Component Reference explains who exercises it. Choosing None leaves the options open. Vetoes are public, last one round and remain in force if the article changes."
-      ],
-      [
-        "NORMAL_TEXT",
-        "Then discuss the government you would like to try. Propose one Navigation article and one Military article. The two council representatives concerned and the Ascendant must agree an article aloud; the facilitator records the result. The articles are decided separately. Where no agreement is reached, the existing arrangement continues."
-      ],
-      [
-        "NORMAL_TEXT",
-        "You may attach a Standing Commitment to a proposed article to fix one of your faction's asset assignments for round two. Both teammates must agree that promise. Record the asset, assignment and article together; the Component Reference gives the permitted commitments and their conditions. Articles and attached commitments that pass govern round two."
-      ],
-      [
-        "NORMAL_TEXT",
-        "After round two, use this discussion to negotiate the final settlement package. There is no further operation or recovery before the Ceremony, and no next-round veto to issue."
-      ],
-      [
-        "NORMAL_TEXT",
-        "By the end of the phase the facilitator resolves both councils, home actions and scenario conditions, then announces track changes, asset losses, completed contracts and token expenditure."
+        "After councils, the facilitator resolves both councils, home actions, the announced development and scenario conditions. They announce track changes, asset losses, completed contracts and token expenditure. Round one then leads to the next opening announcement; round two leads directly to the Ceremony."
       ],
       [
         "HEADING_1",
@@ -348,7 +332,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Design by John Keyworth. Paper prototype v0.4, revised 15 October 2026. Use the current rulebook, briefs, component reference and facilitator guide together. Archived simulations retain the rules under which they were played."
+        "Design by John Keyworth. Paper prototype v0.5, revised 16 October 2026. Use the current rulebook, briefs, component reference and facilitator guide together. Archived simulations retain the rules under which they were played."
       ]
     ]
   },
@@ -361,7 +345,7 @@
       ],
       [
         "TITLE",
-        "Facilitator Guide, draft v0.4"
+        "Facilitator Guide, draft v0.5"
       ],
       [
         "HEADING_1",
@@ -373,7 +357,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "[WORKING] This guide implements multiple funded orders, single-use assets, next-round vetoes, contributor vetoes under Joint authority, Standing Commitments and weighted settlement. The model checks these paper rules; archived simulations retain their earlier rules."
+        "[WORKING] This guide implements multiple funded orders, single-use assets, opening vetoes, contributor vetoes under Joint authority, Standing Commitments and weighted settlement. The model checks these paper rules; archived simulations retain their earlier rules."
       ],
       [
         "HEADING_1",
@@ -405,7 +389,7 @@
       ],
       [
         "BULLET",
-        "Four council sheets: one for each council in each round. No faction decision sheets are needed. Add commitment markers for cards whose placement is fixed in round two."
+        "Four council sheets: one for each council in each round. No faction decision sheets are needed. Add commitment markers for cards whose placement is fixed in the coming operations."
       ],
       [
         "BULLET",
@@ -421,7 +405,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Place Navigation and Supply at one end and Security and Government at the other. Keep the tracks, current articles and final decisions in a central space where everyone can read them. Provide separate places for the Guild and Janissariat to confer during the faction phase. The Ascendant begins apart from both factions, with the foresight covers."
+        "Place Navigation and Supply at one end and Security and Government at the other. Keep the tracks, current articles and final decisions in a central space where everyone can read them. Provide separate places for the Guild and Janissariat to confer during the faction phase. Everyone may speak during opening free discussion. At the start of the faction phase, the Ascendant moves apart with the foresight covers and chooses before visiting."
       ],
       [
         "NORMAL_TEXT",
@@ -437,7 +421,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Set Beacon to 2, Stability to 3 and Readiness to 3. No contracts are completed. Both articles start Interim and round one has no vetoes. The Ascendant holds the next-round veto in each domain, while factions allocate their assets to any funded legal orders."
+        "Set Beacon to 2, Stability to 3 and Readiness to 3. No contracts are completed. Both articles start Interim. The Ascendant may set one veto in each domain during round one’s opening Free Phase. It can decline either. Factions retain control of their assets."
       ],
       [
         "NORMAL_TEXT",
@@ -453,11 +437,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "The council sheet lists every selected order and the single asset allocated to it. GN records Navigation and JS records Security after council discussion. The Ascendant records only their Warrant at Security; they do not select Navigation orders. Collect both programmes before revealing them. No cross-table messages or operational signatures are needed. Keep a separate public veto strip for each council, with next round, order, issuing party and expiry."
+        "The council sheet lists every selected order and the single asset allocated to it. GN records Navigation and JS records Security after council discussion. The Ascendant records only their Warrant at Security; they do not select Navigation orders. Collect both programmes before revealing them. No cross-table messages or operational signatures are needed. Keep a separate public veto strip for each council, with current round, order, issuing party and expiry after those operations."
       ],
       [
         "NORMAL_TEXT",
-        "The public record shows the three tracks, available assets, completed contracts, remaining tokens, current articles and binding commitments. Faction drafts and current plans stay with their faction; do not announce them before the Ascendant's choice. Publish final assignments when the faction phase ends. The Ascendant learns current plans through visits after choosing, not through a compulsory statement of intentions."
+        "The public record shows tracks, available assets, contracts, remaining tokens, current articles, commitments, vetoes and the announced development. Opening discussion is public: the Ascendant may hear plans there before purchasing foresight. Once the faction phase starts, private deliberations stay with the faction until the Ascendant has chosen and visits. Publish final card arrangements when faction discussion ends."
       ],
       [
         "HEADING_2",
@@ -477,11 +461,91 @@
       ],
       [
         "NORMAL_TEXT",
-        "0–8: briefing. 8–13: round-one faction discussion. 13–18: councils and resolution. 18–23: discuss the result and agree provisional articles. 23–28: round-two faction discussion. 28–33: councils and resolution. 33–38: free discussion. 38–48: Ceremony. Use the remaining twelve minutes for the debrief. These five-minute discussion phases follow the current player rulebook."
+        "0–8: briefing. 8–13: round-one announcement and free discussion, including vetoes and article agreements. 13–18: faction discussion. 18–23: councils and resolution. 23–28: round-two announcement and free discussion. 28–33: faction discussion. 33–38: councils and resolution. 38–48: Ceremony. 48–60: debrief. Include the short announcement within the five-minute Free Phase. Recording steps do not restart any phase clock."
+      ],
+      [
+        "HEADING_2",
+        "Opening veto procedure"
       ],
       [
         "NORMAL_TEXT",
-        "The faction phase has one five-minute deadline. Guild and Janissariat players talk only to their own teammates and cannot send messages to the other faction. They begin immediately and budget their time themselves. The Ascendant first chooses one prophecy or NONE privately, using the public state and earlier discussions, before visiting either faction or receiving its current plans. Do not call minute-two or minute-three gates or require factions to announce intentions."
+        "During each opening Free Phase, before any article amendment, use the authority already in force. Interim or NI grants A one Navigation veto; NG grants GN one. Interim or MI grants A one Security veto; MA grants JS one. Each may name one order or None. There is no approval gate over another entitled party’s choice."
+      ],
+      [
+        "NORMAL_TEXT",
+        "For NJ or MJ, identify contributing parties from the previous round’s final assignments: any available faction asset on Offer Council Service qualifies its faction; Grey Petrel on Offer Council Service qualifies A. Count offered service even if unused or subsequently lost. Maintenance, private contracts, independent interceptions, defending bases and navigator rescue do not qualify. Each contributing party gets one independent veto in each Joint council, exercised by its delegate there or A. Do not count one per player or asset."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Collect and reveal opening vetoes before agreeing article amendments and before faction discussion. Missing or unresolved multiple choices mean None. Duplicate vetoes block an order only once. Different parties may block several or all orders under Joint authority. Record the issuer and expiry after this round’s operations. New articles do not remove recorded vetoes or grant another set this opening. There is no veto phase after the final operations."
+      ],
+      [
+        "HEADING_1",
+        "Opening developments"
+      ],
+      [
+        "NORMAL_TEXT",
+        "At the start of each round, choose one of its two printed developments before hearing that round’s opening negotiations. Read only its announcement aloud, then leave that text visible. Record the choice. Both choices are always available; use the actual public situation to decide which dilemma needs attention. Do not switch cards after discussion begins, stack the alternatives or change their printed conditions."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Read the headline and short report as news from the setting. Do not name required orders or announce success conditions. Keep the exact triggers and numerical adjustments behind the screen. Players interpret the report and choose their own response. The event causes no immediate track change: resolve it once against this round’s actual operations. Selected but invalid, unfunded, vetoed or halted orders do not count as delivered relief or completed repair. The truce card specifically counts a valid offensive attempt even if the enemy is not reached or found."
+      ],
+      [
+        "NORMAL_TEXT",
+        "If no choice has been recorded before free discussion begins, use the first printed development for that round and announce it. Never apply an unannounced event retrospectively. Both developments are scenario material for this prototype, not established setting lore."
+      ],
+      [
+        "HEADING_2",
+        "R1-RELIEF — Sorenne’s Fall opens its last emergency depots"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Read aloud: Queues have formed outside distribution halls across Sorenne’s Fall after the administration opened its final emergency depots. Local officials describe the release as a temporary measure. District councils are already asking when the next supply ships will arrive."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Facilitator: Use when you want the opening bargain to centre on civilian supply. Delivered Relief gives Stability +1; otherwise Stability −1. A selected but halted or invalid relief order does not qualify."
+      ],
+      [
+        "HEADING_2",
+        "R1-REPAIR — Faults found along the Narrow’s beacon chain"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Read aloud: An inspection team has reported fractured housings and drifting signals at several beacon stations. Traffic continues to pass, but navigators are reporting an increasingly difficult crossing. Engineers say a short lull in local interference offers an unusual opportunity to reach the damaged installations."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Facilitator: Use when you want repair capacity to compete with transport. A valid funded Repair gives Beacon +1; otherwise Beacon −1. Home Maintain does not qualify. Apply after ordinary route wear, before clamping."
+      ],
+      [
+        "HEADING_2",
+        "R2-ESCORT — Relief convoy waits for assurances over passage"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Read aloud: Supply barges have gathered at the entrance to the Narrow following an appeal from Sorenne’s Fall. Their masters are seeking assurances about security along the crossing. At the receiving ports, administrators are preparing distribution teams while families wait for news of the convoy’s departure."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Facilitator: Use to test cooperation between councils. Delivered Relief plus Guard or an effective Warrant gives Stability +1; otherwise Stability −1. Grey Petrel’s navigator rescue is not general protection."
+      ],
+      [
+        "HEADING_2",
+        "R2-TRUCE — Civilian shippers call for a month-long truce"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Read aloud: Representatives of the civilian shipping houses have appealed for a month without military expeditions around the Narrow. Several carriers say they are ready to resume disrupted deliveries. Janissariat officers have questioned whether the Sorenne Flag would observe any such arrangement."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Facilitator: Use to put civilian recovery against the army’s need to fight. No valid funded Campaign or Raid and no unvetoed independent Raid gives Stability +1; any such attempted operation gives Stability −1. Invalid or vetoed orders are not attempts. A funded Campaign lacking delivered troops and a Raid finding no target still break the truce."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The faction phase has one five-minute deadline. Guild and Janissariat players talk only to their own teammates and cannot send messages to the other faction. They begin immediately and budget their time themselves. The Ascendant first chooses one prophecy or NONE privately, using the public state and earlier discussions, before visiting either faction or receiving its private faction-phase deliberations. Do not call minute-two or minute-three gates or require factions to announce intentions."
       ],
       [
         "NORMAL_TEXT",
@@ -489,11 +553,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "At the faction bell, check the agreed card arrangements. If a faction cannot agree, put its cards at home on default actions, then apply Standing Commitments. Remove unavailable cards. Note Grey Petrel’s location and face. Cards stay at those tables throughout councils. At the council bell, check orders against traits, vetoes and single-use assets; collect both programmes and the Warrant before revealing either. Keep GN and JN at Navigation and GS, JS and A at Security. Resolve during the Free Phase, then collect next-round vetoes under the existing articles before enacting replacements. The five-minute phase does not restart for recording steps."
+        "At the faction bell, check agreed card arrangements, applying defaults and Standing Commitments. Remove unavailable cards and note Grey Petrel’s position and face. Cards stay at their tables throughout councils. At the council bell, collect both programmes and the Warrant before revealing either. Keep GN and JN at Navigation and GS, JS and A at Security. Resolve orders, home actions, prophecy conditions and the announced development. Publish the result before the next opening announcement or, after round two, the Ceremony. There is no closing Free Phase."
       ],
       [
         "NORMAL_TEXT",
-        "In the browser, record the Ascendant's foresight choice first. Faction chat is available from the start; visits open only after the choice has been recorded. The two factions have separate visit conversations with the Ascendant. Final commitments end the same faction phase. An older saved session may contain draft records; keep those drafts within the faction and do not use them to brief the Ascendant."
+        "In the browser, the facilitator selects and announces a development, opens free discussion, records opening vetoes and the provisional proposal, then closes its agreement. These are steps within one five-minute Free Phase. Faction discussion follows: record foresight or NONE before opening Ascendant visits. Close card placements, then councils. Older saved sessions keep their original sequence."
       ],
       [
         "HEADING_1",
@@ -633,11 +697,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "Readiness changes once: +1 if any operation achieved qualifying combat, otherwise −1. Protection, routine upkeep, defending bases and unsuccessful expeditions do not provide combat. Final Beacon equals prepared Beacon minus the single transport wear and any commercial wear. Final Stability equals opening Stability plus the complete change ledger. Clamp each final track to 0–4 after adding all effects."
+        "Readiness changes once: +1 if any operation achieved qualifying combat, otherwise −1. Protection, upkeep, defending bases and unsuccessful expeditions provide no combat. Calculate raw Beacon as prepared Beacon minus transport and commercial wear, and raw Stability as opening Stability plus all ordinary and prophecy effects. Add the selected development’s adjustment to the appropriate raw total, then clamp final tracks to 0–4 once. Do not clamp before the development: a penalty can consume an excess above 4 rather than reduce an already-clamped 4 to 3."
       ],
       [
         "NORMAL_TEXT",
-        "Record losses, contracts and triggered reserve use. Assigned actions use the opening availability; new losses prevent use in later rounds. Vigil stays intact. Surviving faction assets return; Grey Petrel follows its one-service contract. Expire Standing Commitments after round-two operations. Nothing here restores a lost asset."
+        "Record losses, contracts and triggered reserve use. Assigned actions use the opening availability; new losses prevent use in later rounds. Vigil stays intact. Surviving faction assets return; Grey Petrel follows its one-service contract. Expire Standing Commitments after the operations they cover. Nothing here restores a lost asset."
       ],
       [
         "HEADING_2",
@@ -649,31 +713,15 @@
       ],
       [
         "HEADING_2",
-        "12. Record vetoes for the following round"
-      ],
-      [
-        "NORMAL_TEXT",
-        "After the first result, use the existing articles, before enacting replacements. Interim or NI grants A one Navigation veto; NG grants GN one. Interim or MI grants A one Security veto; MA grants JS one. Each may name one order or None. There is no approval gate over the other party's choice."
-      ],
-      [
-        "NORMAL_TEXT",
-        "For NJ or MJ, identify contributing parties from this round's final assignments: any available faction asset on Offer Council Service qualifies its faction; Grey Petrel on Offer Council Service qualifies A. Count offered service even if unused or subsequently lost. Maintenance, private contracts, independent interceptions, defending bases and navigator rescue do not qualify. Each contributing party gets one independent veto in each Joint council, exercised by its delegate there or A. Do not count one per player or asset."
-      ],
-      [
-        "NORMAL_TEXT",
-        "Collect the choices before revealing them together. Missing choice means None; multiple choices on one party's line mean None unless corrected by the deadline. Apply every valid veto. Duplicate names block the order only once; different names can block several or all orders. Record issuer and expiry after the following round. New articles do not remove these vetoes or grant another set. No operational round follows round two, so skip new vetoes then."
-      ],
-      [
-        "HEADING_2",
         "Worked resolution"
       ],
       [
         "NORMAL_TEXT",
-        "Begin round one at Beacon 2, Stability 3 and Readiness 3. Offer all four faction assets. Navigation allocates Lantern to Deliver Relief and Wayfarer to Transport Troops. Security allocates Spear to Attack the Anchorage and Vigil to Protect the Passage. The Ascendant retains Grey Petrel and issues no Warrant."
+        "For this ordinary-operations example, decline opening vetoes and article amendments; add the chosen development’s adjustment at the end. Begin round one at Beacon 2, Stability 3 and Readiness 3. Offer all four faction assets. Navigation allocates Lantern to Deliver Relief and Wayfarer to Transport Troops. Security allocates Spear to Attack the Anchorage and Vigil to Protect the Passage. The Ascendant retains Grey Petrel and issues no Warrant."
       ],
       [
         "NORMAL_TEXT",
-        "Protection adds Stability +1. Both transports are funded; Lantern cannot also maintain. Prepared Beacon remains 2. Relief adds Stability +2; troop transport supplies the attack. Together they produce one transport wear. The attack costs Stability −1 and sustains combat. Protection prevents Lantern's crew loss. Consumption costs Stability −1, giving total Stability change +1. Finish at Beacon 1, Stability 4, Readiness 4, with all assets intact, no contract and Grey Petrel retained."
+        "Protection adds Stability +1. Both transports are funded; Lantern cannot also maintain. Prepared Beacon remains 2. Relief adds Stability +2; troop transport supplies the attack. Together they produce one transport wear. The attack costs Stability −1 and sustains combat. Protection prevents Lantern's crew loss. Consumption costs Stability −1, giving total Stability change +1. Before the development adjustment, finish at Beacon 1, Stability 4, Readiness 4, with all assets intact, no contract and Grey Petrel retained."
       ],
       [
         "NORMAL_TEXT",
@@ -773,7 +821,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "The round-one trial needs spoken agreement from GN+JN+A for Navigation and GS+JS+A for Military. Read back each exact article and its attached terms, independently of the other domain, and record whether it passes. Up to one asset commitment per faction may be attached, with both owners' spoken agreement. Do not quietly detach an unapproved promise to pass its article. No pledge is compulsory. A passed pledge binds only that asset assignment in round two; an informal public plan has no mechanical penalty."
+        "Each opening trial needs spoken agreement from GN+JN+A for Navigation and GS+JS+A for Military. Read back the exact articles and attached commitments separately. A rejected amendment retains the existing article; no proposal retains both. Up to one asset commitment per faction may be attached, with both owners’ agreement. Do not detach an unapproved promise to pass its article. A passed commitment binds the current round only, then expires. An informal plan has no mechanical penalty. Articles persist until amended or the final settlement; a failed final settlement still expires both provisional articles to Interim."
       ],
       [
         "NORMAL_TEXT",
@@ -1249,7 +1297,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Agree which asset cards to take to their printed council and which to leave at home. Turn a two-sided card to show its chosen home action. The card arrangement records the decision; you need no faction sheet. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision."
+        "Use opening free discussion to respond to the development and negotiate with anyone. Then use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Agree which asset cards to take to their printed council and which to leave at home. Turn a two-sided card to show its chosen home action. The card arrangement records the decision; you need no faction sheet. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision."
       ],
       [
         "NORMAL_TEXT",
@@ -1293,7 +1341,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Agree which asset cards to take to their printed council and which to leave at home. Turn a two-sided card to show its chosen home action. The card arrangement records the decision; you need no faction sheet. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision."
+        "Use opening free discussion to respond to the development and negotiate with anyone. Then use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Agree which asset cards to take to their printed council and which to leave at home. Turn a two-sided card to show its chosen home action. The card arrangement records the decision; you need no faction sheet. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision."
       ],
       [
         "NORMAL_TEXT",
@@ -1325,7 +1373,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Military autonomy gives your Security delegate the next-round veto, but requires Vigil to Defend Army Bases. Joint authorisation gives a separate veto to every contributing party, potentially blocking several operations. Imperial command gives the Ascendant one veto: they can prevent one kind of fighting, but cannot use a single veto to block both an attack and an interception."
+        "Military autonomy gives your Security delegate the opening veto, but requires Vigil to Defend Army Bases. Joint authorisation gives a separate veto to every contributing party, potentially blocking several operations. Imperial command gives the Ascendant one veto: they can prevent one kind of fighting, but cannot use a single veto to block both an attack and an interception."
       ],
       [
         "HEADING_1",
@@ -1333,7 +1381,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "One player · A on decision sheets. Attend Security and Government and remain there throughout the council phase. You may advise that council and issue a permitted Warrant. You do not choose Navigation orders from another table. If you offer Grey Petrel, Navigation allocates it. Exercise any next-round veto during the Free Phase."
+        "One player · A on decision sheets. Attend Security and Government and remain there throughout the council phase. You may advise that council and issue a permitted Warrant. You do not choose Navigation orders from another table. If you offer Grey Petrel, Navigation allocates it. Exercise any opening veto during the Free Phase."
       ],
       [
         "NORMAL_TEXT",
@@ -1373,7 +1421,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Choose foresight before your visits, then place Grey Petrel at home or offer its card to Navigation before the faction phase ends. Its two home faces record retention or navigator protection. Use your worksheet only for foresight, a permitted Warrant during councils, and any next-round veto during the Free Phase. The Component Reference describes authority and the cutter. No operational signatures are needed."
+        "Choose foresight before your visits, then place Grey Petrel at home or offer its card to Navigation before the faction phase ends. Its two home faces record retention or navigator protection. Use your worksheet only for foresight, a permitted Warrant during councils, and any opening veto during the Free Phase. The Component Reference describes authority and the cutter. No operational signatures are needed."
       ],
       [
         "HEADING_3",
@@ -1385,7 +1433,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "At the start of each faction phase, choose your foresight before visiting either faction or hearing its plans for this round. Read the two covers: Navigation and Supply, and Security and Government. They identify the council at the centre of each prophecy and any other council it could affect. They do not reveal the action, condition, risk or reward. Choose one answer and pay one token before opening it, or choose NONE and retain your token. You may use the public state, existing commitments and anything learned in earlier phases to make this choice."
+        "At the start of each faction phase, choose your foresight before visiting either faction or hearing its private faction-phase deliberations. Read the two covers: Navigation and Supply, and Security and Government. They identify the council at the centre of each prophecy and any other council it could affect. They do not reveal the action, condition, risk or reward. Choose one answer and pay one token before opening it, or choose NONE and retain your token. You may use the public state, existing commitments and anything said during opening free discussion. You do not have to forget plans shared there. The two prophecy covers still conceal their specific conditions."
       ],
       [
         "NORMAL_TEXT",
@@ -1786,11 +1834,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "Authority lets its holder strike out an order for the following round. It does not let them choose another faction's orders or requisition its assets. During the Free Phase after round one, record the vetoes under the articles already in force, then agree any new articles. Show all vetoes before the next faction phase begins."
+        "During opening free discussion, authority lets its holder strike out an order for the council phase ahead. Record vetoes under the articles already in force, then agree any replacements. Show all vetoes before the faction phase begins. Authority does not let its holder choose another faction’s orders or requisition its assets."
       ],
       [
         "NORMAL_TEXT",
-        "There are no vetoes in round one. Each entitled party may veto one printed order in each council where it holds a right, or choose None. The veto lasts for the whole following round and expires afterwards. It applies to the named operation whatever asset would perform it. Changing the article does not erase a veto already issued. There is no third operational round, so do not issue new operational vetoes after round two."
+        "Each entitled party may veto one printed order in each council where it holds a right, or choose None. Vetoes apply to the current round and expire after its operations. The Ascendant holds both opening vetoes in round one under Interim. A veto applies whatever asset would perform the operation. Changing an article does not erase a veto or grant an additional one in that opening phase."
       ],
       [
         "HEADING_2",
@@ -1798,15 +1846,15 @@
       ],
       [
         "NORMAL_TEXT",
-        "Under a Joint article, every party that offered at least one available asset to either council during the completed round may issue its own veto in that Joint council. A Guild or Janissariat party gets one veto, not one per player or asset. The Ascendant qualifies by offering Grey Petrel to Navigation. The asset need only have been offered; it need not have been used or survived."
+        "Under a Joint article, every party that offered at least one available asset to either council during the previous round may issue its own veto in that Joint council. A Guild or Janissariat party gets one veto, not one per player or asset. The Ascendant qualifies by offering Grey Petrel to Navigation. The asset need only have been offered; it need not have been used or survived."
       ],
       [
         "NORMAL_TEXT",
-        "At Joint Navigation, GN exercises the Guild's veto and JN the Janissariat's. At Joint Military, GS exercises the Guild's and JS the Janissariat's. The Ascendant exercises their own. No other contributor's agreement is needed. Several parties may veto different orders; repeated vetoes against one order add nothing. If all orders are blocked, that council cannot order an operation next round."
+        "At Joint Navigation, GN exercises the Guild's veto and JN the Janissariat's. At Joint Military, GS exercises the Guild's and JS the Janissariat's. The Ascendant exercises their own. No other contributor's agreement is needed. Several parties may veto different orders; repeated vetoes against one order add nothing. If all orders are blocked, that council cannot order an operation this round."
       ],
       [
         "NORMAL_TEXT",
-        "Routine upkeep, a private contract, an independent interception, Defend Army Bases and Protect the Navigators do not count as offering an asset to a council. They give no contributor veto. An absent or spent asset cannot qualify a party. Contribution to either council qualifies the party in each Joint domain."
+        "Routine upkeep, a private contract, an independent interception, Defend Army Bases and Protect the Navigators do not count as offering an asset to a council. They give no contributor veto. An absent or spent asset cannot qualify a party. Contribution in the previous round to either council qualifies the party in each Joint domain."
       ],
       [
         "NORMAL_TEXT",
@@ -1818,7 +1866,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "The Ascendant may veto one Navigation order and one Security order for the following round and may issue a Warrant. The Guild has no service duty. An independent Janissariat interception breaks imperial discipline, even when no veto prevents it."
+        "The Ascendant may veto one Navigation order and one Security order for the council phase ahead and may issue a Warrant. The Guild has no service duty. An independent Janissariat interception breaks imperial discipline, even when no veto prevents it."
       ],
       [
         "HEADING_2",
@@ -1826,15 +1874,15 @@
       ],
       [
         "NORMAL_TEXT",
-        "Guild discretion (NG): GN may veto one Navigation order for the following round. The Guild must assign Lantern to Maintain the Narrows or carry out Repair the Narrows. Wayfarer may pursue its contract."
+        "Guild discretion (NG): GN may veto one Navigation order for the council phase ahead. The Guild must assign Lantern to Maintain the Narrows or carry out Repair the Narrows. Wayfarer may pursue its contract."
       ],
       [
         "NORMAL_TEXT",
-        "Imperial priority (NI): the Ascendant may veto one Navigation order for the following round. The Guild must assign Wayfarer to Offer Council Service, forgoing its contract even if Navigation leaves it unused."
+        "Imperial priority (NI): the Ascendant may veto one Navigation order for the council phase ahead. The Guild must assign Wayfarer to Offer Council Service, forgoing its contract even if Navigation leaves it unused."
       ],
       [
         "NORMAL_TEXT",
-        "Joint authorisation (NJ): each contributing party may veto one Navigation order for the following round. The Guild must assign Wayfarer to Offer Council Service. Vetoes need not agree and can block different orders."
+        "Joint authorisation (NJ): each contributing party may veto one Navigation order for the council phase ahead. The Guild must assign Wayfarer to Offer Council Service. Vetoes need not agree and can block different orders."
       ],
       [
         "HEADING_2",
@@ -1842,15 +1890,15 @@
       ],
       [
         "NORMAL_TEXT",
-        "Imperial command (MI): the Ascendant may veto one Security order for the following round and retains Warrant power. The Janissariat must assign Spear to Offer Council Service. A single veto cannot bar both kinds of fighting."
+        "Imperial command (MI): the Ascendant may veto one Security order for the council phase ahead and retains Warrant power. The Janissariat must assign Spear to Offer Council Service. A single veto cannot bar both kinds of fighting."
       ],
       [
         "NORMAL_TEXT",
-        "Military autonomy (MA): JS may veto one Security order for the following round. The Janissariat must assign Vigil to Defend Army Bases. There is no imperial Warrant. Spear may intercept independently unless a current veto bars it."
+        "Military autonomy (MA): JS may veto one Security order for the council phase ahead. The Janissariat must assign Vigil to Defend Army Bases. There is no imperial Warrant. Spear may intercept independently unless a current veto bars it."
       ],
       [
         "NORMAL_TEXT",
-        "Joint authorisation (MJ): each contributing party may veto one Security order for the following round. The Janissariat must assign Spear to Offer Council Service. There is no imperial Warrant. Several vetoes may block different operations."
+        "Joint authorisation (MJ): each contributing party may veto one Security order for the council phase ahead. The Janissariat must assign Spear to Offer Council Service. There is no imperial Warrant. Several vetoes may block different operations."
       ],
       [
         "HEADING_2",
@@ -1870,11 +1918,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "The first Free Phase gives you the chance to try new articles in round two. Navigation requires GN, JN and the Ascendant to agree the exact proposal aloud. Military requires GS, JS and the Ascendant. The facilitator records the agreement; no signatures are needed. Each article is decided separately, and a failed proposal leaves Interim in force."
+        "Each opening Free Phase lets you enact or replace articles for that round. Navigation requires GN, JN and the Ascendant to agree the exact proposal aloud. Military requires GS, JS and the Ascendant. The facilitator records the agreement; no signatures are needed. Decide each article separately. A failed amendment leaves the existing article in force. If no proposal is made before the deadline, keep the existing articles."
       ],
       [
         "NORMAL_TEXT",
-        "Record vetoes first, using the existing articles and the completed round's contributions. Articles enacted afterwards govern round two but do not give an extra veto before it. With only two operational rounds, this prototype tests their service duties; it does not play the next month's contributor vetoes under a newly enacted Joint article."
+        "Record vetoes first, using the existing articles and the previous round’s contributions. In round one there are no previous contributions, and both articles start Interim. Newly enacted articles govern that round’s duties and Warrant power, but do not grant another opening veto. An article enacted in round one can therefore govern vetoes at the start of round two. This tests its authority as well as its service duties."
       ],
       [
         "HEADING_2",
@@ -1902,7 +1950,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "An unapproved attached commitment prevents its article passing as proposed. If the article and commitment pass, the assignment is locked for round two and overrides contrary choices or defaults. It expires after that round's operations. An article can pass without a commitment; informal plans do not bind later orders."
+        "An unapproved attached commitment prevents its article passing as proposed. If the article and commitment pass, the assignment is locked for the current round and overrides contrary choices or defaults. It expires after that round's operations. An article can pass without a commitment; informal plans do not bind later orders."
       ],
       [
         "NORMAL_TEXT",

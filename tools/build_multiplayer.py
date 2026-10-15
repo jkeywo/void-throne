@@ -22,12 +22,13 @@ reference='const REFERENCE='+json.dumps(dict(rules=render(docs['rulebook']['bloc
 # The repository and game code are public. Only the host starts the engine;
 # each connected player still receives the Multiplayer.view allowlist.
 files = {}
-for name in ('__init__', 'operations', 'settlement', 'charter', 'session', 'multiplayer', 'browser_host', 'presentation', 'orders_v04', 'current_session', 'assets'):
+for name in ('__init__', 'operations', 'settlement', 'charter', 'session', 'multiplayer', 'browser_host', 'presentation', 'orders_v04', 'current_session', 'session_v04', 'assets'):
     path = f'src/void_throne/{name}.py'
     files[path] = (ROOT/path).read_text(encoding='utf8')
 for folder in ('private-cards', 'public-covers', 'player-visions', 'v04/private-cards', 'v04/player-visions'):
     for path in sorted((ROOT/'design'/folder).glob('*.json')):
         files[path.relative_to(ROOT).as_posix()] = path.read_text(encoding='utf8')
+files['design/developments.json']=(ROOT/'design/developments.json').read_text(encoding='utf8')
 files['design/track-descriptions.json']=(ROOT/'design/track-descriptions.json').read_text(encoding='utf8')
 
 def js(value): return json.dumps(value,ensure_ascii=False).replace('<', '\\u003c')

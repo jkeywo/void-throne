@@ -4,7 +4,8 @@ from copy import deepcopy
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'src'))
 from void_throne.orders_v04 import resolve,orders,veto_rights
 from void_throne.operations import State
-from void_throne.current_session import Session,from_actions,RULESET
+from void_throne.session_v04 import Session,RULESET
+from void_throne.current_session import from_actions
 from void_throne.session import ROLES
 from void_throne.multiplayer import Multiplayer
 from void_throne.browser_host import BrowserHost
@@ -89,7 +90,7 @@ class OrdersV04Tests(unittest.TestCase):
   st,d=resolve(State(),l='Council',nav=[o('Relief','Lantern'),o('Military','Wayfarer')],sec=[o('Campaign','Spear'),o('Guard','Vigil')],vetoes=g.vetoes)
   self.assertEqual(d['orders'],{})
  def test_pending_joint_vetoes_are_private_until_the_bell(self):
-  m=Multiplayer();g=m.game;g.stage='veto';g.articles={'navigation':'NJ','military':'MJ'}
+  m=Multiplayer();m.game=Session();g=m.game;g.stage='veto';g.articles={'navigation':'NJ','military':'MJ'}
   g.assignments={'Guild':{'wayfarer':'Council'},'Janissariat':{'spear':'Council'}};g.reserve='Council'
   for r in ROLES:m.sheets[r]=m.validate_sheet(r,{'navigation':'Repair','military':'Raid','note':r+' private veto'})
   for r in ROLES:self.assertEqual(set(m.view(r)['working_sheets']),{r})
@@ -117,7 +118,7 @@ class OrdersV04Tests(unittest.TestCase):
   self.assertTrue(g.settlement['ratified']);self.assertEqual(g.foresight,2)
   restored=from_actions(g.actions);self.assertEqual(restored.public(),g.public())
  def test_current_browser_validation_and_private_projections(self):
-  m=Multiplayer();g=m.game;g.apply(dict(stage='draft',choice='Navigation'));commit(g,'Council')
+  m=Multiplayer();m.game=Session();g=m.game;g.apply(dict(stage='draft',choice='Navigation'));commit(g,'Council')
   self.assertEqual(m.validate_sheet('GN',{'navigation':[o('Relief','Lantern'),o('Military','Grey Petrel')]})['navigation'][1]['asset'],'Grey Petrel')
   self.assertNotIn('navigation',m.validate_sheet('A',{'navigation':[o('Military','Grey Petrel')]}))
   before=g.public()

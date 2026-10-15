@@ -164,39 +164,39 @@ Match an offered card’s traits to each selected order. An Assault asset can At
 
 4. Authority and provisional government
 
-Authority lets its holder strike out an order for the following round. It does not let them choose another faction's orders or requisition its assets. During the Free Phase after round one, record the vetoes under the articles already in force, then agree any new articles. Show all vetoes before the next faction phase begins.
+During opening free discussion, authority lets its holder strike out an order for the council phase ahead. Record vetoes under the articles already in force, then agree any replacements. Show all vetoes before the faction phase begins. Authority does not let its holder choose another faction’s orders or requisition its assets.
 
-There are no vetoes in round one. Each entitled party may veto one printed order in each council where it holds a right, or choose None. The veto lasts for the whole following round and expires afterwards. It applies to the named operation whatever asset would perform it. Changing the article does not erase a veto already issued. There is no third operational round, so do not issue new operational vetoes after round two.
+Each entitled party may veto one printed order in each council where it holds a right, or choose None. Vetoes apply to the current round and expire after its operations. The Ascendant holds both opening vetoes in round one under Interim. A veto applies whatever asset would perform the operation. Changing an article does not erase a veto or grant an additional one in that opening phase.
 
 Joint authority: contributor vetoes
 
-Under a Joint article, every party that offered at least one available asset to either council during the completed round may issue its own veto in that Joint council. A Guild or Janissariat party gets one veto, not one per player or asset. The Ascendant qualifies by offering Grey Petrel to Navigation. The asset need only have been offered; it need not have been used or survived.
+Under a Joint article, every party that offered at least one available asset to either council during the previous round may issue its own veto in that Joint council. A Guild or Janissariat party gets one veto, not one per player or asset. The Ascendant qualifies by offering Grey Petrel to Navigation. The asset need only have been offered; it need not have been used or survived.
 
-At Joint Navigation, GN exercises the Guild's veto and JN the Janissariat's. At Joint Military, GS exercises the Guild's and JS the Janissariat's. The Ascendant exercises their own. No other contributor's agreement is needed. Several parties may veto different orders; repeated vetoes against one order add nothing. If all orders are blocked, that council cannot order an operation next round.
+At Joint Navigation, GN exercises the Guild's veto and JN the Janissariat's. At Joint Military, GS exercises the Guild's and JS the Janissariat's. The Ascendant exercises their own. No other contributor's agreement is needed. Several parties may veto different orders; repeated vetoes against one order add nothing. If all orders are blocked, that council cannot order an operation this round.
 
-Routine upkeep, a private contract, an independent interception, Defend Army Bases and Protect the Navigators do not count as offering an asset to a council. They give no contributor veto. An absent or spent asset cannot qualify a party. Contribution to either council qualifies the party in each Joint domain.
+Routine upkeep, a private contract, an independent interception, Defend Army Bases and Protect the Navigators do not count as offering an asset to a council. They give no contributor veto. An absent or spent asset cannot qualify a party. Contribution in the previous round to either council qualifies the party in each Joint domain.
 
 Joint government therefore removes a single ruler's control but may produce several competing restrictions. Contributors must negotiate over which options to leave open. Its service duties still apply; authority does not remove a faction's obligations.
 
 Interim
 
-The Ascendant may veto one Navigation order and one Security order for the following round and may issue a Warrant. The Guild has no service duty. An independent Janissariat interception breaks imperial discipline, even when no veto prevents it.
+The Ascendant may veto one Navigation order and one Security order for the council phase ahead and may issue a Warrant. The Guild has no service duty. An independent Janissariat interception breaks imperial discipline, even when no veto prevents it.
 
 Navigation articles
 
-Guild discretion (NG): GN may veto one Navigation order for the following round. The Guild must assign Lantern to Maintain the Narrows or carry out Repair the Narrows. Wayfarer may pursue its contract.
+Guild discretion (NG): GN may veto one Navigation order for the council phase ahead. The Guild must assign Lantern to Maintain the Narrows or carry out Repair the Narrows. Wayfarer may pursue its contract.
 
-Imperial priority (NI): the Ascendant may veto one Navigation order for the following round. The Guild must assign Wayfarer to Offer Council Service, forgoing its contract even if Navigation leaves it unused.
+Imperial priority (NI): the Ascendant may veto one Navigation order for the council phase ahead. The Guild must assign Wayfarer to Offer Council Service, forgoing its contract even if Navigation leaves it unused.
 
-Joint authorisation (NJ): each contributing party may veto one Navigation order for the following round. The Guild must assign Wayfarer to Offer Council Service. Vetoes need not agree and can block different orders.
+Joint authorisation (NJ): each contributing party may veto one Navigation order for the council phase ahead. The Guild must assign Wayfarer to Offer Council Service. Vetoes need not agree and can block different orders.
 
 Military articles
 
-Imperial command (MI): the Ascendant may veto one Security order for the following round and retains Warrant power. The Janissariat must assign Spear to Offer Council Service. A single veto cannot bar both kinds of fighting.
+Imperial command (MI): the Ascendant may veto one Security order for the council phase ahead and retains Warrant power. The Janissariat must assign Spear to Offer Council Service. A single veto cannot bar both kinds of fighting.
 
-Military autonomy (MA): JS may veto one Security order for the following round. The Janissariat must assign Vigil to Defend Army Bases. There is no imperial Warrant. Spear may intercept independently unless a current veto bars it.
+Military autonomy (MA): JS may veto one Security order for the council phase ahead. The Janissariat must assign Vigil to Defend Army Bases. There is no imperial Warrant. Spear may intercept independently unless a current veto bars it.
 
-Joint authorisation (MJ): each contributing party may veto one Security order for the following round. The Janissariat must assign Spear to Offer Council Service. There is no imperial Warrant. Several vetoes may block different operations.
+Joint authorisation (MJ): each contributing party may veto one Security order for the council phase ahead. The Janissariat must assign Spear to Offer Council Service. There is no imperial Warrant. Several vetoes may block different operations.
 
 Service duties
 
@@ -206,9 +206,9 @@ Under Guild discretion, merely offering Lantern does not fulfil upkeep: maintain
 
 Enacting an article
 
-The first Free Phase gives you the chance to try new articles in round two. Navigation requires GN, JN and the Ascendant to agree the exact proposal aloud. Military requires GS, JS and the Ascendant. The facilitator records the agreement; no signatures are needed. Each article is decided separately, and a failed proposal leaves Interim in force.
+Each opening Free Phase lets you enact or replace articles for that round. Navigation requires GN, JN and the Ascendant to agree the exact proposal aloud. Military requires GS, JS and the Ascendant. The facilitator records the agreement; no signatures are needed. Decide each article separately. A failed amendment leaves the existing article in force. If no proposal is made before the deadline, keep the existing articles.
 
-Record vetoes first, using the existing articles and the completed round's contributions. Articles enacted afterwards govern round two but do not give an extra veto before it. With only two operational rounds, this prototype tests their service duties; it does not play the next month's contributor vetoes under a newly enacted Joint article.
+Record vetoes first, using the existing articles and the previous round’s contributions. In round one there are no previous contributions, and both articles start Interim. Newly enacted articles govern that round’s duties and Warrant power, but do not grant another opening veto. An article enacted in round one can therefore govern vetoes at the start of round two. This tests its authority as well as its service duties.
 
 Standing Commitments
 
@@ -222,6 +222,6 @@ Spear: Offer Council Service.
 
 Vigil: Offer Council Service or Defend Army Bases.
 
-An unapproved attached commitment prevents its article passing as proposed. If the article and commitment pass, the assignment is locked for round two and overrides contrary choices or defaults. It expires after that round's operations. An article can pass without a commitment; informal plans do not bind later orders.
+An unapproved attached commitment prevents its article passing as proposed. If the article and commitment pass, the assignment is locked for the current round and overrides contrary choices or defaults. It expires after that round's operations. An article can pass without a commitment; informal plans do not bind later orders.
 
 Mark a promised placement or home action on the card with a commitment marker. The promise fixes that assignment, not its eventual order. An asset may be left unused if no legal operation remains. Grey Petrel's assignment is made by the Ascendant each faction phase; it is not an additional faction Standing Commitment.

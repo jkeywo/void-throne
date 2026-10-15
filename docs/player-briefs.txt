@@ -2,7 +2,7 @@ The Ductus Guild
 
 Two players · shared assets and objectives. Your Navigation delegate is GN; your Security delegate is GS.
 
-Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Agree which asset cards to take to their printed council and which to leave at home. Turn a two-sided card to show its chosen home action. The card arrangement records the decision; you need no faction sheet. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision.
+Use opening free discussion to respond to the development and negotiate with anyone. Then use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Agree which asset cards to take to their printed council and which to leave at home. Turn a two-sided card to show its chosen home action. The card arrangement records the decision; you need no faction sheet. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision.
 
 You operate the passage service through the Narrow. Wayfarer is your freight vessel; Lantern carries your navigation team and maintains the route. Those ships are needed for civilian supplies, military transport and your own commercial obligations.
 
@@ -24,7 +24,7 @@ The Janissariat
 
 Two players · shared assets and objectives. Your Navigation delegate is JN; your Security delegate is JS.
 
-Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Agree which asset cards to take to their printed council and which to leave at home. Turn a two-sided card to show its chosen home action. The card arrangement records the decision; you need no faction sheet. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision.
+Use opening free discussion to respond to the development and negotiate with anyone. Then use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Agree which asset cards to take to their printed council and which to leave at home. Turn a two-sided card to show its chosen home action. The card arrangement records the decision; you need no faction sheet. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision.
 
 You command Spear, the 9th Pale Cohort, and Vigil, the Narrow garrison. Spear has local assault craft, but needs Guild transport to campaign beyond the crossing. Vigil can protect traffic or remain at its institutional bases.
 
@@ -40,11 +40,11 @@ Protect your soldiers from operations they cannot sustain. A weakened cohort ris
 
 Leave Sorenne's Fall with Stability at least 2.
 
-Military autonomy gives your Security delegate the next-round veto, but requires Vigil to Defend Army Bases. Joint authorisation gives a separate veto to every contributing party, potentially blocking several operations. Imperial command gives the Ascendant one veto: they can prevent one kind of fighting, but cannot use a single veto to block both an attack and an interception.
+Military autonomy gives your Security delegate the opening veto, but requires Vigil to Defend Army Bases. Joint authorisation gives a separate veto to every contributing party, potentially blocking several operations. Imperial command gives the Ascendant one veto: they can prevent one kind of fighting, but cannot use a single veto to block both an attack and an interception.
 
 The Ascendant
 
-One player · A on decision sheets. Attend Security and Government and remain there throughout the council phase. You may advise that council and issue a permitted Warrant. You do not choose Navigation orders from another table. If you offer Grey Petrel, Navigation allocates it. Exercise any next-round veto during the Free Phase.
+One player · A on decision sheets. Attend Security and Government and remain there throughout the council phase. You may advise that council and issue a permitted Warrant. You do not choose Navigation orders from another table. If you offer Grey Petrel, Navigation allocates it. Exercise any opening veto during the Free Phase.
 
 You need a government capable of maintaining the Dominion, and an army capable of defending it. A quiet month may help Sorenne's Fall while weakening both the Janissariat and the authority they give you.
 
@@ -64,13 +64,13 @@ You gain no special success from keeping imperial command. Use the provisional g
 
 Your powers
 
-Choose foresight before your visits, then place Grey Petrel at home or offer its card to Navigation before the faction phase ends. Its two home faces record retention or navigator protection. Use your worksheet only for foresight, a permitted Warrant during councils, and any next-round veto during the Free Phase. The Component Reference describes authority and the cutter. No operational signatures are needed.
+Choose foresight before your visits, then place Grey Petrel at home or offer its card to Navigation before the faction phase ends. Its two home faces record retention or navigator protection. Use your worksheet only for foresight, a permitted Warrant during councils, and any opening veto during the Free Phase. The Component Reference describes authority and the cutter. No operational signatures are needed.
 
 Foresight
 
 The Ascendant starts with three foresight tokens. Each unspent token adds one to their final settlement weight.
 
-At the start of each faction phase, choose your foresight before visiting either faction or hearing its plans for this round. Read the two covers: Navigation and Supply, and Security and Government. They identify the council at the centre of each prophecy and any other council it could affect. They do not reveal the action, condition, risk or reward. Choose one answer and pay one token before opening it, or choose NONE and retain your token. You may use the public state, existing commitments and anything learned in earlier phases to make this choice.
+At the start of each faction phase, choose your foresight before visiting either faction or hearing its private faction-phase deliberations. Read the two covers: Navigation and Supply, and Security and Government. They identify the council at the centre of each prophecy and any other council it could affect. They do not reveal the action, condition, risk or reward. Choose one answer and pay one token before opening it, or choose NONE and retain your token. You may use the public state, existing commitments and anything said during opening free discussion. You do not have to forget plans shared there. The two prophecy covers still conceal their specific conditions.
 
 There is at most one purchase per round. Your choice must reach the facilitator before you visit a faction and before the faction phase ends. A missing, multiple or late choice means NONE. Choosing NONE also completes your choice and permits visits. Tokens do not recover, and there are no swaps, refunds or further purchases that month. Waiting to choose leaves less time for visits; it does not extend the phase.
 

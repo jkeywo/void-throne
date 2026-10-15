@@ -12,6 +12,7 @@ import secrets
 from .presentation import player_vision, public_resolution
 from .session import Session as LegacySession, ROLES, ASSETS, NAV, SEC, ARTICLES, choice, boolean, ROOT
 from .current_session import Session, from_actions, RULESET
+from .session_v04 import Session as AssetSession
 from .orders_v04 import orders, AUTH, veto_rights, LABELS, NAV as CURRENT_NAV, SEC as CURRENT_SEC
 
 CHANNELS = {'table': ROLES, 'guild': ('GN','GS'), 'army': ('JN','JS'),
@@ -69,12 +70,14 @@ class Multiplayer:
             raise ValueError('This host tab has been replaced. Use the newest facilitator tab.')
 
     def required(self):
+        if isinstance(self.game,Session) and self.game.stage in ('opening','free'):return []
         if self.game.stage in ('draft','vision'):return ['A']
         if self.game.stage=='veto':return sorted({r for people in veto_rights(self.game.articles,self.game.assignments,self.game.reserve).values() for r in people})
         if self.game.stage in ('trial-proposal','ceremony-proposal','ended'):return []
         return list(ROLES)
 
     def channels(self,role):
+        if isinstance(self.game,Session) and self.game.stage=='opening':return ['facilitator-'+role]
         if self.game.stage in ('draft','vision','commit'):
             allowed=['guild'] if role.startswith('G') else ['army'] if role.startswith('J') else []
             if self.game.stage=='commit':
@@ -122,7 +125,7 @@ class Multiplayer:
         out={k:deepcopy(getattr(g,k)) for k in ('state','round','stage','foresight','articles','pledges',
              'drafts','assignments','reserve','disclosed','trial','package','ballots','settlement')}
         public=g.public()
-        out.update(asset_cards=public.get('asset_cards',{}),order_traits=public.get('order_traits',{}),role=role,epoch=self.epoch,revision=self.revision,seats=self.status(),
+        out.update(development=public.get('development'),asset_cards=public.get('asset_cards',{}),order_traits=public.get('order_traits',{}),role=role,epoch=self.epoch,revision=self.revision,seats=self.status(),
                    covers=public['covers'],ruleset=public['ruleset'],vetoes=public.get('vetoes',{}),veto_authority=public.get('veto_authority',{}),order_labels=public.get('order_labels',{}),track_descriptions=public['track_descriptions'],leverage=public['leverage'],history=self.history(role),
                    selected_vision=player_vision(g.vision) if role=='A' or g.disclosed else None,
                    own_sheet=deepcopy(self.sheets.get(role)),channels=self.channels(role),
@@ -209,12 +212,12 @@ class Multiplayer:
         if stage in ('draft','vision'):result['choice']=choice(row.get('choice'),['None','Navigation','Security'])
         elif stage=='commit':
             if role=='A':
-                result['reserve']=choice(row.get('reserve'),['Keep','Council','Tender cover'] if isinstance(self.game,Session) else ['Keep','Relief lift','Tender cover'])
+                result['reserve']=choice(row.get('reserve'),['Keep','Council','Tender cover'] if isinstance(self.game,AssetSession) else ['Keep','Relief lift','Tender cover'])
                 result['disclose']=boolean(row.get('disclose',False))
             else:
                 for a,opts in ASSETS[role].items():result[a]=choice(row.get(a),opts)
         elif stage=='council':
-            if isinstance(self.game,Session):
+            if isinstance(self.game,AssetSession):
                 if role=='GN':result['navigation']=orders(row.get('navigation',[]),'navigation')
                 if role=='JS':result['security']=orders(row.get('security',[]),'military')
             else:
@@ -247,12 +250,15 @@ class Multiplayer:
         if missing and not allow_missing:raise ValueError('Still waiting for '+', '.join(missing)+'. Close with printed defaults only at the deadline.')
         stage=self.game.stage;s=self.sheets;p={'stage':stage,'notes':{r:x['note'] for r,x in s.items() if x.get('note')}}
         if stage=='ended':raise ValueError('The settlement is complete. Use table chat for the debrief and export the record.')
-        if stage in ('draft','vision'):p['choice']=s.get('A',{}).get('choice','None')
+        if stage=='opening':
+            if not isinstance(proposal,dict):raise ValueError('Choose the opening development before discussion.')
+            p['development']=proposal.get('development')
+        elif stage in ('draft','vision'):p['choice']=s.get('A',{}).get('choice','None')
         elif stage=='commit':
             p.update(assignments={r:{a:s.get(r,{}).get(a) for a in ASSETS[r]} for r in ROLES if r!='A' and r in s},
                      reserve=s.get('A',{}).get('reserve','Keep'),disclose=s.get('A',{}).get('disclose',False))
         elif stage=='council':
-            if isinstance(self.game,Session):
+            if isinstance(self.game,AssetSession):
                 p.update(navigation={'GN':s.get('GN',{}).get('navigation',[])},
                          security={'JS':s.get('JS',{}).get('security',[])},warrant=s.get('A',{}).get('warrant',False))
             else:

@@ -26,6 +26,7 @@ jobs:
           python -m unittest discover -s tests -p test_player_information.py -v
           python -m unittest discover -s tests -p test_orders_v04.py -v
           python -m unittest discover -s tests -p test_asset_traits.py -v
+          python -m unittest discover -s tests -p test_opening_rounds.py -v
       - run: python tools/build_pages.py
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:

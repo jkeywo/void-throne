@@ -12,7 +12,7 @@ Introduction
 
 The Settled Dark
 
-Players and councils
+Factions and councils
 
 Sequence of play
 
@@ -32,9 +32,9 @@ Two from the Janissariat, the army that won the war.
 
 The Ascendant, the ruler who united the empire and can see the future.
 
-You face one connected emergency: A space passage called the Narrow is deteriorating. The star system of Sorenne's Fall needs supplies, and a cohort of Janissariat needs transport, but your ships and forces cannot do every job.
+You face one connected emergency: A space passage called the Narrow is deteriorating. The star system of Sorenne's Fall needs supplies, and a cohort of Janissariat needs transport, but your ships and forces cannot be everywhere at once.
 
-At the same time, you are writing two parts of the empire's constitution: who can restrict transport between the stars, and who can restrict military operations.
+At the same time, you are writing two parts of the empire's constitution: who has authority over transport between the stars, and who has authority over military operations.
 
 2. The Settled Dark
 
@@ -44,7 +44,7 @@ The new empire is called the Settled Dominion and its rulers are negotiating a C
 
 The Ductus Guild
 
-Interstellar travel depends on Guild navigators, who learn to sense and interpret the immaterial deep through which ships travel. Owning a ship is not enough: you need their specialist expertise. The Ductus Guild uses that dependence to defend its licences, professional independence and commercial obligations.
+Interstellar travel depends on Guild navigators, who learn to sense and interpret the immaterial deep through which ships travel. Owning a ship is not enough: you need their specialist expertise. The Ductus Guild uses that dependence to defend its professional independence and commercial interests.
 
 The Guild's Navigation Rights Petition, called GUILD-14, has waited fourteen years for a formal answer in the Charter of Settlement.
 
@@ -58,7 +58,7 @@ The Ascendant
 
 Little is known of the Ascendant, but that they appeared leading the Janissariat at the start of the conquest, and that they have the power of foresight.
 
-The Ascendant begins with imperial authority: the power to veto an order for the following round. The factions retain control of their assets and can carry out any unvetoed orders they can supply.
+The Ascendant begins with imperial authority: the power to veto an order during the opening Free Phase. The factions retain control of their assets and can carry out any unvetoed orders they can supply.
 
 The Crisis
 
@@ -68,7 +68,9 @@ Sorenne's Fall governs itself through the administration left behind when House 
 
 Spear, a Janissariat cohort, is held at the Narrow while its commanders seek passage to the Flag's anchorage beyond it.
 
-3. Players and councils
+3. Factions and Councils
+
+The Factions
 
 The Guild and the Janissariat each have two players. Each pair shares assets and objectives, but sit on different councils.
 
@@ -88,51 +90,41 @@ Abbreviated GS, JS and A.
 
 4. Sequence of play
 
-The game consists of two rounds, each representing a month. A round has five minutes of faction phase, a five minute council phase and a five minute free phase.
+The game consists of two rounds, each representing a month. Each round starts with a development announced by the facilitator, followed by five minutes of free discussion, five minutes of faction discussion and a five-minute council phase. The facilitator then resolves the orders.
 
 After the second round, there will be a ten-minute Ceremony of Settlement to resolve the new government.
 
+Free Phase — five minutes
+
+The facilitator announces one prepared development at the start of the round. Its consequences depend on the orders carried out this round. Discuss the news and your plans with anyone. In round two, use the previous round’s results to reconsider your bargains.
+
+Record vetoes under the articles already in force. These block orders in the council phase ahead. Joint authority gives each party that offered an available asset to either council in the previous round its own veto. The Component Reference gives the details. Vetoes are public and remain in force if an article changes.
+
+Then agree the government for this round. The two council representatives concerned and the Ascendant must agree each provisional article aloud. A failed proposal leaves the existing article in force. You may attach a Standing Commitment with both faction members’ agreement; it fixes one asset’s placement or home action for this round.
+
+The announcement, discussion, vetoes and article agreements all use the same five minutes. At the deadline, proceed to faction discussion.
+
 Faction Phase — five minutes
 
-You have five minutes to decide your faction's approach with your teammate. Guild and Janissariat players stay at their own faction tables and do not speak or send messages to the other faction during this phase. The Ascendant may visit either faction.
+You have five minutes to decide your faction's approach with your teammate. Guild and Janissariat players stay at their own faction tables while the Ascendant may visit any faction.
 
-Your assets are the ships or military units your faction controls. Each has a card showing its owner, council and traits. Traits describe what the asset can do; orders require traits rather than a particular named asset.
+Your assets are the ships or military units your faction controls. Each has a card showing its owner and traits. Traits describe what the asset can do; orders require traits.
 
-Keep an asset at your faction table for its home action, or take its card to the council printed on it. An asset at a council is offered for service there; its home action does not happen that round.
+Keep an asset at your faction table for its home action, or take its card to the council printed on it. An asset at a council is offered for service there instead of taking a home action.
 
-Agree the placement of your cards with your teammate. Spear and Grey Petrel have two different home faces: turn the card to show the home action you want. Their traits are the same on both faces. At a council, either face makes the asset available for orders.
+Agree the allocation of your cards with your teammate. Some Assets have two faces: turn the card to show the home action you want.
 
-You may move or turn cards until the faction phase ends. Then take the agreed cards to their councils and leave the others at home, with the chosen home action showing. This arrangement records your decisions; there is no faction decision sheet. Cards cannot change tables or turn to a home action during the council phase.
+A Standing Commitment agreed during the opening free discussion may fix where a card goes or which home action it shows this round. Put a commitment marker on the card and follow that promise.
 
-In round two, a Standing Commitment may already fix where a card goes or which home action it shows. This is a promise agreed and recorded during the previous free discussion. Put a commitment marker on the card and follow that promise.
-
-If the teammates cannot agree their card arrangement before the deadline, leave that faction’s cards at home on these default actions. Binding Standing Commitments override defaults:
-
-Guild: Wayfarer [Fulfil Commercial Contract]; Lantern [Maintain the Narrows].
-
-Janissariat: Spear [Stand Down]; Vigil [Defend Army Bases].
-
-Remove lost or disabled cards from play. They cannot supply an order or perform a home action.
+If the teammates cannot agree their card arrangement before the deadline, leave that faction’s cards at home on its default home action.
 
 Council Phase— five minutes
 
-Go to your council and discuss the orders you can carry out using the traits of assets brought to the table. Stay at that table throughout the council phase and speak only with its members. Do not visit, call across to or send messages to the other council, including through your faction teammate. The Component Reference explains available orders, their requirements, purpose and risks; the facilitator keeps exact calculations concealed. Make cross-council plans during earlier faction visits or free discussion. Those plans do not bind later decisions.
+Go to your council and discuss the orders you can carry out using the traits of assets brought to the table.
 
-You may select any combination of orders for which you have the assets and requirements. Each asset and each printed order can be used once per round. Check the public vetoes: a struck-out order cannot be chosen this round. GN records Navigation allocations, including Grey Petrel when offered; JS records Security allocations. The other council members contribute through discussion. Authority does not add a requirement for their approval.
+You may select any combination of orders for which you have the assets and requirements. Each asset and each printed order can be used once per round. Check the public vetoes: a struck-out order cannot be chosen this round. GN records Navigation orders; JS records Security orders.
 
-At the end of the phase, confirm the chosen orders and the asset used for each. Resolve any double use before handing in the council sheet. An asset with an unclear allocation does neither disputed job; valid orders still proceed. The facilitator collects both programmes before revealing either. The Ascendant remains at Security and Government.
-
-Free Phase— five minutes
-
-After round one, discuss the results and record next-round vetoes under the existing articles. Each entitled party may strike out one order in each council where it has a veto. Joint authority gives a separate veto to each party that offered an available asset to either council this round; the Component Reference explains who exercises it. Choosing None leaves the options open. Vetoes are public, last one round and remain in force if the article changes.
-
-Then discuss the government you would like to try. Propose one Navigation article and one Military article. The two council representatives concerned and the Ascendant must agree an article aloud; the facilitator records the result. The articles are decided separately. Where no agreement is reached, the existing arrangement continues.
-
-You may attach a Standing Commitment to a proposed article to fix one of your faction's asset assignments for round two. Both teammates must agree that promise. Record the asset, assignment and article together; the Component Reference gives the permitted commitments and their conditions. Articles and attached commitments that pass govern round two.
-
-After round two, use this discussion to negotiate the final settlement package. There is no further operation or recovery before the Ceremony, and no next-round veto to issue.
-
-By the end of the phase the facilitator resolves both councils, home actions and scenario conditions, then announces track changes, asset losses, completed contracts and token expenditure.
+After councils, the facilitator resolves both councils, home actions, the announced development and scenario conditions. They announce track changes, asset losses, completed contracts and token expenditure. Round one then leads to the next opening announcement; round two leads directly to the Ceremony.
 
 5. The Ceremony of Settlement
 
@@ -170,4 +162,4 @@ What government did you want at the start, and what did you accept at the end? N
 
 For the Ascendant, did foresight change a decision, a bargain or only your confidence? One remaining token is inevitable after two purchases. Declining a purchase is the choice that preserves more power.
 
-Design by John Keyworth. Paper prototype v0.4, revised 15 October 2026. Use the current rulebook, briefs, component reference and facilitator guide together. Archived simulations retain the rules under which they were played.
+Design by John Keyworth. Paper prototype v0.5, revised 16 October 2026. Use the current rulebook, briefs, component reference and facilitator guide together. Archived simulations retain the rules under which they were played.

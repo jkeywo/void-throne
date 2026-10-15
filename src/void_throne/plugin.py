@@ -7,19 +7,19 @@ from playtrace.simulation import (SimulationRun,SimulationProvenance,SimulationM
     PlayerPolicyKind,snapshot_content_digest)
 from playtrace.semantics import SemanticUsage,SemanticOrigin,audit_semantics
 from .session import Session, ROOT, ROLES
-from .current_session import Session as CurrentSession, RULESET
+from .current_session import Session as CurrentSession, RULESET, V04_RULESET, new_game
 
 def engine_digest():
-    paths=sorted((ROOT/'design/v04').rglob('*.json'))+sorted((ROOT/'src/void_throne').glob('*.py'))+sorted((ROOT/'design/private-cards').glob('*.json'))+sorted((ROOT/'design/public-covers').glob('*.json'))+sorted((ROOT/'design/player-visions').glob('*.json'))+[ROOT/'design/track-descriptions.json']
+    paths=sorted((ROOT/'design/v04').rglob('*.json'))+sorted((ROOT/'src/void_throne').glob('*.py'))+sorted((ROOT/'design/private-cards').glob('*.json'))+sorted((ROOT/'design/public-covers').glob('*.json'))+sorted((ROOT/'design/player-visions').glob('*.json'))+[ROOT/'design/track-descriptions.json',ROOT/'design/developments.json']
     h=hashlib.sha256()
     for p in paths:h.update(p.relative_to(ROOT).as_posix().encode());h.update(p.read_bytes())
     return h.hexdigest()
 
 class VoidThronePlugin:
-    id='void-throne';version='0.4.0';project_ids=('void-throne',)
+    id='void-throne';version='0.5.0';project_ids=('void-throne',)
 
     def run(self,snapshot,config,*,runner):
-        game=CurrentSession() if config.ruleset_id==RULESET else Session();events=[];checkpoints=[];blockers=[]
+        game=new_game(config.ruleset_id) if config.ruleset_id in (RULESET,V04_RULESET,'vt:rules:revised-visions-v0.3') else Session();events=[];checkpoints=[];blockers=[]
         initial=PluginSimulationState(plugin_id=self.id,status=SimulationStatus.READY,data={'physical':game.state,'foresight':3,'articles':game.articles})
         snapshot_hash=snapshot_content_digest(snapshot);config_hash=canonical_digest(config,domain='simulation-config')
         model_hash=engine_digest()
@@ -33,7 +33,7 @@ class VoidThronePlugin:
                      ('settlement','Five explicit approvals, three weighted signatures, threshold and fallback.')])
         try:
             if snapshot.project_id!='void-throne':raise ValueError('Wrong project snapshot.')
-            if config.ruleset_id not in ('vt:rules:revised-visions-v0.3',RULESET) or config.scenario_id!='vt:scenario:narrow':raise ValueError('Unsupported ruleset or scenario.')
+            if config.ruleset_id not in ('vt:rules:revised-visions-v0.3',V04_RULESET,RULESET) or config.scenario_id!='vt:scenario:narrow':raise ValueError('Unsupported ruleset or scenario.')
             if tuple(config.character_ids)!=ROLES:raise ValueError('This projection requires GN, GS, JN, JS and A in order.')
             if config.player_policy!=PlayerPolicyKind.PLUGIN_SCRIPTED:raise ValueError('Only explicit game-owned scripted decisions are supported; no fallback player policy.')
             if config.overrides or config.scripted_steps or config.deck_order:raise ValueError('No undeclared override or generic tabletop action is supported.')

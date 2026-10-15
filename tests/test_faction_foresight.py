@@ -8,7 +8,8 @@ from void_throne.operations import State,resolve
 
 class FactionForesightTests(unittest.TestCase):
     def table(self):
-        m=Multiplayer();m.begin_host()
+        m=Multiplayer();from void_throne.session_v04 import Session as AssetSession
+        m.game=AssetSession();m.begin_host()
         for r in ROLES:
             m.receive(r,dict(type='hello',name=r,role=r));m.approve(r,r)
         return m

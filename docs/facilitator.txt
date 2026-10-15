@@ -1,12 +1,12 @@
 The Void Throne
 
-Facilitator Guide, draft v0.4
+Facilitator Guide, draft v0.5
 
 Your task
 
 Run the two-month crisis and make the consequences legible. Players decide what to offer, which orders to issue, and what government they will accept. Apply the printed outcomes. Do not invent a prophecy, a resource, another player's agreement, an extra veto or a reward for cooperation.
 
-[WORKING] This guide implements multiple funded orders, single-use assets, next-round vetoes, contributor vetoes under Joint authority, Standing Commitments and weighted settlement. The model checks these paper rules; archived simulations retain their earlier rules.
+[WORKING] This guide implements multiple funded orders, single-use assets, opening vetoes, contributor vetoes under Joint authority, Standing Commitments and weighted settlement. The model checks these paper rules; archived simulations retain their earlier rules.
 
 Setup and opening brief
 
@@ -22,7 +22,7 @@ Four vision covers, four qualitative prophecy handouts and four exact facilitato
 
 Three tracks numbered 0–4, with one counter each; three foresight tokens; one reserve token for Grey Petrel.
 
-Four council sheets: one for each council in each round. No faction decision sheets are needed. Add commitment markers for cards whose placement is fixed in round two.
+Four council sheets: one for each council in each round. No faction decision sheets are needed. Add commitment markers for cards whose placement is fixed in the coming operations.
 
 Two Ascendant worksheets, one provisional-government proposal and outcome record, two final-package ballot sheets, and a public record for results and contracts.
 
@@ -30,7 +30,7 @@ Blank paper can replace a decision sheet if it records the same choices and outc
 
 Arrange the table
 
-Place Navigation and Supply at one end and Security and Government at the other. Keep the tracks, current articles and final decisions in a central space where everyone can read them. Provide separate places for the Guild and Janissariat to confer during the faction phase. The Ascendant begins apart from both factions, with the foresight covers.
+Place Navigation and Supply at one end and Security and Government at the other. Keep the tracks, current articles and final decisions in a central space where everyone can read them. Provide separate places for the Guild and Janissariat to confer during the faction phase. Everyone may speak during opening free discussion. At the start of the faction phase, the Ascendant moves apart with the foresight covers and chooses before visiting.
 
 Seat GN and JN at Navigation and Supply; GS, JS and A at Security and Government. Give both members of each faction their shared brief. Keep the four private vision answers behind your screen; put both current-round covers face up at the start of faction discussion.
 
@@ -38,7 +38,7 @@ Starting position
 
 Give Wayfarer and Lantern to the Guild, and Spear and Vigil to the Janissariat. All four assets begin available. Give the Ascendant three foresight tokens and Grey Petrel's reserve token. The facilitator keeps the vision answers concealed.
 
-Set Beacon to 2, Stability to 3 and Readiness to 3. No contracts are completed. Both articles start Interim and round one has no vetoes. The Ascendant holds the next-round veto in each domain, while factions allocate their assets to any funded legal orders.
+Set Beacon to 2, Stability to 3 and Readiness to 3. No contracts are completed. Both articles start Interim. The Ascendant may set one veto in each domain during round one’s opening Free Phase. It can decline either. Factions retain control of their assets.
 
 The starting settlement weights are Guild 3, Janissariat 3 and Ascendant 6. The Guild has one for each surviving asset and one per two Beacon. If those values remained unchanged, eight of the total twelve weight would be required to pass a settlement.
 
@@ -46,9 +46,9 @@ Prepare cards and council records
 
 Asset placement records the faction decision. Cards left at home perform the home action showing; cards taken to their printed council are offered there. Spear has Stand Down / Intercept a Patrol faces; Grey Petrel has Retain the Cutter / Protect the Navigators. The default face is Stand Down or Retain the Cutter. Repeat traits on both faces. A home face has no effect at a council. Representatives take their plans to the councils themselves, without written instructions or requests.
 
-The council sheet lists every selected order and the single asset allocated to it. GN records Navigation and JS records Security after council discussion. The Ascendant records only their Warrant at Security; they do not select Navigation orders. Collect both programmes before revealing them. No cross-table messages or operational signatures are needed. Keep a separate public veto strip for each council, with next round, order, issuing party and expiry.
+The council sheet lists every selected order and the single asset allocated to it. GN records Navigation and JS records Security after council discussion. The Ascendant records only their Warrant at Security; they do not select Navigation orders. Collect both programmes before revealing them. No cross-table messages or operational signatures are needed. Keep a separate public veto strip for each council, with current round, order, issuing party and expiry after those operations.
 
-The public record shows the three tracks, available assets, completed contracts, remaining tokens, current articles and binding commitments. Faction drafts and current plans stay with their faction; do not announce them before the Ascendant's choice. Publish final assignments when the faction phase ends. The Ascendant learns current plans through visits after choosing, not through a compulsory statement of intentions.
+The public record shows tracks, available assets, contracts, remaining tokens, current articles, commitments, vetoes and the announced development. Opening discussion is public: the Ascendant may hear plans there before purchasing foresight. Once the faction phase starts, private deliberations stay with the faction until the Ascendant has chosen and visits. Publish final card arrangements when faction discussion ends.
 
 Opening brief
 
@@ -58,15 +58,55 @@ The crisis concerns Sorenne's Fall, the southern star system of forty million pe
 
 Run the clock
 
-0–8: briefing. 8–13: round-one faction discussion. 13–18: councils and resolution. 18–23: discuss the result and agree provisional articles. 23–28: round-two faction discussion. 28–33: councils and resolution. 33–38: free discussion. 38–48: Ceremony. Use the remaining twelve minutes for the debrief. These five-minute discussion phases follow the current player rulebook.
+0–8: briefing. 8–13: round-one announcement and free discussion, including vetoes and article agreements. 13–18: faction discussion. 18–23: councils and resolution. 23–28: round-two announcement and free discussion. 28–33: faction discussion. 33–38: councils and resolution. 38–48: Ceremony. 48–60: debrief. Include the short announcement within the five-minute Free Phase. Recording steps do not restart any phase clock.
 
-The faction phase has one five-minute deadline. Guild and Janissariat players talk only to their own teammates and cannot send messages to the other faction. They begin immediately and budget their time themselves. The Ascendant first chooses one prophecy or NONE privately, using the public state and earlier discussions, before visiting either faction or receiving its current plans. Do not call minute-two or minute-three gates or require factions to announce intentions.
+Opening veto procedure
+
+During each opening Free Phase, before any article amendment, use the authority already in force. Interim or NI grants A one Navigation veto; NG grants GN one. Interim or MI grants A one Security veto; MA grants JS one. Each may name one order or None. There is no approval gate over another entitled party’s choice.
+
+For NJ or MJ, identify contributing parties from the previous round’s final assignments: any available faction asset on Offer Council Service qualifies its faction; Grey Petrel on Offer Council Service qualifies A. Count offered service even if unused or subsequently lost. Maintenance, private contracts, independent interceptions, defending bases and navigator rescue do not qualify. Each contributing party gets one independent veto in each Joint council, exercised by its delegate there or A. Do not count one per player or asset.
+
+Collect and reveal opening vetoes before agreeing article amendments and before faction discussion. Missing or unresolved multiple choices mean None. Duplicate vetoes block an order only once. Different parties may block several or all orders under Joint authority. Record the issuer and expiry after this round’s operations. New articles do not remove recorded vetoes or grant another set this opening. There is no veto phase after the final operations.
+
+Opening developments
+
+At the start of each round, choose one of its two printed developments before hearing that round’s opening negotiations. Read only its announcement aloud, then leave that text visible. Record the choice. Both choices are always available; use the actual public situation to decide which dilemma needs attention. Do not switch cards after discussion begins, stack the alternatives or change their printed conditions.
+
+Read the headline and short report as news from the setting. Do not name required orders or announce success conditions. Keep the exact triggers and numerical adjustments behind the screen. Players interpret the report and choose their own response. The event causes no immediate track change: resolve it once against this round’s actual operations. Selected but invalid, unfunded, vetoed or halted orders do not count as delivered relief or completed repair. The truce card specifically counts a valid offensive attempt even if the enemy is not reached or found.
+
+If no choice has been recorded before free discussion begins, use the first printed development for that round and announce it. Never apply an unannounced event retrospectively. Both developments are scenario material for this prototype, not established setting lore.
+
+R1-RELIEF — Sorenne’s Fall opens its last emergency depots
+
+Read aloud: Queues have formed outside distribution halls across Sorenne’s Fall after the administration opened its final emergency depots. Local officials describe the release as a temporary measure. District councils are already asking when the next supply ships will arrive.
+
+Facilitator: Use when you want the opening bargain to centre on civilian supply. Delivered Relief gives Stability +1; otherwise Stability −1. A selected but halted or invalid relief order does not qualify.
+
+R1-REPAIR — Faults found along the Narrow’s beacon chain
+
+Read aloud: An inspection team has reported fractured housings and drifting signals at several beacon stations. Traffic continues to pass, but navigators are reporting an increasingly difficult crossing. Engineers say a short lull in local interference offers an unusual opportunity to reach the damaged installations.
+
+Facilitator: Use when you want repair capacity to compete with transport. A valid funded Repair gives Beacon +1; otherwise Beacon −1. Home Maintain does not qualify. Apply after ordinary route wear, before clamping.
+
+R2-ESCORT — Relief convoy waits for assurances over passage
+
+Read aloud: Supply barges have gathered at the entrance to the Narrow following an appeal from Sorenne’s Fall. Their masters are seeking assurances about security along the crossing. At the receiving ports, administrators are preparing distribution teams while families wait for news of the convoy’s departure.
+
+Facilitator: Use to test cooperation between councils. Delivered Relief plus Guard or an effective Warrant gives Stability +1; otherwise Stability −1. Grey Petrel’s navigator rescue is not general protection.
+
+R2-TRUCE — Civilian shippers call for a month-long truce
+
+Read aloud: Representatives of the civilian shipping houses have appealed for a month without military expeditions around the Narrow. Several carriers say they are ready to resume disrupted deliveries. Janissariat officers have questioned whether the Sorenne Flag would observe any such arrangement.
+
+Facilitator: Use to put civilian recovery against the army’s need to fight. No valid funded Campaign or Raid and no unvetoed independent Raid gives Stability +1; any such attempted operation gives Stability −1. Invalid or vetoed orders are not attempts. A funded Campaign lacking delivered troops and a Raid finding no target still break the truce.
+
+The faction phase has one five-minute deadline. Guild and Janissariat players talk only to their own teammates and cannot send messages to the other faction. They begin immediately and budget their time themselves. The Ascendant first chooses one prophecy or NONE privately, using the public state and earlier discussions, before visiting either faction or receiving its private faction-phase deliberations. Do not call minute-two or minute-three gates or require factions to announce intentions.
 
 Record the Ascendant's choice before allowing visits. Pay before dealing the exact answer; publish expenditure and remaining foresight, not the chosen council. A choice completes that round's opportunity: no swaps or second purchase. NONE also permits visits. Record NONE if no single valid choice arrives before the phase ends. After choosing, the Ascendant may visit either faction, revisit it, relay offers and share the vision. Do not combine the factions into a table discussion. Unlocked assignments and Grey Petrel's task remain revisable until the faction deadline; the clock does not restart.
 
-At the faction bell, check the agreed card arrangements. If a faction cannot agree, put its cards at home on default actions, then apply Standing Commitments. Remove unavailable cards. Note Grey Petrel’s location and face. Cards stay at those tables throughout councils. At the council bell, check orders against traits, vetoes and single-use assets; collect both programmes and the Warrant before revealing either. Keep GN and JN at Navigation and GS, JS and A at Security. Resolve during the Free Phase, then collect next-round vetoes under the existing articles before enacting replacements. The five-minute phase does not restart for recording steps.
+At the faction bell, check agreed card arrangements, applying defaults and Standing Commitments. Remove unavailable cards and note Grey Petrel’s position and face. Cards stay at their tables throughout councils. At the council bell, collect both programmes and the Warrant before revealing either. Keep GN and JN at Navigation and GS, JS and A at Security. Resolve orders, home actions, prophecy conditions and the announced development. Publish the result before the next opening announcement or, after round two, the Ceremony. There is no closing Free Phase.
 
-In the browser, record the Ascendant's foresight choice first. Faction chat is available from the start; visits open only after the choice has been recorded. The two factions have separate visit conversations with the Ascendant. Final commitments end the same faction phase. An older saved session may contain draft records; keep those drafts within the faction and do not use them to brief the Ascendant.
+In the browser, the facilitator selects and announces a development, opens free discussion, records opening vetoes and the provisional proposal, then closes its agreement. These are steps within one five-minute Free Phase. Faction discussion follows: record foresight or NONE before opening Ascendant visits. Close card placements, then councils. Older saved sessions keep their original sequence.
 
 Resolve in this order
 
@@ -136,27 +176,19 @@ Apply these conditions whether a prophecy was purchased or not. Qualitative hand
 
 10. Finish tracks and assets
 
-Readiness changes once: +1 if any operation achieved qualifying combat, otherwise −1. Protection, routine upkeep, defending bases and unsuccessful expeditions do not provide combat. Final Beacon equals prepared Beacon minus the single transport wear and any commercial wear. Final Stability equals opening Stability plus the complete change ledger. Clamp each final track to 0–4 after adding all effects.
+Readiness changes once: +1 if any operation achieved qualifying combat, otherwise −1. Protection, upkeep, defending bases and unsuccessful expeditions provide no combat. Calculate raw Beacon as prepared Beacon minus transport and commercial wear, and raw Stability as opening Stability plus all ordinary and prophecy effects. Add the selected development’s adjustment to the appropriate raw total, then clamp final tracks to 0–4 once. Do not clamp before the development: a penalty can consume an excess above 4 rather than reduce an already-clamped 4 to 3.
 
-Record losses, contracts and triggered reserve use. Assigned actions use the opening availability; new losses prevent use in later rounds. Vigil stays intact. Surviving faction assets return; Grey Petrel follows its one-service contract. Expire Standing Commitments after round-two operations. Nothing here restores a lost asset.
+Record losses, contracts and triggered reserve use. Assigned actions use the opening availability; new losses prevent use in later rounds. Vigil stays intact. Surviving faction assets return; Grey Petrel follows its one-service contract. Expire Standing Commitments after the operations they cover. Nothing here restores a lost asset.
 
 11. Announce the result
 
 Publish both programmes, the new track values and descriptions, losses, completed contracts and reserve expenditure. Describe what occurred in the fiction. Keep the numerical worksheet and unpurchased conditions behind the screen. Update settlement weights using the public rulebook.
 
-12. Record vetoes for the following round
-
-After the first result, use the existing articles, before enacting replacements. Interim or NI grants A one Navigation veto; NG grants GN one. Interim or MI grants A one Security veto; MA grants JS one. Each may name one order or None. There is no approval gate over the other party's choice.
-
-For NJ or MJ, identify contributing parties from this round's final assignments: any available faction asset on Offer Council Service qualifies its faction; Grey Petrel on Offer Council Service qualifies A. Count offered service even if unused or subsequently lost. Maintenance, private contracts, independent interceptions, defending bases and navigator rescue do not qualify. Each contributing party gets one independent veto in each Joint council, exercised by its delegate there or A. Do not count one per player or asset.
-
-Collect the choices before revealing them together. Missing choice means None; multiple choices on one party's line mean None unless corrected by the deadline. Apply every valid veto. Duplicate names block the order only once; different names can block several or all orders. Record issuer and expiry after the following round. New articles do not remove these vetoes or grant another set. No operational round follows round two, so skip new vetoes then.
-
 Worked resolution
 
-Begin round one at Beacon 2, Stability 3 and Readiness 3. Offer all four faction assets. Navigation allocates Lantern to Deliver Relief and Wayfarer to Transport Troops. Security allocates Spear to Attack the Anchorage and Vigil to Protect the Passage. The Ascendant retains Grey Petrel and issues no Warrant.
+For this ordinary-operations example, decline opening vetoes and article amendments; add the chosen development’s adjustment at the end. Begin round one at Beacon 2, Stability 3 and Readiness 3. Offer all four faction assets. Navigation allocates Lantern to Deliver Relief and Wayfarer to Transport Troops. Security allocates Spear to Attack the Anchorage and Vigil to Protect the Passage. The Ascendant retains Grey Petrel and issues no Warrant.
 
-Protection adds Stability +1. Both transports are funded; Lantern cannot also maintain. Prepared Beacon remains 2. Relief adds Stability +2; troop transport supplies the attack. Together they produce one transport wear. The attack costs Stability −1 and sustains combat. Protection prevents Lantern's crew loss. Consumption costs Stability −1, giving total Stability change +1. Finish at Beacon 1, Stability 4, Readiness 4, with all assets intact, no contract and Grey Petrel retained.
+Protection adds Stability +1. Both transports are funded; Lantern cannot also maintain. Prepared Beacon remains 2. Relief adds Stability +2; troop transport supplies the attack. Together they produce one transport wear. The attack costs Stability −1 and sustains combat. Protection prevents Lantern's crew loss. Consumption costs Stability −1, giving total Stability change +1. Before the development adjustment, finish at Beacon 1, Stability 4, Readiness 4, with all assets intact, no contract and Grey Petrel retained.
 
 This cooperation still costs the Guild a contract and a month of route upkeep. Next-round vetoes and constitutional duties remain political choices. From the same starting state, spending Grey Petrel on relief instead allows Lantern to repair while Wayfarer transports troops: the empire gains upkeep, but the Ascendant gives up its sole contracted service.
 
@@ -206,7 +238,7 @@ Delivered civilian relief qualifies even if Transport Troops also succeeds. A st
 
 Trial and final votes
 
-The round-one trial needs spoken agreement from GN+JN+A for Navigation and GS+JS+A for Military. Read back each exact article and its attached terms, independently of the other domain, and record whether it passes. Up to one asset commitment per faction may be attached, with both owners' spoken agreement. Do not quietly detach an unapproved promise to pass its article. No pledge is compulsory. A passed pledge binds only that asset assignment in round two; an informal public plan has no mechanical penalty.
+Each opening trial needs spoken agreement from GN+JN+A for Navigation and GS+JS+A for Military. Read back the exact articles and attached commitments separately. A rejected amendment retains the existing article; no proposal retains both. Up to one asset commitment per faction may be attached, with both owners’ agreement. Do not detach an unapproved promise to pass its article. A passed commitment binds the current round only, then expires. An informal plan has no mechanical penalty. Articles persist until amended or the final settlement; a failed final settlement still expires both provisional articles to Interim.
 
 At the Ceremony freeze actual weights. Count both owners’ votes to produce each faction signature; refusal, missing approval or disagreement contributes no support, but the faction’s weight remains in the total. Threshold is ceil(2 × total / 3); at least two signing parties must have positive weight. A zero electorate cannot pass. Count no contracts, verbal concessions or invented influence.
 
