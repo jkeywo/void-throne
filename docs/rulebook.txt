@@ -100,7 +100,7 @@ The facilitator announces one prepared development at the start of the round. It
 
 Record vetoes under the articles already in force. These block orders in the council phase ahead. Joint authority gives each party that offered an available asset to either council in the previous round its own veto. The Component Reference gives the details. Vetoes are public and remain in force if an article changes.
 
-Then agree the government for this round. The two council representatives concerned and the Ascendant must agree each provisional article aloud. A failed proposal leaves the existing article in force. You may attach a Standing Commitment with both faction members’ agreement; it fixes one asset’s placement or home action for this round.
+Then agree the government for this round. The two council representatives concerned and the Ascendant must agree each provisional article aloud. A failed proposal leaves the existing article in force. You may attach a Standing Commitment with both faction members’ agreement; it fixes one asset’s placement or faction order for this round.
 
 The announcement, discussion, vetoes and article agreements all use the same five minutes. At the deadline, proceed to faction discussion.
 
@@ -110,13 +110,15 @@ You have five minutes to decide your faction's approach with your teammate. Guil
 
 Your assets are the ships or military units your faction controls. Each has a card showing its owner and traits. Traits describe what the asset can do; orders require traits.
 
-Keep an asset at your faction table for its home action, or take its card to the council printed on it. An asset at a council is offered for service there instead of taking a home action.
+Keep an asset at your faction table for its faction order, or take its card to the council printed on it. An asset at a council is offered for service there instead of taking a faction order.
 
-Agree the allocation of your cards with your teammate. Some Assets have two faces: turn the card to show the home action you want.
+Agree the allocation of your cards with your teammate. Some Assets have two faces: turn the card to show the faction order you want.
 
-A Standing Commitment agreed during the opening free discussion may fix where a card goes or which home action it shows this round. Put a commitment marker on the card and follow that promise.
+You may propose Other as a Faction Order. Tell the facilitator what you want to achieve and which assets will do it. Leave those cards at your faction table with an Other marker. Agree the requirements and likely outcome before the phase ends; if no ruling is agreed, choose a printed Faction Order instead.
 
-If the teammates cannot agree their card arrangement before the deadline, leave that faction’s cards at home on its default home action.
+A Standing Commitment agreed during the opening free discussion may fix where a card goes or which faction order it shows this round. Put a commitment marker on the card and follow that promise.
+
+If the teammates cannot agree their card arrangement before the deadline, leave that faction’s cards at home on its default faction order.
 
 Council Phase— five minutes
 
@@ -124,7 +126,9 @@ Go to your council and discuss the orders you can carry out using the traits of 
 
 You may select any combination of orders for which you have the assets and requirements. Each asset and each printed order can be used once per round. Check the public vetoes: a struck-out order cannot be chosen this round. GN records Navigation orders; JS records Security orders.
 
-After councils, the facilitator resolves both councils, home actions, the announced development and scenario conditions. They announce track changes, asset losses, completed contracts and token expenditure. Round one then leads to the next opening announcement; round two leads directly to the Ceremony.
+Each council also has an Other order. Propose it at that council and allocate the assets the facilitator requires. Other cannot be more efficient than an existing order or bypass the need for cooperation between factions or councils. Ownership, traits, single-use limits, vetoes and Standing Commitments still apply. Calling an attack something else does not remove its transport requirement or evade a veto. Stay at your own table while the facilitator considers the proposal.
+
+After councils, the facilitator resolves both councils, faction orders, the announced development and scenario conditions. They announce track changes, asset losses, completed contracts and token expenditure. Round one then leads to the next opening announcement; round two leads directly to the Ceremony.
 
 5. The Ceremony of Settlement
 

@@ -4,7 +4,7 @@ Facilitator Guide, draft v0.5
 
 Your task
 
-Run the two-month crisis and make the consequences legible. Players decide what to offer, which orders to issue, and what government they will accept. Apply the printed outcomes. Do not invent a prophecy, a resource, another player's agreement, an extra veto or a reward for cooperation.
+Run the two-month crisis and make the consequences legible. Players decide what to offer, which orders to issue, and what government they will accept. Apply printed outcomes to printed orders and adjudicate Other using the guidance below. Do not invent a prophecy, a resource, another player’s agreement, an extra veto or a reward for cooperation.
 
 [WORKING] This guide implements multiple funded orders, single-use assets, opening vetoes, contributor vetoes under Joint authority, Standing Commitments and weighted settlement. The model checks these paper rules; archived simulations retain their earlier rules.
 
@@ -14,7 +14,7 @@ Materials
 
 One player rulebook, one qualitative Component Reference, this guide and three shared-role briefs. The Ascendant brief explains foresight and the Warrant; Grey Petrel is an asset in the Component Reference. Keep numerical resolution rules and exact prophecy answers behind the screen.
 
-Two council reference sheets and five asset cards: Wayfarer, Lantern, Spear, Vigil and Grey Petrel. Print Spear and Grey Petrel with their two home actions on opposite faces; repeat owner, council and traits on both. The other three have one home action. The printable card file supplies fold-and-glue pairs, so no duplex alignment is required.
+Two council reference sheets and five asset cards: Wayfarer, Lantern, Spear, Vigil and Grey Petrel. Print Spear and Grey Petrel with their two faction orders on opposite faces; repeat owner, council and traits on both. The other three have one faction order. The printable card file supplies fold-and-glue pairs, so no duplex alignment is required.
 
 Six Charter cards: three Navigation articles and three Military articles.
 
@@ -23,6 +23,8 @@ Four vision covers, four qualitative prophecy handouts and four exact facilitato
 Three tracks numbered 0–4, with one counter each; three foresight tokens; one reserve token for Grey Petrel.
 
 Four council sheets: one for each council in each round. No faction decision sheets are needed. Add commitment markers for cards whose placement is fixed in the coming operations.
+
+Add Other markers for each faction, including the Ascendant, and one Other order card for each council. Use spare slips to record an unusual proposal and its ruling; this does not introduce a general faction decision sheet.
 
 Two Ascendant worksheets, one provisional-government proposal and outcome record, two final-package ballot sheets, and a public record for results and contracts.
 
@@ -44,7 +46,25 @@ The starting settlement weights are Guild 3, Janissariat 3 and Ascendant 6. The 
 
 Prepare cards and council records
 
-Asset placement records the faction decision. Cards left at home perform the home action showing; cards taken to their printed council are offered there. Spear has Stand Down / Intercept a Patrol faces; Grey Petrel has Retain the Cutter / Protect the Navigators. The default face is Stand Down or Retain the Cutter. Repeat traits on both faces. A home face has no effect at a council. Representatives take their plans to the councils themselves, without written instructions or requests.
+Adjudicating Other
+
+Hear Other proposals during the phase in which they are made. Ask what the players want to achieve, which assets they will use, and whose cooperation is needed. Decide requirements and likely consequences before they commit. Keep exact operational modifiers behind the screen, but explain costs, risks and dependencies in the same qualitative terms as printed orders.
+
+Compare the proposal with the closest printed order or combination of orders. It must not obtain the same benefit with fewer assets, weaker traits, less risk or fewer consequences. Cap its effect at the comparable order; reduce the effect or reject the proposal if its scope is weaker or uncertain. An interesting description is not a bonus. If it simply does the printed job, use that order’s full requirements and resolution.
+
+Preserve cross-faction coordination. An attack beyond the Narrow still needs delivered troop transport; a safe convoy still needs the required protection. Players cannot invent hired ships, volunteers, navigators, intelligence or permission to replace assets and decisions controlled by someone else. Do not carry negotiations between councils. They remain at their own tables and any dependent operation must be supplied through the normal decisions.
+
+Check ownership, availability, traits, card location, single use, active vetoes, Standing Commitments and Charter duties. Resolve equivalent operations as the printed order for all costs, risks, prophecy conditions, developments and once-per-round limits. A renamed interception is still barred by an interception veto. One Other order cannot bundle two jobs onto one asset. Record all assets required for a genuinely combined proposal and consume their normal uses.
+
+Write the proposal, committed assets, comparable order, ruling and reason in your resolution log. State any conditional dependence, such as transport arriving from Navigation. Agree this before the phase deadline; resolve it with normal operations, without changing a ruling to reward a later bargain. If it has no track or asset effect, say so and still account for any assets occupied or service consumed. Grey Petrel cannot provide a free extra service.
+
+If no ruling is agreed in time, use the normal fallback: choose a printed Faction Order, or leave the council’s Other order unselected. Faction disagreement still uses its printed defaults. An unavailable asset or a binding commitment cannot be released by proposing Other.
+
+Example: calling Attack the Anchorage a “show of force” does not remove its troop transport requirement, combat risk or disruption. A differently described delivery using a Civilian Transport asset may use Deliver Relief’s resolution, including route wear and danger. A diplomatic visit may justify a narrative response without granting free Stability, Readiness or another party’s cooperation.
+
+Browser adjudication: select Other and enter the proposal. The facilitator must record a comparable printed order and a qualitative ruling before closing the phase. The browser applies that order’s complete mechanics, or No effect for an occupied asset with no operational benefit. It checks ordinary funding, vetoes and single use; only the facilitator supplies rulings. More elaborate paper rulings need a separate manual resolution record rather than invented automatic bonuses.
+
+Asset placement records the faction decision. Cards left at home perform the faction order showing; cards taken to their printed council are offered there. Spear has Stand Down / Intercept a Patrol faces; Grey Petrel has Retain the Cutter / Protect the Navigators. The default face is Stand Down or Retain the Cutter. Repeat traits on both faces. A faction-order face has no effect at a council. Representatives take their plans to the councils themselves, without written instructions or requests.
 
 The council sheet lists every selected order and the single asset allocated to it. GN records Navigation and JS records Security after council discussion. The Ascendant records only their Warrant at Security; they do not select Navigation orders. Collect both programmes before revealing them. No cross-table messages or operational signatures are needed. Keep a separate public veto strip for each council, with current round, order, issuing party and expiry after those operations.
 
@@ -104,7 +124,7 @@ The faction phase has one five-minute deadline. Guild and Janissariat players ta
 
 Record the Ascendant's choice before allowing visits. Pay before dealing the exact answer; publish expenditure and remaining foresight, not the chosen council. A choice completes that round's opportunity: no swaps or second purchase. NONE also permits visits. Record NONE if no single valid choice arrives before the phase ends. After choosing, the Ascendant may visit either faction, revisit it, relay offers and share the vision. Do not combine the factions into a table discussion. Unlocked assignments and Grey Petrel's task remain revisable until the faction deadline; the clock does not restart.
 
-At the faction bell, check agreed card arrangements, applying defaults and Standing Commitments. Remove unavailable cards and note Grey Petrel’s position and face. Cards stay at their tables throughout councils. At the council bell, collect both programmes and the Warrant before revealing either. Keep GN and JN at Navigation and GS, JS and A at Security. Resolve orders, home actions, prophecy conditions and the announced development. Publish the result before the next opening announcement or, after round two, the Ceremony. There is no closing Free Phase.
+At the faction bell, check agreed card arrangements, applying defaults and Standing Commitments. Remove unavailable cards and note Grey Petrel’s position and face. Cards stay at their tables throughout councils. At the council bell, collect both programmes and the Warrant before revealing either. Keep GN and JN at Navigation and GS, JS and A at Security. Resolve orders, faction orders, prophecy conditions and the announced development. Publish the result before the next opening announcement or, after round two, the Ceremony. There is no closing Free Phase.
 
 In the browser, the facilitator selects and announces a development, opens free discussion, records opening vetoes and the provisional proposal, then closes its agreement. These are steps within one five-minute Free Phase. Faction discussion follows: record foresight or NONE before opening Ascendant visits. Close card placements, then councils. Older saved sessions keep their original sequence.
 
@@ -114,11 +134,11 @@ Facilitator only. Players know ownership, assignments, requirements, vetoes, dut
 
 Prepare the worksheet
 
-Record opening Beacon, Stability and Readiness, available assets, completed contracts, reserve and foresight, articles, vetoes and Standing Commitments. Read assignments from card locations and home faces; record them in your private resolution log, along with each selected council order with its asset, and the Warrant. Start Stability change at −1 for monthly consumption. Keep separate entries for prepared Beacon, transport wear, private commercial wear, protection, delivered relief, delivered troops and qualifying combat.
+Record opening Beacon, Stability and Readiness, available assets, completed contracts, reserve and foresight, articles, vetoes and Standing Commitments. Read assignments from card locations and faction-order faces; record them in your private resolution log, along with each selected council order with its asset, and the Warrant. Start Stability change at −1 for monthly consumption. Keep separate entries for prepared Beacon, transport wear, private commercial wear, protection, delivered relief, delivered troops and qualifying combat.
 
 1. Check assignments and order requirements
 
-Read the cards rather than collecting faction sheets. Defaults at home are Wayfarer Fulfil Commercial Contract, Lantern Maintain the Narrows, Spear Stand Down and Vigil Defend Army Bases. Grey Petrel defaults to Retain the Cutter. A Standing Commitment overrides a conflicting placement or default. Lost or spent cards are unavailable. At a council, ignore the home face. An unused council card neither acts at home nor moves back before resolution. Record who offered cards before returning them, so Joint contributor rights remain auditable.
+Read the cards rather than collecting faction sheets. Defaults at home are Wayfarer Fulfil Commercial Contract, Lantern Maintain the Narrows, Spear Stand Down and Vigil Defend Army Bases. Grey Petrel defaults to Retain the Cutter. A Standing Commitment overrides a conflicting placement or default. Lost or spent cards are unavailable. At a council, ignore the faction-order face. An unused council card neither acts at home nor moves back before resolution. Record who offered cards before returning them, so Joint contributor rights remain auditable.
 
 Each asset and each printed order can be used once per round. GN allocates offered Navigation assets, including Grey Petrel; JS allocates offered army assets. No authority holder approves these orders. Check each against current vetoes. A veto bars its independent equivalent too: Intercept a Patrol cannot evade a veto through a faction assignment, and a Warrant cannot evade a Protect the Passage veto.
 

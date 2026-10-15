@@ -22,7 +22,7 @@ reference='const REFERENCE='+json.dumps(dict(rules=render(docs['rulebook']['bloc
 # The repository and game code are public. Only the host starts the engine;
 # each connected player still receives the Multiplayer.view allowlist.
 files = {}
-for name in ('__init__', 'operations', 'settlement', 'charter', 'session', 'multiplayer', 'browser_host', 'presentation', 'orders_v04', 'current_session', 'session_v04', 'assets'):
+for name in ('__init__', 'operations', 'settlement', 'charter', 'session', 'multiplayer', 'browser_host', 'presentation', 'orders_v04', 'current_session', 'session_v04', 'assets', 'other_orders'):
     path = f'src/void_throne/{name}.py'
     files[path] = (ROOT/path).read_text(encoding='utf8')
 for folder in ('private-cards', 'public-covers', 'player-visions', 'v04/private-cards', 'v04/player-visions'):

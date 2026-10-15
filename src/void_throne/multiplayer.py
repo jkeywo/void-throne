@@ -3,6 +3,7 @@
 Connection IDs are assigned by the host browser, never by a remote message.
 Players receive explicit projections, never Session.public() or raw actions.
 """
+from .other_orders import validate_programme, text as other_text
 from copy import deepcopy
 from datetime import datetime, timezone
 from pathlib import Path
@@ -125,7 +126,7 @@ class Multiplayer:
         out={k:deepcopy(getattr(g,k)) for k in ('state','round','stage','foresight','articles','pledges',
              'drafts','assignments','reserve','disclosed','trial','package','ballots','settlement')}
         public=g.public()
-        out.update(development=public.get('development'),asset_cards=public.get('asset_cards',{}),order_traits=public.get('order_traits',{}),role=role,epoch=self.epoch,revision=self.revision,seats=self.status(),
+        out.update(other_orders=public.get('other_orders',False),development=public.get('development'),asset_cards=public.get('asset_cards',{}),order_traits=public.get('order_traits',{}),role=role,epoch=self.epoch,revision=self.revision,seats=self.status(),
                    covers=public['covers'],ruleset=public['ruleset'],vetoes=public.get('vetoes',{}),veto_authority=public.get('veto_authority',{}),order_labels=public.get('order_labels',{}),track_descriptions=public['track_descriptions'],leverage=public['leverage'],history=self.history(role),
                    selected_vision=player_vision(g.vision) if role=='A' or g.disclosed else None,
                    own_sheet=deepcopy(self.sheets.get(role)),channels=self.channels(role),
@@ -209,24 +210,27 @@ class Multiplayer:
         if role not in self.required():raise ValueError('There is no decision sheet for your seat in this phase.')
         if not isinstance(row,dict):raise ValueError('A sheet is required.')
         result={'note':short(row.get('note',''),4000)};stage=self.game.stage
+        custom=isinstance(self.game,Session)
         if stage in ('draft','vision'):result['choice']=choice(row.get('choice'),['None','Navigation','Security'])
         elif stage=='commit':
             if role=='A':
-                result['reserve']=choice(row.get('reserve'),['Keep','Council','Tender cover'] if isinstance(self.game,AssetSession) else ['Keep','Relief lift','Tender cover'])
+                result['reserve']=choice(row.get('reserve'),(['Keep','Council','Tender cover','Other'] if custom else ['Keep','Council','Tender cover']) if isinstance(self.game,AssetSession) else ['Keep','Relief lift','Tender cover'])
                 result['disclose']=boolean(row.get('disclose',False))
+                if result['reserve']=='Other':result['reserve_proposal']=other_text(row.get('reserve_proposal'))
             else:
-                for a,opts in ASSETS[role].items():result[a]=choice(row.get(a),opts)
+                for a,opts in ASSETS[role].items():result[a]=choice(row.get(a),opts+(['Other'] if custom else []))
+                if custom:result['other']={a:other_text(row.get('other',{}).get(a)) for a in ASSETS[role] if result[a]=='Other'}
         elif stage=='council':
             if isinstance(self.game,AssetSession):
-                if role=='GN':result['navigation']=orders(row.get('navigation',[]),'navigation')
-                if role=='JS':result['security']=orders(row.get('security',[]),'military')
+                if role=='GN':result['navigation']=(validate_programme if custom else orders)(row.get('navigation',[]),'navigation')
+                if role=='JS':result['security']=(validate_programme if custom else orders)(row.get('security',[]),'military')
             else:
                 if role in ('GN','JN','A'):result['navigation']=choice(row.get('navigation'),NAV+['No agreement','Unsigned'])
                 if role in ('GS','JS','A'):result['security']=choice(row.get('security'),SEC+['No agreement','Unsigned'])
             if role=='A':result['warrant']=boolean(row.get('warrant',False))
         elif stage=='veto':
             for d,options in [('navigation',CURRENT_NAV),('military',CURRENT_SEC)]:
-                if role in veto_rights(self.game.articles,self.game.assignments,self.game.reserve)[d]:result[d]=choice(row.get(d,'None'),['None']+options)
+                if role in veto_rights(self.game.articles,self.game.assignments,self.game.reserve)[d]:result[d]=choice(row.get(d,'None'),['None']+options+(['Other'] if custom else []))
         elif stage=='trial-vote':
             for d in ('navigation','military'):
                 if role=='A' or role in ({'navigation':('GN','JN'),'military':('GS','JS')}[d]):
@@ -255,8 +259,8 @@ class Multiplayer:
             p['development']=proposal.get('development')
         elif stage in ('draft','vision'):p['choice']=s.get('A',{}).get('choice','None')
         elif stage=='commit':
-            p.update(assignments={r:{a:s.get(r,{}).get(a) for a in ASSETS[r]} for r in ROLES if r!='A' and r in s},
-                     reserve=s.get('A',{}).get('reserve','Keep'),disclose=s.get('A',{}).get('disclose',False))
+            p.update(assignments={r:{**{a:s.get(r,{}).get(a) for a in ASSETS[r]},'other':s.get(r,{}).get('other',{})} for r in ROLES if r!='A' and r in s},
+                     reserve=s.get('A',{}).get('reserve','Keep'),reserve_proposal=s.get('A',{}).get('reserve_proposal'),disclose=s.get('A',{}).get('disclose',False))
         elif stage=='council':
             if isinstance(self.game,AssetSession):
                 p.update(navigation={'GN':s.get('GN',{}).get('navigation',[])},
@@ -274,6 +278,7 @@ class Multiplayer:
         elif stage in ('trial-proposal','ceremony-proposal'):
             if not isinstance(proposal,dict):raise ValueError('Record the exact proposal first.')
             p.update({k:deepcopy(proposal[k]) for k in ('articles','plan','pledges','package') if k in proposal})
+        if stage in ('commit','council') and isinstance(proposal,dict):p['rulings']=deepcopy(proposal.get('rulings',{}))
         history_start=len(self.game.history)
         self.game.apply(p)
         self.audit.append(dict(time=moment(),event='phase closed',epoch=epoch,missing=missing,submitted=deepcopy(s),events=deepcopy(self.game.history[history_start:])))

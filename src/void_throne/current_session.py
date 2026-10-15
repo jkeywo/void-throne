@@ -7,6 +7,7 @@ from .session_v04 import Session as AssetSession, RULESET as V04_RULESET
 from .orders_v04 import NAV, SEC, orders, resolve, veto_rights
 from .operations import State, clamp
 from .charter import evaluate
+from .other_orders import faction as other_faction, council as other_council
 
 RULESET='vt:rules:opening-developments-v0.5'
 DEVELOPMENTS=json.loads((ROOT/'design/developments.json').read_text(encoding='utf8'))
@@ -47,7 +48,7 @@ class Session(AssetSession):
                 people=veto_rights(self.articles,self.assignments,self.reserve)[domain];required[domain]=people
                 rows=p.get(domain,{})
                 if not isinstance(rows,dict) or set(rows)-set(people):raise ValueError('Only the existing authority can set this veto.')
-                choices[domain]={r:choice(rows.get(r,'None'),options+['None']) for r in people}
+                choices[domain]={r:choice(rows.get(r,'None'),options+['Other','None']) for r in people}
                 decisions[domain]=list(dict.fromkeys(v for v in choices[domain].values() if v!='None'))
             self.vetoes=decisions
             self.record('Opening vetoes',vetoes=decisions,authority=self.articles,contributors_from_round=self.round-1,
@@ -71,7 +72,17 @@ class Session(AssetSession):
             self.articles=gate['articles_after'];self.pledges=gate['activated_commitments']
             self.record('Provisional agreement and result',votes=votes,result=gate,notes=ns)
             self.stage='draft'
+        elif self.stage=='commit':
+            self.disclosed=boolean(p.get('disclose',False))
+            self.assignments,self.reserve,issues,rulings=other_faction(p,self)
+            self.record('Final faction sheets',submitted=p.get('assignments',{}),sheets=self.assignments,reserve=self.reserve,
+                        disclosed=self.disclosed,notes=ns,defaults=issues,standing_commitments=self.pledges,
+                        other_rulings=rulings)
+            self.stage='council'
         elif self.stage=='council':
+            p,rulings=other_council(p,self)
+            if rulings:self.record('Other council rulings',rulings=rulings)
+
             # The inherited resolver records ordinary operations before the conditional event.
             super()._apply(p)
             event=self.history[-1];detail=event['detail'];effect=development_effect(self.development,detail)
@@ -88,7 +99,7 @@ class Session(AssetSession):
         else:super()._apply(p)
 
     def public(self):
-        out=super().public();out['ruleset']=RULESET
+        out=super().public();out['ruleset']=RULESET;out['other_orders']=True
         out['development']=({k:self.development[k] for k in ('id','title','announcement')} if self.development else None)
         # Facilitator-only choice list; Multiplayer.view deliberately omits it.
         out['development_options']=development_options(self.round) if self.stage=='opening' else []

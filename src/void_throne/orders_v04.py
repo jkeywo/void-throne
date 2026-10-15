@@ -8,7 +8,7 @@ LABELS = {'Relief':'Deliver Relief', 'Military':'Transport Troops', 'Repair':'Re
           'Campaign':'Attack the Anchorage', 'Raid':'Intercept a Patrol', 'Guard':'Protect the Passage',
           'Council':'Offer Council Service', 'Trade':'Fulfil Commercial Contract', 'Maintain':'Maintain the Narrows',
           'Stand down':'Stand Down', 'Home':'Defend Army Bases', 'Absent':'Asset Unavailable',
-          'Keep':'Retain the Cutter', 'Relief lift':'Carry Emergency Relief', 'Tender cover':'Protect the Navigators'}
+          'Other':'Other', 'Keep':'Retain the Cutter', 'Relief lift':'Carry Emergency Relief', 'Tender cover':'Protect the Navigators'}
 AUTH = {'navigation':{'I':('A',),'NI':('A',),'NG':('GN',),'NJ':()},
         'military':{'I':('A',),'MI':('A',),'MA':('JS',),'MJ':()}}
 
@@ -25,14 +25,15 @@ def veto_rights(articles, assignments, reserve):
 def orders(value, domain):
     """Validate a declared programme, never silently select between competing assets."""
     if not isinstance(value,list):raise ValueError('Choose a list of orders; leave it empty for no operation.')
-    allowed=NAV if domain=='navigation' else SEC
+    allowed=(NAV if domain=='navigation' else SEC)+['Other']
     if len(value)>len(allowed):raise ValueError('Each order may be chosen only once.')
     result=[];used=set();seen=set()
     for row in value:
         if not isinstance(row,dict) or set(row)!={'order','asset'}:raise ValueError('Each order must name its asset.')
         order=row['order'];asset=row['asset']
         if order not in allowed or order in seen:raise ValueError('Unknown or repeated order.')
-        if not supports(asset,order):raise ValueError(LABELS[order]+' needs an asset with '+ORDER_TRAITS[order]+'.')
+        if order=='Other' and (asset not in ASSET_CARDS or ASSET_CARDS[asset]['council']!=('Navigation and Supply' if domain=='navigation' else 'Security and Government')):raise ValueError('Other needs an asset at this council.')
+        if order!='Other' and not supports(asset,order):raise ValueError(LABELS[order]+' needs an asset with '+ORDER_TRAITS[order]+'.')
         if asset in used:raise ValueError(asset+' can be used only once this round.')
         seen.add(order);used.add(asset);result.append(dict(row))
     return result
@@ -50,6 +51,10 @@ def resolve(st, rnd=1, w='Council',l='Maintain',s='Council',v='Council',nav=None
     # A veto bars the named council order, including its independent faction equivalent.
     for asset,assignment,task in [('Wayfarer',w,'Trade'),('Lantern',l,'Maintain'),('Spear',s,'Raid'),('Vigil',v,'Home')]:
         if assignment==task:used[asset]=LABELS[task]
+    for asset,assignment in assigned.items():
+        if assignment=='Other':used[asset]='Other';outcomes.append(asset+' was occupied by its adjudicated Faction Order; no operational benefit was awarded.')
+    if intervention=='Other' and reserve:
+        reserve=False;used['Grey Petrel']='Other';outcomes.append('Grey Petrel performed its adjudicated service; no operational benefit was awarded.');events.append('Other faction service: reserve spent')
     independent_raid=s=='Raid' and 'Raid' not in (vetoes.get('military') or [])
     if s=='Raid' and not independent_raid:outcomes.append('The veto prevented Spear from intercepting a patrol; it remained idle.')
     if warrant and ma in ('I','MI'):
@@ -67,9 +72,10 @@ def resolve(st, rnd=1, w='Council',l='Maintain',s='Council',v='Council',nav=None
             if asset in used:reject(row,'asset already assigned to '+used[asset]);continue
             if asset=='Grey Petrel':
                 if not reserve or intervention!='Council':reject(row,'the cutter was not offered to Navigation');continue
-                reserve=False;outcomes.append('Grey Petrel carried out its contracted transport service.');events.append('Grey Petrel transport service: reserve spent')
+                reserve=False;outcomes.append('Grey Petrel carried out its contracted service.');events.append('Grey Petrel transport service: reserve spent')
             elif assigned[asset]!='Council':reject(row,'asset unavailable or not offered');continue
             active[order]=asset;used[asset]=LABELS[order]
+            if order=='Other':outcomes.append(asset+' was occupied by the adjudicated council order; no operational benefit was awarded.')
     if 'Guard' in active:guarded=True;c+=1;events.append('Guard: Vigil used; Stability +1')
     prepared=clamp(st.beacon+(1 if l=='Maintain' else 0)+(2 if 'Repair' in active else 0))
     if 'Repair' in active:outcomes.append('Lantern repaired the Narrows.')

@@ -143,3 +143,6 @@ Opening free discussion sets vetoes for the current operations, under the existi
 New browser games use vt:rules:opening-developments-v0.5. Saved v0.4 and v0.3 games retain their original sequences. The Playtrace plugin accepts all three rulesets. The existing reproduce command deliberately replays the preserved old experiment; it is not a new player simulation.
 
 At each opening, the facilitator chooses one of two news reports before discussion. The exact conditional effects remain behind the screen. Both operations and the selected development contribute to the final track totals before clamping. The facilitator guide contains the complete four-card news pack and resolution instructions.
+
+
+Other Faction and Council Orders require a facilitator ruling. They cannot be more efficient than existing orders or bypass cross-faction coordination. Preserve traits, asset ownership and location, single use, vetoes, Standing Commitments, Charter duties, prophecy conditions and development triggers. Browser rulings use an equivalent printed order’s complete mechanics or no operational benefit while occupying the asset; Grey Petrel consumes its contracted service for a no-benefit task. Peers propose; only the facilitator adjudicates. Unresolved paper proposals use printed faction defaults or no council order.

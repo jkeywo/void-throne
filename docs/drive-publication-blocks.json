@@ -208,7 +208,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Then agree the government for this round. The two council representatives concerned and the Ascendant must agree each provisional article aloud. A failed proposal leaves the existing article in force. You may attach a Standing Commitment with both faction members’ agreement; it fixes one asset’s placement or home action for this round."
+        "Then agree the government for this round. The two council representatives concerned and the Ascendant must agree each provisional article aloud. A failed proposal leaves the existing article in force. You may attach a Standing Commitment with both faction members’ agreement; it fixes one asset’s placement or faction order for this round."
       ],
       [
         "NORMAL_TEXT",
@@ -228,19 +228,23 @@
       ],
       [
         "BULLET",
-        "Keep an asset at your faction table for its home action, or take its card to the council printed on it. An asset at a council is offered for service there instead of taking a home action."
+        "Keep an asset at your faction table for its faction order, or take its card to the council printed on it. An asset at a council is offered for service there instead of taking a faction order."
       ],
       [
         "NORMAL_TEXT",
-        "Agree the allocation of your cards with your teammate. Some Assets have two faces: turn the card to show the home action you want."
+        "Agree the allocation of your cards with your teammate. Some Assets have two faces: turn the card to show the faction order you want."
       ],
       [
         "NORMAL_TEXT",
-        "A Standing Commitment agreed during the opening free discussion may fix where a card goes or which home action it shows this round. Put a commitment marker on the card and follow that promise."
+        "You may propose Other as a Faction Order. Tell the facilitator what you want to achieve and which assets will do it. Leave those cards at your faction table with an Other marker. Agree the requirements and likely outcome before the phase ends; if no ruling is agreed, choose a printed Faction Order instead."
       ],
       [
         "NORMAL_TEXT",
-        "If the teammates cannot agree their card arrangement before the deadline, leave that faction’s cards at home on its default home action."
+        "A Standing Commitment agreed during the opening free discussion may fix where a card goes or which faction order it shows this round. Put a commitment marker on the card and follow that promise."
+      ],
+      [
+        "NORMAL_TEXT",
+        "If the teammates cannot agree their card arrangement before the deadline, leave that faction’s cards at home on its default faction order."
       ],
       [
         "HEADING_2",
@@ -256,7 +260,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "After councils, the facilitator resolves both councils, home actions, the announced development and scenario conditions. They announce track changes, asset losses, completed contracts and token expenditure. Round one then leads to the next opening announcement; round two leads directly to the Ceremony."
+        "Each council also has an Other order. Propose it at that council and allocate the assets the facilitator requires. Other cannot be more efficient than an existing order or bypass the need for cooperation between factions or councils. Ownership, traits, single-use limits, vetoes and Standing Commitments still apply. Calling an attack something else does not remove its transport requirement or evade a veto. Stay at your own table while the facilitator considers the proposal."
+      ],
+      [
+        "NORMAL_TEXT",
+        "After councils, the facilitator resolves both councils, faction orders, the announced development and scenario conditions. They announce track changes, asset losses, completed contracts and token expenditure. Round one then leads to the next opening announcement; round two leads directly to the Ceremony."
       ],
       [
         "HEADING_1",
@@ -353,7 +361,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Run the two-month crisis and make the consequences legible. Players decide what to offer, which orders to issue, and what government they will accept. Apply the printed outcomes. Do not invent a prophecy, a resource, another player's agreement, an extra veto or a reward for cooperation."
+        "Run the two-month crisis and make the consequences legible. Players decide what to offer, which orders to issue, and what government they will accept. Apply printed outcomes to printed orders and adjudicate Other using the guidance below. Do not invent a prophecy, a resource, another player’s agreement, an extra veto or a reward for cooperation."
       ],
       [
         "NORMAL_TEXT",
@@ -373,7 +381,7 @@
       ],
       [
         "BULLET",
-        "Two council reference sheets and five asset cards: Wayfarer, Lantern, Spear, Vigil and Grey Petrel. Print Spear and Grey Petrel with their two home actions on opposite faces; repeat owner, council and traits on both. The other three have one home action. The printable card file supplies fold-and-glue pairs, so no duplex alignment is required."
+        "Two council reference sheets and five asset cards: Wayfarer, Lantern, Spear, Vigil and Grey Petrel. Print Spear and Grey Petrel with their two faction orders on opposite faces; repeat owner, council and traits on both. The other three have one faction order. The printable card file supplies fold-and-glue pairs, so no duplex alignment is required."
       ],
       [
         "BULLET",
@@ -390,6 +398,10 @@
       [
         "BULLET",
         "Four council sheets: one for each council in each round. No faction decision sheets are needed. Add commitment markers for cards whose placement is fixed in the coming operations."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Add Other markers for each faction, including the Ascendant, and one Other order card for each council. Use spare slips to record an unusual proposal and its ruling; this does not introduce a general faction decision sheet."
       ],
       [
         "BULLET",
@@ -432,8 +444,44 @@
         "Prepare cards and council records"
       ],
       [
+        "HEADING_2",
+        "Adjudicating Other"
+      ],
+      [
         "NORMAL_TEXT",
-        "Asset placement records the faction decision. Cards left at home perform the home action showing; cards taken to their printed council are offered there. Spear has Stand Down / Intercept a Patrol faces; Grey Petrel has Retain the Cutter / Protect the Navigators. The default face is Stand Down or Retain the Cutter. Repeat traits on both faces. A home face has no effect at a council. Representatives take their plans to the councils themselves, without written instructions or requests."
+        "Hear Other proposals during the phase in which they are made. Ask what the players want to achieve, which assets they will use, and whose cooperation is needed. Decide requirements and likely consequences before they commit. Keep exact operational modifiers behind the screen, but explain costs, risks and dependencies in the same qualitative terms as printed orders."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Compare the proposal with the closest printed order or combination of orders. It must not obtain the same benefit with fewer assets, weaker traits, less risk or fewer consequences. Cap its effect at the comparable order; reduce the effect or reject the proposal if its scope is weaker or uncertain. An interesting description is not a bonus. If it simply does the printed job, use that order’s full requirements and resolution."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Preserve cross-faction coordination. An attack beyond the Narrow still needs delivered troop transport; a safe convoy still needs the required protection. Players cannot invent hired ships, volunteers, navigators, intelligence or permission to replace assets and decisions controlled by someone else. Do not carry negotiations between councils. They remain at their own tables and any dependent operation must be supplied through the normal decisions."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Check ownership, availability, traits, card location, single use, active vetoes, Standing Commitments and Charter duties. Resolve equivalent operations as the printed order for all costs, risks, prophecy conditions, developments and once-per-round limits. A renamed interception is still barred by an interception veto. One Other order cannot bundle two jobs onto one asset. Record all assets required for a genuinely combined proposal and consume their normal uses."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Write the proposal, committed assets, comparable order, ruling and reason in your resolution log. State any conditional dependence, such as transport arriving from Navigation. Agree this before the phase deadline; resolve it with normal operations, without changing a ruling to reward a later bargain. If it has no track or asset effect, say so and still account for any assets occupied or service consumed. Grey Petrel cannot provide a free extra service."
+      ],
+      [
+        "NORMAL_TEXT",
+        "If no ruling is agreed in time, use the normal fallback: choose a printed Faction Order, or leave the council’s Other order unselected. Faction disagreement still uses its printed defaults. An unavailable asset or a binding commitment cannot be released by proposing Other."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Example: calling Attack the Anchorage a “show of force” does not remove its troop transport requirement, combat risk or disruption. A differently described delivery using a Civilian Transport asset may use Deliver Relief’s resolution, including route wear and danger. A diplomatic visit may justify a narrative response without granting free Stability, Readiness or another party’s cooperation."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Browser adjudication: select Other and enter the proposal. The facilitator must record a comparable printed order and a qualitative ruling before closing the phase. The browser applies that order’s complete mechanics, or No effect for an occupied asset with no operational benefit. It checks ordinary funding, vetoes and single use; only the facilitator supplies rulings. More elaborate paper rulings need a separate manual resolution record rather than invented automatic bonuses."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Asset placement records the faction decision. Cards left at home perform the faction order showing; cards taken to their printed council are offered there. Spear has Stand Down / Intercept a Patrol faces; Grey Petrel has Retain the Cutter / Protect the Navigators. The default face is Stand Down or Retain the Cutter. Repeat traits on both faces. A faction-order face has no effect at a council. Representatives take their plans to the councils themselves, without written instructions or requests."
       ],
       [
         "NORMAL_TEXT",
@@ -553,7 +601,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "At the faction bell, check agreed card arrangements, applying defaults and Standing Commitments. Remove unavailable cards and note Grey Petrel’s position and face. Cards stay at their tables throughout councils. At the council bell, collect both programmes and the Warrant before revealing either. Keep GN and JN at Navigation and GS, JS and A at Security. Resolve orders, home actions, prophecy conditions and the announced development. Publish the result before the next opening announcement or, after round two, the Ceremony. There is no closing Free Phase."
+        "At the faction bell, check agreed card arrangements, applying defaults and Standing Commitments. Remove unavailable cards and note Grey Petrel’s position and face. Cards stay at their tables throughout councils. At the council bell, collect both programmes and the Warrant before revealing either. Keep GN and JN at Navigation and GS, JS and A at Security. Resolve orders, faction orders, prophecy conditions and the announced development. Publish the result before the next opening announcement or, after round two, the Ceremony. There is no closing Free Phase."
       ],
       [
         "NORMAL_TEXT",
@@ -573,7 +621,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Record opening Beacon, Stability and Readiness, available assets, completed contracts, reserve and foresight, articles, vetoes and Standing Commitments. Read assignments from card locations and home faces; record them in your private resolution log, along with each selected council order with its asset, and the Warrant. Start Stability change at −1 for monthly consumption. Keep separate entries for prepared Beacon, transport wear, private commercial wear, protection, delivered relief, delivered troops and qualifying combat."
+        "Record opening Beacon, Stability and Readiness, available assets, completed contracts, reserve and foresight, articles, vetoes and Standing Commitments. Read assignments from card locations and faction-order faces; record them in your private resolution log, along with each selected council order with its asset, and the Warrant. Start Stability change at −1 for monthly consumption. Keep separate entries for prepared Beacon, transport wear, private commercial wear, protection, delivered relief, delivered troops and qualifying combat."
       ],
       [
         "HEADING_2",
@@ -581,7 +629,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Read the cards rather than collecting faction sheets. Defaults at home are Wayfarer Fulfil Commercial Contract, Lantern Maintain the Narrows, Spear Stand Down and Vigil Defend Army Bases. Grey Petrel defaults to Retain the Cutter. A Standing Commitment overrides a conflicting placement or default. Lost or spent cards are unavailable. At a council, ignore the home face. An unused council card neither acts at home nor moves back before resolution. Record who offered cards before returning them, so Joint contributor rights remain auditable."
+        "Read the cards rather than collecting faction sheets. Defaults at home are Wayfarer Fulfil Commercial Contract, Lantern Maintain the Narrows, Spear Stand Down and Vigil Defend Army Bases. Grey Petrel defaults to Retain the Cutter. A Standing Commitment overrides a conflicting placement or default. Lost or spent cards are unavailable. At a council, ignore the faction-order face. An unused council card neither acts at home nor moves back before resolution. Record who offered cards before returning them, so Joint contributor rights remain auditable."
       ],
       [
         "NORMAL_TEXT",
@@ -1297,7 +1345,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Use opening free discussion to respond to the development and negotiate with anyone. Then use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Agree which asset cards to take to their printed council and which to leave at home. Turn a two-sided card to show its chosen home action. The card arrangement records the decision; you need no faction sheet. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision."
+        "Use opening free discussion to respond to the development and negotiate with anyone. Then use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Agree which asset cards to take to their printed council and which to leave at home. Turn a two-sided card to show its chosen faction order. The card arrangement records the decision; you need no faction sheet. For an Other Faction Order, agree your proposal with your teammate and ask the facilitator to rule before the deadline. Other cannot improve on a printed order’s efficiency or replace necessary cross-faction cooperation. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision."
       ],
       [
         "NORMAL_TEXT",
@@ -1341,7 +1389,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Use opening free discussion to respond to the development and negotiate with anyone. Then use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Agree which asset cards to take to their printed council and which to leave at home. Turn a two-sided card to show its chosen home action. The card arrangement records the decision; you need no faction sheet. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision."
+        "Use opening free discussion to respond to the development and negotiate with anyone. Then use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Agree which asset cards to take to their printed council and which to leave at home. Turn a two-sided card to show its chosen faction order. The card arrangement records the decision; you need no faction sheet. For an Other Faction Order, agree your proposal with your teammate and ask the facilitator to rule before the deadline. Other cannot improve on a printed order’s efficiency or replace necessary cross-faction cooperation. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision."
       ],
       [
         "NORMAL_TEXT",
@@ -1421,7 +1469,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "Choose foresight before your visits, then place Grey Petrel at home or offer its card to Navigation before the faction phase ends. Its two home faces record retention or navigator protection. Use your worksheet only for foresight, a permitted Warrant during councils, and any opening veto during the Free Phase. The Component Reference describes authority and the cutter. No operational signatures are needed."
+        "Choose foresight before your visits, then place Grey Petrel at home or offer its card to Navigation before the faction phase ends. Its two faction-order faces record retention or navigator protection. Use your worksheet only for foresight, a permitted Warrant during councils, and any opening veto during the Free Phase. The Component Reference describes authority and the cutter. No operational signatures are needed."
+      ],
+      [
+        "NORMAL_TEXT",
+        "You may propose Other for Grey Petrel during the faction phase. Name its task and ask the facilitator to rule before the deadline. Its traits and one-service limit still apply. Other cannot substitute for the Guild’s transport or engineering commitments, the army’s combat or protection, or required cooperation."
       ],
       [
         "HEADING_3",
@@ -1618,7 +1670,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Traits: Civilian Transport; Troop Transport. Council: Navigation and Supply. Home action: Fulfil Commercial Contract. Leave the card at home for that voyage, or take it to Navigation for council service."
+        "Traits: Civilian Transport; Troop Transport. Council: Navigation and Supply. Faction order: Fulfil Commercial Contract. Leave the card at home for that voyage, or take it to Navigation for council service."
       ],
       [
         "NORMAL_TEXT",
@@ -1638,7 +1690,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Traits: Civilian Transport; Route Engineering. Council: Navigation and Supply. Home action: Maintain the Narrows. Leave the card at home for routine upkeep, or take it to Navigation for council service."
+        "Traits: Civilian Transport; Route Engineering. Council: Navigation and Supply. Faction order: Maintain the Narrows. Leave the card at home for routine upkeep, or take it to Navigation for council service."
       ],
       [
         "NORMAL_TEXT",
@@ -1658,7 +1710,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Traits: Assault; Patrol Craft. Council: Security and Government. Two home faces: Stand Down (default) / Intercept a Patrol. Leave the chosen face showing at home, or take the card to Security. Both faces show the same traits; neither home action happens while the card is at a council."
+        "Traits: Assault; Patrol Craft. Council: Security and Government. Two faction-order faces: Stand Down (default) / Intercept a Patrol. Leave the chosen face showing at home, or take the card to Security. Both faces show the same traits; neither faction order happens while the card is at a council."
       ],
       [
         "NORMAL_TEXT",
@@ -1678,7 +1730,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Trait: Passage Defence. Council: Security and Government. Home action: Defend Army Bases. Leave the card at home to defend the bases, or take it to Security for council service."
+        "Trait: Passage Defence. Council: Security and Government. Faction order: Defend Army Bases. Leave the card at home to defend the bases, or take it to Security for council service."
       ],
       [
         "NORMAL_TEXT",
@@ -1694,7 +1746,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Traits: Civilian Transport; Troop Transport. Council: Navigation and Supply. Two home faces: Retain the Cutter (default) / Protect the Navigators. Both faces show the same traits. Grey Petrel has a licensed Guild pilot and a protection detail, but not the Passage Defence trait: its specific rescue is not general route protection. The Ascendant controls one contracted service for the prototype, represented by the reserve token. Leave the chosen face showing at the Ascendant’s place, or give the card to Navigation before the faction bell. Council service replaces either home action."
+        "Traits: Civilian Transport; Troop Transport. Council: Navigation and Supply. Two faction-order faces: Retain the Cutter (default) / Protect the Navigators. Both faces show the same traits. Grey Petrel has a licensed Guild pilot and a protection detail, but not the Passage Defence trait: its specific rescue is not general route protection. The Ascendant controls one contracted service for the prototype, represented by the reserve token. Leave the chosen face showing at the Ascendant’s place, or give the card to Navigation before the faction bell. Council service replaces either faction order."
       ],
       [
         "NORMAL_TEXT",
@@ -1714,15 +1766,47 @@
       ],
       [
         "NORMAL_TEXT",
-        "The card’s location records its assignment. At its printed council it is available for orders matching its traits; at home it performs the action showing. No faction sheet is needed. Do not move a card between councils or send it home during councils. Each asset performs one task, and each printed order can be selected once per round. An unused council card does no home action. A surviving faction asset returns home after resolution; Grey Petrel is limited by its one-service contract."
+        "Faction Orders are the tasks you choose for assets kept at your faction table. Council Orders use assets brought to the council. The card faces show printed Faction Orders; use an Other marker for an agreed alternative. Keeping an asset at the faction table does not mean that it stays in port: a commercial voyage or independent interception is still a Faction Order."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The card’s location records its assignment. At its printed council it is available for orders matching its traits; at home it performs the action showing. No faction sheet is needed. Do not move a card between councils or send it home during councils. Each asset performs one task, and each printed order can be selected once per round. An unused council card does no faction order. A surviving faction asset returns home after resolution; Grey Petrel is limited by its one-service contract."
       ],
       [
         "NORMAL_TEXT",
         "You can carry out every order for which the assets and requirements are available, unless that order is vetoed. There is no limit of one order per council. Navigation may arrange both transports using different ships, or repair while another ship transports. Security may attack or intercept with Spear while Vigil protects the passage. Spear cannot both attack and intercept."
       ],
       [
+        "HEADING_2",
+        "Other — Faction Order"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Requirement: name an objective and the available assets your faction will commit. Both teammates agree; the Ascendant decides for Grey Petrel. Keep the cards at your faction table and place an Other marker beside them. Each asset is used once, in place of its printed Faction Order."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Ask the facilitator to rule on the proposal before the faction deadline. They set requirements and consequences by comparison with existing orders. Other is never a cheaper, safer or stronger way to obtain the same result. It cannot supply another faction’s assets, create new traits, evade a veto or Standing Commitment, or replace cooperation that the operation would normally require. If the proposal needs a council operation, take the necessary cards to that council before the faction phase closes."
+      ],
+      [
+        "NORMAL_TEXT",
+        "If no ruling is agreed before the deadline, choose a printed Faction Order; unresolved disagreement uses the normal faction defaults. An agreed Other order is resolved with the round’s other operations. It grants no extra use of an asset."
+      ],
+      [
         "HEADING_1",
         "2. Navigation and Supply"
+      ],
+      [
+        "HEADING_2",
+        "Other — Council Order"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Requirement: describe the intended action and outcome, and identify the offered assets it needs. The facilitator adjudicates it before the council deadline. Use each asset once; an asset used for Other cannot also perform another order."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Other cannot be more efficient than an existing order or avoid cross-faction coordination. All normal ownership, trait, transport, protection, veto and commitment requirements remain. An equivalent task counts as that printed order for single-use limits, prophecies and developments. Other does not create a second copy of a printed order. If no ruling is agreed in time, leave Other unselected; its proposed assets remain unused unless assigned to another legal order before the deadline."
       ],
       [
         "NORMAL_TEXT",
@@ -1781,6 +1865,18 @@
         "3. Security and Government"
       ],
       [
+        "HEADING_2",
+        "Other — Council Order"
+      ],
+      [
+        "NORMAL_TEXT",
+        "Requirement: describe the intended action and outcome, and identify the offered assets it needs. The facilitator adjudicates it before the council deadline. Use each asset once; an asset used for Other cannot also perform another order."
+      ],
+      [
+        "NORMAL_TEXT",
+        "Other cannot be more efficient than an existing order or avoid cross-faction coordination. All normal ownership, trait, transport, protection, veto and commitment requirements remain. An equivalent task counts as that printed order for single-use limits, prophecies and developments. Other does not create a second copy of a printed order. If no ruling is agreed in time, leave Other unselected; its proposed assets remain unused unless assigned to another legal order before the deadline."
+      ],
+      [
         "NORMAL_TEXT",
         "Discuss the programme at Security. JS records the offered army assets used for each order. GS contributes the Guild's concerns and the Ascendant can advise or issue a Warrant where permitted. None has an additional approval gate over funded, unvetoed orders."
       ],
@@ -1802,7 +1898,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Requirement: one asset with Patrol Craft. Use an offered card at Security, or a card whose printed home face permits this operation independently."
+        "Requirement: one asset with Patrol Craft. Use an offered card at Security, or a card whose printed faction-order face permits this operation independently."
       ],
       [
         "NORMAL_TEXT",
@@ -1826,7 +1922,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Match an offered card’s traits to each selected order. An Assault asset can Attack the Anchorage if troop transport arrives; Patrol Craft can Intercept a Patrol; Passage Defence can Protect the Passage. Use each card once. Leaving orders blank does not cancel a legal home action. Do not reuse an asset taken by an effective Warrant. Resolve unclear allocations before the deadline; unused council cards provide no automatic operation or home action."
+        "Match an offered card’s traits to each selected order. An Assault asset can Attack the Anchorage if troop transport arrives; Patrol Craft can Intercept a Patrol; Passage Defence can Protect the Passage. Use each card once. Leaving orders blank does not cancel a legal faction order. Do not reuse an asset taken by an effective Warrant. Resolve unclear allocations before the deadline; unused council cards provide no automatic operation or faction order."
       ],
       [
         "HEADING_1",
@@ -1954,7 +2050,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Mark a promised placement or home action on the card with a commitment marker. The promise fixes that assignment, not its eventual order. An asset may be left unused if no legal operation remains. Grey Petrel's assignment is made by the Ascendant each faction phase; it is not an additional faction Standing Commitment."
+        "Mark a promised placement or faction order on the card with a commitment marker. The promise fixes that assignment, not its eventual order. An asset may be left unused if no legal operation remains. Grey Petrel's assignment is made by the Ascendant each faction phase; it is not an additional faction Standing Commitment."
       ]
     ]
   }

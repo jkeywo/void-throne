@@ -23,5 +23,6 @@ jobs:
           python -m unittest discover -s tests -p test_orders_v04.py -v
           python -m unittest discover -s tests -p test_asset_traits.py -v
           python -m unittest discover -s tests -p test_opening_rounds.py -v
+          python -m unittest discover -s tests -p test_other_orders.py -v
       - name: Build the online game
         run: python tools/build_pages.py

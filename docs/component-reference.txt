@@ -56,7 +56,7 @@ These descriptions explain the tracks; they add no further bonuses or penalties.
 
 Wayfarer — Guild freight vessel
 
-Traits: Civilian Transport; Troop Transport. Council: Navigation and Supply. Home action: Fulfil Commercial Contract. Leave the card at home for that voyage, or take it to Navigation for council service.
+Traits: Civilian Transport; Troop Transport. Council: Navigation and Supply. Faction order: Fulfil Commercial Contract. Leave the card at home for that voyage, or take it to Navigation for council service.
 
 Offer Council Service makes Wayfarer available to Navigation for Deliver Relief or Transport Troops. Choose one job for the ship. It cannot also complete a commercial contract that month.
 
@@ -66,7 +66,7 @@ There is one commercial opportunity each round. A missed contract is an immediat
 
 Lantern — Guild tender
 
-Traits: Civilian Transport; Route Engineering. Council: Navigation and Supply. Home action: Maintain the Narrows. Leave the card at home for routine upkeep, or take it to Navigation for council service.
+Traits: Civilian Transport; Route Engineering. Council: Navigation and Supply. Faction order: Maintain the Narrows. Leave the card at home for routine upkeep, or take it to Navigation for council service.
 
 Offer Council Service makes Lantern available to Navigation for Deliver Relief or Repair the Narrows. Lantern can carry civilian passengers and essential relief supplies, but cannot transport Spear. It cannot carry civilians and repair the route in the same round.
 
@@ -76,7 +76,7 @@ Lantern's navigators are irreplaceable during the prototype. Taking them on a ci
 
 Spear — the 9th Pale Cohort
 
-Traits: Assault; Patrol Craft. Council: Security and Government. Two home faces: Stand Down (default) / Intercept a Patrol. Leave the chosen face showing at home, or take the card to Security. Both faces show the same traits; neither home action happens while the card is at a council.
+Traits: Assault; Patrol Craft. Council: Security and Government. Two faction-order faces: Stand Down (default) / Intercept a Patrol. Leave the chosen face showing at home, or take the card to Security. Both faces show the same traits; neither faction order happens while the card is at a council.
 
 Offer Council Service makes Spear available to Security for Attack the Anchorage or Intercept a Patrol. Attack the Anchorage also needs Navigation to deliver Transport Troops. Spear's local craft can intercept a patrol without Guild transport.
 
@@ -86,7 +86,7 @@ Stand Down keeps Spear out of operations. It does not restore a lost cohort or s
 
 Vigil — the Narrow garrison
 
-Trait: Passage Defence. Council: Security and Government. Home action: Defend Army Bases. Leave the card at home to defend the bases, or take it to Security for council service.
+Trait: Passage Defence. Council: Security and Government. Faction order: Defend Army Bases. Leave the card at home to defend the bases, or take it to Security for council service.
 
 Offer Council Service makes Vigil available to Security for Protect the Passage or an imperial Warrant. An effective Warrant uses it first. The garrison cannot perform both tasks in one round.
 
@@ -94,7 +94,7 @@ Defend Army Bases keeps Vigil at the army's institutional bases. It fulfils the 
 
 Grey Petrel — the Ascendant's contracted cutter
 
-Traits: Civilian Transport; Troop Transport. Council: Navigation and Supply. Two home faces: Retain the Cutter (default) / Protect the Navigators. Both faces show the same traits. Grey Petrel has a licensed Guild pilot and a protection detail, but not the Passage Defence trait: its specific rescue is not general route protection. The Ascendant controls one contracted service for the prototype, represented by the reserve token. Leave the chosen face showing at the Ascendant’s place, or give the card to Navigation before the faction bell. Council service replaces either home action.
+Traits: Civilian Transport; Troop Transport. Council: Navigation and Supply. Two faction-order faces: Retain the Cutter (default) / Protect the Navigators. Both faces show the same traits. Grey Petrel has a licensed Guild pilot and a protection detail, but not the Passage Defence trait: its specific rescue is not general route protection. The Ascendant controls one contracted service for the prototype, represented by the reserve token. Leave the chosen face showing at the Ascendant’s place, or give the card to Navigation before the faction bell. Council service replaces either faction order.
 
 Offer Council Service makes Grey Petrel available to Navigation for either Deliver Relief or Transport Troops. GN records its allocation alongside the Guild ships after discussion with JN. It can carry civilians or the army, but can perform only one order. Using this service spends its token, even if poor conditions prevent departure. Offering it without using it leaves the token available.
 
@@ -104,11 +104,27 @@ Retain the Cutter keeps the token without providing service. A missing assignmen
 
 Ownership and use
 
-The card’s location records its assignment. At its printed council it is available for orders matching its traits; at home it performs the action showing. No faction sheet is needed. Do not move a card between councils or send it home during councils. Each asset performs one task, and each printed order can be selected once per round. An unused council card does no home action. A surviving faction asset returns home after resolution; Grey Petrel is limited by its one-service contract.
+Faction Orders are the tasks you choose for assets kept at your faction table. Council Orders use assets brought to the council. The card faces show printed Faction Orders; use an Other marker for an agreed alternative. Keeping an asset at the faction table does not mean that it stays in port: a commercial voyage or independent interception is still a Faction Order.
+
+The card’s location records its assignment. At its printed council it is available for orders matching its traits; at home it performs the action showing. No faction sheet is needed. Do not move a card between councils or send it home during councils. Each asset performs one task, and each printed order can be selected once per round. An unused council card does no faction order. A surviving faction asset returns home after resolution; Grey Petrel is limited by its one-service contract.
 
 You can carry out every order for which the assets and requirements are available, unless that order is vetoed. There is no limit of one order per council. Navigation may arrange both transports using different ships, or repair while another ship transports. Security may attack or intercept with Spear while Vigil protects the passage. Spear cannot both attack and intercept.
 
+Other — Faction Order
+
+Requirement: name an objective and the available assets your faction will commit. Both teammates agree; the Ascendant decides for Grey Petrel. Keep the cards at your faction table and place an Other marker beside them. Each asset is used once, in place of its printed Faction Order.
+
+Ask the facilitator to rule on the proposal before the faction deadline. They set requirements and consequences by comparison with existing orders. Other is never a cheaper, safer or stronger way to obtain the same result. It cannot supply another faction’s assets, create new traits, evade a veto or Standing Commitment, or replace cooperation that the operation would normally require. If the proposal needs a council operation, take the necessary cards to that council before the faction phase closes.
+
+If no ruling is agreed before the deadline, choose a printed Faction Order; unresolved disagreement uses the normal faction defaults. An agreed Other order is resolved with the round’s other operations. It grants no extra use of an asset.
+
 2. Navigation and Supply
+
+Other — Council Order
+
+Requirement: describe the intended action and outcome, and identify the offered assets it needs. The facilitator adjudicates it before the council deadline. Use each asset once; an asset used for Other cannot also perform another order.
+
+Other cannot be more efficient than an existing order or avoid cross-faction coordination. All normal ownership, trait, transport, protection, veto and commitment requirements remain. An equivalent task counts as that printed order for single-use limits, prophecies and developments. Other does not create a second copy of a printed order. If no ruling is agreed in time, leave Other unselected; its proposed assets remain unused unless assigned to another legal order before the deadline.
 
 Discuss the programme at Navigation. GN records which offered asset serves each selected order, including Grey Petrel if the Ascendant offered it. JN contributes the army's priorities and plans. No separate agreement from an authority holder is needed to carry out a funded, unvetoed order.
 
@@ -138,6 +154,12 @@ Orders lacking an offered asset, using an asset twice or struck out by a veto ca
 
 3. Security and Government
 
+Other — Council Order
+
+Requirement: describe the intended action and outcome, and identify the offered assets it needs. The facilitator adjudicates it before the council deadline. Use each asset once; an asset used for Other cannot also perform another order.
+
+Other cannot be more efficient than an existing order or avoid cross-faction coordination. All normal ownership, trait, transport, protection, veto and commitment requirements remain. An equivalent task counts as that printed order for single-use limits, prophecies and developments. Other does not create a second copy of a printed order. If no ruling is agreed in time, leave Other unselected; its proposed assets remain unused unless assigned to another legal order before the deadline.
+
 Discuss the programme at Security. JS records the offered army assets used for each order. GS contributes the Guild's concerns and the Ascendant can advise or issue a Warrant where permitted. None has an additional approval gate over funded, unvetoed orders.
 
 Attack the Anchorage
@@ -148,7 +170,7 @@ Attack the Sorenne Flag's anchorage beyond the Narrow. Fighting sustains a capab
 
 Intercept a Patrol
 
-Requirement: one asset with Patrol Craft. Use an offered card at Security, or a card whose printed home face permits this operation independently.
+Requirement: one asset with Patrol Craft. Use an offered card at Security, or a card whose printed faction-order face permits this operation independently.
 
 Use the force’s patrol craft to seek a Sorenne Flag patrol. The expedition may find no enemy, yet still disrupt civilian traffic. Finding an enemy provides combat for a capable force but risks destroying a weakened cohort. A standing veto bars both the council and independent versions of this order.
 
@@ -160,7 +182,7 @@ Protect traffic and service installations. Protection supports civilian life and
 
 Selecting the programme
 
-Match an offered card’s traits to each selected order. An Assault asset can Attack the Anchorage if troop transport arrives; Patrol Craft can Intercept a Patrol; Passage Defence can Protect the Passage. Use each card once. Leaving orders blank does not cancel a legal home action. Do not reuse an asset taken by an effective Warrant. Resolve unclear allocations before the deadline; unused council cards provide no automatic operation or home action.
+Match an offered card’s traits to each selected order. An Assault asset can Attack the Anchorage if troop transport arrives; Patrol Craft can Intercept a Patrol; Passage Defence can Protect the Passage. Use each card once. Leaving orders blank does not cancel a legal faction order. Do not reuse an asset taken by an effective Warrant. Resolve unclear allocations before the deadline; unused council cards provide no automatic operation or faction order.
 
 4. Authority and provisional government
 
@@ -224,4 +246,4 @@ Vigil: Offer Council Service or Defend Army Bases.
 
 An unapproved attached commitment prevents its article passing as proposed. If the article and commitment pass, the assignment is locked for the current round and overrides contrary choices or defaults. It expires after that round's operations. An article can pass without a commitment; informal plans do not bind later orders.
 
-Mark a promised placement or home action on the card with a commitment marker. The promise fixes that assignment, not its eventual order. An asset may be left unused if no legal operation remains. Grey Petrel's assignment is made by the Ascendant each faction phase; it is not an additional faction Standing Commitment.
+Mark a promised placement or faction order on the card with a commitment marker. The promise fixes that assignment, not its eventual order. An asset may be left unused if no legal operation remains. Grey Petrel's assignment is made by the Ascendant each faction phase; it is not an additional faction Standing Commitment.
