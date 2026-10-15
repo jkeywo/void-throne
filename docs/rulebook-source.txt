@@ -116,7 +116,7 @@ Lost or disabled assets are [Absent].
 
 ### Council Phase— five minutes
 
-Go to your council and negotiate its order, using the assets offered by the factions. Stay at that table throughout the council phase and speak only with its members. Do not visit, call across to or send messages to the other council, including through your faction teammate. Your council reference lists the available orders, their requirements and their effects. Make plans that depend on the other council during the faction or free phase; those plans do not bind its later decision.
+Go to your council and negotiate its order, using the assets offered by the factions. Stay at that table throughout the council phase and speak only with its members. Do not visit, call across to or send messages to the other council, including through your faction teammate. Your council reference describes the available orders, the assets they need, their purpose and known risks. The facilitator keeps the exact operational calculations concealed and reports the result. Make plans that depend on the other council during the faction or free phase; those plans do not bind its later decision.
 
 Check the current article: the constitutional rule saying who has authority to choose the council's order. At the start, the Ascendant chooses both orders while remaining at Security and Government. At the deadline, they give their Navigation decision to the facilitator, who records it as that council's order. Later articles may give authority to a faction's representative or require both representatives to agree. The facilitator does not carry proposals or replies between councils; both final orders are revealed after they have been collected.
 

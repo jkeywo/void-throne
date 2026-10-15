@@ -1,0 +1,19 @@
+{
+  "id": "R2-S",
+  "title": "The relief column",
+  "branches": [
+    {
+      "condition": "Relief is delivered and Spear makes a Raid",
+      "consequence": "The relief traffic brings the Sorenne patrol within reach. A force able to sustain combat fights, strengthening its conditioning but further disrupting civilian life. A force too weakened to fight is disabled instead. Grey Petrel Relief also draws the patrol."
+    },
+    {
+      "condition": "Relief is not delivered and Spear makes a Raid",
+      "consequence": "The patrol is not found. The expedition disrupts civilian traffic without achieving combat. Shared passage, Military passage and private Trade do not draw this patrol."
+    },
+    {
+      "condition": "No Raid takes place",
+      "consequence": "Relief alone does not cause an attack. The army must actually launch a Raid for these Raid consequences to occur."
+    }
+  ],
+  "guidance": "Consider the Navigation order and whether Spear will raid. Council orders remain open after assignments lock, but an independent Raid cannot then be cancelled by a council."
+}

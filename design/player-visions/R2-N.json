@@ -1,0 +1,19 @@
+{
+  "id": "R2-N",
+  "title": "Stores at the crossing",
+  "branches": [
+    {
+      "condition": "Military passage is delivered without Guard or an effective Warrant",
+      "consequence": "Stores are lost in the loading arrangements, worsening civilian shortages. Protection prevents this extra loss; Tender cover cannot protect the stores."
+    },
+    {
+      "condition": "Council Repair is carried out and private Wayfarer Trade completes",
+      "consequence": "The repaired route and completed commercial voyage improve distribution to Sorenne’s Fall. Both must happen. Routine Maintain work is not this Repair operation."
+    },
+    {
+      "condition": "Neither condition occurs",
+      "consequence": "Neither of these additional supply effects occurs. Other cargo, operation and scenario effects still apply."
+    }
+  ],
+  "guidance": "You can seek a different use of the ships or protection while the relevant assignments and orders remain open. This vision promises no extra benefit for an ordinary Relief voyage."
+}

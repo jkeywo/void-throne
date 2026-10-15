@@ -9,7 +9,7 @@ from playtrace.semantics import SemanticUsage,SemanticOrigin,audit_semantics
 from .session import Session, ROOT, ROLES
 
 def engine_digest():
-    paths=sorted((ROOT/'src/void_throne').glob('*.py'))+sorted((ROOT/'design/private-cards').glob('*.json'))+sorted((ROOT/'design/public-covers').glob('*.json'))
+    paths=sorted((ROOT/'src/void_throne').glob('*.py'))+sorted((ROOT/'design/private-cards').glob('*.json'))+sorted((ROOT/'design/public-covers').glob('*.json'))+sorted((ROOT/'design/player-visions').glob('*.json'))+[ROOT/'design/track-descriptions.json']
     h=hashlib.sha256()
     for p in paths:h.update(p.relative_to(ROOT).as_posix().encode());h.update(p.read_bytes())
     return h.hexdigest()

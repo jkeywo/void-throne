@@ -4,6 +4,7 @@ from copy import deepcopy
 from pathlib import Path
 import json
 from .operations import State, resolve
+from .presentation import track_descriptions
 from .settlement import leverage, ballot
 from .charter import evaluate, apply_locks, CHOICES
 
@@ -182,7 +183,7 @@ class Session:
         covers=[json.loads((ROOT/'design/public-covers'/f'R{self.round}-{d}.json').read_text(encoding='utf-8')) for d in ('N','S')]
         return deepcopy(dict(state=self.state,round=self.round,stage=self.stage,foresight=self.foresight,articles=self.articles,
                              pledges=self.pledges,drafts=self.drafts,assignments=self.assignments,reserve=self.reserve,
-                             selected_vision=self.vision,disclosed=self.disclosed,covers=covers,trial=self.trial,package=self.package,
+                             selected_vision=self.vision,disclosed=self.disclosed,covers=covers,track_descriptions=track_descriptions(),trial=self.trial,package=self.package,
                              ballots=self.ballots,settlement=self.settlement,leverage=leverage(self.state,self.foresight),
                              history=self.history,actions=self.actions,mode='all_seats',ruleset='vt:rules:revised-visions-v0.3'))
 

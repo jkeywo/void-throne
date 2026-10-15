@@ -1,0 +1,19 @@
+{
+  "id": "R1-N",
+  "title": "The exposed transfer",
+  "branches": [
+    {
+      "condition": "Shared passage is delivered without protection",
+      "consequence": "Lantern's navigation team is lost. Grey Petrel on Tender cover can save the team, using its contracted service."
+    },
+    {
+      "condition": "Shared passage is delivered with Guard or an effective Warrant",
+      "consequence": "The navigation team survives this threat. Tender cover is not called upon."
+    },
+    {
+      "condition": "Shared passage is not delivered",
+      "consequence": "This threat does not take the navigation team. A failed or halted operation can still have other consequences."
+    }
+  ],
+  "guidance": "You can seek protection, change the voyage or arrange Tender cover while the relevant decisions remain open. Protection does not mend the route."
+}

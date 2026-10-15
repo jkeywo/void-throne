@@ -23,3 +23,6 @@ The repository and scenario code are public. Players should avoid inspecting hid
 
 Older local sessions
 The original all-seat test bench remains separate. Start Multiplayer.cmd serves this same unified interface locally. Browser saves belong to their exact website address, so a game started on localhost does not appear on the hosted website. Older .playtrace/multiplayer-session-PORT.json files remain on disk but are not automatically imported.
+
+Player information
+The rules, component reference and briefs describe purposes, required assets and risks. Each public track shows its value and description. Player results show events and the new state, not the facilitator’s numerical ledger or thresholds. Purchased visions reveal qualitative conditional events. The facilitator view and exported facilitator report retain exact calculations. The public source repository and host engine remain inspectable; this is the information presented during ordinary play, not an anti-cheat boundary.

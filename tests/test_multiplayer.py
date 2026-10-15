@@ -56,7 +56,7 @@ class MultiplayerTests(unittest.TestCase):
             if action['stage']=='commit':self.assertNotIn('signatures',action)
 
     def test_private_vision_and_choice_never_sent_to_other_seats(self):
-        self.step(SCRIPT[0]);self.step(SCRIPT[1]);answer=self.m.game.vision['branches'][0]['consequence']
+        self.step(SCRIPT[0]);self.step(SCRIPT[1]);answer=self.m.view('A')['selected_vision']['branches'][0]['consequence']
         self.assertIn(answer,json.dumps(self.m.view('A'),ensure_ascii=False))
         for r in ('GN','GS','JN','JS'):
             v=self.m.view(r);self.assertIsNone(v['selected_vision']);self.assertNotIn(answer,json.dumps(v,ensure_ascii=False))

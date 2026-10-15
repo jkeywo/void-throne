@@ -1,0 +1,77 @@
+{
+  "beacon": {
+    "title": "Beacon",
+    "values": {
+      "4": {
+        "label": "Sound",
+        "description": "The navigation network is in good order, with reliable signals and well-maintained service installations."
+      },
+      "3": {
+        "label": "Serviceable",
+        "description": "The route supports regular passage, though traffic and neglected maintenance will wear it down."
+      },
+      "2": {
+        "label": "Fragile",
+        "description": "The route is usable but vulnerable. Faults and exposed traffic make protection and upkeep pressing concerns."
+      },
+      "1": {
+        "label": "Deteriorating",
+        "description": "Failing signals and service installations interrupt the route. Substantial work is needed to restore dependable passage."
+      },
+      "0": {
+        "label": "Dark",
+        "description": "The navigation infrastructure has failed. The route needs restoration before normal service can resume."
+      }
+    }
+  },
+  "readiness": {
+    "title": "Readiness",
+    "values": {
+      "4": {
+        "label": "Battle-ready",
+        "description": "Conditioning holds firm. The force is cohesive, disciplined and prepared for sustained fighting."
+      },
+      "3": {
+        "label": "Steady",
+        "description": "Troops respond reliably to command and retain the cohesion won during the conquest."
+      },
+      "2": {
+        "label": "Fraying",
+        "description": "Combat power remains, but conditioning and discipline are under strain."
+      },
+      "1": {
+        "label": "Unreliable",
+        "description": "Units struggle to act together. Sending them into serious fighting risks breaking the force."
+      },
+      "0": {
+        "label": "Disordered",
+        "description": "Conditioning has broken down. Commanders cannot rely on coordinated combat."
+      }
+    }
+  },
+  "communities": {
+    "title": "Sorenne's Fall — Stability",
+    "values": {
+      "4": {
+        "label": "Secure",
+        "description": "Supplies are reliable and services can meet immediate needs."
+      },
+      "3": {
+        "label": "Functioning",
+        "description": "The administration is keeping the system supplied."
+      },
+      "2": {
+        "label": "Strained",
+        "description": "Shortages are affecting daily life."
+      },
+      "1": {
+        "label": "Failing",
+        "description": "Severe shortages are disrupting essential services."
+      },
+      "0": {
+        "label": "Emergency",
+        "description": "The system cannot meet its immediate needs without relief."
+      }
+    }
+  }
+}

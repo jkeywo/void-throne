@@ -75,7 +75,7 @@ class FactionForesightTests(unittest.TestCase):
     def test_paid_answer_is_private_and_choice_cannot_be_revised(self):
         m=self.table();self.choose(m,'Navigation')
         self.assertEqual(m.game.foresight,2)
-        answer=m.game.vision['branches'][0]['consequence']
+        answer=m.view('A')['selected_vision']['branches'][0]['consequence']
         self.assertIn(answer,json.dumps(m.view('A'),ensure_ascii=False))
         self.assertNotIn(answer,json.dumps(m.view('GN'),ensure_ascii=False))
         m.add_chat('A','visit-guild',answer)

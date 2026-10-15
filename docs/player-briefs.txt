@@ -40,7 +40,7 @@ Keep Spear intact and finish with Readiness at least 3, preferably 4.
 
 Secure the army's constitutional position, preferably through Military autonomy.
 
-Protect your soldiers from operations they cannot sustain. At opening Readiness below 2, combat disables Spear.
+Protect your soldiers from operations they cannot sustain. A weakened cohort risks being destroyed by the fighting meant to sustain it.
 
 Leave Sorenne's Fall with Stability at least 2.
 
@@ -80,7 +80,7 @@ There is at most one purchase per round. Your choice must reach the facilitator 
 
 The facilitator announces the expenditure and remaining tokens. The chosen card and its answer remain private unless the Ascendant shares them. You may show, describe, conceal or misrepresent the answer; the facilitator will not certify your claims to other players.
 
-An answer states what happens if its conditions occur. It does not tell you what players will choose or cover every possible risk. Those conditions apply whether anyone reads the card or not.
+An answer describes reliable events if its conditions occur, without giving the facilitator’s numerical calculations. It does not tell you what players will choose or cover every possible risk. Those conditions apply whether anyone reads the card or not.
 
 While you choose, the two factions discuss privately with their own teammates. After your choice is recorded, you may visit either faction, return to one you visited earlier, relay offers and share or withhold your vision. Each visit is a conversation with that faction; do not bring the two factions together. Until the phase ends, factions can revise unlocked assignments and you can revise Grey Petrel's task. Existing Standing Commitments remain binding. Council orders and your Warrant are decided in the council phase. Avoiding a vision's condition averts its result; it does not make the vision false.
 
@@ -92,15 +92,15 @@ Imperial Warrant
 
 The Warrant draws on the Ascendant's authority over the army to use Vigil independently of the council's other operation.
 
-Requirement: Military authority is Interim or Imperial command, opening Readiness is at least 3, and Vigil is offered to Council.
+Requirement: Military authority is Interim or Imperial command and Vigil is offered to Council. A weakened army may be unable to carry out the Warrant; the facilitator resolves this from the current situation.
 
 Timing: record the final Warrant before the council bell.
 
-Effect: use Vigil first; Stability +1 and guarded status. Security may use offered Spear for a separate order.
+Purpose: use Vigil to protect traffic and service installations under imperial authority. An effective Warrant takes precedence over the council’s use of Vigil. Security may still use offered Spear for another operation.
 
-Under Interim or Imperial command, a Warrant without sufficient Readiness or offered Vigil fails and costs Stability 1. Under Military autonomy or Joint authorisation, it is advice only, with no effect or penalty. A missing or unconfirmed Warrant means No.
+Under Interim or Imperial command, an unsupported Warrant can fail and disrupt the system. Under Military autonomy or Joint authorisation it is advice only. A missing or unconfirmed Warrant means No.
 
-If a valid Warrant uses Vigil, a simultaneous Guard lacks its asset and pays the normal failure cost.
+Vigil cannot serve both a Warrant and Guard. Plan which authority will use the garrison.
 
 Grey Petrel
 
@@ -108,8 +108,8 @@ Grey Petrel is a contracted cutter with a licensed Guild pilot and a protection 
 
 Before the faction bell, lodge Relief lift, Tender cover or Keep. The task locks before councils. If its condition does not occur, retain the reserve token.
 
-Relief lift triggers when the final authorised Navigation order is Relief and Wayfarer was not offered. Grey Petrel supplies the ship requirement and spends the token immediately, even if low Beacon later halts the voyage. Wayfarer may still make a private Trade voyage.
+Relief lift holds Grey Petrel ready to supply the Navigation council’s Relief voyage if Wayfarer is not offered. It cannot provide military transport. Calling on its contracted service uses the reserve even if the voyage later cannot depart; Wayfarer may still pursue Trade independently.
 
-Tender cover triggers in round one when Shared is delivered unguarded and the printed crew-loss consequence occurs. Prevent that loss of Lantern's team and spend the token. This gives no general protection or track bonus and has no round-two trigger.
+Tender cover holds Grey Petrel ready to protect Lantern’s navigation team during the first month’s Shared passage. It is a specific rescue service, not general convoy protection. If called upon, it uses the reserve. The service has no second-month use.
 
 Keep retains the token without intervening. A missing task also means Keep. Unspent reserve gives no settlement weight.

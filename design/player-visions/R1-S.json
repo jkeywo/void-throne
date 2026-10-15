@@ -1,0 +1,19 @@
+{
+  "id": "R1-S",
+  "title": "The merchant’s wake",
+  "branches": [
+    {
+      "condition": "Wayfarer's private Trade voyage completes and Spear makes a Raid",
+      "consequence": "The Raid finds the Sorenne patrol. A force able to sustain combat fights and strengthens its conditioning, at a further cost to civilian life. A force too weakened to fight is disabled instead."
+    },
+    {
+      "condition": "No private Trade voyage completes and Spear makes a Raid",
+      "consequence": "The patrol is not found. The expedition disrupts civilian traffic without sustaining the cohort through combat. Council cargo does not substitute for a commercial voyage."
+    },
+    {
+      "condition": "No Raid takes place",
+      "consequence": "These Raid consequences do not occur. Campaign and other orders have their own consequences."
+    }
+  ],
+  "guidance": "Agreeing to Trade is not enough: the voyage must complete. Consider whether to offer Spear to the council, raid independently or avoid the expedition while those choices remain open."
+}

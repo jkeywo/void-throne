@@ -9,6 +9,7 @@ from pathlib import Path
 import html
 import json
 import secrets
+from .presentation import player_vision, public_resolution
 from .session import Session, ROLES, ASSETS, NAV, SEC, ARTICLES, choice, boolean, ROOT
 
 CHANNELS = {'table': ROLES, 'guild': ('GN','GS'), 'army': ('JN','JS'),
@@ -96,9 +97,11 @@ class Multiplayer:
                        connected=r in self.live.values(),submitted=r in self.sheets,due=r in self.required()) for r in ROLES}
 
     def history(self,role):
-        events=deepcopy(self.game.history)
+        events=[public_resolution(e) if e['event']=='Operational resolution' else deepcopy(e) for e in self.game.history]
         disclosed_rounds={e['round'] for e in events if e['event']=='Final faction sheets' and e.get('disclosed')}
         for event in events:
+            if event['event']=='Foresight purchase' and event.get('private_answer'):
+                event['private_answer']=player_vision(event['private_answer'])
             if event['event']=='Public draft sheets':
                 for key in ('sheets','notes'):
                     event[key]={r:v for r,v in event.get(key,{}).items() if r in self.faction_roles(role)}
@@ -117,8 +120,8 @@ class Multiplayer:
              'drafts','assignments','reserve','disclosed','trial','package','ballots','settlement')}
         public=g.public()
         out.update(role=role,epoch=self.epoch,revision=self.revision,seats=self.status(),
-                   covers=public['covers'],leverage=public['leverage'],history=self.history(role),
-                   selected_vision=deepcopy(g.vision) if role=='A' or g.disclosed else None,
+                   covers=public['covers'],track_descriptions=public['track_descriptions'],leverage=public['leverage'],history=self.history(role),
+                   selected_vision=player_vision(g.vision) if role=='A' or g.disclosed else None,
                    own_sheet=deepcopy(self.sheets.get(role)),channels=self.channels(role),
                    chat=self.visible_chat(role),
                    required=role in self.required())
