@@ -4,7 +4,7 @@
   "native_document": {
     "id": "1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSxaJrW1s",
     "url": "https://docs.google.com/document/d/1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSxaJrW1s/edit?usp=drivesdk",
-    "revision": "AHj4eMTjug0vxlH_HpppxrikqeOd5YzCAOUKMdEU94RUUD0QHIJaxW5aS-x6_QI4nRh-vK3CiqmU5fWvGUUEnczyhHmrNiwoDlmAZ7ohqJM"
+    "revision": "AHj4eMROK1b73IQgQbHDiAiH-PyF1Lj3kNOpaDLiQwab0kH4BSZRDABlKc-IBuskPwjwoA2ClTrSz19o4XeLkXLlmy6CfBVYTItwT3sUUSA"
   },
   "writing_guide": {
     "path": "C:/AnalogueGames/analogue-projects/DSL/guides/writing_good_rulebooks.md",
@@ -248,7 +248,8 @@
     "vision_window": "Versioned v0.4 cards use Lantern civilian transport, all relief vessels and Grey Petrel military transport. Vetoes, loss and commitments can limit useful choices.",
     "council_tables": "Players stay at their own council. GN records Navigation allocations; JS records Security allocations. The Ascendant does not choose Navigation orders from Security.",
     "player_information": "Qualitative assets/orders/visions; all three tracks described at 0–4. Exact operation effects moved to facilitator procedure. Requirements, authority, duties and settlement stay public.",
-    "current_weights": "New games follow the native Guild rule: intact Wayfarer + surviving Lantern + floor(Beacon/2). Legacy replays retain prior weights."
+    "current_weights": "New games follow the native Guild rule: intact Wayfarer + surviving Lantern + floor(Beacon/2). Legacy replays retain prior weights.",
+    "asset_cards": "Card positions and two home faces replace paper faction sheets. Orders require public traits from assets.py. Existing eligibility and outcomes unchanged; named duties and visions retained."
   },
   "limitations": "Editorial and mechanical checks, not a new human or agent playtest. Existing authority sets vetoes before article changes; two rounds do not exercise newly enacted articles’ following-month vetoes. Historical evidence retains its ruleset.",
   "playtrace_dependency_revision": "ae44cc3b7f31d690a6b2b558e9034a9dd0ef63dd",
@@ -256,14 +257,14 @@
   "player_briefs": {
     "path": "docs/player-briefs.html",
     "url": "https://docs.google.com/document/d/1HxKpXPAbOX3vHLTxdJzWZfn60OwDW2cNpAWJxIyJFLE/edit?usp=drivesdk",
-    "revision": "AHj4eMQzsF0XAV6JaUg2xHLT9CPlGqj2GpwII9xkYld8iG44hrkCwF6RW_qBvelfritxhqGa4nn3fEzbkeDOfcp3wSMjLvTrUOfzA_wvhHI"
+    "revision": "AHj4eMTiBrcBBU8GakNua6ppeQ9uLEXde4CPsRusyddhvtEJ0knduC96m6TiMpaT3imJtXHimK7Y2HYGLeNhEwIbYo9vwXLa6J4ETOTxbyM"
   },
   "component_reference": {
     "path": "docs/component-reference.html",
     "id": "1aRnRVi-CWHvBYY5JgJxjOccJO684jLGHQvZN0YIKQi8",
     "title": "The Void Throne — Component Reference",
     "url": "https://docs.google.com/document/d/1aRnRVi-CWHvBYY5JgJxjOccJO684jLGHQvZN0YIKQi8/edit?usp=drivesdk",
-    "revision": "AHj4eMQCRdQi3Kym9BLTU2T9rqi6onBtfK07QksxhCP68qJoJ1lug-O3-Lw1C5UZOdykGJBge-ptg2wWXr4GQQL9UdCqVjeS9GCY6F_8pO0",
+    "revision": "AHj4eMQQ4YzVf4Ex64SEoxI1tWxCVtyHQWbEAdqvdgduGmtbZmttXbZyhUxf66CBsY2HYcCCjiqqCiAyj2g-HJbupYRuqxmmdEtNPfK31L4",
     "verified": true
   }
 }

@@ -96,27 +96,27 @@ After the second round, there will be a ten-minute Ceremony of Settlement to res
 
 You have five minutes to decide your faction's approach with your teammate. Guild and Janissariat players stay at their own faction tables and do not speak or send messages to the other faction during this phase. The Ascendant may visit either faction.
 
-- Your assets are the named ships or military units your faction controls.
+- Your assets are the ships or military units your faction controls. Each has a card showing its owner, council and traits. Traits describe what the asset can do; orders require traits rather than a particular named asset.
 
-- An assignment is the job you give an asset for the round.
+- Keep an asset at your faction table for its home action, or take its card to the council printed on it. An asset at a council is offered for service there; its home action does not happen that round.
 
-Agree one assignment for each asset, using the options printed on it.
+Agree the placement of your cards with your teammate. Spear and Grey Petrel have two different home faces: turn the card to show the home action you want. Their traits are the same on both faces. At a council, either face makes the asset available for orders.
 
-You may revise your assignments until the end of the phase. Both teammates then confirm the same final assignments and record them on a faction sheet.
+You may move or turn cards until the faction phase ends. Then take the agreed cards to their councils and leave the others at home, with the chosen home action showing. This arrangement records your decisions; there is no faction decision sheet. Cards cannot change tables or turn to a home action during the council phase.
 
-In round two, a Standing Commitment may already fix an asset's assignment: this is a promise agreed and recorded during the previous free discussion. Mark that assignment locked on your sheet.
+In round two, a Standing Commitment may already fix where a card goes or which home action it shows. This is a promise agreed and recorded during the previous free discussion. Put a commitment marker on the card and follow that promise.
 
-If either teammate has not confirmed the assignments by the end of the phase, or they disagree, use the faction's defaults:
+If the teammates cannot agree their card arrangement before the deadline, leave that faction’s cards at home on these default actions. Binding Standing Commitments override defaults:
 
 - Guild: Wayfarer [Fulfil Commercial Contract]; Lantern [Maintain the Narrows].
 
 - Janissariat: Spear [Stand Down]; Vigil [Defend Army Bases].
 
-Lost or disabled assets are [Asset Unavailable].
+Remove lost or disabled cards from play. They cannot supply an order or perform a home action.
 
 ### Council Phase— five minutes
 
-Go to your council and discuss the orders you can carry out using offered assets. Stay at that table throughout the council phase and speak only with its members. Do not visit, call across to or send messages to the other council, including through your faction teammate. The Component Reference explains available orders, their requirements, purpose and risks; the facilitator keeps exact calculations concealed. Make cross-council plans during earlier faction visits or free discussion. Those plans do not bind later decisions.
+Go to your council and discuss the orders you can carry out using the traits of assets brought to the table. Stay at that table throughout the council phase and speak only with its members. Do not visit, call across to or send messages to the other council, including through your faction teammate. The Component Reference explains available orders, their requirements, purpose and risks; the facilitator keeps exact calculations concealed. Make cross-council plans during earlier faction visits or free discussion. Those plans do not bind later decisions.
 
 You may select any combination of orders for which you have the assets and requirements. Each asset and each printed order can be used once per round. Check the public vetoes: a struck-out order cannot be chosen this round. GN records Navigation allocations, including Grey Petrel when offered; JS records Security allocations. The other council members contribute through discussion. Authority does not add a requirement for their approval.
 
@@ -132,7 +132,7 @@ You may attach a Standing Commitment to a proposed article to fix one of your fa
 
 After round two, use this discussion to negotiate the final settlement package. There is no further operation or recovery before the Ceremony, and no next-round veto to issue.
 
-By the end of the phase the facilitator resolves both councils, private assignments and scenario conditions, then announces track changes, asset losses, completed contracts and token expenditure.
+By the end of the phase the facilitator resolves both councils, home actions and scenario conditions, then announces track changes, asset losses, completed contracts and token expenditure.
 
 ## 5. The Ceremony of Settlement
 

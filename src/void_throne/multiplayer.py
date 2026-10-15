@@ -122,7 +122,7 @@ class Multiplayer:
         out={k:deepcopy(getattr(g,k)) for k in ('state','round','stage','foresight','articles','pledges',
              'drafts','assignments','reserve','disclosed','trial','package','ballots','settlement')}
         public=g.public()
-        out.update(role=role,epoch=self.epoch,revision=self.revision,seats=self.status(),
+        out.update(asset_cards=public.get('asset_cards',{}),order_traits=public.get('order_traits',{}),role=role,epoch=self.epoch,revision=self.revision,seats=self.status(),
                    covers=public['covers'],ruleset=public['ruleset'],vetoes=public.get('vetoes',{}),veto_authority=public.get('veto_authority',{}),order_labels=public.get('order_labels',{}),track_descriptions=public['track_descriptions'],leverage=public['leverage'],history=self.history(role),
                    selected_vision=player_vision(g.vision) if role=='A' or g.disclosed else None,
                    own_sheet=deepcopy(self.sheets.get(role)),channels=self.channels(role),

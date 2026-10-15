@@ -2,7 +2,7 @@ The Ductus Guild
 
 Two players · shared assets and objectives. Your Navigation delegate is GN; your Security delegate is GS.
 
-Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Both players then confirm the same assignments aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision.
+Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Agree which asset cards to take to their printed council and which to leave at home. Turn a two-sided card to show its chosen home action. The card arrangement records the decision; you need no faction sheet. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision.
 
 You operate the passage service through the Narrow. Wayfarer is your freight vessel; Lantern carries your navigation team and maintains the route. Those ships are needed for civilian supplies, military transport and your own commercial obligations.
 
@@ -24,7 +24,7 @@ The Janissariat
 
 Two players · shared assets and objectives. Your Navigation delegate is JN; your Security delegate is JS.
 
-Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Both players then confirm the same assignments aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision.
+Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Agree which asset cards to take to their printed council and which to leave at home. Turn a two-sided card to show its chosen home action. The card arrangement records the decision; you need no faction sheet. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision.
 
 You command Spear, the 9th Pale Cohort, and Vigil, the Narrow garrison. Spear has local assault craft, but needs Guild transport to campaign beyond the crossing. Vigil can protect traffic or remain at its institutional bases.
 
@@ -64,7 +64,7 @@ You gain no special success from keeping imperial command. Use the provisional g
 
 Your powers
 
-Use your worksheet to record foresight and your asset assignment during the faction phase, a permitted Warrant during councils, and any next-round veto during the Free Phase. The Component Reference describes authority under each article and the Grey Petrel asset. No operational signatures are needed.
+Choose foresight before your visits, then place Grey Petrel at home or offer its card to Navigation before the faction phase ends. Its two home faces record retention or navigator protection. Use your worksheet only for foresight, a permitted Warrant during councils, and any next-round veto during the Free Phase. The Component Reference describes authority and the cutter. No operational signatures are needed.
 
 Foresight
 
@@ -88,11 +88,11 @@ Imperial Warrant
 
 The Warrant draws on the Ascendant's authority over the army to use Vigil independently of the council's other operation.
 
-Requirement: Military authority is Interim or Imperial command, Vigil is offered for council service, and Protect the Passage has not been vetoed this round. A weakened army may be unable to carry out the Warrant; the facilitator resolves this from the current situation.
+Requirement: Military authority is Interim or Imperial command, an asset with Passage Defence is offered to Security, and Protect the Passage has not been vetoed this round. A weakened army may be unable to carry out the Warrant; the facilitator resolves this from the current situation.
 
 Timing: record the final Warrant before the council bell.
 
-Purpose: use Vigil to protect traffic and service installations under imperial authority. An effective Warrant takes precedence over the council’s use of Vigil. Security may still use offered Spear for another operation.
+Purpose: use the offered Passage Defence asset to protect traffic and service installations under imperial authority. An effective Warrant takes precedence over the council’s use of Vigil. Security may still use offered Spear for another operation.
 
 Under Interim or Imperial command, an unsupported Warrant can fail and disrupt the system. Under Military autonomy or Joint authorisation it is advice only. A missing or unconfirmed Warrant means No.
 

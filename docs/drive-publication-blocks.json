@@ -200,27 +200,27 @@
       ],
       [
         "BULLET",
-        "Your assets are the named ships or military units your faction controls."
+        "Your assets are the ships or military units your faction controls. Each has a card showing its owner, council and traits. Traits describe what the asset can do; orders require traits rather than a particular named asset."
       ],
       [
         "BULLET",
-        "An assignment is the job you give an asset for the round."
+        "Keep an asset at your faction table for its home action, or take its card to the council printed on it. An asset at a council is offered for service there; its home action does not happen that round."
       ],
       [
         "NORMAL_TEXT",
-        "Agree one assignment for each asset, using the options printed on it."
+        "Agree the placement of your cards with your teammate. Spear and Grey Petrel have two different home faces: turn the card to show the home action you want. Their traits are the same on both faces. At a council, either face makes the asset available for orders."
       ],
       [
         "NORMAL_TEXT",
-        "You may revise your assignments until the end of the phase. Both teammates then confirm the same final assignments and record them on a faction sheet."
+        "You may move or turn cards until the faction phase ends. Then take the agreed cards to their councils and leave the others at home, with the chosen home action showing. This arrangement records your decisions; there is no faction decision sheet. Cards cannot change tables or turn to a home action during the council phase."
       ],
       [
         "NORMAL_TEXT",
-        "In round two, a Standing Commitment may already fix an asset's assignment: this is a promise agreed and recorded during the previous free discussion. Mark that assignment locked on your sheet."
+        "In round two, a Standing Commitment may already fix where a card goes or which home action it shows. This is a promise agreed and recorded during the previous free discussion. Put a commitment marker on the card and follow that promise."
       ],
       [
         "NORMAL_TEXT",
-        "If either teammate has not confirmed the assignments by the end of the phase, or they disagree, use the faction's defaults:"
+        "If the teammates cannot agree their card arrangement before the deadline, leave that faction’s cards at home on these default actions. Binding Standing Commitments override defaults:"
       ],
       [
         "BULLET",
@@ -232,7 +232,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Lost or disabled assets are [Asset Unavailable]."
+        "Remove lost or disabled cards from play. They cannot supply an order or perform a home action."
       ],
       [
         "HEADING_2",
@@ -240,7 +240,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Go to your council and discuss the orders you can carry out using offered assets. Stay at that table throughout the council phase and speak only with its members. Do not visit, call across to or send messages to the other council, including through your faction teammate. The Component Reference explains available orders, their requirements, purpose and risks; the facilitator keeps exact calculations concealed. Make cross-council plans during earlier faction visits or free discussion. Those plans do not bind later decisions."
+        "Go to your council and discuss the orders you can carry out using the traits of assets brought to the table. Stay at that table throughout the council phase and speak only with its members. Do not visit, call across to or send messages to the other council, including through your faction teammate. The Component Reference explains available orders, their requirements, purpose and risks; the facilitator keeps exact calculations concealed. Make cross-council plans during earlier faction visits or free discussion. Those plans do not bind later decisions."
       ],
       [
         "NORMAL_TEXT",
@@ -272,7 +272,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "By the end of the phase the facilitator resolves both councils, private assignments and scenario conditions, then announces track changes, asset losses, completed contracts and token expenditure."
+        "By the end of the phase the facilitator resolves both councils, home actions and scenario conditions, then announces track changes, asset losses, completed contracts and token expenditure."
       ],
       [
         "HEADING_1",
@@ -389,7 +389,7 @@
       ],
       [
         "BULLET",
-        "Two council reference sheets and five asset cards: Wayfarer, Lantern, Spear, Vigil and Grey Petrel."
+        "Two council reference sheets and five asset cards: Wayfarer, Lantern, Spear, Vigil and Grey Petrel. Print Spear and Grey Petrel with their two home actions on opposite faces; repeat owner, council and traits on both. The other three have one home action. The printable card file supplies fold-and-glue pairs, so no duplex alignment is required."
       ],
       [
         "BULLET",
@@ -405,7 +405,7 @@
       ],
       [
         "BULLET",
-        "Four faction sheets and four council sheets: one for each faction and council in each round."
+        "Four council sheets: one for each council in each round. No faction decision sheets are needed. Add commitment markers for cards whose placement is fixed in round two."
       ],
       [
         "BULLET",
@@ -445,11 +445,11 @@
       ],
       [
         "HEADING_2",
-        "Prepare the decision sheets"
+        "Prepare cards and council records"
       ],
       [
         "NORMAL_TEXT",
-        "The faction sheet records the round and one agreed assignment for each asset. Both teammates confirm their choices aloud; no signatures are needed. Representatives take their faction's approach to the councils themselves, without written instructions or requests."
+        "Asset placement records the faction decision. Cards left at home perform the home action showing; cards taken to their printed council are offered there. Spear has Stand Down / Intercept a Patrol faces; Grey Petrel has Retain the Cutter / Protect the Navigators. The default face is Stand Down or Retain the Cutter. Repeat traits on both faces. A home face has no effect at a council. Representatives take their plans to the councils themselves, without written instructions or requests."
       ],
       [
         "NORMAL_TEXT",
@@ -489,7 +489,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "At the faction bell, confirm matching faction assignments or apply defaults and then Standing Commitments. Mark unavailable assets absent and record Grey Petrel's assignment. At the council bell, check selected orders against current vetoes and single-use assets; collect both programmes and the Warrant before revealing either. Keep GN and JN at Navigation and GS, JS and A at Security. Resolve the mechanical result during the Free Phase, then collect next-round vetoes under the existing articles before enacting new articles. The five-minute phase does not restart for these recording steps."
+        "At the faction bell, check the agreed card arrangements. If a faction cannot agree, put its cards at home on default actions, then apply Standing Commitments. Remove unavailable cards. Note Grey Petrel’s location and face. Cards stay at those tables throughout councils. At the council bell, check orders against traits, vetoes and single-use assets; collect both programmes and the Warrant before revealing either. Keep GN and JN at Navigation and GS, JS and A at Security. Resolve during the Free Phase, then collect next-round vetoes under the existing articles before enacting replacements. The five-minute phase does not restart for recording steps."
       ],
       [
         "NORMAL_TEXT",
@@ -509,7 +509,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Record opening Beacon, Stability and Readiness, available assets, completed contracts, reserve and foresight, articles, vetoes and Standing Commitments. Copy faction assignments, each selected council order with its asset, and the Warrant. Start Stability change at −1 for monthly consumption. Keep separate entries for prepared Beacon, transport wear, private commercial wear, protection, delivered relief, delivered troops and qualifying combat."
+        "Record opening Beacon, Stability and Readiness, available assets, completed contracts, reserve and foresight, articles, vetoes and Standing Commitments. Read assignments from card locations and home faces; record them in your private resolution log, along with each selected council order with its asset, and the Warrant. Start Stability change at −1 for monthly consumption. Keep separate entries for prepared Beacon, transport wear, private commercial wear, protection, delivered relief, delivered troops and qualifying combat."
       ],
       [
         "HEADING_2",
@@ -517,7 +517,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Each faction confirms matching assignments. Missing agreement uses defaults: Wayfarer Fulfil Commercial Contract, Lantern Maintain the Narrows, Spear Stand Down, Vigil Defend Army Bases. A Standing Commitment overrides a conflicting choice or default. Lost assets are unavailable. The Ascendant assigns Grey Petrel Offer Council Service, Protect the Navigators or Retain the Cutter; missing choice means retention."
+        "Read the cards rather than collecting faction sheets. Defaults at home are Wayfarer Fulfil Commercial Contract, Lantern Maintain the Narrows, Spear Stand Down and Vigil Defend Army Bases. Grey Petrel defaults to Retain the Cutter. A Standing Commitment overrides a conflicting placement or default. Lost or spent cards are unavailable. At a council, ignore the home face. An unused council card neither acts at home nor moves back before resolution. Record who offered cards before returning them, so Joint contributor rights remain auditable."
       ],
       [
         "NORMAL_TEXT",
@@ -545,7 +545,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Deliver Relief needs one offered Wayfarer, Lantern or Grey Petrel. Transport Troops needs one offered Wayfarer or Grey Petrel. Repair the Narrows needs offered Lantern. Allocate different ships to simultaneous orders. There is no Shared order and no automatic substitute ship."
+        "Check traits, not an order-specific list of asset names: Deliver Relief needs Civilian Transport; Transport Troops needs Troop Transport; Repair the Narrows needs Route Engineering; Attack the Anchorage needs Assault and delivered troop transport; Intercept a Patrol needs Patrol Craft; Protect the Passage needs Passage Defence. The Warrant also consumes an offered Passage Defence asset. Allocate a different card to each order. Traits grant eligibility, not extra uses or automatic success. Named Charter duties, contracts and prophecy conditions still concern the specified asset. Do not substitute another card for those obligations."
       ],
       [
         "NORMAL_TEXT",
@@ -1249,7 +1249,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Both players then confirm the same assignments aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision."
+        "Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Agree which asset cards to take to their printed council and which to leave at home. Turn a two-sided card to show its chosen home action. The card arrangement records the decision; you need no faction sheet. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision."
       ],
       [
         "NORMAL_TEXT",
@@ -1293,7 +1293,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Both players then confirm the same assignments aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision."
+        "Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Agree which asset cards to take to their printed council and which to leave at home. Turn a two-sided card to show its chosen home action. The card arrangement records the decision; you need no faction sheet. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision."
       ],
       [
         "NORMAL_TEXT",
@@ -1373,7 +1373,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Use your worksheet to record foresight and your asset assignment during the faction phase, a permitted Warrant during councils, and any next-round veto during the Free Phase. The Component Reference describes authority under each article and the Grey Petrel asset. No operational signatures are needed."
+        "Choose foresight before your visits, then place Grey Petrel at home or offer its card to Navigation before the faction phase ends. Its two home faces record retention or navigator protection. Use your worksheet only for foresight, a permitted Warrant during councils, and any next-round veto during the Free Phase. The Component Reference describes authority and the cutter. No operational signatures are needed."
       ],
       [
         "HEADING_3",
@@ -1421,7 +1421,7 @@
       ],
       [
         "BULLET",
-        "Requirement: Military authority is Interim or Imperial command, Vigil is offered for council service, and Protect the Passage has not been vetoed this round. A weakened army may be unable to carry out the Warrant; the facilitator resolves this from the current situation."
+        "Requirement: Military authority is Interim or Imperial command, an asset with Passage Defence is offered to Security, and Protect the Passage has not been vetoed this round. A weakened army may be unable to carry out the Warrant; the facilitator resolves this from the current situation."
       ],
       [
         "BULLET",
@@ -1429,7 +1429,7 @@
       ],
       [
         "BULLET",
-        "Purpose: use Vigil to protect traffic and service installations under imperial authority. An effective Warrant takes precedence over the council’s use of Vigil. Security may still use offered Spear for another operation."
+        "Purpose: use the offered Passage Defence asset to protect traffic and service installations under imperial authority. An effective Warrant takes precedence over the council’s use of Vigil. Security may still use offered Spear for another operation."
       ],
       [
         "NORMAL_TEXT",
@@ -1570,7 +1570,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Assign Wayfarer to Offer Council Service or Fulfil Commercial Contract."
+        "Traits: Civilian Transport; Troop Transport. Council: Navigation and Supply. Home action: Fulfil Commercial Contract. Leave the card at home for that voyage, or take it to Navigation for council service."
       ],
       [
         "NORMAL_TEXT",
@@ -1590,7 +1590,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Assign Lantern to Offer Council Service or Maintain the Narrows."
+        "Traits: Civilian Transport; Route Engineering. Council: Navigation and Supply. Home action: Maintain the Narrows. Leave the card at home for routine upkeep, or take it to Navigation for council service."
       ],
       [
         "NORMAL_TEXT",
@@ -1610,7 +1610,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Assign Spear to Offer Council Service, Intercept a Patrol or Stand Down."
+        "Traits: Assault; Patrol Craft. Council: Security and Government. Two home faces: Stand Down (default) / Intercept a Patrol. Leave the chosen face showing at home, or take the card to Security. Both faces show the same traits; neither home action happens while the card is at a council."
       ],
       [
         "NORMAL_TEXT",
@@ -1630,7 +1630,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Assign Vigil to Offer Council Service or Defend Army Bases."
+        "Trait: Passage Defence. Council: Security and Government. Home action: Defend Army Bases. Leave the card at home to defend the bases, or take it to Security for council service."
       ],
       [
         "NORMAL_TEXT",
@@ -1646,7 +1646,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Grey Petrel has a licensed Guild pilot and a protection detail. The Ascendant controls one contracted service for the whole prototype, represented by the reserve token. Assign the cutter during the faction phase, before the council bell: Offer Council Service, Protect the Navigators or Retain the Cutter. The assignment locks with the other assets."
+        "Traits: Civilian Transport; Troop Transport. Council: Navigation and Supply. Two home faces: Retain the Cutter (default) / Protect the Navigators. Both faces show the same traits. Grey Petrel has a licensed Guild pilot and a protection detail, but not the Passage Defence trait: its specific rescue is not general route protection. The Ascendant controls one contracted service for the prototype, represented by the reserve token. Leave the chosen face showing at the Ascendant’s place, or give the card to Navigation before the faction bell. Council service replaces either home action."
       ],
       [
         "NORMAL_TEXT",
@@ -1666,7 +1666,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Offer Council Service makes an asset available for the round; it does not transfer ownership. Each asset can perform one task, and each printed order can be selected once in a round. A surviving faction asset returns for its next assignment. Grey Petrel is limited by its one-service contract."
+        "The card’s location records its assignment. At its printed council it is available for orders matching its traits; at home it performs the action showing. No faction sheet is needed. Do not move a card between councils or send it home during councils. Each asset performs one task, and each printed order can be selected once per round. An unused council card does no home action. A surviving faction asset returns home after resolution; Grey Petrel is limited by its one-service contract."
       ],
       [
         "NORMAL_TEXT",
@@ -1686,7 +1686,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Requirement: one offered Wayfarer, Lantern or Grey Petrel. Name the vessel on this order."
+        "Requirement: one offered asset with Civilian Transport. Place its card beside this order."
       ],
       [
         "NORMAL_TEXT",
@@ -1698,11 +1698,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "Requirement: one offered Wayfarer or Grey Petrel. Name the vessel on this order."
+        "Requirement: one offered asset with Troop Transport. Place its card beside this order."
       ],
       [
         "NORMAL_TEXT",
-        "Move the army through the Narrow. Security must also allocate Spear to Attack the Anchorage for that attack to take place. Transporting the troops does not itself count as combat or provide civilian relief."
+        "Move the army through the Narrow. Security must also allocate an Assault asset to Attack the Anchorage for that attack to take place. Transporting the troops does not itself count as combat or provide civilian relief."
       ],
       [
         "HEADING_2",
@@ -1710,7 +1710,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Requirement: offered Lantern, unused by another task."
+        "Requirement: one offered asset with Route Engineering, unused by another task."
       ],
       [
         "NORMAL_TEXT",
@@ -1742,7 +1742,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Requirement: offered Spear and delivered Transport Troops from Navigation."
+        "Requirement: one offered asset with Assault, and delivered Transport Troops from Navigation."
       ],
       [
         "NORMAL_TEXT",
@@ -1754,11 +1754,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "Requirement: offered Spear, or Spear independently assigned to this task by the Janissariat."
+        "Requirement: one asset with Patrol Craft. Use an offered card at Security, or a card whose printed home face permits this operation independently."
       ],
       [
         "NORMAL_TEXT",
-        "Use Spear's local craft to seek a Sorenne Flag patrol. The expedition may find no enemy, yet still disrupt civilian traffic. Finding an enemy provides combat for a capable force but risks destroying a weakened cohort. A standing veto bars both the council and independent versions of this order."
+        "Use the force’s patrol craft to seek a Sorenne Flag patrol. The expedition may find no enemy, yet still disrupt civilian traffic. Finding an enemy provides combat for a capable force but risks destroying a weakened cohort. A standing veto bars both the council and independent versions of this order."
       ],
       [
         "HEADING_2",
@@ -1766,7 +1766,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Requirement: offered Vigil, unused by an effective Warrant."
+        "Requirement: one offered asset with Passage Defence, unused by an effective Warrant."
       ],
       [
         "NORMAL_TEXT",
@@ -1778,7 +1778,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Choose Attack the Anchorage or Intercept a Patrol for Spear, and optionally Protect the Passage for Vigil. Leaving orders blank means no council operation; it does not cancel a legal independent assignment. Do not use Vigil again if the Warrant takes it. Resolve unclear asset allocations before the deadline; unused assets provide no automatic operation."
+        "Match an offered card’s traits to each selected order. An Assault asset can Attack the Anchorage if troop transport arrives; Patrol Craft can Intercept a Patrol; Passage Defence can Protect the Passage. Use each card once. Leaving orders blank does not cancel a legal home action. Do not reuse an asset taken by an effective Warrant. Resolve unclear allocations before the deadline; unused council cards provide no automatic operation or home action."
       ],
       [
         "HEADING_1",
@@ -1906,7 +1906,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "The promise fixes an assignment, not its eventual order. An asset may be left unused if no legal operation remains. Grey Petrel's assignment is made by the Ascendant each faction phase; it is not an additional faction Standing Commitment."
+        "Mark a promised placement or home action on the card with a commitment marker. The promise fixes that assignment, not its eventual order. An asset may be left unused if no legal operation remains. Grey Petrel's assignment is made by the Ascendant each faction phase; it is not an additional faction Standing Commitment."
       ]
     ]
   }

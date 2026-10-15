@@ -6,6 +6,7 @@ from .session import Session as LegacySession, ROOT, notes, choice, boolean
 from .operations import State
 from .orders_v04 import NAV, SEC, AUTH, LABELS, orders, resolve, veto_rights
 from .settlement import leverage, ballot
+from .assets import ASSET_CARDS, ORDER_TRAITS
 
 RULESET='vt:rules:asset-orders-v0.4'
 
@@ -73,7 +74,7 @@ class Session(LegacySession):
                 self.history[-1]['private_answer']=deepcopy(self.vision)
 
     def public(self):
-        out=super().public();out.update(ruleset=RULESET,vetoes=deepcopy(self.vetoes),order_labels=LABELS,
+        out=super().public();out.update(asset_cards=deepcopy(ASSET_CARDS),order_traits=dict(ORDER_TRAITS),ruleset=RULESET,vetoes=deepcopy(self.vetoes),order_labels=LABELS,
             veto_authority=veto_rights(self.articles,self.assignments,self.reserve))
         return out
 

@@ -1,5 +1,6 @@
 """Current paper operations: funded orders, one use per asset, one transport wear."""
 from .operations import State, clamp
+from .assets import ASSET_CARDS, ORDER_TRAITS, supports
 
 NAV = ['Relief', 'Military', 'Repair']
 SEC = ['Campaign', 'Raid', 'Guard']
@@ -31,9 +32,7 @@ def orders(value, domain):
         if not isinstance(row,dict) or set(row)!={'order','asset'}:raise ValueError('Each order must name its asset.')
         order=row['order'];asset=row['asset']
         if order not in allowed or order in seen:raise ValueError('Unknown or repeated order.')
-        required={'Relief':('Wayfarer','Lantern','Grey Petrel'),'Military':('Wayfarer','Grey Petrel'),
-                  'Repair':('Lantern',),'Campaign':('Spear',),'Raid':('Spear',),'Guard':('Vigil',)}[order]
-        if asset not in required:raise ValueError(LABELS[order]+' needs '+ ' or '.join(required)+'.')
+        if not supports(asset,order):raise ValueError(LABELS[order]+' needs an asset with '+ORDER_TRAITS[order]+'.')
         if asset in used:raise ValueError(asset+' can be used only once this round.')
         seen.add(order);used.add(asset);result.append(dict(row))
     return result

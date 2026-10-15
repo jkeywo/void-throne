@@ -21,5 +21,6 @@ jobs:
           python -m unittest discover -s tests -p test_faction_foresight.py -v
           python -m unittest discover -s tests -p test_player_information.py -v
           python -m unittest discover -s tests -p test_orders_v04.py -v
+          python -m unittest discover -s tests -p test_asset_traits.py -v
       - name: Build the online game
         run: python tools/build_pages.py

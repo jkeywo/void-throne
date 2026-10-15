@@ -17,6 +17,7 @@ It requires no technology at the table.
 - **Player briefs:** `docs/player-briefs.html` — faction guidance and the Ascendant’s powers.
 - **Component rules:** `docs/component-reference.html` — assets, tracks, council actions and Charter articles.
   `docs/rulebook-material-map.json` records rule coverage and verification.
+- **Printable cards:** [Asset and order cards](docs/asset-order-cards.html) — five fold-over assets and six trait-based orders. Print single-sided, cut, fold and glue; no faction decision sheets.
 - **Facilitator answers:** `docs/facilitator.html` (spoilers).
 - **Lore and source distinctions:** `docs/lore.html` and `lore/source-inventory.json`.
 - **Original six-agent report:** `reports/six-agent-playtest.html`.
