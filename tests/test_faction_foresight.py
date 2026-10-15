@@ -36,8 +36,41 @@ class FactionForesightTests(unittest.TestCase):
         with self.assertRaises(ValueError):m.add_chat('GN','table','Cross-faction offer')
         with self.assertRaises(ValueError):m.add_chat('JN','visit-guild','Visit other faction')
         m.advance(m.epoch,allow_missing=True)
-        m.add_chat('GN','table','Council phase is open')
+        m.add_chat('GN','navigation','Council phase is open')
+        with self.assertRaises(ValueError):m.add_chat('GN','table','No cross-council messages')
         with self.assertRaises(ValueError):m.add_chat('A','visit-guild','Faction phase is over')
+
+    def test_councils_keep_chats_and_working_decisions_at_their_own_table(self):
+        m=self.table();self.choose(m,'None')
+        for r in ROLES:
+            row={'reserve':'Keep'} if r=='A' else ({'wayfarer':'Council','lantern':'Maintain'} if r.startswith('G') else {'spear':'Council','vigil':'Council'})
+            m.receive(r,dict(type='sheet',id='commit-'+r,epoch=m.epoch,sheet=row))
+        m.advance(m.epoch)
+        for r in ROLES:
+            home='navigation' if r in ('GN','JN') else 'security'
+            m.add_chat(r,home,'Local message from '+r)
+            for elsewhere in ['table','guild','army','visit-guild','visit-army', 'security' if home=='navigation' else 'navigation']:
+                with self.assertRaises(ValueError):m.add_chat(r,elsewhere,'Cross-table message')
+        for r in ('GS','JS','A'):
+            self.assertNotIn('Local message from GN',json.dumps(m.view(r)))
+            self.assertNotIn('Local message from JN',json.dumps(m.view(r)))
+        for r in ('GN','JN'):
+            self.assertNotIn('Local message from A',json.dumps(m.view(r)))
+        for r in ROLES:
+            row={'navigation':'Military','note':'Navigation negotiating position'} if r in ('GN','JN') else {'security':'Restraint','note':'Security negotiating position'}
+            if r=='A':row.update(navigation='Relief',warrant=False)
+            m.receive(r,dict(type='sheet',id='council-'+r,epoch=m.epoch,sheet=row))
+        for r in ('GN','JN'):
+            self.assertEqual(set(m.view(r)['working_sheets']),{'GN','JN'})
+            self.assertNotIn('Security negotiating position',json.dumps(m.view(r)))
+        for r in ('GS','JS','A'):
+            self.assertEqual(set(m.view(r)['working_sheets']),{'GS','JS','A'})
+            self.assertNotIn('Navigation negotiating position',json.dumps(m.view(r)))
+        # Imperial Navigation authority still works without a visit or shared live sheet.
+        m.advance(m.epoch)
+        result=next(e for e in m.game.history if e['event']=='Operational resolution')
+        self.assertEqual(result['detail']['nav'],'Relief')
+        m.add_chat('GN','table','Free discussion is now open')
 
     def test_paid_answer_is_private_and_choice_cannot_be_revised(self):
         m=self.table();self.choose(m,'Navigation')

@@ -1189,7 +1189,7 @@
     "1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSxaJrW1s": {
       "documentId": "1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSxaJrW1s",
       "title": "The Void Throne — Player Rulebook, draft v0.3",
-      "revisionId": "AHj4eMTlnjUzfcL26ZxRNIVnli_4iVJ-PkqTBw6ACR2-5RFsFLR91iA7SzMPPN5fSgRWqDhuroiPw3yAI1xztJ-40uM8LbtRW5hrt-OqK4I",
+      "revisionId": "AHj4eMRh4OP8FNatsHqGDH7IJ1KNtEjRRKHERNU3rwXP5wkLf6gWtKlMyc6n12PJsCmhs8PPtkBp5lqL6LJuZagpzKDvusAmJnLuNX2bpiQ",
       "suggestionsViewMode": "SUGGESTIONS_INLINE",
       "url": null,
       "body": null,
@@ -2506,48 +2506,12 @@
               },
               {
                 "startIndex": 4497,
-                "endIndex": 4553,
+                "endIndex": 4526,
                 "paragraph": {
                   "elements": [
                     {
                       "startIndex": 4497,
-                      "endIndex": 4517,
-                      "textRun": {
-                        "content": "Read your faction's ",
-                        "textStyle": {}
-                      }
-                    },
-                    {
-                      "startIndex": 4517,
-                      "endIndex": 4529,
-                      "textRun": {
-                        "content": "Player Brief",
-                        "textStyle": {}
-                      }
-                    },
-                    {
-                      "startIndex": 4529,
-                      "endIndex": 4553,
-                      "textRun": {
-                        "content": " alongside these rules.\n",
-                        "textStyle": {}
-                      }
-                    }
-                  ],
-                  "paragraphStyle": {
-                    "namedStyleType": "NORMAL_TEXT",
-                    "direction": "LEFT_TO_RIGHT"
-                  }
-                }
-              },
-              {
-                "startIndex": 4553,
-                "endIndex": 4582,
-                "paragraph": {
-                  "elements": [
-                    {
-                      "startIndex": 4553,
-                      "endIndex": 4582,
+                      "endIndex": 4526,
                       "textRun": {
                         "content": "Faction Phase — five minutes\n",
                         "textStyle": {}
@@ -2562,15 +2526,15 @@
                 }
               },
               {
-                "startIndex": 4582,
-                "endIndex": 4927,
+                "startIndex": 4526,
+                "endIndex": 4779,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 4582,
-                      "endIndex": 4927,
+                      "startIndex": 4526,
+                      "endIndex": 4779,
                       "textRun": {
-                        "content": "You have five minutes to decide your faction's approach. Discuss with your teammate from the start and use the time as you see fit. Guild and Janissariat players stay at their own faction tables and do not speak or send messages to the other faction during this phase. The Ascendant may visit either faction after making their foresight choice.\n",
+                        "content": "You have five minutes to decide your faction's approach with your teammate. Guild and Janissariat players stay at their own faction tables and do not speak or send messages to the other faction during this phase. The Ascendant may visit either faction.\n",
                         "textStyle": {}
                       }
                     }
@@ -2582,13 +2546,13 @@
                 }
               },
               {
-                "startIndex": 4927,
-                "endIndex": 5000,
+                "startIndex": 4779,
+                "endIndex": 4852,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 4927,
-                      "endIndex": 5000,
+                      "startIndex": 4779,
+                      "endIndex": 4852,
                       "textRun": {
                         "content": "Your assets are the named ships or military units your faction controls.\n",
                         "textStyle": {}
@@ -2617,15 +2581,15 @@
                 }
               },
               {
-                "startIndex": 5000,
-                "endIndex": 5059,
+                "startIndex": 4852,
+                "endIndex": 4910,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 5000,
-                      "endIndex": 5059,
+                      "startIndex": 4852,
+                      "endIndex": 4910,
                       "textRun": {
-                        "content": "An assignment is the job you give an asset for this round.\n",
+                        "content": "An assignment is the job you give an asset for the round.\n",
                         "textStyle": {}
                       }
                     }
@@ -2652,13 +2616,13 @@
                 }
               },
               {
-                "startIndex": 5059,
-                "endIndex": 5129,
+                "startIndex": 4910,
+                "endIndex": 4980,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 5059,
-                      "endIndex": 5129,
+                      "startIndex": 4910,
+                      "endIndex": 4980,
                       "textRun": {
                         "content": "Agree one assignment for each asset, using the options printed on it.\n",
                         "textStyle": {}
@@ -2672,15 +2636,15 @@
                 }
               },
               {
-                "startIndex": 5129,
-                "endIndex": 5486,
+                "startIndex": 4980,
+                "endIndex": 5131,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 5129,
-                      "endIndex": 5486,
+                      "startIndex": 4980,
+                      "endIndex": 5131,
                       "textRun": {
-                        "content": "The Ascendant first chooses a prophecy or chooses to save their foresight. They make that choice privately, before visiting either faction or hearing its plans for this round. They may then visit either table, discuss proposals and share information. You may revise your unlocked assignments in response. The Ascendant's Player Brief explains their powers.\n",
+                        "content": "You may revise your assignments until the end of the phase. Both teammates then confirm the same final assignments and record them on a faction sheet.\n",
                         "textStyle": {}
                       }
                     }
@@ -2692,15 +2656,15 @@
                 }
               },
               {
-                "startIndex": 5486,
-                "endIndex": 5838,
+                "startIndex": 5131,
+                "endIndex": 5324,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 5486,
-                      "endIndex": 5838,
+                      "startIndex": 5131,
+                      "endIndex": 5324,
                       "textRun": {
-                        "content": "You may revise your assignments until the end of the phase. Both teammates then confirm the same final assignments aloud and record them on one faction sheet. Take your approach to the councils yourselves; you do not need to write instructions to them. The Ascendant completes the faction-phase decisions described in their brief at the same deadline.\n",
+                        "content": "In round two, a Standing Commitment may already fix an asset's assignment: this is a promise agreed and recorded during the previous free discussion. Mark that assignment locked on your sheet.\n",
                         "textStyle": {}
                       }
                     }
@@ -2712,15 +2676,15 @@
                 }
               },
               {
-                "startIndex": 5838,
-                "endIndex": 6067,
+                "startIndex": 5324,
+                "endIndex": 5448,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 5838,
-                      "endIndex": 6067,
+                      "startIndex": 5324,
+                      "endIndex": 5448,
                       "textRun": {
-                        "content": "Assignments now lock for the round. In round two, a Standing Commitment may already fix an asset's assignment: this is a promise agreed and recorded during the previous free discussion. Mark that assignment LOCKED on your sheet.\n",
+                        "content": "If either teammate has not confirmed the assignments by the end of the phase, or they disagree, use the faction's defaults:\n",
                         "textStyle": {}
                       }
                     }
@@ -2732,35 +2696,25 @@
                 }
               },
               {
-                "startIndex": 6067,
-                "endIndex": 6187,
+                "startIndex": 5448,
+                "endIndex": 5493,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 6067,
-                      "endIndex": 6187,
+                      "startIndex": 5448,
+                      "endIndex": 5453,
                       "textRun": {
-                        "content": "If either teammate has not confirmed the assignments by the faction bell, or they disagree, use the faction's defaults:\n",
-                        "textStyle": {}
+                        "content": "Guild",
+                        "textStyle": {
+                          "bold": true
+                        }
                       }
-                    }
-                  ],
-                  "paragraphStyle": {
-                    "namedStyleType": "NORMAL_TEXT",
-                    "direction": "LEFT_TO_RIGHT"
-                  }
-                }
-              },
-              {
-                "startIndex": 6187,
-                "endIndex": 6228,
-                "paragraph": {
-                  "elements": [
+                    },
                     {
-                      "startIndex": 6187,
-                      "endIndex": 6228,
+                      "startIndex": 5453,
+                      "endIndex": 5493,
                       "textRun": {
-                        "content": "Guild: Wayfarer Trade; Lantern Maintain.\n",
+                        "content": ": Wayfarer [Trade]; Lantern [Maintain].\n",
                         "textStyle": {}
                       }
                     }
@@ -2787,15 +2741,25 @@
                 }
               },
               {
-                "startIndex": 6228,
-                "endIndex": 6271,
+                "startIndex": 5493,
+                "endIndex": 5540,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 6228,
-                      "endIndex": 6271,
+                      "startIndex": 5493,
+                      "endIndex": 5504,
                       "textRun": {
-                        "content": "Janissariat: Spear Stand down; Vigil Home.\n",
+                        "content": "Janissariat",
+                        "textStyle": {
+                          "bold": true
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 5504,
+                      "endIndex": 5540,
+                      "textRun": {
+                        "content": ": Spear [Stand down]; Vigil [Home].\n",
                         "textStyle": {}
                       }
                     }
@@ -2822,15 +2786,15 @@
                 }
               },
               {
-                "startIndex": 6271,
-                "endIndex": 6507,
+                "startIndex": 5540,
+                "endIndex": 5578,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 6271,
-                      "endIndex": 6507,
+                      "startIndex": 5540,
+                      "endIndex": 5578,
                       "textRun": {
-                        "content": "A missing or multiple selection for an individual asset uses that asset's default. Lost or disabled assets are Absent. A Standing Commitment overrides a conflicting selection or default; withdrawing agreement later does not release it.\n",
+                        "content": "Lost or disabled assets are [Absent].\n",
                         "textStyle": {}
                       }
                     }
@@ -2842,13 +2806,13 @@
                 }
               },
               {
-                "startIndex": 6507,
-                "endIndex": 6535,
+                "startIndex": 5578,
+                "endIndex": 5606,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 6507,
-                      "endIndex": 6535,
+                      "startIndex": 5578,
+                      "endIndex": 5606,
                       "textRun": {
                         "content": "Council Phase— five minutes\n",
                         "textStyle": {}
@@ -2863,15 +2827,15 @@
                 }
               },
               {
-                "startIndex": 6535,
-                "endIndex": 6788,
+                "startIndex": 5606,
+                "endIndex": 6093,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 6535,
-                      "endIndex": 6788,
+                      "startIndex": 5606,
+                      "endIndex": 6093,
                       "textRun": {
-                        "content": "Go to your council and negotiate its action, called its order, using the assets offered. Your council reference lists the available orders, their requirements and their effects. Coordinate with the other council where one decision depends on the other.\n",
+                        "content": "Go to your council and negotiate its order, using the assets offered by the factions. Stay at that table throughout the council phase and speak only with its members. Do not visit, call across to or send messages to the other council, including through your faction teammate. Your council reference lists the available orders, their requirements and their effects. Make plans that depend on the other council during the faction or free phase; those plans do not bind its later decision.\n",
                         "textStyle": {}
                       }
                     }
@@ -2883,15 +2847,15 @@
                 }
               },
               {
-                "startIndex": 6788,
-                "endIndex": 7103,
+                "startIndex": 6093,
+                "endIndex": 6644,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 6788,
-                      "endIndex": 7103,
+                      "startIndex": 6093,
+                      "endIndex": 6644,
                       "textRun": {
-                        "content": "Check the current article: the constitutional rule saying who has authority to choose the council's order. At the start, the Ascendant chooses both orders and tells each council their decision in person. Later articles may give that authority to a faction's representative or require both representatives to agree.\n",
+                        "content": "Check the current article: the constitutional rule saying who has authority to choose the council's order. At the start, the Ascendant chooses both orders while remaining at Security and Government. At the deadline, they give their Navigation decision to the facilitator, who records it as that council's order. Later articles may give authority to a faction's representative or require both representatives to agree. The facilitator does not carry proposals or replies between councils; both final orders are revealed after they have been collected.\n",
                         "textStyle": {}
                       }
                     }
@@ -2903,15 +2867,15 @@
                 }
               },
               {
-                "startIndex": 7103,
-                "endIndex": 7431,
+                "startIndex": 6644,
+                "endIndex": 6784,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 7103,
-                      "endIndex": 7431,
+                      "startIndex": 6644,
+                      "endIndex": 6784,
                       "textRun": {
-                        "content": "At the council bell, the players whose approval is required confirm the final order aloud. One council member records it for the facilitator. No initials or signatures are needed. Earlier proposals and informal promises do not replace this final decision. The Ascendant also completes the council-phase decision in their brief.\n",
+                        "content": "At the end of the phase, the players whose approval is required confirm the final order. One council member records it for the facilitator.\n",
                         "textStyle": {}
                       }
                     }
@@ -2923,33 +2887,13 @@
                 }
               },
               {
-                "startIndex": 7431,
-                "endIndex": 7673,
+                "startIndex": 6784,
+                "endIndex": 6809,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 7431,
-                      "endIndex": 7673,
-                      "textRun": {
-                        "content": "The facilitator resolves both councils, private assignments and scenario conditions, then announces track changes, asset losses, completed contracts and token expenditure. Neither council can change its order after seeing the other's result.\n",
-                        "textStyle": {}
-                      }
-                    }
-                  ],
-                  "paragraphStyle": {
-                    "namedStyleType": "NORMAL_TEXT",
-                    "direction": "LEFT_TO_RIGHT"
-                  }
-                }
-              },
-              {
-                "startIndex": 7673,
-                "endIndex": 7698,
-                "paragraph": {
-                  "elements": [
-                    {
-                      "startIndex": 7673,
-                      "endIndex": 7698,
+                      "startIndex": 6784,
+                      "endIndex": 6809,
                       "textRun": {
                         "content": "Free Phase— five minutes\n",
                         "textStyle": {}
@@ -2964,45 +2908,15 @@
                 }
               },
               {
-                "startIndex": 7698,
-                "endIndex": 8124,
+                "startIndex": 6809,
+                "endIndex": 7213,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 7698,
-                      "endIndex": 7811,
+                      "startIndex": 6809,
+                      "endIndex": 7213,
                       "textRun": {
-                        "content": "After round one, discuss what happened and what government you would like to try. Use the Charter options in the ",
-                        "textStyle": {}
-                      }
-                    },
-                    {
-                      "startIndex": 7811,
-                      "endIndex": 7830,
-                      "textRun": {
-                        "content": "Component Reference",
-                        "textStyle": {
-                          "underline": true,
-                          "foregroundColor": {
-                            "color": {
-                              "rgbColor": {
-                                "red": 0.06666667,
-                                "green": 0.33333334,
-                                "blue": 0.8
-                              }
-                            }
-                          },
-                          "link": {
-                            "url": "https://docs.google.com/document/d/1aRnRVi-CWHvBYY5JgJxjOccJO684jLGHQvZN0YIKQi8"
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "startIndex": 7830,
-                      "endIndex": 8124,
-                      "textRun": {
-                        "content": " to propose one Navigation article and one Military article. The two council representatives concerned and the Ascendant must agree an article aloud; the facilitator records the result. The two articles are decided separately. Where no agreement is reached, the existing arrangement continues.\n",
+                        "content": "After round one, discuss what has happened, and what government you would like to try. Use the Charter options to propose one Navigation article and one Military article. The two council representatives concerned and the Ascendant must agree an article aloud; the facilitator records the result. The two articles are decided separately. Where no agreement is reached, the existing arrangement continues.\n",
                         "textStyle": {}
                       }
                     }
@@ -3014,21 +2928,21 @@
                 }
               },
               {
-                "startIndex": 8124,
-                "endIndex": 8476,
+                "startIndex": 7213,
+                "endIndex": 7565,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8124,
-                      "endIndex": 8340,
+                      "startIndex": 7213,
+                      "endIndex": 7429,
                       "textRun": {
                         "content": "You may attach a Standing Commitment to a proposed article to fix one of your faction's asset assignments for round two. Both teammates must agree that promise. Record the asset, assignment and article together; the ",
                         "textStyle": {}
                       }
                     },
                     {
-                      "startIndex": 8340,
-                      "endIndex": 8359,
+                      "startIndex": 7429,
+                      "endIndex": 7448,
                       "textRun": {
                         "content": "Component Reference",
                         "textStyle": {
@@ -3049,8 +2963,8 @@
                       }
                     },
                     {
-                      "startIndex": 8359,
-                      "endIndex": 8476,
+                      "startIndex": 7448,
+                      "endIndex": 7565,
                       "textRun": {
                         "content": " gives the permitted commitments and their conditions. Articles and attached commitments that pass govern round two.\n",
                         "textStyle": {}
@@ -3064,13 +2978,13 @@
                 }
               },
               {
-                "startIndex": 8476,
-                "endIndex": 8619,
+                "startIndex": 7565,
+                "endIndex": 7708,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8476,
-                      "endIndex": 8619,
+                      "startIndex": 7565,
+                      "endIndex": 7708,
                       "textRun": {
                         "content": "After round two, use this discussion to negotiate the final settlement package. There is no further operation or recovery before the Ceremony.\n",
                         "textStyle": {}
@@ -3084,13 +2998,53 @@
                 }
               },
               {
-                "startIndex": 8619,
-                "endIndex": 8649,
+                "startIndex": 7708,
+                "endIndex": 7904,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8619,
-                      "endIndex": 8649,
+                      "startIndex": 7708,
+                      "endIndex": 7904,
+                      "textRun": {
+                        "content": "By the end of the phase the facilitator resolves both councils, private assignments and scenario conditions, then announces track changes, asset losses, completed contracts and token expenditure.\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              },
+              {
+                "startIndex": 7904,
+                "endIndex": 7905,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 7904,
+                      "endIndex": 7905,
+                      "textRun": {
+                        "content": "\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              },
+              {
+                "startIndex": 7905,
+                "endIndex": 7935,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 7905,
+                      "endIndex": 7935,
                       "textRun": {
                         "content": "5. The Ceremony of Settlement\n",
                         "textStyle": {}
@@ -3105,13 +3059,13 @@
                 }
               },
               {
-                "startIndex": 8649,
-                "endIndex": 8866,
+                "startIndex": 7935,
+                "endIndex": 8152,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8649,
-                      "endIndex": 8866,
+                      "startIndex": 7935,
+                      "endIndex": 8152,
                       "textRun": {
                         "content": "After round two, freeze each party's weight and begin the ten-minute Ceremony. You are voting on a complete package: one Navigation article and one Military article. They need not be the articles tried provisionally.\n",
                         "textStyle": {}
@@ -3125,13 +3079,13 @@
                 }
               },
               {
-                "startIndex": 8866,
-                "endIndex": 8884,
+                "startIndex": 8152,
+                "endIndex": 8170,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8866,
-                      "endIndex": 8884,
+                      "startIndex": 8152,
+                      "endIndex": 8170,
                       "textRun": {
                         "content": "Signature weights\n",
                         "textStyle": {}
@@ -3146,13 +3100,13 @@
                 }
               },
               {
-                "startIndex": 8884,
-                "endIndex": 8984,
+                "startIndex": 8170,
+                "endIndex": 8270,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8884,
-                      "endIndex": 8890,
+                      "startIndex": 8170,
+                      "endIndex": 8176,
                       "textRun": {
                         "content": "Guild:",
                         "textStyle": {
@@ -3161,8 +3115,8 @@
                       }
                     },
                     {
-                      "startIndex": 8890,
-                      "endIndex": 8984,
+                      "startIndex": 8176,
+                      "endIndex": 8270,
                       "textRun": {
                         "content": " 2 for an intact Wayfarer, 1 for surviving Lantern navigators, and 1 if Beacon is at least 1.\n",
                         "textStyle": {}
@@ -3191,13 +3145,13 @@
                 }
               },
               {
-                "startIndex": 8984,
-                "endIndex": 9014,
+                "startIndex": 8270,
+                "endIndex": 8300,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8984,
-                      "endIndex": 8996,
+                      "startIndex": 8270,
+                      "endIndex": 8282,
                       "textRun": {
                         "content": "Janissariat:",
                         "textStyle": {
@@ -3206,8 +3160,8 @@
                       }
                     },
                     {
-                      "startIndex": 8996,
-                      "endIndex": 9014,
+                      "startIndex": 8282,
+                      "endIndex": 8300,
                       "textRun": {
                         "content": " final Readiness.\n",
                         "textStyle": {}
@@ -3236,13 +3190,13 @@
                 }
               },
               {
-                "startIndex": 9014,
-                "endIndex": 9065,
+                "startIndex": 8300,
+                "endIndex": 8351,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 9014,
-                      "endIndex": 9024,
+                      "startIndex": 8300,
+                      "endIndex": 8310,
                       "textRun": {
                         "content": "Ascendant:",
                         "textStyle": {
@@ -3251,8 +3205,8 @@
                       }
                     },
                     {
-                      "startIndex": 9024,
-                      "endIndex": 9065,
+                      "startIndex": 8310,
+                      "endIndex": 8351,
                       "textRun": {
                         "content": " final Readiness plus unspent foresight.\n",
                         "textStyle": {}
@@ -3281,13 +3235,13 @@
                 }
               },
               {
-                "startIndex": 9065,
-                "endIndex": 9275,
+                "startIndex": 8351,
+                "endIndex": 8561,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 9065,
-                      "endIndex": 9275,
+                      "startIndex": 8351,
+                      "endIndex": 8561,
                       "textRun": {
                         "content": "Readiness sustains both the army's institutional power and the ruler's authority, so losing it weakens both signatures. Contracts and reserve tokens add no weight. Weight cannot be transferred between parties.\n",
                         "textStyle": {}
@@ -3301,13 +3255,13 @@
                 }
               },
               {
-                "startIndex": 9275,
-                "endIndex": 9282,
+                "startIndex": 8561,
+                "endIndex": 8568,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 9275,
-                      "endIndex": 9282,
+                      "startIndex": 8561,
+                      "endIndex": 8568,
                       "textRun": {
                         "content": "Voting\n",
                         "textStyle": {}
@@ -3322,13 +3276,13 @@
                 }
               },
               {
-                "startIndex": 9282,
-                "endIndex": 9673,
+                "startIndex": 8568,
+                "endIndex": 8959,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 9282,
-                      "endIndex": 9673,
+                      "startIndex": 8568,
+                      "endIndex": 8959,
                       "textRun": {
                         "content": "On the final settlement sheet, tick one box beside each player's role: Assent or Do not assent. Both Guild players must assent for the Guild's weight to count; both Janissariat players must assent for the army's weight to count. The Ascendant assents individually. An unticked row or disagreement within a faction gives that party no supporting weight. No handwritten signatures are needed.\n",
                         "textStyle": {}
@@ -3342,13 +3296,13 @@
                 }
               },
               {
-                "startIndex": 9673,
-                "endIndex": 9920,
+                "startIndex": 8959,
+                "endIndex": 9206,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 9673,
-                      "endIndex": 9920,
+                      "startIndex": 8959,
+                      "endIndex": 9206,
                       "textRun": {
                         "content": "Add all available weight, including parties that refuse or abstain. The package needs at least two-thirds of that total, rounded up, and signatures from at least two parties with positive weight. A total weight of zero cannot ratify a settlement.\n",
                         "textStyle": {}
@@ -3362,13 +3316,13 @@
                 }
               },
               {
-                "startIndex": 9920,
-                "endIndex": 10210,
+                "startIndex": 9206,
+                "endIndex": 9496,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 9920,
-                      "endIndex": 10210,
+                      "startIndex": 9206,
+                      "endIndex": 9496,
                       "textRun": {
                         "content": "Example: Guild 4, Janissariat 3 and Ascendant 4 give eleven in total. Two-thirds rounds up to eight. Guild and Ascendant can pass a package with eight; Guild and Janissariat have only seven. If the Guild players split, their faction contributes no support, but its four stays in the total.\n",
                         "textStyle": {
@@ -3384,13 +3338,13 @@
                 }
               },
               {
-                "startIndex": 10210,
-                "endIndex": 10323,
+                "startIndex": 9496,
+                "endIndex": 9609,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 10210,
-                      "endIndex": 10323,
+                      "startIndex": 9496,
+                      "endIndex": 9609,
                       "textRun": {
                         "content": "There is no automatic veto. A package can therefore pass over a party's refusal and impose duties on that party.\n",
                         "textStyle": {}
@@ -3404,13 +3358,13 @@
                 }
               },
               {
-                "startIndex": 10323,
-                "endIndex": 10335,
+                "startIndex": 9609,
+                "endIndex": 9621,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 10323,
-                      "endIndex": 10335,
+                      "startIndex": 9609,
+                      "endIndex": 9621,
                       "textRun": {
                         "content": "Two ballots\n",
                         "textStyle": {}
@@ -3425,13 +3379,13 @@
                 }
               },
               {
-                "startIndex": 10335,
-                "endIndex": 10559,
+                "startIndex": 9621,
+                "endIndex": 9845,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 10335,
-                      "endIndex": 10559,
+                      "startIndex": 9621,
+                      "endIndex": 9845,
                       "textRun": {
                         "content": "If the first package fails, negotiate a replacement before the deadline. Collect fresh votes whenever either article changes; previous approvals do not carry over. You may hold up to two ballots. Stop when a package passes.\n",
                         "textStyle": {}
@@ -3445,13 +3399,13 @@
                 }
               },
               {
-                "startIndex": 10559,
-                "endIndex": 10711,
+                "startIndex": 9845,
+                "endIndex": 9997,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 10559,
-                      "endIndex": 10711,
+                      "startIndex": 9845,
+                      "endIndex": 9997,
                       "textRun": {
                         "content": "If no package passes, both provisional articles expire and both councils return to Interim. Interim is the fallback, not an option on the final ballot.\n",
                         "textStyle": {}
@@ -3465,13 +3419,13 @@
                 }
               },
               {
-                "startIndex": 10711,
-                "endIndex": 10962,
+                "startIndex": 9997,
+                "endIndex": 10248,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 10711,
-                      "endIndex": 10962,
+                      "startIndex": 9997,
+                      "endIndex": 10248,
                       "textRun": {
                         "content": "The physical result remains: lost assets stay lost, tracks stay where they finished and spent foresight does not return. Ratification settles the articles, but the people governing Sorenne's Fall will have to live with what those decisions have done.\n",
                         "textStyle": {}
@@ -3485,13 +3439,13 @@
                 }
               },
               {
-                "startIndex": 10962,
-                "endIndex": 10973,
+                "startIndex": 10248,
+                "endIndex": 10259,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 10962,
-                      "endIndex": 10973,
+                      "startIndex": 10248,
+                      "endIndex": 10259,
                       "textRun": {
                         "content": "6. Debrief\n",
                         "textStyle": {}
@@ -3506,13 +3460,13 @@
                 }
               },
               {
-                "startIndex": 10973,
-                "endIndex": 11192,
+                "startIndex": 10259,
+                "endIndex": 10478,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 10973,
-                      "endIndex": 11192,
+                      "startIndex": 10259,
+                      "endIndex": 10478,
                       "textRun": {
                         "content": "What government did you want at the start, and what did you accept at the end? Name a decision or event that changed your view. What did your faction give up, what did it receive, and what did your teammate contribute?\n",
                         "textStyle": {}
@@ -3526,13 +3480,13 @@
                 }
               },
               {
-                "startIndex": 11192,
-                "endIndex": 11396,
+                "startIndex": 10478,
+                "endIndex": 10682,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 11192,
-                      "endIndex": 11396,
+                      "startIndex": 10478,
+                      "endIndex": 10682,
                       "textRun": {
                         "content": "For the Ascendant, did foresight change a decision, a bargain or only your confidence? One remaining token is inevitable after two purchases. Declining a purchase is the choice that preserves more power.\n",
                         "textStyle": {}
@@ -3546,13 +3500,13 @@
                 }
               },
               {
-                "startIndex": 11396,
-                "endIndex": 11596,
+                "startIndex": 10682,
+                "endIndex": 10882,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 11396,
-                      "endIndex": 11596,
+                      "startIndex": 10682,
+                      "endIndex": 10882,
                       "textRun": {
                         "content": "Design by John Keyworth. Paper prototype v0.3, revised 14 October 2026. Use the current player rulebook and facilitator guide together; earlier packs retain superseded foresight and settlement rules.\n",
                         "textStyle": {}
@@ -3566,13 +3520,13 @@
                 }
               },
               {
-                "startIndex": 11596,
-                "endIndex": 11597,
+                "startIndex": 10882,
+                "endIndex": 10883,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 11596,
-                      "endIndex": 11597,
+                      "startIndex": 10882,
+                      "endIndex": 10883,
                       "textRun": {
                         "content": "\n",
                         "textStyle": {}
@@ -13869,7 +13823,7 @@
     "1402miaVHlXY84ND4YshuEOZqCT07ELe2qtKWgYMcS4M": {
       "documentId": "1402miaVHlXY84ND4YshuEOZqCT07ELe2qtKWgYMcS4M",
       "title": "The Void Throne — Facilitator Guide, draft v0.3",
-      "revisionId": "AHj4eMTgxFZfzgX27wpr0EK3izMzPbvwLLEMEYZ3LBKv57-tL_WZSKMw1aFo0D9Z8U8GLM8km2dIhbbTRVqGVAQ-I1JO-hrmo9l1tR20Bdw",
+      "revisionId": "AHj4eMSlkv5Ub3tTl3w4wdqCKdtZZ2bervPHB-QP5vqynm71ca8kLxUp-s6_brEqrUDBDJVsGcXYP9s_CO5DWRS6Y803IT5Vebca_G7lng4",
       "suggestionsViewMode": "SUGGESTIONS_INLINE",
       "url": null,
       "body": null,
@@ -14460,14 +14414,14 @@
               },
               {
                 "startIndex": 3480,
-                "endIndex": 3779,
+                "endIndex": 4034,
                 "paragraph": {
                   "elements": [
                     {
                       "startIndex": 3480,
-                      "endIndex": 3779,
+                      "endIndex": 4034,
                       "textRun": {
-                        "content": "The council sheet records the round, current article and final order. Check spoken agreement from whoever holds authority under that article; do not collect initials. The Ascendant confirms their decisions in person. Record their foresight choice, reserve task and final Warrant on their worksheet.\n",
+                        "content": "The council sheet records the round, current article and final order. Check spoken agreement from whoever holds authority under that article; do not collect initials. The Ascendant stays at Security and Government. If they hold Navigation authority, collect their final Navigation order there at the council deadline and record it for Navigation. Collect both councils' orders before revealing either. Do not relay proposals, requests or replies between tables. Record the Ascendant's foresight choice, reserve task and final Warrant on their worksheet.\n",
                         "textStyle": {}
                       }
                     }
@@ -14479,13 +14433,13 @@
                 }
               },
               {
-                "startIndex": 3779,
-                "endIndex": 4201,
+                "startIndex": 4034,
+                "endIndex": 4456,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 3779,
-                      "endIndex": 4201,
+                      "startIndex": 4034,
+                      "endIndex": 4456,
                       "textRun": {
                         "content": "The public record shows the three tracks, available assets, completed contracts, remaining tokens, current articles and binding commitments. Faction drafts and current plans stay with their faction; do not announce them before the Ascendant's choice. Publish final assignments when the faction phase ends. The Ascendant learns current plans through visits after choosing, not through a compulsory statement of intentions.\n",
                         "textStyle": {}
@@ -14499,13 +14453,13 @@
                 }
               },
               {
-                "startIndex": 4201,
-                "endIndex": 4215,
+                "startIndex": 4456,
+                "endIndex": 4470,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 4201,
-                      "endIndex": 4215,
+                      "startIndex": 4456,
+                      "endIndex": 4470,
                       "textRun": {
                         "content": "Opening brief\n",
                         "textStyle": {}
@@ -14520,13 +14474,13 @@
                 }
               },
               {
-                "startIndex": 4215,
-                "endIndex": 4350,
+                "startIndex": 4470,
+                "endIndex": 4605,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 4215,
-                      "endIndex": 4350,
+                      "startIndex": 4470,
+                      "endIndex": 4605,
                       "textRun": {
                         "content": "Allow eight minutes for the briefing. Explain the factions, the two councils and the crisis before taking the players through a round.\n",
                         "textStyle": {}
@@ -14540,13 +14494,13 @@
                 }
               },
               {
-                "startIndex": 4350,
-                "endIndex": 4995,
+                "startIndex": 4605,
+                "endIndex": 5250,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 4350,
-                      "endIndex": 4995,
+                      "startIndex": 4605,
+                      "endIndex": 5250,
                       "textRun": {
                         "content": "The crisis concerns Sorenne's Fall, the southern star system of forty million people described in the lore, and the Sorenne Flag, House Sorenne's surviving fleet. Stability measures the system's supplies and functioning services, not its loyalty. The Flag also makes irregular supply deliveries there; military disruption can therefore harm the people the Dominion is trying to govern. For this scenario, their supply route uses the Narrow, Spear seeks passage to a Flag anchorage beyond it, and a Flag patrol supplies the local Raid target. Those deployments are scenario additions. Players remain at the Seam; each round represents one month.\n",
                         "textStyle": {}
@@ -14560,13 +14514,13 @@
                 }
               },
               {
-                "startIndex": 4995,
-                "endIndex": 5009,
+                "startIndex": 5250,
+                "endIndex": 5264,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 4995,
-                      "endIndex": 5009,
+                      "startIndex": 5250,
+                      "endIndex": 5264,
                       "textRun": {
                         "content": "Run the clock\n",
                         "textStyle": {}
@@ -14581,13 +14535,13 @@
                 }
               },
               {
-                "startIndex": 5009,
-                "endIndex": 5382,
+                "startIndex": 5264,
+                "endIndex": 5637,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 5009,
-                      "endIndex": 5382,
+                      "startIndex": 5264,
+                      "endIndex": 5637,
                       "textRun": {
                         "content": "0–8: briefing. 8–13: round-one faction discussion. 13–18: councils and resolution. 18–23: discuss the result and agree provisional articles. 23–28: round-two faction discussion. 28–33: councils and resolution. 33–38: free discussion. 38–48: Ceremony. Use the remaining twelve minutes for the debrief. These five-minute discussion phases follow the current player rulebook.\n",
                         "textStyle": {}
@@ -14601,13 +14555,13 @@
                 }
               },
               {
-                "startIndex": 5382,
-                "endIndex": 5857,
+                "startIndex": 5637,
+                "endIndex": 6112,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 5382,
-                      "endIndex": 5857,
+                      "startIndex": 5637,
+                      "endIndex": 6112,
                       "textRun": {
                         "content": "The faction phase has one five-minute deadline. Guild and Janissariat players talk only to their own teammates and cannot send messages to the other faction. They begin immediately and budget their time themselves. The Ascendant first chooses one prophecy or NONE privately, using the public state and earlier discussions, before visiting either faction or receiving its current plans. Do not call minute-two or minute-three gates or require factions to announce intentions.\n",
                         "textStyle": {}
@@ -14621,13 +14575,13 @@
                 }
               },
               {
-                "startIndex": 5857,
-                "endIndex": 6459,
+                "startIndex": 6112,
+                "endIndex": 6714,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 5857,
-                      "endIndex": 6459,
+                      "startIndex": 6112,
+                      "endIndex": 6714,
                       "textRun": {
                         "content": "Record the Ascendant's choice before allowing visits. Pay before dealing the exact answer; publish expenditure and remaining foresight, not the chosen council. A choice completes that round's opportunity: no swaps or second purchase. NONE also permits visits. Record NONE if no single valid choice arrives before the phase ends. After choosing, the Ascendant may visit either faction, revisit it, relay offers and share the vision. Do not combine the factions into a table discussion. Unlocked assignments and Grey Petrel's task remain revisable until the faction deadline; the clock does not restart.\n",
                         "textStyle": {}
@@ -14641,15 +14595,15 @@
                 }
               },
               {
-                "startIndex": 6459,
-                "endIndex": 6969,
+                "startIndex": 6714,
+                "endIndex": 7581,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 6459,
-                      "endIndex": 6969,
+                      "startIndex": 6714,
+                      "endIndex": 7581,
                       "textRun": {
-                        "content": "At the faction bell, ask both faction members to confirm the same assignments. Record one final faction sheet. If either has not confirmed or they disagree, apply the faction defaults; an activated Standing Commitment still overrides them. Mark unavailable assets Absent and record one reserve task. At the council bell, check the current authority and ask the required decision-makers to confirm the final order; also confirm the Warrant. Resolve the recorded decisions. No signatures or initials are needed.\n",
+                        "content": "At the faction bell, ask both faction members to confirm the same assignments. Record one final faction sheet. If either has not confirmed or they disagree, apply the faction defaults; an activated Standing Commitment still overrides them. Mark unavailable assets Absent and record one reserve task. At the council bell, check the current authority and ask the required decision-makers to confirm the final order; also confirm the Warrant. Resolve the recorded decisions. No signatures or initials are needed. During the council phase, keep GN and JN at Navigation, and GS, JS and A at Security. Players may speak only with their council; no visits, calling across, teammate consultations or messages between councils. Rules questions may come to the facilitator, but do not use that route to coordinate decisions. Cross-council plans must be made in earlier phases.\n",
                         "textStyle": {}
                       }
                     }
@@ -14661,13 +14615,13 @@
                 }
               },
               {
-                "startIndex": 6969,
-                "endIndex": 7375,
+                "startIndex": 7581,
+                "endIndex": 7987,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 6969,
-                      "endIndex": 7375,
+                      "startIndex": 7581,
+                      "endIndex": 7987,
                       "textRun": {
                         "content": "In the browser, record the Ascendant's foresight choice first. Faction chat is available from the start; visits open only after the choice has been recorded. The two factions have separate visit conversations with the Ascendant. Final commitments end the same faction phase. An older saved session may contain draft records; keep those drafts within the faction and do not use them to brief the Ascendant.\n",
                         "textStyle": {}
@@ -14681,13 +14635,13 @@
                 }
               },
               {
-                "startIndex": 7375,
-                "endIndex": 7397,
+                "startIndex": 7987,
+                "endIndex": 8009,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 7375,
-                      "endIndex": 7397,
+                      "startIndex": 7987,
+                      "endIndex": 8009,
                       "textRun": {
                         "content": "Resolve in this order\n",
                         "textStyle": {}
@@ -14702,13 +14656,13 @@
                 }
               },
               {
-                "startIndex": 7397,
-                "endIndex": 7598,
+                "startIndex": 8009,
+                "endIndex": 8210,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 7397,
-                      "endIndex": 7598,
+                      "startIndex": 8009,
+                      "endIndex": 8210,
                       "textRun": {
                         "content": "1. Establish assignments, unavailable assets, current articles and lawfully agreed council orders. Invalid Navigation becomes Hold; invalid Security becomes Restraint. No penalty for invalidity alone.\n",
                         "textStyle": {}
@@ -14722,13 +14676,13 @@
                 }
               },
               {
-                "startIndex": 7598,
-                "endIndex": 7894,
+                "startIndex": 8210,
+                "endIndex": 8506,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 7598,
-                      "endIndex": 7894,
+                      "startIndex": 8210,
+                      "endIndex": 8506,
                       "textRun": {
                         "content": "2. Begin the Stability change at -1 for monthly consumption. Check the Warrant using opening Readiness and offered Vigil. A lawful valid Warrant uses Vigil first, gives +1 Stability and guarded status. An unsupported imperial Warrant gives -1; a Warrant outside imperial authority has no effect.\n",
                         "textStyle": {}
@@ -14742,13 +14696,13 @@
                 }
               },
               {
-                "startIndex": 7894,
-                "endIndex": 8046,
+                "startIndex": 8506,
+                "endIndex": 8658,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 7894,
-                      "endIndex": 8046,
+                      "startIndex": 8506,
+                      "endIndex": 8658,
                       "textRun": {
                         "content": "3. Check Guard: unused offered Vigil gives +1 Stability and guarded status. If missing or already used, change Guard to Restraint and add -1 Stability.\n",
                         "textStyle": {}
@@ -14762,13 +14716,13 @@
                 }
               },
               {
-                "startIndex": 8046,
-                "endIndex": 8323,
+                "startIndex": 8658,
+                "endIndex": 8935,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8046,
-                      "endIndex": 8323,
+                      "startIndex": 8658,
+                      "endIndex": 8935,
                       "textRun": {
                         "content": "4. Fund Navigation. A lodged available Relief lift triggers only for Relief without offered Wayfarer; spend Grey Petrel immediately. Check all other costs. An unfunded order becomes Hold and adds -1 Stability. Prepare Beacon with Maintain +1 and funded Repair +2, capped at 4.\n",
                         "textStyle": {}
@@ -14782,13 +14736,13 @@
                 }
               },
               {
-                "startIndex": 8323,
-                "endIndex": 8548,
+                "startIndex": 8935,
+                "endIndex": 9160,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8323,
-                      "endIndex": 8548,
+                      "startIndex": 8935,
+                      "endIndex": 9160,
                       "textRun": {
                         "content": "5. Resolve the council voyage against prepared Beacon. Below 2, halt it and add -1 Stability; do not wear Beacon. Otherwise apply Relief +2 or Shared +1 Stability (Military 0), record delivered passage and one crossing wear.\n",
                         "textStyle": {}
@@ -14802,13 +14756,13 @@
                 }
               },
               {
-                "startIndex": 8548,
-                "endIndex": 8825,
+                "startIndex": 9160,
+                "endIndex": 9437,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8548,
-                      "endIndex": 8825,
+                      "startIndex": 9160,
+                      "endIndex": 9437,
                       "textRun": {
                         "content": "6. Resolve private Trade against the same prepared Beacon. At 3+, or 2 guarded, complete a contract and add one crossing wear. At 2 unguarded, disable Wayfarer, no contract, one wear. Below 2, halt intact with no wear. A reserve Relief voyage and private Trade can both cross.\n",
                         "textStyle": {}
@@ -14822,13 +14776,13 @@
                 }
               },
               {
-                "startIndex": 8825,
-                "endIndex": 9113,
+                "startIndex": 9437,
+                "endIndex": 9725,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8825,
-                      "endIndex": 9113,
+                      "startIndex": 9437,
+                      "endIndex": 9725,
                       "textRun": {
                         "content": "7. Check each faction’s article duty. NG needs Maintain or funded Repair; NI/NJ need Wayfarer offered; MI/MJ need Spear offered; MA needs Vigil Home; Interim independent Raid breaches army discipline. Add at most one Stability penalty per faction. Loss of an asset does not waive a duty.\n",
                         "textStyle": {}
@@ -14842,13 +14796,13 @@
                 }
               },
               {
-                "startIndex": 9113,
-                "endIndex": 9729,
+                "startIndex": 9725,
+                "endIndex": 10341,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 9113,
-                      "endIndex": 9729,
+                      "startIndex": 9725,
+                      "endIndex": 10341,
                       "textRun": {
                         "content": "8. Resolve Campaign and/or an independent Raid using opening Readiness. A valid council Campaign/Raid without offered Spear adds -1 Stability and no council combat; a separately assigned independent Raid still resolves. Campaign missing delivered Military/Shared passage costs 1 Stability, does not fight and leaves Spear intact. With passage, it costs 1; Readiness 2+ achieves combat, otherwise disable Spear. A Raid costs 1 for disruption; consult its round’s fixed target condition. If target present, Readiness 2+ achieves combat and adds a second Stability cost; below 2 disable Spear without that second loss.\n",
                         "textStyle": {}
@@ -14862,13 +14816,13 @@
                 }
               },
               {
-                "startIndex": 9729,
-                "endIndex": 9954,
+                "startIndex": 10341,
+                "endIndex": 10566,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 9729,
-                      "endIndex": 9954,
+                      "startIndex": 10341,
+                      "endIndex": 10566,
                       "textRun": {
                         "content": "9. Apply the other round-specific hidden conditions printed below, whether purchased or not. Tender cover can prevent only its exact printed crew loss. The council named on a cover is not a substitute for the full condition.\n",
                         "textStyle": {}
@@ -14882,13 +14836,13 @@
                 }
               },
               {
-                "startIndex": 9954,
-                "endIndex": 10325,
+                "startIndex": 10566,
+                "endIndex": 10937,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 9954,
-                      "endIndex": 10325,
+                      "startIndex": 10566,
+                      "endIndex": 10937,
                       "textRun": {
                         "content": "10. Apply one Readiness change: +1 if any qualifying combat occurred, otherwise -1. Final Beacon is prepared Beacon minus actual crossing wear. Add all Stability changes to its opening value. Clamp each final track to 0–4. Mark asset losses, contracts and reserve. Publish consequences and updated signature weights. After round two, expire temporary assignment pledges.\n",
                         "textStyle": {}
@@ -14902,13 +14856,13 @@
                 }
               },
               {
-                "startIndex": 10325,
-                "endIndex": 10365,
+                "startIndex": 10937,
+                "endIndex": 10977,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 10325,
-                      "endIndex": 10365,
+                      "startIndex": 10937,
+                      "endIndex": 10977,
                       "textRun": {
                         "content": "Fixed visions: facilitator-only answers\n",
                         "textStyle": {}
@@ -14923,13 +14877,13 @@
                 }
               },
               {
-                "startIndex": 10365,
-                "endIndex": 11001,
+                "startIndex": 10977,
+                "endIndex": 11613,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 10365,
-                      "endIndex": 11001,
+                      "startIndex": 10977,
+                      "endIndex": 11613,
                       "textRun": {
                         "content": "The following are the fixed private answers. The public covers name the primary council and other affected councils, without these descriptive titles or specific choices. These effects happen whether or not the Ascendant buys the card. All four answers concern choices still open when foresight is purchased: unlocked asset assignments and Grey Petrel's task can change during subsequent visits, and council orders and the Warrant are decided later. Standing Commitments, losses and lack of authority may limit a particular intervention. Do not promise that a purchase will be useful or refund it if the relevant option is unavailable.\n",
                         "textStyle": {}
@@ -14943,13 +14897,13 @@
                 }
               },
               {
-                "startIndex": 11001,
-                "endIndex": 11013,
+                "startIndex": 11613,
+                "endIndex": 11625,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 11001,
-                      "endIndex": 11013,
+                      "startIndex": 11613,
+                      "endIndex": 11625,
                       "textRun": {
                         "content": "Vision R1-N\n",
                         "textStyle": {}
@@ -14964,13 +14918,13 @@
                 }
               },
               {
-                "startIndex": 11013,
-                "endIndex": 11034,
+                "startIndex": 11625,
+                "endIndex": 11646,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 11013,
-                      "endIndex": 11034,
+                      "startIndex": 11625,
+                      "endIndex": 11646,
                       "textRun": {
                         "content": "The exposed transfer\n",
                         "textStyle": {}
@@ -14984,13 +14938,13 @@
                 }
               },
               {
-                "startIndex": 11034,
-                "endIndex": 11271,
+                "startIndex": 11646,
+                "endIndex": 11883,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 11034,
-                      "endIndex": 11271,
+                      "startIndex": 11646,
+                      "endIndex": 11883,
                       "textRun": {
                         "content": "Shared crosses without protection → If funded Shared passage is delivered and there is no funded Guard or valid Warrant, Lantern’s navigation team is lost. A lodged, available Grey Petrel on Tender cover prevents this loss and is spent.\n",
                         "textStyle": {}
@@ -15004,13 +14958,13 @@
                 }
               },
               {
-                "startIndex": 11271,
-                "endIndex": 11412,
+                "startIndex": 11883,
+                "endIndex": 12024,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 11271,
-                      "endIndex": 11412,
+                      "startIndex": 11883,
+                      "endIndex": 12024,
                       "textRun": {
                         "content": "Shared crosses with protection → A funded Guard or valid Warrant prevents this crew loss. Tender cover does not trigger and stays available.\n",
                         "textStyle": {}
@@ -15024,13 +14978,13 @@
                 }
               },
               {
-                "startIndex": 11412,
-                "endIndex": 11529,
+                "startIndex": 12024,
+                "endIndex": 12141,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 11412,
-                      "endIndex": 11529,
+                      "startIndex": 12024,
+                      "endIndex": 12141,
                       "textRun": {
                         "content": "Shared does not cross → This crew-loss effect does not occur. An unfunded or halted order still has its normal cost.\n",
                         "textStyle": {}
@@ -15044,13 +14998,13 @@
                 }
               },
               {
-                "startIndex": 11529,
-                "endIndex": 11771,
+                "startIndex": 12141,
+                "endIndex": 12383,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 11529,
-                      "endIndex": 11771,
+                      "startIndex": 12141,
+                      "endIndex": 12383,
                       "textRun": {
                         "content": "Shared needs both Wayfarer and Lantern on Council. Passage still needs prepared Beacon 2+. Guard needs offered Vigil; a Warrant also needs imperial authority and opening Readiness 3+. Protection does not repair Beacon or avoid crossing wear.\n",
                         "textStyle": {}
@@ -15064,13 +15018,13 @@
                 }
               },
               {
-                "startIndex": 11771,
-                "endIndex": 11783,
+                "startIndex": 12383,
+                "endIndex": 12395,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 11771,
-                      "endIndex": 11783,
+                      "startIndex": 12383,
+                      "endIndex": 12395,
                       "textRun": {
                         "content": "Vision R1-S\n",
                         "textStyle": {}
@@ -15085,13 +15039,13 @@
                 }
               },
               {
-                "startIndex": 11783,
-                "endIndex": 11803,
+                "startIndex": 12395,
+                "endIndex": 12415,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 11783,
-                      "endIndex": 11803,
+                      "startIndex": 12395,
+                      "endIndex": 12415,
                       "textRun": {
                         "content": "The merchant’s wake\n",
                         "textStyle": {}
@@ -15105,13 +15059,13 @@
                 }
               },
               {
-                "startIndex": 11803,
-                "endIndex": 12086,
+                "startIndex": 12415,
+                "endIndex": 12698,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 11803,
-                      "endIndex": 12086,
+                      "startIndex": 12415,
+                      "endIndex": 12698,
                       "textRun": {
                         "content": "Wayfarer completes private Trade → A Raid finds the target. At opening Readiness 2+, it fights: total Raid cost Stability −2 and the round’s combat change is Readiness +1. At Readiness 0–1, Spear is disabled: Raid costs Stability −1 and there is no qualifying combat from that Raid.\n",
                         "textStyle": {}
@@ -15125,13 +15079,13 @@
                 }
               },
               {
-                "startIndex": 12086,
-                "endIndex": 12311,
+                "startIndex": 12698,
+                "endIndex": 12923,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 12086,
-                      "endIndex": 12311,
+                      "startIndex": 12698,
+                      "endIndex": 12923,
                       "textRun": {
                         "content": "No completed private Trade → The Raid finds no target. It costs Stability −1, Spear remains intact, and it provides no qualifying combat. Council Relief, Military or Shared passage does not substitute for a private contract.\n",
                         "textStyle": {}
@@ -15145,13 +15099,13 @@
                 }
               },
               {
-                "startIndex": 12311,
-                "endIndex": 12404,
+                "startIndex": 12923,
+                "endIndex": 13016,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 12311,
-                      "endIndex": 12404,
+                      "startIndex": 12923,
+                      "endIndex": 13016,
                       "textRun": {
                         "content": "No Raid → These Raid effects do not occur. Campaign and other orders follow their own rules.\n",
                         "textStyle": {}
@@ -15165,13 +15119,13 @@
                 }
               },
               {
-                "startIndex": 12404,
-                "endIndex": 12647,
+                "startIndex": 13016,
+                "endIndex": 13259,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 12404,
-                      "endIndex": 12647,
+                      "startIndex": 13016,
+                      "endIndex": 13259,
                       "textRun": {
                         "content": "A Trade assignment is not enough: the voyage must complete under the public Beacon and protection rules. If no operation achieves combat, Readiness falls by 1 once. Duty breaches and monthly consumption are additional; tracks stay within 0–4.\n",
                         "textStyle": {}
@@ -15185,13 +15139,13 @@
                 }
               },
               {
-                "startIndex": 12647,
-                "endIndex": 12659,
+                "startIndex": 13259,
+                "endIndex": 13271,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 12647,
-                      "endIndex": 12659,
+                      "startIndex": 13259,
+                      "endIndex": 13271,
                       "textRun": {
                         "content": "Vision R2-N\n",
                         "textStyle": {}
@@ -15206,13 +15160,13 @@
                 }
               },
               {
-                "startIndex": 12659,
-                "endIndex": 12682,
+                "startIndex": 13271,
+                "endIndex": 13294,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 12659,
-                      "endIndex": 12682,
+                      "startIndex": 13271,
+                      "endIndex": 13294,
                       "textRun": {
                         "content": "Stores at the crossing\n",
                         "textStyle": {}
@@ -15226,13 +15180,13 @@
                 }
               },
               {
-                "startIndex": 12682,
-                "endIndex": 12909,
+                "startIndex": 13294,
+                "endIndex": 13521,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 12682,
-                      "endIndex": 12909,
+                      "startIndex": 13294,
+                      "endIndex": 13521,
                       "textRun": {
                         "content": "Military passage crosses unguarded → Delivered Military passage without funded Guard or valid Warrant causes an extra Stability −1. Protection prevents this extra loss. Grey Petrel’s Tender cover does not protect these stores.\n",
                         "textStyle": {}
@@ -15246,13 +15200,13 @@
                 }
               },
               {
-                "startIndex": 12909,
-                "endIndex": 13137,
+                "startIndex": 13521,
+                "endIndex": 13749,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 12909,
-                      "endIndex": 13137,
+                      "startIndex": 13521,
+                      "endIndex": 13749,
                       "textRun": {
                         "content": "Funded Repair and completed Trade → A funded council Repair together with a completed private Wayfarer Trade gives Stability +1 from distribution. Both must happen. Lantern must be on Council for Repair; Maintain is not Repair.\n",
                         "textStyle": {}
@@ -15266,13 +15220,13 @@
                 }
               },
               {
-                "startIndex": 13137,
-                "endIndex": 13292,
+                "startIndex": 13749,
+                "endIndex": 13904,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 13137,
-                      "endIndex": 13292,
+                      "startIndex": 13749,
+                      "endIndex": 13904,
                       "textRun": {
                         "content": "Neither condition → Neither extra supply effect applies. Relief and Shared receive their normal cargo effects; other cards and ordinary costs still apply.\n",
                         "textStyle": {}
@@ -15286,13 +15240,13 @@
                 }
               },
               {
-                "startIndex": 13292,
-                "endIndex": 13513,
+                "startIndex": 13904,
+                "endIndex": 14125,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 13292,
-                      "endIndex": 13513,
+                      "startIndex": 13904,
+                      "endIndex": 14125,
                       "textRun": {
                         "content": "Repair adds 2 to prepared Beacon, capped at 4, before voyages. Trade must complete. Military needs Wayfarer on Council, so it cannot also make private Trade. These two extra effects cannot both trigger in the same round.\n",
                         "textStyle": {}
@@ -15306,13 +15260,13 @@
                 }
               },
               {
-                "startIndex": 13513,
-                "endIndex": 13525,
+                "startIndex": 14125,
+                "endIndex": 14137,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 13513,
-                      "endIndex": 13525,
+                      "startIndex": 14125,
+                      "endIndex": 14137,
                       "textRun": {
                         "content": "Vision R2-S\n",
                         "textStyle": {}
@@ -15327,13 +15281,13 @@
                 }
               },
               {
-                "startIndex": 13525,
-                "endIndex": 13543,
+                "startIndex": 14137,
+                "endIndex": 14155,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 13525,
-                      "endIndex": 13543,
+                      "startIndex": 14137,
+                      "endIndex": 14155,
                       "textRun": {
                         "content": "The relief column\n",
                         "textStyle": {}
@@ -15347,13 +15301,13 @@
                 }
               },
               {
-                "startIndex": 13543,
-                "endIndex": 13869,
+                "startIndex": 14155,
+                "endIndex": 14481,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 13543,
-                      "endIndex": 13869,
+                      "startIndex": 14155,
+                      "endIndex": 14481,
                       "textRun": {
                         "content": "Relief is delivered → A Raid finds the target if the authorised, funded Navigation order is Relief and its voyage actually crosses. Grey Petrel Relief lift counts. At opening Readiness 2+, Raid costs Stability −2 total and achieves combat; at 0–1, Spear is disabled, Raid costs Stability −1 and provides no qualifying combat.\n",
                         "textStyle": {}
@@ -15367,13 +15321,13 @@
                 }
               },
               {
-                "startIndex": 13869,
-                "endIndex": 14109,
+                "startIndex": 14481,
+                "endIndex": 14721,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 13869,
-                      "endIndex": 14109,
+                      "startIndex": 14481,
+                      "endIndex": 14721,
                       "textRun": {
                         "content": "Relief is not delivered → The Raid finds no target, costs Stability −1, leaves Spear intact and provides no qualifying combat. A proposed, unfunded or halted Relief order does not qualify. Shared, Military and private Trade do not qualify.\n",
                         "textStyle": {}
@@ -15387,13 +15341,13 @@
                 }
               },
               {
-                "startIndex": 14109,
-                "endIndex": 14248,
+                "startIndex": 14721,
+                "endIndex": 14860,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 14109,
-                      "endIndex": 14248,
+                      "startIndex": 14721,
+                      "endIndex": 14860,
                       "textRun": {
                         "content": "No Raid → Relief alone does not cause an attack or a Raid penalty. These effects require an actual Raid assignment or funded council Raid.\n",
                         "textStyle": {}
@@ -15407,13 +15361,13 @@
                 }
               },
               {
-                "startIndex": 14248,
-                "endIndex": 14476,
+                "startIndex": 14860,
+                "endIndex": 15088,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 14248,
-                      "endIndex": 14476,
+                      "startIndex": 14860,
+                      "endIndex": 15088,
                       "textRun": {
                         "content": "Combat changes Readiness by +1 once; no successful combat changes it by −1 once. Ordinary cargo, Guard, duty breaches and consumption still apply. A council Raid needs offered Spear; an independent Raid uses its own assignment.\n",
                         "textStyle": {}
@@ -15427,13 +15381,13 @@
                 }
               },
               {
-                "startIndex": 14476,
-                "endIndex": 14498,
+                "startIndex": 15088,
+                "endIndex": 15110,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 14476,
-                      "endIndex": 14498,
+                      "startIndex": 15088,
+                      "endIndex": 15110,
                       "textRun": {
                         "content": "Trial and final votes\n",
                         "textStyle": {}
@@ -15448,13 +15402,13 @@
                 }
               },
               {
-                "startIndex": 14498,
-                "endIndex": 15009,
+                "startIndex": 15110,
+                "endIndex": 15621,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 14498,
-                      "endIndex": 15009,
+                      "startIndex": 15110,
+                      "endIndex": 15621,
                       "textRun": {
                         "content": "The round-one trial needs spoken agreement from GN+JN+A for Navigation and GS+JS+A for Military. Read back each exact article and its attached terms, independently of the other domain, and record whether it passes. Up to one asset commitment per faction may be attached, with both owners' spoken agreement. Do not quietly detach an unapproved promise to pass its article. No pledge is compulsory. A passed pledge binds only that asset assignment in round two; an informal public plan has no mechanical penalty.\n",
                         "textStyle": {}
@@ -15468,13 +15422,13 @@
                 }
               },
               {
-                "startIndex": 15009,
-                "endIndex": 15404,
+                "startIndex": 15621,
+                "endIndex": 16016,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 15009,
-                      "endIndex": 15404,
+                      "startIndex": 15621,
+                      "endIndex": 16016,
                       "textRun": {
                         "content": "At the Ceremony freeze actual weights. Count both owners’ votes to produce each faction signature; refusal, missing approval or disagreement contributes no support, but the faction’s weight remains in the total. Threshold is ceil(2 × total / 3); at least two signing parties must have positive weight. A zero electorate cannot pass. Count no contracts, verbal concessions or invented influence.\n",
                         "textStyle": {}
@@ -15488,13 +15442,13 @@
                 }
               },
               {
-                "startIndex": 15404,
-                "endIndex": 15957,
+                "startIndex": 16016,
+                "endIndex": 16569,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 15404,
-                      "endIndex": 15957,
+                      "startIndex": 16016,
+                      "endIndex": 16569,
                       "textRun": {
                         "content": "Show the exact final package with five rows, one for each player, and two boxes per row: Assent and Do not assent. Each player ticks one box. A blank row or both boxes ticked gives no assent. If the package fails, permit a replacement within the deadline and use fresh boxes for all five players. Stop on success. If neither of the two permitted packages passes, both provisional articles expire to Interim; no physical state changes. Record dissent even where the weighted package passes. Passing the arithmetic does not establish political consensus.\n",
                         "textStyle": {}
@@ -15508,13 +15462,13 @@
                 }
               },
               {
-                "startIndex": 15957,
-                "endIndex": 15976,
+                "startIndex": 16569,
+                "endIndex": 16588,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 15957,
-                      "endIndex": 15976,
+                      "startIndex": 16569,
+                      "endIndex": 16588,
                       "textRun": {
                         "content": "Checks and debrief\n",
                         "textStyle": {}
@@ -15529,13 +15483,13 @@
                 }
               },
               {
-                "startIndex": 15976,
-                "endIndex": 16443,
+                "startIndex": 16588,
+                "endIndex": 17055,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 15976,
-                      "endIndex": 16443,
+                      "startIndex": 16588,
+                      "endIndex": 17055,
                       "textRun": {
                         "content": "Cooperation: assets remain scarce, a peaceful month reduces army and Ascendant leverage, and a public ship assignment forgoes a contract. Withheld resources: a directive cannot requisition them automatically. Conflicting orders: check the required decision-makers' agreement before funding. Averted prophecy: a guarded first-round Shared passage or triggered Tender cover prevents the printed crew loss. Failed ratification: expire articles without healing anything.\n",
                         "textStyle": {}
@@ -15549,13 +15503,13 @@
                 }
               },
               {
-                "startIndex": 16443,
-                "endIndex": 16833,
+                "startIndex": 17055,
+                "endIndex": 17445,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 16443,
-                      "endIndex": 16833,
+                      "startIndex": 17055,
+                      "endIndex": 17445,
                       "textRun": {
                         "content": "Ask for starting and ending constitutional preferences and the event that changed them. Ask each player which teammate contribution mattered. For foresight, distinguish assignment changes, changes in the approach to councils, final order changes, bargaining conditions and confidence. A remaining third token is unavoidable if there were two purchases; do not code it as deliberate saving.\n",
                         "textStyle": {}
@@ -15569,13 +15523,13 @@
                 }
               },
               {
-                "startIndex": 16833,
-                "endIndex": 17082,
+                "startIndex": 17445,
+                "endIndex": 17694,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 16833,
-                      "endIndex": 17082,
+                      "startIndex": 17445,
+                      "endIndex": 17694,
                       "textRun": {
                         "content": "The migrated six-agent run found a useful first purchase and a mostly confirmatory second purchase. It did not show deliberate saving or human timing. Do not guide the next Ascendant to repeat that result. Preserve choices before interpreting them.\n",
                         "textStyle": {}
@@ -15589,13 +15543,13 @@
                 }
               },
               {
-                "startIndex": 17082,
-                "endIndex": 17083,
+                "startIndex": 17694,
+                "endIndex": 17695,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 17082,
-                      "endIndex": 17083,
+                      "startIndex": 17694,
+                      "endIndex": 17695,
                       "textRun": {
                         "content": "\n",
                         "textStyle": {}
@@ -18415,7 +18369,7 @@
     "1HxKpXPAbOX3vHLTxdJzWZfn60OwDW2cNpAWJxIyJFLE": {
       "documentId": "1HxKpXPAbOX3vHLTxdJzWZfn60OwDW2cNpAWJxIyJFLE",
       "title": "The Void Throne — Player Briefs",
-      "revisionId": "AHj4eMSD0Kz2I7LZfllEvY314YAiDJ8GXRszK7Y7TIkL2J4TMzaLPcEZ7sO6hYz1MI3EQVXavzGRA9l7KEniCLkTZ12z8BMIgi_ojWe5QxI",
+      "revisionId": "AHj4eMQ0p5PxF_wclYu8oiRxf_O9TWV5OY7Sc_uWe48mrQbOSsKLTdBmglSW1yI-qR1whGvuDXeZZXYVwjkcxZAzlgeXOJtrVaH0VMGj_xk",
       "suggestionsViewMode": "SUGGESTIONS_INLINE",
       "url": null,
       "body": null,
@@ -18523,14 +18477,14 @@
               },
               {
                 "startIndex": 303,
-                "endIndex": 792,
+                "endIndex": 1064,
                 "paragraph": {
                   "elements": [
                     {
                       "startIndex": 303,
-                      "endIndex": 792,
+                      "endIndex": 1064,
                       "textRun": {
-                        "content": "Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Both players then confirm the same assignments aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions.\n",
+                        "content": "Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Both players then confirm the same assignments aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision.\n",
                         "textStyle": {}
                       }
                     }
@@ -18542,13 +18496,13 @@
                 }
               },
               {
-                "startIndex": 792,
-                "endIndex": 1041,
+                "startIndex": 1064,
+                "endIndex": 1313,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 792,
-                      "endIndex": 1041,
+                      "startIndex": 1064,
+                      "endIndex": 1313,
                       "textRun": {
                         "content": "You operate the passage service through the Narrow. Wayfarer is your freight vessel; Lantern carries your navigation team and maintains the route. Those ships are needed for civilian supplies, military transport and your own commercial obligations.\n",
                         "textStyle": {}
@@ -18562,13 +18516,13 @@
                 }
               },
               {
-                "startIndex": 1041,
-                "endIndex": 1321,
+                "startIndex": 1313,
+                "endIndex": 1593,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 1041,
-                      "endIndex": 1321,
+                      "startIndex": 1313,
+                      "endIndex": 1593,
                       "textRun": {
                         "content": "Your petition, GUILD-14, asks the Charter to recognise the Guild's navigation rights. Each Navigation article answers it differently: Guild discretion leaves priorities with you, Imperial priority places them with the Ascendant, and Joint authorisation gives both factions a say.\n",
                         "textStyle": {}
@@ -18582,13 +18536,13 @@
                 }
               },
               {
-                "startIndex": 1321,
-                "endIndex": 1345,
+                "startIndex": 1593,
+                "endIndex": 1617,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 1321,
-                      "endIndex": 1345,
+                      "startIndex": 1593,
+                      "endIndex": 1617,
                       "textRun": {
                         "content": "Your objectives are to:\n",
                         "textStyle": {}
@@ -18602,13 +18556,13 @@
                 }
               },
               {
-                "startIndex": 1345,
-                "endIndex": 1412,
+                "startIndex": 1617,
+                "endIndex": 1684,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 1345,
-                      "endIndex": 1412,
+                      "startIndex": 1617,
+                      "endIndex": 1684,
                       "textRun": {
                         "content": "Keep Lantern's navigators alive and finish with Beacon at least 2.\n",
                         "textStyle": {}
@@ -18636,13 +18590,13 @@
                 }
               },
               {
-                "startIndex": 1412,
-                "endIndex": 1481,
+                "startIndex": 1684,
+                "endIndex": 1753,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 1412,
-                      "endIndex": 1481,
+                      "startIndex": 1684,
+                      "endIndex": 1753,
                       "textRun": {
                         "content": "Secure Guild navigation rights, preferably through Guild discretion.\n",
                         "textStyle": {}
@@ -18670,13 +18624,13 @@
                 }
               },
               {
-                "startIndex": 1481,
-                "endIndex": 1535,
+                "startIndex": 1753,
+                "endIndex": 1807,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 1481,
-                      "endIndex": 1535,
+                      "startIndex": 1753,
+                      "endIndex": 1807,
                       "textRun": {
                         "content": "Complete two commercial contracts, one in each round.\n",
                         "textStyle": {}
@@ -18704,13 +18658,13 @@
                 }
               },
               {
-                "startIndex": 1535,
-                "endIndex": 1583,
+                "startIndex": 1807,
+                "endIndex": 1855,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 1535,
-                      "endIndex": 1583,
+                      "startIndex": 1807,
+                      "endIndex": 1855,
                       "textRun": {
                         "content": "Leave Sorenne's Fall with Stability at least 2.\n",
                         "textStyle": {}
@@ -18738,13 +18692,13 @@
                 }
               },
               {
-                "startIndex": 1583,
-                "endIndex": 1811,
+                "startIndex": 1855,
+                "endIndex": 2083,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 1583,
-                      "endIndex": 1811,
+                      "startIndex": 1855,
+                      "endIndex": 2083,
                       "textRun": {
                         "content": "Offering Wayfarer for public service means missing that month's contract. The ship returns if it survives, but the opportunity has gone. You may accept that cost for relief, protection or a worthwhile constitutional concession.\n",
                         "textStyle": {}
@@ -18758,13 +18712,13 @@
                 }
               },
               {
-                "startIndex": 1811,
-                "endIndex": 1827,
+                "startIndex": 2083,
+                "endIndex": 2099,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 1811,
-                      "endIndex": 1827,
+                      "startIndex": 2083,
+                      "endIndex": 2099,
                       "textRun": {
                         "content": "The Janissariat\n",
                         "textStyle": {}
@@ -18780,13 +18734,13 @@
                 }
               },
               {
-                "startIndex": 1827,
-                "endIndex": 1933,
+                "startIndex": 2099,
+                "endIndex": 2205,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 1827,
-                      "endIndex": 1933,
+                      "startIndex": 2099,
+                      "endIndex": 2205,
                       "textRun": {
                         "content": "Two players · shared assets and objectives. Your Navigation delegate is JN; your Security delegate is JS.\n",
                         "textStyle": {}
@@ -18800,15 +18754,15 @@
                 }
               },
               {
-                "startIndex": 1933,
-                "endIndex": 2422,
+                "startIndex": 2205,
+                "endIndex": 2966,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 1933,
-                      "endIndex": 2422,
+                      "startIndex": 2205,
+                      "endIndex": 2966,
                       "textRun": {
-                        "content": "Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Both players then confirm the same assignments aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions.\n",
+                        "content": "Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Both players then confirm the same assignments aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision.\n",
                         "textStyle": {}
                       }
                     }
@@ -18820,13 +18774,13 @@
                 }
               },
               {
-                "startIndex": 2422,
-                "endIndex": 2648,
+                "startIndex": 2966,
+                "endIndex": 3192,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 2422,
-                      "endIndex": 2648,
+                      "startIndex": 2966,
+                      "endIndex": 3192,
                       "textRun": {
                         "content": "You command Spear, the 9th Pale Cohort, and Vigil, the Narrow garrison. Spear has local assault craft, but needs Guild transport to campaign beyond the crossing. Vigil can protect traffic or remain at its institutional bases.\n",
                         "textStyle": {}
@@ -18840,13 +18794,13 @@
                 }
               },
               {
-                "startIndex": 2648,
-                "endIndex": 2919,
+                "startIndex": 3192,
+                "endIndex": 3463,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 2648,
-                      "endIndex": 2919,
+                      "startIndex": 3192,
+                      "endIndex": 3463,
                       "textRun": {
                         "content": "The Sorenne Flag gives you an enemy to fight. The difficulty is finding it without further damaging the system you are supposed to secure. An unsuccessful expedition still consumes supplies and disrupts civilian traffic, while doing nothing to sustain your conditioning.\n",
                         "textStyle": {}
@@ -18860,13 +18814,13 @@
                 }
               },
               {
-                "startIndex": 2919,
-                "endIndex": 2943,
+                "startIndex": 3463,
+                "endIndex": 3487,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 2919,
-                      "endIndex": 2943,
+                      "startIndex": 3463,
+                      "endIndex": 3487,
                       "textRun": {
                         "content": "Your objectives are to:\n",
                         "textStyle": {}
@@ -18880,13 +18834,13 @@
                 }
               },
               {
-                "startIndex": 2943,
-                "endIndex": 3013,
+                "startIndex": 3487,
+                "endIndex": 3557,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 2943,
-                      "endIndex": 3013,
+                      "startIndex": 3487,
+                      "endIndex": 3557,
                       "textRun": {
                         "content": "Keep Spear intact and finish with Readiness at least 3, preferably 4.\n",
                         "textStyle": {}
@@ -18914,13 +18868,13 @@
                 }
               },
               {
-                "startIndex": 3013,
-                "endIndex": 3094,
+                "startIndex": 3557,
+                "endIndex": 3638,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 3013,
-                      "endIndex": 3094,
+                      "startIndex": 3557,
+                      "endIndex": 3638,
                       "textRun": {
                         "content": "Secure the army's constitutional position, preferably through Military autonomy.\n",
                         "textStyle": {}
@@ -18948,13 +18902,13 @@
                 }
               },
               {
-                "startIndex": 3094,
-                "endIndex": 3206,
+                "startIndex": 3638,
+                "endIndex": 3750,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 3094,
-                      "endIndex": 3206,
+                      "startIndex": 3638,
+                      "endIndex": 3750,
                       "textRun": {
                         "content": "Protect your soldiers from operations they cannot sustain. At opening Readiness below 2, combat disables Spear.\n",
                         "textStyle": {}
@@ -18982,13 +18936,13 @@
                 }
               },
               {
-                "startIndex": 3206,
-                "endIndex": 3254,
+                "startIndex": 3750,
+                "endIndex": 3798,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 3206,
-                      "endIndex": 3254,
+                      "startIndex": 3750,
+                      "endIndex": 3798,
                       "textRun": {
                         "content": "Leave Sorenne's Fall with Stability at least 2.\n",
                         "textStyle": {}
@@ -19016,13 +18970,13 @@
                 }
               },
               {
-                "startIndex": 3254,
-                "endIndex": 3468,
+                "startIndex": 3798,
+                "endIndex": 4012,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 3254,
-                      "endIndex": 3468,
+                      "startIndex": 3798,
+                      "endIndex": 4012,
                       "textRun": {
                         "content": "Military autonomy lets you choose operations, but requires Vigil to stay Home. Joint authorisation gives the Guild a say over military orders. Imperial command leaves the Ascendant able to order you to stand down.\n",
                         "textStyle": {}
@@ -19036,13 +18990,13 @@
                 }
               },
               {
-                "startIndex": 3468,
-                "endIndex": 3482,
+                "startIndex": 4012,
+                "endIndex": 4026,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 3468,
-                      "endIndex": 3482,
+                      "startIndex": 4012,
+                      "endIndex": 4026,
                       "textRun": {
                         "content": "The Ascendant\n",
                         "textStyle": {}
@@ -19058,15 +19012,15 @@
                 }
               },
               {
-                "startIndex": 3482,
-                "endIndex": 3695,
+                "startIndex": 4026,
+                "endIndex": 4353,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 3482,
-                      "endIndex": 3695,
+                      "startIndex": 4026,
+                      "endIndex": 4353,
                       "textRun": {
-                        "content": "One player · A on decision sheets. Attend Security and Government; tell Navigation and Supply your decision in person when you hold its authority. A council member records the final order; no signature is needed.\n",
+                        "content": "One player · A on decision sheets. Attend Security and Government and remain there throughout the council phase. When you hold Navigation authority, give its final order to the facilitator at the deadline from your own table. The facilitator records it; you do not visit Navigation or send it messages. No signature is needed.\n",
                         "textStyle": {}
                       }
                     }
@@ -19078,13 +19032,13 @@
                 }
               },
               {
-                "startIndex": 3695,
-                "endIndex": 3899,
+                "startIndex": 4353,
+                "endIndex": 4557,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 3695,
-                      "endIndex": 3899,
+                      "startIndex": 4353,
+                      "endIndex": 4557,
                       "textRun": {
                         "content": "You need a government capable of maintaining the Dominion, and an army capable of defending it. A quiet month may help Sorenne's Fall while weakening both the Janissariat and the authority they give you.\n",
                         "textStyle": {}
@@ -19098,13 +19052,13 @@
                 }
               },
               {
-                "startIndex": 3899,
-                "endIndex": 4119,
+                "startIndex": 4557,
+                "endIndex": 4777,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 3899,
-                      "endIndex": 4119,
+                      "startIndex": 4557,
+                      "endIndex": 4777,
                       "textRun": {
                         "content": "You begin with imperial command, three foresight tokens and one contracted service from the cutter Grey Petrel. Spending foresight gives you information about the crisis, but reduces your weight in the final settlement.\n",
                         "textStyle": {}
@@ -19118,13 +19072,13 @@
                 }
               },
               {
-                "startIndex": 4119,
-                "endIndex": 4143,
+                "startIndex": 4777,
+                "endIndex": 4801,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 4119,
-                      "endIndex": 4143,
+                      "startIndex": 4777,
+                      "endIndex": 4801,
                       "textRun": {
                         "content": "Your objectives are to:\n",
                         "textStyle": {}
@@ -19138,13 +19092,13 @@
                 }
               },
               {
-                "startIndex": 4143,
-                "endIndex": 4234,
+                "startIndex": 4801,
+                "endIndex": 4892,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 4143,
-                      "endIndex": 4234,
+                      "startIndex": 4801,
+                      "endIndex": 4892,
                       "textRun": {
                         "content": "Ratify a settlement with Beacon at least 1, Stability at least 2 and Readiness at least 2.\n",
                         "textStyle": {}
@@ -19172,13 +19126,13 @@
                 }
               },
               {
-                "startIndex": 4234,
-                "endIndex": 4307,
+                "startIndex": 4892,
+                "endIndex": 4965,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 4234,
-                      "endIndex": 4307,
+                      "startIndex": 4892,
+                      "endIndex": 4965,
                       "textRun": {
                         "content": "Keep Readiness at least 3 and Spear intact where the cost is acceptable.\n",
                         "textStyle": {}
@@ -19206,13 +19160,13 @@
                 }
               },
               {
-                "startIndex": 4307,
-                "endIndex": 4390,
+                "startIndex": 4965,
+                "endIndex": 5048,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 4307,
-                      "endIndex": 4390,
+                      "startIndex": 4965,
+                      "endIndex": 5048,
                       "textRun": {
                         "content": "Establish a government you can trust to govern without your constant intervention.\n",
                         "textStyle": {}
@@ -19240,13 +19194,13 @@
                 }
               },
               {
-                "startIndex": 4390,
-                "endIndex": 4461,
+                "startIndex": 5048,
+                "endIndex": 5119,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 4390,
-                      "endIndex": 4461,
+                      "startIndex": 5048,
+                      "endIndex": 5119,
                       "textRun": {
                         "content": "Account for the people and institutions that paid for that settlement.\n",
                         "textStyle": {}
@@ -19274,13 +19228,13 @@
                 }
               },
               {
-                "startIndex": 4461,
-                "endIndex": 4636,
+                "startIndex": 5119,
+                "endIndex": 5294,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 4461,
-                      "endIndex": 4636,
+                      "startIndex": 5119,
+                      "endIndex": 5294,
                       "textRun": {
                         "content": "You gain no special success from keeping imperial command. Use the provisional government to find out whether delegation works, then judge the final Charter on that evidence.\n",
                         "textStyle": {}
@@ -19294,13 +19248,13 @@
                 }
               },
               {
-                "startIndex": 4636,
-                "endIndex": 4648,
+                "startIndex": 5294,
+                "endIndex": 5306,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 4636,
-                      "endIndex": 4648,
+                      "startIndex": 5294,
+                      "endIndex": 5306,
                       "textRun": {
                         "content": "Your powers\n",
                         "textStyle": {}
@@ -19315,45 +19269,15 @@
                 }
               },
               {
-                "startIndex": 4648,
-                "endIndex": 5010,
+                "startIndex": 5306,
+                "endIndex": 5702,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 4648,
-                      "endIndex": 4989,
+                      "startIndex": 5306,
+                      "endIndex": 5702,
                       "textRun": {
-                        "content": "Use your worksheet to record your foresight choice and Grey Petrel's task during faction discussion, and your final Warrant choice during councils. Tell the councils your decisions in person; you do not need to write instructions or sign an order. Your authority over council decisions follows the current Charter articles, described in the ",
-                        "textStyle": {}
-                      }
-                    },
-                    {
-                      "startIndex": 4989,
-                      "endIndex": 5008,
-                      "textRun": {
-                        "content": "Component Reference",
-                        "textStyle": {
-                          "underline": true,
-                          "foregroundColor": {
-                            "color": {
-                              "rgbColor": {
-                                "red": 0.06666667,
-                                "green": 0.33333334,
-                                "blue": 0.8
-                              }
-                            }
-                          },
-                          "link": {
-                            "url": "https://docs.google.com/document/d/1aRnRVi-CWHvBYY5JgJxjOccJO684jLGHQvZN0YIKQi8"
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "startIndex": 5008,
-                      "endIndex": 5010,
-                      "textRun": {
-                        "content": ".\n",
+                        "content": "Use your worksheet to record your foresight choice and Grey Petrel's task during faction discussion, and your final Warrant choice during councils. Confirm your final decisions to the facilitator from Security and Government; you do not need to write instructions or sign an order. Your authority over council decisions follows the current Charter articles, described in the Component Reference.\n",
                         "textStyle": {}
                       }
                     }
@@ -19365,13 +19289,13 @@
                 }
               },
               {
-                "startIndex": 5010,
-                "endIndex": 5020,
+                "startIndex": 5702,
+                "endIndex": 5712,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 5010,
-                      "endIndex": 5020,
+                      "startIndex": 5702,
+                      "endIndex": 5712,
                       "textRun": {
                         "content": "Foresight\n",
                         "textStyle": {}
@@ -19386,13 +19310,13 @@
                 }
               },
               {
-                "startIndex": 5020,
-                "endIndex": 5132,
+                "startIndex": 5712,
+                "endIndex": 5824,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 5020,
-                      "endIndex": 5132,
+                      "startIndex": 5712,
+                      "endIndex": 5824,
                       "textRun": {
                         "content": "The Ascendant starts with three foresight tokens. Each unspent token adds one to their final settlement weight.\n",
                         "textStyle": {}
@@ -19406,13 +19330,13 @@
                 }
               },
               {
-                "startIndex": 5132,
-                "endIndex": 5689,
+                "startIndex": 5824,
+                "endIndex": 6381,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 5132,
-                      "endIndex": 5689,
+                      "startIndex": 5824,
+                      "endIndex": 6381,
                       "textRun": {
                         "content": "At the start of each faction phase, choose your foresight before visiting either faction or hearing its plans for this round. Read the two covers: Navigation and Supply, and Security and Government. They identify the council at the centre of each prophecy and any other council it could affect. They do not reveal the action, condition, risk or reward. Choose one answer and pay one token before opening it, or choose NONE and retain your token. You may use the public state, existing commitments and anything learned in earlier phases to make this choice.\n",
                         "textStyle": {}
@@ -19426,13 +19350,13 @@
                 }
               },
               {
-                "startIndex": 5689,
-                "endIndex": 6104,
+                "startIndex": 6381,
+                "endIndex": 6796,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 5689,
-                      "endIndex": 6104,
+                      "startIndex": 6381,
+                      "endIndex": 6796,
                       "textRun": {
                         "content": "There is at most one purchase per round. Your choice must reach the facilitator before you visit a faction and before the faction phase ends. A missing, multiple or late choice means NONE. Choosing NONE also completes your choice and permits visits. Tokens do not recover, and there are no swaps, refunds or further purchases that month. Waiting to choose leaves less time for visits; it does not extend the phase.\n",
                         "textStyle": {}
@@ -19446,13 +19370,13 @@
                 }
               },
               {
-                "startIndex": 6104,
-                "endIndex": 6371,
+                "startIndex": 6796,
+                "endIndex": 7063,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 6104,
-                      "endIndex": 6371,
+                      "startIndex": 6796,
+                      "endIndex": 7063,
                       "textRun": {
                         "content": "The facilitator announces the expenditure and remaining tokens. The chosen card and its answer remain private unless the Ascendant shares them. You may show, describe, conceal or misrepresent the answer; the facilitator will not certify your claims to other players.\n",
                         "textStyle": {}
@@ -19466,13 +19390,13 @@
                 }
               },
               {
-                "startIndex": 6371,
-                "endIndex": 6563,
+                "startIndex": 7063,
+                "endIndex": 7255,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 6371,
-                      "endIndex": 6563,
+                      "startIndex": 7063,
+                      "endIndex": 7255,
                       "textRun": {
                         "content": "An answer states what happens if its conditions occur. It does not tell you what players will choose or cover every possible risk. Those conditions apply whether anyone reads the card or not.\n",
                         "textStyle": {}
@@ -19486,13 +19410,13 @@
                 }
               },
               {
-                "startIndex": 6563,
-                "endIndex": 7172,
+                "startIndex": 7255,
+                "endIndex": 7864,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 6563,
-                      "endIndex": 7172,
+                      "startIndex": 7255,
+                      "endIndex": 7864,
                       "textRun": {
                         "content": "While you choose, the two factions discuss privately with their own teammates. After your choice is recorded, you may visit either faction, return to one you visited earlier, relay offers and share or withhold your vision. Each visit is a conversation with that faction; do not bring the two factions together. Until the phase ends, factions can revise unlocked assignments and you can revise Grey Petrel's task. Existing Standing Commitments remain binding. Council orders and your Warrant are decided in the council phase. Avoiding a vision's condition averts its result; it does not make the vision false.\n",
                         "textStyle": {}
@@ -19506,13 +19430,13 @@
                 }
               },
               {
-                "startIndex": 7172,
-                "endIndex": 7612,
+                "startIndex": 7864,
+                "endIndex": 8304,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 7172,
-                      "endIndex": 7612,
+                      "startIndex": 7864,
+                      "endIndex": 8304,
                       "textRun": {
                         "content": "Example: you choose the Navigation prophecy before hearing the Guild's plan. During a later visit, you discover they intend a voyage mentioned in the answer. You can explain its consequences and ask for a different assignment or protection. The cover did not promise that their plan would make this prophecy useful. A lost asset or a Standing Commitment may limit what can change; spending a token does not guarantee a useful intervention.\n",
                         "textStyle": {}
@@ -19526,13 +19450,13 @@
                 }
               },
               {
-                "startIndex": 7612,
-                "endIndex": 7778,
+                "startIndex": 8304,
+                "endIndex": 8470,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 7612,
-                      "endIndex": 7778,
+                      "startIndex": 8304,
+                      "endIndex": 8470,
                       "textRun": {
                         "content": "There are three tokens and at most one purchase in each of the two rounds. At least one token will remain. Keeping more requires choosing NONE in at least one round.\n",
                         "textStyle": {}
@@ -19546,13 +19470,13 @@
                 }
               },
               {
-                "startIndex": 7778,
-                "endIndex": 7795,
+                "startIndex": 8470,
+                "endIndex": 8487,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 7778,
-                      "endIndex": 7795,
+                      "startIndex": 8470,
+                      "endIndex": 8487,
                       "textRun": {
                         "content": "Imperial Warrant\n",
                         "textStyle": {}
@@ -19567,13 +19491,13 @@
                 }
               },
               {
-                "startIndex": 7795,
-                "endIndex": 7917,
+                "startIndex": 8487,
+                "endIndex": 8609,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 7795,
-                      "endIndex": 7917,
+                      "startIndex": 8487,
+                      "endIndex": 8609,
                       "textRun": {
                         "content": "The Warrant draws on the Ascendant's authority over the army to use Vigil independently of the council's other operation.\n",
                         "textStyle": {}
@@ -19587,13 +19511,13 @@
                 }
               },
               {
-                "startIndex": 7917,
-                "endIndex": 8047,
+                "startIndex": 8609,
+                "endIndex": 8739,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 7917,
-                      "endIndex": 8047,
+                      "startIndex": 8609,
+                      "endIndex": 8739,
                       "textRun": {
                         "content": "Requirement: Military authority is Interim or Imperial command, opening Readiness is at least 3, and Vigil is offered to Council.\n",
                         "textStyle": {}
@@ -19621,13 +19545,13 @@
                 }
               },
               {
-                "startIndex": 8047,
-                "endIndex": 8105,
+                "startIndex": 8739,
+                "endIndex": 8797,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8047,
-                      "endIndex": 8105,
+                      "startIndex": 8739,
+                      "endIndex": 8797,
                       "textRun": {
                         "content": "Timing: record the final Warrant before the council bell.\n",
                         "textStyle": {}
@@ -19655,13 +19579,13 @@
                 }
               },
               {
-                "startIndex": 8105,
-                "endIndex": 8216,
+                "startIndex": 8797,
+                "endIndex": 8908,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8105,
-                      "endIndex": 8216,
+                      "startIndex": 8797,
+                      "endIndex": 8908,
                       "textRun": {
                         "content": "Effect: use Vigil first; Stability +1 and guarded status. Security may use offered Spear for a separate order.\n",
                         "textStyle": {}
@@ -19689,13 +19613,13 @@
                 }
               },
               {
-                "startIndex": 8216,
-                "endIndex": 8473,
+                "startIndex": 8908,
+                "endIndex": 9165,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8216,
-                      "endIndex": 8473,
+                      "startIndex": 8908,
+                      "endIndex": 9165,
                       "textRun": {
                         "content": "Under Interim or Imperial command, a Warrant without sufficient Readiness or offered Vigil fails and costs Stability 1. Under Military autonomy or Joint authorisation, it is advice only, with no effect or penalty. A missing or unconfirmed Warrant means No.\n",
                         "textStyle": {}
@@ -19709,13 +19633,13 @@
                 }
               },
               {
-                "startIndex": 8473,
-                "endIndex": 8575,
+                "startIndex": 9165,
+                "endIndex": 9267,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8473,
-                      "endIndex": 8575,
+                      "startIndex": 9165,
+                      "endIndex": 9267,
                       "textRun": {
                         "content": "If a valid Warrant uses Vigil, a simultaneous Guard lacks its asset and pays the normal failure cost.\n",
                         "textStyle": {}
@@ -19729,13 +19653,13 @@
                 }
               },
               {
-                "startIndex": 8575,
-                "endIndex": 8587,
+                "startIndex": 9267,
+                "endIndex": 9279,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8575,
-                      "endIndex": 8587,
+                      "startIndex": 9267,
+                      "endIndex": 9279,
                       "textRun": {
                         "content": "Grey Petrel\n",
                         "textStyle": {}
@@ -19750,13 +19674,13 @@
                 }
               },
               {
-                "startIndex": 8587,
-                "endIndex": 8836,
+                "startIndex": 9279,
+                "endIndex": 9528,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8587,
-                      "endIndex": 8836,
+                      "startIndex": 9279,
+                      "endIndex": 9528,
                       "textRun": {
                         "content": "Grey Petrel is a contracted cutter with a licensed Guild pilot and a protection detail. Its contract covers one triggered intervention during the whole game. It cannot carry Spear, repair Beacon or provide a second service after its token is spent.\n",
                         "textStyle": {}
@@ -19770,13 +19694,13 @@
                 }
               },
               {
-                "startIndex": 8836,
-                "endIndex": 8993,
+                "startIndex": 9528,
+                "endIndex": 9685,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8836,
-                      "endIndex": 8993,
+                      "startIndex": 9528,
+                      "endIndex": 9685,
                       "textRun": {
                         "content": "Before the faction bell, lodge Relief lift, Tender cover or Keep. The task locks before councils. If its condition does not occur, retain the reserve token.\n",
                         "textStyle": {}
@@ -19790,13 +19714,13 @@
                 }
               },
               {
-                "startIndex": 8993,
-                "endIndex": 9264,
+                "startIndex": 9685,
+                "endIndex": 9956,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 8993,
-                      "endIndex": 9264,
+                      "startIndex": 9685,
+                      "endIndex": 9956,
                       "textRun": {
                         "content": "Relief lift triggers when the final authorised Navigation order is Relief and Wayfarer was not offered. Grey Petrel supplies the ship requirement and spends the token immediately, even if low Beacon later halts the voyage. Wayfarer may still make a private Trade voyage.\n",
                         "textStyle": {}
@@ -19810,13 +19734,13 @@
                 }
               },
               {
-                "startIndex": 9264,
-                "endIndex": 9515,
+                "startIndex": 9956,
+                "endIndex": 10207,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 9264,
-                      "endIndex": 9515,
+                      "startIndex": 9956,
+                      "endIndex": 10207,
                       "textRun": {
                         "content": "Tender cover triggers in round one when Shared is delivered unguarded and the printed crew-loss consequence occurs. Prevent that loss of Lantern's team and spend the token. This gives no general protection or track bonus and has no round-two trigger.\n",
                         "textStyle": {}
@@ -19830,13 +19754,13 @@
                 }
               },
               {
-                "startIndex": 9515,
-                "endIndex": 9635,
+                "startIndex": 10207,
+                "endIndex": 10327,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 9515,
-                      "endIndex": 9635,
+                      "startIndex": 10207,
+                      "endIndex": 10327,
                       "textRun": {
                         "content": "Keep retains the token without intervening. A missing task also means Keep. Unspent reserve gives no settlement weight.\n",
                         "textStyle": {}
@@ -19850,13 +19774,13 @@
                 }
               },
               {
-                "startIndex": 9635,
-                "endIndex": 9636,
+                "startIndex": 10327,
+                "endIndex": 10328,
                 "paragraph": {
                   "elements": [
                     {
-                      "startIndex": 9635,
-                      "endIndex": 9636,
+                      "startIndex": 10327,
+                      "endIndex": 10328,
                       "textRun": {
                         "content": "\n",
                         "textStyle": {}

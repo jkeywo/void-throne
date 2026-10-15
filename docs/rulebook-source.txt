@@ -92,49 +92,45 @@ The game consists of two rounds, each representing a month. A round has five min
 
 After the second round, there will be a ten-minute Ceremony of Settlement to resolve the new government.
 
-Read your faction's Player Brief alongside these rules.
-
 ### Faction Phase — five minutes
 
-You have five minutes to decide your faction's approach. Discuss with your teammate from the start and use the time as you see fit. Guild and Janissariat players stay at their own faction tables and do not speak or send messages to the other faction during this phase. The Ascendant may visit either faction after making their foresight choice.
+You have five minutes to decide your faction's approach with your teammate. Guild and Janissariat players stay at their own faction tables and do not speak or send messages to the other faction during this phase. The Ascendant may visit either faction.
 
 - Your assets are the named ships or military units your faction controls.
 
-- An assignment is the job you give an asset for this round.
+- An assignment is the job you give an asset for the round.
 
 Agree one assignment for each asset, using the options printed on it.
 
-The Ascendant first chooses a prophecy or chooses to save their foresight. They make that choice privately, before visiting either faction or hearing its plans for this round. They may then visit either table, discuss proposals and share information. You may revise your unlocked assignments in response. The Ascendant's Player Brief explains their powers.
+You may revise your assignments until the end of the phase. Both teammates then confirm the same final assignments and record them on a faction sheet.
 
-You may revise your assignments until the end of the phase. Both teammates then confirm the same final assignments aloud and record them on one faction sheet. Take your approach to the councils yourselves; you do not need to write instructions to them. The Ascendant completes the faction-phase decisions described in their brief at the same deadline.
+In round two, a Standing Commitment may already fix an asset's assignment: this is a promise agreed and recorded during the previous free discussion. Mark that assignment locked on your sheet.
 
-Assignments now lock for the round. In round two, a Standing Commitment may already fix an asset's assignment: this is a promise agreed and recorded during the previous free discussion. Mark that assignment LOCKED on your sheet.
+If either teammate has not confirmed the assignments by the end of the phase, or they disagree, use the faction's defaults:
 
-If either teammate has not confirmed the assignments by the faction bell, or they disagree, use the faction's defaults:
+- Guild: Wayfarer [Trade]; Lantern [Maintain].
 
-- Guild: Wayfarer Trade; Lantern Maintain.
+- Janissariat: Spear [Stand down]; Vigil [Home].
 
-- Janissariat: Spear Stand down; Vigil Home.
-
-A missing or multiple selection for an individual asset uses that asset's default. Lost or disabled assets are Absent. A Standing Commitment overrides a conflicting selection or default; withdrawing agreement later does not release it.
+Lost or disabled assets are [Absent].
 
 ### Council Phase— five minutes
 
-Go to your council and negotiate its action, called its order, using the assets offered. Your council reference lists the available orders, their requirements and their effects. Coordinate with the other council where one decision depends on the other.
+Go to your council and negotiate its order, using the assets offered by the factions. Stay at that table throughout the council phase and speak only with its members. Do not visit, call across to or send messages to the other council, including through your faction teammate. Your council reference lists the available orders, their requirements and their effects. Make plans that depend on the other council during the faction or free phase; those plans do not bind its later decision.
 
-Check the current article: the constitutional rule saying who has authority to choose the council's order. At the start, the Ascendant chooses both orders and tells each council their decision in person. Later articles may give that authority to a faction's representative or require both representatives to agree.
+Check the current article: the constitutional rule saying who has authority to choose the council's order. At the start, the Ascendant chooses both orders while remaining at Security and Government. At the deadline, they give their Navigation decision to the facilitator, who records it as that council's order. Later articles may give authority to a faction's representative or require both representatives to agree. The facilitator does not carry proposals or replies between councils; both final orders are revealed after they have been collected.
 
-At the council bell, the players whose approval is required confirm the final order aloud. One council member records it for the facilitator. No initials or signatures are needed. Earlier proposals and informal promises do not replace this final decision. The Ascendant also completes the council-phase decision in their brief.
-
-The facilitator resolves both councils, private assignments and scenario conditions, then announces track changes, asset losses, completed contracts and token expenditure. Neither council can change its order after seeing the other's result.
+At the end of the phase, the players whose approval is required confirm the final order. One council member records it for the facilitator.
 
 ### Free Phase— five minutes
 
-After round one, discuss what happened and what government you would like to try. Use the Charter options in the Component Reference to propose one Navigation article and one Military article. The two council representatives concerned and the Ascendant must agree an article aloud; the facilitator records the result. The two articles are decided separately. Where no agreement is reached, the existing arrangement continues.
+After round one, discuss what has happened, and what government you would like to try. Use the Charter options to propose one Navigation article and one Military article. The two council representatives concerned and the Ascendant must agree an article aloud; the facilitator records the result. The two articles are decided separately. Where no agreement is reached, the existing arrangement continues.
 
 You may attach a Standing Commitment to a proposed article to fix one of your faction's asset assignments for round two. Both teammates must agree that promise. Record the asset, assignment and article together; the Component Reference gives the permitted commitments and their conditions. Articles and attached commitments that pass govern round two.
 
 After round two, use this discussion to negotiate the final settlement package. There is no further operation or recovery before the Ceremony.
+
+By the end of the phase the facilitator resolves both councils, private assignments and scenario conditions, then announces track changes, asset losses, completed contracts and token expenditure.
 
 ## 5. The Ceremony of Settlement
 

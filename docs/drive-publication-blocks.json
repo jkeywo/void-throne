@@ -191,16 +191,12 @@
         "After the second round, there will be a ten-minute Ceremony of Settlement to resolve the new government."
       ],
       [
-        "NORMAL_TEXT",
-        "Read your faction's Player Brief alongside these rules."
-      ],
-      [
         "HEADING_2",
         "Faction Phase — five minutes"
       ],
       [
         "NORMAL_TEXT",
-        "You have five minutes to decide your faction's approach. Discuss with your teammate from the start and use the time as you see fit. Guild and Janissariat players stay at their own faction tables and do not speak or send messages to the other faction during this phase. The Ascendant may visit either faction after making their foresight choice."
+        "You have five minutes to decide your faction's approach with your teammate. Guild and Janissariat players stay at their own faction tables and do not speak or send messages to the other faction during this phase. The Ascendant may visit either faction."
       ],
       [
         "BULLET",
@@ -208,7 +204,7 @@
       ],
       [
         "BULLET",
-        "An assignment is the job you give an asset for this round."
+        "An assignment is the job you give an asset for the round."
       ],
       [
         "NORMAL_TEXT",
@@ -216,31 +212,27 @@
       ],
       [
         "NORMAL_TEXT",
-        "The Ascendant first chooses a prophecy or chooses to save their foresight. They make that choice privately, before visiting either faction or hearing its plans for this round. They may then visit either table, discuss proposals and share information. You may revise your unlocked assignments in response. The Ascendant's Player Brief explains their powers."
+        "You may revise your assignments until the end of the phase. Both teammates then confirm the same final assignments and record them on a faction sheet."
       ],
       [
         "NORMAL_TEXT",
-        "You may revise your assignments until the end of the phase. Both teammates then confirm the same final assignments aloud and record them on one faction sheet. Take your approach to the councils yourselves; you do not need to write instructions to them. The Ascendant completes the faction-phase decisions described in their brief at the same deadline."
+        "In round two, a Standing Commitment may already fix an asset's assignment: this is a promise agreed and recorded during the previous free discussion. Mark that assignment locked on your sheet."
       ],
       [
         "NORMAL_TEXT",
-        "Assignments now lock for the round. In round two, a Standing Commitment may already fix an asset's assignment: this is a promise agreed and recorded during the previous free discussion. Mark that assignment LOCKED on your sheet."
-      ],
-      [
-        "NORMAL_TEXT",
-        "If either teammate has not confirmed the assignments by the faction bell, or they disagree, use the faction's defaults:"
+        "If either teammate has not confirmed the assignments by the end of the phase, or they disagree, use the faction's defaults:"
       ],
       [
         "BULLET",
-        "Guild: Wayfarer Trade; Lantern Maintain."
+        "Guild: Wayfarer [Trade]; Lantern [Maintain]."
       ],
       [
         "BULLET",
-        "Janissariat: Spear Stand down; Vigil Home."
+        "Janissariat: Spear [Stand down]; Vigil [Home]."
       ],
       [
         "NORMAL_TEXT",
-        "A missing or multiple selection for an individual asset uses that asset's default. Lost or disabled assets are Absent. A Standing Commitment overrides a conflicting selection or default; withdrawing agreement later does not release it."
+        "Lost or disabled assets are [Absent]."
       ],
       [
         "HEADING_2",
@@ -248,19 +240,15 @@
       ],
       [
         "NORMAL_TEXT",
-        "Go to your council and negotiate its action, called its order, using the assets offered. Your council reference lists the available orders, their requirements and their effects. Coordinate with the other council where one decision depends on the other."
+        "Go to your council and negotiate its order, using the assets offered by the factions. Stay at that table throughout the council phase and speak only with its members. Do not visit, call across to or send messages to the other council, including through your faction teammate. Your council reference lists the available orders, their requirements and their effects. Make plans that depend on the other council during the faction or free phase; those plans do not bind its later decision."
       ],
       [
         "NORMAL_TEXT",
-        "Check the current article: the constitutional rule saying who has authority to choose the council's order. At the start, the Ascendant chooses both orders and tells each council their decision in person. Later articles may give that authority to a faction's representative or require both representatives to agree."
+        "Check the current article: the constitutional rule saying who has authority to choose the council's order. At the start, the Ascendant chooses both orders while remaining at Security and Government. At the deadline, they give their Navigation decision to the facilitator, who records it as that council's order. Later articles may give authority to a faction's representative or require both representatives to agree. The facilitator does not carry proposals or replies between councils; both final orders are revealed after they have been collected."
       ],
       [
         "NORMAL_TEXT",
-        "At the council bell, the players whose approval is required confirm the final order aloud. One council member records it for the facilitator. No initials or signatures are needed. Earlier proposals and informal promises do not replace this final decision. The Ascendant also completes the council-phase decision in their brief."
-      ],
-      [
-        "NORMAL_TEXT",
-        "The facilitator resolves both councils, private assignments and scenario conditions, then announces track changes, asset losses, completed contracts and token expenditure. Neither council can change its order after seeing the other's result."
+        "At the end of the phase, the players whose approval is required confirm the final order. One council member records it for the facilitator."
       ],
       [
         "HEADING_2",
@@ -268,7 +256,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "After round one, discuss what happened and what government you would like to try. Use the Charter options in the Component Reference to propose one Navigation article and one Military article. The two council representatives concerned and the Ascendant must agree an article aloud; the facilitator records the result. The two articles are decided separately. Where no agreement is reached, the existing arrangement continues."
+        "After round one, discuss what has happened, and what government you would like to try. Use the Charter options to propose one Navigation article and one Military article. The two council representatives concerned and the Ascendant must agree an article aloud; the facilitator records the result. The two articles are decided separately. Where no agreement is reached, the existing arrangement continues."
       ],
       [
         "NORMAL_TEXT",
@@ -277,6 +265,10 @@
       [
         "NORMAL_TEXT",
         "After round two, use this discussion to negotiate the final settlement package. There is no further operation or recovery before the Ceremony."
+      ],
+      [
+        "NORMAL_TEXT",
+        "By the end of the phase the facilitator resolves both councils, private assignments and scenario conditions, then announces track changes, asset losses, completed contracts and token expenditure."
       ],
       [
         "HEADING_1",
@@ -457,7 +449,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "The council sheet records the round, current article and final order. Check spoken agreement from whoever holds authority under that article; do not collect initials. The Ascendant confirms their decisions in person. Record their foresight choice, reserve task and final Warrant on their worksheet."
+        "The council sheet records the round, current article and final order. Check spoken agreement from whoever holds authority under that article; do not collect initials. The Ascendant stays at Security and Government. If they hold Navigation authority, collect their final Navigation order there at the council deadline and record it for Navigation. Collect both councils' orders before revealing either. Do not relay proposals, requests or replies between tables. Record the Ascendant's foresight choice, reserve task and final Warrant on their worksheet."
       ],
       [
         "NORMAL_TEXT",
@@ -493,7 +485,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "At the faction bell, ask both faction members to confirm the same assignments. Record one final faction sheet. If either has not confirmed or they disagree, apply the faction defaults; an activated Standing Commitment still overrides them. Mark unavailable assets Absent and record one reserve task. At the council bell, check the current authority and ask the required decision-makers to confirm the final order; also confirm the Warrant. Resolve the recorded decisions. No signatures or initials are needed."
+        "At the faction bell, ask both faction members to confirm the same assignments. Record one final faction sheet. If either has not confirmed or they disagree, apply the faction defaults; an activated Standing Commitment still overrides them. Mark unavailable assets Absent and record one reserve task. At the council bell, check the current authority and ask the required decision-makers to confirm the final order; also confirm the Warrant. Resolve the recorded decisions. No signatures or initials are needed. During the council phase, keep GN and JN at Navigation, and GS, JS and A at Security. Players may speak only with their council; no visits, calling across, teammate consultations or messages between councils. Rules questions may come to the facilitator, but do not use that route to coordinate decisions. Cross-council plans must be made in earlier phases."
       ],
       [
         "NORMAL_TEXT",
@@ -1049,7 +1041,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Both players then confirm the same assignments aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions."
+        "Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Both players then confirm the same assignments aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision."
       ],
       [
         "NORMAL_TEXT",
@@ -1093,7 +1085,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Both players then confirm the same assignments aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions."
+        "Use the faction phase to agree asset assignments and negotiating priorities with your teammate. Stay at your own table; do not speak or send messages to the other faction. The Ascendant may visit after making their foresight choice. You may discuss proposals with them and revise unlocked assignments until the phase ends. Both players then confirm the same assignments aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions. During councils, remain at your assigned table and speak only with that council. You cannot consult your teammate at the other council or send messages between them. Agree any plan that depends on both councils beforehand; each council still makes its own final decision."
       ],
       [
         "NORMAL_TEXT",
@@ -1133,7 +1125,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "One player · A on decision sheets. Attend Security and Government; tell Navigation and Supply your decision in person when you hold its authority. A council member records the final order; no signature is needed."
+        "One player · A on decision sheets. Attend Security and Government and remain there throughout the council phase. When you hold Navigation authority, give its final order to the facilitator at the deadline from your own table. The facilitator records it; you do not visit Navigation or send it messages. No signature is needed."
       ],
       [
         "NORMAL_TEXT",
@@ -1173,7 +1165,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Use your worksheet to record your foresight choice and Grey Petrel's task during faction discussion, and your final Warrant choice during councils. Tell the councils your decisions in person; you do not need to write instructions or sign an order. Your authority over council decisions follows the current Charter articles, described in the Component Reference."
+        "Use your worksheet to record your foresight choice and Grey Petrel's task during faction discussion, and your final Warrant choice during councils. Confirm your final decisions to the facilitator from Security and Government; you do not need to write instructions or sign an order. Your authority over council decisions follows the current Charter articles, described in the Component Reference."
       ],
       [
         "HEADING_3",

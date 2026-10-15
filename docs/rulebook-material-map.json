@@ -4,7 +4,7 @@
   "native_document": {
     "id": "1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSxaJrW1s",
     "url": "https://docs.google.com/document/d/1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSxaJrW1s/edit?usp=drivesdk",
-    "revision": "AHj4eMTlnjUzfcL26ZxRNIVnli_4iVJ-PkqTBw6ACR2-5RFsFLR91iA7SzMPPN5fSgRWqDhuroiPw3yAI1xztJ-40uM8LbtRW5hrt-OqK4I"
+    "revision": "AHj4eMRh4OP8FNatsHqGDH7IJ1KNtEjRRKHERNU3rwXP5wkLf6gWtKlMyc6n12PJsCmhs8PPtkBp5lqL6LJuZagpzKDvusAmJnLuNX2bpiQ"
   },
   "writing_guide": {
     "path": "C:/AnalogueGames/analogue-projects/DSL/guides/writing_good_rulebooks.md",
@@ -217,7 +217,8 @@
     "native_readback": "All four documents read back and captured after edits.",
     "blind_human_reading_test": "Not yet performed.",
     "faction_access": "Teammates only; Ascendant visits after one irrevocable prophecy/NONE choice. No current plans disclosed before choice.",
-    "vision_window": "All four private answers retain their consequences; councils-only covers; unlocked assignments/reserve remain open during visits, orders/Warrant later. See docs/vision-timing-audit.txt."
+    "vision_window": "All four private answers retain their consequences; councils-only covers; unlocked assignments/reserve remain open during visits, orders/Warrant later. See docs/vision-timing-audit.txt.",
+    "council_tables": "No visits or messages between councils. Ascendant stays at Security and gives any Navigation decision to the facilitator at the deadline. Working sheets stay at each table; both final orders revealed together."
   },
   "limitations": "The map records editorial coverage, not proof of comprehension or a new playtest. Prior Playtrace evidence retains the source revisions used for that run.",
   "playtrace_dependency_revision": "ae44cc3b7f31d690a6b2b558e9034a9dd0ef63dd",
@@ -225,7 +226,7 @@
   "player_briefs": {
     "path": "docs/player-briefs.html",
     "url": "https://docs.google.com/document/d/1HxKpXPAbOX3vHLTxdJzWZfn60OwDW2cNpAWJxIyJFLE/edit?usp=drivesdk",
-    "revision": "AHj4eMSD0Kz2I7LZfllEvY314YAiDJ8GXRszK7Y7TIkL2J4TMzaLPcEZ7sO6hYz1MI3EQVXavzGRA9l7KEniCLkTZ12z8BMIgi_ojWe5QxI"
+    "revision": "AHj4eMQ0p5PxF_wclYu8oiRxf_O9TWV5OY7Sc_uWe48mrQbOSsKLTdBmglSW1yI-qR1whGvuDXeZZXYVwjkcxZAzlgeXOJtrVaH0VMGj_xk"
   },
   "component_reference": {
     "path": "docs/component-reference.html",

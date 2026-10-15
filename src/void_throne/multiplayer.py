@@ -12,7 +12,7 @@ import secrets
 from .session import Session, ROLES, ASSETS, NAV, SEC, ARTICLES, choice, boolean, ROOT
 
 CHANNELS = {'table': ROLES, 'guild': ('GN','GS'), 'army': ('JN','JS'),
-            'navigation': ('GN','JN','A'), 'security': ('GS','JS','A'),
+            'navigation': ('GN','JN'), 'security': ('GS','JS','A'),
             'visit-guild': ('GN','GS','A'), 'visit-army': ('JN','JS','A')}
 ROLE_NAMES = {'GN':'Guild · Navigation','GS':'Guild · Security','JN':'Janissariat · Navigation',
               'JS':'Janissariat · Security','A':'Ascendant'}
@@ -75,6 +75,8 @@ class Multiplayer:
             allowed=['guild'] if role.startswith('G') else ['army'] if role.startswith('J') else []
             if self.game.stage=='commit':
                 allowed+=['visit-guild','visit-army'] if role=='A' else ['visit-guild' if role.startswith('G') else 'visit-army']
+        elif self.game.stage=='council':
+            allowed=['navigation'] if role in ('GN','JN') else ['security']
         else:
             allowed=[c for c,roles in CHANNELS.items() if role in roles and not c.startswith('visit-')]
         return allowed+['facilitator-'+role]
@@ -124,6 +126,7 @@ class Multiplayer:
         out['drafts']={r:v for r,v in out['drafts'].items() if r in teammates}
         visible=teammates if g.stage in ('draft','commit') else (
             ('GN','JN','A') if role in ('GN','JN') else ('GS','JS','A') if role in ('GS','JS') else ROLES)
+        if g.stage=='council':visible=('GN','JN') if role in ('GN','JN') else ('GS','JS','A')
         if g.stage=='vision':visible=('A',) if role=='A' else ()
         if g.stage in ('trial-vote','ceremony-vote'):visible=(role,)
         out['working_sheets']={r:deepcopy(s) for r,s in self.sheets.items() if r in visible}
