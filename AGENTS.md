@@ -4,7 +4,7 @@ The game is a paper design. The browser and Playtrace are development tools.
 Current scope: five players, one facilitator, two operational rounds, weighted settlement and three starting foresight tokens. Preserve actual choices in archived transcripts.
 
 ## Authority
-The native Drive rulebook and facilitator guide are the editable design documents. `design/drive-files.json` records their IDs and the captured revision. Local `docs/` files are the initial publication source and offline copies, not an automatic two-way sync. Read current Drive documents before publishing revisions. Update the engine and tests when rules change; never silently make code authoritative over an edited document.
+The native Drive rulebook, Player Briefs, Component Reference and facilitator guide are the editable design documents. `design/drive-files.json` records their IDs and the captured revision. Local `docs/` files are the initial publication source and offline copies, not an automatic two-way sync. Read current Drive documents before publishing revisions. Update the engine and tests when rules change; never silently make code authoritative over an edited document.
 Historical sources in `archive/` are read-only provenance. `lore/` separates source lore, user corrections, scenario inventions and unresolved questions. Do not restore obsolete individual goals, Clarity, a strategic map or unanimous final ratification.
 
 ## Implementation

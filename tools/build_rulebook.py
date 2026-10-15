@@ -22,6 +22,9 @@ for kind,text in blocks:
     safe=html.escape(text)
     if text=='Read your faction’s objectives and guidance in the separate Player Briefs.':
         safe='Read your faction’s objectives and guidance in the separate <a href="player-briefs.html">Player Briefs</a>.'
+    if kind=='NORMAL_TEXT':
+        safe=re.sub(r'Component Reference', '<a href="component-reference.html">Component Reference</a>',safe)
+        safe=re.sub(r'Player Brief(?!s)', '<a href="player-briefs.html">Player Brief</a>',safe)
     if kind=='SUBTITLE':body.append('<p class="eyebrow">'+safe+'</p>')
     elif kind=='TITLE':body.append('<header><h1>'+safe+'</h1></header>')
     elif kind=='HEADING_1':
@@ -51,7 +54,7 @@ for kind,line in blocks:
 (OUT/'native-content.json').write_text(json.dumps({'text':text,'styles':styles},ensure_ascii=False),encoding='utf-8')
 prose=[t for k,t in blocks if k in ('NORMAL_TEXT','EXAMPLE')]
 sentences=[s for p in prose for s in re.split(r'(?<=[.!?])\s+',p) if s.strip()]
-metrics={'words':len(re.findall(r"\b[\w’'-]+\b",text)),'sections':section,'average_prose_sentence_words':round(statistics.mean(len(s.split()) for s in sentences),1),'worked_examples':sum(k=='EXAMPLE' for k,_ in blocks),'full_round_walkthrough':True}
+metrics={'words':len(re.findall(r"\b[\w’'-]+\b",text)),'sections':section,'average_prose_sentence_words':round(statistics.mean(len(s.split()) for s in sentences),1),'worked_examples':sum(k=='EXAMPLE' for k,_ in blocks),'full_round_walkthrough':any('Example of play' in t for k,t in blocks)}
 (OUT/'writing-checks.json').write_text(json.dumps(metrics,indent=2),encoding='utf-8')
 print(json.dumps(metrics))
 

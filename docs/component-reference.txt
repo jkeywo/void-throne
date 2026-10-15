@@ -1,0 +1,265 @@
+The Void Throne — Component Reference
+
+Use this document during play alongside the Player Rulebook and your faction brief. It contains the rules text for asset cards, track references, council sheets and Charter cards. The Ascendant's foresight, Warrant and reserve rules are in their Player Brief.
+
+1. Assets and tracks
+
+Beacon
+
+Beacon records the condition of the Narrow's maintained navigation and service infrastructure. It starts at 2 and runs from 0 to 4.
+
+Maintain adds 1 and funded Repair adds 2 before crossings. This produces prepared Beacon, capped at 4. Every voyage uses that same prepared value; crossing wear is deducted afterwards.
+
+Sorenne's Fall — Stability
+
+Stability records whether the system's forty million people can obtain supplies and keep their civil services operating. Relief and protection improve it. Disrupted traffic, fighting, failed commitments and monthly consumption reduce it.
+
+The track starts at 3 and runs from 0 to 4:
+
+4 — Secure: supplies are reliable and services can meet immediate needs.
+
+3 — Functioning: the administration is keeping the system supplied.
+
+2 — Strained: shortages are affecting daily life.
+
+1 — Failing: severe shortages are disrupting essential services.
+
+0 — Emergency: the system cannot meet its immediate needs without relief.
+
+These descriptions explain the track; they add no further bonuses or penalties. Stability is not loyalty to the Ascendant. People can be well supplied and still oppose the new government.
+
+Readiness
+
+Readiness measures the combat effectiveness of the Janissariat force. It starts at 3 and runs from 0 to 4. Use its value at the start of the round—opening Readiness—for combat and Warrant checks.
+
+If an operation achieves qualifying combat, Readiness rises by 1 once for the round. Otherwise it falls by 1 once. Food, Guard, Home and unsuccessful expeditions do not sustain conditioning.
+
+Wayfarer — Guild freight vessel
+
+Assign Wayfarer to Council or Trade.
+
+Council offers the vessel for Relief, Military or Shared passage. It cannot also Trade.
+
+Trade attempts this round's commercial voyage without council permission. Success completes one contract.
+
+Trade succeeds at prepared Beacon 3 or 4, or at 2 if guarded. At 2 without protection, Wayfarer is attacked and disabled: no contract is completed, but the attempted crossing still causes one Beacon wear.
+
+Below prepared Beacon 2, the ship does not depart. It stays intact, completes no contract and causes no wear. A successful Trade voyage causes one wear.
+
+There is one contract available each round. Record completed contracts, but do not spend or transfer them. A missed contract cannot be recovered by making two private voyages next round.
+
+Lantern — Guild tender
+
+Assign Lantern to Maintain or Council.
+
+Maintain adds 1 to prepared Beacon without needing a council order.
+
+Council offers Lantern for Repair or Shared. The council must still choose that order.
+
+Lantern cannot do both. If its navigation team is lost, the asset is unavailable for the rest of the game; you cannot replace the crew during these two months.
+
+Spear — the 9th Pale Cohort
+
+Assign Spear to Council, Raid or Stand down.
+
+Council offers Spear for a council Campaign or Raid.
+
+Raid launches an independent interception of a Sorenne Flag patrol, using Spear's own local craft.
+
+Stand down leaves Spear undeployed, with no recovery or Readiness bonus.
+
+An independent Raid needs agreement from both faction members but no other party's permission. It cannot also supply a council operation. A disabled Spear cannot act again.
+
+Vigil — the Narrow garrison
+
+Assign Vigil to Council or Home.
+
+Council offers Vigil for Guard or an eligible imperial Warrant. A Warrant has first claim on its use.
+
+Home keeps Vigil protecting institutional bases. It grants no track bonus, but fulfils the Military autonomy duty.
+
+Vigil remains intact throughout the game and can perform only one task each round. It cannot supply both Guard and a Warrant.
+
+Ownership and service
+
+Council is an offer of service for the round, not a transfer of ownership. A surviving asset returns for its next assignment and retains its ownership weight at the Ceremony. Its owner has given up the other use it could have had that month.
+
+Losses are permanent for this game. None of the available actions restores a disabled Wayfarer, replaces Lantern's navigators or restores Spear. Repair works on Beacon.
+
+Protection and crossing wear
+
+Funded Guard or a valid Warrant makes traffic guarded for the round. Either protects against the specified physical threats and permits Trade at prepared Beacon 2. Neither raises Beacon, allows a crossing below 2 or removes normal wear.
+
+Each actual crossing costs one Beacon after preparation. Grey Petrel can carry Relief while Wayfarer Trades, producing two crossings. Both check the same prepared Beacon value.
+
+2. Navigation and Supply
+
+Choose one order. An offered asset is one its owner assigned to Council on the binding faction sheet. First check the assets; for a voyage, then check prepared Beacon.
+
+Relief
+
+Cost: offered Wayfarer, or a triggered Grey Petrel Relief lift.
+
+Requirement: prepared Beacon at least 2.
+
+Effect: deliver supplies to Sorenne's Fall; Stability +2; one Beacon wear.
+
+Relief does not carry Spear for a Campaign. Grey Petrel can substitute for this voyage only.
+
+Military
+
+Cost: offered Wayfarer.
+
+Requirement: prepared Beacon at least 2.
+
+Effect: deliver military passage for a Campaign against the Sorenne Flag's anchorage; one Beacon wear.
+
+Military gives no supply bonus. Security must also choose Campaign and have offered Spear before a Campaign takes place.
+
+Shared
+
+Cost: Wayfarer and Lantern both offered to Council.
+
+Requirement: prepared Beacon at least 2.
+
+Effect: deliver civilian and military cargo; Stability +1; military passage; one Beacon wear.
+
+Shared is one crossing. Lantern is committed to that voyage and cannot also Maintain. Scenario conditions may expose its navigation team to additional risk.
+
+Repair
+
+Cost: offered Lantern.
+
+Effect: prepared Beacon +2, capped at 4, before crossings.
+
+Repair makes no crossing and carries no council cargo. Wayfarer may still Trade privately through the repaired route.
+
+Hold
+
+Cost: none.
+
+Effect: no council voyage or repair.
+
+Private Trade, Maintain and an independent Raid still resolve if assigned.
+
+Failed orders
+
+An authorised order without its required assets becomes Hold and costs Stability 1. Shared pays this failure cost once even if both assets are missing.
+
+A funded Relief, Military or Shared voyage facing prepared Beacon below 2 is halted. Lose Stability 1, deliver no cargo or passage, and cause no crossing wear. An unfunded order has already become Hold, so it does not also pay this halted-voyage cost.
+
+Example: the Ascendant chooses Military, but the Guild assigned Wayfarer to Trade. Military becomes Hold and costs Stability 1. The private Trade voyage is still checked normally.
+
+3. Security and Government
+
+Choose one order. An independent Raid and an eligible Warrant may also occur, using their own requirements. No asset can be used twice.
+
+Campaign
+
+Cost: offered Spear and delivered Military or Shared passage.
+
+Effect: attack the Sorenne Flag's anchorage beyond the Narrow; Stability −1 from disruption to Sorenne's Fall's supply traffic.
+
+At opening Readiness at least 2, the Campaign achieves qualifying combat. Below 2, Spear is disabled and achieves no qualifying combat.
+
+Without delivered military passage, the Campaign does not leave. It costs Stability 1, leaves Spear intact and achieves no combat. A Relief voyage cannot carry the cohort.
+
+Raid
+
+Cost: offered Spear for a council Raid, or Spear assigned to an independent Raid.
+
+Effect: seek a Sorenne Flag patrol on this side of the crossing; Stability −1 for disruption, even if no patrol appears.
+
+No Guild ship is needed. The patrol's appearance depends on a fixed concealed condition for that round. The facilitator applies that condition; there is no dice roll.
+
+If the patrol is absent, Spear remains intact and achieves no combat. If it appears at opening Readiness at least 2, the Raid achieves combat and costs one further Stability: −2 in total. If it appears below 2, Spear is disabled, with no second Stability loss and no qualifying combat.
+
+Foresight may reveal the condition. Traffic alone does not cause a Raid: Spear must actually have a Raid assignment or a funded council Raid order.
+
+Guard
+
+Cost: offered Vigil, not already used by a Warrant.
+
+Effect: protect civilian traffic and service installations; Stability +1 and guarded status.
+
+Guard does not qualify as combat and does not repair Beacon.
+
+Restraint
+
+Cost: none.
+
+Effect: no council military operation.
+
+An independently assigned Raid still proceeds.
+
+Failed orders and Readiness
+
+A valid council Raid or Campaign without offered Spear becomes Restraint and costs Stability 1. Guard without unused offered Vigil does the same. A separately assigned independent Raid still resolves and pays its own costs.
+
+Example: Spear is assigned to independent Raid, but Security authorises Campaign. Campaign fails because Spear was not offered to Council. The Raid still occurs. Its costs and the failed Campaign's penalty both apply.
+
+At the end of the round, raise Readiness by 1 if any operation achieved qualifying combat; otherwise lower it by 1. Apply this change once, keeping Readiness within 0–4. An expedition that fails to reach a fight does not qualify.
+
+4. Provisional government
+
+The first round ends with a chance to try a new government. Choose who can direct each council and what duties come with that authority. The articles that pass govern round two and cannot be revoked or replaced during it.
+
+An article gives authority and imposes a legal service duty. It does not transfer ownership of an asset. A faction can disobey a duty, take the printed penalty and carry out any otherwise possible independent action.
+
+A Standing Commitment goes further: both owners bind a particular assignment for round two. Use it when another party wants a dependable offer of service before accepting an article.
+
+Interim
+
+Under the starting arrangement, the Ascendant chooses both council orders and may issue an eligible Warrant. The Guild has no service duty. An independent Janissariat Raid breaks discipline and costs Stability 1 in addition to the Raid's ordinary costs.
+
+Navigation articles
+
+Guild discretion (NG): the Guild Navigation delegate chooses the order. The Guild must assign Lantern to Maintain or provide a funded Repair. Otherwise Stability falls by 1. Wayfarer may Trade.
+
+Imperial priority (NI): the Ascendant chooses the order. The Guild must offer Wayfarer to Council or lose Stability 1. The ship forgoes Trade even if the council leaves it unused.
+
+Joint authorisation (NJ): both Navigation delegates must agree the same order, or Navigation Holds. The Guild must offer Wayfarer to Council or lose Stability 1.
+
+Offering Lantern without a funded Repair does not fulfil Guild discretion's upkeep duty. Grey Petrel providing Relief does not fulfil the Wayfarer duty under Imperial priority or Joint authorisation.
+
+Military articles
+
+Imperial command (MI): the Ascendant chooses Security's order and retains eligible Warrant power. The Janissariat must offer Spear to Council or lose Stability 1. The Ascendant may still choose not to fight.
+
+Military autonomy (MA): the Janissariat Security delegate chooses the order. The Janissariat must keep Vigil Home or lose Stability 1. There is no imperial Warrant. An independent Raid is permitted if Vigil stays Home.
+
+Joint authorisation (MJ): both Security delegates must agree the same order, or Security uses Restraint. The Janissariat must offer Spear to Council or lose Stability 1. There is no imperial Warrant.
+
+Each faction takes at most one article-duty penalty per round. Lost assets do not waive a duty. Duty penalties are separate from failed orders, Raid costs and monthly consumption: the civil administration's supply and protection arrangements can be disrupted in more than one way.
+
+Enacting an article
+
+Navigation needs the Guild Navigation delegate, Janissariat Navigation delegate and Ascendant to agree the same exact proposal. Military needs the Guild Security delegate, Janissariat Security delegate and Ascendant. State agreement aloud to the facilitator; no signatures are needed.
+
+The two articles are decided independently. One may pass while the other stays Interim. Agreeing an article does not by itself bind an asset promise made by your teammate.
+
+Standing Commitments
+
+Each faction may attach one available asset assignment to one exact article proposal. Both teammates must approve it. Permitted assignments are:
+
+Wayfarer: Council.
+
+Lantern: Council or Maintain.
+
+Spear: Council.
+
+Vigil: Council or Home.
+
+Record the owner, asset, assignment and article, then ask both teammates to confirm the commitment aloud. If either owner does not agree, that article fails as proposed. To remove or change the promise, agree revised terms and obtain the necessary agreement again.
+
+An article can pass without a commitment. A valid commitment activates only if its article passes. It then overrides contrary round-two selections and defaults, and expires after the round's operation.
+
+The assignment is binding; the council's future order is not. An announced plan creates no extra mechanical penalty if the authorised council later chooses something else.
+
+Example: the Guild attaches Lantern Council to a Joint military proposal. Both Guild players approve the promise; both Security delegates and the Ascendant approve the article. Lantern is now locked to Council next round, but Navigation must still decide whether to use it for Repair or Shared.
+
+Missing or conflicting orders
+
+An unconfirmed, ambiguous or unauthorised Navigation order becomes Hold. The equivalent Security order becomes Restraint. Under a joint article, conflicting choices count as disagreement.
+
+There is no penalty merely for lacking a valid order. An authorised order that lacks its assets does incur the printed failure cost. Private assignments and duties apply in either case.

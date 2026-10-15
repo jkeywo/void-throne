@@ -52,3 +52,11 @@ kind = "google_doc"
 role = "briefs"
 title = "The Void Throne — Player Briefs"
 schema_id = "void-throne-prose-v1"
+
+[[sources]]
+id = "vt:source:components"
+file_id = "1aRnRVi-CWHvBYY5JgJxjOccJO684jLGHQvZN0YIKQi8"
+kind = "google_doc"
+role = "components"
+title = "The Void Throne — Component Reference"
+schema_id = "void-throne-prose-v1"

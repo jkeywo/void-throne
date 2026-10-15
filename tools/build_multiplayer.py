@@ -4,7 +4,7 @@ import json,html,re
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE=ROOT/'web/multiplayer'
 def render(blocks):
-    tags={'TITLE':'h1','HEADING_1':'h2','HEADING_2':'h3'}
+    tags={'TITLE':'h1','HEADING_1':'h2','HEADING_2':'h3','HEADING_3':'h4'}
     out=[]
     for kind,text in blocks:
         safe=html.escape(text)
@@ -18,7 +18,7 @@ for kind,text in docs['briefs']['blocks']:
     if kind=='HEADING_1':
         owner={'The Ductus Guild':'Guild','The Janissariat':'Janissariat','The Ascendant':'Ascendant'}[text];briefs[owner]=[]
     if owner:briefs[owner].append([kind,text])
-reference='const REFERENCE='+json.dumps(dict(rules=render(docs['rulebook']['blocks']),briefs={k:render(v) for k,v in briefs.items()}),ensure_ascii=False).replace('<','\\u003c')+';'
+reference='const REFERENCE='+json.dumps(dict(rules=render(docs['rulebook']['blocks']),components=render(docs['components']['blocks']),briefs={k:render(v) for k,v in briefs.items()}),ensure_ascii=False).replace('<','\\u003c')+';'
 # The repository and game code are public. Only the host starts the engine;
 # each connected player still receives the Multiplayer.view allowlist.
 files = {}

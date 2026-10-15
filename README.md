@@ -13,8 +13,9 @@ It requires no technology at the table.
 - **Drive:** https://drive.google.com/drive/folders/1XxANDmMg-WPg42pdXdhWETZyNCWnmwSE
 - **Browser:** double-click `Start Playtest.cmd`, or run `python launch.py`.
   It opens http://127.0.0.1:8877 and restores the last successful sheet.
-- **Local handbook:** `docs/rulebook.html` — the expanded 14 October teaching edition,
-  with setting, setup, a worked round, action references and a glossary.
+- **Local handbook:** `docs/rulebook.html` — setting, players, phases and settlement.
+- **Player briefs:** `docs/player-briefs.html` — faction guidance and the Ascendant’s powers.
+- **Component rules:** `docs/component-reference.html` — assets, tracks, council actions and Charter articles.
   `docs/rulebook-material-map.json` records rule coverage and verification.
 - **Facilitator answers:** `docs/facilitator.html` (spoilers).
 - **Lore and source distinctions:** `docs/lore.html` and `lore/source-inventory.json`.
@@ -24,7 +25,7 @@ It requires no technology at the table.
 ## Browser testing
 
 The default and current mode is **control every seat**, as requested. Enter each
-player's draft, buy or decline foresight, commit faction assets, sign orders,
+player's draft, buy or decline foresight, commit faction assets, agree council decisions,
 propose articles and record each vote. The server applies the printed rules.
 Use the role/table tabs for parallel discussions and the reason boxes for an
 authored transcript. It is an all-seat test bench, not live AI opposition.
@@ -93,7 +94,7 @@ metrics; unrelated shared card-game counters remain zero.
 | --- | --- |
 | Native Drive documents | Editable current rulebook, guide, lore and playtest write-up |
 | `docs/` | Initial publication source and offline copies; not automatic two-way sync |
-| `src/void_throne/` | Exact operational model, phase/signature procedure, web server and Playtrace plugin |
+| `src/void_throne/` | Exact operational model, phase/agreement procedure, web server and Playtrace plugin |
 | `design/experiments/` | Hypothesis, exact replay script and fresh-agent protocol |
 | `design/evidence/` | Original authored decisions, packets, audits and typed Playtrace evidence |
 | `reports/` | Phased agent report, current replay and historical linked reports |

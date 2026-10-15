@@ -65,3 +65,51 @@ Establish a government you can trust to govern without your constant interventio
 Account for the people and institutions that paid for that settlement.
 
 You gain no special success from keeping imperial command. Use the provisional government to find out whether delegation works, then judge the final Charter on that evidence.
+
+Your powers
+
+Use your worksheet to record your foresight choice and Grey Petrel's task during faction discussion, and your final Warrant choice during councils. Tell the councils your decisions in person; you do not need to write instructions or sign an order. Your authority over council decisions follows the current Charter articles, described in the Component Reference.
+
+Foresight
+
+The Ascendant starts with three foresight tokens. Each unspent token adds one to their final settlement weight.
+
+During faction discussion, once the intended assignments and possible council decisions have been discussed, read the current Navigation and Security covers. Each states which decisions its concealed answer concerns. You choose when to request one answer before the faction bell, leaving time to discuss it and revise assignments. Pay one token before opening an answer. You may instead choose NONE, which costs nothing.
+
+There is at most one purchase per round. A choice must reach the facilitator before the faction bell; a missing, multiple or late choice means NONE. Choosing NONE also completes your choice for the round. Tokens do not recover, and there are no swaps, refunds or further purchases that month.
+
+The facilitator announces the expenditure and remaining tokens. The chosen card and its answer remain private unless the Ascendant shares them. You may show, describe, conceal or misrepresent the answer; the facilitator will not certify your claims to other players.
+
+An answer states what happens if its conditions occur. It does not tell you what players will choose or cover every possible risk. Those conditions apply whether anyone reads the card or not.
+
+Discussion can begin at the start of the faction phase and continues while you consider or use foresight. Until the faction bell, negotiate changes to unlocked assignments and your approach to the councils. Existing Standing Commitments remain binding. Avoiding a vision's condition averts its result; it does not make the vision false.
+
+Example: a cover concerns a voyage the Guild has proposed. Buying its answer may give the Ascendant grounds to request protection or a different assignment. If the relevant assignments are already locked, the information may be less useful than retaining the token's political weight.
+
+There are three tokens and at most one purchase in each of the two rounds. At least one token will remain. Keeping more requires choosing NONE in at least one round.
+
+Imperial Warrant
+
+The Warrant draws on the Ascendant's authority over the army to use Vigil independently of the council's other operation.
+
+Requirement: Military authority is Interim or Imperial command, opening Readiness is at least 3, and Vigil is offered to Council.
+
+Timing: record the final Warrant before the council bell.
+
+Effect: use Vigil first; Stability +1 and guarded status. Security may use offered Spear for a separate order.
+
+Under Interim or Imperial command, a Warrant without sufficient Readiness or offered Vigil fails and costs Stability 1. Under Military autonomy or Joint authorisation, it is advice only, with no effect or penalty. A missing or unconfirmed Warrant means No.
+
+If a valid Warrant uses Vigil, a simultaneous Guard lacks its asset and pays the normal failure cost.
+
+Grey Petrel
+
+Grey Petrel is a contracted cutter with a licensed Guild pilot and a protection detail. Its contract covers one triggered intervention during the whole game. It cannot carry Spear, repair Beacon or provide a second service after its token is spent.
+
+Before the faction bell, lodge Relief lift, Tender cover or Keep. The task locks before councils. If its condition does not occur, retain the reserve token.
+
+Relief lift triggers when the final authorised Navigation order is Relief and Wayfarer was not offered. Grey Petrel supplies the ship requirement and spends the token immediately, even if low Beacon later halts the voyage. Wayfarer may still make a private Trade voyage.
+
+Tender cover triggers in round one when Shared is delivered unguarded and the printed crew-loss consequence occurs. Prevent that loss of Lantern's team and spend the token. This gives no general protection or track bonus and has no round-two trigger.
+
+Keep retains the token without intervening. A missing task also means Keep. Unspent reserve gives no settlement weight.
