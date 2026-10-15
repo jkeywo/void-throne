@@ -178,9 +178,7 @@ class Multiplayer:
         result={'note':short(row.get('note',''),4000)};stage=self.game.stage
         if stage=='draft':
             for a,opts in ASSETS.get(role,{}).items():result[a]=choice(row.get(a),opts)
-            result['navigation']=choice(row.get('navigation'),NAV+['Undeclared'])
-            result['security']=choice(row.get('security'),SEC+['Undeclared'])
-            if role=='A':result['warrant']=boolean(row.get('warrant',False))
+            # Council intentions are spoken or discussed in chat; draft sheets only record assets.
         elif stage=='vision':result['choice']=choice(row.get('choice'),['None','Navigation','Security'])
         elif stage=='commit':
             if role=='A':
@@ -188,10 +186,9 @@ class Multiplayer:
                 result['disclose']=boolean(row.get('disclose',False))
             else:
                 for a,opts in ASSETS[role].items():result[a]=choice(row.get(a),opts)
-                result['sign']=boolean(row.get('sign',False))
         elif stage=='council':
-            if role in ('GN','JN','A'):result['navigation']=choice(row.get('navigation'),NAV+['Unsigned'])
-            if role in ('GS','JS','A'):result['security']=choice(row.get('security'),SEC+['Unsigned'])
+            if role in ('GN','JN','A'):result['navigation']=choice(row.get('navigation'),NAV+['No agreement','Unsigned'])
+            if role in ('GS','JS','A'):result['security']=choice(row.get('security'),SEC+['No agreement','Unsigned'])
             if role=='A':result['warrant']=boolean(row.get('warrant',False))
         elif stage=='trial-vote':
             for d in ('navigation','military'):
@@ -222,16 +219,14 @@ class Multiplayer:
                 row=dict(s.get(r,{}));row.pop('note',None)
                 if not row:
                     row=dict(DEFAULTS['Guild' if r.startswith('G') else 'Janissariat']) if r!='A' else {'warrant':False}
-                    row.update(navigation='Undeclared',security='Undeclared')
                 p['proposals'][r]=row
         elif stage=='vision':p['choice']=s.get('A',{}).get('choice','None')
         elif stage=='commit':
-            p.update(assignments={r:{a:s.get(r,{}).get(a) for a in ASSETS[r]} for r in ROLES if r!='A'},
-                     signatures={r:s.get(r,{}).get('sign',False) for r in ROLES if r!='A'},
+            p.update(assignments={r:{a:s.get(r,{}).get(a) for a in ASSETS[r]} for r in ROLES if r!='A' and r in s},
                      reserve=s.get('A',{}).get('reserve','Keep'),disclose=s.get('A',{}).get('disclose',False))
         elif stage=='council':
-            p.update(navigation={r:s.get(r,{}).get('navigation','Unsigned') for r in ('GN','JN','A')},
-                     security={r:s.get(r,{}).get('security','Unsigned') for r in ('GS','JS','A')},
+            p.update(navigation={r:s.get(r,{}).get('navigation','No agreement') for r in ('GN','JN','A')},
+                     security={r:s.get(r,{}).get('security','No agreement') for r in ('GS','JS','A')},
                      warrant=s.get('A',{}).get('warrant',False))
         elif stage=='trial-vote':
             p['votes']={r:dict(navigation=s.get(r,{}).get('navigation',False),military=s.get(r,{}).get('military',False),

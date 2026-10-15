@@ -6,7 +6,7 @@ The Ductus Guild
 
 Two players · shared assets and objectives. Your Navigation delegate is GN; your Security delegate is GS.
 
-Agree asset assignments and negotiating priorities together before separating. Both players must sign your faction’s decisions.
+Agree asset assignments and negotiating priorities together before separating. Both players must agree your faction’s asset assignments; confirm them aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions.
 
 You operate the passage service through the Narrow. Wayfarer is your freight vessel; Lantern carries your navigation team and maintains the route. Those ships are needed for civilian supplies, military transport and your own commercial obligations.
 
@@ -28,7 +28,7 @@ The Janissariat
 
 Two players · shared assets and objectives. Your Navigation delegate is JN; your Security delegate is JS.
 
-Agree asset assignments and negotiating priorities together before separating. Both players must sign your faction’s decisions.
+Agree asset assignments and negotiating priorities together before separating. Both players must agree your faction’s asset assignments; confirm them aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions.
 
 You command Spear, the 9th Pale Cohort, and Vigil, the Narrow garrison. Spear has local assault craft, but needs Guild transport to campaign beyond the crossing. Vigil can protect traffic or remain at its institutional bases.
 
@@ -48,7 +48,7 @@ Military autonomy lets you choose operations, but requires Vigil to stay Home. J
 
 The Ascendant
 
-One player · A on decision sheets. Attend Security and Government; send Navigation and Supply a written directive when you hold its authority.
+One player · A on decision sheets. Attend Security and Government; tell Navigation and Supply your decision in person when you hold its authority. A council member records the final order; no signature is needed.
 
 You need a government capable of maintaining the Dominion, and an army capable of defending it. A quiet month may help Sorenne's Fall while weakening both the Janissariat and the authority they give you.
 

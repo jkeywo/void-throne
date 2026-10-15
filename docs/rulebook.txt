@@ -108,31 +108,37 @@ After the second round, there will be a ten-minute Ceremony of Settlement to res
 
 Decision sheets
 
-Your decision sheets tell the facilitator what you have agreed to do. An asset is a named ship or military unit controlled by your faction. An assignment is the job you give it for this round. During faction discussion, write one assignment for each asset on your faction sheet and have both teammates sign it. You can also record what you want each council to do; these requests guide your representatives but do not bind the council. The assets and their possible assignments are explained in section 6.
+Your decision sheets tell the facilitator what you have agreed to do.
 
-During council discussion, record the council's chosen action, called its order, on the council sheet. Orders are explained in sections 7 and 8. Each council has an article: a rule saying who has authority to approve its order. Copy the current article onto the sheet and obtain the initials it requires. At the start, the Ascendant approves both councils' orders. Section 10 explains how you can change that arrangement.
+An asset is a named ship or military unit controlled by your faction.
 
-The Ascendant has a separate worksheet for their own decisions: what they want the councils to do, whether to spend a token to see a possible future, and how to use the imperial reserve ship. Section 9 explains these powers and their costs.
+An assignment is the job you give it for this round.
 
-The facilitator keeps a public record of results, available assets and the current rules for who makes decisions. You can consult it throughout play. Draft sheets are proposals; the signed sheets submitted at the end of each phase are the decisions the facilitator resolves.
+During faction discussion, agree and record one assignment for each asset on your faction sheet. Both teammates must agree, but neither needs to sign. You take your faction's approach to the councils yourselves; there is no need to write instructions to either council. The assets and their possible assignments are explained in section 6.
+
+During council discussion, agree the council's chosen action, called its order. Orders are explained in sections 7 and 8. Each council has an article: a rule saying who has authority to approve its order. Those players state their decision aloud, and one council member records the final order for the facilitator. No initials or signatures are needed. At the start, the Ascendant approves both councils' orders. Section 10 explains how you can change that arrangement.
+
+The Ascendant has a separate worksheet to record whether they spend a token to see a possible future, how they use the imperial reserve ship, and whether they issue an imperial Warrant. A Warrant is a separate protective deployment, explained with the Ascendant's other powers in section 9. The Ascendant tells the councils their intended approach in person.
+
+The facilitator keeps a public record of results, available assets and the current rules for who makes decisions. You can consult it throughout play. Draft assignments are proposals; the final assignments and council decisions recorded at each phase deadline are what the facilitator resolves. During play, agreement is spoken. Only the final settlement has assent boxes to tick.
 
 Faction discussion — five minutes
 
 You have five minutes to decide your faction's approach and complete its sheet. Start discussing as soon as the phase begins. Use the time as you see fit: confer with your teammate, talk to the Ascendant or the other faction, consider possible council orders and revise your offer. There are no timed steps within this phase.
 
-Make your intended assignments and council requests visible before the Ascendant chooses whether to use foresight. The Ascendant also states their intended council orders. These are drafts, not commitments; if teammates disagree, show both positions. Once those intentions are visible, the Ascendant may buy one vision during the remaining faction time, or choose NONE. The covers explain what each vision concerns; an answer costs one foresight token, paid before it is opened (section 9). Discussion continues throughout.
+Discuss your intended assignments and what you hope the councils will do before the Ascendant chooses whether to use foresight. The Ascendant also explains their intended approach. These are proposals, not commitments; if teammates disagree, explain both positions. No written council requests are needed. Once those intentions have been shared, the Ascendant may buy one vision during the remaining faction time, or choose NONE. The covers explain what each vision concerns; an answer costs one foresight token, paid before it is opened (section 9). Discussion continues throughout.
 
-You may change your proposed assignments after further discussion or information from the Ascendant. At the end of the five minutes, both faction members sign the same final assignments. The Ascendant records how they will use Grey Petrel, the imperial reserve ship, or keeps it in reserve. Its tasks are explained in section 9. Allow time to finish these decisions before the bell.
+You may change your proposed assignments after further discussion or information from the Ascendant. At the end of the five minutes, both faction members confirm the same final assignments aloud and record them on their faction sheet. The Ascendant records how they will use Grey Petrel, the imperial reserve ship, or keeps it in reserve. Its tasks are explained in section 9. Allow time to finish these decisions before the bell.
 
-Assignments and the reserve task lock at the faction bell. In round two, an asset may already be bound by a Standing Commitment: a promise signed in round one to give that asset a specified assignment in round two (section 10). Mark that assignment LOCKED on both draft and final sheets.
+Assignments and the reserve task lock at the faction bell. In round two, an asset may already be bound by a Standing Commitment: a promise agreed and recorded in round one to give that asset a specified assignment in round two (section 10). Mark that assignment LOCKED on both draft and final sheets.
 
 Council discussion — five minutes
 
 Go to your council and negotiate its order using the assets offered. Coordinate with the other table where necessary: a Campaign needs military passage, while a voyage may need Guard or a Warrant.
 
-Check the current article before signing. It determines whose approval counts. Where the Ascendant holds Navigation authority, they send that council a public written directive.
+Check the current article before agreeing the order. It determines whose approval counts. Where the Ascendant holds Navigation authority, they tell that council their decision in person. Its representative records the final order.
 
-At the bell, submit one final written order per council with the required initials. The Ascendant's final Warrant choice locks at the same time. Spoken promises and superseded notes have no effect.
+At the bell, each council reports its final order and gives the facilitator its record. The players whose approval is required must have agreed to that order; no signatures are needed. The Ascendant confirms their final Warrant choice at the same deadline. Earlier proposals and informal promises do not replace the final decision.
 
 The facilitator resolves both councils, private assignments and scenario conditions, then announces track changes, asset losses, completed contracts and token expenditure. Neither council can change its order after seeing the other's result.
 
@@ -144,13 +150,13 @@ After round two, use this discussion to negotiate the final package. There is no
 
 Failure to agree
 
-Both teammates must sign the same final asset assignments. If a signature is missing or their signed choices disagree, the faction uses its defaults:
+Both teammates must agree the final asset assignments. If either player has not confirmed them by the faction bell, or they disagree, the faction uses its defaults:
 
 Guild: Wayfarer Trade; Lantern Maintain.
 
 Janissariat: Spear Stand down; Vigil Home.
 
-A missing or multiple selection for an individual asset uses that asset's default. Lost or disabled assets are Absent. A Standing Commitment overrides a conflicting selection or default; refusing to sign does not release it.
+A missing or multiple selection for an individual asset uses that asset's default. Lost or disabled assets are Absent. A Standing Commitment overrides a conflicting selection or default; withdrawing agreement later does not release it.
 
 5. Example of play
 
@@ -160,7 +166,7 @@ Robin and Alex, playing the Guild, offer Wayfarer to Council and assign Lantern 
 
 Sam and Lee, playing the Janissariat, assign Spear to Stand down and offer Vigil to Council. They ask for Relief and Guard. Without combat, they know Readiness will fall.
 
-The Ascendant sees the drafts, chooses not to buy a vision and keeps Grey Petrel in reserve. Both factions sign their assignments. At the council bell, the Ascendant authorises Relief and Guard, with no Warrant.
+The Ascendant sees the drafts, chooses not to buy a vision and keeps Grey Petrel in reserve. Both factions confirm and record their assignments. At the council bell, the Ascendant authorises Relief and Guard, with no Warrant.
 
 Resolution
 
@@ -244,7 +250,7 @@ Raid launches an independent interception of a Sorenne Flag patrol, using Spear'
 
 Stand down leaves Spear undeployed, with no recovery or Readiness bonus.
 
-An independent Raid needs both faction signatures but no other party's permission. It cannot also supply a council operation. A disabled Spear cannot act again.
+An independent Raid needs agreement from both faction members but no other party's permission. It cannot also supply a council operation. A disabled Spear cannot act again.
 
 Vigil — the Narrow garrison
 
@@ -324,7 +330,7 @@ An authorised order without its required assets becomes Hold and costs Stability
 
 A funded Relief, Military or Shared voyage facing prepared Beacon below 2 is halted. Lose Stability 1, deliver no cargo or passage, and cause no crossing wear. An unfunded order has already become Hold, so it does not also pay this halted-voyage cost.
 
-Example: the Ascendant signs Military, but the Guild assigned Wayfarer to Trade. Military becomes Hold and costs Stability 1. The private Trade voyage is still checked normally.
+Example: the Ascendant chooses Military, but the Guild assigned Wayfarer to Trade. Military becomes Hold and costs Stability 1. The private Trade voyage is still checked normally.
 
 8. Security and Government
 
@@ -382,7 +388,7 @@ Foresight
 
 The Ascendant starts with three foresight tokens. Each unspent token adds one to their final settlement weight.
 
-During faction discussion, once the intended assignments and council orders are visible, read the current Navigation and Security covers. Each states which decisions its concealed answer concerns. You choose when to request one answer before the faction bell, leaving time to discuss it and revise assignments. Pay one token before opening an answer. You may instead choose NONE, which costs nothing.
+During faction discussion, once the intended assignments and possible council decisions have been discussed, read the current Navigation and Security covers. Each states which decisions its concealed answer concerns. You choose when to request one answer before the faction bell, leaving time to discuss it and revise assignments. Pay one token before opening an answer. You may instead choose NONE, which costs nothing.
 
 There is at most one purchase per round. A choice must reach the facilitator before the faction bell; a missing, multiple or late choice means NONE. Choosing NONE also completes your choice for the round. Tokens do not recover, and there are no swaps, refunds or further purchases that month.
 
@@ -390,7 +396,7 @@ The facilitator announces the expenditure and remaining tokens. The chosen card 
 
 An answer states what happens if its conditions occur. It does not tell you what players will choose or cover every possible risk. Those conditions apply whether anyone reads the card or not.
 
-Discussion can begin at the start of the faction phase and continues while you consider or use foresight. Until the faction bell, negotiate changes to unlocked assignments and council requests. Existing Standing Commitments remain binding. Avoiding a vision's condition averts its result; it does not make the vision false.
+Discussion can begin at the start of the faction phase and continues while you consider or use foresight. Until the faction bell, negotiate changes to unlocked assignments and your approach to the councils. Existing Standing Commitments remain binding. Avoiding a vision's condition averts its result; it does not make the vision false.
 
 Example: a cover concerns a voyage the Guild has proposed. Buying its answer may give the Ascendant grounds to request protection or a different assignment. If the relevant assignments are already locked, the information may be less useful than retaining the token's political weight.
 
@@ -406,7 +412,7 @@ Timing: record the final Warrant before the council bell.
 
 Effect: use Vigil first; Stability +1 and guarded status. Security may use offered Spear for a separate order.
 
-Under Interim or Imperial command, a Warrant without sufficient Readiness or offered Vigil fails and costs Stability 1. Under Military autonomy or Joint authorisation, it is advice only, with no effect or penalty. A missing or unsigned Warrant means No.
+Under Interim or Imperial command, a Warrant without sufficient Readiness or offered Vigil fails and costs Stability 1. Under Military autonomy or Joint authorisation, it is advice only, with no effect or penalty. A missing or unconfirmed Warrant means No.
 
 If a valid Warrant uses Vigil, a simultaneous Guard lacks its asset and pays the normal failure cost.
 
@@ -456,9 +462,9 @@ Each faction takes at most one article-duty penalty per round. Lost assets do no
 
 Enacting an article
 
-Navigation needs the Guild Navigation delegate, Janissariat Navigation delegate and Ascendant to sign the same exact proposal. Military needs the Guild Security delegate, Janissariat Security delegate and Ascendant.
+Navigation needs the Guild Navigation delegate, Janissariat Navigation delegate and Ascendant to agree the same exact proposal. Military needs the Guild Security delegate, Janissariat Security delegate and Ascendant. State agreement aloud to the facilitator; no signatures are needed.
 
-The two articles are decided independently. One may pass while the other stays Interim. Signing an article does not by itself bind an asset promise made by your teammate.
+The two articles are decided independently. One may pass while the other stays Interim. Agreeing an article does not by itself bind an asset promise made by your teammate.
 
 Standing Commitments
 
@@ -472,7 +478,7 @@ Spear: Council.
 
 Vigil: Council or Home.
 
-Record the owner, asset, assignment and article before collecting signatures. If an attached commitment lacks both owner approvals, that article fails as written. To remove or change the promise, agree revised terms and collect the necessary approvals again.
+Record the owner, asset, assignment and article, then ask both teammates to confirm the commitment aloud. If either owner does not agree, that article fails as proposed. To remove or change the promise, agree revised terms and obtain the necessary agreement again.
 
 An article can pass without a commitment. A valid commitment activates only if its article passes. It then overrides contrary round-two selections and defaults, and expires after the round's operation.
 
@@ -482,7 +488,7 @@ Example: the Guild attaches Lantern Council to a Joint military proposal. Both G
 
 Missing or conflicting orders
 
-An unsigned, ambiguous or unauthorised Navigation order becomes Hold. The equivalent Security order becomes Restraint. Under a joint article, conflicting choices count as disagreement.
+An unconfirmed, ambiguous or unauthorised Navigation order becomes Hold. The equivalent Security order becomes Restraint. Under a joint article, conflicting choices count as disagreement.
 
 There is no penalty merely for lacking a valid order. An authorised order that lacks its assets does incur the printed failure cost. Private assignments and duties apply in either case.
 
@@ -502,7 +508,7 @@ Readiness sustains both the army's institutional power and the ruler's authority
 
 Voting
 
-Each player votes Yes or No on the whole package. Both Guild players must approve for the Guild to sign; both Janissariat players must approve for the army to sign. The Ascendant signs individually. Missing approval or disagreement means that faction gives no supporting signature.
+On the final settlement sheet, tick one box beside each player's role: Assent or Do not assent. Both Guild players must assent for the Guild's weight to count; both Janissariat players must assent for the army's weight to count. The Ascendant assents individually. An unticked row or disagreement within a faction gives that party no supporting weight. No handwritten signatures are needed.
 
 Add all available weight, including parties that refuse or abstain. The package needs at least two-thirds of that total, rounded up, and signatures from at least two parties with positive weight. A total weight of zero cannot ratify a settlement.
 
@@ -522,7 +528,7 @@ The physical result remains: lost assets stay lost, tracks stay where they finis
 
 Can the Ascendant take a ship or cohort?
 
-Imperial authority permits orders, not confiscation. Use the owner's signed assignment or its default. An activated Standing Commitment can require service, but an article's duty alone cannot physically supply an asset.
+Imperial authority permits orders, not confiscation. Use the owner's agreed assignment or its default. An activated Standing Commitment can require service, but an article's duty alone cannot physically supply an asset.
 
 Can another faction stop an independent Raid?
 
@@ -548,7 +554,7 @@ Do not discard a supply gain because an intermediate total exceeds 4, or stop co
 
 Who decides a disputed result?
 
-The facilitator checks the current articles, signed sheets and printed consequences, including concealed conditions. They cannot invent resources, a new prophecy, additional Charter options or rewards for cooperation.
+The facilitator checks the current articles, recorded decisions and printed consequences, including concealed conditions. They cannot invent resources, a new prophecy, additional Charter options or rewards for cooperation.
 
 13. Reference
 
@@ -558,7 +564,7 @@ Briefing: 8 minutes.
 
 Each round: factions 5 minutes; councils 5; free discussion 5.
 
-Faction discussion has one deadline. Discuss from the start, display intentions before the foresight choice, and submit final signed assignments and the reserve task at the faction bell. Players budget their own time.
+Faction discussion has one deadline. Discuss from the start, share intentions before the foresight choice, and record final agreed assignments and the reserve task at the faction bell. Players budget their own time.
 
 Council bell: final orders and Warrant lock; both councils resolve.
 

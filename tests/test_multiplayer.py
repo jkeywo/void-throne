@@ -38,6 +38,20 @@ class MultiplayerTests(unittest.TestCase):
         self.assertTrue(self.m.game.settlement['ratified'])
         self.assertNotIn('token',json.dumps(self.m.export()['seats']))
         self.assertIn('Human-seat multiplayer record',self.m.report().decode())
+    def test_current_players_submit_without_requests_or_signature_fields(self):
+        for action in SCRIPT:
+            for role in self.m.required():
+                row=row_for(action,role)
+                if action['stage']=='draft':
+                    for key in ('navigation','security','warrant'):row.pop(key,None)
+                row.pop('sign',None)
+                self.send(role,row)
+                self.assertNotIn('sign',self.m.sheets[role])
+            self.m.advance(self.m.epoch,action)
+        self.assertTrue(self.m.game.settlement['ratified'])
+        for action in self.m.game.actions:
+            if action['stage']=='commit':self.assertNotIn('signatures',action)
+
     def test_private_vision_and_choice_never_sent_to_other_seats(self):
         self.step(SCRIPT[0]);self.step(SCRIPT[1]);answer=self.m.game.vision['branches'][0]['consequence']
         self.assertIn(answer,json.dumps(self.m.view('A'),ensure_ascii=False))

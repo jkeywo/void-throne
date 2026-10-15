@@ -7,7 +7,7 @@ const options=JSON.stringify({host:'127.0.0.1',port:9001,path:'/',secure:false,c
 const save=path.resolve('.playtrace/multiplayer-test-session-'+Date.now()+'.json');
 let browser,server,signal;
 async function waitServer(){for(let i=0;i<40;i++){try{const r=await fetch(base+'/multiplayer.html');if(r.ok)return;}catch{}await new Promise(r=>setTimeout(r,150));}throw Error('Test server did not start');}
-async function fill(page,form,data){for(const[k,v]of Object.entries(data)){const el=page.locator(form+' [name="'+k+'"]');if(!await el.count())continue;const tag=await el.evaluate(e=>e.tagName);if(typeof v==='boolean')await el.setChecked(v);else if(tag==='SELECT')await el.selectOption(v);else await el.fill(v);}}
+async function fill(page,form,data){for(const[k,v]of Object.entries(data)){const el=page.locator(form+' [name="'+k+'"]');if(!await el.count())continue;const tag=await el.evaluate(e=>e.tagName);if(tag==='SELECT')await el.selectOption(typeof v==='boolean'?(v?'Agree':'Do not agree'):v==='Unsigned'?'No agreement':v);else if(typeof v==='boolean')await el.setChecked(v);else await el.fill(v);}}
 function row(a,r){const s=a.stage,o={note:a.notes?.[r]||''};if(s==='draft')Object.assign(o,a.proposals[r]);if(s==='vision')o.choice=a.choice;if(s==='commit'){if(r==='A')Object.assign(o,{reserve:a.reserve,disclose:a.disclose});else Object.assign(o,a.assignments[r],{sign:a.signatures[r]});}if(s==='council'){for(const k of ['navigation','security'])if(r in a[k])o[k]=a[k][r];if(r==='A')o.warrant=a.warrant;}if(s==='trial-vote'){Object.assign(o,a.votes[r]);o.pledge=!!a.votes[r][r.startsWith('G')?'Guild':'Janissariat'];}if(s==='ceremony-vote')o.approve=a.approvals[r];return o;}
 (async()=>{
  signal=PeerServer({port:9001,path:'/',host:'127.0.0.1'});

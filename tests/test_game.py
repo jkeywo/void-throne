@@ -18,6 +18,29 @@ class GameTests(unittest.TestCase):
         g=self.replay();expected=json.loads((ROOT/'tests/fixtures/expected-ending.json').read_text())
         self.assertEqual(g.state,expected['physical']);self.assertEqual(g.foresight,1)
         for k,v in expected['settlement'].items():self.assertEqual(g.settlement[k],v)
+    def test_spoken_decisions_need_no_incoming_orders_or_signatures(self):
+        actions=deepcopy(SCRIPT)
+        for action in actions:
+            if action['stage']=='draft':
+                for row in action['proposals'].values():
+                    for key in ('navigation','security','warrant'):row.pop(key,None)
+            if action['stage']=='commit':action.pop('signatures')
+        game=self.replay(actions)
+        self.assertEqual(game.state,self.replay().state)
+        self.assertTrue(game.settlement['ratified'])
+        for event in game.history:
+            if event['event']=='Final faction sheets':self.assertNotIn('signatures',event)
+
+    def test_unconfirmed_or_conflicting_assignments_still_default(self):
+        for missing in (True,False):
+            game=Session()
+            for action in SCRIPT[:2]:game.apply(action)
+            action=deepcopy(SCRIPT[2]);action.pop('signatures')
+            if missing:action['assignments'].pop('JN')
+            else:action['assignments']['JN']['spear']='Stand down'
+            game.apply(action)
+            self.assertEqual(game.assignments['Janissariat'],{'spear':'Stand down','vigil':'Home'})
+
     def test_none_preserves_leverage_without_changing_fixed_effects(self):
         actions=deepcopy(SCRIPT)
         for p in actions:
@@ -33,10 +56,10 @@ class GameTests(unittest.TestCase):
         g=Session();g.apply(SCRIPT[0]);self.assertIsNone(g.public()['selected_vision'])
         g.apply(SCRIPT[1]);self.assertEqual(g.public()['selected_vision']['id'],'R1-S')
         self.assertNotIn('Exposed transfer berth',json.dumps(g.public()))
-    def test_unsigned_owners_default(self):
+    def test_legacy_unsigned_owners_default(self):
         g=Session();g.apply(SCRIPT[0]);g.apply(SCRIPT[1]);p=deepcopy(SCRIPT[2]);p['signatures']['JN']=False;g.apply(p)
         self.assertEqual(g.assignments['Janissariat'],{'spear':'Stand down','vigil':'Home'})
-    def test_existing_pledge_survives_unsigned_later_sheet(self):
+    def test_legacy_pledge_survives_unsigned_later_sheet(self):
         g=Session()
         for p in SCRIPT[:8]:g.apply(p)
         p=deepcopy(SCRIPT[8]);p['signatures']['GN']=False;p['assignments']['GN']['lantern']='Maintain';g.apply(p)

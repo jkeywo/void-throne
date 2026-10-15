@@ -1,10 +1,10 @@
 {
   "edition": "v0.3 author-style and named-crisis revision, 2026-10-14",
-  "rule_changes": false,
+  "rule_changes": true,
   "native_document": {
     "id": "1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSxaJrW1s",
     "url": "https://docs.google.com/document/d/1mQ-QW8F8qWs9NshiVQL428aBf5EQsIN7oYlSxaJrW1s/edit?usp=drivesdk",
-    "revision": "AHj4eMTXDNBAQO57uoCt_4bXDLxmqGnO4AQsYwdTIfmmpLJk3S61lzyAKmrdcMVt2Vipl6vsaF_qnyLpixleRcI8KLz-QMNeqNDUq3GjeR8"
+    "revision": "AHj4eMTLoLgxXjh_DeYZK4BpZ8-utbvQlBI3BskG5aBPJUJVabm5gis89qVIdxVFaTzCoI2V9vyzdQwiLQJrRUq4EmgpBZXFV7IW1bLPvgY"
   },
   "writing_guide": {
     "path": "C:/AnalogueGames/analogue-projects/DSL/guides/writing_good_rulebooks.md",
@@ -244,8 +244,9 @@
     "exported_report_labels": "recorded actions resolved; current state and effect labels verified; historical player remarks preserved",
     "brief_separation": "Native text verified: exact faction prose moved; latest user edits outside scope preserved; contents link still targets section 3.",
     "setup_separation": "Materials, layout and starting allocations moved to the facilitator guide; player decision-sheet guidance retained under sequence of play. Current native edits preserved and read back.",
-    "faction_timing": "One flexible five-minute faction phase; discussion from outset; intentions before foresight; signed assignments at the bell. Council and free discussion each five minutes, preserving current native edits.",
-    "decision_sheet_teaching": "Defines assets, assignments, orders and articles before use, with pointers to detailed rules."
+    "faction_timing": "One flexible five-minute faction phase; discussion from outset; intentions before foresight; agreed assignments at the bell. Council and free discussion each five minutes, preserving current native edits.",
+    "decision_sheet_teaching": "Defines assets, assignments, orders and articles before use, with pointers to detailed rules.",
+    "spoken_agreement": "No incoming council requests or operational signatures; spoken agreement and recorded outcomes; final settlement assent boxes."
   },
   "limitations": "The map records editorial coverage, not proof of comprehension or a new playtest. Prior Playtrace evidence retains the source revisions used for that run.",
   "playtrace_dependency_revision": "ae44cc3b7f31d690a6b2b558e9034a9dd0ef63dd",

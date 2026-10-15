@@ -224,19 +224,31 @@
       ],
       [
         "NORMAL_TEXT",
-        "Your decision sheets tell the facilitator what you have agreed to do. An asset is a named ship or military unit controlled by your faction. An assignment is the job you give it for this round. During faction discussion, write one assignment for each asset on your faction sheet and have both teammates sign it. You can also record what you want each council to do; these requests guide your representatives but do not bind the council. The assets and their possible assignments are explained in section 6."
+        "Your decision sheets tell the facilitator what you have agreed to do."
+      ],
+      [
+        "BULLET",
+        "An asset is a named ship or military unit controlled by your faction."
+      ],
+      [
+        "BULLET",
+        "An assignment is the job you give it for this round."
       ],
       [
         "NORMAL_TEXT",
-        "During council discussion, record the council's chosen action, called its order, on the council sheet. Orders are explained in sections 7 and 8. Each council has an article: a rule saying who has authority to approve its order. Copy the current article onto the sheet and obtain the initials it requires. At the start, the Ascendant approves both councils' orders. Section 10 explains how you can change that arrangement."
+        "During faction discussion, agree and record one assignment for each asset on your faction sheet. Both teammates must agree, but neither needs to sign. You take your faction's approach to the councils yourselves; there is no need to write instructions to either council. The assets and their possible assignments are explained in section 6."
       ],
       [
         "NORMAL_TEXT",
-        "The Ascendant has a separate worksheet for their own decisions: what they want the councils to do, whether to spend a token to see a possible future, and how to use the imperial reserve ship. Section 9 explains these powers and their costs."
+        "During council discussion, agree the council's chosen action, called its order. Orders are explained in sections 7 and 8. Each council has an article: a rule saying who has authority to approve its order. Those players state their decision aloud, and one council member records the final order for the facilitator. No initials or signatures are needed. At the start, the Ascendant approves both councils' orders. Section 10 explains how you can change that arrangement."
       ],
       [
         "NORMAL_TEXT",
-        "The facilitator keeps a public record of results, available assets and the current rules for who makes decisions. You can consult it throughout play. Draft sheets are proposals; the signed sheets submitted at the end of each phase are the decisions the facilitator resolves."
+        "The Ascendant has a separate worksheet to record whether they spend a token to see a possible future, how they use the imperial reserve ship, and whether they issue an imperial Warrant. A Warrant is a separate protective deployment, explained with the Ascendant's other powers in section 9. The Ascendant tells the councils their intended approach in person."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The facilitator keeps a public record of results, available assets and the current rules for who makes decisions. You can consult it throughout play. Draft assignments are proposals; the final assignments and council decisions recorded at each phase deadline are what the facilitator resolves. During play, agreement is spoken. Only the final settlement has assent boxes to tick."
       ],
       [
         "HEADING_2",
@@ -248,15 +260,15 @@
       ],
       [
         "NORMAL_TEXT",
-        "Make your intended assignments and council requests visible before the Ascendant chooses whether to use foresight. The Ascendant also states their intended council orders. These are drafts, not commitments; if teammates disagree, show both positions. Once those intentions are visible, the Ascendant may buy one vision during the remaining faction time, or choose NONE. The covers explain what each vision concerns; an answer costs one foresight token, paid before it is opened (section 9). Discussion continues throughout."
+        "Discuss your intended assignments and what you hope the councils will do before the Ascendant chooses whether to use foresight. The Ascendant also explains their intended approach. These are proposals, not commitments; if teammates disagree, explain both positions. No written council requests are needed. Once those intentions have been shared, the Ascendant may buy one vision during the remaining faction time, or choose NONE. The covers explain what each vision concerns; an answer costs one foresight token, paid before it is opened (section 9). Discussion continues throughout."
       ],
       [
         "NORMAL_TEXT",
-        "You may change your proposed assignments after further discussion or information from the Ascendant. At the end of the five minutes, both faction members sign the same final assignments. The Ascendant records how they will use Grey Petrel, the imperial reserve ship, or keeps it in reserve. Its tasks are explained in section 9. Allow time to finish these decisions before the bell."
+        "You may change your proposed assignments after further discussion or information from the Ascendant. At the end of the five minutes, both faction members confirm the same final assignments aloud and record them on their faction sheet. The Ascendant records how they will use Grey Petrel, the imperial reserve ship, or keeps it in reserve. Its tasks are explained in section 9. Allow time to finish these decisions before the bell."
       ],
       [
         "NORMAL_TEXT",
-        "Assignments and the reserve task lock at the faction bell. In round two, an asset may already be bound by a Standing Commitment: a promise signed in round one to give that asset a specified assignment in round two (section 10). Mark that assignment LOCKED on both draft and final sheets."
+        "Assignments and the reserve task lock at the faction bell. In round two, an asset may already be bound by a Standing Commitment: a promise agreed and recorded in round one to give that asset a specified assignment in round two (section 10). Mark that assignment LOCKED on both draft and final sheets."
       ],
       [
         "HEADING_2",
@@ -268,11 +280,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "Check the current article before signing. It determines whose approval counts. Where the Ascendant holds Navigation authority, they send that council a public written directive."
+        "Check the current article before agreeing the order. It determines whose approval counts. Where the Ascendant holds Navigation authority, they tell that council their decision in person. Its representative records the final order."
       ],
       [
         "NORMAL_TEXT",
-        "At the bell, submit one final written order per council with the required initials. The Ascendant's final Warrant choice locks at the same time. Spoken promises and superseded notes have no effect."
+        "At the bell, each council reports its final order and gives the facilitator its record. The players whose approval is required must have agreed to that order; no signatures are needed. The Ascendant confirms their final Warrant choice at the same deadline. Earlier proposals and informal promises do not replace the final decision."
       ],
       [
         "NORMAL_TEXT",
@@ -296,7 +308,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Both teammates must sign the same final asset assignments. If a signature is missing or their signed choices disagree, the faction uses its defaults:"
+        "Both teammates must agree the final asset assignments. If either player has not confirmed them by the faction bell, or they disagree, the faction uses its defaults:"
       ],
       [
         "BULLET",
@@ -308,7 +320,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "A missing or multiple selection for an individual asset uses that asset's default. Lost or disabled assets are Absent. A Standing Commitment overrides a conflicting selection or default; refusing to sign does not release it."
+        "A missing or multiple selection for an individual asset uses that asset's default. Lost or disabled assets are Absent. A Standing Commitment overrides a conflicting selection or default; withdrawing agreement later does not release it."
       ],
       [
         "HEADING_1",
@@ -328,7 +340,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "The Ascendant sees the drafts, chooses not to buy a vision and keeps Grey Petrel in reserve. Both factions sign their assignments. At the council bell, the Ascendant authorises Relief and Guard, with no Warrant."
+        "The Ascendant sees the drafts, chooses not to buy a vision and keeps Grey Petrel in reserve. Both factions confirm and record their assignments. At the council bell, the Ascendant authorises Relief and Guard, with no Warrant."
       ],
       [
         "HEADING_2",
@@ -496,7 +508,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "An independent Raid needs both faction signatures but no other party's permission. It cannot also supply a council operation. A disabled Spear cannot act again."
+        "An independent Raid needs agreement from both faction members but no other party's permission. It cannot also supply a council operation. A disabled Spear cannot act again."
       ],
       [
         "HEADING_2",
@@ -656,7 +668,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Example: the Ascendant signs Military, but the Guild assigned Wayfarer to Trade. Military becomes Hold and costs Stability 1. The private Trade voyage is still checked normally."
+        "Example: the Ascendant chooses Military, but the Guild assigned Wayfarer to Trade. Military becomes Hold and costs Stability 1. The private Trade voyage is still checked normally."
       ],
       [
         "HEADING_1",
@@ -772,7 +784,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "During faction discussion, once the intended assignments and council orders are visible, read the current Navigation and Security covers. Each states which decisions its concealed answer concerns. You choose when to request one answer before the faction bell, leaving time to discuss it and revise assignments. Pay one token before opening an answer. You may instead choose NONE, which costs nothing."
+        "During faction discussion, once the intended assignments and possible council decisions have been discussed, read the current Navigation and Security covers. Each states which decisions its concealed answer concerns. You choose when to request one answer before the faction bell, leaving time to discuss it and revise assignments. Pay one token before opening an answer. You may instead choose NONE, which costs nothing."
       ],
       [
         "NORMAL_TEXT",
@@ -788,7 +800,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Discussion can begin at the start of the faction phase and continues while you consider or use foresight. Until the faction bell, negotiate changes to unlocked assignments and council requests. Existing Standing Commitments remain binding. Avoiding a vision's condition averts its result; it does not make the vision false."
+        "Discussion can begin at the start of the faction phase and continues while you consider or use foresight. Until the faction bell, negotiate changes to unlocked assignments and your approach to the councils. Existing Standing Commitments remain binding. Avoiding a vision's condition averts its result; it does not make the vision false."
       ],
       [
         "NORMAL_TEXT",
@@ -820,7 +832,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Under Interim or Imperial command, a Warrant without sufficient Readiness or offered Vigil fails and costs Stability 1. Under Military autonomy or Joint authorisation, it is advice only, with no effect or penalty. A missing or unsigned Warrant means No."
+        "Under Interim or Imperial command, a Warrant without sufficient Readiness or offered Vigil fails and costs Stability 1. Under Military autonomy or Joint authorisation, it is advice only, with no effect or penalty. A missing or unconfirmed Warrant means No."
       ],
       [
         "NORMAL_TEXT",
@@ -920,11 +932,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "Navigation needs the Guild Navigation delegate, Janissariat Navigation delegate and Ascendant to sign the same exact proposal. Military needs the Guild Security delegate, Janissariat Security delegate and Ascendant."
+        "Navigation needs the Guild Navigation delegate, Janissariat Navigation delegate and Ascendant to agree the same exact proposal. Military needs the Guild Security delegate, Janissariat Security delegate and Ascendant. State agreement aloud to the facilitator; no signatures are needed."
       ],
       [
         "NORMAL_TEXT",
-        "The two articles are decided independently. One may pass while the other stays Interim. Signing an article does not by itself bind an asset promise made by your teammate."
+        "The two articles are decided independently. One may pass while the other stays Interim. Agreeing an article does not by itself bind an asset promise made by your teammate."
       ],
       [
         "HEADING_2",
@@ -952,7 +964,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Record the owner, asset, assignment and article before collecting signatures. If an attached commitment lacks both owner approvals, that article fails as written. To remove or change the promise, agree revised terms and collect the necessary approvals again."
+        "Record the owner, asset, assignment and article, then ask both teammates to confirm the commitment aloud. If either owner does not agree, that article fails as proposed. To remove or change the promise, agree revised terms and obtain the necessary agreement again."
       ],
       [
         "NORMAL_TEXT",
@@ -972,7 +984,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "An unsigned, ambiguous or unauthorised Navigation order becomes Hold. The equivalent Security order becomes Restraint. Under a joint article, conflicting choices count as disagreement."
+        "An unconfirmed, ambiguous or unauthorised Navigation order becomes Hold. The equivalent Security order becomes Restraint. Under a joint article, conflicting choices count as disagreement."
       ],
       [
         "NORMAL_TEXT",
@@ -1012,7 +1024,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Each player votes Yes or No on the whole package. Both Guild players must approve for the Guild to sign; both Janissariat players must approve for the army to sign. The Ascendant signs individually. Missing approval or disagreement means that faction gives no supporting signature."
+        "On the final settlement sheet, tick one box beside each player's role: Assent or Do not assent. Both Guild players must assent for the Guild's weight to count; both Janissariat players must assent for the army's weight to count. The Ascendant assents individually. An unticked row or disagreement within a faction gives that party no supporting weight. No handwritten signatures are needed."
       ],
       [
         "NORMAL_TEXT",
@@ -1052,7 +1064,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Imperial authority permits orders, not confiscation. Use the owner's signed assignment or its default. An activated Standing Commitment can require service, but an article's duty alone cannot physically supply an asset."
+        "Imperial authority permits orders, not confiscation. Use the owner's agreed assignment or its default. An activated Standing Commitment can require service, but an article's duty alone cannot physically supply an asset."
       ],
       [
         "HEADING_2",
@@ -1104,7 +1116,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "The facilitator checks the current articles, signed sheets and printed consequences, including concealed conditions. They cannot invent resources, a new prophecy, additional Charter options or rewards for cooperation."
+        "The facilitator checks the current articles, recorded decisions and printed consequences, including concealed conditions. They cannot invent resources, a new prophecy, additional Charter options or rewards for cooperation."
       ],
       [
         "HEADING_1",
@@ -1124,7 +1136,7 @@
       ],
       [
         "BULLET",
-        "Faction discussion has one deadline. Discuss from the start, display intentions before the foresight choice, and submit final signed assignments and the reserve task at the faction bell. Players budget their own time."
+        "Faction discussion has one deadline. Discuss from the start, share intentions before the foresight choice, and record final agreed assignments and the reserve task at the faction bell. Players budget their own time."
       ],
       [
         "BULLET",
@@ -1245,7 +1257,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Run the two-month crisis and make the consequences legible. Players decide what to offer, which orders to issue, and what government they will accept. Apply the printed outcomes. Do not invent a prophecy, a resource, a signature, an extra veto or a reward for cooperation."
+        "Run the two-month crisis and make the consequences legible. Players decide what to offer, which orders to issue, and what government they will accept. Apply the printed outcomes. Do not invent a prophecy, a resource, another player's agreement, an extra veto or a reward for cooperation."
       ],
       [
         "NORMAL_TEXT",
@@ -1285,11 +1297,11 @@
       ],
       [
         "BULLET",
-        "Two Ascendant worksheets, one provisional-government proposal and signature sheet, two final-package ballot sheets, and a public record for results and contracts."
+        "Two Ascendant worksheets, one provisional-government proposal and outcome record, two final-package ballot sheets, and a public record for results and contracts."
       ],
       [
         "NORMAL_TEXT",
-        "Blank paper can replace a decision sheet if it records the same choices and signatures. Use the current vision and settlement rules with any older printed components."
+        "Blank paper can replace a decision sheet if it records the same choices and outcomes. Use the current vision and settlement rules with any older printed components."
       ],
       [
         "HEADING_2",
@@ -1297,7 +1309,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Place Navigation and Supply at one end and Security and Government at the other. Keep the tracks, current articles and signed decisions in a central space where everyone can read them. Factions need room to confer between council meetings."
+        "Place Navigation and Supply at one end and Security and Government at the other. Keep the tracks, current articles and recorded decisions in a central space where everyone can read them. Factions need room to confer between council meetings."
       ],
       [
         "NORMAL_TEXT",
@@ -1325,11 +1337,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "The faction sheet records the round, an assignment for each asset, a request for each council and both teammates' signatures. Requests tell the delegates what to seek; the council still chooses its order."
+        "The faction sheet records the round and one agreed assignment for each asset. Both teammates confirm their choices aloud; no signatures are needed. Representatives take their faction's approach to the councils themselves, without written instructions or requests."
       ],
       [
         "NORMAL_TEXT",
-        "The council sheet records the round, current article, one final order and the initials required by that article. The Ascendant records the Warrant separately, along with draft directives, the foresight choice and Grey Petrel's task."
+        "The council sheet records the round, current article and final order. Check spoken agreement from whoever holds authority under that article; do not collect initials. The Ascendant confirms their decisions in person. Record their foresight choice, reserve task and final Warrant on their worksheet."
       ],
       [
         "NORMAL_TEXT",
@@ -1353,23 +1365,23 @@
       ],
       [
         "NORMAL_TEXT",
-        "0–8: briefing. 8–13: round-one faction discussion. 13–18: councils and resolution. 18–23: discuss the result and sign provisional articles. 23–28: round-two faction discussion. 28–33: councils and resolution. 33–38: free discussion. 38–48: Ceremony. Use the remaining twelve minutes for the debrief. These five-minute discussion phases follow the current player rulebook."
+        "0–8: briefing. 8–13: round-one faction discussion. 13–18: councils and resolution. 18–23: discuss the result and agree provisional articles. 23–28: round-two faction discussion. 28–33: councils and resolution. 33–38: free discussion. 38–48: Ceremony. Use the remaining twelve minutes for the debrief. These five-minute discussion phases follow the current player rulebook."
       ],
       [
         "NORMAL_TEXT",
-        "The faction phase has one five-minute deadline. Players may discuss their approach with teammates, the Ascendant and the other faction from the start, and budget that time themselves. Do not call minute-two or minute-three gates. Before the foresight choice, make intended assignments and council orders visible without private reasoning unless the player elects to share it. If there is no agreement, show both positions or UNDECLARED. A draft never authorises asset use."
+        "The faction phase has one five-minute deadline. Players may discuss their approach with teammates, the Ascendant and the other faction from the start, and budget that time themselves. Do not call minute-two or minute-three gates. Before the foresight choice, ask players to explain intended assignments and possible council decisions aloud without private reasoning unless the player elects to share it. If there is no agreement, hear both positions or record no declared intention. An intention never authorises asset use."
       ],
       [
         "NORMAL_TEXT",
-        "The Ascendant chooses when to request one answer after intentions are visible and before the faction bell, or may choose NONE. Pay before dealing the exact answer; publish expenditure and remaining foresight, not the chosen domain. A choice completes that round's opportunity: no swaps or second purchase. Record NONE if no single valid choice arrives before the bell. Discussion continues during the choice and after disclosure; remind players to leave time for final signatures."
+        "The Ascendant chooses when to request one answer after intentions are visible and before the faction bell, or may choose NONE. Pay before dealing the exact answer; publish expenditure and remaining foresight, not the chosen domain. A choice completes that round's opportunity: no swaps or second purchase. Record NONE if no single valid choice arrives before the bell. Discussion continues during the choice and after disclosure; remind players to leave time for final decisions."
       ],
       [
         "NORMAL_TEXT",
-        "At the faction bell check both owner signatures on the same pair, then apply defaults to unpledged cards and override with any activated Standing Commitment. Mark unavailable cards Absent. Lodge one reserve task. At the council bell check current authority, final order and Warrant. Use final sheets, not intentions. Display drafts and final sheets beside one another for the debrief."
+        "At the faction bell, ask both faction members to confirm the same assignments. Record one final faction sheet. If either has not confirmed or they disagree, apply the faction defaults; an activated Standing Commitment still overrides them. Mark unavailable assets Absent and record one reserve task. At the council bell, check the current authority and ask the required decision-makers to confirm the final order; also confirm the Warrant. Resolve the recorded decisions. No signatures or initials are needed."
       ],
       [
         "NORMAL_TEXT",
-        "In the browser, publishing intentions, recording the foresight choice and collecting final signatures are successive recording steps within the same faction phase. Advance the first two when players are ready, without restarting the clock or stopping discussion. Only closing final commitments ends faction discussion."
+        "In the browser, sharing intentions, recording the foresight choice and collecting final decisions are successive recording steps within the same faction phase. Advance the first two when players are ready, without restarting the clock or stopping discussion. Only closing final commitments ends faction discussion."
       ],
       [
         "HEADING_1",
@@ -1377,7 +1389,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "1. Establish assignments, unavailable assets, current articles and lawful signed council orders. Invalid Navigation becomes Hold; invalid Security becomes Restraint. No penalty for invalidity alone."
+        "1. Establish assignments, unavailable assets, current articles and lawfully agreed council orders. Invalid Navigation becomes Hold; invalid Security becomes Restraint. No penalty for invalidity alone."
       ],
       [
         "NORMAL_TEXT",
@@ -1525,7 +1537,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "The round-one trial needs GN+JN+A for Navigation and GS+JS+A for Military. Check one exact article and its attached terms, independent of the other domain. Up to one pledge per faction, signed by both owners. Do not quietly detach an unsigned promise to pass its article. No pledge is compulsory. A passed pledge binds only that asset assignment in round two; an unsealed public plan has no mechanical penalty."
+        "The round-one trial needs spoken agreement from GN+JN+A for Navigation and GS+JS+A for Military. Read back each exact article and its attached terms, independently of the other domain, and record whether it passes. Up to one asset commitment per faction may be attached, with both owners' spoken agreement. Do not quietly detach an unapproved promise to pass its article. No pledge is compulsory. A passed pledge binds only that asset assignment in round two; an informal public plan has no mechanical penalty."
       ],
       [
         "NORMAL_TEXT",
@@ -1533,7 +1545,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Show a first exact package and record five fresh votes. If it fails, permit a replacement within the deadline and collect fresh votes. Stop on success. If neither passes, both provisional domains expire to Interim; no physical state changes. Record dissent even where the weighted package passes. Passing the arithmetic does not establish political consensus."
+        "Show the exact final package with five rows, one for each player, and two boxes per row: Assent and Do not assent. Each player ticks one box. A blank row or both boxes ticked gives no assent. If the package fails, permit a replacement within the deadline and use fresh boxes for all five players. Stop on success. If neither of the two permitted packages passes, both provisional articles expire to Interim; no physical state changes. Record dissent even where the weighted package passes. Passing the arithmetic does not establish political consensus."
       ],
       [
         "HEADING_1",
@@ -1541,11 +1553,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "Cooperation: assets remain scarce, a peaceful month reduces army and Ascendant leverage, and a public ship assignment forgoes a contract. Withheld resources: a directive cannot requisition them automatically. Conflicting orders: check authorised initials before funding. Averted prophecy: a guarded first-round Shared passage or triggered Tender cover prevents the printed crew loss. Failed ratification: expire articles without healing anything."
+        "Cooperation: assets remain scarce, a peaceful month reduces army and Ascendant leverage, and a public ship assignment forgoes a contract. Withheld resources: a directive cannot requisition them automatically. Conflicting orders: check the required decision-makers' agreement before funding. Averted prophecy: a guarded first-round Shared passage or triggered Tender cover prevents the printed crew loss. Failed ratification: expire articles without healing anything."
       ],
       [
         "NORMAL_TEXT",
-        "Ask for starting and ending constitutional preferences and the event that changed them. Ask each player which teammate contribution mattered. For foresight, distinguish assignment changes, council-request changes, final order changes, bargaining conditions and confidence. A remaining third token is unavoidable if there were two purchases; do not code it as deliberate saving."
+        "Ask for starting and ending constitutional preferences and the event that changed them. Ask each player which teammate contribution mattered. For foresight, distinguish assignment changes, changes in the approach to councils, final order changes, bargaining conditions and confidence. A remaining third token is unavoidable if there were two purchases; do not code it as deliberate saving."
       ],
       [
         "NORMAL_TEXT",
@@ -1921,7 +1933,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Agree asset assignments and negotiating priorities together before separating. Both players must sign your faction’s decisions."
+        "Agree asset assignments and negotiating priorities together before separating. Both players must agree your faction’s asset assignments; confirm them aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions."
       ],
       [
         "NORMAL_TEXT",
@@ -1965,7 +1977,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Agree asset assignments and negotiating priorities together before separating. Both players must sign your faction’s decisions."
+        "Agree asset assignments and negotiating priorities together before separating. Both players must agree your faction’s asset assignments; confirm them aloud and record them without signatures. Take your approach to the councils yourselves, without written instructions."
       ],
       [
         "NORMAL_TEXT",
@@ -2005,7 +2017,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "One player · A on decision sheets. Attend Security and Government; send Navigation and Supply a written directive when you hold its authority."
+        "One player · A on decision sheets. Attend Security and Government; tell Navigation and Supply your decision in person when you hold its authority. A council member records the final order; no signature is needed."
       ],
       [
         "NORMAL_TEXT",

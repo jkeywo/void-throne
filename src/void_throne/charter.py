@@ -32,11 +32,11 @@ def evaluate(proposal,votes,state,threshold='unanimous'):
    if asset in AVAILABLE and not state.get(AVAILABLE[asset],False):issues[d].append('Asset unavailable')
    if sum(p.get('owner')==owner for p in pledges)>1:issues[d].append('More than one commitment from this faction')
    if not all(validvotes.get(r,{}).get('commitment_approvals',{}).get(owner) is True for r in SIGNERS.get(owner,())) or owner not in SIGNERS:
-    issues[d].append('Both owner signatures required')
+    issues[d].append('Both owners must agree')
   if not issues[d]:
    result[d]=articles[d]
    for pledge in pledges:
-    if code(pledge.get('article',''))==articles[d]:active.append(dict(pledge,owner_signatures=list(SIGNERS[pledge['owner']])))
+    if code(pledge.get('article',''))==articles[d]:active.append(dict(pledge,owner_agreement=list(SIGNERS[pledge['owner']])))
  return {'articles_after':result,'activated_commitments':active,'issues':issues}
 
 def apply_locks(assignments,pledges):

@@ -23,7 +23,7 @@ def choice(value,allowed):
     return value
 
 def boolean(value):
-    if type(value) is not bool:raise ValueError('A signature must be an explicit yes or no.')
+    if type(value) is not bool:raise ValueError('An approval must be an explicit yes or no.')
     return value
 
 def notes(payload):
@@ -58,8 +58,8 @@ class Session:
             for role in ROLES:
                 row=proposals[role]
                 for asset,options in ASSETS.get(role,{}).items():choice(row.get(asset),options)
-                choice(row.get('navigation'),NAV+['Undeclared']);choice(row.get('security'),SEC+['Undeclared'])
-                if role=='A':boolean(row.get('warrant'))
+                choice(row.get('navigation','Undeclared'),NAV+['Undeclared']);choice(row.get('security','Undeclared'),SEC+['Undeclared'])
+                if role=='A':boolean(row.get('warrant',False))
             self.drafts=deepcopy(proposals);self.record('Public draft sheets',sheets=proposals,notes=ns,standing_commitments=self.pledges)
             self.stage='vision'
         elif self.stage=='vision':
@@ -75,7 +75,7 @@ class Session:
                         private_answer=self.vision,leverage=leverage(self.state,self.foresight))
             self.stage='commit'
         elif self.stage=='commit':
-            rows=p.get('assignments',{});sign=p.get('signatures',{})
+            rows=p.get('assignments',{});sign=p.get('signatures') # Legacy transcripts retain their original signature gate.
             self.disclosed=boolean(p.get('disclose',False));result={};issues=[]
             for owner,roles in [('Guild',('GN','GS')),('Janissariat',('JN','JS'))]:
                 submitted=[]
@@ -84,16 +84,17 @@ class Session:
                     if not isinstance(row,dict):raise ValueError('Asset assignments must be a sheet.')
                     # Missing or multiple asset entries use printed asset defaults.
                     submitted.append({a:row.get(a) if row.get(a) in opts else DEFAULTS[owner][a] for a,opts in ASSETS[role].items()})
-                    boolean(sign.get(role,False))
-                if submitted[0]==submitted[1] and all(sign.get(role) is True for role in roles):result[owner]=submitted[0]
-                else:result[owner]=deepcopy(DEFAULTS[owner]);issues.append(owner+': no matching signed pair; printed defaults apply.')
+                    if sign is not None:boolean(sign.get(role,False))
+                confirmed=all(sign.get(role) is True for role in roles) if sign is not None else all(role in rows for role in roles)
+                if submitted[0]==submitted[1] and confirmed:result[owner]=submitted[0]
+                else:result[owner]=deepcopy(DEFAULTS[owner]);issues.append(owner+': no matching confirmed assignments; printed defaults apply.')
             result=apply_locks(result,self.pledges)
             for owner,row in result.items():
                 for asset in row:
                     if asset!='vigil' and not self.state[asset]:row[asset]='Absent'
             self.assignments=result;self.reserve=choice(p.get('reserve','Keep'),['Keep','Relief lift','Tender cover'])
             if not self.state['reserve']:self.reserve='Keep'
-            self.record('Final faction sheets',submitted=rows,signatures=sign,sheets=result,reserve=self.reserve,
+            self.record('Final faction sheets',submitted=rows,sheets=result,reserve=self.reserve,
                         disclosed=self.disclosed,notes=ns,defaults=issues,standing_commitments=self.pledges)
             self.stage='council'
         elif self.stage=='council':
@@ -104,8 +105,8 @@ class Session:
                 allowed=('GN','JN','A') if key=='navigation' else ('GS','JS','A')
                 rows=p.get(key,{})
                 if not isinstance(rows,dict) or any(r not in allowed for r in rows):raise ValueError('Unknown council representative.')
-                for val in rows.values():choice(val,options+['Unsigned'])
-                required=auth[domain][self.articles[domain]];votes=[rows.get(r,'Unsigned') for r in required]
+                for val in rows.values():choice(val,options+['No agreement','Unsigned'])
+                required=auth[domain][self.articles[domain]];votes=[rows.get(r,'No agreement') for r in required]
                 valid[key]=len(set(votes))==1 and votes[0] in options
                 decisions[key]=votes[0] if valid[key] else default;authorities[key]=list(required)
             warrant=boolean(p.get('warrant',False));before=deepcopy(self.state)
@@ -115,7 +116,7 @@ class Session:
                         warrant=warrant,intervention=self.reserve,nav_signed=valid['navigation'],sec_signed=valid['security'])
             result,detail=resolve(State(**self.state),**inputs);self.state=asdict(result)
             self.record('Council order sheets',navigation=p.get('navigation',{}),security=p.get('security',{}),
-                        effective=decisions,required_signatures=authorities,valid=valid,warrant=warrant,notes=ns)
+                        effective=decisions,required_agreement=authorities,valid=valid,warrant=warrant,notes=ns)
             self.record('Operational resolution',before=before,after=self.state,inputs=inputs,detail=detail,
                         effects=effect_ledger(before,self.state,inputs,detail),leverage=leverage(self.state,self.foresight))
             self.pledges=[] # Each active assignment has now completed its one round.
@@ -147,7 +148,7 @@ class Session:
                              'commitment_approvals':{owner:boolean(row.get(owner,False)) for owner in DEFAULTS}}
             gate=evaluate(self.trial,votes,self.state)
             self.articles=gate['articles_after'];self.pledges=gate['activated_commitments']
-            self.record('Provisional signatures and result',votes=votes,result=gate,notes=ns)
+            self.record('Provisional agreement and result',votes=votes,result=gate,notes=ns)
             self.round=2;self.stage='draft';self.vision=None;self.disclosed=False
         elif self.stage=='free':
             self.record('Final free discussion',notes=ns);self.stage='ceremony-proposal'
