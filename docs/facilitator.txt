@@ -30,7 +30,7 @@ Arrange the table
 
 Place Navigation and Supply at one end and Security and Government at the other. Keep the tracks, current articles and signed decisions in a central space where everyone can read them. Factions need room to confer between council meetings.
 
-Seat GN and JN at Navigation and Supply; GS, JS and A at Security and Government. Give both members of each faction their shared brief. Keep the four private vision answers behind your screen; put both current-round covers face up only at the purchase window.
+Seat GN and JN at Navigation and Supply; GS, JS and A at Security and Government. Give both members of each faction their shared brief. Keep the four private vision answers behind your screen; put both current-round covers face up at the start of faction discussion.
 
 Starting position
 
@@ -56,11 +56,15 @@ The crisis concerns Sorenne's Fall, the southern star system of forty million pe
 
 Run the clock
 
-0–8: briefing. 8–13: round-one factions, including drafts at faction minute 2, optional purchase by minute 3, final commitments at minute 5. 13–20: councils. Resolve at the bell. 20–26: discuss the result and sign provisional articles. 26–31: round-two factions, same internal sequence. 31–38: councils and resolution. 38–44: free discussion. 44–54: Ceremony. 54–60: debrief.
+0–8: briefing. 8–13: round-one faction discussion. 13–18: councils and resolution. 18–23: discuss the result and sign provisional articles. 23–28: round-two faction discussion. 28–33: councils and resolution. 33–38: free discussion. 38–48: Ceremony. Use the remaining twelve minutes for the debrief. These five-minute discussion phases follow the current player rulebook.
 
-Before purchase, display drafts without private reasoning unless the player elects to share it. If there is no agreement, show the two positions or UNDECLARED. A draft never authorises asset use. Pay before dealing one exact answer; publish expenditure and remaining foresight, not the chosen domain. Record NONE if late or absent. Allow disclosure and revision before commitment.
+The faction phase has one five-minute deadline. Players may discuss their approach with teammates, the Ascendant and the other faction from the start, and budget that time themselves. Do not call minute-two or minute-three gates. Before the foresight choice, make intended assignments and council orders visible without private reasoning unless the player elects to share it. If there is no agreement, show both positions or UNDECLARED. A draft never authorises asset use.
+
+The Ascendant chooses when to request one answer after intentions are visible and before the faction bell, or may choose NONE. Pay before dealing the exact answer; publish expenditure and remaining foresight, not the chosen domain. A choice completes that round's opportunity: no swaps or second purchase. Record NONE if no single valid choice arrives before the bell. Discussion continues during the choice and after disclosure; remind players to leave time for final signatures.
 
 At the faction bell check both owner signatures on the same pair, then apply defaults to unpledged cards and override with any activated Standing Commitment. Mark unavailable cards Absent. Lodge one reserve task. At the council bell check current authority, final order and Warrant. Use final sheets, not intentions. Display drafts and final sheets beside one another for the debrief.
+
+In the browser, publishing intentions, recording the foresight choice and collecting final signatures are successive recording steps within the same faction phase. Advance the first two when players are ready, without restarting the clock or stopping discussion. Only closing final commitments ends faction discussion.
 
 Resolve in this order
 

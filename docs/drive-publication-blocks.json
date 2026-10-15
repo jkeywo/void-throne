@@ -212,11 +212,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "Play two rounds, each representing a month. A round has five minutes of faction discussion, seven minutes of councils and six minutes of free discussion. Both councils resolve together at the end of their phase."
+        "The game consists of two rounds, each representing a month. A round has five minutes of faction discussion, five minutes of councils and five minutes of free discussion. Both councils resolve together at the end of their phase."
       ],
       [
         "NORMAL_TEXT",
-        "After the second round, hold a ten-minute Ceremony of Settlement and a six-minute debrief. With the briefing, the session takes one hour."
+        "After the second round, there will be a ten-minute Ceremony of Settlement to resolve the new government."
       ],
       [
         "HEADING_2",
@@ -224,15 +224,19 @@
       ],
       [
         "NORMAL_TEXT",
-        "The faction sheet records the round, an assignment for each asset, a request for each council and both teammates' signatures. Requests tell your delegates what to seek; the council still chooses its order."
+        "Your decision sheets tell the facilitator what you have agreed to do. An asset is a named ship or military unit controlled by your faction. An assignment is the job you give it for this round. During faction discussion, write one assignment for each asset on your faction sheet and have both teammates sign it. You can also record what you want each council to do; these requests guide your representatives but do not bind the council. The assets and their possible assignments are explained in section 6."
       ],
       [
         "NORMAL_TEXT",
-        "The council sheet records the round, current article, one final order and the initials required by that article. The Ascendant records the Warrant separately, along with draft directives, the foresight choice and Grey Petrel's task."
+        "During council discussion, record the council's chosen action, called its order, on the council sheet. Orders are explained in sections 7 and 8. Each council has an article: a rule saying who has authority to approve its order. Copy the current article onto the sheet and obtain the initials it requires. At the start, the Ascendant approves both councils' orders. Section 10 explains how you can change that arrangement."
       ],
       [
         "NORMAL_TEXT",
-        "The public record shows the three tracks, available assets, completed contracts, remaining tokens, current articles and any binding commitments."
+        "The Ascendant has a separate worksheet for their own decisions: what they want the councils to do, whether to spend a token to see a possible future, and how to use the imperial reserve ship. Section 9 explains these powers and their costs."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The facilitator keeps a public record of results, available assets and the current rules for who makes decisions. You can consult it throughout play. Draft sheets are proposals; the signed sheets submitted at the end of each phase are the decisions the facilitator resolves."
       ],
       [
         "HEADING_2",
@@ -240,23 +244,23 @@
       ],
       [
         "NORMAL_TEXT",
-        "Use the first two minutes to agree your proposed asset assignments and what you want the councils to do. The Ascendant prepares draft directives and a Warrant choice. At minute 2, display the drafts. If teammates disagree, show both positions; a draft does not bind anyone."
+        "You have five minutes to decide your faction's approach and complete its sheet. Start discussing as soon as the phase begins. Use the time as you see fit: confer with your teammate, talk to the Ascendant or the other faction, consider possible council orders and revise your offer. There are no timed steps within this phase."
       ],
       [
         "NORMAL_TEXT",
-        "During minute 2–3, the Ascendant reads the two current vision covers and chooses one answer or NONE. An answer costs one foresight token, paid before it is opened. The purchase window closes at minute 3."
+        "Make your intended assignments and council requests visible before the Ascendant chooses whether to use foresight. The Ascendant also states their intended council orders. These are drafts, not commitments; if teammates disagree, show both positions. Once those intentions are visible, the Ascendant may buy one vision during the remaining faction time, or choose NONE. The covers explain what each vision concerns; an answer costs one foresight token, paid before it is opened (section 9). Discussion continues throughout."
       ],
       [
         "NORMAL_TEXT",
-        "Use the last two minutes to discuss any information the Ascendant shares and revise your decisions. At minute 5, both faction members sign the same final assignments. The Ascendant lodges Grey Petrel's task: Relief lift, Tender cover or Keep."
+        "You may change your proposed assignments after further discussion or information from the Ascendant. At the end of the five minutes, both faction members sign the same final assignments. The Ascendant records how they will use Grey Petrel, the imperial reserve ship, or keeps it in reserve. Its tasks are explained in section 9. Allow time to finish these decisions before the bell."
       ],
       [
         "NORMAL_TEXT",
-        "Assignments and the reserve task now lock for the round. A Standing Commitment from round one is already binding: mark it LOCKED on the draft and final sheets."
+        "Assignments and the reserve task lock at the faction bell. In round two, an asset may already be bound by a Standing Commitment: a promise signed in round one to give that asset a specified assignment in round two (section 10). Mark that assignment LOCKED on both draft and final sheets."
       ],
       [
         "HEADING_2",
-        "Councils — seven minutes"
+        "Council discussion — five minutes"
       ],
       [
         "NORMAL_TEXT",
@@ -276,7 +280,7 @@
       ],
       [
         "HEADING_2",
-        "Free discussion — six minutes"
+        "Free discussion — five minutes"
       ],
       [
         "NORMAL_TEXT",
@@ -324,7 +328,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "The Ascendant sees the drafts, chooses NONE at the foresight window and keeps Grey Petrel in reserve. Both factions sign their assignments. At the council bell, the Ascendant authorises Relief and Guard, with no Warrant."
+        "The Ascendant sees the drafts, chooses not to buy a vision and keeps Grey Petrel in reserve. Both factions sign their assignments. At the council bell, the Ascendant authorises Relief and Guard, with no Warrant."
       ],
       [
         "HEADING_2",
@@ -768,11 +772,11 @@
       ],
       [
         "NORMAL_TEXT",
-        "During faction minutes 2–3, after the drafts are displayed, read the current Navigation and Security covers. Each states which decisions its concealed answer concerns. Choose one answer or NONE. Pay one token before opening an answer; NONE costs nothing."
+        "During faction discussion, once the intended assignments and council orders are visible, read the current Navigation and Security covers. Each states which decisions its concealed answer concerns. You choose when to request one answer before the faction bell, leaving time to discuss it and revise assignments. Pay one token before opening an answer. You may instead choose NONE, which costs nothing."
       ],
       [
         "NORMAL_TEXT",
-        "There is at most one purchase per round. Missing, multiple or late choices mean NONE. Tokens do not recover, and there are no swaps, refunds or later purchases that month."
+        "There is at most one purchase per round. A choice must reach the facilitator before the faction bell; a missing, multiple or late choice means NONE. Choosing NONE also completes your choice for the round. Tokens do not recover, and there are no swaps, refunds or further purchases that month."
       ],
       [
         "NORMAL_TEXT",
@@ -784,7 +788,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Use the last two faction minutes to negotiate changes to unlocked decisions. Existing Standing Commitments remain binding. Avoiding a vision's condition averts its result; it does not make the vision false."
+        "Discussion can begin at the start of the faction phase and continues while you consider or use foresight. Until the faction bell, negotiate changes to unlocked assignments and council requests. Existing Standing Commitments remain binding. Avoiding a vision's condition averts its result; it does not make the vision false."
       ],
       [
         "NORMAL_TEXT",
@@ -792,7 +796,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "There are three tokens but only two purchase windows. At least one will remain. Keeping more requires choosing NONE in at least one round."
+        "There are three tokens and at most one purchase in each of the two rounds. At least one token will remain. Keeping more requires choosing NONE in at least one round."
       ],
       [
         "HEADING_2",
@@ -1064,7 +1068,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "No. Asset assignments lock at the faction bell. Councils decide what to do with the assets offered. The foresight window occurs before that deadline so players still have a chance to revise unlocked assignments."
+        "No. Asset assignments lock at the faction bell. Councils decide what to do with the assets offered. Foresight is used during faction discussion, before that deadline, so players can still revise unlocked assignments."
       ],
       [
         "HEADING_2",
@@ -1116,11 +1120,11 @@
       ],
       [
         "BULLET",
-        "Each round: factions 5 minutes; councils 7; free discussion 6."
+        "Each round: factions 5 minutes; councils 5; free discussion 5."
       ],
       [
         "BULLET",
-        "Faction minute 2: display drafts. Minute 3: foresight closes. Minute 5: assignments and reserve lock."
+        "Faction discussion has one deadline. Discuss from the start, display intentions before the foresight choice, and submit final signed assignments and the reserve task at the faction bell. Players budget their own time."
       ],
       [
         "BULLET",
@@ -1128,7 +1132,7 @@
       ],
       [
         "BULLET",
-        "Ceremony: 10 minutes, up to two ballots. Debrief: 6 minutes."
+        "Ceremony: 10 minutes, up to two ballots. Use the remaining 12 minutes of the hour for the debrief."
       ],
       [
         "HEADING_2",
@@ -1297,7 +1301,7 @@
       ],
       [
         "NORMAL_TEXT",
-        "Seat GN and JN at Navigation and Supply; GS, JS and A at Security and Government. Give both members of each faction their shared brief. Keep the four private vision answers behind your screen; put both current-round covers face up only at the purchase window."
+        "Seat GN and JN at Navigation and Supply; GS, JS and A at Security and Government. Give both members of each faction their shared brief. Keep the four private vision answers behind your screen; put both current-round covers face up at the start of faction discussion."
       ],
       [
         "HEADING_2",
@@ -1349,15 +1353,23 @@
       ],
       [
         "NORMAL_TEXT",
-        "0–8: briefing. 8–13: round-one factions, including drafts at faction minute 2, optional purchase by minute 3, final commitments at minute 5. 13–20: councils. Resolve at the bell. 20–26: discuss the result and sign provisional articles. 26–31: round-two factions, same internal sequence. 31–38: councils and resolution. 38–44: free discussion. 44–54: Ceremony. 54–60: debrief."
+        "0–8: briefing. 8–13: round-one faction discussion. 13–18: councils and resolution. 18–23: discuss the result and sign provisional articles. 23–28: round-two faction discussion. 28–33: councils and resolution. 33–38: free discussion. 38–48: Ceremony. Use the remaining twelve minutes for the debrief. These five-minute discussion phases follow the current player rulebook."
       ],
       [
         "NORMAL_TEXT",
-        "Before purchase, display drafts without private reasoning unless the player elects to share it. If there is no agreement, show the two positions or UNDECLARED. A draft never authorises asset use. Pay before dealing one exact answer; publish expenditure and remaining foresight, not the chosen domain. Record NONE if late or absent. Allow disclosure and revision before commitment."
+        "The faction phase has one five-minute deadline. Players may discuss their approach with teammates, the Ascendant and the other faction from the start, and budget that time themselves. Do not call minute-two or minute-three gates. Before the foresight choice, make intended assignments and council orders visible without private reasoning unless the player elects to share it. If there is no agreement, show both positions or UNDECLARED. A draft never authorises asset use."
+      ],
+      [
+        "NORMAL_TEXT",
+        "The Ascendant chooses when to request one answer after intentions are visible and before the faction bell, or may choose NONE. Pay before dealing the exact answer; publish expenditure and remaining foresight, not the chosen domain. A choice completes that round's opportunity: no swaps or second purchase. Record NONE if no single valid choice arrives before the bell. Discussion continues during the choice and after disclosure; remind players to leave time for final signatures."
       ],
       [
         "NORMAL_TEXT",
         "At the faction bell check both owner signatures on the same pair, then apply defaults to unpledged cards and override with any activated Standing Commitment. Mark unavailable cards Absent. Lodge one reserve task. At the council bell check current authority, final order and Warrant. Use final sheets, not intentions. Display drafts and final sheets beside one another for the debrief."
+      ],
+      [
+        "NORMAL_TEXT",
+        "In the browser, publishing intentions, recording the foresight choice and collecting final signatures are successive recording steps within the same faction phase. Advance the first two when players are ready, without restarting the clock or stopping discussion. Only closing final commitments ends faction discussion."
       ],
       [
         "HEADING_1",
